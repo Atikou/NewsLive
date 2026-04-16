@@ -39,6 +39,7 @@ jobs:
       - name: Build pages content
         env:
           DAY_APP_PUSH_URL: ${{ secrets.DAY_APP_PUSH_URL }}
+          NTFY_PUSH_URL: ${{ secrets.NTFY_PUSH_URL }}
         run: npm run build:pages
 
       - name: Commit updated crawl data

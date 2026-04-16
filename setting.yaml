@@ -18,8 +18,22 @@ push:
   # 部署环境请留空，并使用 GitHub Actions Secret: DAY_APP_PUSH_URL 注入。
   day_app_push_url: ""
 
+  # ntfy 推送地址（完整 URL；例如 https://ntfy.example.com/<topic>）
+  # 本地开发可临时配置。部署环境请留空，并使用 GitHub Actions Secret: NTFY_PUSH_URL 注入。
+  ntfy_push_url: ""
+
   # 同一条内容再次允许推送的间隔（分钟）
   repeat_interval_minutes: 1440
+
+  # 通知历史清理 TTL（分钟）：超过此时间后会从 notified-history.json 中移除记录
+  notify_history_ttl_minutes: 1440
+
+  # 重点推送来源黑名单（填写来源名称；命中来源将不会推送）
+  # 来源名称可在页面里每条新闻的“来源”字段查看
+  source_blacklist: []
+  # source_blacklist:
+  #   - 微博热搜
+  #   - 知乎热榜
 
   # 单次推送最多包含多少条重点内容
   max_items_per_push: 15

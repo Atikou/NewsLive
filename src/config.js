@@ -78,6 +78,15 @@ function toPositiveInt(value, fallback) {
   return Math.floor(parsed);
 }
 
+function toStringArray(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+  return value
+    .map((item) => String(item || "").trim())
+    .filter(Boolean);
+}
+
 async function readYamlFile(filePath, fallback = {}) {
   try {
     const content = await readFile(filePath, "utf-8");
@@ -98,6 +107,7 @@ export async function loadSettings() {
   const raw = await readYamlFile(SETTINGS_FILE, {});
   const pushConfig = raw.push && typeof raw.push === "object" ? raw.push : {};
   const uiConfig = raw.ui && typeof raw.ui === "object" ? raw.ui : {};
+  const repeatIntervalMinutes = toPositiveInt(pushConfig.repeat_interval_minutes, 1440);
 
   return {
     fetchIntervalMinutes: toPositiveInt(raw.fetch_interval_minutes, 30),
@@ -107,7 +117,20 @@ export async function loadSettings() {
       enabled: pushConfig.enabled !== false,
       dayAppPushUrl:
         (process.env.DAY_APP_PUSH_URL || pushConfig.day_app_push_url || "").toString().trim(),
-      repeatIntervalMinutes: toPositiveInt(pushConfig.repeat_interval_minutes, 1440),
+      ntfyPushUrl:
+        (process.env.NTFY_PUSH_URL ||
+          pushConfig.ntfy_push_url ||
+          "")
+          .toString()
+          .trim(),
+      repeatIntervalMinutes,
+      // 通知历史清理 TTL（分钟）
+      // 默认与 repeat_interval_minutes 一致，避免过早删除导致重复推送窗口失效。
+      notifyHistoryTtlMinutes: toPositiveInt(
+        pushConfig.notify_history_ttl_minutes,
+        repeatIntervalMinutes
+      ),
+      sourceBlacklist: toStringArray(pushConfig.source_blacklist),
       maxItemsPerPush: toPositiveInt(pushConfig.max_items_per_push, 15)
     },
     ui: {

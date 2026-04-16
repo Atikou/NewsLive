@@ -127,16 +127,19 @@ sources:
 - `request_timeout_seconds`：单请求超时（秒）
 - `push.enabled`：是否启用重点推送
 - `push.day_app_push_url`：day.app 推送地址（完整 URL）
+- `push.ntfy_push_url`：ntfy 推送地址（完整 URL；例如 https://ntfy.example.com/<topic>）
+- `push.notify_history_ttl_minutes`：通知去重历史清理 TTL（分钟；超过此时间会从 `data/notified-history.json` 移除）
+- `push.source_blacklist`：重点推送来源黑名单（命中来源不会推送）
 - `push.repeat_interval_minutes`：同一条重点内容再次允许推送的间隔（分钟）
 - `push.max_items_per_push`：单次推送最大条数
 - `ui.poll_interval_seconds`：前端轮询状态间隔（秒）
 
 ## 推送配置
 
-项目使用 day.app 推送地址。
+项目支持 day.app 与 ntfy 推送地址。
 
-- 本地开发：可在 `setting.yaml` 填 `push.day_app_push_url`
-- GitHub Actions：通过 Secret 注入 `DAY_APP_PUSH_URL`
+- 本地开发：可在 `setting.yaml` 填 `push.day_app_push_url`、`push.ntfy_push_url`
+- GitHub Actions：通过 Secrets 注入 `DAY_APP_PUSH_URL`、`NTFY_PUSH_URL`
 
 支持两种推送 URL 形式：
 
