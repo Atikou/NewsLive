@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewsLive</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --muted: #64748b;
+        --text: #0f172a;
+        --accent: #2563eb;
+        --priority: #b45309;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+      main {
+        width: min(1100px, 94vw);
+        margin: 24px auto 48px;
+      }
+      h1 {
+        margin: 0 0 8px;
+      }
+      .sub {
+        color: var(--muted);
+        margin-bottom: 16px;
+      }
+      .panel {
+        background: var(--card);
+        border: 1px solid #dbeafe;
+        border-radius: 12px;
+        padding: 12px;
+        margin-bottom: 12px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+      button,
+      input {
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        background: #ffffff;
+        color: var(--text);
+        padding: 8px 12px;
+      }
+      button.active {
+        border-color: var(--accent);
+        color: #1d4ed8;
+      }
+      button {
+        cursor: pointer;
+      }
+      #status {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .item {
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 10px 12px;
+        margin-bottom: 8px;
+        background: #ffffff;
+      }
+      .item h3 {
+        margin: 0 0 8px;
+        font-size: 16px;
+      }
+      .item a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+      }
+      .tag {
+        border-radius: 999px;
+        font-size: 12px;
+        padding: 2px 8px;
+        border: 1px solid #cbd5e1;
+        color: #334155;
+      }
+      .tag.priority {
+        border-color: #f59e0b;
+        color: #92400e;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>NewsLive</h1>
+      <div class="sub">每30分钟自动抓取，最短2分钟可手动刷新一次</div>
+
+      <section class="panel">
+        <div class="row" style="justify-content: space-between">
+          <div class="row" id="keywordButtons"></div>
+          <div class="row">
+            <input id="searchInput" placeholder="搜索标题..." />
+            <button id="refreshBtn">立即抓取</button>
+          </div>
+        </div>
+        <div id="status"></div>
+      </section>
+
+      <section class="panel">
+        <div id="list"></div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        data: null,
+        selectedKeyword: "__ALL__",
+        search: "",
+        pollTimer: null
+      };
+
+      const keywordButtons = document.getElementById("keywordButtons");
+      const listEl = document.getElementById("list");
+      const statusEl = document.getElementById("status");
+      const refreshBtn = document.getElementById("refreshBtn");
+      const searchInput = document.getElementById("searchInput");
+
+      function formatDate(value) {
+        if (!value) return "暂无";
+        return new Date(value).toLocaleString("zh-CN", { hour12: false });
+      }
+
+      function buildKeywordButtons() {
+        const data = state.data || { keywords: [] };
+        const allKeywords = ["__ALL__", ...(data.keywords || [])];
+        keywordButtons.innerHTML = "";
+        for (const keyword of allKeywords) {
+          const btn = document.createElement("button");
+          btn.textContent = keyword === "__ALL__" ? "全部关键词" : keyword;
+          btn.className = keyword === state.selectedKeyword ? "active" : "";
+          btn.onclick = () => {
+            state.selectedKeyword = keyword;
+            buildKeywordButtons();
+            renderList();
+          };
+          keywordButtons.appendChild(btn);
+        }
+      }
+
+      function renderStatus() {
+        const data = state.data;
+        if (!data) return;
+        const errors = data.errors && data.errors.length ? ` | 错误: ${data.errors.join("; ")}` : "";
+        statusEl.textContent =
+          `上次抓取: ${formatDate(data.lastFetchAt)} | 下次抓取: ${formatDate(data.nextFetchAt)} | 总条数: ${
+            data.items?.length || 0
+          } | 推送: ${data.pushEnabled ? "开启" : "关闭"}${errors}`;
+      }
+
+      function renderList() {
+        const data = state.data;
+        if (!data) {
+          listEl.innerHTML = "<div class='meta'>加载中...</div>";
+          return;
+        }
+
+        const keyword = state.selectedKeyword;
+        const query = state.search.toLowerCase().trim();
+
+        const filtered = (data.items || []).filter((item) => {
+          const hitKeyword =
+            keyword === "__ALL__" || (item.matchedKeywords || []).some((word) => word === keyword);
+          const hitSearch = !query || item.title.toLowerCase().includes(query);
+          return hitKeyword && hitSearch;
+        });
+
+        if (!filtered.length) {
+          listEl.innerHTML = "<div class='meta'>没有匹配结果</div>";
+          return;
+        }
+
+        listEl.innerHTML = filtered
+          .map(
+            (item) => `
+          <article class="item">
+            <h3><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
+            <div class="meta">来源：${item.source} | 抓取时间：${formatDate(item.fetchedAt)}</div>
+            <div class="tags">
+              ${(item.matchedKeywords || []).map((word) => `<span class="tag">${word}</span>`).join("")}
+              ${(item.matchedPriorityKeywords || [])
+                .map((word) => `<span class="tag priority">重点:${word}</span>`)
+                .join("")}
+            </div>
+          </article>
+        `
+          )
+          .join("");
+      }
+
+      async function loadState() {
+        const response = await fetch("/api/state");
+        state.data = await response.json();
+        buildKeywordButtons();
+        renderStatus();
+        renderList();
+      }
+
+      function schedulePolling() {
+        if (state.pollTimer) {
+          clearTimeout(state.pollTimer);
+        }
+        const waitMs = Math.max(state.data?.uiPollIntervalMs || 15000, 5000);
+        state.pollTimer = setTimeout(async () => {
+          await loadState();
+          schedulePolling();
+        }, waitMs);
+      }
+
+      async function refreshNow() {
+        refreshBtn.disabled = true;
+        try {
+          const response = await fetch("/api/refresh", { method: "POST" });
+          const payload = await response.json();
+          if (!response.ok) {
+            alert(payload.message || "刷新失败");
+          }
+        } catch (error) {
+          alert("刷新失败: " + error.message);
+        } finally {
+          await loadState();
+          refreshBtn.disabled = false;
+        }
+      }
+
+      refreshBtn.addEventListener("click", refreshNow);
+      searchInput.addEventListener("input", (event) => {
+        state.search = event.target.value;
+        renderList();
+      });
+
+      loadState();
+      schedulePolling();
+    </script>
+  </body>
+</html>

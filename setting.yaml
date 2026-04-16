@@ -1,0 +1,29 @@
+# 抓取间隔（分钟）
+fetch_interval_minutes: 30
+
+# 任何抓取（含手动刷新）最短间隔（分钟）
+min_fetch_interval_minutes: 2
+
+# 请求超时（秒）
+request_timeout_seconds: 15
+
+push:
+  # 是否启用重点内容推送
+  enabled: true
+
+  # day.app 推送地址（完整 URL）
+  # 本地开发可临时配置。
+  # 注意：如果仓库会上传到 GitHub，或通过 GitHub Actions 执行，绝对不要在代码中明文写死该地址。
+  # 否则一旦仓库泄露、误提交或日志暴露，可能导致推送地址被他人利用。
+  # 部署环境请留空，并使用 GitHub Actions Secret: DAY_APP_PUSH_URL 注入。
+  day_app_push_url: ""
+
+  # 同一条内容再次允许推送的间隔（分钟）
+  repeat_interval_minutes: 1440
+
+  # 单次推送最多包含多少条重点内容
+  max_items_per_push: 15
+
+ui:
+  # 前端轮询间隔（秒）
+  poll_interval_seconds: 15
