@@ -77,6 +77,11 @@
         margin: 0 0 8px;
         font-size: 16px;
       }
+      .item .title-original {
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 6px;
+      }
       .item a {
         color: var(--accent);
         text-decoration: none;
@@ -184,7 +189,8 @@
         const filtered = (data.items || []).filter((item) => {
           const hitKeyword =
             keyword === "__ALL__" || (item.matchedKeywords || []).some((word) => word === keyword);
-          const hitSearch = !query || item.title.toLowerCase().includes(query);
+          const searchText = `${item.title || ""} ${item.titleZh || ""}`.toLowerCase();
+          const hitSearch = !query || searchText.includes(query);
           return hitKeyword && hitSearch;
         });
 
@@ -197,7 +203,12 @@
           .map(
             (item) => `
           <article class="item">
-            <h3><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
+            <h3><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.titleZh || item.title}</a></h3>
+            ${
+              item.titleZh && item.titleZh !== item.title
+                ? `<div class="title-original">原文: ${item.title}</div>`
+                : ""
+            }
             <div class="meta">来源：${item.source} | 抓取时间：${formatDate(item.fetchedAt)}</div>
             <div class="tags">
               ${(item.matchedKeywords || []).map((word) => `<span class="tag">${word}</span>`).join("")}

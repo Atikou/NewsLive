@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { parse } from "yaml";
@@ -87,6 +88,68 @@ function toStringArray(value) {
     .filter(Boolean);
 }
 
+function toBoolean(value, fallback) {
+  if (typeof value === "boolean") {
+    return value;
+  }
+  if (typeof value === "string") {
+    const lowered = value.trim().toLowerCase();
+    if (["true", "1", "yes", "on"].includes(lowered)) {
+      return true;
+    }
+    if (["false", "0", "no", "off"].includes(lowered)) {
+      return false;
+    }
+  }
+  return fallback;
+}
+
+function toStringMap(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return {};
+  }
+  const entries = Object.entries(value)
+    .map(([k, v]) => [String(k || "").trim(), String(v || "").trim()])
+    .filter(([k, v]) => k && v);
+  return Object.fromEntries(entries);
+}
+
+function parseTimePartToMinutes(rawHour, rawMinute) {
+  const hour = Number(rawHour);
+  const minute = Number(rawMinute);
+  if (!Number.isInteger(hour) || !Number.isInteger(minute)) {
+    return null;
+  }
+  if (hour < 0 || hour > 23 || minute < 0 || minute > 59) {
+    return null;
+  }
+  return hour * 60 + minute;
+}
+
+function parsePauseTimeRanges(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+  const ranges = [];
+  for (const item of value) {
+    const text = String(item || "").trim();
+    if (!text) {
+      continue;
+    }
+    const match = text.match(/^(\d{1,2})-(\d{1,2})\s+to\s+(\d{1,2})-(\d{1,2})$/i);
+    if (!match) {
+      continue;
+    }
+    const startMinutes = parseTimePartToMinutes(match[1], match[2]);
+    const endMinutes = parseTimePartToMinutes(match[3], match[4]);
+    if (startMinutes === null || endMinutes === null || startMinutes === endMinutes) {
+      continue;
+    }
+    ranges.push({ startMinutes, endMinutes, text });
+  }
+  return ranges;
+}
+
 async function readYamlFile(filePath, fallback = {}) {
   try {
     const content = await readFile(filePath, "utf-8");
@@ -107,22 +170,40 @@ export async function loadSettings() {
   const raw = await readYamlFile(SETTINGS_FILE, {});
   const pushConfig = raw.push && typeof raw.push === "object" ? raw.push : {};
   const uiConfig = raw.ui && typeof raw.ui === "object" ? raw.ui : {};
+  const aiTranslationConfig =
+    raw.ai_translation && typeof raw.ai_translation === "object" ? raw.ai_translation : {};
   const repeatIntervalMinutes = toPositiveInt(pushConfig.repeat_interval_minutes, 1440);
+  const pauseTimeRangesRaw = Array.isArray(raw.pause_time_ranges)
+    ? raw.pause_time_ranges
+    : pushConfig.pause_time_ranges;
 
   return {
     fetchIntervalMinutes: toPositiveInt(raw.fetch_interval_minutes, 30),
     minFetchIntervalMinutes: toPositiveInt(raw.min_fetch_interval_minutes, 2),
     requestTimeoutSeconds: toPositiveInt(raw.request_timeout_seconds, 15),
-    push: {
-      enabled: pushConfig.enabled !== false,
-      dayAppPushUrl:
-        (process.env.DAY_APP_PUSH_URL || pushConfig.day_app_push_url || "").toString().trim(),
-      ntfyPushUrl:
-        (process.env.NTFY_PUSH_URL ||
-          pushConfig.ntfy_push_url ||
-          "")
+    pauseTimeRanges: parsePauseTimeRanges(pauseTimeRangesRaw),
+    aiTranslation: {
+      enabled: toBoolean(aiTranslationConfig.enabled, false),
+      apiUrl:
+        (process.env.ANTHROPIC_API_URL || aiTranslationConfig.api_url || "https://api.anthropic.com/v1/messages")
           .toString()
           .trim(),
+      apiKey: (process.env.ANTHROPIC_API_KEY || "").toString().trim(),
+      model:
+        (process.env.ANTHROPIC_MODEL || aiTranslationConfig.model || "claude-3-5-haiku-latest")
+          .toString()
+          .trim(),
+      anthropicVersion: (aiTranslationConfig.anthropic_version || "2023-06-01").toString().trim(),
+      maxItemsPerRun: toPositiveInt(aiTranslationConfig.max_items_per_run, 200),
+      batchSize: toPositiveInt(aiTranslationConfig.batch_size, 8),
+      requestTimeoutSeconds: toPositiveInt(aiTranslationConfig.request_timeout_seconds, 60),
+      onlyNonChinese: toBoolean(aiTranslationConfig.only_non_chinese, true),
+      headers: toStringMap(aiTranslationConfig.headers)
+    },
+    push: {
+      enabled: pushConfig.enabled !== false,
+      dayAppPushUrl: (process.env.DAY_APP_PUSH_URL || "").toString().trim(),
+      ntfyPushUrl: (process.env.NTFY_PUSH_URL || "").toString().trim(),
       repeatIntervalMinutes,
       // 通知历史清理 TTL（分钟）
       // 默认与 repeat_interval_minutes 一致，避免过早删除导致重复推送窗口失效。
@@ -131,7 +212,8 @@ export async function loadSettings() {
         repeatIntervalMinutes
       ),
       sourceBlacklist: toStringArray(pushConfig.source_blacklist),
-      maxItemsPerPush: toPositiveInt(pushConfig.max_items_per_push, 15)
+      maxItemsPerPush: toPositiveInt(pushConfig.max_items_per_push, 15),
+      maxMessageChars: toPositiveInt(pushConfig.max_message_chars, 4096)
     },
     ui: {
       pollIntervalSeconds: toPositiveInt(uiConfig.poll_interval_seconds, 15)

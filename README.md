@@ -1,169 +1,203 @@
 # NewsLive
 
-NewsLive 是一个新闻聚合抓取项目，提供本地可视化页面和 GitHub Pages 静态发布页面（浅色主题）。
+NewsLive 是一个可本地运行、可自动化部署到 GitHub Pages 的新闻聚合工具。  
+它支持多源抓取、关键词筛选、重点推送、AI 标题翻译（Anthropic 接口兼容）以及“仅保留当日新闻”的时效过滤。
 
-## 功能概览
+## 核心能力
 
-- 默认每 30 分钟自动抓取一次
-- 手动刷新最短间隔 2 分钟（防频繁请求）
-- 关键词筛选与重点关键词推送
-- 重点内容去重持久化（重启后仍生效）
-- 多数据源可配置扩展（YAML 驱动）
-- GitHub Actions 定时抓取并发布到 GitHub Pages
+- 多源抓取：支持 `html_links`、`browser_html_links`、`rss`、`json_items`、`markdown_link_pages`
+- 关键词体系：普通关键词筛选 + 重点关键词推送
+- AI 翻译：抓取后将英文标题翻译为中文，保留原标题
+- 时效控制：仅保留 `pubDate` 为“本地当天”的新闻
+- 推送去重：同一条重点内容支持重复推送间隔控制
+- 推送拆包：按消息体积拆分；day.app 额外做 URL 长度保护，避免 431
+- 双形态页面：
+  - 本地动态页面：`public/index.html` + `/api/state`
+  - 静态页面产物：`docs/index.html` + `docs/state.json`
+
+## 技术栈
+
+- Node.js `>=20`
+- Express
+- Cheerio
+- Playwright
+- YAML
+- dotenv
 
 ## 快速开始
 
+### 1) 安装依赖
+
 ```bash
 npm install
+```
+
+### 2) 配置环境变量
+
+复制示例文件：
+
+```bash
+cp .env.example .env
+```
+
+填写 `.env`（示例）：
+
+```bash
+ANTHROPIC_API_KEY=your_anthropic_compatible_api_key
+ANTHROPIC_API_URL=https://api.deepseek.com/anthropic/v1/messages
+ANTHROPIC_MODEL=deepseek-chat
+DAY_APP_PUSH_URL=https://api.day.app/your_push_key/
+NTFY_PUSH_URL=https://ntfy.example.com/your_topic
+```
+
+### 3) 本地启动
+
+```bash
 npm start
 ```
 
-启动后访问：`http://localhost:5178`
+默认地址：`http://localhost:5178`
 
-## 配置文件
+### 4) 生成静态页面（用于 Pages）
+
+```bash
+npm run build:pages
+```
+
+## 配置说明
 
 ### `keywords.yaml`
 
 - 每行一个关键词
-- `=======` 前：普通关键词（用于页面筛选和命中标记）
-- `=======` 后：重点关键词（命中后触发推送）
+- `=======` 前：普通关键词
+- `=======` 后：重点关键词（命中后触发推送逻辑）
 
 示例：
 
 ```yaml
 AI
 开源
-Google
+Linux
 
 =======
 
 漏洞
-垄断
+裁员
 ```
 
 ### `sources.yaml`
 
-当前内置默认源（以仓库里的 `sources.yaml` 为准）：
+抓取源由 `sources.yaml` 驱动。当前仓库示例包含：
 
-- `hn_cn`（HackerNews 中文版，`html_links`）
-- `hn_rss_frontpage`（Hacker News RSS，`rss`）
-- `weibo_news`（微博热搜，`browser_html_links`）
-- `github_trending`、`zhihu_hot`、`tieba_hot`、`toutiao_hot`、`thepaper_hot`、`mktnews_flash`、`juejin_hot`、`bilibili_hot_search`（参考 `newsnow-main` 适配）
+- AP News
+- Hacker News（HTML / RSS / Algolia JSON）
+- Lobsters RSS
+- ProPublica
 
-当前支持的来源类型：
+支持类型与常用字段：
 
-- `html_links`：抓取网页中的 `<a>` 链接标题
-- `browser_html_links`：使用无头浏览器渲染后抓取链接（适合动态页面）
-- `markdown_link_pages`：先提取 markdown 里的链接，再抓取链接页标题
-- `rss`：抓取 RSS 源（`<item><title/link>`）
-- `json_items`：抓取 JSON 接口并按路径映射标题/链接（适合各类热榜 API）
-
-每个源都支持可选的 `headers` 字段，可用于自定义请求头（例如某些站点要求特定 UA / Referer）。
-对于 `browser_html_links`，还支持：
-
-- `wait_for_selector`：等待页面渲染完成的选择器
-- `link_selector`：用于提取链接的选择器
-- `browser_wait_ms`：额外等待渲染时间
-
-对于 `json_items`，还支持：
-
-- `items_path`：新闻数组在 JSON 中的路径（如 `data.items`）
-- `title_path` / `title_paths`：标题字段路径（支持备用路径）
-- `url_path` / `url_paths`：链接字段路径（支持备用路径）
-- `id_path` / `id_paths`：唯一 ID 字段路径
-- `date_path` / `date_paths`：时间字段路径
-- `url_template`：当没有现成链接时按模板拼接（如 `https://x.com/{id}`）
-- `method`：请求方法（默认 `GET`）
-
-示例：
-
-```yaml
-sources:
-  - id: hn_cn
-    name: HackerNews 中文版
-    type: html_links
-    url: https://hn.aimaker.dev/
-    min_title_length: 8
-    max_items: 120
-
-  - id: hn_rss_frontpage
-    name: Hacker News RSS
-    type: rss
-    url: https://hnrss.org/frontpage
-    min_title_length: 1
-    max_items: 120
-
-  - id: weibo_news
-    name: 微博热搜
-    type: browser_html_links
-    url: https://s.weibo.com/top/summary
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-      Referer: https://s.weibo.com/
-    wait_for_selector: "#pl_top_realtimehot"
-    link_selector: "#pl_top_realtimehot td.td-02 a"
-    browser_wait_ms: 10000
-    min_title_length: 8
-    max_items: 120
-
-  - id: zhihu_hot
-    name: 知乎热榜
-    type: json_items
-    url: https://www.zhihu.com/api/v3/feed/topstory/hot-list-web?limit=20&desktop=true
-    items_path: data
-    title_path: target.title_area.text
-    url_path: target.link.url
-    id_path: target.link.url
-    min_title_length: 2
-    max_items: 60
-```
+- `html_links`
+  - `url` `min_title_length` `max_items`
+- `browser_html_links`
+  - 额外支持 `wait_for_selector` `link_selector` `browser_wait_ms` `headers`
+- `rss`
+  - 自动抽取 `title` / `link` / `pubDate`（含部分兼容字段）
+- `json_items`
+  - `items_path` `title_path(s)` `url_path(s)` `id_path(s)` `date_path(s)` `url_template` `method`
+- `markdown_link_pages`
+  - 从 markdown 提取链接后回抓页面标题
 
 ### `setting.yaml`
+
+非敏感配置放在 `setting.yaml`，敏感配置放在 `.env`。
 
 主要配置项：
 
 - `fetch_interval_minutes`：自动抓取间隔（分钟）
-- `min_fetch_interval_minutes`：最短抓取间隔（分钟）
+- `min_fetch_interval_minutes`：手动/自动抓取最短间隔（分钟）
 - `request_timeout_seconds`：单请求超时（秒）
-- `push.enabled`：是否启用重点推送
-- `push.day_app_push_url`：day.app 推送地址（完整 URL）
-- `push.ntfy_push_url`：ntfy 推送地址（完整 URL；例如 https://ntfy.example.com/<topic>）
-- `push.notify_history_ttl_minutes`：通知去重历史清理 TTL（分钟；超过此时间会从 `data/notified-history.json` 移除）
-- `push.source_blacklist`：重点推送来源黑名单（命中来源不会推送）
-- `push.repeat_interval_minutes`：同一条重点内容再次允许推送的间隔（分钟）
-- `push.max_items_per_push`：单次推送最大条数
-- `ui.poll_interval_seconds`：前端轮询状态间隔（秒）
+- `pause_time_ranges`：暂停时间段（格式 `时-分 to 时-分`，支持跨天）
+- `ai_translation.*`：翻译开关、批量大小、超时、请求头等（不含 key）
+- `push.*`：推送开关、重复间隔、黑名单、消息长度上限等
+- `ui.poll_interval_seconds`：前端轮询间隔
 
-## 推送配置
+> 注意：AI 翻译与推送 URL 已改为仅从环境变量读取，不再从 `setting.yaml` 读取密钥/地址。
 
-项目支持 day.app 与 ntfy 推送地址。
+## 环境变量（`.env`）
 
-- 本地开发：可在 `setting.yaml` 填 `push.day_app_push_url`、`push.ntfy_push_url`
-- GitHub Actions：通过 Secrets 注入 `DAY_APP_PUSH_URL`、`NTFY_PUSH_URL`
+- `ANTHROPIC_API_KEY`：AI 翻译 API Key（必填，启用翻译时）
+- `ANTHROPIC_API_URL`：Anthropic Messages 兼容接口地址
+- `ANTHROPIC_MODEL`：模型名
+- `DAY_APP_PUSH_URL`：day.app 推送地址（可选）
+- `NTFY_PUSH_URL`：ntfy 推送地址（可选）
+- `PORT`：本地服务端口（默认 5178）
 
-支持两种推送 URL 形式：
+## 抓取与推送行为细节
 
-- 普通 URL（自动拼接 `title/body` 查询参数）
-- 模板 URL（包含 `{title}` 和 `{body}` 占位符）
+### 仅保留当日新闻
 
-## 去重持久化
+抓取后会检查每条新闻的 `pubDate`：
 
-- 推送历史保存在 `data/notified-history.json`
-- 每次抓取后自动更新
-- Actions 运行时会回写该文件到仓库，保证跨运行去重
+- 无 `pubDate` 或无法解析：过滤
+- `pubDate` 非本地当天：过滤
 
-## GitHub Actions + Pages
+被过滤数量会体现在状态里（`filteredOutByDateCount`）。
 
-工作流文件：`.github/workflows/newslive-pages.yml`
+### 关键词命中规则
+
+- 匹配范围仅标题（含翻译后标题），不再匹配 URL
+- 英文关键词（如 `AI`）按“完整词”匹配，减少误命中（如 `detail`）
+
+### 推送拆分与长度控制
+
+- 先按 `push.max_message_chars`（默认 4096）构建消息
+- day.app 额外按最终 URL 长度控制（内部保护），超长会截断并重试
+- 同一条重点内容根据 `push.repeat_interval_minutes` 去重
+
+## 本地 API
+
+- `GET /api/state`：当前状态与新闻列表
+- `POST /api/refresh`：手动触发抓取
+  - 可能返回 `429`（最小间隔限制）
+  - 可能返回 `423`（命中暂停时间段）
+
+## GitHub Actions 与 Pages
+
+主工作流：`.github/workflows/newslive-pages.yml`
 
 流程：
 
-- 每 30 分钟定时运行（可手动触发）
-- 执行抓取，生成 `docs/index.html` 与 `docs/state.json`
-- 自动提交 `docs/` 和 `data/notified-history.json`
-- 自动部署到 GitHub Pages
+1. 定时/手动触发
+2. `npm ci` + 安装 Playwright Chromium
+3. 执行 `npm run build:pages`
+4. 自动提交 `docs/` 与 `data/notified-history.json`
+5. 发布到 GitHub Pages
 
-使用前准备：
+在仓库 Secrets 中配置：
 
-1. 在仓库 Secrets 中添加 `DAY_APP_PUSH_URL`
-2. 在仓库 `Settings -> Pages` 启用 GitHub Pages（Source 选择 GitHub Actions）
+- `DAY_APP_PUSH_URL`
+- `NTFY_PUSH_URL`（可选）
+- `ANTHROPIC_API_KEY`（启用翻译时必填）
+- `ANTHROPIC_API_URL`（例如 `https://api.deepseek.com/anthropic/v1/messages`）
+- `ANTHROPIC_MODEL`（例如 `deepseek-chat`）
+
+## 目录结构（关键文件）
+
+- `src/server.js`：本地服务与 API
+- `src/crawler.js`：抓取编排、过滤、翻译、推送、状态管理
+- `src/sources.js`：多类型抓取器实现
+- `src/ai-translate.js`：Anthropic 兼容翻译客户端
+- `src/config.js`：配置加载（含 `.env`）
+- `src/build-pages.js`：静态页面构建
+- `public/index.html`：本地动态前端
+- `docs/`：静态页面产物
+
+## 安全建议
+
+- 不要把真实密钥写入仓库文件
+- `.env` 已被 `.gitignore` 忽略
+- 如密钥曾暴露，请立即在供应商后台轮换
+
+## License
+
+项目使用仓库中的 `LICENSE`。

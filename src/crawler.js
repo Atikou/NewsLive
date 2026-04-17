@@ -2,14 +2,49 @@ import crypto from "node:crypto";
 import { crawlAllSources } from "./sources.js";
 import { loadKeywords, loadSettings, loadSources } from "./config.js";
 import { cleanupNotifyHistory, loadNotifyHistory, saveNotifyHistory } from "./persistence.js";
+import { translateItemsWithAnthropic } from "./ai-translate.js";
 
 function hashItem(item) {
   return crypto.createHash("sha1").update(`${item.title}|${item.url}`).digest("hex");
 }
 
 function matchKeywords(text, keywords) {
-  const lower = text.toLowerCase();
-  return keywords.filter((word) => lower.includes(word.toLowerCase()));
+  const raw = String(text || "");
+  const lower = raw.toLowerCase();
+  return keywords.filter((word) => {
+    const normalized = String(word || "").trim();
+    if (!normalized) return false;
+    // For pure Latin keywords (e.g. "AI"), match as a whole token to avoid
+    // false positives like "detail" or "said".
+    if (/^[A-Za-z0-9_-]+$/.test(normalized)) {
+      const escaped = normalized.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const tokenRegex = new RegExp(`(^|[^A-Za-z0-9_-])${escaped}([^A-Za-z0-9_-]|$)`, "i");
+      return tokenRegex.test(raw);
+    }
+    return lower.includes(normalized.toLowerCase());
+  });
+}
+
+function getDisplayTitle(item) {
+  return (item.titleZh || item.title || "").trim();
+}
+
+function parsePublishedDate(item) {
+  const value = item?.pubDate;
+  if (!value) return null;
+  const date = new Date(value);
+  if (!Number.isFinite(date.getTime())) {
+    return null;
+  }
+  return date;
+}
+
+function isSameLocalDay(a, b) {
+  return (
+    a.getFullYear() === b.getFullYear() &&
+    a.getMonth() === b.getMonth() &&
+    a.getDate() === b.getDate()
+  );
 }
 
 function escapeMarkdownText(text) {
@@ -42,97 +77,175 @@ function formatItemTime(item) {
   return s;
 }
 
-function splitIntoChunks(items, chunkSize) {
-  if (!Array.isArray(items) || !items.length) return [];
-  const size = Math.max(1, Number(chunkSize) || 1);
-  const chunks = [];
-  for (let i = 0; i < items.length; i += size) {
-    chunks.push(items.slice(i, i + size));
-  }
-  return chunks;
-}
-
 function normalizeSourceName(value) {
   return String(value || "").trim().toLowerCase();
 }
 
-function buildTagMessage(tag, items, maxItemsPerPush) {
-  const limited = items.slice(0, maxItemsPerPush);
-  const newsLines = limited.map((item, index) => {
-    const source = item.source ? `[${item.source}]` : "[来源]";
-    const time = formatItemTime(item);
-    const title = escapeMarkdownText(item.title || "");
-    const url = item.url || "";
-    const safeUrl = url ? escapeMarkdownUrl(url) : "";
-    const titleLink = safeUrl ? `[${title}](${safeUrl})` : title;
-    return `${index + 1}. ${source} ${titleLink} - ${time}`;
-  });
-  return [tag, ...newsLines].join("\n");
+function getUtf8Length(text) {
+  return Buffer.byteLength(String(text || ""), "utf8");
 }
 
-async function pushToDayAppUrl(pushUrl, tag, items, maxItemsPerPush) {
+function buildPushLine(item, index) {
+  const source = item.source ? `[${item.source}]` : "[来源]";
+  const time = formatItemTime(item);
+  const rawTitle = item.titleZh || item.title || "";
+  const title = escapeMarkdownText(rawTitle);
+  const url = item.url || "";
+  const safeUrl = url ? escapeMarkdownUrl(url) : "";
+  const titleLink = safeUrl ? `[${title}](${safeUrl})` : title;
+  return `${index}. ${source} ${titleLink} - ${time}`;
+}
+
+function truncateLineToUtf8(line, maxBytes) {
+  let text = String(line || "");
+  if (getUtf8Length(text) <= maxBytes) {
+    return text;
+  }
+  while (text.length > 1 && getUtf8Length(`${text}...`) > maxBytes) {
+    text = text.slice(0, -1);
+  }
+  return `${text}...`;
+}
+
+function buildTagMessage(tag, items, maxItemsPerPush, maxMessageChars) {
+  const limited = items.slice(0, maxItemsPerPush);
+  const maxBytes = Math.max(512, Number(maxMessageChars) || 4096);
+  const lines = [tag];
+  const usedItems = [];
+  for (const item of limited) {
+    const nextLine = buildPushLine(item, usedItems.length + 1);
+    const candidate = [...lines, nextLine].join("\n");
+    if (getUtf8Length(candidate) <= maxBytes) {
+      lines.push(nextLine);
+      usedItems.push(item);
+      continue;
+    }
+    if (!usedItems.length) {
+      const headerBytes = getUtf8Length(`${tag}\n`);
+      const availableBytes = Math.max(32, maxBytes - headerBytes);
+      const trimmed = truncateLineToUtf8(nextLine, availableBytes);
+      lines.push(trimmed);
+      usedItems.push(item);
+    }
+    break;
+  }
+  return {
+    message: lines.join("\n"),
+    usedItems
+  };
+}
+
+function splitByMessageLength(tag, items, maxItemsPerPush, maxMessageChars) {
+  const chunks = [];
+  let cursor = 0;
+  while (cursor < items.length) {
+    const { usedItems } = buildTagMessage(
+      tag,
+      items.slice(cursor),
+      maxItemsPerPush,
+      maxMessageChars
+    );
+    if (!usedItems.length) {
+      break;
+    }
+    chunks.push(usedItems);
+    cursor += usedItems.length;
+  }
+  return chunks;
+}
+
+function buildDayAppFullUrl(pushUrl, title, body) {
+  if (pushUrl.includes("{title}") || pushUrl.includes("{body}")) {
+    return pushUrl
+      .replaceAll("{title}", encodeURIComponent(title))
+      .replaceAll("{body}", encodeURIComponent(body));
+  }
+  const separator = pushUrl.includes("?") ? "&" : "?";
+  return `${pushUrl}${separator}title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
+
+function fitDayAppUrl(pushUrl, title, body, maxLength) {
+  let safeBody = String(body || "");
+  let fullUrl = buildDayAppFullUrl(pushUrl, title, safeBody);
+  if (fullUrl.length <= maxLength) {
+    return { fullUrl, body: safeBody };
+  }
+
+  // If a single message is too long, progressively trim it to fit day.app URL constraints.
+  while (safeBody.length > 12) {
+    safeBody = `${safeBody.slice(0, Math.floor(safeBody.length * 0.85)).trimEnd()}...`;
+    fullUrl = buildDayAppFullUrl(pushUrl, title, safeBody);
+    if (fullUrl.length <= maxLength) {
+      return { fullUrl, body: safeBody };
+    }
+  }
+  return null;
+}
+
+function getMinutesOfDay(date) {
+  return date.getHours() * 60 + date.getMinutes();
+}
+
+function isMinuteInRange(currentMinutes, startMinutes, endMinutes) {
+  if (startMinutes < endMinutes) {
+    return currentMinutes >= startMinutes && currentMinutes < endMinutes;
+  }
+  return currentMinutes >= startMinutes || currentMinutes < endMinutes;
+}
+
+function buildRangeEndDate(now, startMinutes, endMinutes) {
+  const endDate = new Date(now);
+  endDate.setSeconds(0, 0);
+  endDate.setHours(Math.floor(endMinutes / 60), endMinutes % 60, 0, 0);
+  const currentMinutes = getMinutesOfDay(now);
+  const isCrossDay = startMinutes > endMinutes;
+  if ((isCrossDay && currentMinutes >= startMinutes) || endDate.getTime() <= now.getTime()) {
+    endDate.setDate(endDate.getDate() + 1);
+  }
+  return endDate;
+}
+
+function getMatchedPauseRange(now, ranges) {
+  const currentMinutes = getMinutesOfDay(now);
+  for (const range of ranges || []) {
+    if (isMinuteInRange(currentMinutes, range.startMinutes, range.endMinutes)) {
+      return {
+        ...range,
+        endAt: buildRangeEndDate(now, range.startMinutes, range.endMinutes)
+      };
+    }
+  }
+  return null;
+}
+
+async function pushToDayAppUrl(pushUrl, tag, items, maxItemsPerPush, maxMessageChars) {
   if (!pushUrl || !tag || !items.length) {
     return { ok: false, errorMessage: "" };
   }
 
-  // day.app uses GET with query parameters; overly long URLs may cause 431.
-  const MAX_FULL_URL_LENGTH = 8_000;
+  // day.app uses GET query params; many gateways reject large URLs with 431.
+  const MAX_FULL_URL_LENGTH = 3_800;
   const maxLines = Math.min(items.length, maxItemsPerPush);
 
-  let lastBody = "";
-  let lastFullUrl = "";
   for (let n = maxLines; n >= 1; n -= 1) {
     const limitedCount = n;
     const title = `NewsLive 重点内容 ${tag} ${limitedCount} 条`;
-    const body = buildTagMessage(tag, items, n);
-
-    let fullUrl = pushUrl;
-    if (pushUrl.includes("{title}") || pushUrl.includes("{body}")) {
-      fullUrl = pushUrl
-        .replaceAll("{title}", encodeURIComponent(title))
-        .replaceAll("{body}", encodeURIComponent(body));
-    } else {
-      const separator = pushUrl.includes("?") ? "&" : "?";
-      fullUrl = `${pushUrl}${separator}title=${encodeURIComponent(title)}&body=${encodeURIComponent(
-        body
-      )}`;
-    }
-
-    lastBody = body;
-    lastFullUrl = fullUrl;
-    if (fullUrl.length <= MAX_FULL_URL_LENGTH) {
-      const res = await fetch(fullUrl, { method: "GET" });
-      if (!res.ok) {
-        return { ok: false, errorMessage: `day.app push failed (${res.status})` };
+    const { message: body } = buildTagMessage(tag, items, n, maxMessageChars);
+    const fitted = fitDayAppUrl(pushUrl, title, body, MAX_FULL_URL_LENGTH);
+    if (fitted) {
+      try {
+        const res = await fetch(fitted.fullUrl, { method: "GET" });
+        if (!res.ok) {
+          return { ok: false, errorMessage: `day.app push failed (${res.status})` };
+        }
+        return { ok: true, errorMessage: "" };
+      } catch (e) {
+        return { ok: false, errorMessage: `day.app push error (${e.message || "unknown"})` };
       }
-      return { ok: true, errorMessage: "" };
     }
   }
 
-  // If nothing matches the limit, still try the smallest payload (n=1).
-  try {
-    const title = `NewsLive 重点内容 ${tag} 1 条`;
-    const body = buildTagMessage(tag, items, 1);
-    const fullUrl = pushUrl.includes("{title}") || pushUrl.includes("{body}")
-      ? pushUrl
-          .replaceAll("{title}", encodeURIComponent(title))
-          .replaceAll("{body}", encodeURIComponent(body))
-      : `${pushUrl}${pushUrl.includes("?") ? "&" : "?"}title=${encodeURIComponent(title)}&body=${encodeURIComponent(
-          body
-        )}`;
-    const res = await fetch(fullUrl, { method: "GET" });
-    if (!res.ok) {
-      return { ok: false, errorMessage: `day.app push failed (${res.status})` };
-    }
-    // Keep variables referenced to avoid linter complaining about unused.
-    // eslint-disable-next-line no-unused-vars
-    lastBody;
-    // eslint-disable-next-line no-unused-vars
-    lastFullUrl;
-    return { ok: true, errorMessage: "" };
-  } catch (e) {
-    return { ok: false, errorMessage: `day.app push error (${e.message || "unknown"})` };
-  }
+  return { ok: false, errorMessage: "day.app push skipped: payload too large for URL limit" };
 }
 
 async function pushToNtfyUrl(ntfyUrl, message) {
@@ -174,7 +287,11 @@ export class NewsCrawler {
       pushRepeatIntervalMs: 24 * 60 * 60 * 1000,
       uiPollIntervalMs: 15 * 1000,
       pushEnabled: true,
-      settingsLoadedAt: null
+      settingsLoadedAt: null,
+      pauseTimeRanges: [],
+      pausedRange: null,
+      pausedUntil: null,
+      filteredOutByDateCount: 0
     };
     this.lastAttemptAt = 0;
     this.initialized = false;
@@ -217,6 +334,7 @@ export class NewsCrawler {
     this.state.pushRepeatIntervalMs = settings.push.repeatIntervalMinutes * 60 * 1000;
     this.state.uiPollIntervalMs = settings.ui.pollIntervalSeconds * 1000;
     this.state.pushEnabled = settings.push.enabled;
+    this.state.pauseTimeRanges = (settings.pauseTimeRanges || []).map((range) => range.text);
     this.state.settingsLoadedAt = new Date().toISOString();
     return settings;
   }
@@ -227,6 +345,23 @@ export class NewsCrawler {
       return { skipped: true, reason: "already_running" };
     }
 
+    const settings = await this.reloadSettings();
+    const now = new Date();
+    const matchedPauseRange = getMatchedPauseRange(now, settings.pauseTimeRanges);
+    if (matchedPauseRange) {
+      this.state.pausedRange = matchedPauseRange.text;
+      this.state.pausedUntil = matchedPauseRange.endAt.toISOString();
+      this.state.nextFetchAt = this.state.pausedUntil;
+      return {
+        skipped: true,
+        reason: "pause_time_range",
+        range: matchedPauseRange.text,
+        resumeAt: this.state.pausedUntil
+      };
+    }
+    this.state.pausedRange = null;
+    this.state.pausedUntil = null;
+
     const waitMs = this.getMsUntilNextAllowedFetch();
     if (waitMs > 0) {
       return { skipped: true, reason: "min_interval", waitMs };
@@ -236,11 +371,7 @@ export class NewsCrawler {
     this.lastAttemptAt = Date.now();
 
     try {
-      const [settings, { keywords, priorityKeywords }, sources] = await Promise.all([
-        this.reloadSettings(),
-        loadKeywords(),
-        loadSources()
-      ]);
+      const [{ keywords, priorityKeywords }, sources] = await Promise.all([loadKeywords(), loadSources()]);
 
       const { items, errors } = await crawlAllSources({
         sources,
@@ -248,12 +379,41 @@ export class NewsCrawler {
       });
 
       const enriched = items.map((item) => {
-        const text = `${item.title} ${item.url}`;
+        const text = `${item.title}`;
         const matchedKeywords = matchKeywords(text, keywords);
         const matchedPriorityKeywords = matchKeywords(text, priorityKeywords);
         return {
           ...item,
           id: hashItem(item),
+          matchedKeywords,
+          matchedPriorityKeywords,
+          isPriority: matchedPriorityKeywords.length > 0
+        };
+      });
+
+      const nowLocal = new Date();
+      let missingOrInvalidPubDateCount = 0;
+      let nonTodayPubDateCount = 0;
+      const dateFilteredItems = enriched.filter((item) => {
+        const publishedDate = parsePublishedDate(item);
+        if (!publishedDate) {
+          missingOrInvalidPubDateCount += 1;
+          return false;
+        }
+        if (!isSameLocalDay(publishedDate, nowLocal)) {
+          nonTodayPubDateCount += 1;
+          return false;
+        }
+        return true;
+      });
+      this.state.filteredOutByDateCount = missingOrInvalidPubDateCount + nonTodayPubDateCount;
+      const translated = await translateItemsWithAnthropic(dateFilteredItems, settings.aiTranslation);
+      const finalItems = translated.items.map((item) => {
+        const text = `${item.title} ${item.titleZh || ""}`;
+        const matchedKeywords = matchKeywords(text, keywords);
+        const matchedPriorityKeywords = matchKeywords(text, priorityKeywords);
+        return {
+          ...item,
           matchedKeywords,
           matchedPriorityKeywords,
           isPriority: matchedPriorityKeywords.length > 0
@@ -274,7 +434,7 @@ export class NewsCrawler {
         nowMs
       );
 
-      const priorityToNotify = enriched.filter(
+      const priorityToNotify = finalItems.filter(
         (item) =>
           item.isPriority &&
           settings.push.enabled &&
@@ -299,7 +459,12 @@ export class NewsCrawler {
       for (const tag of priorityKeywords) {
         const tagItems = tagToItems.get(tag) || [];
         if (!tagItems.length) continue;
-        const tagChunks = splitIntoChunks(tagItems, 10);
+        const tagChunks = splitByMessageLength(
+          tag,
+          tagItems,
+          settings.push.maxItemsPerPush,
+          settings.push.maxMessageChars
+        );
 
         for (const chunkItems of tagChunks) {
           if (!chunkItems.length) continue;
@@ -311,7 +476,8 @@ export class NewsCrawler {
                   settings.push.dayAppPushUrl,
                   tag,
                   chunkItems,
-                  settings.push.maxItemsPerPush
+                  settings.push.maxItemsPerPush,
+                  settings.push.maxMessageChars
                 );
                 return result;
               })()
@@ -319,7 +485,12 @@ export class NewsCrawler {
           }
 
           if (settings.push.ntfyPushUrl) {
-            const message = buildTagMessage(tag, chunkItems, settings.push.maxItemsPerPush);
+            const { message } = buildTagMessage(
+              tag,
+              chunkItems,
+              settings.push.maxItemsPerPush,
+              settings.push.maxMessageChars
+            );
             tasks.push(pushToNtfyUrl(settings.push.ntfyPushUrl, message));
           }
         }
@@ -341,10 +512,23 @@ export class NewsCrawler {
         await saveNotifyHistory(this.history);
       }
 
-      this.state.items = enriched.sort((a, b) => a.title.localeCompare(b.title, "zh-CN"));
+      this.state.items = finalItems.sort((a, b) =>
+        getDisplayTitle(a).localeCompare(getDisplayTitle(b), "zh-CN")
+      );
       this.state.keywords = keywords;
       this.state.priorityKeywords = priorityKeywords;
-      this.state.errors = pushErrorMessages.length ? errors.concat(pushErrorMessages) : errors;
+      this.state.errors = errors.slice();
+      if (translated.errorMessage) {
+        this.state.errors.push(translated.errorMessage);
+      }
+      if (this.state.filteredOutByDateCount > 0) {
+        this.state.errors.push(
+          `已过滤非当日新闻 ${this.state.filteredOutByDateCount} 条（无/非法发布时间 ${missingOrInvalidPubDateCount}，非当日 ${nonTodayPubDateCount}）`
+        );
+      }
+      if (pushErrorMessages.length) {
+        this.state.errors.push(...pushErrorMessages);
+      }
       this.state.lastFetchAt = new Date().toISOString();
       this.state.nextFetchAt = new Date(Date.now() + this.state.intervalMs).toISOString();
       this.state.crawlVersion += 1;
@@ -353,7 +537,8 @@ export class NewsCrawler {
         skipped: false,
         trigger,
         count: this.state.items.length,
-        notified: didAnyPushSuccess ? priorityToNotify.length : 0
+        notified: didAnyPushSuccess ? priorityToNotify.length : 0,
+        translated: translated.translatedCount
       };
     } catch (error) {
       this.state.errors = [error.message || "抓取异常"];

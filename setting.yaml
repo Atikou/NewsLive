@@ -5,22 +5,36 @@ fetch_interval_minutes: 30
 min_fetch_interval_minutes: 2
 
 # 请求超时（秒）
-request_timeout_seconds: 15
+request_timeout_seconds: 60
+
+# 暂停抓取时间段（命中后不抓取、不推送）
+# 格式：时-分 to 时-分（24小时制）
+# 支持跨天，例如 23-30 to 07-00
+pause_time_ranges: []
+# pause_time_ranges:
+#   - 12-00 to 13-30
+#   - 23-30 to 07-00
+
+# AI 标题翻译（Anthropic Messages API 兼容）
+ai_translation:
+  # 是否启用标题翻译（翻译为中文）
+  enabled: true
+  # 每次抓取最多翻译多少条标题
+  max_items_per_run: 200
+  # 单次请求批量翻译条数
+  batch_size: 8
+  # 翻译请求超时（秒）
+  request_timeout_seconds: 60
+  # 仅翻译非中文标题
+  only_non_chinese: true
+  # anthropic-version 请求头
+  anthropic_version: "2023-06-01"
+  # 额外请求头（对接某些 Anthropic 兼容网关时可用）
+  headers: {}
 
 push:
   # 是否启用重点内容推送
   enabled: true
-
-  # day.app 推送地址（完整 URL）
-  # 本地开发可临时配置。
-  # 注意：如果仓库会上传到 GitHub，或通过 GitHub Actions 执行，绝对不要在代码中明文写死该地址。
-  # 否则一旦仓库泄露、误提交或日志暴露，可能导致推送地址被他人利用。
-  # 部署环境请留空，并使用 GitHub Actions Secret: DAY_APP_PUSH_URL 注入。
-  day_app_push_url: ""
-
-  # ntfy 推送地址（完整 URL；例如 https://ntfy.example.com/<topic>）
-  # 本地开发可临时配置。部署环境请留空，并使用 GitHub Actions Secret: NTFY_PUSH_URL 注入。
-  ntfy_push_url: ""
 
   # 同一条内容再次允许推送的间隔（分钟）
   repeat_interval_minutes: 1440
@@ -37,6 +51,8 @@ push:
 
   # 单次推送最多包含多少条重点内容
   max_items_per_push: 15
+  # 单次推送消息最大字符大小（4KB）
+  max_message_chars: 4096
 
 ui:
   # 前端轮询间隔（秒）

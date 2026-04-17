@@ -1,4 +1,11 @@
 sources:
+  - id: ap_news
+    name: AP News
+    type: html_links
+    url: https://apnews.com/
+    min_title_length: 8
+    max_items: 120
+
   - id: hn_cn
     name: HackerNews 中文版
     type: html_links
@@ -6,111 +13,73 @@ sources:
     min_title_length: 8
     max_items: 120
 
-  - id: hn_rss_frontpage
-    name: Hacker News RSS
-    type: rss
-    url: https://hnrss.org/frontpage
-    min_title_length: 1
-    max_items: 120
+  - id: propublica_home
+    name: ProPublica
+    type: html_links
+    url: https://www.propublica.org/
+    min_title_length: 8
+    max_items: 80
 
-  - id: weibo_news
-    name: 微博热搜
-    type: browser_html_links
-    url: https://s.weibo.com/top/summary
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-      Referer: https://s.weibo.com/
-    wait_for_selector: "#pl_top_realtimehot"
-    link_selector: "#pl_top_realtimehot td.td-02 a"
-    browser_wait_ms: 10000
+  - id: propublica_topics
+    name: ProPublica Topics
+    type: html_links
+    url: https://www.propublica.org/topics
     min_title_length: 8
     max_items: 120
 
-  # 以下新闻源参考 newsnow-main 的抓取接口适配
-  - id: github_trending
-    name: GitHub Trending
-    type: browser_html_links
-    url: https://github.com/trending?spoken_language_code=
-    link_selector: "main .Box div[data-hpc] > article > h2 a"
-    min_title_length: 2
-    max_items: 80
+  - id: hn_rss_frontpage
+    name: Hacker News Frontpage
+    type: rss
+    url: https://hnrss.org/frontpage
+    min_title_length: 6
+    max_items: 120
 
-  - id: zhihu_hot
-    name: 知乎热榜
-    type: json_items
-    url: https://www.zhihu.com/api/v3/feed/topstory/hot-list-web?limit=20&desktop=true
-    items_path: data
-    title_path: target.title_area.text
-    url_path: target.link.url
-    id_path: target.link.url
-    min_title_length: 2
-    max_items: 60
+  - id: hn_rss_newest
+    name: Hacker News Newest
+    type: rss
+    url: https://hnrss.org/newest
+    min_title_length: 6
+    max_items: 120
 
-  - id: tieba_hot
-    name: 百度贴吧热议
-    type: json_items
-    url: https://tieba.baidu.com/hottopic/browse/topicList
-    items_path: data.bang_topic.topic_list
-    title_path: topic_name
-    url_path: topic_url
-    id_path: topic_id
-    min_title_length: 2
-    max_items: 60
+  - id: lobsters_rss
+    name: Lobsters RSS
+    type: rss
+    url: https://lobste.rs/rss
+    min_title_length: 6
+    max_items: 120
 
-  - id: toutiao_hot
-    name: 今日头条热榜
+  - id: hn_algolia_frontpage
+    name: Hacker News Algolia Front Page
     type: json_items
-    url: https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc
-    items_path: data
-    title_path: Title
-    id_path: ClusterIdStr
-    url_template: https://www.toutiao.com/trending/{ClusterIdStr}/
-    min_title_length: 2
-    max_items: 60
-
-  - id: thepaper_hot
-    name: 澎湃新闻热榜
-    type: json_items
-    url: https://cache.thepaper.cn/contentapi/wwwIndex/rightSidebar
-    items_path: data.hotNews
-    title_path: name
-    id_path: contId
-    url_template: https://www.thepaper.cn/newsDetail_forward_{contId}
-    min_title_length: 2
-    max_items: 60
-
-  - id: mktnews_flash
-    name: MKTNews 快讯
-    type: json_items
-    url: https://api.mktnews.net/api/flash?type=0&limit=50
-    items_path: data
+    url: https://hn.algolia.com/api/v1/search?tags=front_page
+    items_path: hits
     title_paths:
-      - data.title
-      - data.content
-    id_path: id
-    date_path: time
-    url_template: https://mktnews.net/flashDetail.html?id={id}
-    min_title_length: 2
-    max_items: 80
+      - title
+      - story_title
+    url_paths:
+      - url
+      - story_url
+    id_paths:
+      - objectID
+    date_paths:
+      - created_at
+    min_title_length: 6
+    max_items: 100
 
-  - id: juejin_hot
-    name: 掘金热榜
+  - id: hn_algolia_ai
+    name: Hacker News Algolia AI Search
     type: json_items
-    url: https://api.juejin.cn/content_api/v1/content/article_rank?category_id=1&type=hot&spider=0
-    items_path: data
-    title_path: content.title
-    id_path: content.content_id
-    url_template: https://juejin.cn/post/{content.content_id}
-    min_title_length: 2
-    max_items: 80
-
-  - id: bilibili_hot_search
-    name: Bilibili 热搜
-    type: json_items
-    url: https://s.search.bilibili.com/main/hotword?limit=30
-    items_path: list
-    title_path: show_name
-    id_path: keyword
-    url_template: https://search.bilibili.com/all?keyword={keyword}
-    min_title_length: 2
-    max_items: 80
+    url: https://hn.algolia.com/api/v1/search_by_date?query=AI&tags=story
+    items_path: hits
+    title_paths:
+      - title
+      - story_title
+    url_paths:
+      - url
+      - story_url
+    id_paths:
+      - objectID
+    date_paths:
+      - created_at
+    min_title_length: 6
+    max_items: 100

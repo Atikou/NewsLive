@@ -36,6 +36,15 @@ app.post("/api/refresh", async (_, res) => {
     });
     return;
   }
+  if (result.reason === "pause_time_range") {
+    res.status(423).json({
+      ok: false,
+      message: `当前处于暂停时段（${result.range}），将于 ${result.resumeAt} 后恢复抓取`,
+      range: result.range,
+      resumeAt: result.resumeAt
+    });
+    return;
+  }
   res.json({ ok: true, result, state: crawler.getState() });
 });
 

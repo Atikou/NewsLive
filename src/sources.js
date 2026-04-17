@@ -226,6 +226,9 @@ function extractRssItems(xml, source) {
   $("item").each((_, element) => {
     const title = $(element).find("title").first().text().replace(/\s+/g, " ").trim();
     const link = $(element).find("link").first().text().trim();
+    const pubDate = $(element).find("pubDate").first().text().trim()
+      || $(element).find("dc\\:date").first().text().trim()
+      || $(element).find("updated").first().text().trim();
     if (!title || title.length < source.minTitleLength || !link) {
       return;
     }
@@ -233,7 +236,8 @@ function extractRssItems(xml, source) {
       title,
       url: link,
       source: source.name,
-      fetchedAt: now
+      fetchedAt: now,
+      pubDate: pubDate || undefined
     });
   });
 
