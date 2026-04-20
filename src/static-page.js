@@ -49,7 +49,7 @@ export function renderStaticPage(payload) {
   </head>
   <body>
     <main>
-      <h1>NewsLive（GitHub Pages）</h1>
+      <h1>NewsLive</h1>
       <div class="health-toggle-row">
         <button id="healthToggleBtn" class="health-toggle-btn">展开源检测</button>
       </div>

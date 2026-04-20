@@ -10,7 +10,9 @@ request_timeout_seconds: 60
 # 暂停获取时间段（命中后不获取、不推送）
 # 格式：时-分 to 时-分（24小时制）
 # 支持跨天，例如 23-30 to 07-00
-pause_time_ranges: []
+pause_time_ranges: [
+  23-00 to 07-00
+]
 # pause_time_ranges:
 #   - 12-00 to 13-30
 #   - 23-30 to 07-00
