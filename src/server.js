@@ -3,7 +3,12 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { NewsCrawler } from "./crawler.js";
 import { getKeywordFilePath, getSettingsFilePath, getSourcesFilePath } from "./config.js";
-import { getNotifyHistoryPath } from "./persistence.js";
+import {
+  getNewsArchivePath,
+  getNewsDaysPath,
+  getNotifyHistoryPath,
+  loadNewsArchive
+} from "./persistence.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,7 +27,20 @@ app.get("/api/state", (_, res) => {
     keywordFile: getKeywordFilePath(),
     settingsFile: getSettingsFilePath(),
     sourcesFile: getSourcesFilePath(),
-    notifyHistoryFile: getNotifyHistoryPath()
+    notifyHistoryFile: getNotifyHistoryPath(),
+    newsDaysFile: getNewsDaysPath(),
+    newsArchiveFile: getNewsArchivePath()
+  });
+});
+
+app.get("/api/archive", async (_, res) => {
+  const archive = await loadNewsArchive();
+  const items = Array.isArray(archive.items) ? archive.items : [];
+  res.json({
+    items,
+    archiveFile: getNewsArchivePath(),
+    count: items.length,
+    generatedAt: new Date().toISOString()
   });
 });
 

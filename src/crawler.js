@@ -1,7 +1,16 @@
 import crypto from "node:crypto";
 import { crawlAllSources } from "./sources.js";
 import { loadKeywords, loadSettings, loadSources } from "./config.js";
-import { cleanupNotifyHistory, loadNotifyHistory, saveNotifyHistory } from "./persistence.js";
+import {
+  appendNewsArchive,
+  cleanupNewsDays,
+  loadNewsArchive,
+  loadNewsDays,
+  cleanupNotifyHistory,
+  loadNotifyHistory,
+  saveNewsDays,
+  saveNotifyHistory
+} from "./persistence.js";
 import { translateItemsWithAnthropic } from "./ai-translate.js";
 
 function hashItem(item) {
@@ -27,6 +36,13 @@ function matchKeywords(text, keywords) {
 
 function getDisplayTitle(item) {
   return (item.titleZh || item.title || "").trim();
+}
+
+function getLocalDateKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
 function parsePublishedDate(item) {
@@ -273,6 +289,8 @@ async function pushToNtfyUrl(ntfyUrl, message) {
 export class NewsCrawler {
   constructor() {
     this.history = { items: {} };
+    this.newsDays = {};
+    this.newsArchiveCount = 0;
     this.state = {
       inProgress: false,
       crawlVersion: 0,
@@ -297,7 +315,9 @@ export class NewsCrawler {
         success: 0,
         failed: 0,
         other: 0
-      }
+      },
+      todayItemCount: 0,
+      archiveItemCount: 0
     };
     this.lastAttemptAt = 0;
     this.initialized = false;
@@ -312,6 +332,8 @@ export class NewsCrawler {
       return;
     }
     this.history = await loadNotifyHistory();
+    this.newsDays = (await loadNewsDays()).days;
+    this.newsArchiveCount = (await loadNewsArchive()).items.length;
     this.initialized = true;
   }
 
@@ -341,6 +363,8 @@ export class NewsCrawler {
     this.state.uiPollIntervalMs = settings.ui.pollIntervalSeconds * 1000;
     this.state.pushEnabled = settings.push.enabled;
     this.state.pauseTimeRanges = (settings.pauseTimeRanges || []).map((range) => range.text);
+    this.state.newsCleanupIntervalDays = settings.newsRetention.cleanupIntervalDays;
+    this.state.archiveOnCleanup = settings.newsRetention.archiveOnCleanup;
     this.state.settingsLoadedAt = new Date().toISOString();
     return settings;
   }
@@ -425,6 +449,50 @@ export class NewsCrawler {
           isPriority: matchedPriorityKeywords.length > 0
         };
       });
+      const dateKey = getLocalDateKey(now);
+      const currentDayItems = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
+      const existingIds = new Set(currentDayItems.map((item) => item.id));
+      const todayNewItems = finalItems.filter((item) => !existingIds.has(item.id));
+      if (todayNewItems.length > 0) {
+        this.newsDays[dateKey] = currentDayItems.concat(todayNewItems);
+      }
+      const { days: cleanedDays, removedItems } = cleanupNewsDays(
+        this.newsDays,
+        settings.newsRetention.cleanupIntervalDays,
+        now
+      );
+      this.newsDays = cleanedDays;
+      const todayAllItemsRaw = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
+      if (settings.newsRetention.archiveOnCleanup && removedItems.length > 0) {
+        const archivedPayload = removedItems.map((item) => {
+          const tags = Array.from(
+            new Set([...(item.matchedKeywords || []), ...(item.matchedPriorityKeywords || [])])
+          );
+          return {
+            title: item.titleZh || item.title || "",
+            url: item.url || "",
+            tags,
+            publishedAt: item.pubDate || item.fetchedAt || "",
+            source: item.source || "",
+            archivedAt: new Date().toISOString()
+          };
+        });
+        const archiveResult = await appendNewsArchive(archivedPayload);
+        this.newsArchiveCount = archiveResult.total;
+      }
+      await saveNewsDays(this.newsDays);
+
+      const todayAllItems = todayAllItemsRaw.map((item) => {
+        const text = `${item.title || ""} ${item.titleZh || ""}`;
+        const matchedKeywords = matchKeywords(text, keywords);
+        const matchedPriorityKeywords = matchKeywords(text, priorityKeywords);
+        return {
+          ...item,
+          matchedKeywords,
+          matchedPriorityKeywords,
+          isPriority: matchedPriorityKeywords.length > 0
+        };
+      });
 
       const nowMs = Date.now();
       const hasAnyPushUrl =
@@ -440,7 +508,7 @@ export class NewsCrawler {
         nowMs
       );
 
-      const priorityToNotify = finalItems.filter(
+      const priorityToNotify = todayNewItems.filter(
         (item) =>
           item.isPriority &&
           settings.push.enabled &&
@@ -518,9 +586,11 @@ export class NewsCrawler {
         await saveNotifyHistory(this.history);
       }
 
-      this.state.items = finalItems.sort((a, b) =>
+      this.state.items = todayAllItems.sort((a, b) =>
         getDisplayTitle(a).localeCompare(getDisplayTitle(b), "zh-CN")
       );
+      this.state.todayItemCount = this.state.items.length;
+      this.state.archiveItemCount = this.newsArchiveCount;
       this.state.keywords = keywords;
       this.state.priorityKeywords = priorityKeywords;
       this.state.sourceHealth = Array.isArray(sourceResults) ? sourceResults : [];

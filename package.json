@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node src/server.js",
     "build:pages": "node src/build-pages.js",
-    "test:sources": "node src/test-sources.js"
+    "test:sources": "node src/test-sources.js",
+    "archive:clear": "node src/clear-archive.js"
   },
   "engines": {
     "node": ">=20"

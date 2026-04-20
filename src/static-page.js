@@ -50,6 +50,9 @@ export function renderStaticPage(payload) {
   <body>
     <main>
       <h1>NewsLive</h1>
+      <div class="health-toggle-row" style="margin-bottom: 6px;">
+        <a href="./archive.html"><button class="health-toggle-btn">查看归档新闻</button></a>
+      </div>
       <div class="health-toggle-row">
         <button id="healthToggleBtn" class="health-toggle-btn">展开源检测</button>
       </div>

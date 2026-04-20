@@ -121,6 +121,8 @@ Linux
 - `min_fetch_interval_minutes`：手动/自动获取最短间隔（分钟）
 - `request_timeout_seconds`：单请求超时（秒）
 - `pause_time_ranges`：暂停时间段（格式 `时-分 to 时-分`，支持跨天）
+- `news_retention.cleanup_interval_days`：每多少天清理一次新闻（保留最近 N 天）
+- `news_retention.archive_on_cleanup`：清理时是否归档被清理新闻
 - `ai_translation.*`：翻译开关、批量大小、超时、请求头等（不含 key）
 - `push.*`：推送开关、重复间隔、黑名单、消息长度上限等
 - `ui.poll_interval_seconds`：前端轮询间隔
@@ -153,6 +155,14 @@ npm run test:sources
 
 可直接复制 `proxy.local.example.json` 后改名为 `proxy.local.json` 使用。
 
+## 清空归档新闻
+
+```bash
+npm run archive:clear
+```
+
+该命令会清空归档文件中的全部新闻记录。
+
 ## 获取与推送行为细节
 
 ### 仅保留当日新闻
@@ -162,7 +172,8 @@ npm run test:sources
 - 无 `pubDate` 或无法解析：过滤
 - `pubDate` 非本地当天：过滤
 
-被过滤数量会体现在状态里（`filteredOutByDateCount`）。
+被过滤数量会体现在状态里（`filteredOutByDateCount`）。  
+同一天内已抓取过的新闻不会重复参与“新增处理/推送”，但页面会展示“当天累计全部新闻”。
 
 ### 关键词命中规则
 
@@ -178,9 +189,17 @@ npm run test:sources
 ## 本地 API
 
 - `GET /api/state`：当前状态与新闻列表
+- `GET /api/archive`：归档新闻列表
 - `POST /api/refresh`：手动触发获取
   - 可能返回 `429`（最小间隔限制）
   - 可能返回 `423`（命中暂停时间段）
+
+## 归档页面
+
+- 本地运行：`/archive.html`
+- GitHub Pages：`docs/archive.html`
+
+支持按日期与标签双重筛选。
 
 ## GitHub Actions 与 Pages
 

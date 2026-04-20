@@ -1,0 +1,93 @@
+export function renderArchiveStaticPage(payload) {
+  const serialized = JSON.stringify(payload).replaceAll("<", "\\u003c");
+  return `<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewsLive 归档</title>
+    <style>
+      body { margin: 0; background: #f8fafc; color: #0f172a; font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      main { width: min(1100px, 94vw); margin: 24px auto 48px; }
+      .panel { background: #fff; border: 1px solid #dbeafe; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+      .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+      select, button { border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 10px; background: #fff; }
+      .item { border: 1px solid #e2e8f0; border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; background: #fff; }
+      .meta { color: #64748b; font-size: 13px; margin-top: 4px; }
+      .tag { border: 1px solid #cbd5e1; border-radius: 999px; font-size: 12px; padding: 2px 8px; margin-right: 6px; }
+      a { color: #2563eb; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>NewsLive 归档新闻（静态）</h1>
+      <div class="panel">
+        <div class="row">
+          <a href="./index.html"><button>返回首页</button></a>
+          <select id="dateFilter"></select>
+          <select id="tagFilter"></select>
+        </div>
+        <div id="summary" class="meta" style="margin-top: 8px"></div>
+      </div>
+      <div class="panel">
+        <div id="list"></div>
+      </div>
+    </main>
+    <script>
+      const data = ${serialized};
+      const state = { items: data.items || [], date: "__ALL__", tag: "__ALL__" };
+      const dateFilter = document.getElementById("dateFilter");
+      const tagFilter = document.getElementById("tagFilter");
+      const summaryEl = document.getElementById("summary");
+      const listEl = document.getElementById("list");
+
+      function formatDate(value) {
+        if (!value) return "暂无";
+        return new Date(value).toLocaleString("zh-CN", { hour12: false });
+      }
+
+      function getDateKey(item) {
+        const source = item.publishedAt || item.archivedAt;
+        if (!source) return "";
+        const d = new Date(source);
+        if (!Number.isFinite(d.getTime())) return "";
+        const y = d.getFullYear();
+        const m = String(d.getMonth() + 1).padStart(2, "0");
+        const day = String(d.getDate()).padStart(2, "0");
+        return \`\${y}-\${m}-\${day}\`;
+      }
+
+      function renderFilters() {
+        const dateOptions = ["__ALL__", ...Array.from(new Set(state.items.map(getDateKey).filter(Boolean))).sort().reverse()];
+        const tagOptions = ["__ALL__", ...Array.from(new Set(state.items.flatMap((x) => x.tags || []))).sort((a, b) => a.localeCompare(b, "zh-CN"))];
+        dateFilter.innerHTML = dateOptions.map((d) => \`<option value="\${d}" \${state.date===d?"selected":""}>\${d==="__ALL__"?"全部日期":d}</option>\`).join("");
+        tagFilter.innerHTML = tagOptions.map((t) => \`<option value="\${t}" \${state.tag===t?"selected":""}>\${t==="__ALL__"?"全部标签":t}</option>\`).join("");
+      }
+
+      function renderList() {
+        const filtered = state.items.filter((item) => {
+          const dateOk = state.date === "__ALL__" || getDateKey(item) === state.date;
+          const tagOk = state.tag === "__ALL__" || (item.tags || []).includes(state.tag);
+          return dateOk && tagOk;
+        });
+        summaryEl.textContent = \`归档总数 \${state.items.length}，当前筛选 \${filtered.length}\`;
+        listEl.innerHTML = filtered.length
+          ? filtered.map((item) => \`
+            <article class="item">
+              <div><a href="\${item.url}" target="_blank" rel="noopener noreferrer">\${item.title || item.url}</a></div>
+              <div class="meta">发布时间: \${formatDate(item.publishedAt)} | 归档时间: \${formatDate(item.archivedAt)} | 来源: \${item.source || "未知"}</div>
+              <div style="margin-top:6px;">\${(item.tags || []).map((t) => \`<span class="tag">\${t}</span>\`).join("")}</div>
+            </article>
+          \`).join("")
+          : "<div class='meta'>没有匹配的归档新闻</div>";
+      }
+
+      dateFilter.addEventListener("change", () => { state.date = dateFilter.value; renderList(); });
+      tagFilter.addEventListener("change", () => { state.tag = tagFilter.value; renderList(); });
+
+      renderFilters();
+      renderList();
+    </script>
+  </body>
+</html>`;
+}

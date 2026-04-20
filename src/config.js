@@ -170,6 +170,8 @@ export async function loadSettings() {
   const raw = await readYamlFile(SETTINGS_FILE, {});
   const pushConfig = raw.push && typeof raw.push === "object" ? raw.push : {};
   const uiConfig = raw.ui && typeof raw.ui === "object" ? raw.ui : {};
+  const newsRetentionConfig =
+    raw.news_retention && typeof raw.news_retention === "object" ? raw.news_retention : {};
   const aiTranslationConfig =
     raw.ai_translation && typeof raw.ai_translation === "object" ? raw.ai_translation : {};
   const repeatIntervalMinutes = toPositiveInt(pushConfig.repeat_interval_minutes, 1440);
@@ -182,6 +184,10 @@ export async function loadSettings() {
     minFetchIntervalMinutes: toPositiveInt(raw.min_fetch_interval_minutes, 2),
     requestTimeoutSeconds: toPositiveInt(raw.request_timeout_seconds, 15),
     pauseTimeRanges: parsePauseTimeRanges(pauseTimeRangesRaw),
+    newsRetention: {
+      cleanupIntervalDays: toPositiveInt(newsRetentionConfig.cleanup_interval_days, 7),
+      archiveOnCleanup: toBoolean(newsRetentionConfig.archive_on_cleanup, true)
+    },
     aiTranslation: {
       enabled: toBoolean(aiTranslationConfig.enabled, false),
       apiUrl:
