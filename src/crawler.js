@@ -291,7 +291,13 @@ export class NewsCrawler {
       pauseTimeRanges: [],
       pausedRange: null,
       pausedUntil: null,
-      filteredOutByDateCount: 0
+      filteredOutByDateCount: 0,
+      sourceHealth: [],
+      sourceHealthSummary: {
+        success: 0,
+        failed: 0,
+        other: 0
+      }
     };
     this.lastAttemptAt = 0;
     this.initialized = false;
@@ -373,7 +379,7 @@ export class NewsCrawler {
     try {
       const [{ keywords, priorityKeywords }, sources] = await Promise.all([loadKeywords(), loadSources()]);
 
-      const { items, errors } = await crawlAllSources({
+      const { items, errors, sourceResults } = await crawlAllSources({
         sources,
         requestTimeoutMs: settings.requestTimeoutSeconds * 1000
       });
@@ -517,6 +523,14 @@ export class NewsCrawler {
       );
       this.state.keywords = keywords;
       this.state.priorityKeywords = priorityKeywords;
+      this.state.sourceHealth = Array.isArray(sourceResults) ? sourceResults : [];
+      const summary = { success: 0, failed: 0, other: 0 };
+      for (const item of this.state.sourceHealth) {
+        if (item?.status === "success" || item?.status === "failed" || item?.status === "other") {
+          summary[item.status] += 1;
+        }
+      }
+      this.state.sourceHealthSummary = summary;
       this.state.errors = errors.slice();
       if (translated.errorMessage) {
         this.state.errors.push(translated.errorMessage);
@@ -541,12 +555,12 @@ export class NewsCrawler {
         translated: translated.translatedCount
       };
     } catch (error) {
-      this.state.errors = [error.message || "抓取异常"];
+      this.state.errors = [error.message || "获取异常"];
       return {
         skipped: false,
         trigger,
         count: 0,
-        error: error.message || "抓取异常"
+        error: error.message || "获取异常"
       };
     } finally {
       this.state.inProgress = false;

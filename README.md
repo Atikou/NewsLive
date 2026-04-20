@@ -1,13 +1,13 @@
 # NewsLive
 
 NewsLive 是一个可本地运行、可自动化部署到 GitHub Pages 的新闻聚合工具。  
-它支持多源抓取、关键词筛选、重点推送、AI 标题翻译（Anthropic 接口兼容）以及“仅保留当日新闻”的时效过滤。
+它支持多源获取、关键词筛选、重点推送、AI 标题翻译（Anthropic 接口兼容）以及“仅保留当日新闻”的时效过滤。
 
 ## 核心能力
 
-- 多源抓取：支持 `html_links`、`browser_html_links`、`rss`、`json_items`、`markdown_link_pages`
+- 多源获取：支持 `html_links`、`browser_html_links`、`rss`、`json_items`、`markdown_link_pages`
 - 关键词体系：普通关键词筛选 + 重点关键词推送
-- AI 翻译：抓取后将英文标题翻译为中文，保留原标题
+- AI 翻译：获取后将英文标题翻译为中文，保留原标题
 - 时效控制：仅保留 `pubDate` 为“本地当天”的新闻
 - 推送去重：同一条重点内容支持重复推送间隔控制
 - 推送拆包：按消息体积拆分；day.app 额外做 URL 长度保护，避免 431
@@ -87,12 +87,17 @@ Linux
 
 ### `sources.yaml`
 
-抓取源由 `sources.yaml` 驱动。当前仓库示例包含：
+获取源由 `sources.yaml` 驱动。当前仓库示例包含：
 
 - AP News
+- Reuters World News（RSS）
 - Hacker News（HTML / RSS / Algolia JSON）
 - Lobsters RSS
 - ProPublica
+
+> 说明：Reuters 在部分网络环境下可能不可达，建议结合页面左侧“源健康检查”查看实时连接状态与错误信息。
+>
+> 关于 Google News：更适合作为“发现新闻入口”，再回抓原始发布媒体站点；不建议把 Google News 结果页/首页作为主抓取源。
 
 支持类型与常用字段：
 
@@ -113,8 +118,8 @@ Linux
 
 主要配置项：
 
-- `fetch_interval_minutes`：自动抓取间隔（分钟）
-- `min_fetch_interval_minutes`：手动/自动抓取最短间隔（分钟）
+- `fetch_interval_minutes`：自动获取间隔（分钟）
+- `min_fetch_interval_minutes`：手动/自动获取最短间隔（分钟）
 - `request_timeout_seconds`：单请求超时（秒）
 - `pause_time_ranges`：暂停时间段（格式 `时-分 to 时-分`，支持跨天）
 - `ai_translation.*`：翻译开关、批量大小、超时、请求头等（不含 key）
@@ -132,11 +137,11 @@ Linux
 - `NTFY_PUSH_URL`：ntfy 推送地址（可选）
 - `PORT`：本地服务端口（默认 5178）
 
-## 抓取与推送行为细节
+## 获取与推送行为细节
 
 ### 仅保留当日新闻
 
-抓取后会检查每条新闻的 `pubDate`：
+获取后会检查每条新闻的 `pubDate`：
 
 - 无 `pubDate` 或无法解析：过滤
 - `pubDate` 非本地当天：过滤
@@ -157,7 +162,7 @@ Linux
 ## 本地 API
 
 - `GET /api/state`：当前状态与新闻列表
-- `POST /api/refresh`：手动触发抓取
+- `POST /api/refresh`：手动触发获取
   - 可能返回 `429`（最小间隔限制）
   - 可能返回 `423`（命中暂停时间段）
 
@@ -184,8 +189,8 @@ Linux
 ## 目录结构（关键文件）
 
 - `src/server.js`：本地服务与 API
-- `src/crawler.js`：抓取编排、过滤、翻译、推送、状态管理
-- `src/sources.js`：多类型抓取器实现
+- `src/crawler.js`：获取编排、过滤、翻译、推送、状态管理
+- `src/sources.js`：多类型获取器实现
 - `src/ai-translate.js`：Anthropic 兼容翻译客户端
 - `src/config.js`：配置加载（含 `.env`）
 - `src/build-pages.js`：静态页面构建

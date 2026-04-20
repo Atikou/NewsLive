@@ -262,7 +262,7 @@ async function crawlMarkdownLinkedPages(source, timeoutMs) {
         };
       } catch {
         return {
-          title: `无法抓取页面: ${link}`,
+          title: `无法获取页面: ${link}`,
           url: link,
           source: source.name,
           fetchedAt: now
@@ -344,25 +344,73 @@ async function crawlSingleSource(source, timeoutMs) {
   throw new Error(`不支持的来源类型: ${source.type} (${source.id})`);
 }
 
+function classifySourceHealthByError(errorMessage) {
+  const message = String(errorMessage || "").toLowerCase();
+  if (
+    message.includes("fetch failed") ||
+    message.includes("http ") ||
+    message.includes("timed out") ||
+    message.includes("timeout") ||
+    message.includes("econn") ||
+    message.includes("enotfound") ||
+    message.includes("net::")
+  ) {
+    return "failed";
+  }
+  return "other";
+}
+
 export async function crawlAllSources({ sources, requestTimeoutMs }) {
   const results = await Promise.allSettled(
     sources.map((source) => crawlSingleSource(source, requestTimeoutMs))
   );
   const items = [];
   const errors = [];
+  const sourceResults = [];
+  const checkedAt = new Date().toISOString();
 
   for (let index = 0; index < results.length; index += 1) {
     const result = results[index];
     const source = sources[index];
     if (result.status === "fulfilled") {
-      items.push(...result.value);
+      const sourceItems = Array.isArray(result.value) ? result.value : [];
+      items.push(...sourceItems);
+      if (sourceItems.length > 0) {
+        sourceResults.push({
+          id: source.id,
+          name: source.name,
+          status: "success",
+          itemCount: sourceItems.length,
+          errorMessage: "",
+          checkedAt
+        });
+      } else {
+        sourceResults.push({
+          id: source.id,
+          name: source.name,
+          status: "other",
+          itemCount: 0,
+          errorMessage: "连接成功，但未获取到内容",
+          checkedAt
+        });
+      }
       continue;
     }
-    errors.push(`${source.name}: ${result.reason?.message ?? "抓取失败"}`);
+    const errorMessage = result.reason?.message ?? "获取失败";
+    errors.push(`${source.name}: ${errorMessage}`);
+    sourceResults.push({
+      id: source.id,
+      name: source.name,
+      status: classifySourceHealthByError(errorMessage),
+      itemCount: 0,
+      errorMessage,
+      checkedAt
+    });
   }
 
   return {
     items: collectUniqueByKey(items, (item) => `${item.title}|${item.url}`),
-    errors
+    errors,
+    sourceResults
   };
 }

@@ -17,6 +17,16 @@ export function renderStaticPage(payload) {
     <style>
       body { margin: 0; font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #f8fafc; color: #0f172a; }
       main { width: min(1100px, 94vw); margin: 24px auto 48px; }
+      .main-with-health { width: min(1400px, 96vw); }
+      .health-toggle-row { display: flex; justify-content: flex-start; margin-bottom: 10px; }
+      .health-toggle-btn { font-size: 13px; padding: 6px 10px; }
+      .layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start; }
+      .layout.health-expanded { grid-template-columns: 320px minmax(0, 1fr); }
+      @media (max-width: 980px) { .layout { grid-template-columns: 1fr; } }
+      .health-sidebar { display: none; }
+      .layout.health-expanded .health-sidebar { display: block; }
+      .news-column { width: min(1100px, 100%); justify-self: center; }
+      .layout.health-expanded .news-column { justify-self: stretch; }
       .panel { background: #ffffff; border: 1px solid #dbeafe; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
       .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
       button,input { border: 1px solid #cbd5e1; border-radius: 8px; background: #ffffff; color: #0f172a; padding: 8px 12px; }
@@ -27,33 +37,65 @@ export function renderStaticPage(payload) {
       .tag { border-radius: 999px; font-size: 12px; padding: 2px 8px; border: 1px solid #cbd5e1; color: #334155; margin-right: 6px; }
       .priority { border-color: #f59e0b; color: #92400e; }
       a { color: #2563eb; text-decoration: none; }
+      .health-filter { display: flex; flex-wrap: wrap; gap: 6px; }
+      .health-filter button { font-size: 13px; padding: 6px 10px; }
+      .health-item { border: 1px solid #e2e8f0; border-radius: 10px; padding: 8px 10px; margin-top: 8px; background: #fff; }
+      .health-item-title { display: flex; align-items: center; gap: 6px; font-size: 14px; }
+      .health-item-error { margin-top: 6px; color: #b91c1c; font-size: 12px; white-space: pre-wrap; word-break: break-word; }
+      .health-list { max-height: 58vh; overflow: auto; padding-right: 4px; }
+      .top-btn { position: fixed; right: 20px; bottom: 20px; z-index: 1000; border: 1px solid #94a3b8; border-radius: 999px; background: #ffffff; color: #0f172a; padding: 8px 12px; font-size: 12px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.16); opacity: 0; pointer-events: none; transition: opacity 0.2s ease; }
+      .top-btn.show { opacity: 1; pointer-events: auto; }
     </style>
   </head>
   <body>
     <main>
       <h1>NewsLive（GitHub Pages）</h1>
-      <div class="panel">
-        <div class="row" style="justify-content: space-between">
-          <div class="row" id="keywordButtons"></div>
-          <input id="searchInput" placeholder="搜索标题..." />
-        </div>
-        <div id="status" class="meta"></div>
+      <div class="health-toggle-row">
+        <button id="healthToggleBtn" class="health-toggle-btn">展开源检测</button>
       </div>
-      <div class="panel">
-        <div id="list"></div>
+      <div class="layout" id="layoutRoot">
+        <aside class="health-sidebar">
+          <section class="panel">
+            <div style="font-weight: 600; margin-bottom: 8px">源健康检查</div>
+            <div id="healthSummary" class="meta" style="margin-bottom: 8px"></div>
+            <div id="healthFilters" class="health-filter"></div>
+            <div id="healthList" class="health-list"></div>
+          </section>
+        </aside>
+        <div class="news-column">
+          <div class="panel">
+            <div class="row" style="justify-content: space-between">
+              <div class="row" id="keywordButtons"></div>
+              <input id="searchInput" placeholder="搜索标题..." />
+            </div>
+            <div id="status" class="meta"></div>
+          </div>
+          <div class="panel">
+            <div id="list"></div>
+          </div>
+        </div>
       </div>
     </main>
+    <button id="topBtn" class="top-btn" aria-label="回到顶部">TOP</button>
 
     <script>
       const state = {
         data: ${serialized},
         selectedKeyword: "__ALL__",
-        search: ""
+        search: "",
+        sourceHealthFilter: "__ALL__",
+        sourceHealthExpanded: false
       };
       const keywordButtons = document.getElementById("keywordButtons");
       const listEl = document.getElementById("list");
       const statusEl = document.getElementById("status");
       const searchInput = document.getElementById("searchInput");
+      const healthSummaryEl = document.getElementById("healthSummary");
+      const healthFiltersEl = document.getElementById("healthFilters");
+      const healthListEl = document.getElementById("healthList");
+      const healthToggleBtn = document.getElementById("healthToggleBtn");
+      const layoutRoot = document.getElementById("layoutRoot");
+      const topBtn = document.getElementById("topBtn");
 
       function formatDate(value) {
         if (!value) return "暂无";
@@ -76,9 +118,53 @@ export function renderStaticPage(payload) {
         const d = state.data;
         statusEl.textContent =
           "最近构建: " + formatDate(d.generatedAt) +
-          " | 上次抓取: " + formatDate(d.lastFetchAt) +
-          " | 下次抓取(计划): " + formatDate(d.nextFetchAt) +
+          " | 上次获取: " + formatDate(d.lastFetchAt) +
+          " | 下次获取(计划): " + formatDate(d.nextFetchAt) +
           " | 总条数: " + ((d.items || []).length);
+      }
+
+      function getHealthLabel(status) {
+        if (status === "success") return "🟢 连接成功";
+        if (status === "failed") return "🔴 连接失败";
+        return "🟠 其他问题";
+      }
+
+      function renderHealthPanel() {
+        const sourceHealth = state.data.sourceHealth || [];
+        const summary = state.data.sourceHealthSummary || { success: 0, failed: 0, other: 0 };
+        healthSummaryEl.textContent = \`总数 \${sourceHealth.length} | 🟢 \${summary.success || 0} | 🔴 \${summary.failed || 0} | 🟠 \${summary.other || 0}\`;
+        const filters = [
+          { id: "__ALL__", label: "全部" },
+          { id: "success", label: "🟢 成功" },
+          { id: "failed", label: "🔴 失败" },
+          { id: "other", label: "🟠 其他" }
+        ];
+        healthFiltersEl.innerHTML = filters
+          .map((f) => \`<button data-health-filter="\${f.id}" class="\${state.sourceHealthFilter === f.id ? "active" : ""}">\${f.label}</button>\`)
+          .join("");
+        for (const btn of healthFiltersEl.querySelectorAll("button[data-health-filter]")) {
+          btn.addEventListener("click", () => {
+            state.sourceHealthFilter = btn.getAttribute("data-health-filter");
+            renderHealthPanel();
+          });
+        }
+        const filtered = sourceHealth.filter((item) => state.sourceHealthFilter === "__ALL__" || item.status === state.sourceHealthFilter);
+        healthListEl.innerHTML = filtered.length
+          ? filtered.map((item) => \`
+              <article class="health-item">
+                <div class="health-item-title">\${getHealthLabel(item.status)} <strong>\${item.name}</strong></div>
+                <div class="meta">获取条数: \${item.itemCount || 0} | 检查时间: \${formatDate(item.checkedAt)}</div>
+                \${item.errorMessage && item.status !== "success" ? \`<div class="health-item-error">\${item.errorMessage}</div>\` : ""}
+              </article>
+            \`).join("")
+          : '<div class="meta">当前筛选下没有结果</div>';
+      }
+
+      function renderLayout() {
+        const expanded = state.sourceHealthExpanded;
+        layoutRoot.classList.toggle("health-expanded", expanded);
+        healthToggleBtn.textContent = expanded ? "收起源检测" : "展开源检测";
+        document.querySelector("main").classList.toggle("main-with-health", expanded);
       }
 
       function renderList() {
@@ -94,7 +180,7 @@ export function renderStaticPage(payload) {
           <article class="item">
             <div><a href="\${item.url}" target="_blank" rel="noopener noreferrer">\${item.titleZh || item.title}</a></div>
             \${item.titleZh && item.titleZh !== item.title ? '<div class="title-original">原文: ' + item.title + '</div>' : ""}
-            <div class="meta">来源: \${item.source} | 抓取时间: \${formatDate(item.fetchedAt)}</div>
+            <div class="meta">来源: \${item.source} | 发布时间: \${formatDate(item.pubDate || item.fetchedAt)}</div>
             <div style="margin-top: 8px;">
               \${(item.matchedKeywords || []).map((k) => '<span class="tag">' + k + '</span>').join("")}
               \${(item.matchedPriorityKeywords || []).map((k) => '<span class="tag priority">重点:' + k + '</span>').join("")}
@@ -104,8 +190,20 @@ export function renderStaticPage(payload) {
       }
 
       searchInput.addEventListener("input", (e) => { state.search = e.target.value; renderList(); });
+      healthToggleBtn.addEventListener("click", () => {
+        state.sourceHealthExpanded = !state.sourceHealthExpanded;
+        renderLayout();
+      });
+      topBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      window.addEventListener("scroll", () => {
+        topBtn.classList.toggle("show", window.scrollY > 240);
+      });
       buildKeywordButtons();
       renderStatus();
+      renderHealthPanel();
+      renderLayout();
       renderList();
     </script>
   </body>
@@ -115,7 +213,7 @@ export function renderStaticPage(payload) {
 export function renderSummaryText(payload) {
   return [
     `生成时间: ${payload.generatedAt}`,
-    `抓取条数: ${(payload.items || []).length}`,
+    `获取条数: ${(payload.items || []).length}`,
     `错误数: ${(payload.errors || []).length}`
   ]
     .map((line) => escapeHtml(line))

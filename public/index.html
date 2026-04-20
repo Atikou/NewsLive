@@ -27,6 +27,45 @@
         width: min(1100px, 94vw);
         margin: 24px auto 48px;
       }
+      .main-with-health {
+        width: min(1400px, 96vw);
+      }
+      .health-toggle-row {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+      }
+      .health-toggle-btn {
+        font-size: 13px;
+        padding: 6px 10px;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+        align-items: start;
+      }
+      .layout.health-expanded {
+        grid-template-columns: 320px minmax(0, 1fr);
+      }
+      @media (max-width: 980px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+      }
+      .health-sidebar {
+        display: none;
+      }
+      .layout.health-expanded .health-sidebar {
+        display: block;
+      }
+      .news-column {
+        width: min(1100px, 100%);
+        justify-self: center;
+      }
+      .layout.health-expanded .news-column {
+        justify-self: stretch;
+      }
       h1 {
         margin: 0 0 8px;
       }
@@ -107,35 +146,108 @@
         color: var(--muted);
         font-size: 13px;
       }
+      .health-filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .health-filter button {
+        font-size: 13px;
+        padding: 6px 10px;
+      }
+      .health-item {
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 8px 10px;
+        margin-top: 8px;
+        background: #fff;
+      }
+      .health-item-title {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 14px;
+      }
+      .health-item-error {
+        margin-top: 6px;
+        color: #b91c1c;
+        font-size: 12px;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+      .health-list {
+        max-height: 58vh;
+        overflow: auto;
+        padding-right: 4px;
+      }
+      .top-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 1000;
+        border: 1px solid #94a3b8;
+        border-radius: 999px;
+        background: #ffffff;
+        color: #0f172a;
+        padding: 8px 12px;
+        font-size: 12px;
+        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.16);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+      }
+      .top-btn.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
     </style>
   </head>
   <body>
     <main>
       <h1>NewsLive</h1>
-      <div class="sub">每30分钟自动抓取，最短2分钟可手动刷新一次</div>
+      <div class="sub">每30分钟自动获取，最短2分钟可手动刷新一次</div>
+      <div class="health-toggle-row">
+        <button id="healthToggleBtn" class="health-toggle-btn">展开源检测</button>
+      </div>
 
-      <section class="panel">
-        <div class="row" style="justify-content: space-between">
-          <div class="row" id="keywordButtons"></div>
-          <div class="row">
-            <input id="searchInput" placeholder="搜索标题..." />
-            <button id="refreshBtn">立即抓取</button>
-          </div>
+      <div class="layout" id="layoutRoot">
+        <aside class="health-sidebar">
+          <section class="panel">
+            <div style="font-weight: 600; margin-bottom: 8px">源健康检查</div>
+            <div id="healthSummary" class="meta" style="margin-bottom: 8px"></div>
+            <div id="healthFilters" class="health-filter"></div>
+            <div id="healthList" class="health-list"></div>
+          </section>
+        </aside>
+
+        <div class="news-column">
+          <section class="panel">
+            <div class="row" style="justify-content: space-between">
+              <div class="row" id="keywordButtons"></div>
+              <div class="row">
+                <input id="searchInput" placeholder="搜索标题..." />
+                <button id="refreshBtn">立即获取</button>
+              </div>
+            </div>
+            <div id="status"></div>
+          </section>
+
+          <section class="panel">
+            <div id="list"></div>
+          </section>
         </div>
-        <div id="status"></div>
-      </section>
-
-      <section class="panel">
-        <div id="list"></div>
-      </section>
+      </div>
     </main>
+    <button id="topBtn" class="top-btn" aria-label="回到顶部">TOP</button>
 
     <script>
       const state = {
         data: null,
         selectedKeyword: "__ALL__",
         search: "",
-        pollTimer: null
+        pollTimer: null,
+        sourceHealthFilter: "__ALL__",
+        sourceHealthExpanded: false
       };
 
       const keywordButtons = document.getElementById("keywordButtons");
@@ -143,6 +255,12 @@
       const statusEl = document.getElementById("status");
       const refreshBtn = document.getElementById("refreshBtn");
       const searchInput = document.getElementById("searchInput");
+      const healthSummaryEl = document.getElementById("healthSummary");
+      const healthFiltersEl = document.getElementById("healthFilters");
+      const healthListEl = document.getElementById("healthList");
+      const healthToggleBtn = document.getElementById("healthToggleBtn");
+      const layoutRoot = document.getElementById("layoutRoot");
+      const topBtn = document.getElementById("topBtn");
 
       function formatDate(value) {
         if (!value) return "暂无";
@@ -171,9 +289,72 @@
         if (!data) return;
         const errors = data.errors && data.errors.length ? ` | 错误: ${data.errors.join("; ")}` : "";
         statusEl.textContent =
-          `上次抓取: ${formatDate(data.lastFetchAt)} | 下次抓取: ${formatDate(data.nextFetchAt)} | 总条数: ${
+          `上次获取: ${formatDate(data.lastFetchAt)} | 下次获取: ${formatDate(data.nextFetchAt)} | 总条数: ${
             data.items?.length || 0
           } | 推送: ${data.pushEnabled ? "开启" : "关闭"}${errors}`;
+      }
+
+      function getHealthLabel(status) {
+        if (status === "success") return "🟢 连接成功";
+        if (status === "failed") return "🔴 连接失败";
+        return "🟠 其他问题";
+      }
+
+      function renderHealthPanel() {
+        const sourceHealth = state.data?.sourceHealth || [];
+        const summary = state.data?.sourceHealthSummary || { success: 0, failed: 0, other: 0 };
+        healthSummaryEl.textContent = `总数 ${sourceHealth.length} | 🟢 ${summary.success || 0} | 🔴 ${
+          summary.failed || 0
+        } | 🟠 ${summary.other || 0}`;
+
+        const filters = [
+          { id: "__ALL__", label: "全部" },
+          { id: "success", label: "🟢 成功" },
+          { id: "failed", label: "🔴 失败" },
+          { id: "other", label: "🟠 其他" }
+        ];
+        healthFiltersEl.innerHTML = filters
+          .map(
+            (f) =>
+              `<button data-health-filter="${f.id}" class="${
+                state.sourceHealthFilter === f.id ? "active" : ""
+              }">${f.label}</button>`
+          )
+          .join("");
+        for (const btn of healthFiltersEl.querySelectorAll("button[data-health-filter]")) {
+          btn.addEventListener("click", () => {
+            state.sourceHealthFilter = btn.getAttribute("data-health-filter");
+            renderHealthPanel();
+          });
+        }
+
+        const filtered = sourceHealth.filter(
+          (item) => state.sourceHealthFilter === "__ALL__" || item.status === state.sourceHealthFilter
+        );
+        healthListEl.innerHTML = filtered.length
+          ? filtered
+              .map(
+                (item) => `
+          <article class="health-item">
+            <div class="health-item-title">${getHealthLabel(item.status)} <strong>${item.name}</strong></div>
+            <div class="meta">获取条数: ${item.itemCount || 0} | 检查时间: ${formatDate(item.checkedAt)}</div>
+            ${
+              item.errorMessage && item.status !== "success"
+                ? `<div class="health-item-error">${item.errorMessage}</div>`
+                : ""
+            }
+          </article>
+        `
+              )
+              .join("")
+          : "<div class='meta'>当前筛选下没有结果</div>";
+      }
+
+      function renderLayout() {
+        const expanded = state.sourceHealthExpanded;
+        layoutRoot.classList.toggle("health-expanded", expanded);
+        healthToggleBtn.textContent = expanded ? "收起源检测" : "展开源检测";
+        document.querySelector("main").classList.toggle("main-with-health", expanded);
       }
 
       function renderList() {
@@ -209,7 +390,7 @@
                 ? `<div class="title-original">原文: ${item.title}</div>`
                 : ""
             }
-            <div class="meta">来源：${item.source} | 抓取时间：${formatDate(item.fetchedAt)}</div>
+            <div class="meta">来源：${item.source} | 发布时间：${formatDate(item.pubDate || item.fetchedAt)}</div>
             <div class="tags">
               ${(item.matchedKeywords || []).map((word) => `<span class="tag">${word}</span>`).join("")}
               ${(item.matchedPriorityKeywords || [])
@@ -227,6 +408,8 @@
         state.data = await response.json();
         buildKeywordButtons();
         renderStatus();
+        renderHealthPanel();
+        renderLayout();
         renderList();
       }
 
@@ -261,6 +444,16 @@
       searchInput.addEventListener("input", (event) => {
         state.search = event.target.value;
         renderList();
+      });
+      healthToggleBtn.addEventListener("click", () => {
+        state.sourceHealthExpanded = !state.sourceHealthExpanded;
+        renderLayout();
+      });
+      topBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      window.addEventListener("scroll", () => {
+        topBtn.classList.toggle("show", window.scrollY > 240);
       });
 
       loadState();
