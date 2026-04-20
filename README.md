@@ -58,7 +58,7 @@ npm start
 
 默认地址：`http://localhost:5178`
 
-### 4) 生成静态页面（用于 Pages）
+### 4) 生成静态页面
 
 ```bash
 npm run build:pages
@@ -90,14 +90,13 @@ Linux
 获取源由 `sources.yaml` 驱动。当前仓库示例包含：
 
 - AP News
+- AP Top News
 - Reuters World News（RSS）
+- Guardian World（RSS）
+- Google News（RSS）
 - Hacker News（HTML / RSS / Algolia JSON）
 - Lobsters RSS
 - ProPublica
-
-> 说明：Reuters 在部分网络环境下可能不可达，建议结合页面左侧“源健康检查”查看实时连接状态与错误信息。
->
-> 关于 Google News：更适合作为“发现新闻入口”，再回抓原始发布媒体站点；不建议把 Google News 结果页/首页作为主抓取源。
 
 支持类型与常用字段：
 
@@ -126,8 +125,6 @@ Linux
 - `push.*`：推送开关、重复间隔、黑名单、消息长度上限等
 - `ui.poll_interval_seconds`：前端轮询间隔
 
-> 注意：AI 翻译与推送 URL 已改为仅从环境变量读取，不再从 `setting.yaml` 读取密钥/地址。
-
 ## 环境变量（`.env`）
 
 - `ANTHROPIC_API_KEY`：AI 翻译 API Key（必填，启用翻译时）
@@ -136,6 +133,25 @@ Linux
 - `DAY_APP_PUSH_URL`：day.app 推送地址（可选）
 - `NTFY_PUSH_URL`：ntfy 推送地址（可选）
 - `PORT`：本地服务端口（默认 5178）
+
+## 源连通性测试（支持代理）
+
+可以不启动服务，单独测试所有源连接状态：
+
+```bash
+npm run test:sources
+```
+
+若需代理，请在项目根目录新建 `proxy.local.json`（该文件已加入 `.gitignore`，不会上传）：
+
+```json
+{
+  "http": "http://127.0.0.1:7897",
+  "https": "http://127.0.0.1:7897"
+}
+```
+
+可直接复制 `proxy.local.example.json` 后改名为 `proxy.local.json` 使用。
 
 ## 获取与推送行为细节
 
@@ -185,6 +201,54 @@ Linux
 - `ANTHROPIC_API_KEY`（启用翻译时必填）
 - `ANTHROPIC_API_URL`（例如 `https://api.deepseek.com/anthropic/v1/messages`）
 - `ANTHROPIC_MODEL`（例如 `deepseek-chat`）
+
+## 服务器运行（常驻部署）
+
+本项目也可以直接在服务器常驻运行。
+
+### 最小部署步骤
+
+1. 安装 Node.js（建议 20+）
+2. 拉取项目代码并安装依赖：
+
+```bash
+npm ci
+```
+
+3. 配置环境变量（`.env`，参考 `.env.example`）  
+4. 启动服务：
+
+```bash
+npm start
+```
+
+默认端口为 `5178`，可通过环境变量覆盖：
+
+```bash
+PORT=8080 npm start
+```
+
+### 使用 PM2 守护（推荐）
+
+```bash
+npm install -g pm2
+pm2 start npm --name newslive -- start
+pm2 save
+pm2 startup
+```
+
+常用命令：
+
+```bash
+pm2 status
+pm2 logs newslive
+pm2 restart newslive
+```
+
+### systemd（可选）
+
+若不用 PM2，也可用 systemd 守护 `node src/server.js`。  
+建议在 service 中设置 `WorkingDirectory` 为项目目录，并加载 `.env` 变量。
 
 ## 目录结构（关键文件）
 

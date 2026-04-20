@@ -6,10 +6,24 @@ sources:
     min_title_length: 8
     max_items: 120
 
+  - id: ap_top_news
+    name: AP Top News
+    type: html_links
+    url: https://apnews.com/hub/ap-top-news
+    min_title_length: 8
+    max_items: 120
+
   - id: reuters_world_rss
     name: Reuters World News
     type: rss
     url: https://www.reuters.com/world/rss
+    min_title_length: 6
+    max_items: 120
+
+  - id: guardian_world_rss
+    name: Guardian World
+    type: rss
+    url: https://www.theguardian.com/world/rss
     min_title_length: 6
     max_items: 120
 

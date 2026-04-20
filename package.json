@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
-    "build:pages": "node src/build-pages.js"
+    "build:pages": "node src/build-pages.js",
+    "test:sources": "node src/test-sources.js"
   },
   "engines": {
     "node": ">=20"
