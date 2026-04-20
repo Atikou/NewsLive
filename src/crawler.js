@@ -38,6 +38,11 @@ function getDisplayTitle(item) {
   return (item.titleZh || item.title || "").trim();
 }
 
+function getPushTranslationPriority(item) {
+  const translatedTitle = String(item?.titleZh || "").trim();
+  return translatedTitle ? 0 : 1;
+}
+
 function getLocalDateKey(date = new Date()) {
   const year = date.getFullYear();
   const month = String(date.getMonth() + 1).padStart(2, "0");
@@ -531,7 +536,13 @@ export class NewsCrawler {
       let didAnyPushSuccess = false;
       const pushErrorMessages = [];
       for (const tag of priorityKeywords) {
-        const tagItems = tagToItems.get(tag) || [];
+        const tagItems = (tagToItems.get(tag) || []).slice().sort((a, b) => {
+          const priorityDiff = getPushTranslationPriority(a) - getPushTranslationPriority(b);
+          if (priorityDiff !== 0) {
+            return priorityDiff;
+          }
+          return getDisplayTitle(a).localeCompare(getDisplayTitle(b), "zh-CN");
+        });
         if (!tagItems.length) continue;
         const tagChunks = splitByMessageLength(
           tag,
