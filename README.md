@@ -8,7 +8,7 @@ NewsLive 是一个可本地运行、可自动化部署到 GitHub Pages 的新闻
 - 多源获取：支持 `html_links`、`browser_html_links`、`rss`、`json_items`、`markdown_link_pages`
 - 关键词体系：普通关键词筛选 + 重点关键词推送
 - AI 翻译：获取后将英文标题翻译为中文，保留原标题
-- 时效控制：仅保留 `pubDate` 为“本地当天”的新闻
+- 时效控制：仅保留 `pubDate` 为配置时区下「当天」的新闻
 - 推送去重：同一条重点内容支持重复推送间隔控制
 - 推送拆包：按消息体积拆分；day.app 额外做 URL 长度保护，避免 431
 - 双形态页面：
@@ -117,10 +117,11 @@ Linux
 
 主要配置项：
 
+- `timezone`：业务时区（[IANA 时区名](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)，如 `Asia/Shanghai`）。用于 `pause_time_ranges` 的钟点、「仅当日」筛选、`data/news-days.json` 的日期键、新闻保留清理的日期边界。留空或无效值时回退为运行环境的系统本地时区。环境变量 `NEWS_TIMEZONE` 可覆盖此项（例如在 CI 与本地共用同一仓库时显式指定）。
 - `fetch_interval_minutes`：自动获取间隔（分钟）
 - `min_fetch_interval_minutes`：手动/自动获取最短间隔（分钟）
 - `request_timeout_seconds`：单请求超时（秒）
-- `pause_time_ranges`：暂停时间段（格式 `时-分 to 时-分`，支持跨天）
+- `pause_time_ranges`：暂停时间段（格式 `时-分 to 时-分`，支持跨天；钟点按 `timezone` 解释）
 - `news_retention.cleanup_interval_days`：每多少天清理一次新闻（保留最近 N 天）
 - `news_retention.archive_on_cleanup`：清理时是否归档被清理新闻
 - `ai_translation.*`：翻译开关、批量大小、超时、请求头等（不含 key）
@@ -129,6 +130,7 @@ Linux
 
 ## 环境变量（`.env`）
 
+- `NEWS_TIMEZONE`：可选，覆盖 `setting.yaml` 中的 `timezone`（IANA 名称）
 - `ANTHROPIC_API_KEY`：AI 翻译 API Key（必填，启用翻译时）
 - `ANTHROPIC_API_URL`：Anthropic Messages 兼容接口地址
 - `ANTHROPIC_MODEL`：模型名
@@ -165,12 +167,18 @@ npm run archive:clear
 
 ## 获取与推送行为细节
 
+### 时区（`timezone` / `NEWS_TIMEZONE`）
+
+GitHub Actions 等 Linux 环境默认系统时区多为 **UTC**，若依赖「系统本地」而不配置 `timezone`，容易出现与你在 Windows/macOS 上本地运行时不一致的情况（例如同一 `pause_time_ranges` 命中窗口不同、或「当天」判定不同）。
+
+建议在 `setting.yaml` 中设置 `timezone`（例如 `Asia/Shanghai`），或在 CI 的 Secrets/Variables 中通过环境变量 `NEWS_TIMEZONE` 注入相同值，使本地与 Action 行为一致。
+
 ### 仅保留当日新闻
 
 获取后会检查每条新闻的 `pubDate`：
 
 - 无 `pubDate` 或无法解析：过滤
-- `pubDate` 非本地当天：过滤
+- `pubDate` 在配置的 `timezone` 下非「当天」：过滤
 
 被过滤数量会体现在状态里（`filteredOutByDateCount`）。  
 同一天内已抓取过的新闻不会重复参与“新增处理/推送”，但页面会展示“当天累计全部新闻”。
@@ -221,9 +229,9 @@ npm run archive:clear
 - `ANTHROPIC_API_URL`（例如 `https://api.deepseek.com/anthropic/v1/messages`）
 - `ANTHROPIC_MODEL`（例如 `deepseek-chat`）
 
-## 服务器运行（常驻部署）
+## 服务器运行
 
-本项目也可以直接在服务器常驻运行。
+本项目也可以直接在部署在服务器运行。
 
 ### 最小部署步骤
 

@@ -10,6 +10,15 @@ const DOCS_DIR = path.resolve(process.cwd(), "docs");
 async function main() {
   const crawler = new NewsCrawler();
   const result = await crawler.run("pages_build");
+  if (result?.skipped && result.reason === "pause_time_range") {
+    // 暂停时 crawler 未抓取，state 仍为初始空列表；不要覆盖已提交的 docs/
+    // （否则 CI 在 UTC 下误命中暂停窗口时会部署空页面）。
+    // eslint-disable-next-line no-console
+    console.log(
+      `Pages build skipped (${result.reason}: ${result.range}). Leaving docs/ unchanged.`
+    );
+    return;
+  }
   const state = crawler.getState();
   const payload = {
     ...state,

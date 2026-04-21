@@ -1,3 +1,9 @@
+# 业务时区（IANA，例如 Asia/Shanghai、UTC、America/New_York）
+# 用于：pause_time_ranges、「仅当日新闻」的日历日、按日归档键、news 保留清理的日期边界。
+# 环境变量 NEWS_TIMEZONE 可覆盖本项（便于 CI 不写死机器时区）。
+# 留空或无效值则回退为运行环境的系统本地时区。
+timezone: Asia/Shanghai
+
 # 获取间隔（分钟）
 fetch_interval_minutes: 30
 

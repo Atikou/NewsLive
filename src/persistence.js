@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { getLocalDateKey, oldestKeptDateKey } from "./zoned-time.js";
 
 const DATA_DIR = path.resolve(process.cwd(), "data");
 const NOTIFY_HISTORY_FILE = path.resolve(DATA_DIR, "notified-history.json");
@@ -94,20 +95,18 @@ export async function saveNewsDays(days) {
   );
 }
 
-export function cleanupNewsDays(days, cleanupIntervalDays, now = new Date()) {
+export function cleanupNewsDays(days, cleanupIntervalDays, now = new Date(), timeZone = "") {
   if (!days || typeof days !== "object") {
     return { days: {}, removedItems: [] };
   }
   const keepDays = Math.max(1, Number(cleanupIntervalDays) || 1);
-  const cutoff = new Date(now);
-  cutoff.setHours(0, 0, 0, 0);
-  cutoff.setDate(cutoff.getDate() - (keepDays - 1));
+  const todayKey = getLocalDateKey(now, timeZone);
+  const oldestKeep = oldestKeptDateKey(todayKey, keepDays);
 
   const cleanedDays = {};
   const removedItems = [];
   for (const [dateKey, items] of Object.entries(days)) {
-    const dateObj = new Date(`${dateKey}T00:00:00`);
-    if (!Number.isFinite(dateObj.getTime()) || dateObj < cutoff) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateKey) || dateKey < oldestKeep) {
       if (Array.isArray(items)) {
         removedItems.push(...items);
       }

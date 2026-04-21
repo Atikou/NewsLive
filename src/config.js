@@ -2,6 +2,7 @@ import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { parse } from "yaml";
+import { validateIanaTimeZone } from "./zoned-time.js";
 
 const KEYWORD_FILE = path.resolve(process.cwd(), "keywords.yaml");
 const SETTINGS_FILE = path.resolve(process.cwd(), "setting.yaml");
@@ -179,10 +180,15 @@ export async function loadSettings() {
     ? raw.pause_time_ranges
     : pushConfig.pause_time_ranges;
 
+  const timezoneRaw = (process.env.NEWS_TIMEZONE || raw.timezone || "").toString().trim();
+  const timezone = validateIanaTimeZone(timezoneRaw);
+
   return {
     fetchIntervalMinutes: toPositiveInt(raw.fetch_interval_minutes, 30),
     minFetchIntervalMinutes: toPositiveInt(raw.min_fetch_interval_minutes, 2),
     requestTimeoutSeconds: toPositiveInt(raw.request_timeout_seconds, 15),
+    /** IANA 时区名；空字符串表示使用运行环境的系统本地时区（`Date` 本地分量）。 */
+    timezone,
     pauseTimeRanges: parsePauseTimeRanges(pauseTimeRangesRaw),
     newsRetention: {
       cleanupIntervalDays: toPositiveInt(newsRetentionConfig.cleanup_interval_days, 7),

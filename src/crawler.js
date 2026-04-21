@@ -12,6 +12,12 @@ import {
   saveNotifyHistory
 } from "./persistence.js";
 import { translateItemsWithAnthropic } from "./ai-translate.js";
+import {
+  buildPauseRangeEndAt,
+  getLocalDateKey,
+  getMinutesOfDayInZone,
+  isSameZonedCalendarDay
+} from "./zoned-time.js";
 
 function hashItem(item) {
   return crypto.createHash("sha1").update(`${item.title}|${item.url}`).digest("hex");
@@ -43,13 +49,6 @@ function getPushTranslationPriority(item) {
   return translatedTitle ? 0 : 1;
 }
 
-function getLocalDateKey(date = new Date()) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
 function parsePublishedDate(item) {
   const value = item?.pubDate;
   if (!value) return null;
@@ -58,14 +57,6 @@ function parsePublishedDate(item) {
     return null;
   }
   return date;
-}
-
-function isSameLocalDay(a, b) {
-  return (
-    a.getFullYear() === b.getFullYear() &&
-    a.getMonth() === b.getMonth() &&
-    a.getDate() === b.getDate()
-  );
 }
 
 function escapeMarkdownText(text) {
@@ -203,10 +194,6 @@ function fitDayAppUrl(pushUrl, title, body, maxLength) {
   return null;
 }
 
-function getMinutesOfDay(date) {
-  return date.getHours() * 60 + date.getMinutes();
-}
-
 function isMinuteInRange(currentMinutes, startMinutes, endMinutes) {
   if (startMinutes < endMinutes) {
     return currentMinutes >= startMinutes && currentMinutes < endMinutes;
@@ -214,25 +201,13 @@ function isMinuteInRange(currentMinutes, startMinutes, endMinutes) {
   return currentMinutes >= startMinutes || currentMinutes < endMinutes;
 }
 
-function buildRangeEndDate(now, startMinutes, endMinutes) {
-  const endDate = new Date(now);
-  endDate.setSeconds(0, 0);
-  endDate.setHours(Math.floor(endMinutes / 60), endMinutes % 60, 0, 0);
-  const currentMinutes = getMinutesOfDay(now);
-  const isCrossDay = startMinutes > endMinutes;
-  if ((isCrossDay && currentMinutes >= startMinutes) || endDate.getTime() <= now.getTime()) {
-    endDate.setDate(endDate.getDate() + 1);
-  }
-  return endDate;
-}
-
-function getMatchedPauseRange(now, ranges) {
-  const currentMinutes = getMinutesOfDay(now);
+function getMatchedPauseRange(now, ranges, timeZone) {
+  const currentMinutes = getMinutesOfDayInZone(now, timeZone);
   for (const range of ranges || []) {
     if (isMinuteInRange(currentMinutes, range.startMinutes, range.endMinutes)) {
       return {
         ...range,
-        endAt: buildRangeEndDate(now, range.startMinutes, range.endMinutes)
+        endAt: buildPauseRangeEndAt(now, range.startMinutes, range.endMinutes, timeZone)
       };
     }
   }
@@ -322,7 +297,8 @@ export class NewsCrawler {
         other: 0
       },
       todayItemCount: 0,
-      archiveItemCount: 0
+      archiveItemCount: 0,
+      timezone: ""
     };
     this.lastAttemptAt = 0;
     this.initialized = false;
@@ -370,6 +346,15 @@ export class NewsCrawler {
     this.state.pauseTimeRanges = (settings.pauseTimeRanges || []).map((range) => range.text);
     this.state.newsCleanupIntervalDays = settings.newsRetention.cleanupIntervalDays;
     this.state.archiveOnCleanup = settings.newsRetention.archiveOnCleanup;
+    this.state.timezone =
+      settings.timezone ||
+      (() => {
+        try {
+          return Intl.DateTimeFormat().resolvedOptions().timeZone;
+        } catch {
+          return "UTC";
+        }
+      })();
     this.state.settingsLoadedAt = new Date().toISOString();
     return settings;
   }
@@ -382,7 +367,7 @@ export class NewsCrawler {
 
     const settings = await this.reloadSettings();
     const now = new Date();
-    const matchedPauseRange = getMatchedPauseRange(now, settings.pauseTimeRanges);
+    const matchedPauseRange = getMatchedPauseRange(now, settings.pauseTimeRanges, settings.timezone);
     if (matchedPauseRange) {
       this.state.pausedRange = matchedPauseRange.text;
       this.state.pausedUntil = matchedPauseRange.endAt.toISOString();
@@ -427,6 +412,7 @@ export class NewsCrawler {
       });
 
       const nowLocal = new Date();
+      const tz = settings.timezone;
       let missingOrInvalidPubDateCount = 0;
       let nonTodayPubDateCount = 0;
       const dateFilteredItems = enriched.filter((item) => {
@@ -435,7 +421,7 @@ export class NewsCrawler {
           missingOrInvalidPubDateCount += 1;
           return false;
         }
-        if (!isSameLocalDay(publishedDate, nowLocal)) {
+        if (!isSameZonedCalendarDay(publishedDate, nowLocal, tz)) {
           nonTodayPubDateCount += 1;
           return false;
         }
@@ -454,7 +440,7 @@ export class NewsCrawler {
           isPriority: matchedPriorityKeywords.length > 0
         };
       });
-      const dateKey = getLocalDateKey(now);
+      const dateKey = getLocalDateKey(nowLocal, tz);
       const currentDayItems = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
       const existingIds = new Set(currentDayItems.map((item) => item.id));
       const todayNewItems = finalItems.filter((item) => !existingIds.has(item.id));
@@ -464,7 +450,8 @@ export class NewsCrawler {
       const { days: cleanedDays, removedItems } = cleanupNewsDays(
         this.newsDays,
         settings.newsRetention.cleanupIntervalDays,
-        now
+        nowLocal,
+        tz
       );
       this.newsDays = cleanedDays;
       const todayAllItemsRaw = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
