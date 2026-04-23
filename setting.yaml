@@ -26,9 +26,11 @@ pause_time_ranges: [
 # 新闻清理与归档
 news_retention:
   # 每多少天执行一次新闻清理（保留最近 N 天）
-  cleanup_interval_days: 3
+  cleanup_interval_days: 1
   # 清理时是否将被清理新闻归档
   archive_on_cleanup: true
+  # 归档（news-archive.json）保留最近多少天；按 archivedAt 优先、否则 publishedAt 与当前时间比较；<=0 表示不按时间裁剪归档
+  archive_retention_days: 7
 
 # AI 标题翻译（Anthropic Messages API 兼容）
 ai_translation:

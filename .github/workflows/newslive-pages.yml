@@ -38,8 +38,10 @@ jobs:
 
       - name: Build pages content
         env:
-          DAY_APP_PUSH_URL: ${{ secrets.DAY_APP_PUSH_URL }}
-          NTFY_PUSH_URL: ${{ secrets.NTFY_PUSH_URL }}
+          # Secrets 与 Variables 同名时优先 Secrets；仅配 Variables 时也能注入推送地址
+          DAY_APP_PUSH_URL: ${{ secrets.DAY_APP_PUSH_URL || vars.DAY_APP_PUSH_URL }}
+          NTFY_PUSH_URL: ${{ secrets.NTFY_PUSH_URL || vars.NTFY_PUSH_URL }}
+          NTFY_BEARER_TOKEN: ${{ secrets.NTFY_BEARER_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_API_URL: ${{ secrets.ANTHROPIC_API_URL }}
           ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
@@ -47,8 +49,8 @@ jobs:
 
       - name: Commit updated crawl data
         run: |
-          if [ -n "$(git status --porcelain docs data/notified-history.json)" ]; then
-            git add docs data/notified-history.json
+          if [ -n "$(git status --porcelain docs data/notified-history.json data/news-days.json)" ]; then
+            git add docs data/notified-history.json data/news-days.json
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "chore: update pages crawl output"

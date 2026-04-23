@@ -80,6 +80,21 @@ function toPositiveInt(value, fallback) {
   return Math.floor(parsed);
 }
 
+/** 归档保留天数：默认 7；<=0 表示不按时间清理归档。 */
+function parseArchiveRetentionDays(raw, defaultDays = 7) {
+  if (raw === undefined || raw === null || raw === "") {
+    return defaultDays;
+  }
+  const n = Number(raw);
+  if (!Number.isFinite(n)) {
+    return defaultDays;
+  }
+  if (n <= 0) {
+    return 0;
+  }
+  return Math.floor(n);
+}
+
 function toStringArray(value) {
   if (!Array.isArray(value)) {
     return [];
@@ -192,7 +207,8 @@ export async function loadSettings() {
     pauseTimeRanges: parsePauseTimeRanges(pauseTimeRangesRaw),
     newsRetention: {
       cleanupIntervalDays: toPositiveInt(newsRetentionConfig.cleanup_interval_days, 7),
-      archiveOnCleanup: toBoolean(newsRetentionConfig.archive_on_cleanup, true)
+      archiveOnCleanup: toBoolean(newsRetentionConfig.archive_on_cleanup, true),
+      archiveRetentionDays: parseArchiveRetentionDays(newsRetentionConfig.archive_retention_days, 7)
     },
     aiTranslation: {
       enabled: toBoolean(aiTranslationConfig.enabled, false),

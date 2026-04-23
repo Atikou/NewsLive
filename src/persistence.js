@@ -172,6 +172,35 @@ export async function clearNewsArchive() {
   await saveNewsArchive([]);
 }
 
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
+/**
+ * 按「归档时间优先，否则发布时间」删除早于 retentionDays 天的归档条目。
+ * @param {number} retentionDays 正整数为保留最近多少天；<=0 的调用方应跳过本函数
+ */
+export function pruneNewsArchiveItems(items, retentionDays, now = new Date()) {
+  if (!Array.isArray(items) || !Number.isFinite(retentionDays) || retentionDays <= 0) {
+    return { items: Array.isArray(items) ? items : [], removed: 0 };
+  }
+  const cutoffMs = now.getTime() - retentionDays * MS_PER_DAY;
+  const kept = [];
+  let removed = 0;
+  for (const item of items) {
+    const raw = (item && (item.archivedAt || item.publishedAt)) || "";
+    const t = new Date(String(raw).trim()).getTime();
+    if (!Number.isFinite(t)) {
+      kept.push(item);
+      continue;
+    }
+    if (t < cutoffMs) {
+      removed += 1;
+    } else {
+      kept.push(item);
+    }
+  }
+  return { items: kept, removed };
+}
+
 export function getNewsDaysPath() {
   return NEWS_DAYS_FILE;
 }

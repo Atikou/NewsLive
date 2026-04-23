@@ -8,6 +8,8 @@ import {
   loadNewsDays,
   cleanupNotifyHistory,
   loadNotifyHistory,
+  pruneNewsArchiveItems,
+  saveNewsArchive,
   saveNewsDays,
   saveNotifyHistory
 } from "./persistence.js";
@@ -167,13 +169,29 @@ function splitByMessageLength(tag, items, maxItemsPerPush, maxMessageChars) {
 }
 
 function buildDayAppFullUrl(pushUrl, title, body) {
+  const t = String(title || "");
+  const b = String(body || "");
   if (pushUrl.includes("{title}") || pushUrl.includes("{body}")) {
     return pushUrl
-      .replaceAll("{title}", encodeURIComponent(title))
-      .replaceAll("{body}", encodeURIComponent(body));
+      .replaceAll("{title}", encodeURIComponent(t))
+      .replaceAll("{body}", encodeURIComponent(b));
   }
-  const separator = pushUrl.includes("?") ? "&" : "?";
-  return `${pushUrl}${separator}title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  // Bark / day.app（Finb）：GET `/:device_key/:title/:body`，路径段需单独编码。
+  // 旧版 `?title=&body=` 在部分自建 Bark 与反代上不可用或行为异常。
+  try {
+    const u = new URL(pushUrl);
+    const pathBase = u.pathname.replace(/\/+$/, "");
+    if (!pathBase || pathBase === "/") {
+      throw new Error("missing device key in path");
+    }
+    const encT = encodeURIComponent(t);
+    const encB = encodeURIComponent(b);
+    const baseUrl = `${u.origin}${pathBase}`;
+    return `${baseUrl}/${encT}/${encB}${u.search}${u.hash}`;
+  } catch {
+    const separator = pushUrl.includes("?") ? "&" : "?";
+    return `${pushUrl}${separator}title=${encodeURIComponent(t)}&body=${encodeURIComponent(b)}`;
+  }
 }
 
 function fitDayAppUrl(pushUrl, title, body, maxLength) {
@@ -219,7 +237,7 @@ async function pushToDayAppUrl(pushUrl, tag, items, maxItemsPerPush, maxMessageC
     return { ok: false, errorMessage: "" };
   }
 
-  // day.app uses GET query params; many gateways reject large URLs with 431.
+  // Bark GET 整条 URL 过长时网关常见 431；在 fitDayAppUrl 内截断 body。
   const MAX_FULL_URL_LENGTH = 3_800;
   const maxLines = Math.min(items.length, maxItemsPerPush);
 
@@ -230,7 +248,10 @@ async function pushToDayAppUrl(pushUrl, tag, items, maxItemsPerPush, maxMessageC
     const fitted = fitDayAppUrl(pushUrl, title, body, MAX_FULL_URL_LENGTH);
     if (fitted) {
       try {
-        const res = await fetch(fitted.fullUrl, { method: "GET" });
+        const res = await fetch(fitted.fullUrl, {
+          method: "GET",
+          headers: { "User-Agent": "NewsLive/1.0" }
+        });
         if (!res.ok) {
           return { ok: false, errorMessage: `day.app push failed (${res.status})` };
         }
@@ -249,12 +270,19 @@ async function pushToNtfyUrl(ntfyUrl, message) {
     return { ok: false, errorMessage: "" };
   }
 
+  const headers = {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "User-Agent": "NewsLive/1.0"
+  };
+  const bearer = (process.env.NTFY_BEARER_TOKEN || "").toString().trim();
+  if (bearer) {
+    headers.Authorization = `Bearer ${bearer}`;
+  }
+
   try {
     const res = await fetch(ntfyUrl, {
       method: "POST",
-      headers: {
-        "Content-Type": "text/markdown; charset=utf-8"
-      },
+      headers,
       body: message
     });
     if (!res.ok) {
@@ -346,6 +374,7 @@ export class NewsCrawler {
     this.state.pauseTimeRanges = (settings.pauseTimeRanges || []).map((range) => range.text);
     this.state.newsCleanupIntervalDays = settings.newsRetention.cleanupIntervalDays;
     this.state.archiveOnCleanup = settings.newsRetention.archiveOnCleanup;
+    this.state.archiveRetentionDays = settings.newsRetention.archiveRetentionDays;
     this.state.timezone =
       settings.timezone ||
       (() => {
@@ -469,9 +498,24 @@ export class NewsCrawler {
             archivedAt: new Date().toISOString()
           };
         });
-        const archiveResult = await appendNewsArchive(archivedPayload);
-        this.newsArchiveCount = archiveResult.total;
+        await appendNewsArchive(archivedPayload);
       }
+
+      let archiveItems = (await loadNewsArchive()).items;
+      const archiveRetention = settings.newsRetention.archiveRetentionDays;
+      if (Number(archiveRetention) > 0) {
+        const { items: prunedArchive, removed: removedArchived } = pruneNewsArchiveItems(
+          archiveItems,
+          archiveRetention,
+          nowLocal
+        );
+        if (removedArchived > 0) {
+          await saveNewsArchive(prunedArchive);
+        }
+        archiveItems = prunedArchive;
+      }
+      this.newsArchiveCount = archiveItems.length;
+
       await saveNewsDays(this.newsDays);
 
       const todayAllItems = todayAllItemsRaw.map((item) => {
@@ -610,6 +654,8 @@ export class NewsCrawler {
       }
       if (pushErrorMessages.length) {
         this.state.errors.push(...pushErrorMessages);
+        // eslint-disable-next-line no-console
+        console.error("[NewsLive push]", pushErrorMessages.join(" | "));
       }
       this.state.lastFetchAt = new Date().toISOString();
       this.state.nextFetchAt = new Date(Date.now() + this.state.intervalMs).toISOString();
