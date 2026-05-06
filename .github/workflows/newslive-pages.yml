@@ -49,8 +49,8 @@ jobs:
 
       - name: Commit updated crawl data
         run: |
-          if [ -n "$(git status --porcelain docs data/notified-history.json data/news-days.json)" ]; then
-            git add docs data/notified-history.json data/news-days.json
+          if [ -n "$(git status --porcelain docs data/notified-history.json data/news-days.json data/news-archive.json)" ]; then
+            git add docs data/notified-history.json data/news-days.json data/news-archive.json
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "chore: update pages crawl output"
