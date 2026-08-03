@@ -1,66 +1,28 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { randomUUID } from "node:crypto";
+import { mkdir, readFile, rename, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { getLocalDateKey, oldestKeptDateKey } from "./zoned-time.js";
 
 const DATA_DIR = path.resolve(process.cwd(), "data");
-const NOTIFY_HISTORY_FILE = path.resolve(DATA_DIR, "notified-history.json");
 const NEWS_DAYS_FILE = path.resolve(DATA_DIR, "news-days.json");
 const NEWS_ARCHIVE_FILE = path.resolve(DATA_DIR, "news-archive.json");
 
-export async function loadNotifyHistory() {
-  try {
-    const content = await readFile(NOTIFY_HISTORY_FILE, "utf-8");
-    const parsed = JSON.parse(content);
-    if (!parsed || typeof parsed !== "object" || typeof parsed.items !== "object") {
-      return { items: {} };
-    }
-    return { items: parsed.items };
-  } catch (error) {
-    if (error.code === "ENOENT") {
-      return { items: {} };
-    }
-    throw error;
-  }
-}
-
-export async function saveNotifyHistory(history) {
+async function writeJsonAtomic(filePath, value) {
   await mkdir(DATA_DIR, { recursive: true });
-  await writeFile(
-    NOTIFY_HISTORY_FILE,
-    JSON.stringify(
-      {
-        items: history.items || {}
-      },
-      null,
-      2
-    ),
-    "utf-8"
-  );
+  const tempPath = `${filePath}.${process.pid}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(tempPath, JSON.stringify(value, null, 2), "utf-8");
+    await rename(tempPath, filePath);
+  } finally {
+    await unlink(tempPath).catch((error) => {
+      if (error.code !== "ENOENT") throw error;
+    });
+  }
 }
 
-export function cleanupNotifyHistory(history, ttlMs, nowMs = Date.now()) {
-  if (!history || !history.items || !Number.isFinite(ttlMs) || ttlMs <= 0) {
-    return { removed: 0 };
-  }
-
-  let removed = 0;
-  for (const [itemId, previousIso] of Object.entries(history.items)) {
-    const previousMs = new Date(previousIso).getTime();
-    if (!Number.isFinite(previousMs)) {
-      // Keep unknown values to avoid breaking dedupe.
-      continue;
-    }
-    if (nowMs - previousMs > ttlMs) {
-      delete history.items[itemId];
-      removed += 1;
-    }
-  }
-
-  return { removed };
-}
-
-export function getNotifyHistoryPath() {
-  return NOTIFY_HISTORY_FILE;
+function normalizeIsoDate(value) {
+  const date = new Date(value || "");
+  return Number.isFinite(date.getTime()) ? date.toISOString() : null;
 }
 
 export async function loadNewsDays() {
@@ -68,30 +30,26 @@ export async function loadNewsDays() {
     const content = await readFile(NEWS_DAYS_FILE, "utf-8");
     const parsed = JSON.parse(content);
     if (!parsed || typeof parsed !== "object") {
-      return { days: {} };
+      return { days: {}, lastFetchAt: null };
     }
     const days = parsed.days && typeof parsed.days === "object" ? parsed.days : {};
-    return { days };
+    return { days, lastFetchAt: normalizeIsoDate(parsed.lastFetchAt) };
   } catch (error) {
     if (error.code === "ENOENT") {
-      return { days: {} };
+      return { days: {}, lastFetchAt: null };
     }
     throw error;
   }
 }
 
-export async function saveNewsDays(days) {
-  await mkdir(DATA_DIR, { recursive: true });
-  await writeFile(
+export async function saveNewsDays(days, metadata = {}) {
+  const lastFetchAt = normalizeIsoDate(metadata.lastFetchAt);
+  await writeJsonAtomic(
     NEWS_DAYS_FILE,
-    JSON.stringify(
-      {
-        days: days && typeof days === "object" ? days : {}
-      },
-      null,
-      2
-    ),
-    "utf-8"
+    {
+      days: days && typeof days === "object" ? days : {},
+      ...(lastFetchAt ? { lastFetchAt } : {})
+    }
   );
 }
 
@@ -134,17 +92,11 @@ export async function loadNewsArchive() {
 }
 
 export async function saveNewsArchive(items) {
-  await mkdir(DATA_DIR, { recursive: true });
-  await writeFile(
+  await writeJsonAtomic(
     NEWS_ARCHIVE_FILE,
-    JSON.stringify(
-      {
-        items: Array.isArray(items) ? items : []
-      },
-      null,
-      2
-    ),
-    "utf-8"
+    {
+      items: Array.isArray(items) ? items : []
+    }
   );
 }
 

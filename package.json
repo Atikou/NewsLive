@@ -7,6 +7,8 @@
   "scripts": {
     "start": "node src/server.js",
     "build:pages": "node src/build-pages.js",
+    "build:ui": "node src/build-ui.js",
+    "test": "node --test test/*.test.js",
     "test:sources": "node src/test-sources.js",
     "archive:clear": "node src/clear-archive.js"
   },
@@ -16,8 +18,7 @@
   "dependencies": {
     "cheerio": "^1.1.2",
     "dotenv": "^17.4.2",
-    "express": "^4.21.2",
-    "playwright": "^1.59.1",
-    "yaml": "^2.8.3"
+    "express": "^4.22.2",
+    "yaml": "^2.9.0"
   }
 }

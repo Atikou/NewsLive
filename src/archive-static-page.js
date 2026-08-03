@@ -5,34 +5,66 @@ export function renderArchiveStaticPage(payload) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NewsLive 归档</title>
-    <style>
-      body { margin: 0; background: #f8fafc; color: #0f172a; font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
-      main { width: min(1100px, 94vw); margin: 24px auto 48px; }
-      .panel { background: #fff; border: 1px solid #dbeafe; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
-      .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-      select, button { border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 10px; background: #fff; }
-      .item { border: 1px solid #e2e8f0; border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; background: #fff; }
-      .meta { color: #64748b; font-size: 13px; margin-top: 4px; }
-      .tag { border: 1px solid #cbd5e1; border-radius: 999px; font-size: 12px; padding: 2px 8px; margin-right: 6px; }
-      a { color: #2563eb; text-decoration: none; }
-    </style>
+    <meta name="description" content="NewsLive 历史新闻归档" />
+    <title>NewsLive 新闻归档</title>
+    <link rel="stylesheet" href="./news-theme.css" />
   </head>
   <body>
-    <main>
-      <h1>NewsLive 归档新闻（静态）</h1>
-      <div class="panel">
-        <div class="row">
-          <a href="./index.html"><button>返回首页</button></a>
-          <select id="dateFilter"></select>
-          <select id="tagFilter"></select>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="NewsLive 首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">NewsLive</span>
+          <span class="brand-note">新闻聚合</span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          <a class="nav-link" href="./index.html">今日新闻</a>
+          <a class="nav-link" href="./rankings.html">实时榜单</a>
+          <a class="nav-link active" href="./archive.html">新闻归档</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-heading">
+        <div>
+          <p class="eyebrow">Archive</p>
+          <h1 class="page-title">新闻归档</h1>
+          <p class="page-lede">按日期与标签查找历史报道，所有标题仍链接到原始新闻来源。</p>
         </div>
-        <div id="summary" class="meta" style="margin-top: 8px"></div>
-      </div>
-      <div class="panel">
+        <div class="heading-actions">
+          <a class="button" href="./index.html">返回今日新闻</a>
+        </div>
+      </section>
+
+      <section class="panel archive-toolbar">
+        <div class="archive-fields">
+          <div class="field">
+            <label class="field-label" for="dateFilter">发布日期</label>
+            <select id="dateFilter" aria-label="按发布日期筛选"></select>
+          </div>
+          <div class="field">
+            <label class="field-label" for="tagFilter">新闻标签</label>
+            <select id="tagFilter" aria-label="按新闻标签筛选"></select>
+          </div>
+          <div id="summary" class="meta archive-summary"></div>
+        </div>
+      </section>
+
+      <section class="panel news-list" aria-live="polite">
         <div id="list"></div>
-      </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <span>NewsLive · 历史新闻归档</span>
+        <span>按日期与标签快速检索</span>
+      </div>
+    </footer>
+    <button id="topBtn" class="top-btn" type="button" aria-label="回到顶部">↑ 顶部</button>
+
+    <script src="./news-select.js"></script>
     <script>
       const data = ${serialized};
       const state = { items: data.items || [], date: "__ALL__", tag: "__ALL__" };
@@ -40,50 +72,95 @@ export function renderArchiveStaticPage(payload) {
       const tagFilter = document.getElementById("tagFilter");
       const summaryEl = document.getElementById("summary");
       const listEl = document.getElementById("list");
+      const topBtn = document.getElementById("topBtn");
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function safeUrl(value) {
+        try {
+          const url = new URL(String(value || ""), window.location.href);
+          return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
+        } catch {
+          return "#";
+        }
+      }
 
       function formatDate(value) {
         if (!value) return "暂无";
-        return new Date(value).toLocaleString("zh-CN", { hour12: false });
+        const date = new Date(value);
+        if (!Number.isFinite(date.getTime())) return "暂无";
+        return date.toLocaleString("zh-CN", { hour12: false });
       }
 
       function getDateKey(item) {
         const source = item.publishedAt || item.archivedAt;
         if (!source) return "";
-        const d = new Date(source);
-        if (!Number.isFinite(d.getTime())) return "";
-        const y = d.getFullYear();
-        const m = String(d.getMonth() + 1).padStart(2, "0");
-        const day = String(d.getDate()).padStart(2, "0");
-        return \`\${y}-\${m}-\${day}\`;
+        const date = new Date(source);
+        if (!Number.isFinite(date.getTime())) return "";
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return \`\${year}-\${month}-\${day}\`;
+      }
+
+      function setSelectOptions(element, values, selected, allLabel) {
+        element.replaceChildren();
+        for (const value of values) {
+          const option = document.createElement("option");
+          option.value = value;
+          option.textContent = value === "__ALL__" ? allLabel : value;
+          option.selected = value === selected;
+          element.appendChild(option);
+        }
       }
 
       function renderFilters() {
-        const dateOptions = ["__ALL__", ...Array.from(new Set(state.items.map(getDateKey).filter(Boolean))).sort().reverse()];
-        const tagOptions = ["__ALL__", ...Array.from(new Set(state.items.flatMap((x) => x.tags || []))).sort((a, b) => a.localeCompare(b, "zh-CN"))];
-        dateFilter.innerHTML = dateOptions.map((d) => \`<option value="\${d}" \${state.date===d?"selected":""}>\${d==="__ALL__"?"全部日期":d}</option>\`).join("");
-        tagFilter.innerHTML = tagOptions.map((t) => \`<option value="\${t}" \${state.tag===t?"selected":""}>\${t==="__ALL__"?"全部标签":t}</option>\`).join("");
+        const dates = ["__ALL__", ...Array.from(new Set(state.items.map(getDateKey).filter(Boolean))).sort().reverse()];
+        const tags = ["__ALL__", ...Array.from(new Set(state.items.flatMap((item) => item.tags || []))).sort((a, b) => a.localeCompare(b, "zh-CN"))];
+        setSelectOptions(dateFilter, dates, state.date, "全部日期");
+        setSelectOptions(tagFilter, tags, state.tag, "全部标签");
+        NewsSelect.enhance(dateFilter);
+        NewsSelect.enhance(tagFilter);
       }
 
       function renderList() {
         const filtered = state.items.filter((item) => {
-          const dateOk = state.date === "__ALL__" || getDateKey(item) === state.date;
-          const tagOk = state.tag === "__ALL__" || (item.tags || []).includes(state.tag);
-          return dateOk && tagOk;
+          const dateMatches = state.date === "__ALL__" || getDateKey(item) === state.date;
+          const tagMatches = state.tag === "__ALL__" || (item.tags || []).includes(state.tag);
+          return dateMatches && tagMatches;
         });
-        summaryEl.textContent = \`归档总数 \${state.items.length}，当前筛选 \${filtered.length}\`;
+        summaryEl.textContent = \`归档 \${state.items.length} 条 · 当前显示 \${filtered.length} 条\`;
         listEl.innerHTML = filtered.length
-          ? filtered.map((item) => \`
-            <article class="item">
-              <div><a href="\${item.url}" target="_blank" rel="noopener noreferrer">\${item.title || item.url}</a></div>
-              <div class="meta">发布时间: \${formatDate(item.publishedAt)} | 归档时间: \${formatDate(item.archivedAt)} | 来源: \${item.source || "未知"}</div>
-              <div style="margin-top:6px;">\${(item.tags || []).map((t) => \`<span class="tag">\${t}</span>\`).join("")}</div>
-            </article>
-          \`).join("")
-          : "<div class='meta'>没有匹配的归档新闻</div>";
+          ? filtered.map((item) => {
+              const sourceCount = Math.max(Number(item.sourceCount) || 0, (item.relatedSources || []).length, 1);
+              const relatedLinks = (item.relatedLinks || []).filter((link) => link && link.url && safeUrl(link.url) !== safeUrl(item.url));
+              return \`
+                <article class="news-item">
+                  <div class="news-meta meta">
+                    <span class="source-name" title="\${escapeHtml((item.relatedSources || []).join("、"))}">\${escapeHtml(item.source || "未知来源")}\${sourceCount > 1 ? " · " + sourceCount + " 个来源" : ""}</span>
+                    <span>发布 \${escapeHtml(formatDate(item.publishedAt))}</span>
+                    <span>归档 \${escapeHtml(formatDate(item.archivedAt))}</span>
+                  </div>
+                  <h2 class="news-item-title"><a href="\${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">\${escapeHtml(item.title || item.url)}</a></h2>
+                  \${relatedLinks.length ? '<details class="related-links"><summary>查看其他来源（' + relatedLinks.length + '）</summary><div>' + relatedLinks.map((link) => '<a href="' + escapeHtml(safeUrl(link.url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(link.source || link.title || "相关报道") + '</a>').join("") + '</div></details>' : ""}
+                  <div class="tags">\${(item.tags || []).map((tag) => \`<span class="tag">\${escapeHtml(tag)}</span>\`).join("")}</div>
+                </article>
+              \`;
+            }).join("")
+          : '<div class="empty-state">没有匹配的归档新闻</div>';
       }
 
       dateFilter.addEventListener("change", () => { state.date = dateFilter.value; renderList(); });
       tagFilter.addEventListener("change", () => { state.tag = tagFilter.value; renderList(); });
+      topBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+      window.addEventListener("scroll", () => topBtn.classList.toggle("show", window.scrollY > 260));
 
       renderFilters();
       renderList();

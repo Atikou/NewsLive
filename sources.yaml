@@ -1,22 +1,48 @@
 sources:
-  - id: ap_news
-    name: AP News
-    type: html_links
-    url: https://apnews.com/
-    min_title_length: 8
-    max_items: 120
-
-  - id: ap_top_news
-    name: AP Top News
-    type: html_links
-    url: https://apnews.com/hub/ap-top-news
-    min_title_length: 8
-    max_items: 120
-
-  - id: reuters_world_rss
-    name: Reuters World News
+  # 中国新闻网公开 RSS：只接入有稳定发布时间的综合、财经、体育频道。
+  - id: chinanews_latest_rss
+    name: 中国新闻网
     type: rss
-    url: https://www.reuters.com/world/rss
+    url: https://www.chinanews.com.cn/rss/scroll-news.xml
+    category: 综合
+    region: 中国
+    language: zh-CN
+    min_title_length: 6
+    max_items: 60
+
+  - id: chinanews_finance_rss
+    name: 中国新闻网财经
+    type: rss
+    url: https://www.chinanews.com.cn/rss/finance.xml
+    category: 财经
+    region: 中国
+    language: zh-CN
+    min_title_length: 6
+    max_items: 60
+
+  - id: chinanews_sports_rss
+    name: 中国新闻网体育
+    type: rss
+    url: https://www.chinanews.com.cn/rss/sports.xml
+    category: 体育
+    region: 中国
+    language: zh-CN
+    min_title_length: 6
+    max_items: 60
+
+  # AP 官网没有稳定公开 RSS；通过 Google News 的站点检索获取带发布时间的 AP 报道。
+  - id: ap_news_google_rss
+    name: AP News via Google News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aapnews.com&hl=en-US&gl=US&ceid=US%3Aen
+    min_title_length: 8
+    max_items: 120
+
+  # Reuters 原 world/rss 已返回 401；改用带发布时间的 Google News 站点检索。
+  - id: reuters_world_google_rss
+    name: Reuters World via Google News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Areuters.com%2Fworld&hl=en-US&gl=US&ceid=US%3Aen
     min_title_length: 6
     max_items: 120
 
@@ -34,25 +60,11 @@ sources:
     min_title_length: 6
     max_items: 120
 
-  - id: hn_cn
-    name: HackerNews 中文版
-    type: html_links
-    url: https://hn.aimaker.dev/
-    min_title_length: 8
-    max_items: 120
-
-  - id: propublica_home
+  - id: propublica_main_rss
     name: ProPublica
-    type: html_links
-    url: https://www.propublica.org/
-    min_title_length: 8
-    max_items: 80
-
-  - id: propublica_topics
-    name: ProPublica Topics
-    type: html_links
-    url: https://www.propublica.org/topics
-    min_title_length: 8
+    type: rss
+    url: https://www.propublica.org/feeds/propublica/main
+    min_title_length: 6
     max_items: 120
 
   - id: hn_rss_frontpage

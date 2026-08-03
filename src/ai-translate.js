@@ -41,6 +41,106 @@ function extractJsonObject(text) {
   }
 }
 
+function resolveRequestUrl(apiUrl, apiFormat) {
+  const raw = String(apiUrl || "").trim();
+  if (!raw) {
+    return "";
+  }
+
+  let parsed;
+  try {
+    parsed = new URL(raw);
+  } catch {
+    return raw;
+  }
+
+  const path = parsed.pathname.replace(/\/+$/, "") || "/";
+  if (apiFormat === "anthropic") {
+    if (path === "/") {
+      parsed.pathname = "/v1/messages";
+    } else if (path === "/anthropic") {
+      parsed.pathname = "/anthropic/v1/messages";
+    }
+  } else if (path === "/") {
+    parsed.pathname = "/chat/completions";
+  } else if (path === "/v1") {
+    parsed.pathname = "/v1/chat/completions";
+  }
+  return parsed.toString();
+}
+
+function buildOpenAiRequest(prompt, config) {
+  const body = {
+    model: config.model,
+    max_tokens: 1200,
+    temperature: 0,
+    stream: false,
+    response_format: { type: "json_object" },
+    messages: [
+      {
+        role: "system",
+        content: "You translate news titles and always return valid JSON."
+      },
+      {
+        role: "user",
+        content: prompt
+      }
+    ]
+  };
+  if (config.thinkingMode) {
+    body.thinking = { type: config.thinkingMode };
+  }
+
+  return {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${config.apiKey}`,
+      ...config.headers
+    },
+    body
+  };
+}
+
+function buildAnthropicRequest(prompt, config) {
+  const body = {
+    model: config.model,
+    max_tokens: 1200,
+    temperature: 0,
+    messages: [
+      {
+        role: "user",
+        content: prompt
+      }
+    ]
+  };
+  if (config.thinkingMode) {
+    body.thinking = { type: config.thinkingMode };
+  }
+
+  return {
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": config.apiKey,
+      "anthropic-version": config.anthropicVersion,
+      ...config.headers
+    },
+    body
+  };
+}
+
+function extractModelText(payload) {
+  const openAiContent = payload?.choices?.[0]?.message?.content;
+  if (typeof openAiContent === "string") {
+    return openAiContent.trim();
+  }
+
+  return (payload?.content || [])
+    .filter((part) => part && part.type === "text")
+    .map((part) => part.text || "")
+    .join("\n")
+    .trim();
+}
+
 async function translateBatch(batch, config) {
   const prompt = [
     "Translate the following news titles into Simplified Chinese.",
@@ -54,25 +154,15 @@ async function translateBatch(batch, config) {
 
   const timeout = withTimeout(Math.max(config.requestTimeoutSeconds * 1000, 5_000));
   try {
-    const response = await fetch(config.apiUrl, {
+    const apiFormat = config.apiFormat === "anthropic" ? "anthropic" : "openai";
+    const request =
+      apiFormat === "anthropic"
+        ? buildAnthropicRequest(prompt, config)
+        : buildOpenAiRequest(prompt, config);
+    const response = await fetch(resolveRequestUrl(config.apiUrl, apiFormat), {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-api-key": config.apiKey,
-        "anthropic-version": config.anthropicVersion,
-        ...config.headers
-      },
-      body: JSON.stringify({
-        model: config.model,
-        max_tokens: 800,
-        temperature: 0,
-        messages: [
-          {
-            role: "user",
-            content: prompt
-          }
-        ]
-      }),
+      headers: request.headers,
+      body: JSON.stringify(request.body),
       signal: timeout.signal
     });
 
@@ -82,11 +172,7 @@ async function translateBatch(batch, config) {
     }
 
     const payload = await response.json();
-    const modelText = (payload.content || [])
-      .filter((part) => part && part.type === "text")
-      .map((part) => part.text || "")
-      .join("\n")
-      .trim();
+    const modelText = extractModelText(payload);
 
     const parsed = extractJsonObject(modelText);
     const translations = parsed && Array.isArray(parsed.translations) ? parsed.translations : null;
@@ -99,7 +185,7 @@ async function translateBatch(batch, config) {
   }
 }
 
-export async function translateItemsWithAnthropic(items, config) {
+export async function translateItemsWithAi(items, config) {
   if (!config || !config.enabled) {
     return { items, translatedCount: 0, errorMessage: "" };
   }
@@ -107,12 +193,20 @@ export async function translateItemsWithAnthropic(items, config) {
     return { items, translatedCount: 0, errorMessage: "AI 翻译已启用，但未配置 api_url 或 model" };
   }
   if (!config.apiKey) {
-    return { items, translatedCount: 0, errorMessage: "AI 翻译已启用，但未配置 ANTHROPIC_API_KEY" };
+    return {
+      items,
+      translatedCount: 0,
+      errorMessage: "AI 翻译已启用，但未配置 DEEPSEEK_API_KEY（或兼容的 ANTHROPIC_API_KEY）"
+    };
   }
 
   const candidates = items
     .map((item, index) => ({ item, index }))
-    .filter(({ item }) => shouldTranslateTitle(item.title, config.onlyNonChinese))
+    .filter(
+      ({ item }) =>
+        !String(item?.titleZh || "").trim() &&
+        shouldTranslateTitle(item.title, config.onlyNonChinese)
+    )
     .slice(0, config.maxItemsPerRun);
 
   if (!candidates.length) {

@@ -8,6 +8,30 @@ function withTimeout(url, timeoutMs, options = {}) {
   });
 }
 
+const RETRYABLE_HTTP_STATUSES = new Set([408, 425, 429, 500, 502, 503, 504]);
+
+async function fetchWithRetry(url, timeoutMs, options = {}) {
+  let lastError;
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const response = await withTimeout(url, timeoutMs, options);
+      if (
+        response.ok ||
+        !RETRYABLE_HTTP_STATUSES.has(response.status) ||
+        attempt === 1
+      ) {
+        return response;
+      }
+      lastError = new Error(`HTTP ${response.status} on ${url}`);
+    } catch (error) {
+      lastError = error;
+      if (attempt === 1) throw error;
+    }
+    await new Promise((resolve) => setTimeout(resolve, 250));
+  }
+  throw lastError || new Error(`获取失败: ${url}`);
+}
+
 function normalizeUrl(value, baseUrl) {
   try {
     return new URL(value, baseUrl).toString();
@@ -28,17 +52,6 @@ function collectUniqueByKey(items, keyFn) {
     result.push(item);
   }
   return result;
-}
-
-function splitUserAgent(headers = {}) {
-  const merged = { ...headers };
-  const userAgent = merged["User-Agent"] || merged["user-agent"] || "";
-  delete merged["User-Agent"];
-  delete merged["user-agent"];
-  return {
-    userAgent: String(userAgent || "").trim(),
-    headers: merged
-  };
 }
 
 function getByPath(target, path) {
@@ -121,7 +134,7 @@ function parseMarkdownLinks(markdownText, maxLinks) {
 
 async function fetchText(url, timeoutMs, extraHeaders = {}) {
   const finalUrl = applyRuntimePlaceholders(url);
-  const response = await withTimeout(finalUrl, timeoutMs, {
+  const response = await fetchWithRetry(finalUrl, timeoutMs, {
     headers: {
       "User-Agent": "NewsLiveBot/1.0",
       ...extraHeaders
@@ -135,7 +148,7 @@ async function fetchText(url, timeoutMs, extraHeaders = {}) {
 
 async function fetchJson(source, timeoutMs) {
   const finalUrl = applyRuntimePlaceholders(source.url);
-  const response = await withTimeout(finalUrl, timeoutMs, {
+  const response = await fetchWithRetry(finalUrl, timeoutMs, {
     method: source.method || "GET",
     headers: {
       "User-Agent": "NewsLiveBot/1.0",
@@ -171,48 +184,6 @@ function extractHtmlLinks(html, source) {
   return collectUniqueByKey(cards, (item) => `${item.title}|${item.url}`).slice(0, source.maxItems);
 }
 
-async function fetchRenderedHtml(source, timeoutMs) {
-  const { chromium } = await import("playwright");
-  const { userAgent, headers } = splitUserAgent(source.headers);
-  let browser;
-  let launchError;
-  for (const launchOptions of [{}, { channel: "msedge" }, { channel: "chrome" }]) {
-    try {
-      browser = await chromium.launch({ headless: true, ...launchOptions });
-      break;
-    } catch (error) {
-      launchError = error;
-    }
-  }
-  if (!browser) {
-    throw launchError || new Error("无法启动无头浏览器");
-  }
-  const context = await browser.newContext({
-    userAgent: userAgent || undefined,
-    extraHTTPHeaders: headers
-  });
-
-  try {
-    const page = await context.newPage();
-    await page.goto(source.url, {
-      waitUntil: "domcontentloaded",
-      timeout: timeoutMs
-    });
-    if (source.waitForSelector) {
-      await page.waitForSelector(source.waitForSelector, {
-        timeout: Math.min(source.browserWaitMs, timeoutMs)
-      });
-    } else {
-      await page.waitForTimeout(Math.min(source.browserWaitMs, timeoutMs));
-    }
-    const html = await page.content();
-    return html;
-  } finally {
-    await context.close();
-    await browser.close();
-  }
-}
-
 function extractPageTitle(html) {
   const $ = cheerio.load(html);
   return $("title").first().text().replace(/\s+/g, " ").trim();
@@ -242,6 +213,11 @@ function extractRssItems(xml, source) {
   });
 
   return collectUniqueByKey(items, (item) => `${item.title}|${item.url}`).slice(0, source.maxItems);
+}
+
+function hasUsablePublishedDate(item) {
+  if (!item?.pubDate) return false;
+  return Number.isFinite(new Date(item.pubDate).getTime());
 }
 
 async function crawlMarkdownLinkedPages(source, timeoutMs) {
@@ -331,10 +307,6 @@ async function crawlSingleSource(source, timeoutMs) {
     const xml = await fetchText(source.url, timeoutMs, source.headers);
     return extractRssItems(xml, source);
   }
-  if (source.type === "browser_html_links") {
-    const html = await fetchRenderedHtml(source, timeoutMs);
-    return extractHtmlLinks(html, source);
-  }
   if (source.type === "json_items") {
     return crawlJsonItems(source, timeoutMs);
   }
@@ -373,25 +345,39 @@ export async function crawlAllSources({ sources, requestTimeoutMs }) {
     const result = results[index];
     const source = sources[index];
     if (result.status === "fulfilled") {
-      const sourceItems = Array.isArray(result.value) ? result.value : [];
+      const sourceItems = (Array.isArray(result.value) ? result.value : []).map((item) => ({
+        ...item,
+        ...(source.category ? { category: source.category } : {}),
+        ...(source.region ? { region: source.region } : {}),
+        ...(source.language ? { language: source.language } : {})
+      }));
+      const usableItemCount = sourceItems.filter(hasUsablePublishedDate).length;
       items.push(...sourceItems);
-      if (sourceItems.length > 0) {
+      if (usableItemCount > 0) {
         sourceResults.push({
           id: source.id,
           name: source.name,
           status: "success",
           itemCount: sourceItems.length,
+          usableItemCount,
           errorMessage: "",
-          checkedAt
+          checkedAt,
+          category: source.category || "",
+          region: source.region || ""
         });
       } else {
         sourceResults.push({
           id: source.id,
           name: source.name,
           status: "other",
-          itemCount: 0,
-          errorMessage: "连接成功，但未获取到内容",
-          checkedAt
+          itemCount: sourceItems.length,
+          usableItemCount: 0,
+          errorMessage: sourceItems.length
+            ? `连接成功，但获取的 ${sourceItems.length} 条内容都缺少可用发布时间`
+            : "连接成功，但未获取到内容",
+          checkedAt,
+          category: source.category || "",
+          region: source.region || ""
         });
       }
       continue;
@@ -403,8 +389,11 @@ export async function crawlAllSources({ sources, requestTimeoutMs }) {
       name: source.name,
       status: classifySourceHealthByError(errorMessage),
       itemCount: 0,
+      usableItemCount: 0,
       errorMessage,
-      checkedAt
+      checkedAt,
+      category: source.category || "",
+      region: source.region || ""
     });
   }
 

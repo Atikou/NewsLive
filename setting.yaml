@@ -1,5 +1,5 @@
 # 业务时区（IANA，例如 Asia/Shanghai、UTC、America/New_York）
-# 用于：pause_time_ranges、「仅当日新闻」的日历日、按日归档键、news 保留清理的日期边界。
+# 用于：推送静默时段、「仅当日新闻」的日历日、按日归档键、news 保留清理的日期边界。
 # 环境变量 NEWS_TIMEZONE 可覆盖本项（便于 CI 不写死机器时区）。
 # 留空或无效值则回退为运行环境的系统本地时区。
 timezone: Asia/Shanghai
@@ -13,16 +13,6 @@ min_fetch_interval_minutes: 2
 # 请求超时（秒）
 request_timeout_seconds: 60
 
-# 暂停获取时间段（命中后不获取、不推送）
-# 格式：时-分 to 时-分（24小时制）
-# 支持跨天，例如 23-30 to 07-00
-pause_time_ranges: [
-  23-00 to 07-00
-]
-# pause_time_ranges:
-#   - 12-00 to 13-30
-#   - 23-30 to 07-00
-
 # 新闻清理与归档
 news_retention:
   # 每多少天执行一次新闻清理（保留最近 N 天）
@@ -32,10 +22,14 @@ news_retention:
   # 归档（news-archive.json）保留最近多少天；按 archivedAt 优先、否则 publishedAt 与当前时间比较；<=0 表示不按时间裁剪归档
   archive_retention_days: 7
 
-# AI 标题翻译（Anthropic Messages API 兼容）
+# AI 标题翻译（默认使用 DeepSeek V4 的 OpenAI Chat Completions 接口）
 ai_translation:
   # 是否启用标题翻译（翻译为中文）
   enabled: true
+  # 接口格式可选 openai / anthropic；不配置时会根据 api_url 自动识别
+  # api_format: openai
+  # DeepSeek V4 翻译不需要推理，默认关闭思考模式；可选 enabled / disabled
+  # thinking_mode: disabled
   # 每次获取最多翻译多少条标题
   max_items_per_run: 200
   # 单次请求批量翻译条数
@@ -44,20 +38,19 @@ ai_translation:
   request_timeout_seconds: 60
   # 仅翻译非中文标题
   only_non_chinese: true
-  # anthropic-version 请求头
+  # 仅 Anthropic 兼容接口使用
   anthropic_version: "2023-06-01"
-  # 额外请求头（对接某些 Anthropic 兼容网关时可用）
+  # 额外请求头（对接自定义兼容网关时可用）
   headers: {}
 
 push:
   # 是否启用重点内容推送
   enabled: true
 
-  # 同一条内容再次允许推送的间隔（分钟）
-  repeat_interval_minutes: 1440
-
-  # 通知历史清理 TTL（分钟）：超过此时间后会从 notified-history.json 中移除记录
-  notify_history_ttl_minutes: 1440
+  # 推送静默时段：继续获取和入库，重点新闻进入队列，时段结束后自动发送
+  # 格式：时-分 to 时-分（24小时制），支持跨天
+  quiet_time_ranges:
+    - 23-00 to 07-00
 
   # 重点推送来源黑名单（填写来源名称；命中来源将不会推送）
   # 来源名称可在页面里每条新闻的“来源”字段查看
@@ -66,10 +59,28 @@ push:
   #   - 微博热搜
   #   - 知乎热榜
 
-  # 单次推送最多包含多少条重点内容
-  max_items_per_push: 15
-  # 单次推送消息最大字符大小（4KB）
+  # 单次推送最多包含多少条重点内容；标题使用超链接后提高到 20 条
+  max_items_per_push: 20
+  # 单次推送消息最大字符大小（4KB）；达到上限时仍会自动拆分
   max_message_chars: 4096
+
+  # 分渠道投递账本保留天数
+  delivery_ledger_retention_days: 30
+
+# 国内实时榜单。复用新闻抓取任务更新，不启动数据库、浏览器或额外 Action。
+rankings:
+  enabled: true
+  # NewsNow 兼容榜单接口；可通过 RANKINGS_API_URL 环境变量覆盖。
+  api_url: https://newsnow.busiyi.world/api/s
+  max_items_per_platform: 30
+  push:
+    enabled: true
+    # 每天最多两个固定时段；任务在时段后的窗口内首次运行时发送一次。
+    times:
+      - "12:00"
+      - "20:00"
+    items_per_platform: 3
+    window_minutes: 90
 
 ui:
   # 前端轮询间隔（秒）

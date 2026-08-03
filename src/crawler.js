@@ -1,19 +1,40 @@
 import crypto from "node:crypto";
-import { crawlAllSources } from "./sources.js";
-import { loadKeywords, loadSettings, loadSources } from "./config.js";
+import { translateItemsWithAi } from "./ai-translate.js";
+import { loadSettings, loadSources, loadTopics } from "./config.js";
+import {
+  canonicalizeNewsUrl,
+  clusterNewsItems,
+  normalizeNewsTitle,
+  repairNewsClusters
+} from "./news-cluster.js";
 import {
   appendNewsArchive,
   cleanupNewsDays,
   loadNewsArchive,
   loadNewsDays,
-  cleanupNotifyHistory,
-  loadNotifyHistory,
   pruneNewsArchiveItems,
   saveNewsArchive,
-  saveNewsDays,
-  saveNotifyHistory
+  saveNewsDays
 } from "./persistence.js";
-import { translateItemsWithAnthropic } from "./ai-translate.js";
+import { deliverQueuedPushes, getActivePushChannels } from "./push-service.js";
+import {
+  loadPushDeliveryLedger,
+  loadPushQueue,
+  mergePushQueue,
+  pruneDeliveryLedger,
+  savePushDeliveryLedger,
+  savePushQueue
+} from "./push-store.js";
+import { crawlAllSources } from "./sources.js";
+import { tagItemWithTopics } from "./topics.js";
+import {
+  createEmptyRankings,
+  loadRankings,
+  maybePushRankings,
+  refreshRankings,
+  saveRankings,
+  summarizeRankings
+} from "./rankings.js";
 import {
   buildPauseRangeEndAt,
   getLocalDateKey,
@@ -25,191 +46,28 @@ function hashItem(item) {
   return crypto.createHash("sha1").update(`${item.title}|${item.url}`).digest("hex");
 }
 
-function matchKeywords(text, keywords) {
-  const raw = String(text || "");
-  const lower = raw.toLowerCase();
-  return keywords.filter((word) => {
-    const normalized = String(word || "").trim();
-    if (!normalized) return false;
-    // For pure Latin keywords (e.g. "AI"), match as a whole token to avoid
-    // false positives like "detail" or "said".
-    if (/^[A-Za-z0-9_-]+$/.test(normalized)) {
-      const escaped = normalized.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      const tokenRegex = new RegExp(`(^|[^A-Za-z0-9_-])${escaped}([^A-Za-z0-9_-]|$)`, "i");
-      return tokenRegex.test(raw);
-    }
-    return lower.includes(normalized.toLowerCase());
-  });
-}
-
 function getDisplayTitle(item) {
-  return (item.titleZh || item.title || "").trim();
-}
-
-function getPushTranslationPriority(item) {
-  const translatedTitle = String(item?.titleZh || "").trim();
-  return translatedTitle ? 0 : 1;
+  return String(item?.titleZh || item?.title || "").trim();
 }
 
 function parsePublishedDate(item) {
-  const value = item?.pubDate;
-  if (!value) return null;
-  const date = new Date(value);
-  if (!Number.isFinite(date.getTime())) {
-    return null;
-  }
-  return date;
+  if (!item?.pubDate) return null;
+  const date = new Date(item.pubDate);
+  return Number.isFinite(date.getTime()) ? date : null;
 }
 
-function escapeMarkdownText(text) {
-  // ntfy/day.app body uses best-effort markdown/plaintext; escape brackets to avoid broken links.
-  return String(text)
-    .replaceAll("\\", "\\\\")
-    .replaceAll("[", "\\[")
-    .replaceAll("]", "\\]")
-    .replaceAll("(", "\\(")
-    .replaceAll(")", "\\)");
-}
-
-function escapeMarkdownUrl(url) {
-  // Protect markdown link syntax when url contains parentheses.
-  return String(url)
-    .replaceAll(" ", "%20")
-    .replaceAll("(", "%28")
-    .replaceAll(")", "%29");
-}
-
-function formatItemTime(item) {
-  const raw = item.pubDate || item.fetchedAt || "";
-  if (!raw) return "";
-  const s = String(raw).trim();
-  // Prefer a short, readable form for ISO-like timestamps.
-  // Examples: 2026-04-16T12:34:56.000Z -> 2026-04-16 12:34
-  if (s.includes("T") && s.length >= 16) {
-    return s.replace("T", " ").slice(0, 16);
-  }
-  return s;
+export function isPublishedAfter(item, cutoff) {
+  const publishedDate = parsePublishedDate(item);
+  const cutoffDate = cutoff instanceof Date ? cutoff : new Date(cutoff || "");
+  return Boolean(
+    publishedDate &&
+      Number.isFinite(cutoffDate.getTime()) &&
+      publishedDate.getTime() > cutoffDate.getTime()
+  );
 }
 
 function normalizeSourceName(value) {
   return String(value || "").trim().toLowerCase();
-}
-
-function getUtf8Length(text) {
-  return Buffer.byteLength(String(text || ""), "utf8");
-}
-
-function buildPushLine(item, index) {
-  const source = item.source ? `[${item.source}]` : "[来源]";
-  const time = formatItemTime(item);
-  const rawTitle = item.titleZh || item.title || "";
-  const title = escapeMarkdownText(rawTitle);
-  const url = item.url || "";
-  const safeUrl = url ? escapeMarkdownUrl(url) : "";
-  const titleLink = safeUrl ? `[${title}](${safeUrl})` : title;
-  return `${index}. ${source} ${titleLink} - ${time}`;
-}
-
-function truncateLineToUtf8(line, maxBytes) {
-  let text = String(line || "");
-  if (getUtf8Length(text) <= maxBytes) {
-    return text;
-  }
-  while (text.length > 1 && getUtf8Length(`${text}...`) > maxBytes) {
-    text = text.slice(0, -1);
-  }
-  return `${text}...`;
-}
-
-function buildTagMessage(tag, items, maxItemsPerPush, maxMessageChars) {
-  const limited = items.slice(0, maxItemsPerPush);
-  const maxBytes = Math.max(512, Number(maxMessageChars) || 4096);
-  const lines = [tag];
-  const usedItems = [];
-  for (const item of limited) {
-    const nextLine = buildPushLine(item, usedItems.length + 1);
-    const candidate = [...lines, nextLine].join("\n");
-    if (getUtf8Length(candidate) <= maxBytes) {
-      lines.push(nextLine);
-      usedItems.push(item);
-      continue;
-    }
-    if (!usedItems.length) {
-      const headerBytes = getUtf8Length(`${tag}\n`);
-      const availableBytes = Math.max(32, maxBytes - headerBytes);
-      const trimmed = truncateLineToUtf8(nextLine, availableBytes);
-      lines.push(trimmed);
-      usedItems.push(item);
-    }
-    break;
-  }
-  return {
-    message: lines.join("\n"),
-    usedItems
-  };
-}
-
-function splitByMessageLength(tag, items, maxItemsPerPush, maxMessageChars) {
-  const chunks = [];
-  let cursor = 0;
-  while (cursor < items.length) {
-    const { usedItems } = buildTagMessage(
-      tag,
-      items.slice(cursor),
-      maxItemsPerPush,
-      maxMessageChars
-    );
-    if (!usedItems.length) {
-      break;
-    }
-    chunks.push(usedItems);
-    cursor += usedItems.length;
-  }
-  return chunks;
-}
-
-function buildDayAppFullUrl(pushUrl, title, body) {
-  const t = String(title || "");
-  const b = String(body || "");
-  if (pushUrl.includes("{title}") || pushUrl.includes("{body}")) {
-    return pushUrl
-      .replaceAll("{title}", encodeURIComponent(t))
-      .replaceAll("{body}", encodeURIComponent(b));
-  }
-  // Bark / day.app（Finb）：GET `/:device_key/:title/:body`，路径段需单独编码。
-  // 旧版 `?title=&body=` 在部分自建 Bark 与反代上不可用或行为异常。
-  try {
-    const u = new URL(pushUrl);
-    const pathBase = u.pathname.replace(/\/+$/, "");
-    if (!pathBase || pathBase === "/") {
-      throw new Error("missing device key in path");
-    }
-    const encT = encodeURIComponent(t);
-    const encB = encodeURIComponent(b);
-    const baseUrl = `${u.origin}${pathBase}`;
-    return `${baseUrl}/${encT}/${encB}${u.search}${u.hash}`;
-  } catch {
-    const separator = pushUrl.includes("?") ? "&" : "?";
-    return `${pushUrl}${separator}title=${encodeURIComponent(t)}&body=${encodeURIComponent(b)}`;
-  }
-}
-
-function fitDayAppUrl(pushUrl, title, body, maxLength) {
-  let safeBody = String(body || "");
-  let fullUrl = buildDayAppFullUrl(pushUrl, title, safeBody);
-  if (fullUrl.length <= maxLength) {
-    return { fullUrl, body: safeBody };
-  }
-
-  // If a single message is too long, progressively trim it to fit day.app URL constraints.
-  while (safeBody.length > 12) {
-    safeBody = `${safeBody.slice(0, Math.floor(safeBody.length * 0.85)).trimEnd()}...`;
-    fullUrl = buildDayAppFullUrl(pushUrl, title, safeBody);
-    if (fullUrl.length <= maxLength) {
-      return { fullUrl, body: safeBody };
-    }
-  }
-  return null;
 }
 
 function isMinuteInRange(currentMinutes, startMinutes, endMinutes) {
@@ -219,7 +77,7 @@ function isMinuteInRange(currentMinutes, startMinutes, endMinutes) {
   return currentMinutes >= startMinutes || currentMinutes < endMinutes;
 }
 
-function getMatchedPauseRange(now, ranges, timeZone) {
+function getMatchedQuietRange(now, ranges, timeZone) {
   const currentMinutes = getMinutesOfDayInZone(now, timeZone);
   for (const range of ranges || []) {
     if (isMinuteInRange(currentMinutes, range.startMinutes, range.endMinutes)) {
@@ -232,100 +90,85 @@ function getMatchedPauseRange(now, ranges, timeZone) {
   return null;
 }
 
-async function pushToDayAppUrl(pushUrl, tag, items, maxItemsPerPush, maxMessageChars) {
-  if (!pushUrl || !tag || !items.length) {
-    return { ok: false, errorMessage: "" };
-  }
-
-  // Bark GET 整条 URL 过长时网关常见 431；在 fitDayAppUrl 内截断 body。
-  const MAX_FULL_URL_LENGTH = 3_800;
-  const maxLines = Math.min(items.length, maxItemsPerPush);
-
-  for (let n = maxLines; n >= 1; n -= 1) {
-    const limitedCount = n;
-    const title = `NewsLive 重点内容 ${tag} ${limitedCount} 条`;
-    const { message: body } = buildTagMessage(tag, items, n, maxMessageChars);
-    const fitted = fitDayAppUrl(pushUrl, title, body, MAX_FULL_URL_LENGTH);
-    if (fitted) {
-      try {
-        const res = await fetch(fitted.fullUrl, {
-          method: "GET",
-          headers: { "User-Agent": "NewsLive/1.0" }
-        });
-        if (!res.ok) {
-          return { ok: false, errorMessage: `day.app push failed (${res.status})` };
-        }
-        return { ok: true, errorMessage: "" };
-      } catch (e) {
-        return { ok: false, errorMessage: `day.app push error (${e.message || "unknown"})` };
-      }
-    }
-  }
-
-  return { ok: false, errorMessage: "day.app push skipped: payload too large for URL limit" };
+function isFullyBlacklisted(item, blacklist) {
+  if (!blacklist.size) return false;
+  const sources = Array.from(
+    new Set([item?.source, ...(item?.relatedSources || [])].map(normalizeSourceName).filter(Boolean))
+  );
+  return sources.length > 0 && sources.every((source) => blacklist.has(source));
 }
 
-async function pushToNtfyUrl(ntfyUrl, message) {
-  if (!ntfyUrl || !message) {
-    return { ok: false, errorMessage: "" };
-  }
+function sortNewsItems(items) {
+  return items.slice().sort((a, b) => {
+    const dateDiff =
+      new Date(b.pubDate || b.fetchedAt || 0) - new Date(a.pubDate || a.fetchedAt || 0);
+    return Number.isFinite(dateDiff) && dateDiff !== 0
+      ? dateDiff
+      : getDisplayTitle(a).localeCompare(getDisplayTitle(b), "zh-CN");
+  });
+}
 
-  const headers = {
-    "Content-Type": "text/markdown; charset=utf-8",
-    "User-Agent": "NewsLive/1.0"
-  };
-  const bearer = (process.env.NTFY_BEARER_TOKEN || "").toString().trim();
-  if (bearer) {
-    headers.Authorization = `Bearer ${bearer}`;
-  }
-
-  try {
-    const res = await fetch(ntfyUrl, {
-      method: "POST",
-      headers,
-      body: message
-    });
-    if (!res.ok) {
-      return { ok: false, errorMessage: `ntfy push failed (${res.status})` };
+function reuseKnownTranslations(items, existingItems) {
+  const byUrl = new Map();
+  const byTitle = new Map();
+  for (const item of existingItems || []) {
+    const titleZh = String(item?.titleZh || "").trim();
+    if (!titleZh) continue;
+    const url = canonicalizeNewsUrl(item?.url);
+    const title = normalizeNewsTitle(item?.title);
+    if (url) byUrl.set(url, titleZh);
+    if (title) byTitle.set(title, titleZh);
+    for (const link of item?.relatedLinks || []) {
+      const linkUrl = canonicalizeNewsUrl(link?.url);
+      const linkTitle = normalizeNewsTitle(link?.title);
+      if (linkUrl) byUrl.set(linkUrl, titleZh);
+      if (linkTitle) byTitle.set(linkTitle, titleZh);
     }
-    return { ok: true, errorMessage: "" };
-  } catch (e) {
-    return { ok: false, errorMessage: `ntfy push error (${e.message || "unknown"})` };
   }
+  return (items || []).map((item) => {
+    if (String(item?.titleZh || "").trim()) return item;
+    const known =
+      byUrl.get(canonicalizeNewsUrl(item?.url)) ||
+      byTitle.get(normalizeNewsTitle(item?.title));
+    return known ? { ...item, titleZh: known } : item;
+  });
 }
 
 export class NewsCrawler {
   constructor() {
-    this.history = { items: {} };
     this.newsDays = {};
     this.newsArchiveCount = 0;
+    this.pushQueue = { version: 1, items: [] };
+    this.deliveryLedger = { version: 1, events: {} };
+    this.rankings = createEmptyRankings();
     this.state = {
       inProgress: false,
       crawlVersion: 0,
       items: [],
-      keywords: [],
-      priorityKeywords: [],
+      topics: [],
       errors: [],
       lastFetchAt: null,
       nextFetchAt: null,
       intervalMs: 30 * 60 * 1000,
       minIntervalMs: 2 * 60 * 1000,
-      pushRepeatIntervalMs: 24 * 60 * 60 * 1000,
       uiPollIntervalMs: 15 * 1000,
       pushEnabled: true,
+      pushActiveChannels: [],
+      pushQueueCount: 0,
+      pushQuietTimeRanges: [],
+      pushQuietRange: null,
+      pushQuietUntil: null,
+      lastPushDeliveryAt: null,
       settingsLoadedAt: null,
-      pauseTimeRanges: [],
-      pausedRange: null,
-      pausedUntil: null,
       filteredOutByDateCount: 0,
       sourceHealth: [],
-      sourceHealthSummary: {
-        success: 0,
-        failed: 0,
-        other: 0
-      },
+      sourceHealthSummary: { success: 0, failed: 0, other: 0 },
       todayItemCount: 0,
       archiveItemCount: 0,
+      rankingsGeneratedAt: null,
+      rankingPlatforms: summarizeRankings(this.rankings),
+      rankingErrors: [],
+      lastRankingPushAt: null,
       timezone: ""
     };
     this.lastAttemptAt = 0;
@@ -337,41 +180,67 @@ export class NewsCrawler {
   }
 
   async init() {
-    if (this.initialized) {
-      return;
-    }
-    this.history = await loadNotifyHistory();
-    this.newsDays = (await loadNewsDays()).days;
-    this.newsArchiveCount = (await loadNewsArchive()).items.length;
+    if (this.initialized) return;
+    const [newsDays, archive, pushQueue, deliveryLedger, rankings] = await Promise.all([
+      loadNewsDays(),
+      loadNewsArchive(),
+      loadPushQueue(),
+      loadPushDeliveryLedger(),
+      loadRankings()
+    ]);
+    this.newsDays = newsDays.days;
+    this.state.lastFetchAt = newsDays.lastFetchAt || null;
+    this.newsArchiveCount = archive.items.length;
+    this.pushQueue = pushQueue;
+    this.deliveryLedger = deliveryLedger;
+    this.rankings = rankings;
+    this.state.pushQueueCount = pushQueue.items.length;
+    this.state.rankingsGeneratedAt = rankings.generatedAt;
+    this.state.rankingPlatforms = summarizeRankings(rankings);
     this.initialized = true;
   }
 
-  getMsUntilNextAllowedFetch() {
-    const now = Date.now();
-    const elapsed = now - this.lastAttemptAt;
-    return Math.max(0, this.state.minIntervalMs - elapsed);
+  async hydrateCachedState() {
+    await this.init();
+    const settings = await this.reloadSettings();
+    const topics = await loadTopics();
+    const dateKey = getLocalDateKey(new Date(), settings.timezone);
+    const cachedItems = clusterNewsItems(repairNewsClusters(this.newsDays[dateKey] || [])).map((item) =>
+      tagItemWithTopics(item, topics)
+    );
+    this.state.items = sortNewsItems(cachedItems);
+    this.state.todayItemCount = cachedItems.length;
+    this.state.archiveItemCount = this.newsArchiveCount;
+    this.state.pushQueueCount = this.pushQueue.items.length;
+    this.state.topics = topics;
+    this.state.rankingsGeneratedAt = this.rankings.generatedAt;
+    this.state.rankingPlatforms = summarizeRankings(this.rankings);
+    const quietRange = getMatchedQuietRange(
+      new Date(),
+      settings.push.quietTimeRanges,
+      settings.timezone
+    );
+    this.state.pushQuietRange = quietRange?.text || null;
+    this.state.pushQuietUntil = quietRange?.endAt?.toISOString() || null;
+    return this.getState();
   }
 
-  canNotify(itemId, repeatIntervalMs, nowMs) {
-    const previous = this.history.items[itemId];
-    if (!previous) {
-      return true;
-    }
-    const previousMs = new Date(previous).getTime();
-    if (!Number.isFinite(previousMs)) {
-      return true;
-    }
-    return nowMs - previousMs >= repeatIntervalMs;
+  getMsUntilNextAllowedFetch() {
+    return Math.max(0, this.state.minIntervalMs - (Date.now() - this.lastAttemptAt));
   }
 
   async reloadSettings() {
     const settings = await loadSettings();
     this.state.intervalMs = settings.fetchIntervalMinutes * 60 * 1000;
     this.state.minIntervalMs = settings.minFetchIntervalMinutes * 60 * 1000;
-    this.state.pushRepeatIntervalMs = settings.push.repeatIntervalMinutes * 60 * 1000;
     this.state.uiPollIntervalMs = settings.ui.pollIntervalSeconds * 1000;
     this.state.pushEnabled = settings.push.enabled;
-    this.state.pauseTimeRanges = (settings.pauseTimeRanges || []).map((range) => range.text);
+    this.state.pushActiveChannels = getActivePushChannels(settings);
+    this.state.rankingsEnabled = settings.rankings.enabled;
+    this.state.rankingPushTimes = settings.rankings.push.times;
+    this.state.pushQuietTimeRanges = (settings.push.quietTimeRanges || []).map(
+      (range) => range.text
+    );
     this.state.newsCleanupIntervalDays = settings.newsRetention.cleanupIntervalDays;
     this.state.archiveOnCleanup = settings.newsRetention.archiveOnCleanup;
     this.state.archiveRetentionDays = settings.newsRetention.archiveRetentionDays;
@@ -390,56 +259,58 @@ export class NewsCrawler {
 
   async run(trigger = "scheduled") {
     await this.init();
-    if (this.state.inProgress) {
-      return { skipped: true, reason: "already_running" };
-    }
+    if (this.state.inProgress) return { skipped: true, reason: "already_running" };
 
     const settings = await this.reloadSettings();
     const now = new Date();
-    const matchedPauseRange = getMatchedPauseRange(now, settings.pauseTimeRanges, settings.timezone);
-    if (matchedPauseRange) {
-      this.state.pausedRange = matchedPauseRange.text;
-      this.state.pausedUntil = matchedPauseRange.endAt.toISOString();
-      this.state.nextFetchAt = this.state.pausedUntil;
-      return {
-        skipped: true,
-        reason: "pause_time_range",
-        range: matchedPauseRange.text,
-        resumeAt: this.state.pausedUntil
-      };
-    }
-    this.state.pausedRange = null;
-    this.state.pausedUntil = null;
+    // 首轮启动只建立数据基线，不把当天更早发布的历史内容当作即时推送。
+    // 后续轮次则以最近一次成功抓取时间为界，仅推送真正新增发布的事件。
+    const previousFetchAt = new Date(this.state.lastFetchAt || "");
+    const pushPublishedAfter = Number.isFinite(previousFetchAt.getTime())
+      ? previousFetchAt
+      : now;
+    const quietRange = getMatchedQuietRange(
+      now,
+      settings.push.quietTimeRanges,
+      settings.timezone
+    );
+    this.state.pushQuietRange = quietRange?.text || null;
+    this.state.pushQuietUntil = quietRange?.endAt?.toISOString() || null;
 
     const waitMs = this.getMsUntilNextAllowedFetch();
-    if (waitMs > 0) {
-      return { skipped: true, reason: "min_interval", waitMs };
-    }
+    if (waitMs > 0) return { skipped: true, reason: "min_interval", waitMs };
 
     this.state.inProgress = true;
     this.lastAttemptAt = Date.now();
 
     try {
-      const [{ keywords, priorityKeywords }, sources] = await Promise.all([loadKeywords(), loadSources()]);
-
+      const [topics, sources] = await Promise.all([
+        loadTopics(),
+        loadSources()
+      ]);
       const { items, errors, sourceResults } = await crawlAllSources({
         sources,
         requestTimeoutMs: settings.requestTimeoutSeconds * 1000
       });
 
-      const enriched = items.map((item) => {
-        const text = `${item.title}`;
-        const matchedKeywords = matchKeywords(text, keywords);
-        const matchedPriorityKeywords = matchKeywords(text, priorityKeywords);
-        return {
-          ...item,
-          id: hashItem(item),
-          matchedKeywords,
-          matchedPriorityKeywords,
-          isPriority: matchedPriorityKeywords.length > 0
-        };
-      });
+      const rankingErrors = [];
+      try {
+        this.rankings = await refreshRankings(
+          this.rankings,
+          {
+            ...settings.rankings,
+            requestTimeoutMs: settings.rankings.requestTimeoutSeconds * 1000
+          },
+          { now }
+        );
+        await saveRankings(this.rankings);
+      } catch (error) {
+        rankingErrors.push(error.message || "榜单更新失败");
+      }
 
+      const enriched = items.map((item) =>
+        tagItemWithTopics({ ...item, id: hashItem(item) }, topics)
+      );
       const nowLocal = new Date();
       const tz = settings.timezone;
       let missingOrInvalidPubDateCount = 0;
@@ -457,25 +328,31 @@ export class NewsCrawler {
         return true;
       });
       this.state.filteredOutByDateCount = missingOrInvalidPubDateCount + nonTodayPubDateCount;
-      const translated = await translateItemsWithAnthropic(dateFilteredItems, settings.aiTranslation);
-      const finalItems = translated.items.map((item) => {
-        const text = `${item.title} ${item.titleZh || ""}`;
-        const matchedKeywords = matchKeywords(text, keywords);
-        const matchedPriorityKeywords = matchKeywords(text, priorityKeywords);
-        return {
-          ...item,
-          matchedKeywords,
-          matchedPriorityKeywords,
-          isPriority: matchedPriorityKeywords.length > 0
-        };
-      });
+
       const dateKey = getLocalDateKey(nowLocal, tz);
-      const currentDayItems = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
-      const existingIds = new Set(currentDayItems.map((item) => item.id));
-      const todayNewItems = finalItems.filter((item) => !existingIds.has(item.id));
-      if (todayNewItems.length > 0) {
-        this.newsDays[dateKey] = currentDayItems.concat(todayNewItems);
+
+      // 先统一旧数据事件模型，再利用已保存的翻译和事件进行预去重。
+      // 这样同一 RSS 标题不会每轮重复调用付费翻译接口。
+      for (const [key, dayItems] of Object.entries(this.newsDays)) {
+        this.newsDays[key] = clusterNewsItems(repairNewsClusters(dayItems)).map((item) =>
+          tagItemWithTopics(item, topics)
+        );
       }
+      const currentDayItems = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
+      const fetchedEvents = clusterNewsItems(dateFilteredItems);
+      const translationReadyItems = reuseKnownTranslations(fetchedEvents, currentDayItems);
+      const translated = await translateItemsWithAi(
+        translationReadyItems,
+        settings.aiTranslation
+      );
+      const finalItems = translated.items.map((item) =>
+        tagItemWithTopics(item, topics)
+      );
+      const existingEventIds = new Set(currentDayItems.map((item) => item.eventId).filter(Boolean));
+      this.newsDays[dateKey] = clusterNewsItems([...currentDayItems, ...finalItems]).map((item) =>
+        tagItemWithTopics(item, topics)
+      );
+
       const { days: cleanedDays, removedItems } = cleanupNewsDays(
         this.newsDays,
         settings.newsRetention.cleanupIntervalDays,
@@ -483,181 +360,131 @@ export class NewsCrawler {
         tz
       );
       this.newsDays = cleanedDays;
-      const todayAllItemsRaw = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
+      const todayAllItems = Array.isArray(this.newsDays[dateKey]) ? this.newsDays[dateKey] : [];
+      const todayNewEvents = todayAllItems.filter((item) => !existingEventIds.has(item.eventId));
+
       if (settings.newsRetention.archiveOnCleanup && removedItems.length > 0) {
-        const archivedPayload = removedItems.map((item) => {
-          const tags = Array.from(
-            new Set([...(item.matchedKeywords || []), ...(item.matchedPriorityKeywords || [])])
-          );
-          return {
-            title: item.titleZh || item.title || "",
+        const archivedAt = new Date().toISOString();
+        await appendNewsArchive(
+          removedItems.map((item) => ({
+            eventId: item.eventId || "",
+            title: getDisplayTitle(item),
             url: item.url || "",
-            tags,
+            tags: Array.from(
+              new Set(item.matchedTopicNames || [])
+            ),
             publishedAt: item.pubDate || item.fetchedAt || "",
             source: item.source || "",
-            archivedAt: new Date().toISOString()
-          };
-        });
-        await appendNewsArchive(archivedPayload);
+            relatedSources: item.relatedSources || [],
+            relatedLinks: item.relatedLinks || [],
+            sourceCount: item.sourceCount || 1,
+            clusterSize: item.clusterSize || 1,
+            category: item.category || "",
+            categories: item.categories || [],
+            region: item.region || "",
+            regions: item.regions || [],
+            archivedAt
+          }))
+        );
       }
 
       let archiveItems = (await loadNewsArchive()).items;
-      const archiveRetention = settings.newsRetention.archiveRetentionDays;
-      if (Number(archiveRetention) > 0) {
-        const { items: prunedArchive, removed: removedArchived } = pruneNewsArchiveItems(
+      if (Number(settings.newsRetention.archiveRetentionDays) > 0) {
+        const pruned = pruneNewsArchiveItems(
           archiveItems,
-          archiveRetention,
+          settings.newsRetention.archiveRetentionDays,
           nowLocal
         );
-        if (removedArchived > 0) {
-          await saveNewsArchive(prunedArchive);
-        }
-        archiveItems = prunedArchive;
+        if (pruned.removed > 0) await saveNewsArchive(pruned.items);
+        archiveItems = pruned.items;
       }
       this.newsArchiveCount = archiveItems.length;
+      await saveNewsDays(this.newsDays, { lastFetchAt: now.toISOString() });
 
-      await saveNewsDays(this.newsDays);
-
-      const todayAllItems = todayAllItemsRaw.map((item) => {
-        const text = `${item.title || ""} ${item.titleZh || ""}`;
-        const matchedKeywords = matchKeywords(text, keywords);
-        const matchedPriorityKeywords = matchKeywords(text, priorityKeywords);
-        return {
-          ...item,
-          matchedKeywords,
-          matchedPriorityKeywords,
-          isPriority: matchedPriorityKeywords.length > 0
-        };
-      });
-
-      const nowMs = Date.now();
-      const hasAnyPushUrl =
-        Boolean(settings.push.dayAppPushUrl) || Boolean(settings.push.ntfyPushUrl);
-      const pushSourceBlacklist = new Set(
-        (settings.push.sourceBlacklist || []).map((value) => normalizeSourceName(value))
-      );
-
-      // Periodically prune old history to avoid unbounded growth.
-      const { removed: removedHistoryCount } = cleanupNotifyHistory(
-        this.history,
-        settings.push.notifyHistoryTtlMinutes,
-        nowMs
-      );
-
-      const priorityToNotify = todayNewItems.filter(
+      const activeChannels = getActivePushChannels(settings);
+      const blacklist = new Set(settings.push.sourceBlacklist.map(normalizeSourceName));
+      const priorityToQueue = todayNewEvents.filter(
         (item) =>
           item.isPriority &&
+          isPublishedAfter(item, pushPublishedAfter) &&
           settings.push.enabled &&
-          hasAnyPushUrl &&
-          !pushSourceBlacklist.has(normalizeSourceName(item.source)) &&
-          this.canNotify(item.id, this.state.pushRepeatIntervalMs, nowMs)
+          activeChannels.length > 0 &&
+          !isFullyBlacklisted(item, blacklist)
       );
+      this.pushQueue = mergePushQueue(
+        this.pushQueue,
+        priorityToQueue.map((item) => ({ ...item, targetChannels: activeChannels })),
+        now.toISOString()
+      );
+      this.deliveryLedger = pruneDeliveryLedger(
+        this.deliveryLedger,
+        settings.push.deliveryLedgerRetentionDays,
+        now,
+        this.pushQueue.items.map((item) => item.eventId)
+      );
+      await Promise.all([
+        savePushQueue(this.pushQueue),
+        savePushDeliveryLedger(this.deliveryLedger)
+      ]);
 
-      const tagToItems = new Map();
-      for (const item of priorityToNotify) {
-        for (const tag of item.matchedPriorityKeywords || []) {
-          if (!tagToItems.has(tag)) {
-            tagToItems.set(tag, []);
+      let pushErrors = [];
+      let delivered = [];
+      if (!quietRange && activeChannels.length > 0 && this.pushQueue.items.length > 0) {
+        const delivery = await deliverQueuedPushes({
+          queue: this.pushQueue,
+          ledger: this.deliveryLedger,
+          settings,
+          now,
+          onProgress: async ({ queue, ledger }) => {
+            // 成功账本先落盘：即使进程随后退出，重启也不会重复投递已成功的渠道。
+            await savePushDeliveryLedger(ledger);
+            await savePushQueue(queue);
           }
-          tagToItems.get(tag).push(item);
-        }
-      }
-
-      const tasks = [];
-      let didAnyPushSuccess = false;
-      const pushErrorMessages = [];
-      for (const tag of priorityKeywords) {
-        const tagItems = (tagToItems.get(tag) || []).slice().sort((a, b) => {
-          const priorityDiff = getPushTranslationPriority(a) - getPushTranslationPriority(b);
-          if (priorityDiff !== 0) {
-            return priorityDiff;
-          }
-          return getDisplayTitle(a).localeCompare(getDisplayTitle(b), "zh-CN");
         });
-        if (!tagItems.length) continue;
-        const tagChunks = splitByMessageLength(
-          tag,
-          tagItems,
-          settings.push.maxItemsPerPush,
-          settings.push.maxMessageChars
-        );
+        this.pushQueue = delivery.queue;
+        this.deliveryLedger = delivery.ledger;
+        pushErrors = delivery.errors;
+        delivered = delivery.delivered;
+        if (delivered.length) this.state.lastPushDeliveryAt = now.toISOString();
+      }
 
-        for (const chunkItems of tagChunks) {
-          if (!chunkItems.length) continue;
-
-          if (settings.push.dayAppPushUrl) {
-            tasks.push(
-              (async () => {
-                const result = await pushToDayAppUrl(
-                  settings.push.dayAppPushUrl,
-                  tag,
-                  chunkItems,
-                  settings.push.maxItemsPerPush,
-                  settings.push.maxMessageChars
-                );
-                return result;
-              })()
-            );
-          }
-
-          if (settings.push.ntfyPushUrl) {
-            const { message } = buildTagMessage(
-              tag,
-              chunkItems,
-              settings.push.maxItemsPerPush,
-              settings.push.maxMessageChars
-            );
-            tasks.push(pushToNtfyUrl(settings.push.ntfyPushUrl, message));
-          }
+      if (!quietRange && settings.rankings.enabled && settings.rankings.push.enabled) {
+        try {
+          const rankingDelivery = await maybePushRankings(this.rankings, settings, { now });
+          this.rankings = rankingDelivery.snapshot;
+          await saveRankings(this.rankings);
+          if (rankingDelivery.delivered.length) this.state.lastRankingPushAt = now.toISOString();
+          if (rankingDelivery.errors.length) rankingErrors.push(...rankingDelivery.errors);
+        } catch (error) {
+          rankingErrors.push(error.message || "榜单推送失败");
         }
       }
 
-      const pushResults = await Promise.all(tasks);
-      for (const r of pushResults) {
-        if (r && r.ok) {
-          didAnyPushSuccess = true;
-        } else if (r && r.errorMessage) {
-          pushErrorMessages.push(r.errorMessage);
-        }
-      }
-
-      if (didAnyPushSuccess || removedHistoryCount > 0) {
-        for (const item of priorityToNotify) {
-          this.history.items[item.id] = new Date(nowMs).toISOString();
-        }
-        await saveNotifyHistory(this.history);
-      }
-
-      this.state.items = todayAllItems.sort((a, b) =>
-        getDisplayTitle(a).localeCompare(getDisplayTitle(b), "zh-CN")
-      );
+      this.state.items = sortNewsItems(todayAllItems);
       this.state.todayItemCount = this.state.items.length;
       this.state.archiveItemCount = this.newsArchiveCount;
-      this.state.keywords = keywords;
-      this.state.priorityKeywords = priorityKeywords;
+      this.state.pushQueueCount = this.pushQueue.items.length;
+      this.state.topics = topics;
+      this.state.rankingsGeneratedAt = this.rankings.generatedAt;
+      this.state.rankingPlatforms = summarizeRankings(this.rankings);
+      this.state.rankingErrors = [
+        ...rankingErrors,
+        ...this.state.rankingPlatforms.map((item) => item.errorMessage).filter(Boolean)
+      ];
       this.state.sourceHealth = Array.isArray(sourceResults) ? sourceResults : [];
       const summary = { success: 0, failed: 0, other: 0 };
       for (const item of this.state.sourceHealth) {
-        if (item?.status === "success" || item?.status === "failed" || item?.status === "other") {
-          summary[item.status] += 1;
-        }
+        if (Object.hasOwn(summary, item?.status)) summary[item.status] += 1;
       }
       this.state.sourceHealthSummary = summary;
       this.state.errors = errors.slice();
-      if (translated.errorMessage) {
-        this.state.errors.push(translated.errorMessage);
+      if (translated.errorMessage) this.state.errors.push(translated.errorMessage);
+      if (pushErrors.length) {
+        this.state.errors.push(...pushErrors);
+        console.error("[NewsLive push]", pushErrors.join(" | "));
       }
-      if (this.state.filteredOutByDateCount > 0) {
-        this.state.errors.push(
-          `已过滤非当日新闻 ${this.state.filteredOutByDateCount} 条（无/非法发布时间 ${missingOrInvalidPubDateCount}，非当日 ${nonTodayPubDateCount}）`
-        );
-      }
-      if (pushErrorMessages.length) {
-        this.state.errors.push(...pushErrorMessages);
-        // eslint-disable-next-line no-console
-        console.error("[NewsLive push]", pushErrorMessages.join(" | "));
-      }
-      this.state.lastFetchAt = new Date().toISOString();
+      // 记录本轮开始时间，避免把抓取耗时形成的时间窗口遗漏到下一轮推送判断之外。
+      this.state.lastFetchAt = now.toISOString();
       this.state.nextFetchAt = new Date(Date.now() + this.state.intervalMs).toISOString();
       this.state.crawlVersion += 1;
 
@@ -665,8 +492,11 @@ export class NewsCrawler {
         skipped: false,
         trigger,
         count: this.state.items.length,
-        notified: didAnyPushSuccess ? priorityToNotify.length : 0,
-        translated: translated.translatedCount
+        newEvents: todayNewEvents.length,
+        queued: priorityToQueue.length,
+        notified: new Set(delivered.map((item) => item.eventId)).size,
+        translated: translated.translatedCount,
+        pushQuiet: Boolean(quietRange)
       };
     } catch (error) {
       this.state.errors = [error.message || "获取异常"];
