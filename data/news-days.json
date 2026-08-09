@@ -3227,20 +3227,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires",
-            "source": "Guardian World",
-            "title": "Canadian government steps in as ‘out of control’ wildfires force thousands to flee",
-            "titleZh": "加拿大政府介入，因‘失控’野火迫使数千人撤离"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2ZpN2k2ckJrZHJtQ1k3Nk1xTVFINklNT0pYUHhYTjB3SXNzODA0U3doNDJXaHA2QmtmMkMyMHM3d29RZHJISlNLZWFEMGJvNlR0M0xaNWs3N0RvNlQ5RHg1OVhSUkVoRWpxX2FXNmJuQ19vQ3NkbEFNcjJHZ3Fjay1YSXhscW1NNzlDeXBlWUhIVUdt?oc=5",
             "source": "Google News",
             "title": "Canadian government steps in as ‘out of control’ wildfires force thousands to flee - The Guardian",
+            "titleZh": "加拿大政府介入，因‘失控’野火迫使数千人撤离"
+          },
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires",
+            "source": "Guardian World",
+            "title": "Canadian government steps in as ‘out of control’ wildfires force thousands to flee",
             "titleZh": "加拿大政府介入，因‘失控’野火迫使数千人撤离"
           }
         ],
@@ -9284,11 +9284,12 @@
         "isPriority": true,
         "eventId": "0a82c6e63e79eddda620085cca3adf4b8e57d8fe",
         "canonicalUrl": "https://abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -12220,10 +12221,11 @@
         "isPriority": false,
         "eventId": "326ebd82acd6a87ca60734093787ee2bff14c0ec",
         "canonicalUrl": "https://stories.thef1rstpancake.com/airtable-acquisition-and-what-hypergrowth-teaches-you",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -12466,10 +12468,11 @@
         "isPriority": true,
         "eventId": "0101ec32802957832e2fc8624fac21ef8c1bbe1a",
         "canonicalUrl": "https://netbajura.blogspot.com/2026/08/ororatech-startup-that-detects.html",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -12556,8 +12559,981 @@
         "language": "",
         "languages": [],
         "titleZh": "如果你遭遇车祸，保险公司不赔付的风险正在增加"
+      },
+      {
+        "title": "每天躺着玩手机超5小时 男子确诊血栓 这3个预警信号别忽视→",
+        "url": "https://www.chinanews.com.cn/jk/2026/08-10/10674891.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-09T23:58:27.387Z",
+        "pubDate": "Mon, 10 Aug 2026 07:49:48 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f6e3a6cf14e66221d6c6a9e2c674f8130870b81a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "409ebdc3c0d71f38f1007bdb4491f1b46ad2b898",
+        "canonicalUrl": "https://chinanews.com.cn/jk/2026/08-10/10674891.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/jk/2026/08-10/10674891.shtml",
+            "source": "中国新闻网",
+            "title": "每天躺着玩手机超5小时 男子确诊血栓 这3个预警信号别忽视→",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "市民游客在北京798艺术区打卡“百花奖”",
+        "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-10/1200621.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-09T23:58:27.387Z",
+        "pubDate": "Mon, 10 Aug 2026 07:34:01 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8e2489612b40cebce28c88191179088ff3cbf5a8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d87110d0966092b38c950162c4d1f3ba1d911d06",
+        "canonicalUrl": "http://chinanews.com.cn/tp/hd2011/2026/08-10/1200621.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-10/1200621.shtml",
+            "source": "中国新闻网",
+            "title": "市民游客在北京798艺术区打卡“百花奖”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "台风“白海豚”强度逐渐减弱 浙皖等地局地有特大暴雨",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674885.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-09T23:58:27.387Z",
+        "pubDate": "Mon, 10 Aug 2026 07:33:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "21269ae83662c04b9c0161e1495232262ae76195",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e88351ca4ffd954ebb59523cf7802dc21947ce7d",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-10/10674885.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674885.shtml",
+            "source": "中国新闻网",
+            "title": "台风“白海豚”强度逐渐减弱 浙皖等地局地有特大暴雨",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "令人“心动”的offer，大学生扎堆当景区NPC！",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674886.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-09T23:58:27.387Z",
+        "pubDate": "Mon, 10 Aug 2026 07:31:53 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "23f389053ece9efa0e55ca374f3e4eb53888b17c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5d20d8071ccceac65b6d584fa83ba939a1e476b7",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-10/10674886.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674886.shtml",
+            "source": "中国新闻网",
+            "title": "令人“心动”的offer，大学生扎堆当景区NPC！",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Fast-moving wildfire in western Canada forces more than 20,000 people to evacuate - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ybFd5QmZWSVRlM1MwYU9fb1R1QVNoZ2JMcDFIOTBnUDZUcThEeHE3YnZndkRYU2xzRlJfdmFvV1FjVGZpNmtUVnAwb1hVV2lGVDBRakYwX0ZGSUEtRGFsZUxjaEl1Q0Z2YWxHT2dfeS1QVU05NWtXN29sUmtfUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T23:58:27.428Z",
+        "pubDate": "Sun, 09 Aug 2026 23:08:58 GMT",
+        "id": "75f9a8c0e5def77932fc8af9980a3781343fe89b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "be3e3c39c1267bd7c12f1f05de7698105fa19656",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ybFd5QmZWSVRlM1MwYU9fb1R1QVNoZ2JMcDFIOTBnUDZUcThEeHE3YnZndkRYU2xzRlJfdmFvV1FjVGZpNmtUVnAwb1hVV2lGVDBRakYwX0ZGSUEtRGFsZUxjaEl1Q0Z2YWxHT2dfeS1QVU05NWtXN29sUmtfUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ybFd5QmZWSVRlM1MwYU9fb1R1QVNoZ2JMcDFIOTBnUDZUcThEeHE3YnZndkRYU2xzRlJfdmFvV1FjVGZpNmtUVnAwb1hVV2lGVDBRakYwX0ZGSUEtRGFsZUxjaEl1Q0Z2YWxHT2dfeS1QVU05NWtXN29sUmtfUQ?oc=5",
+            "source": "Google News",
+            "title": "Fast-moving wildfire in western Canada forces more than 20,000 people to evacuate - CBS News",
+            "titleZh": "加拿大西部快速蔓延的野火迫使超过2万人撤离 - CBS新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "加拿大西部快速蔓延的野火迫使超过2万人撤离 - CBS新闻"
+      },
+      {
+        "title": "‘Spider-Man: Brand New Day’ keeps record pace, ‘The Odyssey’ sets new high for Nolan - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDRXM1E2Z25Ta2tVMlJGVVFmbUFzLXRMc09IR1NWN3F2ZFNubFlVUERBcHliSEFQZFNEYUdRS29NdDc3NUFoclg1VmlEWTdUczY1NlpOQkszcVlTODRuX0dDa1NVeU5NRVVzRU90SlYwWVJxa2wyVENwNy10TmtHNlNJZ2JkUV9xbkFQY0pESFpWdjY1RUR4XzBwTmx4dDRZSHVsaUNmQTZXUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T23:58:27.428Z",
+        "pubDate": "Sun, 09 Aug 2026 19:42:00 GMT",
+        "id": "8ab6456c2b33c0c0b7d502341a9cd60d2e8d6888",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a0216ab1bc1d33af783204468aa4ec7eebfb1bc8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDRXM1E2Z25Ta2tVMlJGVVFmbUFzLXRMc09IR1NWN3F2ZFNubFlVUERBcHliSEFQZFNEYUdRS29NdDc3NUFoclg1VmlEWTdUczY1NlpOQkszcVlTODRuX0dDa1NVeU5NRVVzRU90SlYwWVJxa2wyVENwNy10TmtHNlNJZ2JkUV9xbkFQY0pESFpWdjY1RUR4XzBwTmx4dDRZSHVsaUNmQTZXUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDRXM1E2Z25Ta2tVMlJGVVFmbUFzLXRMc09IR1NWN3F2ZFNubFlVUERBcHliSEFQZFNEYUdRS29NdDc3NUFoclg1VmlEWTdUczY1NlpOQkszcVlTODRuX0dDa1NVeU5NRVVzRU90SlYwWVJxa2wyVENwNy10TmtHNlNJZ2JkUV9xbkFQY0pESFpWdjY1RUR4XzBwTmx4dDRZSHVsaUNmQTZXUQ?oc=5",
+            "source": "Google News",
+            "title": "‘Spider-Man: Brand New Day’ keeps record pace, ‘The Odyssey’ sets new high for Nolan - AP News",
+            "titleZh": "《蜘蛛侠：全新的一天》保持纪录速度，《奥德赛》为诺兰创下新高 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "《蜘蛛侠：全新的一天》保持纪录速度，《奥德赛》为诺兰创下新高 - 美联社新闻"
+      },
+      {
+        "title": "Ben Jones, Who Played Cooter on 'Dukes of Hazzard,' Dead at 84 - TMZ",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PRndhUTBMMW5wWkF6RnkzUjVZY2dyRk1IM0RlM2ZPX2RfalVaSnhjYlQzYmVXWFlXZ3ItdmhTOEZhZ2FESXRTaDlPZUctTkxZTkVsNFY4TlJxZw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T23:58:27.428Z",
+        "pubDate": "Sun, 09 Aug 2026 23:17:20 GMT",
+        "id": "273e2d05e5d6a40bbe72d3d5b9d184fbb812d1bd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cdd4a8381087b613676a7ef1c72bf6915b400258",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PRndhUTBMMW5wWkF6RnkzUjVZY2dyRk1IM0RlM2ZPX2RfalVaSnhjYlQzYmVXWFlXZ3ItdmhTOEZhZ2FESXRTaDlPZUctTkxZTkVsNFY4TlJxZw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PRndhUTBMMW5wWkF6RnkzUjVZY2dyRk1IM0RlM2ZPX2RfalVaSnhjYlQzYmVXWFlXZ3ItdmhTOEZhZ2FESXRTaDlPZUctTkxZTkVsNFY4TlJxZw?oc=5",
+            "source": "Google News",
+            "title": "Ben Jones, Who Played Cooter on 'Dukes of Hazzard,' Dead at 84 - TMZ",
+            "titleZh": "在《正义前锋》中饰演库特的本·琼斯去世，享年84岁 - TMZ"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在《正义前锋》中饰演库特的本·琼斯去世，享年84岁 - TMZ"
+      },
+      {
+        "title": "Tears of joy for Demi Vollering after winning the Women's Tour de France for the second time - AP News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXlPZGdiS3BzbUNpUTFtVUNEUGxvbndpanNQbi16bFFmTy1MOUVCNnAwd3A0WXZmZ2ZkSlZiYnhlSGt4TWdRcjIzWExnc29BZmlLR09Jb2ZDZm9Va1FtWE1mMVdxUUxKSUNIamxOM1YwZFJOS0FBaTlpV2JxX2pRRk9JMUpwYTJydG41aTk3cWc2N2VMamlF?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T23:58:27.428Z",
+        "pubDate": "Sun, 09 Aug 2026 18:48:00 GMT",
+        "id": "5178d8199f8720434c2a67cb7b21ab3c3fc7b6c9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "09a413e24295065c2182954c768e3900b44b4f9b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXlPZGdiS3BzbUNpUTFtVUNEUGxvbndpanNQbi16bFFmTy1MOUVCNnAwd3A0WXZmZ2ZkSlZiYnhlSGt4TWdRcjIzWExnc29BZmlLR09Jb2ZDZm9Va1FtWE1mMVdxUUxKSUNIamxOM1YwZFJOS0FBaTlpV2JxX2pRRk9JMUpwYTJydG41aTk3cWc2N2VMamlF",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXlPZGdiS3BzbUNpUTFtVUNEUGxvbndpanNQbi16bFFmTy1MOUVCNnAwd3A0WXZmZ2ZkSlZiYnhlSGt4TWdRcjIzWExnc29BZmlLR09Jb2ZDZm9Va1FtWE1mMVdxUUxKSUNIamxOM1YwZFJOS0FBaTlpV2JxX2pRRk9JMUpwYTJydG41aTk3cWc2N2VMamlF?oc=5",
+            "source": "Google News",
+            "title": "Tears of joy for Demi Vollering after winning the Women's Tour de France for the second time - AP News",
+            "titleZh": "德米·沃勒林第二次赢得女子环法自行车赛后喜极而泣 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "德米·沃勒林第二次赢得女子环法自行车赛后喜极而泣 - 美联社新闻"
+      },
+      {
+        "title": "Chris Sale, fuming after balk, ejected before Braves' win - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzdsMmd0cW03MjZmUFVUOW40LVVPa3c5R3RodE9feHFOaFcxbTRRVEtPbmRlbl9URDJWeVdlVHB6ZU14S212T2ZsT1pzZ1hibW9FM0xHMTVGT21JUDdJYmplblRsSlBodG1EUU8wOXF5emJDTWwxTF9TRTZpUXIxMUQ4TllSNGk5V1hGbU4wY1k?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T23:58:27.428Z",
+        "pubDate": "Sun, 09 Aug 2026 18:31:00 GMT",
+        "id": "33db5766bd092ae3469250ba1f80da4ecbf187d7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "adc1373bf57247dbcf7fabe436a25b5456c3c549",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzdsMmd0cW03MjZmUFVUOW40LVVPa3c5R3RodE9feHFOaFcxbTRRVEtPbmRlbl9URDJWeVdlVHB6ZU14S212T2ZsT1pzZ1hibW9FM0xHMTVGT21JUDdJYmplblRsSlBodG1EUU8wOXF5emJDTWwxTF9TRTZpUXIxMUQ4TllSNGk5V1hGbU4wY1k",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzdsMmd0cW03MjZmUFVUOW40LVVPa3c5R3RodE9feHFOaFcxbTRRVEtPbmRlbl9URDJWeVdlVHB6ZU14S212T2ZsT1pzZ1hibW9FM0xHMTVGT21JUDdJYmplblRsSlBodG1EUU8wOXF5emJDTWwxTF9TRTZpUXIxMUQ4TllSNGk5V1hGbU4wY1k?oc=5",
+            "source": "Google News",
+            "title": "Chris Sale, fuming after balk, ejected before Braves' win - ESPN",
+            "titleZh": "克里斯·塞尔因对投手犯规判罚愤怒，在勇士队获胜前被驱逐出场 - ESPN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "克里斯·塞尔因对投手犯规判罚愤怒，在勇士队获胜前被驱逐出场 - ESPN"
+      },
+      {
+        "title": "NASCAR Cup Series race at Iowa live updates, highlights, leaderboard for Iowa Corn 350 - The Tennessean",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdzhvRHlVNGF1QWVBcDhydlVXZGhCMzJ1ekRLZjctb2tLaTdwWEpYc3F5ZzBaeXpoMUlzcnp6cEwzOTFsREFpT0ZIMzR1TFE2RzFaVmZtSHFtbUVkRTdtbndjWGdwUmc5MENzY1JlRGhTWFRaTC1ycUE3MlNQSzVPTy1BS0MzM2V6cUlTRXRVR3F3VzdRZGFnQUxXeDFxc0RJR0lMT3ZRX2V4QmtaNHR2TnJ4N2N2WWlRZkljRng2MHdNU3lnV0oySVMta3VXWXZUZFhLWWRR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T23:58:27.428Z",
+        "pubDate": "Sun, 09 Aug 2026 22:47:00 GMT",
+        "id": "54158756fe06f5f8cf2793ff7d221673e82d9980",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a3e6f8c36dacba0a0b647013e88b41f6098de8ea",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdzhvRHlVNGF1QWVBcDhydlVXZGhCMzJ1ekRLZjctb2tLaTdwWEpYc3F5ZzBaeXpoMUlzcnp6cEwzOTFsREFpT0ZIMzR1TFE2RzFaVmZtSHFtbUVkRTdtbndjWGdwUmc5MENzY1JlRGhTWFRaTC1ycUE3MlNQSzVPTy1BS0MzM2V6cUlTRXRVR3F3VzdRZGFnQUxXeDFxc0RJR0lMT3ZRX2V4QmtaNHR2TnJ4N2N2WWlRZkljRng2MHdNU3lnV0oySVMta3VXWXZUZFhLWWRR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdzhvRHlVNGF1QWVBcDhydlVXZGhCMzJ1ekRLZjctb2tLaTdwWEpYc3F5ZzBaeXpoMUlzcnp6cEwzOTFsREFpT0ZIMzR1TFE2RzFaVmZtSHFtbUVkRTdtbndjWGdwUmc5MENzY1JlRGhTWFRaTC1ycUE3MlNQSzVPTy1BS0MzM2V6cUlTRXRVR3F3VzdRZGFnQUxXeDFxc0RJR0lMT3ZRX2V4QmtaNHR2TnJ4N2N2WWlRZkljRng2MHdNU3lnV0oySVMta3VXWXZUZFhLWWRR?oc=5",
+            "source": "Google News",
+            "title": "NASCAR Cup Series race at Iowa live updates, highlights, leaderboard for Iowa Corn 350 - The Tennessean",
+            "titleZh": "NASCAR杯系列赛爱荷华站：爱荷华玉米350赛实时更新、亮点和领先榜 - 《田纳西人报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "NASCAR杯系列赛爱荷华站：爱荷华玉米350赛实时更新、亮点和领先榜 - 《田纳西人报》"
+      },
+      {
+        "title": "Bank statement PDF to CSV that runs in the browser",
+        "url": "https://statement-to-csv.pages.dev/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:44:45 +0000",
+        "id": "8fe7d53907a8e858a945e188eba04261f73bf8b2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9da6a6e11ec7e79afd74ea2f22051e5da491837b",
+        "canonicalUrl": "https://statement-to-csv.pages.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://statement-to-csv.pages.dev/",
+            "source": "Hacker News Newest",
+            "title": "Bank statement PDF to CSV that runs in the browser",
+            "titleZh": "银行对账单PDF转CSV，在浏览器中运行"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "银行对账单PDF转CSV，在浏览器中运行"
+      },
+      {
+        "title": "NOVC: Venture Capital Free",
+        "url": "https://novc.fyi/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:39:59 +0000",
+        "id": "71f297d6cfd668eb5b59b35e4b9b243d86c42d4b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8100d1a5c0bd3e0fb10d71eadd305457870e7388",
+        "canonicalUrl": "https://novc.fyi/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://novc.fyi/",
+            "source": "Hacker News Newest",
+            "title": "NOVC: Venture Capital Free",
+            "titleZh": "NOVC：免费风险投资"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "NOVC：免费风险投资"
+      },
+      {
+        "title": ".NET on AWS Open Source Software Fund",
+        "url": "https://github.com/aws/dotnet-foss",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:39:38 +0000",
+        "id": "0aaf6866892ee48d86a1676ad1e1de4f68734fb5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f8411d48b2de7c6961bea29261b389b25974df4e",
+        "canonicalUrl": "https://github.com/aws/dotnet-foss",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/aws/dotnet-foss",
+            "source": "Hacker News Newest",
+            "title": ".NET on AWS Open Source Software Fund",
+            "titleZh": "AWS 上的 .NET 开源软件基金"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AWS 上的 .NET 开源软件基金"
+      },
+      {
+        "title": "The Ambition Project",
+        "url": "https://www.betonit.ai/p/the-ambition-project",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:36:05 +0000",
+        "id": "5a3a2d383e1d3745473c5e8a068ce54d4b1e39c7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d97eb48a51fe7de5013c22f7aa5b6e4fb98a1cf5",
+        "canonicalUrl": "https://betonit.ai/p/the-ambition-project",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.betonit.ai/p/the-ambition-project",
+            "source": "Hacker News Newest",
+            "title": "The Ambition Project",
+            "titleZh": "雄心计划"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "雄心计划"
+      },
+      {
+        "title": "Modern JavaScript Tricks for Cleaner Everyday Code",
+        "url": "https://jsdevspace.substack.com/p/20-modern-javascript-tricks-for-cleaner",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:34:16 +0000",
+        "id": "9c1d19aa2d74939e868986c797f442d2e8db105b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "00a17a0bb019b1027303b2fd1b4632d455452bd0",
+        "canonicalUrl": "https://jsdevspace.substack.com/p/20-modern-javascript-tricks-for-cleaner",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://jsdevspace.substack.com/p/20-modern-javascript-tricks-for-cleaner",
+            "source": "Hacker News Newest",
+            "title": "Modern JavaScript Tricks for Cleaner Everyday Code",
+            "titleZh": "现代 JavaScript 技巧，让日常代码更简洁"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "现代 JavaScript 技巧，让日常代码更简洁"
+      },
+      {
+        "title": "A browser that generates every website from scratch",
+        "url": "https://www.xda-developers.com/tried-browser-generates-every-website-from-scratch/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:32:52 +0000",
+        "id": "4829074bb34822b36afb318f7b2091b1ed21eecd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "43e679ca8dbd4b5d8f632bfc41efa85f1c5760c1",
+        "canonicalUrl": "https://xda-developers.com/tried-browser-generates-every-website-from-scratch",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.xda-developers.com/tried-browser-generates-every-website-from-scratch/",
+            "source": "Hacker News Newest",
+            "title": "A browser that generates every website from scratch",
+            "titleZh": "一款从零生成每个网站的浏览器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "一款从零生成每个网站的浏览器"
+      },
+      {
+        "title": "NASA chooses a once-abandoned Spanish village to broadcast the 2026 eclipse",
+        "url": "https://www.euronews.com/next/2026/08/07/why-nasa-chooses-this-small-burgos-village-to-broadcast-the-eclipse",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:31:48 +0000",
+        "id": "ccfaf508bb497a43f919f8c8fb4d51d0f648fe87",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e4d1efc269be2c200f6468fe1e998703ed84788a",
+        "canonicalUrl": "https://euronews.com/next/2026/08/07/why-nasa-chooses-this-small-burgos-village-to-broadcast-the-eclipse",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.euronews.com/next/2026/08/07/why-nasa-chooses-this-small-burgos-village-to-broadcast-the-eclipse",
+            "source": "Hacker News Newest",
+            "title": "NASA chooses a once-abandoned Spanish village to broadcast the 2026 eclipse",
+            "titleZh": "NASA 选择一座曾被遗弃的西班牙村庄转播 2026 年日食"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "NASA 选择一座曾被遗弃的西班牙村庄转播 2026 年日食"
+      },
+      {
+        "title": "QuiltOps – Continuous packaging for your patches",
+        "url": "https://quiltops.dev/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:30:32 +0000",
+        "id": "7724f88c4d976172d6a3c0f4d2000c9b230291e4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "080cf062233703798be033623c3d8f86df93fc61",
+        "canonicalUrl": "https://quiltops.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://quiltops.dev/",
+            "source": "Hacker News Newest",
+            "title": "QuiltOps – Continuous packaging for your patches",
+            "titleZh": "QuiltOps——为您的补丁提供持续打包"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "QuiltOps——为您的补丁提供持续打包"
+      },
+      {
+        "title": "I made FilmShelves, a movie collection management tool",
+        "url": "https://filmshelves.com",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:28:50 +0000",
+        "id": "952339c4150499d5177c327f8616db9e5dc49b5b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "83db173a8171f1d3eb5227ddab5aefd3c9c9a8da",
+        "canonicalUrl": "https://filmshelves.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://filmshelves.com",
+            "source": "Hacker News Newest",
+            "title": "I made FilmShelves, a movie collection management tool",
+            "titleZh": "我制作了 FilmShelves，一款电影收藏管理工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我制作了 FilmShelves，一款电影收藏管理工具"
+      },
+      {
+        "title": "vLLM Serving Experiments on H100s – config beats the baseline on p95 TTFT,ITL",
+        "url": "https://efficientagent.substack.com/p/a-better-knob-beats-more-silicon",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:27:45 +0000",
+        "id": "ba59aac0287d0b18fe49216108ece6eb5267f49f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3b694fff5544f1a6dc5007f818cf0ad07430aa48",
+        "canonicalUrl": "https://efficientagent.substack.com/p/a-better-knob-beats-more-silicon",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://efficientagent.substack.com/p/a-better-knob-beats-more-silicon",
+            "source": "Hacker News Newest",
+            "title": "vLLM Serving Experiments on H100s – config beats the baseline on p95 TTFT,ITL",
+            "titleZh": "vLLM 在 H100 上的服务实验——配置在 p95 TTFT、ITL 上优于基线"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "vLLM 在 H100 上的服务实验——配置在 p95 TTFT、ITL 上优于基线"
+      },
+      {
+        "title": "Show HN: A Planet and Geology Simulation Sandbox Game in Godot",
+        "url": "https://stevecastle.github.io/gaia-site/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:26:58 +0000",
+        "id": "f042b31b0eabba317923f520901c8e10932a4935",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "582af25e54ed50c87ec1a10e35ac3886e049552d",
+        "canonicalUrl": "https://stevecastle.github.io/gaia-site",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://stevecastle.github.io/gaia-site/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: A Planet and Geology Simulation Sandbox Game in Godot",
+            "titleZh": "展示HN：一款基于Godot的行星与地质模拟沙盒游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：一款基于Godot的行星与地质模拟沙盒游戏"
+      },
+      {
+        "title": "Meme factories: Indonesians trade political outrage clicks for Facebook cash",
+        "url": "https://www.theguardian.com/media/2026/aug/10/indonesia-clicks-for-cash-facebook-one-nation-us-politics-meta-creator-program-payments-ntwnfb",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:23:12 +0000",
+        "id": "c57f76027b1a0ae9b4d5b914a795788cc2820486",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "456f716d7699efb5a185a0e6751af710ded1e422",
+        "canonicalUrl": "https://theguardian.com/media/2026/aug/10/indonesia-clicks-for-cash-facebook-one-nation-us-politics-meta-creator-program-payments-ntwnfb",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/media/2026/aug/10/indonesia-clicks-for-cash-facebook-one-nation-us-politics-meta-creator-program-payments-ntwnfb",
+            "source": "Hacker News Newest",
+            "title": "Meme factories: Indonesians trade political outrage clicks for Facebook cash",
+            "titleZh": "表情包工厂：印尼人用政治愤怒点击换取Facebook现金"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "表情包工厂：印尼人用政治愤怒点击换取Facebook现金"
+      },
+      {
+        "title": "Anything Could Become a Battleground",
+        "url": "https://lareviewofbooks.org/article/perfect-moment-god-sex-art-culture-wars-butler/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:22:00 +0000",
+        "id": "35157a2f505b671fdb4b42079170d392d45c521e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d460387ab35db8d36a1c3efd32038f040135f84e",
+        "canonicalUrl": "https://lareviewofbooks.org/article/perfect-moment-god-sex-art-culture-wars-butler",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lareviewofbooks.org/article/perfect-moment-god-sex-art-culture-wars-butler/",
+            "source": "Hacker News Newest",
+            "title": "Anything Could Become a Battleground",
+            "titleZh": "任何地方都可能成为战场"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "任何地方都可能成为战场"
+      },
+      {
+        "title": "How Beauty Is Making Scientists Rethink Evolution",
+        "url": "https://www.nytimes.com/2019/01/09/magazine/beauty-evolution-animal.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:21:20 +0000",
+        "id": "5a6fe887ed7a5d0bddc7e5d187b2316d842d195d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ad947a250df4e28f163d8dda2106d9ee81bd731c",
+        "canonicalUrl": "https://nytimes.com/2019/01/09/magazine/beauty-evolution-animal.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nytimes.com/2019/01/09/magazine/beauty-evolution-animal.html",
+            "source": "Hacker News Newest",
+            "title": "How Beauty Is Making Scientists Rethink Evolution",
+            "titleZh": "美如何让科学家重新思考进化"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美如何让科学家重新思考进化"
+      },
+      {
+        "title": "Yahtzee – Ballpark Figures",
+        "url": "https://ballparkfigures.substack.com/p/yahtzee",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:21:13 +0000",
+        "id": "fd12bc54bf00109d85b3ca2f92a1eaf4dbc5cf47",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "41ffe638049dc095ae9cac553e66ef550074f7a2",
+        "canonicalUrl": "https://ballparkfigures.substack.com/p/yahtzee",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://ballparkfigures.substack.com/p/yahtzee",
+            "source": "Hacker News Newest",
+            "title": "Yahtzee – Ballpark Figures",
+            "titleZh": "雅茨——大致数字"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "雅茨——大致数字"
+      },
+      {
+        "title": "Claude.md, except it's meaningful and it works",
+        "url": "https://blog.greg.technology/2026/07/29/claude-md-except-its-meaningful-and-it-actually-works.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T23:58:27.659Z",
+        "pubDate": "Sun, 09 Aug 2026 23:20:23 +0000",
+        "id": "f1b11347a371c8e367a32774f3de8e178e1aa25d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Claude"
+        ],
+        "isPriority": true,
+        "eventId": "1791c2e09dc5acf4bbd95fc88e94022f47078031",
+        "canonicalUrl": "https://blog.greg.technology/2026/07/29/claude-md-except-its-meaningful-and-it-actually-works.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.greg.technology/2026/07/29/claude-md-except-its-meaningful-and-it-actually-works.html",
+            "source": "Hacker News Newest",
+            "title": "Claude.md, except it's meaningful and it works",
+            "titleZh": "Claude.md，但这次有意义且有效"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Claude.md，但这次有意义且有效"
+      },
+      {
+        "title": "Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET",
+        "url": "https://github.com/signal-sfop/sfop/blob/main/SFOP_s%26p_paper.pdf",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-09T23:58:27.801Z",
+        "pubDate": "Sun, 09 Aug 2026 18:49:30 -0500",
+        "id": "36f1190c0f916b749ae87a42ddf3ce3bc3083bf8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "61e4c0df3b12d37dcfc02a7c8cad6808a9f7137d",
+        "canonicalUrl": "https://github.com/signal-sfop/sfop/blob/main/SFOP_s%26p_paper.pdf",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/signal-sfop/sfop/blob/main/SFOP_s%26p_paper.pdf",
+            "source": "Lobsters RSS",
+            "title": "Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET",
+            "titleZh": "击穿防御：利用段错误并绕过英特尔CET进行链式攻击"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "击穿防御：利用段错误并绕过英特尔CET进行链式攻击"
       }
     ]
   },
-  "lastFetchAt": "2026-08-09T23:26:38.767Z"
+  "lastFetchAt": "2026-08-09T23:58:26.652Z"
 }
