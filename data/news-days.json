@@ -4651,20 +4651,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/science/2026/aug/09/perseid-meteor-shower",
-            "source": "Guardian World",
-            "title": "Perseid meteor shower set to dazzle northern hemisphere this week",
-            "titleZh": "英仙座流星雨本周将点亮北半球夜空"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4zS2k4WEVHNzNfQTNuQWRQZzJiS3FPWmN2cHYyVGx2SjZmZTRGbW1GUzJrNjdYbktoS2E4VjVtSG5HQWh3cDBMcWVoblRBa1g1T2J1VHN5N1NuenBnYkljemI3dkhEY2xsLThnZzd1QVA0T0xxc0VCUg?oc=5",
             "source": "Google News",
             "title": "Perseid meteor shower set to dazzle northern hemisphere this week - The Guardian",
+            "titleZh": "英仙座流星雨本周将点亮北半球夜空"
+          },
+          {
+            "url": "https://www.theguardian.com/science/2026/aug/09/perseid-meteor-shower",
+            "source": "Guardian World",
+            "title": "Perseid meteor shower set to dazzle northern hemisphere this week",
             "titleZh": "英仙座流星雨本周将点亮北半球夜空"
           }
         ],
@@ -5935,11 +5935,12 @@
         "isPriority": true,
         "eventId": "6c49fe2a8ff651ea8086f71577118976cfb5e2a7",
         "canonicalUrl": "https://economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7091,10 +7092,11 @@
         "isPriority": true,
         "eventId": "f1c7952b31322a50766720ca67d470ea1dbb68e1",
         "canonicalUrl": "https://bloomberg.com/news/features/2026-08-06/ai-sk-hynix-samsung-rewire-south-korea-s-careers-dating-and-culture",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -7126,10 +7128,11 @@
         "isPriority": false,
         "eventId": "d5a968b29b3dc4f2691412d07165414cebc4aadb",
         "canonicalUrl": "https://arks.org/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7231,10 +7234,11 @@
         "isPriority": false,
         "eventId": "e72381df87eb3109e6a3a7fb1f2bc236ff839a6a",
         "canonicalUrl": "https://phrack.org/issues/72/19",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7274,10 +7278,11 @@
         "isPriority": true,
         "eventId": "8f5b69b05c51a9b7814018366c63a725ef4c55d2",
         "canonicalUrl": "https://feld.com/archives/2026/08/ai-writing-2400-years-old",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -7309,10 +7314,11 @@
         "isPriority": false,
         "eventId": "6c1b2b44562acfaaa8e78b0e6190d9ebd00a0297",
         "canonicalUrl": "https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7344,10 +7350,11 @@
         "isPriority": false,
         "eventId": "1976974d2297bd8dcf34195acb6a5ae10f00352b",
         "canonicalUrl": "https://alphabetsoup.club/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7590,8 +7597,1173 @@
         "language": "",
         "languages": [],
         "titleZh": "展示 HN：在隔离的微型虚拟机中本地运行或自托管你的 GitHub Actions"
+      },
+      {
+        "title": "Don Nelson, second-winningest NBA coach who won 5 titles as a Celtics player, dies at 86 - apnews.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEhpV2ZGcF9TOGdsV3FOc2pLVGt6d3ZPSmhlWS1CVjVyLXhHRVdMRHBmckhRRDRINm83bHJnbDg5eXJhRDlrSXdISDkxVHRRN1UwOURvX2FiWW5vOFRUbWt2RUpQM3NPOWFQT2NvelZveXZ2dWlQMDREUy1NanI5MGRtbDRrNzlvbDVDZUhB?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-09T21:27:20.532Z",
+        "pubDate": "Sun, 09 Aug 2026 19:39:00 GMT",
+        "id": "574ee44adb2b533162be26cfe11122c445769c3b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b0cfa1f33b2ea1a68e9fc0c03929cf3ea78e2013",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEhpV2ZGcF9TOGdsV3FOc2pLVGt6d3ZPSmhlWS1CVjVyLXhHRVdMRHBmckhRRDRINm83bHJnbDg5eXJhRDlrSXdISDkxVHRRN1UwOURvX2FiWW5vOFRUbWt2RUpQM3NPOWFQT2NvelZveXZ2dWlQMDREUy1NanI5MGRtbDRrNzlvbDVDZUhB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEhpV2ZGcF9TOGdsV3FOc2pLVGt6d3ZPSmhlWS1CVjVyLXhHRVdMRHBmckhRRDRINm83bHJnbDg5eXJhRDlrSXdISDkxVHRRN1UwOURvX2FiWW5vOFRUbWt2RUpQM3NPOWFQT2NvelZveXZ2dWlQMDREUy1NanI5MGRtbDRrNzlvbDVDZUhB?oc=5",
+            "source": "AP News via Google News",
+            "title": "Don Nelson, second-winningest NBA coach who won 5 titles as a Celtics player, dies at 86 - apnews.com",
+            "titleZh": "唐·尼尔森去世，享年86岁，他是NBA胜场第二多的教练，作为凯尔特人球员赢得5次总冠军 - apnews.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "唐·尼尔森去世，享年86岁，他是NBA胜场第二多的教练，作为凯尔特人球员赢得5次总冠军 - apnews.com"
+      },
+      {
+        "title": "Israel military closes Palestinian Christian village Taybeh to halt settler attacks - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcWhzbGhpYTNuV1JTcU8wSEotZ01CQ3lJb1pteWZiUzRpVVdmdmhUYldVSlV5cXNnR0pKQTFZVmFZeG1VUjZJWkN5Tm5Vak9FTmZFd1RncERPZnJBQmQwdllYaktkQ1VKeWQ5Qi1WaUdSdVlwbGRGaFM0NUJrNmt4MExPczhrVHdSZTVBQlJ4OUN5WVpvSi1XMDE0N0hub292RmlkOUJ1eG9xbkh2U0RXdEpraUF5VU01bXY2NFVqUVFYdjRLT0JWaVN3a0FjY0E?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-09T21:27:20.634Z",
+        "pubDate": "Sun, 09 Aug 2026 19:57:43 GMT",
+        "id": "a1d25c924096fc64e5c01ac3858b973055d6ef91",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "巴勒斯坦",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "10413f146d740fe798154772886ace719dc0665a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcWhzbGhpYTNuV1JTcU8wSEotZ01CQ3lJb1pteWZiUzRpVVdmdmhUYldVSlV5cXNnR0pKQTFZVmFZeG1VUjZJWkN5Tm5Vak9FTmZFd1RncERPZnJBQmQwdllYaktkQ1VKeWQ5Qi1WaUdSdVlwbGRGaFM0NUJrNmt4MExPczhrVHdSZTVBQlJ4OUN5WVpvSi1XMDE0N0hub292RmlkOUJ1eG9xbkh2U0RXdEpraUF5VU01bXY2NFVqUVFYdjRLT0JWaVN3a0FjY0E",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcWhzbGhpYTNuV1JTcU8wSEotZ01CQ3lJb1pteWZiUzRpVVdmdmhUYldVSlV5cXNnR0pKQTFZVmFZeG1VUjZJWkN5Tm5Vak9FTmZFd1RncERPZnJBQmQwdllYaktkQ1VKeWQ5Qi1WaUdSdVlwbGRGaFM0NUJrNmt4MExPczhrVHdSZTVBQlJ4OUN5WVpvSi1XMDE0N0hub292RmlkOUJ1eG9xbkh2U0RXdEpraUF5VU01bXY2NFVqUVFYdjRLT0JWaVN3a0FjY0E?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Israel military closes Palestinian Christian village Taybeh to halt settler attacks - Reuters",
+            "titleZh": "以色列军方关闭巴勒斯坦基督教村庄塔伊贝以阻止定居者袭击 - Reuters"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "以色列军方关闭巴勒斯坦基督教村庄塔伊贝以阻止定居者袭击 - Reuters"
+      },
+      {
+        "title": "Six die in Ukrainian drone attack on Belgorod, Russian authorities say - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOENwSFprNnAxMlVVRDZJclVmY0VZR1VpN2I0SnhjY2d2cGwzc2QtUHRSWk9jdEg1eW84WnFadDJHaWhIWEU3R3hPNHlsSXJCdk04R3NNbGlYTTU5RzQ1QlhER1lDLWh6Z2czZU9jWkFIdkdkdzdZLW5tcHQwTE1qZ0ctSl96OWdWbFB6WlN2UXhTbnRtYlpvNUFBY0FMWDBJN2xKanJUUU1GU1Y3N0ZSd0k4TnM2QUJW?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-09T21:27:20.634Z",
+        "pubDate": "Sun, 09 Aug 2026 20:38:51 GMT",
+        "id": "d0990293fa2136b2e7e647c782c4ba5e42ab181d",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "乌克兰"
+        ],
+        "isPriority": true,
+        "eventId": "059aa7522712041ad7f04cb5fc82444531e28f3a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOENwSFprNnAxMlVVRDZJclVmY0VZR1VpN2I0SnhjY2d2cGwzc2QtUHRSWk9jdEg1eW84WnFadDJHaWhIWEU3R3hPNHlsSXJCdk04R3NNbGlYTTU5RzQ1QlhER1lDLWh6Z2czZU9jWkFIdkdkdzdZLW5tcHQwTE1qZ0ctSl96OWdWbFB6WlN2UXhTbnRtYlpvNUFBY0FMWDBJN2xKanJUUU1GU1Y3N0ZSd0k4TnM2QUJW",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOENwSFprNnAxMlVVRDZJclVmY0VZR1VpN2I0SnhjY2d2cGwzc2QtUHRSWk9jdEg1eW84WnFadDJHaWhIWEU3R3hPNHlsSXJCdk04R3NNbGlYTTU5RzQ1QlhER1lDLWh6Z2czZU9jWkFIdkdkdzdZLW5tcHQwTE1qZ0ctSl96OWdWbFB6WlN2UXhTbnRtYlpvNUFBY0FMWDBJN2xKanJUUU1GU1Y3N0ZSd0k4TnM2QUJW?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Six die in Ukrainian drone attack on Belgorod, Russian authorities say - Reuters",
+            "titleZh": "俄罗斯当局称，乌克兰无人机袭击别尔哥罗德致六人死亡 - Reuters"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "俄罗斯当局称，乌克兰无人机袭击别尔哥罗德致六人死亡 - Reuters"
+      },
+      {
+        "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNiWTEyOWVSUTFRWE84YjZiang2N19rR3BPaE9zM19Zb3otaGVDNmFkbUYtclYzd29XUDFMdWtRenNBYUJaWC0xMVFNMXZTQnVkeWhoRjVLZW5mMWxxOFZRTmIxOXQyVlBBMks1ZWtCR2JjYkxvanV6ZTZTQlJ5Q3E3eERWNnZISzBodUtYSnFWLU9BVWVlTGhCTjFPYno4dFpVdUQ5TkZzN1FoT01UaTJWZVVEQ1ViVUFaWGJZb2N4Tko4?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-09T21:27:20.634Z",
+        "pubDate": "Sun, 09 Aug 2026 19:27:46 GMT",
+        "id": "26bb0b90382ddbd7e66683eb8a2daea75d9cf992",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9f50ced9a922a0db233c25f31e846e61fb1fdcfa",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNiWTEyOWVSUTFRWE84YjZiang2N19rR3BPaE9zM19Zb3otaGVDNmFkbUYtclYzd29XUDFMdWtRenNBYUJaWC0xMVFNMXZTQnVkeWhoRjVLZW5mMWxxOFZRTmIxOXQyVlBBMks1ZWtCR2JjYkxvanV6ZTZTQlJ5Q3E3eERWNnZISzBodUtYSnFWLU9BVWVlTGhCTjFPYno4dFpVdUQ5TkZzN1FoT01UaTJWZVVEQ1ViVUFaWGJZb2N4Tko4",
+        "clusterSize": 2,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNiWTEyOWVSUTFRWE84YjZiang2N19rR3BPaE9zM19Zb3otaGVDNmFkbUYtclYzd29XUDFMdWtRenNBYUJaWC0xMVFNMXZTQnVkeWhoRjVLZW5mMWxxOFZRTmIxOXQyVlBBMks1ZWtCR2JjYkxvanV6ZTZTQlJ5Q3E3eERWNnZISzBodUtYSnFWLU9BVWVlTGhCTjFPYno4dFpVdUQ5TkZzN1FoT01UaTJWZVVEQ1ViVUFaWGJZb2N4Tko4?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation - Reuters",
+            "titleZh": "被指控的爱尔兰犯罪头目基纳汉被控指挥犯罪组织 - Reuters"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzl5TEZoallFdF9oRFpZcHRETGZPXzRmYnNwRGU5eXBweFRkTFVEU0lSb2VDLVg0dFBueFhEeWc5YVlCdUJtckVvcXdVWndxMDRSdmREeGc3YzBkQUZLU2dmX2EwRVc3cmdXamhYRUhoTExqeklKZDhoaU9RM0NKNl90RkEwRGc1R1JMZ1BxWFU3VVBoZjBtaVl3U1J5YnZ1MTJv?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation - Reuters",
+            "titleZh": ""
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "被指控的爱尔兰犯罪头目基纳汉被控指挥犯罪组织 - Reuters"
+      },
+      {
+        "title": "Israel rejects Trump’s 15-point plan for Gaza, stoking tensions with US - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVU1NERmSFZKVC1xQW5DNnlSOW9rZkxkX0QyR2dqVW5ZUWE4NkU4dTdkYnNLZmIxWkpqOUR6bGNJbFRlSEVacXVqTVQ2SmR3dUwxUzkyOEFYX3Zib25SSE1POGpVeDYxNHZlbUpKdWRIcUNPYW0yQXkxNmM2MGl1LUFmZjVBbWFVWENqdtIBkgFBVV95cUxQSzljRG01aUtFTjdDemp4OFM5T1lpbE5JOTJpSGxnX1RqWGFFQzlycDNWSEpsRTRPbkRWX2lxV2w2dXRsZl9OU3BJZDlKc2o5eDNWbTMyLVlMdmIxSl9RYzNQZGFra09DU2VmTFBlSTlhZnhCWURULUFzeGFyMFBrUXNGTHNKMkhkOVlkT2hHelVqQQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T21:27:20.236Z",
+        "pubDate": "Sun, 09 Aug 2026 20:37:30 GMT",
+        "id": "c48c346fec92f7a6db2de60ab49fac2a3c5e1b87",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "以色列",
+          "加沙",
+          "Trump",
+          "Israel",
+          "Gaza"
+        ],
+        "isPriority": true,
+        "eventId": "a849f065b2a2f640b8bbd82dcfd4151249fe210e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVU1NERmSFZKVC1xQW5DNnlSOW9rZkxkX0QyR2dqVW5ZUWE4NkU4dTdkYnNLZmIxWkpqOUR6bGNJbFRlSEVacXVqTVQ2SmR3dUwxUzkyOEFYX3Zib25SSE1POGpVeDYxNHZlbUpKdWRIcUNPYW0yQXkxNmM2MGl1LUFmZjVBbWFVWENqdtIBkgFBVV95cUxQSzljRG01aUtFTjdDemp4OFM5T1lpbE5JOTJpSGxnX1RqWGFFQzlycDNWSEpsRTRPbkRWX2lxV2w2dXRsZl9OU3BJZDlKc2o5eDNWbTMyLVlMdmIxSl9RYzNQZGFra09DU2VmTFBlSTlhZnhCWURULUFzeGFyMFBrUXNGTHNKMkhkOVlkT2hHelVqQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVU1NERmSFZKVC1xQW5DNnlSOW9rZkxkX0QyR2dqVW5ZUWE4NkU4dTdkYnNLZmIxWkpqOUR6bGNJbFRlSEVacXVqTVQ2SmR3dUwxUzkyOEFYX3Zib25SSE1POGpVeDYxNHZlbUpKdWRIcUNPYW0yQXkxNmM2MGl1LUFmZjVBbWFVWENqdtIBkgFBVV95cUxQSzljRG01aUtFTjdDemp4OFM5T1lpbE5JOTJpSGxnX1RqWGFFQzlycDNWSEpsRTRPbkRWX2lxV2w2dXRsZl9OU3BJZDlKc2o5eDNWbTMyLVlMdmIxSl9RYzNQZGFra09DU2VmTFBlSTlhZnhCWURULUFzeGFyMFBrUXNGTHNKMkhkOVlkT2hHelVqQQ?oc=5",
+            "source": "Google News",
+            "title": "Israel rejects Trump’s 15-point plan for Gaza, stoking tensions with US - Al Jazeera",
+            "titleZh": "以色列拒绝特朗普的加沙15点计划，加剧与美国紧张关系 - Al Jazeera"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "以色列拒绝特朗普的加沙15点计划，加剧与美国紧张关系 - Al Jazeera"
+      },
+      {
+        "title": "Shipwreck, jars more than 2,000 years old found off Italian coast - USA Today",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXlIeHZvSTkzbVRoX1lSTVhYNm1BSk40OEh3NVJzSDJzQlczMWhCRW16R0F5YnBFVDVMRlprLXV4SHFnNXd0UjF6eV9DU3U5SHVpV0dDVEpwNDdiUzBLQ09EMk9tWDFEWjlYQVN0SXhuTHdWcm1aQ19uQVp6TllBQVg4UFZ6QUEzLTNmYWRyUkRpNHAzWGoxSUxIenIzNWNTTHdWRA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T21:27:20.236Z",
+        "pubDate": "Sun, 09 Aug 2026 19:25:00 GMT",
+        "id": "a7b4f8afe8e1d68eddd6d894c2d2053a304b7e85",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9e9a78779b25d0b4a8c7313b292466e1a77a4efd",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXlIeHZvSTkzbVRoX1lSTVhYNm1BSk40OEh3NVJzSDJzQlczMWhCRW16R0F5YnBFVDVMRlprLXV4SHFnNXd0UjF6eV9DU3U5SHVpV0dDVEpwNDdiUzBLQ09EMk9tWDFEWjlYQVN0SXhuTHdWcm1aQ19uQVp6TllBQVg4UFZ6QUEzLTNmYWRyUkRpNHAzWGoxSUxIenIzNWNTTHdWRA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXlIeHZvSTkzbVRoX1lSTVhYNm1BSk40OEh3NVJzSDJzQlczMWhCRW16R0F5YnBFVDVMRlprLXV4SHFnNXd0UjF6eV9DU3U5SHVpV0dDVEpwNDdiUzBLQ09EMk9tWDFEWjlYQVN0SXhuTHdWcm1aQ19uQVp6TllBQVg4UFZ6QUEzLTNmYWRyUkRpNHAzWGoxSUxIenIzNWNTTHdWRA?oc=5",
+            "source": "Google News",
+            "title": "Shipwreck, jars more than 2,000 years old found off Italian coast - USA Today",
+            "titleZh": "意大利海岸发现沉船和2000多年前的陶罐 - USA Today"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "意大利海岸发现沉船和2000多年前的陶罐 - USA Today"
+      },
+      {
+        "title": "I study pathogens in sewage. Here’s how cyclospora could be getting into our food. - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSmw4MTZLSDFVR19WN0RkZUc5eG5fTFdUYk1lVXJta05xS2ZGY2x4Q1NfOVBSMHVSY1BnWHJScmItc0J3SGV4bXJVNFV6V2RFM2hobDBUYmVTSUJweGwzUmNRTWNLWTMzOXBZcU1BYU1UWi1qQ0VIaVQ2OGFjdzFfUldSTC1nOEh6OG9Gd0NBNEs1ZUwxQ2ttR3ZienRRd0tnZFZZMS1CVEhhSTNsWXFXSENLX1hFcm9JNVpN?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T21:27:20.236Z",
+        "pubDate": "Sun, 09 Aug 2026 16:00:00 GMT",
+        "id": "2fab4aa570908866ea0a4e143b9ea72498e2988b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c0fca4869288e16c60783528498ed03257bc35c7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSmw4MTZLSDFVR19WN0RkZUc5eG5fTFdUYk1lVXJta05xS2ZGY2x4Q1NfOVBSMHVSY1BnWHJScmItc0J3SGV4bXJVNFV6V2RFM2hobDBUYmVTSUJweGwzUmNRTWNLWTMzOXBZcU1BYU1UWi1qQ0VIaVQ2OGFjdzFfUldSTC1nOEh6OG9Gd0NBNEs1ZUwxQ2ttR3ZienRRd0tnZFZZMS1CVEhhSTNsWXFXSENLX1hFcm9JNVpN",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSmw4MTZLSDFVR19WN0RkZUc5eG5fTFdUYk1lVXJta05xS2ZGY2x4Q1NfOVBSMHVSY1BnWHJScmItc0J3SGV4bXJVNFV6V2RFM2hobDBUYmVTSUJweGwzUmNRTWNLWTMzOXBZcU1BYU1UWi1qQ0VIaVQ2OGFjdzFfUldSTC1nOEh6OG9Gd0NBNEs1ZUwxQ2ttR3ZienRRd0tnZFZZMS1CVEhhSTNsWXFXSENLX1hFcm9JNVpN?oc=5",
+            "source": "Google News",
+            "title": "I study pathogens in sewage. Here’s how cyclospora could be getting into our food. - The Washington Post",
+            "titleZh": "我研究污水中的病原体。以下是环孢子虫可能进入我们食物的方式。 - The Washington Post"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我研究污水中的病原体。以下是环孢子虫可能进入我们食物的方式。 - The Washington Post"
+      },
+      {
+        "title": "Michael B. Jordan spotted at Six Flags with singer Raye, sparking romance rumors - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm1CSUZINlUzMnJFMmlEeFJ5Ykx6T1pLSUhLcUo5ajZlZldQdDRnVFdpT0xtWk5SUmxjRC1hTzVkOVJXc2tYMllLMlM5TnhSMFBZclRFTFR4OFVPamVSQ0RUc2V4UFhxYkdsYktCOFpqT3NjclVGSE5FV0kzZ0tNdjZ5NmJ6V3ZlSE9OZjJmVGQ0VGs2MC1kOHAtNDZjRW8?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-09T21:27:20.236Z",
+        "pubDate": "Sun, 09 Aug 2026 16:25:31 GMT",
+        "id": "83f5d88e08cb13e3b009b5bda8fcbcbe871cc93b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c9e57b0bd28cbb31ea6aae6d362f8be88820ee8d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm1CSUZINlUzMnJFMmlEeFJ5Ykx6T1pLSUhLcUo5ajZlZldQdDRnVFdpT0xtWk5SUmxjRC1hTzVkOVJXc2tYMllLMlM5TnhSMFBZclRFTFR4OFVPamVSQ0RUc2V4UFhxYkdsYktCOFpqT3NjclVGSE5FV0kzZ0tNdjZ5NmJ6V3ZlSE9OZjJmVGQ0VGs2MC1kOHAtNDZjRW8",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm1CSUZINlUzMnJFMmlEeFJ5Ykx6T1pLSUhLcUo5ajZlZldQdDRnVFdpT0xtWk5SUmxjRC1hTzVkOVJXc2tYMllLMlM5TnhSMFBZclRFTFR4OFVPamVSQ0RUc2V4UFhxYkdsYktCOFpqT3NjclVGSE5FV0kzZ0tNdjZ5NmJ6V3ZlSE9OZjJmVGQ0VGs2MC1kOHAtNDZjRW8?oc=5",
+            "source": "Google News",
+            "title": "Michael B. Jordan spotted at Six Flags with singer Raye, sparking romance rumors - Yahoo",
+            "titleZh": "迈克尔·B·乔丹被拍到与歌手雷伊在六旗乐园，引发恋情传闻 - Yahoo"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "迈克尔·B·乔丹被拍到与歌手雷伊在六旗乐园，引发恋情传闻 - Yahoo"
+      },
+      {
+        "title": "Is it all just vapourware?",
+        "url": "https://kirahowe.com/2026/aug/8/is-it-all-just-vapourware",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-09T21:27:20.791Z",
+        "pubDate": "Sun, 09 Aug 2026 21:03:43 +0000",
+        "id": "7a531d171281168729d6a8651c96c65c3506d110",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fde5bffc8115b5847399ab737cb6776607c9ec57",
+        "canonicalUrl": "https://kirahowe.com/2026/aug/8/is-it-all-just-vapourware",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://kirahowe.com/2026/aug/8/is-it-all-just-vapourware",
+            "source": "Hacker News Frontpage",
+            "title": "Is it all just vapourware?",
+            "titleZh": "这一切都只是空谈吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "这一切都只是空谈吗？"
+      },
+      {
+        "title": "I've yet to see any\"My AI went rogue and caused us to recognise a workers union",
+        "url": "https://mastodon.neilzone.co.uk/@neil/117061512483182546",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-09T21:27:20.791Z",
+        "pubDate": "Sun, 09 Aug 2026 21:01:31 +0000",
+        "id": "8170e671ae1daab2ed18d226a7621f4a37fb27c8",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "0b24f11a335a38fd6449f3f2b9b321a0d83884ec",
+        "canonicalUrl": "https://mastodon.neilzone.co.uk/@neil/117061512483182546",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://mastodon.neilzone.co.uk/@neil/117061512483182546",
+            "source": "Hacker News Frontpage",
+            "title": "I've yet to see any\"My AI went rogue and caused us to recognise a workers union",
+            "titleZh": "我还没见过任何“我的AI失控并导致我们承认了工会”的情况"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我还没见过任何“我的AI失控并导致我们承认了工会”的情况"
+      },
+      {
+        "title": "New Zealand lost its music media, and what we're building to replace it",
+        "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-09T21:27:20.791Z",
+        "pubDate": "Sun, 09 Aug 2026 20:42:29 +0000",
+        "id": "ce2fe6f6e2aaff678a487e3c31a69c43ac529293",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9e190c683417fd89141526578f0e021a9757022c",
+        "canonicalUrl": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+            "source": "Hacker News Frontpage",
+            "title": "New Zealand lost its music media, and what we're building to replace it",
+            "titleZh": "新西兰失去了音乐媒体，以及我们正在建设什么来取代它"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "新西兰失去了音乐媒体，以及我们正在建设什么来取代它"
+      },
+      {
+        "title": "I Made Tinnitus My Friend (Then It Disappeared)",
+        "url": "https://mynoise.net/vlog.php?ep=20260803",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-09T21:27:20.791Z",
+        "pubDate": "Sun, 09 Aug 2026 18:41:35 +0000",
+        "id": "6cfb19627473be7966735115393cbf9fbe09a8a3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "95951aac51dc5d07513ed9d38e30987b333f27d5",
+        "canonicalUrl": "https://mynoise.net/vlog.php?ep=20260803",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://mynoise.net/vlog.php?ep=20260803",
+            "source": "Hacker News Frontpage",
+            "title": "I Made Tinnitus My Friend (Then It Disappeared)",
+            "titleZh": "我把耳鸣变成了朋友（然后它消失了）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我把耳鸣变成了朋友（然后它消失了）"
+      },
+      {
+        "title": "Kill Switch (X-Files episode)",
+        "url": "https://en.wikipedia.org/wiki/Kill_Switch_(The_X-Files)",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:21:25 +0000",
+        "id": "38ec1b2edabcd6425a78d57eece954d4b96bf3f1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3fb2038b14ab31a076a697b83fa05f720c6796b2",
+        "canonicalUrl": "https://en.wikipedia.org/wiki/Kill_Switch_(The_X-Files)",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Kill_Switch_(The_X-Files)",
+            "source": "Hacker News Newest",
+            "title": "Kill Switch (X-Files episode)",
+            "titleZh": "致命开关（《X档案》剧集）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "致命开关（《X档案》剧集）"
+      },
+      {
+        "title": "Colors' Package Skills Catalog is live",
+        "url": "https://www.getcolors.ai/skills",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:20:43 +0000",
+        "id": "670c218833cf03b765f32796e803e5e2ec5dac18",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bb0b3112c2c4d616b03b08a7b2c82f4cf8f824a2",
+        "canonicalUrl": "https://getcolors.ai/skills",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.getcolors.ai/skills",
+            "source": "Hacker News Newest",
+            "title": "Colors' Package Skills Catalog is live",
+            "titleZh": "Colors的包装技能目录已上线"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Colors的包装技能目录已上线"
+      },
+      {
+        "title": "Ask HN: How has AI helped your personal algorithmic trading strategy?",
+        "url": "https://news.ycombinator.com/item?id=49236035",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:20:29 +0000",
+        "id": "a3b28fca299deee31de646e7544c6565064d1b71",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "5e58c3b4b1fccf23473b5e06a52b5e528ef331e6",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49236035",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49236035",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: How has AI helped your personal algorithmic trading strategy?",
+            "titleZh": "向HN提问：AI如何帮助了你的个人算法交易策略？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "向HN提问：AI如何帮助了你的个人算法交易策略？"
+      },
+      {
+        "title": "Georgia police officers fired after Flock camera misuse",
+        "url": "https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:20:24 +0000",
+        "id": "ade5dd67f6482e75956063e0ba053ae87e9b215b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "58c65c28cbcb24d5b2787461872bf6f135e1cf36",
+        "canonicalUrl": "https://wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wtoc.com/2026/08/07/savannah-police-department-fires-6-employees-over-flock-safety-system-misuse/",
+            "source": "Hacker News Newest",
+            "title": "Georgia police officers fired after Flock camera misuse",
+            "titleZh": "佐治亚州警察因Flock摄像头滥用被解雇"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "佐治亚州警察因Flock摄像头滥用被解雇"
+      },
+      {
+        "title": "Ask HN: What would convince you that a closed source messaging app is secure?",
+        "url": "https://news.ycombinator.com/item?id=49236019",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:18:28 +0000",
+        "id": "0b4541891db7c287203fae7887cbcb28f2fdca25",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e386093908c75b0b79e8298d609ce626db7326c8",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49236019",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49236019",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: What would convince you that a closed source messaging app is secure?",
+            "titleZh": "问HN：什么能让你相信一个闭源消息应用是安全的？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "问HN：什么能让你相信一个闭源消息应用是安全的？"
+      },
+      {
+        "title": "How to Find the Most Talented People on Earth (Tyler Cowen, 2025)",
+        "url": "https://www.thefp.com/p/the-fives-rules-of-finding-talent",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:17:34 +0000",
+        "id": "8779e24a686852950fe4049d5b5f0cc1fc2414c0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a607128872ece4a65ee2681b536a81e95e3ebe2f",
+        "canonicalUrl": "https://thefp.com/p/the-fives-rules-of-finding-talent",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.thefp.com/p/the-fives-rules-of-finding-talent",
+            "source": "Hacker News Newest",
+            "title": "How to Find the Most Talented People on Earth (Tyler Cowen, 2025)",
+            "titleZh": "如何找到地球上最有才华的人（泰勒·考恩，2025）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如何找到地球上最有才华的人（泰勒·考恩，2025）"
+      },
+      {
+        "title": "Framework for Digital Media Lifespans and EOL Safe Harbors",
+        "url": "https://github.com/jbenoitdigitalpolicy/digital-media-lifespan-framework",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:16:43 +0000",
+        "id": "53807809656ee03e7233f340a01610c22d44b412",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cca5b382e70a2d15aee8fa50a1df04195bde7a0d",
+        "canonicalUrl": "https://github.com/jbenoitdigitalpolicy/digital-media-lifespan-framework",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/jbenoitdigitalpolicy/digital-media-lifespan-framework",
+            "source": "Hacker News Newest",
+            "title": "Framework for Digital Media Lifespans and EOL Safe Harbors",
+            "titleZh": "数字媒体寿命与生命周期结束安全港框架"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数字媒体寿命与生命周期结束安全港框架"
+      },
+      {
+        "title": "Search Engine – MP3Juice",
+        "url": "https://ppev.co.za/search/yimi-umaqondana-mahostela-97",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:13:39 +0000",
+        "id": "c98466b76363b1299baf481eada16fb5b45337b3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9187ce7759448aa37d45fb1f92284cdd4fc70811",
+        "canonicalUrl": "https://ppev.co.za/search/yimi-umaqondana-mahostela-97",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://ppev.co.za/search/yimi-umaqondana-mahostela-97",
+            "source": "Hacker News Newest",
+            "title": "Search Engine – MP3Juice",
+            "titleZh": "搜索引擎 – MP3Juice"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "搜索引擎 – MP3Juice"
+      },
+      {
+        "title": "Reducing Graphics API Complexity: A Clean Slate Design for Modern GPUs",
+        "url": "https://www.youtube.com/watch?v=aQv9pUl9PBM",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:12:50 +0000",
+        "id": "f96bfe79a2f6cebf1a29093cbd03aa7574276019",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a0f95ba1755797b37eaf346cf7df82ffa9de3630",
+        "canonicalUrl": "https://youtube.com/watch?v=aQv9pUl9PBM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=aQv9pUl9PBM",
+            "source": "Hacker News Newest",
+            "title": "Reducing Graphics API Complexity: A Clean Slate Design for Modern GPUs",
+            "titleZh": "降低图形API复杂性：现代GPU的清洁设计"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "降低图形API复杂性：现代GPU的清洁设计"
+      },
+      {
+        "title": "Edge Browser: End Date for Manifest V2 Set – End for uBlock Origin",
+        "url": "https://www.heise.de/en/news/Edge-Browser-End-date-for-Manifest-V2-set-End-for-uBlock-Origin-11404261.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:11:31 +0000",
+        "id": "2357516da90b54e34d7bf964eb34e7070a826ed0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "258d6c1d38f2cca72829f182bbff9d31e940b240",
+        "canonicalUrl": "https://heise.de/en/news/Edge-Browser-End-date-for-Manifest-V2-set-End-for-uBlock-Origin-11404261.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.heise.de/en/news/Edge-Browser-End-date-for-Manifest-V2-set-End-for-uBlock-Origin-11404261.html",
+            "source": "Hacker News Newest",
+            "title": "Edge Browser: End Date for Manifest V2 Set – End for uBlock Origin",
+            "titleZh": "Edge浏览器：Manifest V2终止日期已定 – uBlock Origin的终结"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Edge浏览器：Manifest V2终止日期已定 – uBlock Origin的终结"
+      },
+      {
+        "title": "Ship to Burn",
+        "url": "https://huntersoftwareconsulting.com/posts/2026-08-09-ship-to-burn/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:09:08 +0000",
+        "id": "d47d8f73612022aea9cb36a123621c5f70835f85",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5e0a90353d6c7b16fd76e6ce9b5ea9275f63993f",
+        "canonicalUrl": "https://huntersoftwareconsulting.com/posts/2026-08-09-ship-to-burn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://huntersoftwareconsulting.com/posts/2026-08-09-ship-to-burn/",
+            "source": "Hacker News Newest",
+            "title": "Ship to Burn",
+            "titleZh": "发货即烧毁"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "发货即烧毁"
+      },
+      {
+        "title": "I think I found the best way to find a baby name",
+        "url": "https://www.kennyalami.com/mamou",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:07:53 +0000",
+        "id": "36ff7c54f1ac9f6bdc3e5b796ae8da7a4f9ffb85",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eeb0c0886031a1b0cae652ee5aa60e44939a5f30",
+        "canonicalUrl": "https://kennyalami.com/mamou",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.kennyalami.com/mamou",
+            "source": "Hacker News Newest",
+            "title": "I think I found the best way to find a baby name",
+            "titleZh": "我想我找到了给宝宝起名的最佳方法"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我想我找到了给宝宝起名的最佳方法"
+      },
+      {
+        "title": "Show HN: Pacific Slate: a self-hosted, model-agnostic multi-agent AI assistant",
+        "url": "https://pacslate.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:04:02 +0000",
+        "id": "8b06ce2f8e8c65ae35becd532aa1f02af0ce1c0e",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "智能体"
+        ],
+        "isPriority": true,
+        "eventId": "e45e6beac1c6de627af3ca96eb100d7891dbbfea",
+        "canonicalUrl": "https://pacslate.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://pacslate.com/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Pacific Slate: a self-hosted, model-agnostic multi-agent AI assistant",
+            "titleZh": "展示HN：太平洋石板——一款自托管、模型无关的多智能体AI助手"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：太平洋石板——一款自托管、模型无关的多智能体AI助手"
+      },
+      {
+        "title": "Show HN: Wardline, a Go proxy that auto-blocks compromised AI agents",
+        "url": "https://github.com/kabirnarang39/wardline",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 21:03:50 +0000",
+        "id": "2d9aacad4a6245f768ff3229d3e03c1f385ed2e8",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "c9ed8e6d84c021155ba01e942c65a5645a8495af",
+        "canonicalUrl": "https://github.com/kabirnarang39/wardline",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/kabirnarang39/wardline",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Wardline, a Go proxy that auto-blocks compromised AI agents",
+            "titleZh": "展示HN：Wardline，一款自动阻止受损AI代理的Go代理"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Wardline，一款自动阻止受损AI代理的Go代理"
+      },
+      {
+        "title": "Romania Extends Nuclear Reactor Output by Nine Days After Danube Blasts",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-09/romania-extends-reactor-output-by-nine-days-after-danube-blasts",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 20:59:33 +0000",
+        "id": "7d77665e8e65ceef109e7a6ecc40dfe6b10fb3b6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2ce197bb7bb8dd278a7cc7746964b9aa78694801",
+        "canonicalUrl": "https://bloomberg.com/news/articles/2026-08-09/romania-extends-reactor-output-by-nine-days-after-danube-blasts",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-08-09/romania-extends-reactor-output-by-nine-days-after-danube-blasts",
+            "source": "Hacker News Newest",
+            "title": "Romania Extends Nuclear Reactor Output by Nine Days After Danube Blasts",
+            "titleZh": "罗马尼亚在多瑙河爆炸事件后将核反应堆运行时间延长九天"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "罗马尼亚在多瑙河爆炸事件后将核反应堆运行时间延长九天"
+      },
+      {
+        "title": "TubeStream – Turn a YouTube channel into a podcast you can listen to",
+        "url": "https://github.com/GhostService/tubestream",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 20:59:27 +0000",
+        "id": "a82bdc860281c391d569c751c4bbdd06298c5963",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "55754abd00bdb3bcf2eedc0f964815a911c335a8",
+        "canonicalUrl": "https://github.com/GhostService/tubestream",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/GhostService/tubestream",
+            "source": "Hacker News Newest",
+            "title": "TubeStream – Turn a YouTube channel into a podcast you can listen to",
+            "titleZh": "TubeStream——将YouTube频道变成可收听的播客"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "TubeStream——将YouTube频道变成可收听的播客"
+      },
+      {
+        "title": "Show HN: Form cohorts in your city for study and business",
+        "url": "https://chimera.university/event/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 20:58:09 +0000",
+        "id": "f4315dd948ded4270baca4f09ded519d86d61ad3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "549d23631236734582d0d549c7487fcb7a5d0b65",
+        "canonicalUrl": "https://chimera.university/event",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://chimera.university/event/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Form cohorts in your city for study and business",
+            "titleZh": "展示HN：在你所在城市组建学习和商务小组"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：在你所在城市组建学习和商务小组"
+      },
+      {
+        "title": "Codreo AI Mail – AI Outlook Email Assistant",
+        "url": "https://codreo.az/products/codreo-ai-mail/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-09T21:27:21.749Z",
+        "pubDate": "Sun, 09 Aug 2026 20:49:07 +0000",
+        "id": "cfb0759d809ec58c28c1135818c885a77f8223dd",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "1a8d2b3ca01fa084ca09d669438c3d2153d299be",
+        "canonicalUrl": "https://codreo.az/products/codreo-ai-mail",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://codreo.az/products/codreo-ai-mail/",
+            "source": "Hacker News Newest",
+            "title": "Codreo AI Mail – AI Outlook Email Assistant",
+            "titleZh": "Codreo AI邮件——AI Outlook邮件助手"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Codreo AI邮件——AI Outlook邮件助手"
+      },
+      {
+        "id": "013af285c965852d93677e81bd091ede0929be85",
+        "title": "Show HN: Standards – Opinionated Linter",
+        "url": "https://github.com/sarj-ai/standards",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-09T21:27:20.692Z",
+        "pubDate": "2026-08-09T20:40:36Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "be47efc1a7bb684959d13323bc3aa2d44062bf48",
+        "canonicalUrl": "https://github.com/sarj-ai/standards",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/sarj-ai/standards",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Standards – Opinionated Linter",
+            "titleZh": "展示HN：标准——意见型代码检查器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：标准——意见型代码检查器"
       }
     ]
   },
-  "lastFetchAt": "2026-08-09T20:41:51.115Z"
+  "lastFetchAt": "2026-08-09T21:27:19.441Z"
 }
