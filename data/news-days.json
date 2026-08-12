@@ -290,7 +290,7 @@
         "isPriority": false,
         "eventId": "1dc6947b269ba7b65f7b69f1fa39e8cb17212fa5",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNGxuYkhQMGtEcTg5bTdHaV9WTWt1dEdlbnp3UEUyc2Q1ekUzQVhYcEZqbnl1OEwtOUpvV2YyUVFaa0pyTHU0U19GdjQ3UTIweTQwVXVhbjliMlhlOHFLX0Y4eXNmRWpCMWxWczBCeHk0TWxibEhwVUhaSy1zelR4R2N1WVgwdERCZEplLWdqRUk1QzJwOGRuY3lpWnY4eDFyRXUzOGx2Q254eFRlRVBEcnVER0h0aTZnY3BR",
-        "clusterSize": 1,
+        "clusterSize": 2,
         "sourceCount": 1,
         "relatedSources": [
           "Google News"
@@ -301,6 +301,12 @@
             "source": "Google News",
             "title": "Total solar eclipse Aug. 12, 2026 live updates — 1 day to totality - Space",
             "titleZh": "2026年8月12日日全食实时更新——距全食还有1天 - 太空"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZGpDRUM1Tm5fNHczdUFURU5OelFEeDZLd215Y2F0ZkZtaFVNQzlFUVdJRF9rSnhJMTh6Z2Ffd2haZHl5ajYyT05mamVyeWVBR2ExaGtWRWJOY3JySkRjR2EzVFVJYlNnMERKbkluTnBfS2FCSldRcFYzb1FhYkQzV0RrUFZLa1VxTnc?oc=5",
+            "source": "Google News",
+            "title": "Total solar eclipse Aug. 12, 2026 live updates - Space",
+            "titleZh": "2026年8月12日日全食实时更新 - Space"
           }
         ],
         "category": "",
@@ -4418,10 +4424,11 @@
         "isPriority": false,
         "eventId": "24b11948ad83f7ea1580dc6ca5b752e9be975bc8",
         "canonicalUrl": "https://ironicsans.ghost.io/how-we-used-to-get-jobs",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -13430,10 +13437,11 @@
         "isPriority": true,
         "eventId": "e7d54985ff32d51c4b6b4161dbabb80ccfd3e055",
         "canonicalUrl": "https://cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -16633,23 +16641,34 @@
         "titleZh": "政府就贸易法官要求向所有进口商退还关税的裁决提出抗辩 - 美联社新闻"
       },
       {
-        "title": "Democratic socialist tries to beat the governor’s pick in a chaotic Wisconsin primary - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQnJPS3JyQjJyTXo5SVVsdGljX1dTb1N6YTltOHlGQm1fNHNxMzhvMVRXUWVvcVVpYzhsaDd2Q1RKRndtbXNDUkJaMC14Q3ZFWXZSQVhMc1NQUEF2bzNoWmU3bmxxaG5HZzFDajB3OW9VaHNNX0N4S0t1emhrZFpxbzhBdEtpY1MzTE5YT3BkRTlYLWYxaWl5VHhVd3h0TFl6WUZn?oc=5",
-        "source": "AP News via Google News",
-        "fetchedAt": "2026-08-12T03:03:25.723Z",
-        "pubDate": "Wed, 12 Aug 2026 01:26:00 GMT",
-        "id": "3ac0c208fa87f82b9806258a56751f6c41a9cad1",
-        "matchedTopics": [],
-        "matchedTopicNames": [],
-        "matchedPushTopics": [],
-        "matchedKeywords": [],
-        "isPriority": false,
+        "title": "David Crowley wins messy Democratic primary for Wisconsin governor, defeating progressive Francesca Hong – live",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-12T11:46:44.656Z",
+        "pubDate": "Wed, 12 Aug 2026 11:45:03 GMT",
+        "id": "afc29a5bc78205f50e62a7ae2396d874934f518a",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "Trump"
+        ],
+        "isPriority": true,
         "eventId": "ab4e02d2b512e3fa7f472236e545abe58010e137",
-        "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQnJPS3JyQjJyTXo5SVVsdGljX1dTb1N6YTltOHlGQm1fNHNxMzhvMVRXUWVvcVVpYzhsaDd2Q1RKRndtbXNDUkJaMC14Q3ZFWXZSQVhMc1NQUEF2bzNoWmU3bmxxaG5HZzFDajB3OW9VaHNNX0N4S0t1emhrZFpxbzhBdEtpY1MzTE5YT3BkRTlYLWYxaWl5VHhVd3h0TFl6WUZn",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "canonicalUrl": "https://theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "AP News via Google News"
+          "AP News via Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
           {
@@ -16657,6 +16676,12 @@
             "source": "AP News via Google News",
             "title": "Democratic socialist tries to beat the governor’s pick in a chaotic Wisconsin primary - AP News",
             "titleZh": "民主党社会主义者在混乱的威斯康星州初选中试图击败州长提名人 - 美联社新闻"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
+            "source": "Guardian World",
+            "title": "Trump plays down Air Force One plane switch as criticism grows over ‘decoy’ passengers – US politics live",
+            "titleZh": "特朗普淡化空军一号换机事件，批评声起于“诱饵”乘客——美国政治直播"
           }
         ],
         "category": "",
@@ -16665,7 +16690,7 @@
         "regions": [],
         "language": "",
         "languages": [],
-        "titleZh": "民主党社会主义者在混乱的威斯康星州初选中试图击败州长提名人 - 美联社新闻"
+        "titleZh": "特朗普淡化空军一号换机事件，批评声起于“诱饵”乘客——美国政治直播"
       },
       {
         "title": "Passenger jet billed as China’s answer to Boeing and Airbus prepares to make first international flight",
@@ -33548,51 +33573,6 @@
         "titleZh": "干旱和野火肆虐之际，英国环境、食品和农村事务部6600名员工中仅20人从事气候适应工作"
       },
       {
-        "title": "Trump plays down Air Force One plane switch as criticism grows over ‘decoy’ passengers – US politics live",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
-        "source": "Guardian World",
-        "fetchedAt": "2026-08-12T10:57:12.798Z",
-        "pubDate": "Wed, 12 Aug 2026 10:35:11 GMT",
-        "id": "a32be32f3e23fc4caeee6322da63398aed0ba392",
-        "matchedTopics": [
-          "global-affairs"
-        ],
-        "matchedTopicNames": [
-          "国际局势"
-        ],
-        "matchedPushTopics": [
-          "国际局势"
-        ],
-        "matchedKeywords": [
-          "特朗普",
-          "美国",
-          "Trump"
-        ],
-        "isPriority": true,
-        "eventId": "b94e544d56ac76d26e7625a2877f1ae01ee0e8f6",
-        "canonicalUrl": "https://theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
-        "clusterSize": 1,
-        "sourceCount": 1,
-        "relatedSources": [
-          "Guardian World"
-        ],
-        "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
-            "source": "Guardian World",
-            "title": "Trump plays down Air Force One plane switch as criticism grows over ‘decoy’ passengers – US politics live",
-            "titleZh": "特朗普淡化空军一号换机事件，批评声起于“诱饵”乘客——美国政治直播"
-          }
-        ],
-        "category": "",
-        "categories": [],
-        "region": "",
-        "regions": [],
-        "language": "",
-        "languages": [],
-        "titleZh": "特朗普淡化空军一号换机事件，批评声起于“诱饵”乘客——美国政治直播"
-      },
-      {
         "title": "Drone footage shows rare bird’s-eye view of stingrays off New York coast",
         "url": "https://www.theguardian.com/us-news/2026/aug/12/new-york-stingrays-drone-footage",
         "source": "Guardian World",
@@ -34466,10 +34446,11 @@
         "isPriority": true,
         "eventId": "9ceeb539bd06700a50ef0aefa23c6d73606668d6",
         "canonicalUrl": "https://claude.ai/public/artifacts/807b5183-4704-4e63-b132-98379d1a9c80",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -34558,12 +34539,12 @@
         "titleZh": "Show HN：Gribble——浏览器中的像素化像素艺术编辑器"
       },
       {
-        "title": "AI Coding and Its Discontents",
+        "title": "On AI Coding and Its Discontents",
         "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
-        "source": "Hacker News Newest",
-        "fetchedAt": "2026-08-12T10:57:13.062Z",
-        "pubDate": "Wed, 12 Aug 2026 10:30:05 +0000",
-        "id": "21cf8dcd216501fb710c3a245c6e4b6469387bc0",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-12T11:46:44.906Z",
+        "pubDate": "Wed, 12 Aug 2026 03:43:18 -0500",
+        "id": "66f1b93821d21c3b0992397501aefdb9a87bb3de",
         "matchedTopics": [
           "ai-agents"
         ],
@@ -34579,10 +34560,12 @@
         "isPriority": true,
         "eventId": "4cea14f57baeb24d8473d096b129960a4a3ed70d",
         "canonicalUrl": "https://calnewport.com/on-ai-coding-and-its-discontents",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Lobsters RSS",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -35034,8 +35017,2287 @@
         "language": "",
         "languages": [],
         "titleZh": "为什么“开放”的AI系统是封闭的，以及为什么这很重要（2024）"
+      },
+      {
+        "title": "2026年8月12日外交部发言人郭嘉昆答记者问",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676518.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:39:22 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "1757a1cb0eb9174b73bd5ce49f86d044f1f481cb",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "外交"
+        ],
+        "isPriority": true,
+        "eventId": "db8ede610a1f0f3714a80483e17868e4ebbe4af6",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-12/10676518.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676518.shtml",
+            "source": "中国新闻网",
+            "title": "2026年8月12日外交部发言人郭嘉昆答记者问",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国海军红河舰与印尼海军“莱”号护卫舰位台岛以东海域圆满完成通航演练",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676516.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:37:48 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "84b46e0965ee5a7d9c14c075403fddfc239f3357",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5953f3567986a90a25f7f2fc4140cf301b260733",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-12/10676516.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676516.shtml",
+            "source": "中国新闻网",
+            "title": "中国海军红河舰与印尼海军“莱”号护卫舰位台岛以东海域圆满完成通航演练",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "多预警齐发，河南等地将有大暴雨",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676505.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:33:40 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fc96ae8bea937cdc7dd34d23a62307ad8375f6c6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "948c96a183a2e798817ec5f994bd7c6a63e833df",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-12/10676505.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676505.shtml",
+            "source": "中国新闻网",
+            "title": "多预警齐发，河南等地将有大暴雨",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "河南首家破产法庭在郑州揭牌成立",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676508.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:28:22 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4e8c4ad78b2bdba100023a2ff47c3b077aa42998",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a361aa4bdb6f123bb395782cd61a6ac6d00d7cf0",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-12/10676508.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676508.shtml",
+            "source": "中国新闻网",
+            "title": "河南首家破产法庭在郑州揭牌成立",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "7月中国汽车出口量同比增超八成",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676510.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:27:44 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a09e6aedebaee571f07021af04bf0e2eada6f445",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4ee0118a7bf397bf2667768f318e8e5b3969bf35",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-12/10676510.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676510.shtml",
+            "source": "中国新闻网",
+            "title": "7月中国汽车出口量同比增超八成",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "全国青少年执笔共绘 142件佳作在浙江宁波线下展出",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676509.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:26:18 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f9ea4c9a6816bbe0522d8c7e769a5e0914d5e8ed",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "675738eef302d2493693368311c58c3bb3960f6d",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-12/10676509.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676509.shtml",
+            "source": "中国新闻网",
+            "title": "全国青少年执笔共绘 142件佳作在浙江宁波线下展出",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "重庆建工集团原党委委员、副总经理程亮严重违纪违法被“双开”",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676500.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:18:19 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "db89eccbea5d155c56cf6722a8d05406daa71b07",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8c1b8692be06268ab41c311e5970cc65a0bf22ce",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-12/10676500.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676500.shtml",
+            "source": "中国新闻网",
+            "title": "重庆建工集团原党委委员、副总经理程亮严重违纪违法被“双开”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "湖北出台指导意见规范民间河湖长工作",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676502.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:17:09 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bbd72783d10f84a27e4c0b8ed5f54eea23daf44f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "97b4d20f8db636002c452807f7250d6e61c51e72",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-12/10676502.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676502.shtml",
+            "source": "中国新闻网",
+            "title": "湖北出台指导意见规范民间河湖长工作",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "甘肃庆阳把民俗“揉进”三餐四季",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676506.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:16:21 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "786234589c3b199153ace3c897a3222b79681e8a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ce6f8f77d183765c0a011843e9550e4344186ba4",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-12/10676506.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676506.shtml",
+            "source": "中国新闻网",
+            "title": "甘肃庆阳把民俗“揉进”三餐四季",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "河南应对强降雨天气：水上交通全面停航停运",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676504.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:15:59 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fcf3d68be1387aac53878eda86a5722c752a2e16",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "640e8d4a961cc653cfbbfc02609201285b7f29cd",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-12/10676504.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676504.shtml",
+            "source": "中国新闻网",
+            "title": "河南应对强降雨天气：水上交通全面停航停运",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "广东192家涉农主体凭品质信用获贷8.61亿元",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676503.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:15:35 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "55e4779130411c012b10fceae9051e203766821a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b0a2b819b46aa3f8cc33aaa9101027fcfb4ab2a2",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-12/10676503.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676503.shtml",
+            "source": "中国新闻网",
+            "title": "广东192家涉农主体凭品质信用获贷8.61亿元",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "消息人士：伊朗把美国拖入不对称战争",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676507.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:14:25 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "783f46c0854f190285ee22c46280b2988d4fdb0e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "战争",
+          "美国",
+          "伊朗"
+        ],
+        "isPriority": true,
+        "eventId": "72c12d946c8c3c189ee28d4f68d0ff3cdd3c8229",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-12/10676507.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676507.shtml",
+            "source": "中国新闻网",
+            "title": "消息人士：伊朗把美国拖入不对称战争",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "韩国庆尚南道旱情加剧",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676493.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:11:53 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fc3882634ee00148cd29d514162ad4711557cadd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "04f68e9b59e221e7cc4edc718d3db847ad2b83aa",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-12/10676493.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676493.shtml",
+            "source": "中国新闻网",
+            "title": "韩国庆尚南道旱情加剧",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "《猫武士》动画首次揭开“神秘面纱”",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676501.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 19:06:03 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2faae2841abb59234259a78eb01b98853d213178",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8396da7c8a945b83a218e08763d9b9da888b1976",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-12/10676501.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676501.shtml",
+            "source": "中国新闻网",
+            "title": "《猫武士》动画首次揭开“神秘面纱”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "前7月河南外贸进出口超6000亿元 同比增25.8%",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676497.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-12T11:46:44.795Z",
+        "pubDate": "Wed, 12 Aug 2026 18:56:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0229ccbef12a1a7d027023ce2ac755c5a68c0d6e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b2cf7685cb5f7ff6b9250ddac0a3ae8a28d40a6c",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-12/10676497.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676497.shtml",
+            "source": "中国新闻网",
+            "title": "前7月河南外贸进出口超6000亿元 同比增25.8%",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Zhu Rongji, Chinese premier who cajoled economy into modern era, dies at 97 - reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWFOSl9NWnkxNHllQ1VVWW1LWURuSFo4UllLX19rdUFIMWlNTmRMZFVOTU9pdHJ5aUVaU0NJQVQ3LVhVV3RGYy1WVWUzdkh1SFhtYVlQdzBWNWt5Zno5dE1TUUYwU1NMUFMzd3NJdmlrZ1NRRkpuM2RSdHNwRFpyX3BsVXAtaFZ6cGVWeVVSd3IxVml6Z09tb2JzVjAxRmxiWFFmS2s4Y0hEYlE2Qlc3MmRLWWRNZUU?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-12T11:46:44.980Z",
+        "pubDate": "Wed, 12 Aug 2026 10:42:48 GMT",
+        "id": "ddbfb9dbc765b87c0f4005418646ed5d5f57ea8e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "066c6e26e2f773011ea8e71f1d726863146fec85",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWFOSl9NWnkxNHllQ1VVWW1LWURuSFo4UllLX19rdUFIMWlNTmRMZFVOTU9pdHJ5aUVaU0NJQVQ3LVhVV3RGYy1WVWUzdkh1SFhtYVlQdzBWNWt5Zno5dE1TUUYwU1NMUFMzd3NJdmlrZ1NRRkpuM2RSdHNwRFpyX3BsVXAtaFZ6cGVWeVVSd3IxVml6Z09tb2JzVjAxRmxiWFFmS2s4Y0hEYlE2Qlc3MmRLWWRNZUU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWFOSl9NWnkxNHllQ1VVWW1LWURuSFo4UllLX19rdUFIMWlNTmRMZFVOTU9pdHJ5aUVaU0NJQVQ3LVhVV3RGYy1WVWUzdkh1SFhtYVlQdzBWNWt5Zno5dE1TUUYwU1NMUFMzd3NJdmlrZ1NRRkpuM2RSdHNwRFpyX3BsVXAtaFZ6cGVWeVVSd3IxVml6Z09tb2JzVjAxRmxiWFFmS2s4Y0hEYlE2Qlc3MmRLWWRNZUU?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Zhu Rongji, Chinese premier who cajoled economy into modern era, dies at 97 - reuters.com",
+            "titleZh": "朱镕基，推动中国经济步入现代时代的中国总理，享年97岁 - reuters.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "朱镕基，推动中国经济步入现代时代的中国总理，享年97岁 - reuters.com"
+      },
+      {
+        "title": "Indian rupee nudges up on RBI intervention; investors eye inflation data - reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkVjdXVldDVubjVPQkdhWGoyYU05dG1EOU92WkhLbFlYTWktS0hPVTZkeC03T055Z2dMbzJJMjRrVzJFNXhjSFdROS03S0Vfb1RuaVlYVklha0ljS08wUEM4bzAxSGtlcXJsTUZ4bG1QWXVMUWlGaUpzbm9ROGJOUXNpVzBzLVByVEtCd2d3cHJ1dWhrQ0VTbTNTOHdDVTI2SHNCdzZWVTc?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-12T11:46:44.980Z",
+        "pubDate": "Wed, 12 Aug 2026 02:59:00 GMT",
+        "id": "ac092ac757da600059a0fca0a14a3bfa89065794",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cdae267745509723c6dc7e3017f6b232034405bd",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkVjdXVldDVubjVPQkdhWGoyYU05dG1EOU92WkhLbFlYTWktS0hPVTZkeC03T055Z2dMbzJJMjRrVzJFNXhjSFdROS03S0Vfb1RuaVlYVklha0ljS08wUEM4bzAxSGtlcXJsTUZ4bG1QWXVMUWlGaUpzbm9ROGJOUXNpVzBzLVByVEtCd2d3cHJ1dWhrQ0VTbTNTOHdDVTI2SHNCdzZWVTc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkVjdXVldDVubjVPQkdhWGoyYU05dG1EOU92WkhLbFlYTWktS0hPVTZkeC03T055Z2dMbzJJMjRrVzJFNXhjSFdROS03S0Vfb1RuaVlYVklha0ljS08wUEM4bzAxSGtlcXJsTUZ4bG1QWXVMUWlGaUpzbm9ROGJOUXNpVzBzLVByVEtCd2d3cHJ1dWhrQ0VTbTNTOHdDVTI2SHNCdzZWVTc?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Indian rupee nudges up on RBI intervention; investors eye inflation data - reuters.com",
+            "titleZh": "印度卢比因印度储备银行干预而小幅上涨；投资者关注通胀数据 - reuters.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印度卢比因印度储备银行干预而小幅上涨；投资者关注通胀数据 - reuters.com"
+      },
+      {
+        "title": "Halting the march of the armyworm: fungus discovery offers hope to African farmers",
+        "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-12T11:46:44.656Z",
+        "pubDate": "Wed, 12 Aug 2026 11:00:27 GMT",
+        "id": "2a7d04e9045cba1f4fd8ee6bc298e5062b44ea9d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "010b008329fd39bea95795d66907248aed1bd9fb",
+        "canonicalUrl": "https://theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
+            "source": "Guardian World",
+            "title": "Halting the march of the armyworm: fungus discovery offers hope to African farmers",
+            "titleZh": "阻止草地贪夜蛾的蔓延：真菌发现为非洲农民带来希望"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "阻止草地贪夜蛾的蔓延：真菌发现为非洲农民带来希望"
+      },
+      {
+        "title": "Double murderer and rapist Simon Levy handed whole-life tariff",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/12/serial-sex-offender-simon-levy-sentenced-double-muder",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-12T11:46:44.656Z",
+        "pubDate": "Wed, 12 Aug 2026 11:43:03 GMT",
+        "id": "d04ec9260151b0d9e9e7cd3ed511a01848565923",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "636413a80c68d63bc6a4a532565147c733d0f3c0",
+        "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/12/serial-sex-offender-simon-levy-sentenced-double-muder",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/aug/12/serial-sex-offender-simon-levy-sentenced-double-muder",
+            "source": "Guardian World",
+            "title": "Double murderer and rapist Simon Levy handed whole-life tariff",
+            "titleZh": "双重谋杀犯和强奸犯西蒙·莱维被判处终身监禁"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "双重谋杀犯和强奸犯西蒙·莱维被判处终身监禁"
+      },
+      {
+        "title": "Heat, algae and AI: proposed datacenter could damage Everglades, experts warn",
+        "url": "https://www.theguardian.com/us-news/2026/aug/12/datacenter-everglades-risk",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-12T11:46:44.656Z",
+        "pubDate": "Wed, 12 Aug 2026 11:30:27 GMT",
+        "id": "65fcc82b99aa07124b11dfad9e48133b4bc696a3",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "2efd5288aa66d63e8c4e43a87f6f0467e58b67e4",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/12/datacenter-everglades-risk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/12/datacenter-everglades-risk",
+            "source": "Guardian World",
+            "title": "Heat, algae and AI: proposed datacenter could damage Everglades, experts warn",
+            "titleZh": "高温、藻类和人工智能：专家警告拟建数据中心可能损害大沼泽地"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "高温、藻类和人工智能：专家警告拟建数据中心可能损害大沼泽地"
+      },
+      {
+        "title": "‘Unrig the economy for working people’: the California candidate who wrote updated labor laws",
+        "url": "https://www.theguardian.com/us-news/2026/aug/12/marni-von-wilpert-california-house-race",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-12T11:46:44.656Z",
+        "pubDate": "Wed, 12 Aug 2026 11:00:28 GMT",
+        "id": "9d06174a6dd332f140765957e506882fda926fbb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c221c4ef7001c875db9c64572d06e52a68a44fb6",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/12/marni-von-wilpert-california-house-race",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/12/marni-von-wilpert-california-house-race",
+            "source": "Guardian World",
+            "title": "‘Unrig the economy for working people’: the California candidate who wrote updated labor laws",
+            "titleZh": "“为工薪阶层重振经济”：撰写更新劳动法的加州候选人"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“为工薪阶层重振经济”：撰写更新劳动法的加州候选人"
+      },
+      {
+        "title": "Primary Elections Live Updates: Crowley, a Moderate Democrat, Defeats Hong in Wisconsin Primary for Governor - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQelZOSjR3cU5vOVB4anhwZ2NETUNTRXVKLVhqdG1qSVFJeEFfR0JQTjJldWVyWHRjdzFNWUQ2dmF0X3MxbnZLOFZRUGFFSjFlYllkVW1oZXdqVy1CeGZSdXF6Ml9vOGNLS0RWdktpaTN1S3dCZ1ZEYWdpOTFrcXY0SHpn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 11:24:00 GMT",
+        "id": "3c2478b946dbd3aaa665011a6d940eb918bad8a0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "319686cb48f35c18a57e1e25017f15b4bc866072",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQelZOSjR3cU5vOVB4anhwZ2NETUNTRXVKLVhqdG1qSVFJeEFfR0JQTjJldWVyWHRjdzFNWUQ2dmF0X3MxbnZLOFZRUGFFSjFlYllkVW1oZXdqVy1CeGZSdXF6Ml9vOGNLS0RWdktpaTN1S3dCZ1ZEYWdpOTFrcXY0SHpn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQelZOSjR3cU5vOVB4anhwZ2NETUNTRXVKLVhqdG1qSVFJeEFfR0JQTjJldWVyWHRjdzFNWUQ2dmF0X3MxbnZLOFZRUGFFSjFlYllkVW1oZXdqVy1CeGZSdXF6Ml9vOGNLS0RWdktpaTN1S3dCZ1ZEYWdpOTFrcXY0SHpn?oc=5",
+            "source": "Google News",
+            "title": "Primary Elections Live Updates: Crowley, a Moderate Democrat, Defeats Hong in Wisconsin Primary for Governor - The New York Times",
+            "titleZh": "初选实时更新：温和派民主党人克劳利在威斯康星州州长初选中击败洪 - 纽约时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "初选实时更新：温和派民主党人克劳利在威斯康星州州长初选中击败洪 - 纽约时报"
+      },
+      {
+        "title": "Trump says security threat spurred secret plane swap in Turkey - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXkzUV9FZGJVRFdwWDhYa3JqckdsVHVWNWxQS2s3SjRULWU3MEpKMXpuR3dwOVhuT2x0MnhJUU5DcThrQnAtU2djN0k1Tjg2SkNtbGpKNGI5b25SN0tPaFVjYmg5ZklPU0pyd3dRZGZObkV0ZjNtRFB4WldfNEJ2UTdxRGFvdFN6WFdVd2gzb3JOa2N5SEpxTktxOWNwS3RLTnF4RDV3anFBbFdRbVBjYXN4YXMtTXR3UXdSUw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 03:10:00 GMT",
+        "id": "4c488d16ff70875e372b8ba4ae78e85840f9296f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "ee05021da714801b2ab0eec6461ba08cd5888dd2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXkzUV9FZGJVRFdwWDhYa3JqckdsVHVWNWxQS2s3SjRULWU3MEpKMXpuR3dwOVhuT2x0MnhJUU5DcThrQnAtU2djN0k1Tjg2SkNtbGpKNGI5b25SN0tPaFVjYmg5ZklPU0pyd3dRZGZObkV0ZjNtRFB4WldfNEJ2UTdxRGFvdFN6WFdVd2gzb3JOa2N5SEpxTktxOWNwS3RLTnF4RDV3anFBbFdRbVBjYXN4YXMtTXR3UXdSUw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXkzUV9FZGJVRFdwWDhYa3JqckdsVHVWNWxQS2s3SjRULWU3MEpKMXpuR3dwOVhuT2x0MnhJUU5DcThrQnAtU2djN0k1Tjg2SkNtbGpKNGI5b25SN0tPaFVjYmg5ZklPU0pyd3dRZGZObkV0ZjNtRFB4WldfNEJ2UTdxRGFvdFN6WFdVd2gzb3JOa2N5SEpxTktxOWNwS3RLTnF4RDV3anFBbFdRbVBjYXN4YXMtTXR3UXdSUw?oc=5",
+            "source": "Google News",
+            "title": "Trump says security threat spurred secret plane swap in Turkey - NBC News",
+            "titleZh": "特朗普称安全威胁促使在土耳其进行秘密飞机交换 - NBC新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普称安全威胁促使在土耳其进行秘密飞机交换 - NBC新闻"
+      },
+      {
+        "title": "Duffy’s son-in-law wins GOP primary for open Tiffany House seat - thehill.com",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRGhYMEkySEJVRDFCbnpROW15V1NnR1daa1ZoSFdPQVhYX0xFUl9IYms3d0VfSk1jbjdCNnk5aXYwbVRPMUxmV1QwTlFRSXN1MlB6bkw5aDVCNGNKR3pyM1VjX3hGU2g3blktWUwxMC1FZnA0bmxtLWNlcGhodG5HTmFFdzNmMHprU0HSAY8BQVVfeXFMT1NWNjIxSFM5TkxIUFNRLUFmcENFT2Jpb1JXdlpTNWxHSDZaM3ZrMko0UGVwTi16cjEzamJfSTFBTVQ5Q084QjU0LVFTZ0ItNkdSb3VRSFdndjh6MVNrbEhyRjBKdmZxY1VUOGRGdXZ1NS1sS195RlRKc3FDTUlVdG9rZUdpT2R2OERCNmd0bkE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 01:46:00 GMT",
+        "id": "b689b159140f845c1ebb4e09aca533417ef5dad6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "98ce99328ce832a89de3c820d7cf7a23a54952bb",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRGhYMEkySEJVRDFCbnpROW15V1NnR1daa1ZoSFdPQVhYX0xFUl9IYms3d0VfSk1jbjdCNnk5aXYwbVRPMUxmV1QwTlFRSXN1MlB6bkw5aDVCNGNKR3pyM1VjX3hGU2g3blktWUwxMC1FZnA0bmxtLWNlcGhodG5HTmFFdzNmMHprU0HSAY8BQVVfeXFMT1NWNjIxSFM5TkxIUFNRLUFmcENFT2Jpb1JXdlpTNWxHSDZaM3ZrMko0UGVwTi16cjEzamJfSTFBTVQ5Q084QjU0LVFTZ0ItNkdSb3VRSFdndjh6MVNrbEhyRjBKdmZxY1VUOGRGdXZ1NS1sS195RlRKc3FDTUlVdG9rZUdpT2R2OERCNmd0bkE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRGhYMEkySEJVRDFCbnpROW15V1NnR1daa1ZoSFdPQVhYX0xFUl9IYms3d0VfSk1jbjdCNnk5aXYwbVRPMUxmV1QwTlFRSXN1MlB6bkw5aDVCNGNKR3pyM1VjX3hGU2g3blktWUwxMC1FZnA0bmxtLWNlcGhodG5HTmFFdzNmMHprU0HSAY8BQVVfeXFMT1NWNjIxSFM5TkxIUFNRLUFmcENFT2Jpb1JXdlpTNWxHSDZaM3ZrMko0UGVwTi16cjEzamJfSTFBTVQ5Q084QjU0LVFTZ0ItNkdSb3VRSFdndjh6MVNrbEhyRjBKdmZxY1VUOGRGdXZ1NS1sS195RlRKc3FDTUlVdG9rZUdpT2R2OERCNmd0bkE?oc=5",
+            "source": "Google News",
+            "title": "Duffy’s son-in-law wins GOP primary for open Tiffany House seat - thehill.com",
+            "titleZh": "达菲的女婿在蒂芙尼空缺席位的共和党初选中获胜 - thehill.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "达菲的女婿在蒂芙尼空缺席位的共和党初选中获胜 - thehill.com"
+      },
+      {
+        "title": "Progressive Democrats get another win in Minnesota US Senate primary - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVzNENElkRmF2N0xQRTJpTl9qTVpLQm4xV18zbldhdkRlUDh1Y21iZlgyS2NSMjJZOXlQOERyUzJMVTI2YUhXbVhkU3RPa3o1WVRJbzJoOWFUQnd1eldBVDZlV1JxT1ExZ2tyWnhnZ1ZmcTducDNudHNCVFNOalRoRnFVeVFqTmpDbXF6MjV2QTdlazhYZU1WbG1HUTVqOFZLUVh4M2NxbkF1TkJwZ1hmZG44eTJIYTQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 05:05:00 GMT",
+        "id": "21a4324e596792219044ba117b18ecdc87423e6f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "c271726416e7491f75e7bf4ff88af21c4006bec9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVzNENElkRmF2N0xQRTJpTl9qTVpLQm4xV18zbldhdkRlUDh1Y21iZlgyS2NSMjJZOXlQOERyUzJMVTI2YUhXbVhkU3RPa3o1WVRJbzJoOWFUQnd1eldBVDZlV1JxT1ExZ2tyWnhnZ1ZmcTducDNudHNCVFNOalRoRnFVeVFqTmpDbXF6MjV2QTdlazhYZU1WbG1HUTVqOFZLUVh4M2NxbkF1TkJwZ1hmZG44eTJIYTQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVzNENElkRmF2N0xQRTJpTl9qTVpLQm4xV18zbldhdkRlUDh1Y21iZlgyS2NSMjJZOXlQOERyUzJMVTI2YUhXbVhkU3RPa3o1WVRJbzJoOWFUQnd1eldBVDZlV1JxT1ExZ2tyWnhnZ1ZmcTducDNudHNCVFNOalRoRnFVeVFqTmpDbXF6MjV2QTdlazhYZU1WbG1HUTVqOFZLUVh4M2NxbkF1TkJwZ1hmZG44eTJIYTQ?oc=5",
+            "source": "Google News",
+            "title": "Progressive Democrats get another win in Minnesota US Senate primary - AP News",
+            "titleZh": "进步派民主党人在明尼苏达州美国参议院初选中再获一胜 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "进步派民主党人在明尼苏达州美国参议院初选中再获一胜 - 美联社"
+      },
+      {
+        "title": "Indonesian rescuers evacuate dozens from a ferry fire that left at least 1 dead near Bali - AP News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWZZT1Z3Sjl0Y3Ixczg0aHdRVUk3aXVnRlBxN2JDZmdpY3pHSGQwSEJ2U0dZc20yNDBFU09qWm9FVXNackZ2M0xfTkwydjJrQmw2OFZGdWJaejN6YWZlVHZMSGhSc0hWMnlNbXZsa3BvdFRCMWZ5akRXc2dVS2c2aF85eGNDdFN2NHlsbk5wMC1OQXM3Z0ZR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 10:14:00 GMT",
+        "id": "3c47894e2136818c2b8585357b94310698a60502",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "28da92c31c2e390c25081d13115ec8ce0bbd796a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWZZT1Z3Sjl0Y3Ixczg0aHdRVUk3aXVnRlBxN2JDZmdpY3pHSGQwSEJ2U0dZc20yNDBFU09qWm9FVXNackZ2M0xfTkwydjJrQmw2OFZGdWJaejN6YWZlVHZMSGhSc0hWMnlNbXZsa3BvdFRCMWZ5akRXc2dVS2c2aF85eGNDdFN2NHlsbk5wMC1OQXM3Z0ZR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWZZT1Z3Sjl0Y3Ixczg0aHdRVUk3aXVnRlBxN2JDZmdpY3pHSGQwSEJ2U0dZc20yNDBFU09qWm9FVXNackZ2M0xfTkwydjJrQmw2OFZGdWJaejN6YWZlVHZMSGhSc0hWMnlNbXZsa3BvdFRCMWZ5akRXc2dVS2c2aF85eGNDdFN2NHlsbk5wMC1OQXM3Z0ZR?oc=5",
+            "source": "Google News",
+            "title": "Indonesian rescuers evacuate dozens from a ferry fire that left at least 1 dead near Bali - AP News",
+            "titleZh": "印尼救援人员从巴厘岛附近渡轮火灾中疏散数十人，至少1人死亡 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印尼救援人员从巴厘岛附近渡轮火灾中疏散数十人，至少1人死亡 - 美联社"
+      },
+      {
+        "title": "Stock futures inch higher ahead of Wednesday's big inflation report: Live updates - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSHNyNUIweUU5SmU5MmxjdEg3SXpaNGRpNE9EakxRVmVVRTBfLVBZb2txZ1NKa1pySEtGWUVUemVRaGRKdWdrNUpTWXRFM3ZOb2V6NUNIcXN5U1ppYzU4OUhmUDVydXcyclJLcndQZVJ5aVNCbW5R0gF8QVVfeXFMTmhFcWg1MDU1aEFqcHFBZUlUdnJqT1pHVy1mbWl1MU5TMGlfSFhOMmxDMmJ2QXlTZTF4bGtJSFdzMVR4VURwUDdLUmtBbHJEQ2Y2OFpKNlpKZkx6cTN6LW5PeDR2MjZrWHctVWZaSy1SdE1ndE5KaWdzS2hzXw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 10:03:56 GMT",
+        "id": "a65b35dacdb5ec6cf8876531c93051aac6f26c5d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b5fc437fa7fc02a230dedf61be562fb5c86368db",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSHNyNUIweUU5SmU5MmxjdEg3SXpaNGRpNE9EakxRVmVVRTBfLVBZb2txZ1NKa1pySEtGWUVUemVRaGRKdWdrNUpTWXRFM3ZOb2V6NUNIcXN5U1ppYzU4OUhmUDVydXcyclJLcndQZVJ5aVNCbW5R0gF8QVVfeXFMTmhFcWg1MDU1aEFqcHFBZUlUdnJqT1pHVy1mbWl1MU5TMGlfSFhOMmxDMmJ2QXlTZTF4bGtJSFdzMVR4VURwUDdLUmtBbHJEQ2Y2OFpKNlpKZkx6cTN6LW5PeDR2MjZrWHctVWZaSy1SdE1ndE5KaWdzS2hzXw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CSHNyNUIweUU5SmU5MmxjdEg3SXpaNGRpNE9EakxRVmVVRTBfLVBZb2txZ1NKa1pySEtGWUVUemVRaGRKdWdrNUpTWXRFM3ZOb2V6NUNIcXN5U1ppYzU4OUhmUDVydXcyclJLcndQZVJ5aVNCbW5R0gF8QVVfeXFMTmhFcWg1MDU1aEFqcHFBZUlUdnJqT1pHVy1mbWl1MU5TMGlfSFhOMmxDMmJ2QXlTZTF4bGtJSFdzMVR4VURwUDdLUmtBbHJEQ2Y2OFpKNlpKZkx6cTN6LW5PeDR2MjZrWHctVWZaSy1SdE1ndE5KaWdzS2hzXw?oc=5",
+            "source": "Google News",
+            "title": "Stock futures inch higher ahead of Wednesday's big inflation report: Live updates - CNBC",
+            "titleZh": "股指期货在周三重要通胀报告前小幅走高：实时更新 - CNBC"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "股指期货在周三重要通胀报告前小幅走高：实时更新 - CNBC"
+      },
+      {
+        "title": "Iran war live: Oil stockpiles ‘rapidly depleting’ despite Trump’s claim about Hormuz - The Independent",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ2F3clFsWkJBdzRUVmZNZFM0MHJQR1IwdGtaR3pGOENQdDZFYnptMDJnckY2WnZLWTJEdk1tMEVCcUtiaUZhRDZkaE44WmxGX0FnWGp2M2l1OGNvdllVMUpnUjJ3NExJb1M3c0xzMG9XYVU4OXpneFI0WUcwbmtLNkFXVmNfRjFFRkwwbUJrM05laWlFT1FCUV9oa1VySkRZQ0Y1NTBUck9MRjhOSWh3bXE4UVlURkF1?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 10:46:55 GMT",
+        "id": "a11bd56ca5845dce952289eddf7a381d53671ca6",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "战争",
+          "特朗普",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "1a70817ab288a4ec04433fbee5f9945807505208",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ2F3clFsWkJBdzRUVmZNZFM0MHJQR1IwdGtaR3pGOENQdDZFYnptMDJnckY2WnZLWTJEdk1tMEVCcUtiaUZhRDZkaE44WmxGX0FnWGp2M2l1OGNvdllVMUpnUjJ3NExJb1M3c0xzMG9XYVU4OXpneFI0WUcwbmtLNkFXVmNfRjFFRkwwbUJrM05laWlFT1FCUV9oa1VySkRZQ0Y1NTBUck9MRjhOSWh3bXE4UVlURkF1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ2F3clFsWkJBdzRUVmZNZFM0MHJQR1IwdGtaR3pGOENQdDZFYnptMDJnckY2WnZLWTJEdk1tMEVCcUtiaUZhRDZkaE44WmxGX0FnWGp2M2l1OGNvdllVMUpnUjJ3NExJb1M3c0xzMG9XYVU4OXpneFI0WUcwbmtLNkFXVmNfRjFFRkwwbUJrM05laWlFT1FCUV9oa1VySkRZQ0Y1NTBUck9MRjhOSWh3bXE4UVlURkF1?oc=5",
+            "source": "Google News",
+            "title": "Iran war live: Oil stockpiles ‘rapidly depleting’ despite Trump’s claim about Hormuz - The Independent",
+            "titleZh": "伊朗战争直播：尽管特朗普声称霍尔木兹海峡无虞，石油库存仍“迅速耗尽” - 《独立报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊朗战争直播：尽管特朗普声称霍尔木兹海峡无虞，石油库存仍“迅速耗尽” - 《独立报》"
+      },
+      {
+        "title": "Live Updates: Strait of Hormuz traffic falls to new low as Iran-backed Houthis kill 6 in Red Sea, authorities say - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 10:01:00 GMT",
+        "id": "3440943146d69744d2d6cf6b1471b8977de023d7",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "伊朗"
+        ],
+        "isPriority": true,
+        "eventId": "fc2de8cf119950d7efd0913a750968634fef9e67",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ?oc=5",
+            "source": "Google News",
+            "title": "Live Updates: Strait of Hormuz traffic falls to new low as Iran-backed Houthis kill 6 in Red Sea, authorities say - CBS News",
+            "titleZh": "实时更新：霍尔木兹海峡交通量降至新低，伊朗支持的胡塞武装在红海杀害6人，当局称 - CBS新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：霍尔木兹海峡交通量降至新低，伊朗支持的胡塞武装在红海杀害6人，当局称 - CBS新闻"
+      },
+      {
+        "title": "Google TV just got 10,000 free movies and shows to binge - Android Authority",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRm1hSVhsRVptOWlNZUtLcjVmRTlqS3NWaGswY2xoQmE0SjN0dWxpczBPM2xGZHR3djJNSjFSS2pBcjltN3E2cGhZVk5BMlQ1RXVSb0lpelN0UmJvMkJXY3N6a0tzdV9pVHBkRXBwNW9UTDc4ejBueS1wNUQ4QnAySnR6cGpETmNO?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 05:17:00 GMT",
+        "id": "b8d7e630b7714c2e2fcdda9550af34d4239cd371",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "900f64c7a5a16018bfc0a7abb54edf7a9122e3bc",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRm1hSVhsRVptOWlNZUtLcjVmRTlqS3NWaGswY2xoQmE0SjN0dWxpczBPM2xGZHR3djJNSjFSS2pBcjltN3E2cGhZVk5BMlQ1RXVSb0lpelN0UmJvMkJXY3N6a0tzdV9pVHBkRXBwNW9UTDc4ejBueS1wNUQ4QnAySnR6cGpETmNO",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRm1hSVhsRVptOWlNZUtLcjVmRTlqS3NWaGswY2xoQmE0SjN0dWxpczBPM2xGZHR3djJNSjFSS2pBcjltN3E2cGhZVk5BMlQ1RXVSb0lpelN0UmJvMkJXY3N6a0tzdV9pVHBkRXBwNW9UTDc4ejBueS1wNUQ4QnAySnR6cGpETmNO?oc=5",
+            "source": "Google News",
+            "title": "Google TV just got 10,000 free movies and shows to binge - Android Authority",
+            "titleZh": "Google TV刚刚新增10,000部免费电影和节目供观看 - Android Authority"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Google TV刚刚新增10,000部免费电影和节目供观看 - Android Authority"
+      },
+      {
+        "title": "John Gotti’s grandson kept trying to delay prison to donate kidney to mother. A judge said enough - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd25UXzhvcXJRUWo0ZXVLRVBnWVdibmdGQ1FET1RwaDFETFh3ZHppM0ZvaUN4VWhDMmlFNHZlYVU3R0VQcHhyUDBmYkxCLW5wOGxPTmlDcTk2cjZDR1ZXM1ZnYmROY2h4WFFhb21TS3VZLWxnZnQ1dndXblN5dXhpMkRpekllVGtPaVpEVWwtTVRQb1ZHU1hQRjN3czYzNnh4MmkzM2ln?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Tue, 11 Aug 2026 22:23:00 GMT",
+        "id": "32cb8602a46c99a69731b9c1b45d42819343cae3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ebb74c7bd42ca90c3cdde616f9682c426578a440",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd25UXzhvcXJRUWo0ZXVLRVBnWVdibmdGQ1FET1RwaDFETFh3ZHppM0ZvaUN4VWhDMmlFNHZlYVU3R0VQcHhyUDBmYkxCLW5wOGxPTmlDcTk2cjZDR1ZXM1ZnYmROY2h4WFFhb21TS3VZLWxnZnQ1dndXblN5dXhpMkRpekllVGtPaVpEVWwtTVRQb1ZHU1hQRjN3czYzNnh4MmkzM2ln",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd25UXzhvcXJRUWo0ZXVLRVBnWVdibmdGQ1FET1RwaDFETFh3ZHppM0ZvaUN4VWhDMmlFNHZlYVU3R0VQcHhyUDBmYkxCLW5wOGxPTmlDcTk2cjZDR1ZXM1ZnYmROY2h4WFFhb21TS3VZLWxnZnQ1dndXblN5dXhpMkRpekllVGtPaVpEVWwtTVRQb1ZHU1hQRjN3czYzNnh4MmkzM2ln?oc=5",
+            "source": "Google News",
+            "title": "John Gotti’s grandson kept trying to delay prison to donate kidney to mother. A judge said enough - AP News",
+            "titleZh": "约翰·戈蒂的孙子一直试图推迟入狱以给母亲捐肾。法官表示受够了 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "约翰·戈蒂的孙子一直试图推迟入狱以给母亲捐肾。法官表示受够了 - 美联社新闻"
+      },
+      {
+        "title": "WNBA media turns Stephanie White's rehearsed rant into an 'important' attack on league critics - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeGtKbnFwLXM1WUhlWUFzMVRrUHFQaXZTWlg5aUZWeXNWcGVLVGNCZDFBOVU0R2pELWdJQm4zMjZXN0h6QzhDbmkydnJIZDFVUkRtZ184UTdjaTZXdVZtVjR0T29tR3MzLVg4aWRfM255Q0hwUjBqSkZvSlZ2Wk5vVHFzeHhKVS1NU3hRZ1cxYzNlWFV4UFhJZFA4eWhfZ3JjQ29qdGpPek9XZzNDQ0dPd09xUmkxV1NUTU80?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 10:29:03 GMT",
+        "id": "3192c7dcd2e19a75aa4fdc0e3ebcdeb157ac55b8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b5a3463593ddce623bf791fee796b97e1e53effa",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeGtKbnFwLXM1WUhlWUFzMVRrUHFQaXZTWlg5aUZWeXNWcGVLVGNCZDFBOVU0R2pELWdJQm4zMjZXN0h6QzhDbmkydnJIZDFVUkRtZ184UTdjaTZXdVZtVjR0T29tR3MzLVg4aWRfM255Q0hwUjBqSkZvSlZ2Wk5vVHFzeHhKVS1NU3hRZ1cxYzNlWFV4UFhJZFA4eWhfZ3JjQ29qdGpPek9XZzNDQ0dPd09xUmkxV1NUTU80",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeGtKbnFwLXM1WUhlWUFzMVRrUHFQaXZTWlg5aUZWeXNWcGVLVGNCZDFBOVU0R2pELWdJQm4zMjZXN0h6QzhDbmkydnJIZDFVUkRtZ184UTdjaTZXdVZtVjR0T29tR3MzLVg4aWRfM255Q0hwUjBqSkZvSlZ2Wk5vVHFzeHhKVS1NU3hRZ1cxYzNlWFV4UFhJZFA4eWhfZ3JjQ29qdGpPek9XZzNDQ0dPd09xUmkxV1NUTU80?oc=5",
+            "source": "Google News",
+            "title": "WNBA media turns Stephanie White's rehearsed rant into an 'important' attack on league critics - Fox News",
+            "titleZh": "WNBA媒体将斯蒂芬妮·怀特排练过的咆哮变成对联盟批评者的‘重要’攻击 - 福克斯新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "WNBA媒体将斯蒂芬妮·怀特排练过的咆哮变成对联盟批评者的‘重要’攻击 - 福克斯新闻"
+      },
+      {
+        "title": "Ex-Jets linebacker earns UFC contract after wild 34-second knockout - New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVh1SWRSUE1ZaEFGZzdBRFBJbVdOVjZhcVpxQzQyM3VzbkdIOXBTVTRIMkZENHhSNzk4Q2FDa3VPanRjUEc1UEdCVG1VcVZpMllXVlhkM1BWV0cxc2lYYzJCeEhrMXNzWXgtVV85UmI3SlBXRkp0RXl3Y1ctOWFDeFVnakFjZk1fN1JfZ0E3Ml9KWHNPT0pHandoV2NFc2pWNFQ4?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 04:06:00 GMT",
+        "id": "560d344d65302222f0628b9dd55fb68e1113b18a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8284b22bba454e21079ff7c4fbbb0778f2ee1d8e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVh1SWRSUE1ZaEFGZzdBRFBJbVdOVjZhcVpxQzQyM3VzbkdIOXBTVTRIMkZENHhSNzk4Q2FDa3VPanRjUEc1UEdCVG1VcVZpMllXVlhkM1BWV0cxc2lYYzJCeEhrMXNzWXgtVV85UmI3SlBXRkp0RXl3Y1ctOWFDeFVnakFjZk1fN1JfZ0E3Ml9KWHNPT0pHandoV2NFc2pWNFQ4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVh1SWRSUE1ZaEFGZzdBRFBJbVdOVjZhcVpxQzQyM3VzbkdIOXBTVTRIMkZENHhSNzk4Q2FDa3VPanRjUEc1UEdCVG1VcVZpMllXVlhkM1BWV0cxc2lYYzJCeEhrMXNzWXgtVV85UmI3SlBXRkp0RXl3Y1ctOWFDeFVnakFjZk1fN1JfZ0E3Ml9KWHNPT0pHandoV2NFc2pWNFQ4?oc=5",
+            "source": "Google News",
+            "title": "Ex-Jets linebacker earns UFC contract after wild 34-second knockout - New York Post",
+            "titleZh": "前喷气机队线卫在狂野的34秒击倒后赢得UFC合同 - 纽约邮报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "前喷气机队线卫在狂野的34秒击倒后赢得UFC合同 - 纽约邮报"
+      },
+      {
+        "title": "Staying seasonable in the short term. Find out any threats for passing t-showers here. - WSTM",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3NyUFBOMjRwVnhJTkFEUEMtYVlKLXhZTlJtS1R3ZmNERWFPS2lBZmVUMWdwZ0ZraDQ5cjdZZWtwSnVhQi1vWUsySTd2a0lhQlZVbUxHeGZRV3dQVmFfMlctT2RkaUh1U0JRUHpoV053T1JNa2hrcDljTWlIb2w5aVZRbFhVVDVkUWlxd0Q1azBkaHR2UGdDWEktcUFyRXk2MW9ybFJQZFd2NGFudFBCTlEwd2llMC1heXc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Tue, 11 Aug 2026 23:37:54 GMT",
+        "id": "1a297f57e3739b8d5306dc1d3ad1688d7db4c736",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4cee95105d11c1af0e03863924959ebef0356912",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3NyUFBOMjRwVnhJTkFEUEMtYVlKLXhZTlJtS1R3ZmNERWFPS2lBZmVUMWdwZ0ZraDQ5cjdZZWtwSnVhQi1vWUsySTd2a0lhQlZVbUxHeGZRV3dQVmFfMlctT2RkaUh1U0JRUHpoV053T1JNa2hrcDljTWlIb2w5aVZRbFhVVDVkUWlxd0Q1azBkaHR2UGdDWEktcUFyRXk2MW9ybFJQZFd2NGFudFBCTlEwd2llMC1heXc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3NyUFBOMjRwVnhJTkFEUEMtYVlKLXhZTlJtS1R3ZmNERWFPS2lBZmVUMWdwZ0ZraDQ5cjdZZWtwSnVhQi1vWUsySTd2a0lhQlZVbUxHeGZRV3dQVmFfMlctT2RkaUh1U0JRUHpoV053T1JNa2hrcDljTWlIb2w5aVZRbFhVVDVkUWlxd0Q1azBkaHR2UGdDWEktcUFyRXk2MW9ybFJQZFd2NGFudFBCTlEwd2llMC1heXc?oc=5",
+            "source": "Google News",
+            "title": "Staying seasonable in the short term. Find out any threats for passing t-showers here. - WSTM",
+            "titleZh": "短期内保持季节性天气。在此了解过境阵雨的任何威胁。 - WSTM"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "短期内保持季节性天气。在此了解过境阵雨的任何威胁。 - WSTM"
+      },
+      {
+        "title": "Deadly disease outbreak kills 2,000 as experts reveal what Americans should know - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN2sxT1VsMjFqTjJnM2l5M0FBb2FIel9MZTJtSkl6ckFmUU1HZGFialB3NmJWZXh1RlRGa21vZEtXWTdrX2pYTmd5QUxHNjcwQWJpT2pWZlBScU1sMXFYczZHaXZzLTdZNDNMNnNnT3Q2ZENuMVNKUmMyQTRxeHJFWGxBaUpMb1ZaWDhuTkNJMFpxLUU3SWNrVUZZVWkyLXdjVHN3TWpVRldESGvSAbABQVVfeXFMUDNCVEg4bE1EdnFLZTZ2TjJrN0lHUDJ2Q1VaYkluTkhMYnc2dm51V3ppN00wUndDTWtnRzdGcGF4OHEtWHhHOEpXMGp3UERCbFE2Tk9HVDNfMk1ubnVid1VXT09qcnFITDlYb1JFVDh6NFE2bFlYMWlpZnctMkNkcDk2U2RhOHNmSVo5QkU3RXBiWC1MYTBQdi1JUEtpZXhZem9ZcXlFLUMxcXo5ZDJqcGw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-12T11:46:44.666Z",
+        "pubDate": "Wed, 12 Aug 2026 11:00:32 GMT",
+        "id": "b207ed1c722e09d2fec9dc2db2c36a472aa43dc3",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "928c9ed365d36c6c7e23cfeedafff86d99fede6b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN2sxT1VsMjFqTjJnM2l5M0FBb2FIel9MZTJtSkl6ckFmUU1HZGFialB3NmJWZXh1RlRGa21vZEtXWTdrX2pYTmd5QUxHNjcwQWJpT2pWZlBScU1sMXFYczZHaXZzLTdZNDNMNnNnT3Q2ZENuMVNKUmMyQTRxeHJFWGxBaUpMb1ZaWDhuTkNJMFpxLUU3SWNrVUZZVWkyLXdjVHN3TWpVRldESGvSAbABQVVfeXFMUDNCVEg4bE1EdnFLZTZ2TjJrN0lHUDJ2Q1VaYkluTkhMYnc2dm51V3ppN00wUndDTWtnRzdGcGF4OHEtWHhHOEpXMGp3UERCbFE2Tk9HVDNfMk1ubnVid1VXT09qcnFITDlYb1JFVDh6NFE2bFlYMWlpZnctMkNkcDk2U2RhOHNmSVo5QkU3RXBiWC1MYTBQdi1JUEtpZXhZem9ZcXlFLUMxcXo5ZDJqcGw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN2sxT1VsMjFqTjJnM2l5M0FBb2FIel9MZTJtSkl6ckFmUU1HZGFialB3NmJWZXh1RlRGa21vZEtXWTdrX2pYTmd5QUxHNjcwQWJpT2pWZlBScU1sMXFYczZHaXZzLTdZNDNMNnNnT3Q2ZENuMVNKUmMyQTRxeHJFWGxBaUpMb1ZaWDhuTkNJMFpxLUU3SWNrVUZZVWkyLXdjVHN3TWpVRldESGvSAbABQVVfeXFMUDNCVEg4bE1EdnFLZTZ2TjJrN0lHUDJ2Q1VaYkluTkhMYnc2dm51V3ppN00wUndDTWtnRzdGcGF4OHEtWHhHOEpXMGp3UERCbFE2Tk9HVDNfMk1ubnVid1VXT09qcnFITDlYb1JFVDh6NFE2bFlYMWlpZnctMkNkcDk2U2RhOHNmSVo5QkU3RXBiWC1MYTBQdi1JUEtpZXhZem9ZcXlFLUMxcXo5ZDJqcGw?oc=5",
+            "source": "Google News",
+            "title": "Deadly disease outbreak kills 2,000 as experts reveal what Americans should know - Fox News",
+            "titleZh": "致命疾病爆发致2000人死亡，专家揭示美国人应知事项 - 福克斯新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "致命疾病爆发致2000人死亡，专家揭示美国人应知事项 - 福克斯新闻"
+      },
+      {
+        "title": "How hot has the European summer been? 22 cities of 42 beat records",
+        "url": "https://thelongswell.com/heat/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:35:13 +0000",
+        "id": "2a1b8be7925c89b5b32795190b4e0b7a84bd8f48",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bd500f56487b658922a3562e910fb7e82f264653",
+        "canonicalUrl": "https://thelongswell.com/heat",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://thelongswell.com/heat/",
+            "source": "Hacker News Newest",
+            "title": "How hot has the European summer been? 22 cities of 42 beat records",
+            "titleZh": "欧洲夏天有多热？42个城市中22个打破纪录"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "欧洲夏天有多热？42个城市中22个打破纪录"
+      },
+      {
+        "title": "Bitbucket CLI",
+        "url": "https://news.ycombinator.com/item?id=49270776",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:35:03 +0000",
+        "id": "3fc3786726e7ecd8b0b99053599e404289461189",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ef61623e62d9c375bbfe44031605ad59991a2990",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49270776",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49270776",
+            "source": "Hacker News Newest",
+            "title": "Bitbucket CLI",
+            "titleZh": "Bitbucket命令行工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Bitbucket命令行工具"
+      },
+      {
+        "title": "LLM Is Not a PDF Parser: Use OpenDataLoader First",
+        "url": "https://x.com/opendatalo51205",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:35:03 +0000",
+        "id": "5c5083d471ba47ce16aea8d916f52baca387d910",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "4306bd2cd5b02deff32ba184bbb6d6b560e89d0e",
+        "canonicalUrl": "https://x.com/opendatalo51205",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://x.com/opendatalo51205",
+            "source": "Hacker News Newest",
+            "title": "LLM Is Not a PDF Parser: Use OpenDataLoader First",
+            "titleZh": "LLM不是PDF解析器：先使用OpenDataLoader"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "LLM不是PDF解析器：先使用OpenDataLoader"
+      },
+      {
+        "title": "FDA Admitted in Print That Nothing It Knows of Will Wash Cyclospora Off Lettuce",
+        "url": "https://www.marlerblog.com/case-news/fda-just-admitted-in-print-that-nothing-it-knows-of-will-wash-cyclospora-off-your-lettuce-then-it-never-told-anyone-to-test-the-water-for-it/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:34:05 +0000",
+        "id": "c8b10ab71fed5f17236e0c144aa399f0f9ba7cf0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e36ddce0029bc6a9226197c9b7f545da8c515439",
+        "canonicalUrl": "https://marlerblog.com/case-news/fda-just-admitted-in-print-that-nothing-it-knows-of-will-wash-cyclospora-off-your-lettuce-then-it-never-told-anyone-to-test-the-water-for-it",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.marlerblog.com/case-news/fda-just-admitted-in-print-that-nothing-it-knows-of-will-wash-cyclospora-off-your-lettuce-then-it-never-told-anyone-to-test-the-water-for-it/",
+            "source": "Hacker News Newest",
+            "title": "FDA Admitted in Print That Nothing It Knows of Will Wash Cyclospora Off Lettuce",
+            "titleZh": "FDA在印刷品中承认，其所知的一切方法都无法将环孢子虫从生菜上洗掉"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FDA在印刷品中承认，其所知的一切方法都无法将环孢子虫从生菜上洗掉"
+      },
+      {
+        "title": "I hate packaging my software for Linux",
+        "url": "https://getfresh.dev/docs/blog/packaging-for-linux/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:33:48 +0000",
+        "id": "efbbd81ab66c525558122eaa2b2cb1c98e5b9b15",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cf759f50b35a38fa44411d5f48d1da2289965b4f",
+        "canonicalUrl": "https://getfresh.dev/docs/blog/packaging-for-linux",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://getfresh.dev/docs/blog/packaging-for-linux/",
+            "source": "Hacker News Newest",
+            "title": "I hate packaging my software for Linux",
+            "titleZh": "我讨厌为Linux打包我的软件"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我讨厌为Linux打包我的软件"
+      },
+      {
+        "title": "Putting away the tools of his trade for good",
+        "url": "https://www.ahwatukee.com/business/putting-away-the-tools-of-his-trade-for-good/article_14b2a9b1-cb5b-45db-be57-d11b29606f70.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:33:35 +0000",
+        "id": "9325af588111050746c356e9e8b32e04f59e3a3b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d28ea723d13374513e1310a6eca7b1242c360a35",
+        "canonicalUrl": "https://ahwatukee.com/business/putting-away-the-tools-of-his-trade-for-good/article_14b2a9b1-cb5b-45db-be57-d11b29606f70.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ahwatukee.com/business/putting-away-the-tools-of-his-trade-for-good/article_14b2a9b1-cb5b-45db-be57-d11b29606f70.html",
+            "source": "Hacker News Newest",
+            "title": "Putting away the tools of his trade for good",
+            "titleZh": "永远收起他的谋生工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "永远收起他的谋生工具"
+      },
+      {
+        "title": "Nemotron-3.5-lightning-30B-a3B Model by Nvidia for use on 1 GPU",
+        "url": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:30:10 +0000",
+        "id": "e6c9384f08f7566edcc4279d567d4585f7500f11",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "4647743bd6d4407401b96a3515d8a1c78854ff0f",
+        "canonicalUrl": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b",
+            "source": "Hacker News Newest",
+            "title": "Nemotron-3.5-lightning-30B-a3B Model by Nvidia for use on 1 GPU",
+            "titleZh": "Nvidia的Nemotron-3.5-lightning-30B-a3B模型，适用于单GPU使用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Nvidia的Nemotron-3.5-lightning-30B-a3B模型，适用于单GPU使用"
+      },
+      {
+        "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+        "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:28:27 +0000",
+        "id": "1c76091283be99deec878cb7bd88aefbab6f820a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "39490c66ffc51575e185ab5f87d56279475f0cc0",
+        "canonicalUrl": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+            "source": "Hacker News Newest",
+            "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+            "titleZh": "uBlock Origin放弃在Facebook上屏蔽广告的斗争"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "uBlock Origin放弃在Facebook上屏蔽广告的斗争"
+      },
+      {
+        "title": "Regarding the Anthropic and Watermark Issue",
+        "url": "https://twitter.com/kimmonismus/status/2087475010050920549",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:22:12 +0000",
+        "id": "ef0d23791c78688e436bf59d6a4e92700b8c2b62",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "dc91b42bf8d577b37e559c49935301dac8ba388e",
+        "canonicalUrl": "https://twitter.com/kimmonismus/status/2087475010050920549",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/kimmonismus/status/2087475010050920549",
+            "source": "Hacker News Newest",
+            "title": "Regarding the Anthropic and Watermark Issue",
+            "titleZh": "关于Anthropic和水印问题"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "关于Anthropic和水印问题"
+      },
+      {
+        "title": "The Freaky, Tentacled 'Alien' Bait Turning American Fishing Upside Down",
+        "url": "https://www.wsj.com/sports/the-freaky-tentacled-alien-bait-turning-american-fishing-upside-down-0c75aad5",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:18:33 +0000",
+        "id": "b66ec3b5403bf43643eba07c88cc91577574850c",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "438346d639f00fcb4c6762ca8b5298b1b2b4785b",
+        "canonicalUrl": "https://wsj.com/sports/the-freaky-tentacled-alien-bait-turning-american-fishing-upside-down-0c75aad5",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/sports/the-freaky-tentacled-alien-bait-turning-american-fishing-upside-down-0c75aad5",
+            "source": "Hacker News Newest",
+            "title": "The Freaky, Tentacled 'Alien' Bait Turning American Fishing Upside Down",
+            "titleZh": "怪异的、带触手的“外星”饵料颠覆美国钓鱼业"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "怪异的、带触手的“外星”饵料颠覆美国钓鱼业"
+      },
+      {
+        "title": "(ADVANCED) Guide to not fucking up QR codes",
+        "url": "https://infosec.exchange/@rebane2001/117078420917152774",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:15:19 +0000",
+        "id": "c7b82e65c083b461417a196a9c418f17c5a88295",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7b94188a7a66fbfe868930a923713e3710fafa47",
+        "canonicalUrl": "https://infosec.exchange/@rebane2001/117078420917152774",
+        "clusterSize": 2,
+        "sourceCount": 2,
+        "relatedSources": [
+          "Hacker News Newest",
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://infosec.exchange/@rebane2001/117078420917152774",
+            "source": "Hacker News Newest",
+            "title": "(ADVANCED) Guide to not fucking up QR codes",
+            "titleZh": "（高级）指南：别把二维码搞砸了"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "（高级）指南：别把二维码搞砸了"
+      },
+      {
+        "title": "Hybrid-retrieval memory layer for AI agents",
+        "url": "https://github.com/deepmemteam/deepmem",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:14:59 +0000",
+        "id": "74b2afac961a4aef7bb06ebc6a5d3fd2dad4f272",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "b3082de12671dc0e069557b2882c2cc43a03e5d1",
+        "canonicalUrl": "https://github.com/deepmemteam/deepmem",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/deepmemteam/deepmem",
+            "source": "Hacker News Newest",
+            "title": "Hybrid-retrieval memory layer for AI agents",
+            "titleZh": "面向AI代理的混合检索记忆层"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "面向AI代理的混合检索记忆层"
+      },
+      {
+        "title": "Coolify 4.3.0",
+        "url": "https://github.com/coollabsio/coolify/releases/tag/v4.3.0",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:14:14 +0000",
+        "id": "bee1de7e05e39e6a3491d2f6cf853338597e812b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1cbf20e26315f4a9f26b79cb0587f69d04c8c7bd",
+        "canonicalUrl": "https://github.com/coollabsio/coolify/releases/tag/v4.3.0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/coollabsio/coolify/releases/tag/v4.3.0",
+            "source": "Hacker News Newest",
+            "title": "Coolify 4.3.0",
+            "titleZh": "Coolify 4.3.0"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Coolify 4.3.0"
+      },
+      {
+        "title": "Delphi 13 Community Edition Is Now Available",
+        "url": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:13:36 +0000",
+        "id": "8099f07f318b2feb6c70fa2b83e117c6c61f4a5f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b3e25e761e5ef271178f91b000b80780af20233e",
+        "canonicalUrl": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
+            "source": "Hacker News Newest",
+            "title": "Delphi 13 Community Edition Is Now Available",
+            "titleZh": "Delphi 13社区版现已可用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Delphi 13社区版现已可用"
+      },
+      {
+        "title": "Aurweb v6.5.0 Deployed",
+        "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/P5C7GZ4C3OJIH4EXJ62JAF6X6PY2BCQ4/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:13:12 +0000",
+        "id": "7b6d55c54be333d210f8eda2899af8a4c4400da9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b9521e74fdfa6fa489d0796c1b77d26ed3aff68d",
+        "canonicalUrl": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/P5C7GZ4C3OJIH4EXJ62JAF6X6PY2BCQ4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/P5C7GZ4C3OJIH4EXJ62JAF6X6PY2BCQ4/",
+            "source": "Hacker News Newest",
+            "title": "Aurweb v6.5.0 Deployed",
+            "titleZh": "Aurweb v6.5.0已部署"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Aurweb v6.5.0已部署"
+      },
+      {
+        "title": "Eight Books to Read If You're Still Thinking About the Roman Empire",
+        "url": "https://lithub.com/eight-books-to-read-if-youre-still-thinking-about-the-roman-empire/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:13:06 +0000",
+        "id": "3fce5abb110e46e1d31d90dbc810429918a2ba93",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "40ab1e7ef027bffb4b23b536c79e8b57782b8b16",
+        "canonicalUrl": "https://lithub.com/eight-books-to-read-if-youre-still-thinking-about-the-roman-empire",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lithub.com/eight-books-to-read-if-youre-still-thinking-about-the-roman-empire/",
+            "source": "Hacker News Newest",
+            "title": "Eight Books to Read If You're Still Thinking About the Roman Empire",
+            "titleZh": "如果你还在想罗马帝国，这八本书值得一读"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如果你还在想罗马帝国，这八本书值得一读"
+      },
+      {
+        "title": "Bullet",
+        "url": "https://www.codewithbullet.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:11:07 +0000",
+        "id": "2dc762f9ad00e892bdec2fcff7e59bf853efec19",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "633d991e9cdf65f9d47d25685c0024c30a708e80",
+        "canonicalUrl": "https://codewithbullet.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.codewithbullet.com/",
+            "source": "Hacker News Newest",
+            "title": "Bullet",
+            "titleZh": "Bullet"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Bullet"
+      },
+      {
+        "title": "Welcome to Rubi, a Rule-Based Integrator",
+        "url": "https://rulebasedintegration.org/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:10:03 +0000",
+        "id": "6309f413c2abaff8f8925987d15d1c501f963966",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9a2e42d7159a6e5374546081ca8db15f3c09fc9e",
+        "canonicalUrl": "https://rulebasedintegration.org/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://rulebasedintegration.org/",
+            "source": "Hacker News Newest",
+            "title": "Welcome to Rubi, a Rule-Based Integrator",
+            "titleZh": "欢迎使用Rubi，一个基于规则的集成器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "欢迎使用Rubi，一个基于规则的集成器"
+      },
+      {
+        "title": "Most biomedical publications show signs of LLM-assisted writing",
+        "url": "https://arxiv.org/abs/2608.10715",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-12T11:46:45.000Z",
+        "pubDate": "Wed, 12 Aug 2026 11:07:07 +0000",
+        "id": "300e44a236813d6910a341dddfcb5341deec899a",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "be777701cc16e33a894b2bb15b677872ee668537",
+        "canonicalUrl": "https://arxiv.org/abs/2608.10715",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.10715",
+            "source": "Hacker News Newest",
+            "title": "Most biomedical publications show signs of LLM-assisted writing",
+            "titleZh": "大多数生物医学出版物显示出LLM辅助写作的迹象"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "大多数生物医学出版物显示出LLM辅助写作的迹象"
+      },
+      {
+        "title": "Deadbugz: Currently Active MCP Supply-Chain Campaign",
+        "url": "https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-12T11:46:44.906Z",
+        "pubDate": "Wed, 12 Aug 2026 06:29:26 -0500",
+        "id": "450c2da93975792cee09d48723be07a63830d352",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "MCP"
+        ],
+        "isPriority": true,
+        "eventId": "33266f77cf54738345fd0e87b2bea2a0068f3b35",
+        "canonicalUrl": "https://pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign",
+            "source": "Lobsters RSS",
+            "title": "Deadbugz: Currently Active MCP Supply-Chain Campaign",
+            "titleZh": "Deadbugz：当前活跃的MCP供应链攻击活动"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Deadbugz：当前活跃的MCP供应链攻击活动"
+      },
+      {
+        "id": "5e3cf968116bd84daf99394a1d77fe54ad65b733",
+        "title": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+        "source": "Hacker News Algolia Front Page",
+        "fetchedAt": "2026-08-12T11:46:45.127Z",
+        "pubDate": "2026-08-12T00:17:59Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ecc98c89c75cd3524d09abe28e7afa3d02f68634",
+        "canonicalUrl": "https://cftc.gov/PressRoom/PressReleases/9281-26",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia Front Page"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+            "source": "Hacker News Algolia Front Page",
+            "title": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
+            "titleZh": "CFTC宣布市场紧急状态，命令Kalshi继续在纽约运营"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "CFTC宣布市场紧急状态，命令Kalshi继续在纽约运营"
+      },
+      {
+        "id": "c7147613831bbce5b8a941a6dd507cb7a091d24d",
+        "title": "What good requirements look like (and how to write them)",
+        "url": "https://projan.ai/blog/what-good-requirements-look-like-and-how-to-write-them",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-12T11:46:45.146Z",
+        "pubDate": "2026-08-12T11:36:23Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b5ddd4c45cbfac37720803ad1a7d14e4b5023ced",
+        "canonicalUrl": "https://projan.ai/blog/what-good-requirements-look-like-and-how-to-write-them",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://projan.ai/blog/what-good-requirements-look-like-and-how-to-write-them",
+            "source": "Hacker News Algolia AI Search",
+            "title": "What good requirements look like (and how to write them)",
+            "titleZh": "好的需求是什么样的（以及如何编写它们）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "好的需求是什么样的（以及如何编写它们）"
+      },
+      {
+        "id": "3abc5395cf2a71d7d9cb02bb25dbb427a48fcd4a",
+        "title": "Never Trust Your AI Agent's Own Sandbox",
+        "url": "https://badshah.io/blog/never-trust-your-ai-agents-sandbox/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-12T11:46:45.146Z",
+        "pubDate": "2026-08-12T11:02:25Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "cffb5f5b535062011b7ee973a4b4861ff9b1df22",
+        "canonicalUrl": "https://badshah.io/blog/never-trust-your-ai-agents-sandbox",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://badshah.io/blog/never-trust-your-ai-agents-sandbox/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Never Trust Your AI Agent's Own Sandbox",
+            "titleZh": "永远不要信任你的AI代理自己的沙箱"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "永远不要信任你的AI代理自己的沙箱"
+      },
+      {
+        "id": "ffc8fea85f1630ec96e8ada193c81f68ccbac4ca",
+        "title": "Show HN: FlightWifi – Know if a flight's Wi-Fi can hold a video call",
+        "url": "https://chromewebstore.google.com/detail/flightwifi/omoclebljmjljikaoaogdpahjlbmdbin",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-12T11:46:45.146Z",
+        "pubDate": "2026-08-12T11:02:24Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6bc596137a5f82d9e59e587802a9469bd51d82d2",
+        "canonicalUrl": "https://chromewebstore.google.com/detail/flightwifi/omoclebljmjljikaoaogdpahjlbmdbin",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://chromewebstore.google.com/detail/flightwifi/omoclebljmjljikaoaogdpahjlbmdbin",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: FlightWifi – Know if a flight's Wi-Fi can hold a video call",
+            "titleZh": "Show HN：FlightWifi – 了解航班Wi-Fi能否支持视频通话"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：FlightWifi – 了解航班Wi-Fi能否支持视频通话"
       }
     ]
   },
-  "lastFetchAt": "2026-08-12T10:57:11.899Z"
+  "lastFetchAt": "2026-08-12T11:46:43.706Z"
 }
