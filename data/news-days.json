@@ -1311,11 +1311,12 @@
         "isPriority": true,
         "eventId": "203c3d2d0930c7bf1155c97d7aa11ab246c9666f",
         "canonicalUrl": "https://api-docs.deepseek.com/guides/responses_api",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Frontpage",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -38858,20 +38859,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/us-news/2026/aug/13/power-outages-midwest-indiana-storms",
-            "source": "Guardian World",
-            "title": "Severe storms cut power supply to 540,000 homes in US midwest",
-            "titleZh": "严重风暴导致美国中西部54万户家庭断电"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOGNYUWdQYUFBVlNKRHNUVzdDOEsxSmtzc3JZOHFhcElqdjg0aDQ4aHFzczgxWFU3REJ3OFduMGJOZUk2WDIxMUdwUkZ0ZThoM1hRb3l0NlpXZ1VCRHpISVM2b2pLZ2VhREtqZXNpVThOMU9lUW9aWl85R190aUlLVHlJUF9kc0pxNXpJaw?oc=5",
             "source": "Google News",
             "title": "Severe storms cut power supply to 540,000 homes in US midwest - The Guardian",
+            "titleZh": "严重风暴导致美国中西部54万户家庭断电"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/13/power-outages-midwest-indiana-storms",
+            "source": "Guardian World",
+            "title": "Severe storms cut power supply to 540,000 homes in US midwest",
             "titleZh": "严重风暴导致美国中西部54万户家庭断电"
           }
         ],
@@ -41281,10 +41282,11 @@
         "isPriority": false,
         "eventId": "f8a4a6c94f9059f6eb6a103409d5610bd1daf335",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677269.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -41295,7 +41297,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -41361,10 +41364,11 @@
         "isPriority": false,
         "eventId": "a18bf63198199d98e1bc562f88c6e36ade3933e1",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677262.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -41375,7 +41379,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -41521,10 +41526,11 @@
         "isPriority": false,
         "eventId": "e7e5b62fb35b54dd17103a2dfea04d5c0a2b5cf8",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677273.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -41535,7 +41541,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -41889,10 +41896,11 @@
         "isPriority": false,
         "eventId": "8eea72eb2f1ea81773045f989e4d3214ca815d03",
         "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-13/10677292.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网体育"
+          "中国新闻网体育",
+          "中国新闻网"
         ],
         "relatedLinks": [
           {
@@ -41903,7 +41911,8 @@
           }
         ],
         "categories": [
-          "体育"
+          "体育",
+          "综合"
         ],
         "regions": [
           "中国"
@@ -43404,21 +43413,21 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
-          {
-            "url": "https://github.com/deepseek-ai/deepseek-harness",
-            "source": "Hacker News Frontpage",
-            "title": "DeepSeek Harness",
-            "titleZh": "DeepSeek 背带"
-          },
           {
             "url": "https://twitter.com/deepseek_ai/status/2087887408440164663",
             "source": "Hacker News Algolia AI Search",
             "title": "DeepSeek Harness Released",
             "titleZh": "DeepSeek Harness 发布"
+          },
+          {
+            "url": "https://github.com/deepseek-ai/deepseek-harness",
+            "source": "Hacker News Frontpage",
+            "title": "DeepSeek Harness",
+            "titleZh": "DeepSeek 背带"
           }
         ],
         "category": "",
@@ -43591,10 +43600,11 @@
         "isPriority": true,
         "eventId": "71b7dfcb65c032d250c199c42dee4ad7498f84ae",
         "canonicalUrl": "https://alignment.anthropic.com/2026/conceptual-reasoning-index",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -44139,10 +44149,11 @@
         "isPriority": false,
         "eventId": "188156f5b6b6e3b813f081a0cb4964511c57d14a",
         "canonicalUrl": "https://alexmorleyfinch.github.io/marlin/history/v1/article/the_birth.html",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -44324,10 +44335,11 @@
         "isPriority": true,
         "eventId": "289650bda9f66f1e8c856032fbdccc69d3fd4712",
         "canonicalUrl": "https://economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -44656,8 +44668,3361 @@
         "language": "",
         "languages": [],
         "titleZh": "为什么 Snowflake 如此昂贵"
+      },
+      {
+        "title": "2026年上半年香港商品进出口同比量价齐升",
+        "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677323.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:42:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6c4a0fcc584abf34e8bfa3e97f7f764ca2ef7816",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "422a536f7f9ad7e1de60e63bcc20cef5468f44c1",
+        "canonicalUrl": "https://chinanews.com.cn/dwq/2026/08-13/10677323.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677323.shtml",
+            "source": "中国新闻网",
+            "title": "2026年上半年香港商品进出口同比量价齐升",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "述评：我们为什么需要县级博物馆？",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677320.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:33:58 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "15cfe03fc7a6b7c43df54619b5af6ec9fae4e92d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "862a680d0f4b47780034ab691f36f71c35671573",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-13/10677320.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677320.shtml",
+            "source": "中国新闻网",
+            "title": "述评：我们为什么需要县级博物馆？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "福州：高温催热“夜经济”",
+        "url": "https://www.chinanews.com.cn/tp/2026/08-13/10677306.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:26:08 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6c7315f8d14e84a52ad747cb0a0fa64ba08384a0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9eb55edaf242a942f4a64528da2a663b0eec313e",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/08-13/10677306.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/08-13/10677306.shtml",
+            "source": "中国新闻网",
+            "title": "福州：高温催热“夜经济”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "开局起步“十五五”：三亚力推旅游产品迭代升级",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677313.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:17:01 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "55045aaa9268dd33eb8360cbf5d06e6f68ba3033",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fa9205ae6fec1fdd1d84a005c80d02b78fe613c7",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677313.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677313.shtml",
+            "source": "中国新闻网",
+            "title": "开局起步“十五五”：三亚力推旅游产品迭代升级",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "评论：华流就是顶流！成龙让全球影迷爱上中国功夫",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677312.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:12:15 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "dfb8c8b08a2c1f2f9924267eff4ab2d8a8f1dff5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "02fa5d55f903ccf4fc90b2cdf5bc66b807113818",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-13/10677312.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677312.shtml",
+            "source": "中国新闻网",
+            "title": "评论：华流就是顶流！成龙让全球影迷爱上中国功夫",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "宁夏积极打造中国第二个省级全域旅游示范区",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677310.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:11:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b1d1fbe2f812edfe09747cb7df3d9238964cb48a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ec46d5ee8772b81f8b308c4815a413fee98714b8",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-13/10677310.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677310.shtml",
+            "source": "中国新闻网",
+            "title": "宁夏积极打造中国第二个省级全域旅游示范区",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "广西河池携手大湾区共育东巴凤康养文旅产业",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677311.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:11:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c74972aa471c98bb69b6b38e6e272050bd47328b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5e551ea5740ead3315d8d4e0a0f14cef88f9e980",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-13/10677311.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677311.shtml",
+            "source": "中国新闻网",
+            "title": "广西河池携手大湾区共育东巴凤康养文旅产业",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677309.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:09:11 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6705f4b3d0788baaa6e0d694a98d4909b9d8d827",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "510ccf17517a3342e2e0b94b7b3ec8aa83eab280",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-13/10677309.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677309.shtml",
+            "source": "中国新闻网",
+            "title": "华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "京东集团发布2026年二季度及半年业绩：活跃用户保持双位数增长 服务收入占比进一步提升",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677301.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:06:39 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "11396c67076a31cef15384d7615b5e3022243ca5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "10956b6d002c0484a1a1992b01d2379b20736002",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677301.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677301.shtml",
+            "source": "中国新闻网",
+            "title": "京东集团发布2026年二季度及半年业绩：活跃用户保持双位数增长 服务收入占比进一步提升",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "佛山南海个别学生在榕江“班超”赛事期间言行不当 官方通报致歉",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677308.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:05:14 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "1a37913fc503d35c9e4628a8ad9b1aa1a331a39e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0bc6ed922d62b8ef1d6ef4977cdccd665b02ed3f",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-13/10677308.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677308.shtml",
+            "source": "中国新闻网",
+            "title": "佛山南海个别学生在榕江“班超”赛事期间言行不当 官方通报致歉",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "皇岗口岸港方口岸区举行首次大型演练",
+        "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677294.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:04:42 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4842bb3ad22af6dde2c9b14c37b402e277f57246",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d7adc2a67e618a22fa0ed4732d002475661d1219",
+        "canonicalUrl": "https://chinanews.com.cn/dwq/2026/08-13/10677294.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677294.shtml",
+            "source": "中国新闻网",
+            "title": "皇岗口岸港方口岸区举行首次大型演练",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中美青少年在青岛携手体验中华传统文化 收获跨国友谊",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677307.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:00:56 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "168f02cc673a256348af14b072eb53a8f0466e4b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "745f315869a84b86dc2e88d8fb70b0ec66040638",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-13/10677307.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677307.shtml",
+            "source": "中国新闻网",
+            "title": "中美青少年在青岛携手体验中华传统文化 收获跨国友谊",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "首艘国产大型邮轮首次在粤港澳大湾区运营国际邮轮航线",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677305.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 22:00:18 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "1b1404ded8ef23fd1df1ad9374bc02c72064cdb8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d2dd27ac8ac70ce4fcb6033928fed99a1d9b9b5e",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677305.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677305.shtml",
+            "source": "中国新闻网",
+            "title": "首艘国产大型邮轮首次在粤港澳大湾区运营国际邮轮航线",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中秘合营 钱凯港上半年集装箱吞吐量同比增长超七成",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677302.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:59:30 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0ac0031cf7ec9c7eb44a4749f1d8cee9c726e53a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "53571abd64a74ea0c7e6e3c46ebd62f1f996a21f",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677302.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677302.shtml",
+            "source": "中国新闻网",
+            "title": "中秘合营 钱凯港上半年集装箱吞吐量同比增长超七成",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "东南亚水果经中老铁路输华今年已超20万吨",
+        "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-13/10677304.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:58:50 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "61a4d0cfeaad9b236a6fb78cb1e73215694a24f1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5354e7c46b7d2eaa5559f238f218f55b300884a8",
+        "canonicalUrl": "https://chinanews.com.cn/aseaninfo/2026/08-13/10677304.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-13/10677304.shtml",
+            "source": "中国新闻网",
+            "title": "东南亚水果经中老铁路输华今年已超20万吨",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677303.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:58:04 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "5a14da086653f0a037609d99fcdaf331fca537d5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d43ab3abb3206846c46476903d14026b776524ff",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-13/10677303.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677303.shtml",
+            "source": "中国新闻网",
+            "title": "追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国汽车生产重镇重庆车企出海动作不断",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677295.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:56:01 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "9f283ab09d01311fbed52e68cdb423106a2c4027",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d9d75a2cb9b39f3065ebef27d41d1123988a2d14",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-13/10677295.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677295.shtml",
+            "source": "中国新闻网",
+            "title": "中国汽车生产重镇重庆车企出海动作不断",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "两岸传媒学子采风河北长城文化和冬奥遗产",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677300.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:53:25 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "d3a874b28dca97e742a8e52e2a0329a359ee22c9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bb205e9884e60381e29c160d84315350a4043516",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-13/10677300.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677300.shtml",
+            "source": "中国新闻网",
+            "title": "两岸传媒学子采风河北长城文化和冬奥遗产",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "174名攀岩好手江西赣州竞技亚洲青年杯",
+        "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677298.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:52:23 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b876f6e99e4ba4dabf01bae32e253c9071a91769",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c6c4adb69d11d207a4841617c4b4374bf0370b8d",
+        "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-13/10677298.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677298.shtml",
+            "source": "中国新闻网",
+            "title": "174名攀岩好手江西赣州竞技亚洲青年杯",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "【时光印象】从“看戏”到“入戏” 昆明滇剧解锁新体验",
+        "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-13/1200984.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-13T14:53:58.263Z",
+        "pubDate": "Thu, 13 Aug 2026 21:50:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "010b7b5929835f24cab733e981cf6507fa8b7e3e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c553d107818f0c1f87190af9dc5b4bcd0e697cc4",
+        "canonicalUrl": "http://chinanews.com.cn/tp/hd2011/2026/08-13/1200984.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-13/1200984.shtml",
+            "source": "中国新闻网",
+            "title": "【时光印象】从“看戏”到“入戏” 昆明滇剧解锁新体验",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Explosion at Dutch port of Rotterdam leaves 1 dead, several injured - AP News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUzJVaVRQdEpobS14T0dDeGtNUFhEX05XaTFwdHJfcUVvcm9pa2FHMG5OaGF4ODdrZDdqQ1UwTm1GTzdNWk4xREZtUjFfWjd4aUhQZDdNczZQQm1vR29PQUtyaWh2NnNlU3QxRFdMbDJNZElydDZob3g0UnpveWVpblFBU3ZQSzlLSGNTenNKWEllbzQ4NWpYR055X3E2YzdYUndYZDR6clpIMDVNeGc5MjR3?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.694Z",
+        "pubDate": "Thu, 13 Aug 2026 12:27:00 GMT",
+        "id": "736dc20d4984be07d814b3869a215bbd4f5c7cf8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a8321c96f2d6a1679285419f78a14fa82cbc76e5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUzJVaVRQdEpobS14T0dDeGtNUFhEX05XaTFwdHJfcUVvcm9pa2FHMG5OaGF4ODdrZDdqQ1UwTm1GTzdNWk4xREZtUjFfWjd4aUhQZDdNczZQQm1vR29PQUtyaWh2NnNlU3QxRFdMbDJNZElydDZob3g0UnpveWVpblFBU3ZQSzlLSGNTenNKWEllbzQ4NWpYR055X3E2YzdYUndYZDR6clpIMDVNeGc5MjR3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUzJVaVRQdEpobS14T0dDeGtNUFhEX05XaTFwdHJfcUVvcm9pa2FHMG5OaGF4ODdrZDdqQ1UwTm1GTzdNWk4xREZtUjFfWjd4aUhQZDdNczZQQm1vR29PQUtyaWh2NnNlU3QxRFdMbDJNZElydDZob3g0UnpveWVpblFBU3ZQSzlLSGNTenNKWEllbzQ4NWpYR055X3E2YzdYUndYZDR6clpIMDVNeGc5MjR3?oc=5",
+            "source": "AP News via Google News",
+            "title": "Explosion at Dutch port of Rotterdam leaves 1 dead, several injured - AP News",
+            "titleZh": "荷兰鹿特丹港发生爆炸，致1人死亡，多人受伤 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "荷兰鹿特丹港发生爆炸，致1人死亡，多人受伤 - 美联社"
+      },
+      {
+        "title": "DHS cites recent policy shift after not disclosing death of Guatemalan man who had been in custody - AP News",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzBiSm1BQksyYWZEQmZCeGhLTGVPbFEtRUd4M0FxMHhiTHpQdVlLbE5sTUwwbGdudEZ3ZUZOT3hZTTNfWU1PNXFPaHhpNEpqMlJPTE9QaW5OaFRVOW1LSklkbXdXNWZJTERvV2NZVGlHT1prRWFoX2Z2TTRtd1pfUDVLODQxX2trLVRUb2FpbERLbTlnMzFpVA?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.694Z",
+        "pubDate": "Thu, 13 Aug 2026 01:55:00 GMT",
+        "id": "5a0024431e7668cd0c3f276070465fe890e5ad2d",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "3423c54bc361bd6fd0091f01ccf4c01c55a5df35",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzBiSm1BQksyYWZEQmZCeGhLTGVPbFEtRUd4M0FxMHhiTHpQdVlLbE5sTUwwbGdudEZ3ZUZOT3hZTTNfWU1PNXFPaHhpNEpqMlJPTE9QaW5OaFRVOW1LSklkbXdXNWZJTERvV2NZVGlHT1prRWFoX2Z2TTRtd1pfUDVLODQxX2trLVRUb2FpbERLbTlnMzFpVA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzBiSm1BQksyYWZEQmZCeGhLTGVPbFEtRUd4M0FxMHhiTHpQdVlLbE5sTUwwbGdudEZ3ZUZOT3hZTTNfWU1PNXFPaHhpNEpqMlJPTE9QaW5OaFRVOW1LSklkbXdXNWZJTERvV2NZVGlHT1prRWFoX2Z2TTRtd1pfUDVLODQxX2trLVRUb2FpbERLbTlnMzFpVA?oc=5",
+            "source": "AP News via Google News",
+            "title": "DHS cites recent policy shift after not disclosing death of Guatemalan man who had been in custody - AP News",
+            "titleZh": "美国国土安全部在未披露一名被拘留危地马拉男子死亡后，援引近期政策转变 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国国土安全部在未披露一名被拘留危地马拉男子死亡后，援引近期政策转变 - 美联社"
+      },
+      {
+        "title": "Kennedy Center board set to vote on whether to move forward with closure - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS3dncGxOOUM5ZXRnUzA3Wkl0ZGowMTRibm1ybTFJNEh1Qmlsd0hNbGczMjZzRHQ5NzhwdHZ0MTdZb3E2OFAydURsMzJxaVVHTVhCY2U2V2VMWlg5b2VpTlplcmVOSnNMSXVySjF3TW1saXBjVm54bVJISnNNYjdCYzMxT3NhLUk2aVRVc1pGckNZeHpkSW9ibHZyc29RNHIwcVE?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.694Z",
+        "pubDate": "Thu, 13 Aug 2026 04:11:00 GMT",
+        "id": "e4c4f414d24f5566acade6d99c465db5dc87f939",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "06986deb5d084f90a0be16533aa9f2c6106c8811",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS3dncGxOOUM5ZXRnUzA3Wkl0ZGowMTRibm1ybTFJNEh1Qmlsd0hNbGczMjZzRHQ5NzhwdHZ0MTdZb3E2OFAydURsMzJxaVVHTVhCY2U2V2VMWlg5b2VpTlplcmVOSnNMSXVySjF3TW1saXBjVm54bVJISnNNYjdCYzMxT3NhLUk2aVRVc1pGckNZeHpkSW9ibHZyc29RNHIwcVE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS3dncGxOOUM5ZXRnUzA3Wkl0ZGowMTRibm1ybTFJNEh1Qmlsd0hNbGczMjZzRHQ5NzhwdHZ0MTdZb3E2OFAydURsMzJxaVVHTVhCY2U2V2VMWlg5b2VpTlplcmVOSnNMSXVySjF3TW1saXBjVm54bVJISnNNYjdCYzMxT3NhLUk2aVRVc1pGckNZeHpkSW9ibHZyc29RNHIwcVE?oc=5",
+            "source": "AP News via Google News",
+            "title": "Kennedy Center board set to vote on whether to move forward with closure - AP News",
+            "titleZh": "肯尼迪中心董事会将就是否推进关闭进行投票 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "肯尼迪中心董事会将就是否推进关闭进行投票 - 美联社"
+      },
+      {
+        "title": "US government charges 11 people in scheme to obtain green cards through sham marriages - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkx5RFdtZlcyTGxFX1AzTnNfWEs0WWpsOEpNaWJ5MU1KcVAzdy1sUzhCeDYtNThERWdrQ21zb2tJby1sNW1YN0VjYXNVdzF5bkowU29BSnFzQ05EckpaanFFM2RVQU1xRnlDV3M4UXdnSjB6OVk3endTMkkzVWh6eUJSSFZCeUFXNHZXX1NYZlNYcGRjcEs4aHBHUHBLdzFicGcyaV9hQ0Nvd3Jfc0o2TFYtUzJWUQ?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.694Z",
+        "pubDate": "Wed, 12 Aug 2026 19:53:00 GMT",
+        "id": "127d2b0128d5b230003f46bc016c748c706f9d5e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "38311ee79c07f2bad648b9456752ca0388da6ac8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkx5RFdtZlcyTGxFX1AzTnNfWEs0WWpsOEpNaWJ5MU1KcVAzdy1sUzhCeDYtNThERWdrQ21zb2tJby1sNW1YN0VjYXNVdzF5bkowU29BSnFzQ05EckpaanFFM2RVQU1xRnlDV3M4UXdnSjB6OVk3endTMkkzVWh6eUJSSFZCeUFXNHZXX1NYZlNYcGRjcEs4aHBHUHBLdzFicGcyaV9hQ0Nvd3Jfc0o2TFYtUzJWUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkx5RFdtZlcyTGxFX1AzTnNfWEs0WWpsOEpNaWJ5MU1KcVAzdy1sUzhCeDYtNThERWdrQ21zb2tJby1sNW1YN0VjYXNVdzF5bkowU29BSnFzQ05EckpaanFFM2RVQU1xRnlDV3M4UXdnSjB6OVk3endTMkkzVWh6eUJSSFZCeUFXNHZXX1NYZlNYcGRjcEs4aHBHUHBLdzFicGcyaV9hQ0Nvd3Jfc0o2TFYtUzJWUQ?oc=5",
+            "source": "AP News via Google News",
+            "title": "US government charges 11 people in scheme to obtain green cards through sham marriages - AP News",
+            "titleZh": "美国政府指控11人通过假结婚骗取绿卡 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国政府指控11人通过假结婚骗取绿卡 - 美联社"
+      },
+      {
+        "title": "Stingray lashings up as marine heat wave off Southern California draws more to shore - AP News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYi1teFUxMS1GUHppQjMxVVZMclZwUzFjQnF4VnhrTHdmN2YwdGdhTnU2TDUwS3E5NU04TEZhNU9KVEpRcFRGQVQyTUoxRXRMaTIyRndRWGdxMnlZSkhLWUdadlBfTkRkU0NTaDhaTHg1ZFJ2cndRRHlwSXpGY3Z3ZzBBek9RVnFrMTJGcUNR?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.694Z",
+        "pubDate": "Thu, 13 Aug 2026 04:46:12 GMT",
+        "id": "f0126cef0fcd40900d5bad2e05a0c7fb09ed53a6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8b71f823a7c953768a5106668299eecb322dd6a4",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYi1teFUxMS1GUHppQjMxVVZMclZwUzFjQnF4VnhrTHdmN2YwdGdhTnU2TDUwS3E5NU04TEZhNU9KVEpRcFRGQVQyTUoxRXRMaTIyRndRWGdxMnlZSkhLWUdadlBfTkRkU0NTaDhaTHg1ZFJ2cndRRHlwSXpGY3Z3ZzBBek9RVnFrMTJGcUNR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYi1teFUxMS1GUHppQjMxVVZMclZwUzFjQnF4VnhrTHdmN2YwdGdhTnU2TDUwS3E5NU04TEZhNU9KVEpRcFRGQVQyTUoxRXRMaTIyRndRWGdxMnlZSkhLWUdadlBfTkRkU0NTaDhaTHg1ZFJ2cndRRHlwSXpGY3Z3ZzBBek9RVnFrMTJGcUNR?oc=5",
+            "source": "AP News via Google News",
+            "title": "Stingray lashings up as marine heat wave off Southern California draws more to shore - AP News",
+            "titleZh": "南加州海洋热浪吸引更多人到海边，黄貂鱼蜇伤事件增加 - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "南加州海洋热浪吸引更多人到海边，黄貂鱼蜇伤事件增加 - 美联社"
+      },
+      {
+        "title": "DeepSeek releases official V4 Pro model as it steps up expansion - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.734Z",
+        "pubDate": "Thu, 13 Aug 2026 12:56:28 GMT",
+        "id": "7040b978be6032799204a42ee45d9bd556938b31",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "DeepSeek"
+        ],
+        "isPriority": true,
+        "eventId": "2126ff30618e0b772e966bb0d137af9a8edefa69",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBOcmxUZXZzV20xU1pZMnI1X0JKRzV1SUJwcGhzaE1JZDZfUTZqVDZMVXNhUHFoY295SHZuLWZZbTlXa1AtUmI2dkRhRWliRXFBYzdZQlROdUVzZ2dNc2pHLUhvdTFBSVpSTW9SaHBQUnJubTdMX2FQUkhHTDhiUGtiZDUxLTRQXzRrZERqSzlOSXZpMWYxUzVWeXFCdW1HZEVWbWMtVDhFU1BCSkE?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "DeepSeek releases official V4 Pro model as it steps up expansion - Reuters",
+            "titleZh": "DeepSeek发布官方V4 Pro模型，加速扩张步伐 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DeepSeek发布官方V4 Pro模型，加速扩张步伐 - 路透社"
+      },
+      {
+        "title": "Bomb kills Russian military officer in Crimea; reports name him as defector from Ukraine - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOVd2Tk44LXBxV19SOG9lbjAxMzhfanVqY0V4NTFpWjhnQ3VsbmVoYWFYSUpqcVFKdUFuZlljMnZjZmk5U1dxbUcyV0xKWXdtdG1PTDZ3Zk13ZVpQb01xTHV6bUhKNmcxNGRReF9HaDhBQkFoZW8ycTQyUjNxel84NVlkenFMWFQ5NDVrU183OEpsTVpHNjhHalJzbFMwMmpmWEticWdMUzNsdjlmQXBad016bHRFUWs?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.734Z",
+        "pubDate": "Thu, 13 Aug 2026 12:38:35 GMT",
+        "id": "5ead92ae0d0525553c6be0375c4f7645b9ab2643",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "乌克兰",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "c9ba51b7f78aea851f389b4d02e0ccc7c95409c8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOVd2Tk44LXBxV19SOG9lbjAxMzhfanVqY0V4NTFpWjhnQ3VsbmVoYWFYSUpqcVFKdUFuZlljMnZjZmk5U1dxbUcyV0xKWXdtdG1PTDZ3Zk13ZVpQb01xTHV6bUhKNmcxNGRReF9HaDhBQkFoZW8ycTQyUjNxel84NVlkenFMWFQ5NDVrU183OEpsTVpHNjhHalJzbFMwMmpmWEticWdMUzNsdjlmQXBad016bHRFUWs",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOVd2Tk44LXBxV19SOG9lbjAxMzhfanVqY0V4NTFpWjhnQ3VsbmVoYWFYSUpqcVFKdUFuZlljMnZjZmk5U1dxbUcyV0xKWXdtdG1PTDZ3Zk13ZVpQb01xTHV6bUhKNmcxNGRReF9HaDhBQkFoZW8ycTQyUjNxel84NVlkenFMWFQ5NDVrU183OEpsTVpHNjhHalJzbFMwMmpmWEticWdMUzNsdjlmQXBad016bHRFUWs?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Bomb kills Russian military officer in Crimea; reports name him as defector from Ukraine - Reuters",
+            "titleZh": "炸弹在克里米亚炸死一名俄罗斯军官；报道称其为乌克兰叛逃者 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "炸弹在克里米亚炸死一名俄罗斯军官；报道称其为乌克兰叛逃者 - 路透社"
+      },
+      {
+        "title": "After US criticism, Israel ties Lebanon withdrawal to Hezbollah disarmament - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUJ5VWVuMWJJR0cySXFnVW5lbEFJbWQyeWdOSWRlSFRfRTZzaU5lbXlBbDZObXIzLWY5VXJXSHYtajUyRm9WcTQ2LWEwQ2N5VTc5X0F4ZE0tWWhKNDhkTjFRNjhqR1dZa3loVFFod1JkOS1UQ0d6VWgteGo5MV93YkY1S2cwQmVod1poOEpJTFh3VmtRZzZINWZCQmtCM3hsYnFmUUZBM1V6T0ZQWlZHQ0pkbWhVYktnZnpONmZYWXIwT0U?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-13T14:53:58.734Z",
+        "pubDate": "Thu, 13 Aug 2026 12:30:59 GMT",
+        "id": "9ad13cbbd3b3b653257606ccb30c5dc59795674a",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "以色列",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "9d8ec603018eff9823f1c298d1db409ad85032ca",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUJ5VWVuMWJJR0cySXFnVW5lbEFJbWQyeWdOSWRlSFRfRTZzaU5lbXlBbDZObXIzLWY5VXJXSHYtajUyRm9WcTQ2LWEwQ2N5VTc5X0F4ZE0tWWhKNDhkTjFRNjhqR1dZa3loVFFod1JkOS1UQ0d6VWgteGo5MV93YkY1S2cwQmVod1poOEpJTFh3VmtRZzZINWZCQmtCM3hsYnFmUUZBM1V6T0ZQWlZHQ0pkbWhVYktnZnpONmZYWXIwT0U",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUJ5VWVuMWJJR0cySXFnVW5lbEFJbWQyeWdOSWRlSFRfRTZzaU5lbXlBbDZObXIzLWY5VXJXSHYtajUyRm9WcTQ2LWEwQ2N5VTc5X0F4ZE0tWWhKNDhkTjFRNjhqR1dZa3loVFFod1JkOS1UQ0d6VWgteGo5MV93YkY1S2cwQmVod1poOEpJTFh3VmtRZzZINWZCQmtCM3hsYnFmUUZBM1V6T0ZQWlZHQ0pkbWhVYktnZnpONmZYWXIwT0U?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "After US criticism, Israel ties Lebanon withdrawal to Hezbollah disarmament - Reuters",
+            "titleZh": "在美国批评后，以色列将黎巴嫩撤军与真主党解除武装挂钩 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在美国批评后，以色列将黎巴嫩撤军与真主党解除武装挂钩 - 路透社"
+      },
+      {
+        "title": "French ambassador to CAR investigated over claims he hosted dozens of women",
+        "url": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-13T14:53:58.331Z",
+        "pubDate": "Thu, 13 Aug 2026 14:21:52 GMT",
+        "id": "056bf2ffa7ca5c348656f3ed81f940f75473216c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "812eab1d07006a92d36a3d61cbedcee4ae5ec0da",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+            "source": "Guardian World",
+            "title": "French ambassador to CAR investigated over claims he hosted dozens of women",
+            "titleZh": "法国驻中非共和国大使因涉嫌接待数十名女性而接受调查"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "法国驻中非共和国大使因涉嫌接待数十名女性而接受调查"
+      },
+      {
+        "title": "Man, 102, dies after alleged assault in south Wales pub",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/13/phillip-ormerod-102-dies-alleged-assault-crows-nest-cwmbran-wales",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-13T14:53:58.331Z",
+        "pubDate": "Thu, 13 Aug 2026 13:59:59 GMT",
+        "id": "57739ff4b421b90d8b4a28ba28eaf5803b21413d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "aed30f336c5982dc6f4fd5372f01a1128e9172ed",
+        "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/13/phillip-ormerod-102-dies-alleged-assault-crows-nest-cwmbran-wales",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/aug/13/phillip-ormerod-102-dies-alleged-assault-crows-nest-cwmbran-wales",
+            "source": "Guardian World",
+            "title": "Man, 102, dies after alleged assault in south Wales pub",
+            "titleZh": "102岁男子在南威尔士酒吧遭袭击后死亡"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "102岁男子在南威尔士酒吧遭袭击后死亡"
+      },
+      {
+        "title": "Will Trump’s next press secretary be a better liar than the first five?",
+        "url": "https://www.theguardian.com/us-news/2026/aug/13/trump-press-secretary-lies-karoline-leavitt",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-13T14:53:58.331Z",
+        "pubDate": "Thu, 13 Aug 2026 14:02:13 GMT",
+        "id": "908424cf80bdf046da7e6ceb798d27e4d7a7fc0c",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "aa060bdfeb2d26274cd41dc50f71de9d1cf1025d",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/13/trump-press-secretary-lies-karoline-leavitt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/13/trump-press-secretary-lies-karoline-leavitt",
+            "source": "Guardian World",
+            "title": "Will Trump’s next press secretary be a better liar than the first five?",
+            "titleZh": "特朗普的下一任新闻秘书会比前五任更会撒谎吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普的下一任新闻秘书会比前五任更会撒谎吗？"
+      },
+      {
+        "title": "Lottery ticket sold at Illinois gas station wins $1bn Powerball jackpot",
+        "url": "https://www.theguardian.com/us-news/2026/aug/13/lottery-1bn-powerball-jackpot-illinois",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-13T14:53:58.331Z",
+        "pubDate": "Thu, 13 Aug 2026 13:54:18 GMT",
+        "id": "297e63e09fdd9168c1e853c49cc2a2cf0392da52",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3e7a56564ec9f755af6e7bfaafb511a7fedf2019",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/13/lottery-1bn-powerball-jackpot-illinois",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/13/lottery-1bn-powerball-jackpot-illinois",
+            "source": "Guardian World",
+            "title": "Lottery ticket sold at Illinois gas station wins $1bn Powerball jackpot",
+            "titleZh": "伊利诺伊州加油站售出彩票中得10亿美元强力球头奖"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊利诺伊州加油站售出彩票中得10亿美元强力球头奖"
+      },
+      {
+        "title": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 11:54:58 GMT",
+        "id": "158a837efb05df83edc8a4b4441cf572066e6440",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "659bb8333547d6de5e28588458d1a7a01e96af7d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR?oc=5",
+            "source": "Google News",
+            "title": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck - Reuters",
+            "titleZh": "伊朗国家媒体嘲讽特朗普换飞机，表情包显示他躲在餐车后——路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊朗国家媒体嘲讽特朗普换飞机，表情包显示他躲在餐车后——路透社"
+      },
+      {
+        "title": "Flock CEO: ‘We got this one wrong’ - The Verge",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00d2JHRW5QbGw3VDVfM0ZicXVWb0NhRnV4YTZ3TzRnVWFxSl9Oa01tcFNmZThuSk9EYWxfSVlDUkVhR0pLLWpSZFRxeXJIUHNLWDM1aGlsRXJLOXJsRTNGaWlMX2Zzd21QS09GNVg1VjBpZlpmOFVseVZR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 13:00:00 GMT",
+        "id": "0a22351a13868a42dcea7a08c04b2266db895d38",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7d1eb27cc7a222ebc55fc6518d16429cb2313e99",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00d2JHRW5QbGw3VDVfM0ZicXVWb0NhRnV4YTZ3TzRnVWFxSl9Oa01tcFNmZThuSk9EYWxfSVlDUkVhR0pLLWpSZFRxeXJIUHNLWDM1aGlsRXJLOXJsRTNGaWlMX2Zzd21QS09GNVg1VjBpZlpmOFVseVZR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00d2JHRW5QbGw3VDVfM0ZicXVWb0NhRnV4YTZ3TzRnVWFxSl9Oa01tcFNmZThuSk9EYWxfSVlDUkVhR0pLLWpSZFRxeXJIUHNLWDM1aGlsRXJLOXJsRTNGaWlMX2Zzd21QS09GNVg1VjBpZlpmOFVseVZR?oc=5",
+            "source": "Google News",
+            "title": "Flock CEO: ‘We got this one wrong’ - The Verge",
+            "titleZh": "Flock首席执行官：'这件事我们搞错了'——The Verge"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Flock首席执行官：'这件事我们搞错了'——The Verge"
+      },
+      {
+        "title": "Live Updates: Tehran says Strait of Hormuz \"under Iran's control\" after Trump threatens U.S. might \"keep it\" - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2RHTTJfTFBtYldWN0p1aFl6bWNhQ3FHc3VLVUVodGl4SmY1RGZuTmhFNjRWZjBpLUlvaktWVnhpQ2FFZHJZYV9SeWVGVFNaZ0VKQ2xLNF9LVnAwOVE2MFhBUTlaWm1TZFFELW53bC1vekluLXlHanRTdE9aU3ZpWG9aRmhvUDdiMTFoUzlkcFFvcWVscTA3YWxaZDBIbi1xbkVaMURGVFpPTXY0WEcwWTBn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 13:47:00 GMT",
+        "id": "e8aa1034152a9dc590283095edc02949f8d6cd0d",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "b31b1f0ef7a65f263fb502c985b93dfb00c6d70d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2RHTTJfTFBtYldWN0p1aFl6bWNhQ3FHc3VLVUVodGl4SmY1RGZuTmhFNjRWZjBpLUlvaktWVnhpQ2FFZHJZYV9SeWVGVFNaZ0VKQ2xLNF9LVnAwOVE2MFhBUTlaWm1TZFFELW53bC1vekluLXlHanRTdE9aU3ZpWG9aRmhvUDdiMTFoUzlkcFFvcWVscTA3YWxaZDBIbi1xbkVaMURGVFpPTXY0WEcwWTBn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2RHTTJfTFBtYldWN0p1aFl6bWNhQ3FHc3VLVUVodGl4SmY1RGZuTmhFNjRWZjBpLUlvaktWVnhpQ2FFZHJZYV9SeWVGVFNaZ0VKQ2xLNF9LVnAwOVE2MFhBUTlaWm1TZFFELW53bC1vekluLXlHanRTdE9aU3ZpWG9aRmhvUDdiMTFoUzlkcFFvcWVscTA3YWxaZDBIbi1xbkVaMURGVFpPTXY0WEcwWTBn?oc=5",
+            "source": "Google News",
+            "title": "Live Updates: Tehran says Strait of Hormuz \"under Iran's control\" after Trump threatens U.S. might \"keep it\" - CBS News",
+            "titleZh": "实时更新：特朗普威胁美国可能'控制'霍尔木兹海峡后，德黑兰称该海峡'在伊朗控制之下'——CBS新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：特朗普威胁美国可能'控制'霍尔木兹海峡后，德黑兰称该海峡'在伊朗控制之下'——CBS新闻"
+      },
+      {
+        "title": "Hong’s Defeat in Wisconsin Sparks New Disagreements Within Democratic Party - nytimes.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHQyNGtMclkzTGFjT0xMSlhBZGpqVlRmSlVQV1lmVFJsaXRuVjlkbG1KM2kzOGgxZzR2d3ZXRjVXRzNYU05zTV9JOXU3M1ZCQVpVMW1SbFNKejlZU3NYUmozN1FJM0hCQ1dJOUZMTHhfMXlGTktDRkFNamZGdjFhNlZLaEFlWFQ3aFc4S2F3?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 14:03:00 GMT",
+        "id": "cd150855e1a8bfaf72a23cfb95d760e76e887364",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ca653dd74c8e3486ea90358ee50fec8d41e49c66",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHQyNGtMclkzTGFjT0xMSlhBZGpqVlRmSlVQV1lmVFJsaXRuVjlkbG1KM2kzOGgxZzR2d3ZXRjVXRzNYU05zTV9JOXU3M1ZCQVpVMW1SbFNKejlZU3NYUmozN1FJM0hCQ1dJOUZMTHhfMXlGTktDRkFNamZGdjFhNlZLaEFlWFQ3aFc4S2F3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHQyNGtMclkzTGFjT0xMSlhBZGpqVlRmSlVQV1lmVFJsaXRuVjlkbG1KM2kzOGgxZzR2d3ZXRjVXRzNYU05zTV9JOXU3M1ZCQVpVMW1SbFNKejlZU3NYUmozN1FJM0hCQ1dJOUZMTHhfMXlGTktDRkFNamZGdjFhNlZLaEFlWFQ3aFc4S2F3?oc=5",
+            "source": "Google News",
+            "title": "Hong’s Defeat in Wisconsin Sparks New Disagreements Within Democratic Party - nytimes.com",
+            "titleZh": "洪在威斯康星州失利引发民主党内部新分歧——纽约时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "洪在威斯康星州失利引发民主党内部新分歧——纽约时报"
+      },
+      {
+        "title": "We have a winner! $1.040B Powerball jackpot ticket sold in Illinois - USA Today",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb1d1Y3VCVWRwSl9sVjFMc3RLY0ZqSkZtWkd0RFlqd0lyZklIa2JLemVaaVI5SzdZa1poNk5hTnhnQm1hOWZjM0RBcW1mUXRFc3pFLWJGNUJQNWxxdXJlXzBUQVVQb0oyQktVdXRmZUxOSV9xYWw2QkVnR0x5WXhvNWRsc1Z3aXpkVUtnM0dzOGtwcE1tS1VPODV6YlFteUdUanlFQQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 10:40:00 GMT",
+        "id": "5f4a6b5f61d9b73a601941a034756d1b7d223753",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "1515325b4165c521207d4fad0f7433aad62bc940",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb1d1Y3VCVWRwSl9sVjFMc3RLY0ZqSkZtWkd0RFlqd0lyZklIa2JLemVaaVI5SzdZa1poNk5hTnhnQm1hOWZjM0RBcW1mUXRFc3pFLWJGNUJQNWxxdXJlXzBUQVVQb0oyQktVdXRmZUxOSV9xYWw2QkVnR0x5WXhvNWRsc1Z3aXpkVUtnM0dzOGtwcE1tS1VPODV6YlFteUdUanlFQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb1d1Y3VCVWRwSl9sVjFMc3RLY0ZqSkZtWkd0RFlqd0lyZklIa2JLemVaaVI5SzdZa1poNk5hTnhnQm1hOWZjM0RBcW1mUXRFc3pFLWJGNUJQNWxxdXJlXzBUQVVQb0oyQktVdXRmZUxOSV9xYWw2QkVnR0x5WXhvNWRsc1Z3aXpkVUtnM0dzOGtwcE1tS1VPODV6YlFteUdUanlFQQ?oc=5",
+            "source": "Google News",
+            "title": "We have a winner! $1.040B Powerball jackpot ticket sold in Illinois - USA Today",
+            "titleZh": "我们有一位赢家！伊利诺伊州售出10.4亿美元强力球头奖彩票 - 《今日美国》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我们有一位赢家！伊利诺伊州售出10.4亿美元强力球头奖彩票 - 《今日美国》"
+      },
+      {
+        "title": "US Producer Price Growth Decelerates by More Than Forecast - Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODFmbHJFaDg2R01wVjlESFM4V25Bbzh5WDVQUElNMHFHLXYtZGgxVlNlZUdWdks4X1YxWjRvZFQ1ckU1VW9kM0t1UF9EN2Y2eGpRQVBCTU41Mzdtc1lCaGpPdU5EeEQ4OVZydnBEUWhfWmwtWEUzSkV4QWFMbldwa0JuRDhhWUstbDVVUFNDVi1DZmlabFh4MnFmWlpqSTlpQllGN2lUSm5Jb3lGUGc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 12:33:59 GMT",
+        "id": "220bd6ff7b40df3081678611f359b58dc3ec8ab8",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "7e82a73d15e67119fa973a7acb57252a6f9a48a2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODFmbHJFaDg2R01wVjlESFM4V25Bbzh5WDVQUElNMHFHLXYtZGgxVlNlZUdWdks4X1YxWjRvZFQ1ckU1VW9kM0t1UF9EN2Y2eGpRQVBCTU41Mzdtc1lCaGpPdU5EeEQ4OVZydnBEUWhfWmwtWEUzSkV4QWFMbldwa0JuRDhhWUstbDVVUFNDVi1DZmlabFh4MnFmWlpqSTlpQllGN2lUSm5Jb3lGUGc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODFmbHJFaDg2R01wVjlESFM4V25Bbzh5WDVQUElNMHFHLXYtZGgxVlNlZUdWdks4X1YxWjRvZFQ1ckU1VW9kM0t1UF9EN2Y2eGpRQVBCTU41Mzdtc1lCaGpPdU5EeEQ4OVZydnBEUWhfWmwtWEUzSkV4QWFMbldwa0JuRDhhWUstbDVVUFNDVi1DZmlabFh4MnFmWlpqSTlpQllGN2lUSm5Jb3lGUGc?oc=5",
+            "source": "Google News",
+            "title": "US Producer Price Growth Decelerates by More Than Forecast - Bloomberg",
+            "titleZh": "美国生产者价格增长放缓幅度超过预期 - 彭博社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国生产者价格增长放缓幅度超过预期 - 彭博社"
+      },
+      {
+        "title": "Google Pixel 11 Can Cost Less Than Pixel 10 With Amazon’s Pre-Order Perks - Gizmodo",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3c2S0JCUkZabExoRmJIdUMzeHR1UFpNc0Z0b0RQZklYa2RCdlhNaUhUN0c5d1N1d1lnXy00OEtfVTdLeXQwVXd1cFBtYU0ybWNQNVROWGhWeDV6eTZJbFh3V3oxUlJiMEdnX2pBbVRMUEhCYmJWN3hRMU1OSnZ4dF9aT0RZZkk0c2tYdkxIVjlHLU1GejlZSnRKNDFqZ1E5eVFpNmdn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 11:10:47 GMT",
+        "id": "4d32cb02fb1f42dd4c5b826bc98d7718b04f5319",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b2c02787b32ca2ee20551d9e9d5b280d495d345e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3c2S0JCUkZabExoRmJIdUMzeHR1UFpNc0Z0b0RQZklYa2RCdlhNaUhUN0c5d1N1d1lnXy00OEtfVTdLeXQwVXd1cFBtYU0ybWNQNVROWGhWeDV6eTZJbFh3V3oxUlJiMEdnX2pBbVRMUEhCYmJWN3hRMU1OSnZ4dF9aT0RZZkk0c2tYdkxIVjlHLU1GejlZSnRKNDFqZ1E5eVFpNmdn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT3c2S0JCUkZabExoRmJIdUMzeHR1UFpNc0Z0b0RQZklYa2RCdlhNaUhUN0c5d1N1d1lnXy00OEtfVTdLeXQwVXd1cFBtYU0ybWNQNVROWGhWeDV6eTZJbFh3V3oxUlJiMEdnX2pBbVRMUEhCYmJWN3hRMU1OSnZ4dF9aT0RZZkk0c2tYdkxIVjlHLU1GejlZSnRKNDFqZ1E5eVFpNmdn?oc=5",
+            "source": "Google News",
+            "title": "Google Pixel 11 Can Cost Less Than Pixel 10 With Amazon’s Pre-Order Perks - Gizmodo",
+            "titleZh": "谷歌Pixel 11借助亚马逊预订优惠，价格可低于Pixel 10 - Gizmodo"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "谷歌Pixel 11借助亚马逊预订优惠，价格可低于Pixel 10 - Gizmodo"
+      },
+      {
+        "title": "Biggest revelations from ‘Travis Barker: Louder Than Fear’ doc: Kourtney Kardashian’s miscarriage, Taylor Hawkins’ surprise cameo and more - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOekJ4MEJLVERIY0JYYkluWEdScUZ5akZjQnV3OGdaaFJRdGJCeElTZUtrc0dVLTQyNVJDTHBfNHd1N3Jwc0tpMHY0eXJBWjd2bnI1cnhKN0NnbDBqU2U1WkpmZllaMzhncDU1cW42THR5MnZYUl9XeTBKU2RuS3BVdmRHZk0xS0dCcU9DN1dyMnVVYk5uU18ybFA1emZKMTVRaUpOTk94SHNZT0s4ekVv?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 07:00:00 GMT",
+        "id": "68000ad578fcea0f46a5841c7439247a785536dc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c2646f3ade3e762e9173eed66d9c42801857f403",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOekJ4MEJLVERIY0JYYkluWEdScUZ5akZjQnV3OGdaaFJRdGJCeElTZUtrc0dVLTQyNVJDTHBfNHd1N3Jwc0tpMHY0eXJBWjd2bnI1cnhKN0NnbDBqU2U1WkpmZllaMzhncDU1cW42THR5MnZYUl9XeTBKU2RuS3BVdmRHZk0xS0dCcU9DN1dyMnVVYk5uU18ybFA1emZKMTVRaUpOTk94SHNZT0s4ekVv",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOekJ4MEJLVERIY0JYYkluWEdScUZ5akZjQnV3OGdaaFJRdGJCeElTZUtrc0dVLTQyNVJDTHBfNHd1N3Jwc0tpMHY0eXJBWjd2bnI1cnhKN0NnbDBqU2U1WkpmZllaMzhncDU1cW42THR5MnZYUl9XeTBKU2RuS3BVdmRHZk0xS0dCcU9DN1dyMnVVYk5uU18ybFA1emZKMTVRaUpOTk94SHNZT0s4ekVv?oc=5",
+            "source": "Google News",
+            "title": "Biggest revelations from ‘Travis Barker: Louder Than Fear’ doc: Kourtney Kardashian’s miscarriage, Taylor Hawkins’ surprise cameo and more - Yahoo",
+            "titleZh": "《特拉维斯·巴克：比恐惧更响亮》纪录片最大爆料：考特妮·卡戴珊流产、泰勒·霍金斯惊喜客串等 - 雅虎"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "《特拉维斯·巴克：比恐惧更响亮》纪录片最大爆料：考特妮·卡戴珊流产、泰勒·霍金斯惊喜客串等 - 雅虎"
+      },
+      {
+        "title": "Jenna Jameson gets married for the fourth time, weds Mil R. Ocampo after 1 year of dating - pagesix.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWQya0FSTVdQaE9kZWZOR1Q2cFUwOW5mcW1iSXl2a0I1YmpQNFluQTlodWJpeGc1TUUyNGJIYUY2UGw4S3doYzEweGNmRDV2VU00LWI2RVl5cFFSazNhVWpjckFVQml0MDF6Z3J4VGRJNTUtRnF4U2VRcTJuQjctVm92YXRWaHJZTmlzcFpjSW5FRXloa2dMamltWjN3NzNhX2lCMkpTa0VLMGhCMmV3aG4zclV5YXZEVmgwWmFmSGd5dGMzeXNzVjRhQjhYdFU?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 13:33:00 GMT",
+        "id": "687bf3f5e5bdc85307440339bdd76d15d7ec8f96",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1edea18a86b9aef838724568ecc0210db087f393",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWQya0FSTVdQaE9kZWZOR1Q2cFUwOW5mcW1iSXl2a0I1YmpQNFluQTlodWJpeGc1TUUyNGJIYUY2UGw4S3doYzEweGNmRDV2VU00LWI2RVl5cFFSazNhVWpjckFVQml0MDF6Z3J4VGRJNTUtRnF4U2VRcTJuQjctVm92YXRWaHJZTmlzcFpjSW5FRXloa2dMamltWjN3NzNhX2lCMkpTa0VLMGhCMmV3aG4zclV5YXZEVmgwWmFmSGd5dGMzeXNzVjRhQjhYdFU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWQya0FSTVdQaE9kZWZOR1Q2cFUwOW5mcW1iSXl2a0I1YmpQNFluQTlodWJpeGc1TUUyNGJIYUY2UGw4S3doYzEweGNmRDV2VU00LWI2RVl5cFFSazNhVWpjckFVQml0MDF6Z3J4VGRJNTUtRnF4U2VRcTJuQjctVm92YXRWaHJZTmlzcFpjSW5FRXloa2dMamltWjN3NzNhX2lCMkpTa0VLMGhCMmV3aG4zclV5YXZEVmgwWmFmSGd5dGMzeXNzVjRhQjhYdFU?oc=5",
+            "source": "Google News",
+            "title": "Jenna Jameson gets married for the fourth time, weds Mil R. Ocampo after 1 year of dating - pagesix.com",
+            "titleZh": "詹娜·詹姆森第四次结婚，约会一年后嫁给米尔·R·奥坎波 - pagesix.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "詹娜·詹姆森第四次结婚，约会一年后嫁给米尔·R·奥坎波 - pagesix.com"
+      },
+      {
+        "title": "TUF 34’s Xavier Franklin calls Herb Dean a ‘lying bastard’ after controversial fight restart - MMA Fighting",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdWpZWXVmU0NxZ25hZTE3QjE4WGVKOGpVOFpFSl9hZXJBaExkUUZxdHIwanVwTFExSTlab25xYWZjS3lUNnNzcVhhUkdGT3djWnI0cmFKUEoyZng5aDZ2RmxJLWNjbEZtY2UwVDB1VzZyamRhUk9NbTJ6WXptb3ZqZHlBZGwwNkszQjJJcGZUa2x6bFE4XzdmS0tnREZvYlF4Qk03eVdKX2R1cXhDd3pFTHpiOVdSZFhyUnkwZlV0Z1BYcGtscUZZ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 13:00:00 GMT",
+        "id": "23fa77b31ef6ad1af33b3095d3608eb3c75adb15",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a6266ec7b44c6508e92ae74506139f31d09a29d1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdWpZWXVmU0NxZ25hZTE3QjE4WGVKOGpVOFpFSl9hZXJBaExkUUZxdHIwanVwTFExSTlab25xYWZjS3lUNnNzcVhhUkdGT3djWnI0cmFKUEoyZng5aDZ2RmxJLWNjbEZtY2UwVDB1VzZyamRhUk9NbTJ6WXptb3ZqZHlBZGwwNkszQjJJcGZUa2x6bFE4XzdmS0tnREZvYlF4Qk03eVdKX2R1cXhDd3pFTHpiOVdSZFhyUnkwZlV0Z1BYcGtscUZZ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdWpZWXVmU0NxZ25hZTE3QjE4WGVKOGpVOFpFSl9hZXJBaExkUUZxdHIwanVwTFExSTlab25xYWZjS3lUNnNzcVhhUkdGT3djWnI0cmFKUEoyZng5aDZ2RmxJLWNjbEZtY2UwVDB1VzZyamRhUk9NbTJ6WXptb3ZqZHlBZGwwNkszQjJJcGZUa2x6bFE4XzdmS0tnREZvYlF4Qk03eVdKX2R1cXhDd3pFTHpiOVdSZFhyUnkwZlV0Z1BYcGtscUZZ?oc=5",
+            "source": "Google News",
+            "title": "TUF 34’s Xavier Franklin calls Herb Dean a ‘lying bastard’ after controversial fight restart - MMA Fighting",
+            "titleZh": "TUF 34的泽维尔·富兰克林在争议性比赛重启后称赫布·迪恩为‘撒谎的混蛋’ - MMA Fighting"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "TUF 34的泽维尔·富兰克林在争议性比赛重启后称赫布·迪恩为‘撒谎的混蛋’ - MMA Fighting"
+      },
+      {
+        "title": "Vikings QB McCarthy: 'This is place I want to be' - NFL.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVmhFVlpjOC1KOHBuN2hWYkxXSGNTbnFjVTdOY09HS055UlU1TEZHaWd3NUdlb2w3VVAyc1NocF9TeDc5bWVMMHlDSG1uV0J2dmloYXFLdFpjd2RacXVrLUUzMXpNZFBRNVBxd2w2TVc3cDdRY1VvTUVFZW1FaHJEbGlpNS16ZE5QOUMwWExOdUVzbjZUZll1aFFlYw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 13:11:16 GMT",
+        "id": "9a6dd8d5fdccea2cb3b8e01622a93daa5f5b42cd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e61f0c6fff027218efc50c74aa7d2d532df0a9d7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVmhFVlpjOC1KOHBuN2hWYkxXSGNTbnFjVTdOY09HS055UlU1TEZHaWd3NUdlb2w3VVAyc1NocF9TeDc5bWVMMHlDSG1uV0J2dmloYXFLdFpjd2RacXVrLUUzMXpNZFBRNVBxd2w2TVc3cDdRY1VvTUVFZW1FaHJEbGlpNS16ZE5QOUMwWExOdUVzbjZUZll1aFFlYw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVmhFVlpjOC1KOHBuN2hWYkxXSGNTbnFjVTdOY09HS055UlU1TEZHaWd3NUdlb2w3VVAyc1NocF9TeDc5bWVMMHlDSG1uV0J2dmloYXFLdFpjd2RacXVrLUUzMXpNZFBRNVBxd2w2TVc3cDdRY1VvTUVFZW1FaHJEbGlpNS16ZE5QOUMwWExOdUVzbjZUZll1aFFlYw?oc=5",
+            "source": "Google News",
+            "title": "Vikings QB McCarthy: 'This is place I want to be' - NFL.com",
+            "titleZh": "维京人四分卫麦卡锡：‘这就是我想待的地方’ - NFL.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "维京人四分卫麦卡锡：‘这就是我想待的地方’ - NFL.com"
+      },
+      {
+        "title": "A Near-total Lunar Eclipse Will Turn the Moon Red This Month—and It’s the Last Chance to See One for Over 2 Years - Travel + Leisure",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOGNQNVlnVTBiLWZfU1lib2llRVJtU3RLeWR2Q3RXSGlHN2FLZ0RiczFZXzhXWlRPVHl1ZHJyZmcwcmJkamRFV2dHazNNWVppaDhyUk1uMHFHeGZhazdiN0ZVbnFIWmRkQVJncVFLMXJvQmdyRGticnNtenlqN1EwR3FscDM?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-13T14:53:58.311Z",
+        "pubDate": "Thu, 13 Aug 2026 11:52:00 GMT",
+        "id": "1ed8f36a682db0189ea8d9ecd40e855d0f88bfba",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b770061c2e00e9f833e8210157c39f21ee1c7512",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOGNQNVlnVTBiLWZfU1lib2llRVJtU3RLeWR2Q3RXSGlHN2FLZ0RiczFZXzhXWlRPVHl1ZHJyZmcwcmJkamRFV2dHazNNWVppaDhyUk1uMHFHeGZhazdiN0ZVbnFIWmRkQVJncVFLMXJvQmdyRGticnNtenlqN1EwR3FscDM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOGNQNVlnVTBiLWZfU1lib2llRVJtU3RLeWR2Q3RXSGlHN2FLZ0RiczFZXzhXWlRPVHl1ZHJyZmcwcmJkamRFV2dHazNNWVppaDhyUk1uMHFHeGZhazdiN0ZVbnFIWmRkQVJncVFLMXJvQmdyRGticnNtenlqN1EwR3FscDM?oc=5",
+            "source": "Google News",
+            "title": "A Near-total Lunar Eclipse Will Turn the Moon Red This Month—and It’s the Last Chance to See One for Over 2 Years - Travel + Leisure",
+            "titleZh": "本月将出现近全食月食，月亮变红——这是两年多来最后一次观赏机会 - 《旅游+休闲》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "本月将出现近全食月食，月亮变红——这是两年多来最后一次观赏机会 - 《旅游+休闲》"
+      },
+      {
+        "title": "Kubernetes on Oxide: How Customer Needs Shaped Our Integrations",
+        "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 14:26:41 +0000",
+        "id": "1caf6d82e0fa9d364a039ef39c6703eb7fb1cd9f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5850865297da45a4742f574eef9095aee9081699",
+        "canonicalUrl": "https://oxide.computer/blog/kubernetes-on-oxide",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+            "source": "Hacker News Frontpage",
+            "title": "Kubernetes on Oxide: How Customer Needs Shaped Our Integrations",
+            "titleZh": "Oxide上的Kubernetes：客户需求如何塑造我们的集成"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Oxide上的Kubernetes：客户需求如何塑造我们的集成"
+      },
+      {
+        "title": "US vs. UK Baby Names 2025: The Biggest Top Differences Visualized",
+        "url": "https://namedaisy.com/blog/us-vs-uk-top-100-baby-names-2025",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 14:23:43 +0000",
+        "id": "4b77212d1eb9636d3d9156b3512367aa394706d1",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "f23f8e762e2d743317fcb9b749a93dcda0982861",
+        "canonicalUrl": "https://namedaisy.com/blog/us-vs-uk-top-100-baby-names-2025",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://namedaisy.com/blog/us-vs-uk-top-100-baby-names-2025",
+            "source": "Hacker News Frontpage",
+            "title": "US vs. UK Baby Names 2025: The Biggest Top Differences Visualized",
+            "titleZh": "2025年美国与英国婴儿名字：最大差异可视化对比"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2025年美国与英国婴儿名字：最大差异可视化对比"
+      },
+      {
+        "title": "Graduate Student Proves a Quantum Uncertainty Principle for Fractals",
+        "url": "https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 14:22:54 +0000",
+        "id": "ecf8ca94bb3113f496af21b80281d03d9133f601",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "265c5d1c34764ca0c6c511bbf7fa899874c86da4",
+        "canonicalUrl": "https://quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/",
+            "source": "Hacker News Frontpage",
+            "title": "Graduate Student Proves a Quantum Uncertainty Principle for Fractals",
+            "titleZh": "研究生证明分形的量子不确定性原理"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "研究生证明分形的量子不确定性原理"
+      },
+      {
+        "title": "Spaghettifying DRAM",
+        "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 14:17:13 +0000",
+        "id": "cdcfc670d86d3aa3aed6cc5773cf441a474ed7de",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "00bd2795417ff85feb3f92d6780f0ce63773b1ca",
+        "canonicalUrl": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+            "source": "Hacker News Frontpage",
+            "title": "Spaghettifying DRAM",
+            "titleZh": "意大利面化DRAM"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "意大利面化DRAM"
+      },
+      {
+        "title": "Heart Aerospace Completes First Flight of Largest Electric Aircraft",
+        "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 14:11:51 +0000",
+        "id": "134cff0752f56520274b804fce57cda2eaefbbef",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c6c7d2b15c94e275b997e563331b1101eb9248d4",
+        "canonicalUrl": "https://heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+            "source": "Hacker News Frontpage",
+            "title": "Heart Aerospace Completes First Flight of Largest Electric Aircraft",
+            "titleZh": "Heart Aerospace完成最大电动飞机首飞"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Heart Aerospace完成最大电动飞机首飞"
+      },
+      {
+        "title": "Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
+        "url": "https://github.com/fellowgeek/mcp-memory",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 13:57:47 +0000",
+        "id": "39d758d6167d6f782a9a45c6dc45861dfa419b25",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent",
+          "智能体",
+          "MCP"
+        ],
+        "isPriority": true,
+        "eventId": "e6f60abf449db1c4a00314b84de9d2219c3f3a00",
+        "canonicalUrl": "https://github.com/fellowgeek/mcp-memory",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/fellowgeek/mcp-memory",
+            "source": "Hacker News Frontpage",
+            "title": "Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
+            "titleZh": "Show HN：MCP Memory——使用Google OKF和SQLite FTS5的快速智能体记忆"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：MCP Memory——使用Google OKF和SQLite FTS5的快速智能体记忆"
+      },
+      {
+        "title": "Time to Move On: Querying Without Nulls and Bags",
+        "url": "https://arxiv.org/abs/2608.10863",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 13:54:56 +0000",
+        "id": "1a2423f78e20ea3c335a27d4daa679227022b6f2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2da179931497142fc1fbec60688f52eab4846185",
+        "canonicalUrl": "https://arxiv.org/abs/2608.10863",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.10863",
+            "source": "Hacker News Frontpage",
+            "title": "Time to Move On: Querying Without Nulls and Bags",
+            "titleZh": "是时候前进了：无空值和袋子的查询"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "是时候前进了：无空值和袋子的查询"
+      },
+      {
+        "title": "Gloomberb",
+        "url": "https://gloom.sh/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 13:52:32 +0000",
+        "id": "9e5f3fabd811d01c245fef097d5dedfa80a0df05",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1727e90e8abc9966b194bda731fc449b9888179b",
+        "canonicalUrl": "https://gloom.sh/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://gloom.sh/",
+            "source": "Hacker News Frontpage",
+            "title": "Gloomberb",
+            "titleZh": "Gloomberb"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Gloomberb"
+      },
+      {
+        "title": "Why Are Rivers So Mathematical?",
+        "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 13:18:34 +0000",
+        "id": "55d50d33a477ae20a1288bb14f837a231ee9cc2a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "79af7fe5cb54cc3c174afae73d7fc3f10ffeecc5",
+        "canonicalUrl": "https://quantamagazine.org/why-are-rivers-so-mathematical-20260810",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+            "source": "Hacker News Frontpage",
+            "title": "Why Are Rivers So Mathematical?",
+            "titleZh": "为什么河流如此具有数学性？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为什么河流如此具有数学性？"
+      },
+      {
+        "title": "DeepSeek API Pricing Update",
+        "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-13T14:53:58.523Z",
+        "pubDate": "Thu, 13 Aug 2026 12:49:21 +0000",
+        "id": "08b566c0b0df8d7b8ec3ee8ac47435b4b363f193",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "DeepSeek"
+        ],
+        "isPriority": true,
+        "eventId": "7dd19c3428ab3e774b73c42d7806beaaa1ff8785",
+        "canonicalUrl": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+            "source": "Hacker News Frontpage",
+            "title": "DeepSeek API Pricing Update",
+            "titleZh": "DeepSeek API 定价更新"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DeepSeek API 定价更新"
+      },
+      {
+        "title": "Show HN: A Way for AI agents to support you with regulatory compliance",
+        "url": "https://rulemesh.com/how-it-works",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:48:03 +0000",
+        "id": "ec2899366a41ed9b3cce6b39f6f76a44d25dc591",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "b3e029d9ffc02699f8ffaf7fe25368e07cc22644",
+        "canonicalUrl": "https://rulemesh.com/how-it-works",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://rulemesh.com/how-it-works",
+            "source": "Hacker News Newest",
+            "title": "Show HN: A Way for AI agents to support you with regulatory compliance",
+            "titleZh": "展示 HN：一种让 AI 代理在法规合规方面为您提供支持的方式"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示 HN：一种让 AI 代理在法规合规方面为您提供支持的方式"
+      },
+      {
+        "title": "How do small community organizations get people to show up?",
+        "url": "https://www.evant.app/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:47:30 +0000",
+        "id": "0fd94bb19a9a543088e4fcfe64755bbd7f6c187c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ec0136b80e2f5a9fff262fe7fd54972db63b011d",
+        "canonicalUrl": "https://evant.app/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.evant.app/",
+            "source": "Hacker News Newest",
+            "title": "How do small community organizations get people to show up?",
+            "titleZh": "小型社区组织如何让人们参与进来？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "小型社区组织如何让人们参与进来？"
+      },
+      {
+        "title": "Airline Simulator",
+        "url": "https://www.airhoncho.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:46:54 +0000",
+        "id": "bc43d2ccdef24122237bcf979841a4bdbf606d32",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5a4b67686926c6ba95cb94558ec8a26810f25e8d",
+        "canonicalUrl": "https://airhoncho.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.airhoncho.com/",
+            "source": "Hacker News Newest",
+            "title": "Airline Simulator",
+            "titleZh": "航空模拟器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "航空模拟器"
+      },
+      {
+        "title": "Chinese bullet train breaks acceleration record by going from 0-800kmph in 5 sec",
+        "url": "https://www.the-independent.com/tech/china-bullet-train-acceleration-record-b3031693.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:46:20 +0000",
+        "id": "69608df974bf8d5dcbb17cfcc2d91de2c0155252",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "841d15937306c8eabad1e1a84b165e5b8e8cf025",
+        "canonicalUrl": "https://the-independent.com/tech/china-bullet-train-acceleration-record-b3031693.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.the-independent.com/tech/china-bullet-train-acceleration-record-b3031693.html",
+            "source": "Hacker News Newest",
+            "title": "Chinese bullet train breaks acceleration record by going from 0-800kmph in 5 sec",
+            "titleZh": "中国高铁打破加速纪录，5秒内从0加速至800公里/小时"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "中国高铁打破加速纪录，5秒内从0加速至800公里/小时"
+      },
+      {
+        "title": "Parquet Column Indexes Are Being Ignored on EMR and Glue",
+        "url": "https://dustinsmith.info/blog/aws-parquet-column-index/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:45:47 +0000",
+        "id": "76c95871f25540246a2a8067e9ae3498b993b8fe",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "33e9ec541b7019816638b33b933c7c48d9ecb4a7",
+        "canonicalUrl": "https://dustinsmith.info/blog/aws-parquet-column-index",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dustinsmith.info/blog/aws-parquet-column-index/",
+            "source": "Hacker News Newest",
+            "title": "Parquet Column Indexes Are Being Ignored on EMR and Glue",
+            "titleZh": "Parquet 列索引在 EMR 和 Glue 上被忽略"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Parquet 列索引在 EMR 和 Glue 上被忽略"
+      },
+      {
+        "title": "DSPy silently drops Pydantic Field constraints before any back end sees them",
+        "url": "https://www.evolutionid.com/en/technical-insights/your-dspy-field-constraints-never-reach-the-model",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:44:03 +0000",
+        "id": "d5bd9b7cd2ec58b37d83840e1a649c10f8de8333",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9eb822950937ddb6a88de3fb0900f43d0ae2e079",
+        "canonicalUrl": "https://evolutionid.com/en/technical-insights/your-dspy-field-constraints-never-reach-the-model",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.evolutionid.com/en/technical-insights/your-dspy-field-constraints-never-reach-the-model",
+            "source": "Hacker News Newest",
+            "title": "DSPy silently drops Pydantic Field constraints before any back end sees them",
+            "titleZh": "DSPy 在后台看到之前静默丢弃 Pydantic 字段约束"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DSPy 在后台看到之前静默丢弃 Pydantic 字段约束"
+      },
+      {
+        "title": "Show HN: WireDoctor – Spring Boot startup and bean cycle analyzer",
+        "url": "https://medium.com/@ddsha441981/a-story-about-40-second-boot-times-silent-bean-cycles-and-the-analysis-layer-nobody-ships-9634686ad693",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:43:51 +0000",
+        "id": "1cf03cdf85dd5793dfb01d3ca32c396cb21f0b01",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1a07c0c320c41730f0334ad433b064c9f73576fb",
+        "canonicalUrl": "https://medium.com/@ddsha441981/a-story-about-40-second-boot-times-silent-bean-cycles-and-the-analysis-layer-nobody-ships-9634686ad693",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/@ddsha441981/a-story-about-40-second-boot-times-silent-bean-cycles-and-the-analysis-layer-nobody-ships-9634686ad693",
+            "source": "Hacker News Newest",
+            "title": "Show HN: WireDoctor – Spring Boot startup and bean cycle analyzer",
+            "titleZh": "Show HN：WireDoctor——Spring Boot启动与Bean周期分析器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：WireDoctor——Spring Boot启动与Bean周期分析器"
+      },
+      {
+        "title": "Implementation strategies for mutable value semantics",
+        "url": "https://www.jot.fm/contents/issue_2022_02/article2.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:42:05 +0000",
+        "id": "5c6b6575f2d49837f12200ad62c657229d88bc0a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fe120fbd7e9e3fd69b5c456bbe53daef649ed541",
+        "canonicalUrl": "https://jot.fm/contents/issue_2022_02/article2.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.jot.fm/contents/issue_2022_02/article2.html",
+            "source": "Hacker News Newest",
+            "title": "Implementation strategies for mutable value semantics",
+            "titleZh": "可变值语义的实现策略"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "可变值语义的实现策略"
+      },
+      {
+        "title": "Why Gen Z is ditching traditional finance for crypto and social apps",
+        "url": "https://thehill.com/blogs/in-the-know/6026306-generation-z-crypto-saving-401ks-tiktok-shop-little-treat-burrito/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:42:03 +0000",
+        "id": "69e62055f2d74a023a1457215b331f4dc027ae02",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "04d575e0ce9adc5ccb6937efa89d239a2d66fd6b",
+        "canonicalUrl": "https://thehill.com/blogs/in-the-know/6026306-generation-z-crypto-saving-401ks-tiktok-shop-little-treat-burrito",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://thehill.com/blogs/in-the-know/6026306-generation-z-crypto-saving-401ks-tiktok-shop-little-treat-burrito/",
+            "source": "Hacker News Newest",
+            "title": "Why Gen Z is ditching traditional finance for crypto and social apps",
+            "titleZh": "为什么Z世代正在抛弃传统金融，转向加密货币和社交应用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为什么Z世代正在抛弃传统金融，转向加密货币和社交应用"
+      },
+      {
+        "title": "Openness Made All of This Possible",
+        "url": "https://opensource.org/blog/openness-made-all-of-this-possible",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:41:11 +0000",
+        "id": "dbd1f6cfeddc86f02bbbf01cc232a27124e39e0f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eebafbbbe39d2a13d33dd0ffecf4f060c29460b6",
+        "canonicalUrl": "https://opensource.org/blog/openness-made-all-of-this-possible",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://opensource.org/blog/openness-made-all-of-this-possible",
+            "source": "Hacker News Newest",
+            "title": "Openness Made All of This Possible",
+            "titleZh": "开放性让这一切成为可能"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "开放性让这一切成为可能"
+      },
+      {
+        "title": "Escaping the Giant Switch",
+        "url": "https://medium.com/graalvm/escaping-the-giant-switch-dec20b572139",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:40:14 +0000",
+        "id": "e4e65cad8793ceb236f612b902527a1e6b89dcd5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7e233ef8134cfca9b08f1ace036731562f594ce3",
+        "canonicalUrl": "https://medium.com/graalvm/escaping-the-giant-switch-dec20b572139",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/graalvm/escaping-the-giant-switch-dec20b572139",
+            "source": "Hacker News Newest",
+            "title": "Escaping the Giant Switch",
+            "titleZh": "逃离巨型开关"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "逃离巨型开关"
+      },
+      {
+        "title": "Upper echelons in Silicon Valley are no longer materialists",
+        "url": "https://www.modernreformation.org/resources/essays/ai-and-silicon-valleys-spirituality-without-religion",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:39:42 +0000",
+        "id": "31a6a6400f10a5ad0390a55f7375faa1c3ae48d5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "82a99d316bd8de0bd6c4c919319691825651f09a",
+        "canonicalUrl": "https://modernreformation.org/resources/essays/ai-and-silicon-valleys-spirituality-without-religion",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.modernreformation.org/resources/essays/ai-and-silicon-valleys-spirituality-without-religion",
+            "source": "Hacker News Newest",
+            "title": "Upper echelons in Silicon Valley are no longer materialists",
+            "titleZh": "硅谷高层不再是唯物主义者"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "硅谷高层不再是唯物主义者"
+      },
+      {
+        "title": "Show HN: Altura – On-device in-the-moment speaking coach for high-stakes calls",
+        "url": "https://www.altura.coach",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:39:28 +0000",
+        "id": "c7f399d205e21f4b9160c51f1016e6394e82a1ae",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4292dcefc9048ee608f6838c93aa9f770ee6f889",
+        "canonicalUrl": "https://altura.coach/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.altura.coach",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Altura – On-device in-the-moment speaking coach for high-stakes calls",
+            "titleZh": "Show HN：Altura——面向高 stakes 通话的设备端即时演讲教练"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Altura——面向高 stakes 通话的设备端即时演讲教练"
+      },
+      {
+        "title": "Dynatrace to Acquire AI Observability Leader Arize",
+        "url": "https://ir.dynatrace.com/news-events/press-releases/detail/435/dynatrace-to-acquire-ai-observability-leader-arize",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:39:13 +0000",
+        "id": "d3be68e8d16f6c37f273b404a3dc02257434dc09",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "0ed9de8f4f7848333ebbc2eb0d868ed2a7a80d76",
+        "canonicalUrl": "https://ir.dynatrace.com/news-events/press-releases/detail/435/dynatrace-to-acquire-ai-observability-leader-arize",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://ir.dynatrace.com/news-events/press-releases/detail/435/dynatrace-to-acquire-ai-observability-leader-arize",
+            "source": "Hacker News Newest",
+            "title": "Dynatrace to Acquire AI Observability Leader Arize",
+            "titleZh": "Dynatrace将收购AI可观测性领导者Arize"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Dynatrace将收购AI可观测性领导者Arize"
+      },
+      {
+        "title": "Ask HN: Local-Only Microsoft Word?",
+        "url": "https://news.ycombinator.com/item?id=49286676",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:39:02 +0000",
+        "id": "0595271c79346d19d20982e66804ea06be88f1a0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "54267bfdd556ef15536e52a3c6ad6b62af8054a0",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49286676",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49286676",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Local-Only Microsoft Word?",
+            "titleZh": "向 HN 提问：仅限本地的 Microsoft Word？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "向 HN 提问：仅限本地的 Microsoft Word？"
+      },
+      {
+        "title": "How to Keep Thinking",
+        "url": "https://www.seangoedecke.com/how-to-keep-thinking/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:38:42 +0000",
+        "id": "c4e4fc534143128a8b159e1419bb7def22463ab2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "11894199b65eeee437ebf5828d1d94f09c96fea2",
+        "canonicalUrl": "https://seangoedecke.com/how-to-keep-thinking",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.seangoedecke.com/how-to-keep-thinking/",
+            "source": "Hacker News Newest",
+            "title": "How to Keep Thinking",
+            "titleZh": "如何保持思考"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如何保持思考"
+      },
+      {
+        "title": "Sandwich Truncation",
+        "url": "https://twitter.com/__tosh/status/2087910563066073424",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:38:16 +0000",
+        "id": "0eef4d7f04e7c34121ca9349fa60c9bf429ff56b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b005f91910416829184ac725dceb15ba79c560ba",
+        "canonicalUrl": "https://twitter.com/__tosh/status/2087910563066073424",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/__tosh/status/2087910563066073424",
+            "source": "Hacker News Newest",
+            "title": "Sandwich Truncation",
+            "titleZh": "三明治截断"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "三明治截断"
+      },
+      {
+        "title": "WASI 0.3.1",
+        "url": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.1",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:37:56 +0000",
+        "id": "a6f01375ee74e7295322500e2c77073a00c0d4a7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1d769f99e3d0e720e7983ba60f9efec3ce1f1b12",
+        "canonicalUrl": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.1",
+            "source": "Hacker News Newest",
+            "title": "WASI 0.3.1",
+            "titleZh": "WASI 0.3.1"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "WASI 0.3.1"
+      },
+      {
+        "title": "McDonald's Built a 515-Page Dossier on Me. It Says I'll Never Stop Eating There",
+        "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-13T14:53:59.547Z",
+        "pubDate": "Thu, 13 Aug 2026 14:37:51 +0000",
+        "id": "df39e41ef718f39a4a76b718e7e1f92983d7cb66",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "19867940ca6fcf6d939140b96bc32c586f0b991a",
+        "canonicalUrl": "https://wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
+            "source": "Hacker News Newest",
+            "title": "McDonald's Built a 515-Page Dossier on Me. It Says I'll Never Stop Eating There",
+            "titleZh": "麦当劳为我建立了一份 515 页的档案。上面说我永远不会停止在那里用餐"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "麦当劳为我建立了一份 515 页的档案。上面说我永远不会停止在那里用餐"
+      },
+      {
+        "title": "Adopting Memory-Safety and Fine-Grained Compartmentalisation with CHERI",
+        "url": "https://www.infoq.com/presentations/cheri-memory-safety-compartmentalization/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-13T14:53:58.680Z",
+        "pubDate": "Thu, 13 Aug 2026 09:30:59 -0500",
+        "id": "257fbda66346030c3bcef65229cbaa4358312f44",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "77b07793c9db244183ba37de3c966ab5345663dc",
+        "canonicalUrl": "https://infoq.com/presentations/cheri-memory-safety-compartmentalization",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.infoq.com/presentations/cheri-memory-safety-compartmentalization/",
+            "source": "Lobsters RSS",
+            "title": "Adopting Memory-Safety and Fine-Grained Compartmentalisation with CHERI",
+            "titleZh": "采用 CHERI 实现内存安全与细粒度隔离"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "采用 CHERI 实现内存安全与细粒度隔离"
+      },
+      {
+        "id": "c2560928abde45031ccd891a2bac11a80fbd4c37",
+        "title": "Nine PBS could lose 70 years of archival materials after cloud vendor defunct",
+        "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
+        "source": "Hacker News Algolia Front Page",
+        "fetchedAt": "2026-08-13T14:53:58.657Z",
+        "pubDate": "2026-08-13T13:14:12Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f8c03567138fde42124a1815ece09d12b6d89768",
+        "canonicalUrl": "https://tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia Front Page"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
+            "source": "Hacker News Algolia Front Page",
+            "title": "Nine PBS could lose 70 years of archival materials after cloud vendor defunct",
+            "titleZh": "九家 PBS 可能因云供应商倒闭而丢失 70 年的档案资料"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "九家 PBS 可能因云供应商倒闭而丢失 70 年的档案资料"
+      },
+      {
+        "id": "224b75eb55eef154a3ea428fe1a591e2ccd82d5d",
+        "title": "Show HN: SightDiff – before/after visual proof of what your AI agent changed",
+        "url": "https://sightdiff.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:33:37Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "f3e2ecfc414475f22e306ab76d1d7114235fbae0",
+        "canonicalUrl": "https://sightdiff.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://sightdiff.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: SightDiff – before/after visual proof of what your AI agent changed",
+            "titleZh": "展示 HN：SightDiff – 你的 AI 代理所做更改的前后视觉证明"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示 HN：SightDiff – 你的 AI 代理所做更改的前后视觉证明"
+      },
+      {
+        "id": "b06e8ae701c4c3454bf5e7616b7cd3b2c043ede8",
+        "title": "Show HN: IronBee – an AI QA engineer that tests your Vercel preview on every PR",
+        "url": "https://medium.com/@serkan_ozal/your-ai-qa-engineer-now-runs-on-every-vercel-preview-16ca2d9dc03a",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:27:28Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "a7d25154fe468717949400190df9e6ec9bc4c897",
+        "canonicalUrl": "https://medium.com/@serkan_ozal/your-ai-qa-engineer-now-runs-on-every-vercel-preview-16ca2d9dc03a",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/@serkan_ozal/your-ai-qa-engineer-now-runs-on-every-vercel-preview-16ca2d9dc03a",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: IronBee – an AI QA engineer that tests your Vercel preview on every PR",
+            "titleZh": "展示HN：IronBee——一个AI质量工程师，在每个PR上测试你的Vercel预览"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：IronBee——一个AI质量工程师，在每个PR上测试你的Vercel预览"
+      },
+      {
+        "id": "ea12a675db304c362622b83f7bcd9532bb706b3e",
+        "title": "Towards perpetual full-body deepfake generation",
+        "url": "https://www.unite.ai/toward-perpetual-full-body-deepfake-video-generation/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:25:52Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b341661084765c3cc4d72ade5e8bc29bc1086d2f",
+        "canonicalUrl": "https://unite.ai/toward-perpetual-full-body-deepfake-video-generation",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.unite.ai/toward-perpetual-full-body-deepfake-video-generation/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Towards perpetual full-body deepfake generation",
+            "titleZh": "迈向全身深度伪造的持续生成"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "迈向全身深度伪造的持续生成"
+      },
+      {
+        "id": "581bd53150618ee35de0e937e5ac14f9cb3a0142",
+        "title": "Memento – Shared, durable memory for multiple AI agents, with MCP access",
+        "url": "https://rcarmo.github.io/projects/memento/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:23:16Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "MCP"
+        ],
+        "isPriority": true,
+        "eventId": "51f4fcc015c5df494f5081e51ce31f9d7c26458d",
+        "canonicalUrl": "https://rcarmo.github.io/projects/memento",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://rcarmo.github.io/projects/memento/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Memento – Shared, durable memory for multiple AI agents, with MCP access",
+            "titleZh": "Memento——为多个AI代理提供共享、持久记忆，支持MCP访问"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Memento——为多个AI代理提供共享、持久记忆，支持MCP访问"
+      },
+      {
+        "id": "a428dd2220b93df0973137e69aa752b2a9f9ff74",
+        "title": "BYOK library for tracking AI search, MIT License",
+        "url": "https://lettertrace.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:19:13Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "3467e619e1497d7ec2fcce14b63030a085e2f798",
+        "canonicalUrl": "https://lettertrace.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lettertrace.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "BYOK library for tracking AI search, MIT License",
+            "titleZh": "BYOK库，用于跟踪AI搜索，MIT许可证"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "BYOK库，用于跟踪AI搜索，MIT许可证"
+      },
+      {
+        "id": "7afca8f2b9828322c26da54614bc90eefdf2aea9",
+        "title": "Show HN: An agent engine with no SDK, just TOML and webhooks",
+        "url": "https://substructure.ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:19:00Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "2c157323cc0e5b88072aa7b3c45b9bf33cbc0ff3",
+        "canonicalUrl": "https://substructure.ai/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://substructure.ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: An agent engine with no SDK, just TOML and webhooks",
+            "titleZh": "展示HN：一个无SDK的代理引擎，仅用TOML和Webhooks"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：一个无SDK的代理引擎，仅用TOML和Webhooks"
+      },
+      {
+        "id": "fc31c58cb3a589ff1ad87bde36bf13c3755f81af",
+        "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
+        "url": "https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:18:34Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0c2c3a2b2f9354e9ed7028012cf8d2f6702cb92d",
+        "canonicalUrl": "https://echo.ai/blog/echo-xnanoclaw-under-the-hood",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood",
+            "source": "Hacker News Algolia AI Search",
+            "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
+            "titleZh": "我们在NanoClaw的容器镜像中消除了1,400个CVE"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我们在NanoClaw的容器镜像中消除了1,400个CVE"
+      },
+      {
+        "id": "f617cabd102c73ce90ba56418af4ce66c84b1a19",
+        "title": "A seamless private messenger and workspace for iOS and macOS",
+        "url": "https://blog.neutrontech.ai/2026/08/13/private-messaging-workspace-without-a-phone-number-why-hubynhbm-is-changing-the-rules/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:14:35Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a42bf6745f20e9ac51feae519fb07b77e41e74b6",
+        "canonicalUrl": "https://blog.neutrontech.ai/2026/08/13/private-messaging-workspace-without-a-phone-number-why-hubynhbm-is-changing-the-rules",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.neutrontech.ai/2026/08/13/private-messaging-workspace-without-a-phone-number-why-hubynhbm-is-changing-the-rules/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "A seamless private messenger and workspace for iOS and macOS",
+            "titleZh": "适用于iOS和macOS的无缝私人信使和工作空间"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "适用于iOS和macOS的无缝私人信使和工作空间"
+      },
+      {
+        "id": "269d305873622f04504354c1ca9f16bcecc6fe01",
+        "title": "Show HN: NanoRL – RL training for LLMs in ~1,800 lines",
+        "url": "https://github.com/alex000kim/nanoRL",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T14:08:54Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "77e59ab95abd8fd86f3057c040374f8712b9b351",
+        "canonicalUrl": "https://github.com/alex000kim/nanoRL",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/alex000kim/nanoRL",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: NanoRL – RL training for LLMs in ~1,800 lines",
+            "titleZh": "展示HN：NanoRL——约1,800行代码的LLM强化学习训练"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：NanoRL——约1,800行代码的LLM强化学习训练"
+      },
+      {
+        "id": "52f872600eecc3446f42744e225ee4ea22f23f7b",
+        "title": "AI Generated 3D Models Flood Market, but Almost No One Is Buying Them",
+        "url": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T13:57:01Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "b07a59ffcbb4d3ac1b581d16d3909e59e9858958",
+        "canonicalUrl": "https://404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "AI Generated 3D Models Flood Market, but Almost No One Is Buying Them",
+            "titleZh": "AI生成的3D模型充斥市场，但几乎无人购买"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI生成的3D模型充斥市场，但几乎无人购买"
+      },
+      {
+        "id": "23cbb264d03252ecb0021dbb165a3a790ec39682",
+        "title": "The Reasons Agentic Commerce Hasn't Taken Off Yet",
+        "url": "https://authoryze.ai/blog/the-reasons-agentic-commerce-hasnt-taken-off-yet",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T13:55:46Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agentic"
+        ],
+        "isPriority": true,
+        "eventId": "03d867313357f3a2530dfd6204ccb80a112a3dd2",
+        "canonicalUrl": "https://authoryze.ai/blog/the-reasons-agentic-commerce-hasnt-taken-off-yet",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://authoryze.ai/blog/the-reasons-agentic-commerce-hasnt-taken-off-yet",
+            "source": "Hacker News Algolia AI Search",
+            "title": "The Reasons Agentic Commerce Hasn't Taken Off Yet",
+            "titleZh": "代理式商务尚未起飞的原因"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "代理式商务尚未起飞的原因"
+      },
+      {
+        "id": "970c4af98c0b31092ea8017923e2054ea59635d3",
+        "title": "The Human Is the Loop – By Petar Djukic – ML and AI Ottawa [video]",
+        "url": "https://www.youtube.com/watch?v=KU_AsbMm6I0",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-13T14:53:58.686Z",
+        "pubDate": "2026-08-13T13:53:09Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "ec15dc032ff31367ed602e4eaa0ce8c81378f3f1",
+        "canonicalUrl": "https://youtube.com/watch?v=KU_AsbMm6I0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=KU_AsbMm6I0",
+            "source": "Hacker News Algolia AI Search",
+            "title": "The Human Is the Loop – By Petar Djukic – ML and AI Ottawa [video]",
+            "titleZh": "人是循环的关键——作者：Petar Djukic——ML和AI渥太华[视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "人是循环的关键——作者：Petar Djukic——ML和AI渥太华[视频]"
       }
     ]
   },
-  "lastFetchAt": "2026-08-13T13:55:40.551Z"
+  "lastFetchAt": "2026-08-13T14:53:57.579Z"
 }
