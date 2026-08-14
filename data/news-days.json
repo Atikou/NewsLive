@@ -37,17 +37,25 @@
         "titleZh": "路易吉·曼焦内承认在联合健康集团CEO被杀案中犯有联邦跟踪指控 - 美联社新闻"
       },
       {
-        "title": "Scottish police expect ‘great deal of public opposition’ to planned Larbert datacentre",
+        "title": "Police warn of anger and ‘incursions’ as AI datacentre planned near Edinburgh",
         "url": "https://www.theguardian.com/uk-news/2026/aug/14/scottish-police-expect-public-opposition-larbert-datacentre",
         "source": "Guardian World",
-        "fetchedAt": "2026-08-14T16:21:21.108Z",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
         "pubDate": "Fri, 14 Aug 2026 16:05:31 GMT",
-        "id": "117175a7e57b760e5761a321a5167ac1d1178576",
-        "matchedTopics": [],
-        "matchedTopicNames": [],
-        "matchedPushTopics": [],
-        "matchedKeywords": [],
-        "isPriority": false,
+        "id": "1eb694e238a770be3a5f6f93423ab01d6a61fdbf",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
         "eventId": "f7ad4dd03298f003d22ddf595f97f9a67d143808",
         "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/14/scottish-police-expect-public-opposition-larbert-datacentre",
         "clusterSize": 1,
@@ -286,10 +294,11 @@
         "isPriority": true,
         "eventId": "391039f5d7722eac2b926d61563f3d4cd7b9f088",
         "canonicalUrl": "https://securityboulevard.com/2026/08/nist-seeks-blueprint-for-ai-era-overhaul-of-national-vulnerability-database",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -310,8 +319,8 @@
       {
         "title": "France blocks social media ban because it would require adults to prove age",
         "url": "https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/",
-        "source": "Hacker News Newest",
-        "fetchedAt": "2026-08-14T16:21:21.440Z",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-14T17:26:40.592Z",
         "pubDate": "Fri, 14 Aug 2026 16:06:49 +0000",
         "id": "a6b139c4b52d33540c504068d0df44a61d85ae27",
         "matchedTopics": [],
@@ -321,10 +330,13 @@
         "isPriority": false,
         "eventId": "78833f883f0f3be1a7eb806a01ec8af0d6dc8a56",
         "canonicalUrl": "https://reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 4,
+        "sourceCount": 4,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage",
+          "Reuters World via Google News",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -332,6 +344,12 @@
             "source": "Hacker News Newest",
             "title": "France blocks social media ban because it would require adults to prove age",
             "titleZh": "法国阻止社交媒体禁令，因为该禁令将要求成年人证明年龄"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV254M2ZlOFJMWGs3OWlkUzVERktNOU8wei1RUzFBN0xyRkZQSkhIQ0ZlR21BWkV6c1VJNjFVZ2dfLWk2MHVtMDM5MDZtLXJlN19JYVhDSzd5NlFzZjhrUVVfWm9VTUdPbWVVOXRzaUY1RzdjUlhmWm5aczVLTlR6SGlQYjhKVk5PQ1Z0SkZ6enE5ekFGa0FnaThGS0ZfVEtsWUVDeWRVOFdRZ1AxSkpN?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "France's top court blocks social media ban for under-15s - Reuters",
+            "titleZh": ""
           }
         ],
         "category": "",
@@ -391,10 +409,11 @@
         "isPriority": false,
         "eventId": "1563262c4471e265245e812ad41372a495d3f639",
         "canonicalUrl": "https://rayforcedb.com/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -426,10 +445,11 @@
         "isPriority": false,
         "eventId": "11c94d66873535387bafb14c72d997ea7b5ad6ae",
         "canonicalUrl": "https://github.com/mupt-ai/self-bench",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -470,10 +490,11 @@
         "isPriority": true,
         "eventId": "34a30018197a31bdc15278fde75519aec7497fc2",
         "canonicalUrl": "https://myrkvi.no/ai-the-devil-on-my-shoulder",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -638,8 +659,1868 @@
         "language": "",
         "languages": [],
         "titleZh": "AI赋能的软件工厂"
+      },
+      {
+        "title": "中国人民银行将发行江泽民诞辰100周年纪念币",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678011.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-14T17:26:35.411Z",
+        "pubDate": "Sat, 15 Aug 2026 00:56:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f6b1b68489614a1e855c1006a70d7d31862db03b",
+        "matchedTopics": [
+          "china-policy"
+        ],
+        "matchedTopicNames": [
+          "国家政策与民生"
+        ],
+        "matchedPushTopics": [
+          "国家政策与民生"
+        ],
+        "matchedKeywords": [
+          "中国人民银行"
+        ],
+        "isPriority": true,
+        "eventId": "b91e0b0eedc8e1d33cbbc006ba96dc3ed0f907ee",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-15/10678011.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678011.shtml",
+            "source": "中国新闻网",
+            "title": "中国人民银行将发行江泽民诞辰100周年纪念币",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Wall Street holds near its record following the latest weak update on the US economy - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHZRYUU0eWZPOG1WOUx5U1BpNXRlenFUWnhSdEJvbExTQXl6amlVS2w2YV9wY1JENXkyOG45VUVsaENIb1FUUms1RFBoN2djemxuLVBPMG1GVHlMWTY3aVJuT3BHUEVwVzQ1YnVsYndPUnRyRzhEYzBXbmdMX1NPSW5GUHlLNm0tZHJKYWs5TmllTElIV3l6ZDRrOG1IVE05OUc4QQ?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-14T17:26:35.882Z",
+        "pubDate": "Fri, 14 Aug 2026 16:51:00 GMT",
+        "id": "b534b81382311a6bb26e46c49b3efce43f441362",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "b8b438ce82a15da76d3169f2e96604feb895a754",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHZRYUU0eWZPOG1WOUx5U1BpNXRlenFUWnhSdEJvbExTQXl6amlVS2w2YV9wY1JENXkyOG45VUVsaENIb1FUUms1RFBoN2djemxuLVBPMG1GVHlMWTY3aVJuT3BHUEVwVzQ1YnVsYndPUnRyRzhEYzBXbmdMX1NPSW5GUHlLNm0tZHJKYWs5TmllTElIV3l6ZDRrOG1IVE05OUc4QQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHZRYUU0eWZPOG1WOUx5U1BpNXRlenFUWnhSdEJvbExTQXl6amlVS2w2YV9wY1JENXkyOG45VUVsaENIb1FUUms1RFBoN2djemxuLVBPMG1GVHlMWTY3aVJuT3BHUEVwVzQ1YnVsYndPUnRyRzhEYzBXbmdMX1NPSW5GUHlLNm0tZHJKYWs5TmllTElIV3l6ZDRrOG1IVE05OUc4QQ?oc=5",
+            "source": "AP News via Google News",
+            "title": "Wall Street holds near its record following the latest weak update on the US economy - AP News",
+            "titleZh": "华尔街在最新美国经济数据疲软后接近历史高位 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "华尔街在最新美国经济数据疲软后接近历史高位 - 美联社新闻"
+      },
+      {
+        "title": "Canadian plasma clinics pause collections after deaths of two donors",
+        "url": "https://www.theguardian.com/world/2026/aug/14/canadian-plasma-clinics-pause-collections-after-deaths-of-donors-grifols",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 16:21:39 GMT",
+        "id": "5050d5412b925e0286ae42ec1e720f10b32722c2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "baf9b9cc97b485e1dcff839d7b385480ff5993a0",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/14/canadian-plasma-clinics-pause-collections-after-deaths-of-donors-grifols",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/14/canadian-plasma-clinics-pause-collections-after-deaths-of-donors-grifols",
+            "source": "Guardian World",
+            "title": "Canadian plasma clinics pause collections after deaths of two donors",
+            "titleZh": "加拿大血浆采集中心在两名捐献者死亡后暂停采血"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "加拿大血浆采集中心在两名捐献者死亡后暂停采血"
+      },
+      {
+        "title": "French court blocks Macron’s social media ban for under-15s",
+        "url": "https://www.theguardian.com/world/2026/aug/14/french-court-blocks-macron-social-media-ban-under-15s",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 16:51:59 GMT",
+        "id": "c9e7074bc6f852337bf2a658ffa7201846723c65",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "35e174cdfc370784c2ea5ae255fd87d6c12c95a7",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/14/french-court-blocks-macron-social-media-ban-under-15s",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/14/french-court-blocks-macron-social-media-ban-under-15s",
+            "source": "Guardian World",
+            "title": "French court blocks Macron’s social media ban for under-15s",
+            "titleZh": "法国法院阻止马克龙对15岁以下未成年人实施社交媒体禁令"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "法国法院阻止马克龙对15岁以下未成年人实施社交媒体禁令"
+      },
+      {
+        "title": "Hundreds arrested on suspicion of arson in France as wildfires rage across Europe",
+        "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 16:58:04 GMT",
+        "id": "9f21da6af77dacde1e80ca99c9c43830b589ce2e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b35c4ae23fac548393ecb2517faef8abf844365f",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
+            "source": "Guardian World",
+            "title": "Hundreds arrested on suspicion of arson in France as wildfires rage across Europe",
+            "titleZh": "法国数百人因涉嫌纵火被捕，野火肆虐欧洲各地"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "法国数百人因涉嫌纵火被捕，野火肆虐欧洲各地"
+      },
+      {
+        "title": "Standards watchdog resumes Farage probe as rivals slam needless byelection",
+        "url": "https://www.theguardian.com/politics/2026/aug/14/standards-watchdog-investigation-nigel-farage-financial-gifts",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 17:00:23 GMT",
+        "id": "6c7f83c4b00795ed7760fa016ecd0d2921728c7d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "73f55f0633bd484fd8d9391baaf3094faeb7071a",
+        "canonicalUrl": "https://theguardian.com/politics/2026/aug/14/standards-watchdog-investigation-nigel-farage-financial-gifts",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/aug/14/standards-watchdog-investigation-nigel-farage-financial-gifts",
+            "source": "Guardian World",
+            "title": "Standards watchdog resumes Farage probe as rivals slam needless byelection",
+            "titleZh": "标准监督机构恢复对法拉奇的调查，竞争对手抨击不必要的补选"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "标准监督机构恢复对法拉奇的调查，竞争对手抨击不必要的补选"
+      },
+      {
+        "title": "Train derails near Essex town of Wickford",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 16:18:32 GMT",
+        "id": "2735a9ac19463dc4d4d72839a510a0b02005a944",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "58d794844708baff27968d6b2805e5c17d830861",
+        "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
+            "source": "Guardian World",
+            "title": "Train derails near Essex town of Wickford",
+            "titleZh": "火车在埃塞克斯郡威克福德镇附近脱轨"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "火车在埃塞克斯郡威克福德镇附近脱轨"
+      },
+      {
+        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 17:02:59 GMT",
+        "id": "a0b708fea063c45952c5a04007d3a1745f7a51f0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "77b3b025fc366f69197cbc286a7802a22afd6905",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+            "source": "Guardian World",
+            "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case",
+            "titleZh": "路易吉·曼焦内承认在联邦案件中导致联合健康集团首席执行官死亡"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "路易吉·曼焦内承认在联邦案件中导致联合健康集团首席执行官死亡"
+      },
+      {
+        "title": "Progressives back substitute teacher over Wasserman Schultz in Florida",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/florida-debbie-wasserman-schultz-elijah-manley",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-14T17:26:35.553Z",
+        "pubDate": "Fri, 14 Aug 2026 16:54:25 GMT",
+        "id": "2d1afdf24b474d1c283bc907b9dacb99e8249346",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dad51e0de277ab86a37f0f68738ccb2aa63e868c",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/14/florida-debbie-wasserman-schultz-elijah-manley",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/14/florida-debbie-wasserman-schultz-elijah-manley",
+            "source": "Guardian World",
+            "title": "Progressives back substitute teacher over Wasserman Schultz in Florida",
+            "titleZh": "佛罗里达州进步派支持代课教师对抗沃瑟曼·舒尔茨"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "佛罗里达州进步派支持代课教师对抗沃瑟曼·舒尔茨"
+      },
+      {
+        "title": "Live updates: Luigi Mangione pleads guilty in federal case - CNN",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2JKbWVWeko0WHVvY2ViNU1IdnNMR0RxOVZ5cG1iY0FBX01JRmxIVWFiXy1wZFFGSGNmZF9UemFFLTVHcW5UbDVWRHA5OXJnWHJteC1OeFVsUWtVS2FXSUFUM2ZHSEM1bVNFb0gwd2I1ZXcyeTR3cVA3eEs1WjJEcXNhYzZWNGZYUnc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T17:26:35.453Z",
+        "pubDate": "Fri, 14 Aug 2026 17:17:00 GMT",
+        "id": "02d999e246c38c2c71b3f86dc6f1551670fea285",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "18ddf1e4ed16b4bee935890ac4c2ae156af0c0ce",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2JKbWVWeko0WHVvY2ViNU1IdnNMR0RxOVZ5cG1iY0FBX01JRmxIVWFiXy1wZFFGSGNmZF9UemFFLTVHcW5UbDVWRHA5OXJnWHJteC1OeFVsUWtVS2FXSUFUM2ZHSEM1bVNFb0gwd2I1ZXcyeTR3cVA3eEs1WjJEcXNhYzZWNGZYUnc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2JKbWVWeko0WHVvY2ViNU1IdnNMR0RxOVZ5cG1iY0FBX01JRmxIVWFiXy1wZFFGSGNmZF9UemFFLTVHcW5UbDVWRHA5OXJnWHJteC1OeFVsUWtVS2FXSUFUM2ZHSEM1bVNFb0gwd2I1ZXcyeTR3cVA3eEs1WjJEcXNhYzZWNGZYUnc?oc=5",
+            "source": "Google News",
+            "title": "Live updates: Luigi Mangione pleads guilty in federal case - CNN",
+            "titleZh": "实时更新：路易吉·曼焦内联邦案件认罪 - CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：路易吉·曼焦内联邦案件认罪 - CNN"
+      },
+      {
+        "title": "Live Updates: UAE accuses Iran of attacks in Strait of Hormuz as Vance says cheap oil and gas are \"goal number one\" - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T17:26:35.453Z",
+        "pubDate": "Fri, 14 Aug 2026 16:04:00 GMT",
+        "id": "527d78baf639288754402e803aa006a889716d00",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "伊朗",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "216059b2637daaccd51dc863028663fa13516110",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?oc=5",
+            "source": "Google News",
+            "title": "Live Updates: UAE accuses Iran of attacks in Strait of Hormuz as Vance says cheap oil and gas are \"goal number one\" - CBS News",
+            "titleZh": "实时更新：阿联酋指控伊朗在霍尔木兹海峡发动袭击，万斯称廉价石油和天然气是“头号目标” - CBS新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：阿联酋指控伊朗在霍尔木兹海峡发动袭击，万斯称廉价石油和天然气是“头号目标” - CBS新闻"
+      },
+      {
+        "title": "US retail sales post first decline in nine months in July - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSUpsdlVVb2FPYVpWSk4wT3hkMFo0eHhoZDBfemp1cVJ5b0pVeUREcVRMRE8yQjlYVE9NdDQ2VmlVbEt0RHZXYUgwYlZGNnVuMUgxUW9FdDRORnU1TGI5b0xWZGdTNzNQQXlzb1pfdDNkejhDX1RqZmpoamstRXZoYjExRnZ0WWdVMVRR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T17:26:35.453Z",
+        "pubDate": "Fri, 14 Aug 2026 16:46:56 GMT",
+        "id": "2a68abc9dbdaf2b3222f068a894d444a05da8000",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "3fdd37aec9a6f5481f41f151681e8fe2502afc51",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSUpsdlVVb2FPYVpWSk4wT3hkMFo0eHhoZDBfemp1cVJ5b0pVeUREcVRMRE8yQjlYVE9NdDQ2VmlVbEt0RHZXYUgwYlZGNnVuMUgxUW9FdDRORnU1TGI5b0xWZGdTNzNQQXlzb1pfdDNkejhDX1RqZmpoamstRXZoYjExRnZ0WWdVMVRR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSUpsdlVVb2FPYVpWSk4wT3hkMFo0eHhoZDBfemp1cVJ5b0pVeUREcVRMRE8yQjlYVE9NdDQ2VmlVbEt0RHZXYUgwYlZGNnVuMUgxUW9FdDRORnU1TGI5b0xWZGdTNzNQQXlzb1pfdDNkejhDX1RqZmpoamstRXZoYjExRnZ0WWdVMVRR?oc=5",
+            "source": "Google News",
+            "title": "US retail sales post first decline in nine months in July - Reuters",
+            "titleZh": "美国7月零售销售九个月来首次下滑 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国7月零售销售九个月来首次下滑 - 路透社"
+      },
+      {
+        "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lWjJLX1BhdHVjSVpGdzZOVnc4MmM5WER1VkVBWTQxM256aGxFcUE2amlWUnVManhYVEVRQWNsZEwwWmpNZzBzaWhNZl9rUUR6bVQwQWNNY0hhM18xSjVGLVEzM3Y?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T17:26:35.453Z",
+        "pubDate": "Fri, 14 Aug 2026 16:09:00 GMT",
+        "id": "c35fcdaff96a75cc05bb05a335a9791d26f6d18d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9b1f9a74a89dddec02ef7911fc4cd8b87575ae06",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lWjJLX1BhdHVjSVpGdzZOVnc4MmM5WER1VkVBWTQxM256aGxFcUE2amlWUnVManhYVEVRQWNsZEwwWmpNZzBzaWhNZl9rUUR6bVQwQWNNY0hhM18xSjVGLVEzM3Y",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lWjJLX1BhdHVjSVpGdzZOVnc4MmM5WER1VkVBWTQxM256aGxFcUE2amlWUnVManhYVEVRQWNsZEwwWmpNZzBzaWhNZl9rUUR6bVQwQWNNY0hhM18xSjVGLVEzM3Y?oc=5",
+            "source": "Google News",
+            "title": "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market - Barron's",
+            "titleZh": "SpaceX、闪迪、美光、Workday、应用材料、Reddit、Unusual Machines等股票解读今日市场 - 《巴伦周刊》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "SpaceX、闪迪、美光、Workday、应用材料、Reddit、Unusual Machines等股票解读今日市场 - 《巴伦周刊》"
+      },
+      {
+        "title": "‘Lanterns’ Review: HBO’s Scintillating ‘Green Lantern’ Series Brings DC’s Space Cops Down to Earth - IndieWire",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTFIR3hxeXlIQy1BOVg0NFFuTFBmc28xRnNqeFlVekN6ZzYxbDgyaFgzbzYxdy1aSVc2YkI3U0VSc2Nkcm0xc3UzaTJ5eGdLWTdRcTdFVEItSGVuUGNiYTNORjJzaG1yYUM5LXRjSjVoeGpTMjBVVmFMejlDQnJXZ0xiYkxyQmtrRVgtRlBHMGRGLVhyOHNZS0sxVEg4Rmxhb2R2d3dYNGtaOGVY?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T17:26:35.453Z",
+        "pubDate": "Fri, 14 Aug 2026 16:00:00 GMT",
+        "id": "cde87705869fe8cce15177dddb78042d7840290b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d3c5a5180685b406253f62766c8b4ab5d198a275",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTFIR3hxeXlIQy1BOVg0NFFuTFBmc28xRnNqeFlVekN6ZzYxbDgyaFgzbzYxdy1aSVc2YkI3U0VSc2Nkcm0xc3UzaTJ5eGdLWTdRcTdFVEItSGVuUGNiYTNORjJzaG1yYUM5LXRjSjVoeGpTMjBVVmFMejlDQnJXZ0xiYkxyQmtrRVgtRlBHMGRGLVhyOHNZS0sxVEg4Rmxhb2R2d3dYNGtaOGVY",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTFIR3hxeXlIQy1BOVg0NFFuTFBmc28xRnNqeFlVekN6ZzYxbDgyaFgzbzYxdy1aSVc2YkI3U0VSc2Nkcm0xc3UzaTJ5eGdLWTdRcTdFVEItSGVuUGNiYTNORjJzaG1yYUM5LXRjSjVoeGpTMjBVVmFMejlDQnJXZ0xiYkxyQmtrRVgtRlBHMGRGLVhyOHNZS0sxVEg4Rmxhb2R2d3dYNGtaOGVY?oc=5",
+            "source": "Google News",
+            "title": "‘Lanterns’ Review: HBO’s Scintillating ‘Green Lantern’ Series Brings DC’s Space Cops Down to Earth - IndieWire",
+            "titleZh": "《灯笼》评论：HBO精彩绝伦的《绿灯侠》系列将DC的太空警察带回地球 - IndieWire"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "《灯笼》评论：HBO精彩绝伦的《绿灯侠》系列将DC的太空警察带回地球 - IndieWire"
+      },
+      {
+        "title": "Maximizing the value of your Claude Code sessions",
+        "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-14T17:26:40.592Z",
+        "pubDate": "Fri, 14 Aug 2026 16:15:21 +0000",
+        "id": "956cc86adef064004d7af2dafa343798080909f1",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Claude"
+        ],
+        "isPriority": true,
+        "eventId": "e51fc5b4090ecb9128a12cfef66335a62c1fbbd3",
+        "canonicalUrl": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+            "source": "Hacker News Frontpage",
+            "title": "Maximizing the value of your Claude Code sessions",
+            "titleZh": "最大化你的Claude Code会话价值"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "最大化你的Claude Code会话价值"
+      },
+      {
+        "title": "RustDesk now supports true unattended remote access on Wayland",
+        "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-14T17:26:40.592Z",
+        "pubDate": "Fri, 14 Aug 2026 16:12:52 +0000",
+        "id": "d457fac51ab446b6ccd1a808d5155a407528c9fa",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "651c6c1c93332537cf217d252b143af9d40a1096",
+        "canonicalUrl": "https://rustdesk.com/blog/unattended-remote-access-wayland",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+            "source": "Hacker News Frontpage",
+            "title": "RustDesk now supports true unattended remote access on Wayland",
+            "titleZh": "RustDesk现支持Wayland上真正的无人值守远程访问"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "RustDesk现支持Wayland上真正的无人值守远程访问"
+      },
+      {
+        "title": "Asus PureGo Fruit and Vegetable Cleanliness Detector",
+        "url": "https://www.asus.com/us/networking-iot-servers/smart-home/smart-kitchen/purego-pd100/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:22:01 +0000",
+        "id": "934f8e29fad7966e240e370e4ad9d3935b8cb112",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8d71cb568fb20b59149a035fb254c7d1330a9de9",
+        "canonicalUrl": "https://asus.com/us/networking-iot-servers/smart-home/smart-kitchen/purego-pd100",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.asus.com/us/networking-iot-servers/smart-home/smart-kitchen/purego-pd100/",
+            "source": "Hacker News Newest",
+            "title": "Asus PureGo Fruit and Vegetable Cleanliness Detector",
+            "titleZh": "华硕PureGo果蔬清洁度检测仪"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "华硕PureGo果蔬清洁度检测仪"
+      },
+      {
+        "title": "The Foothills of Bay Area House Party",
+        "url": "https://www.astralcodexten.com/p/the-foothills-of-bay-area-house-party",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:21:49 +0000",
+        "id": "8da096433a5064a46faf8a28e0daa38c959f4ef2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e9cac9906e0e80019143aec62265e0f0d866205b",
+        "canonicalUrl": "https://astralcodexten.com/p/the-foothills-of-bay-area-house-party",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.astralcodexten.com/p/the-foothills-of-bay-area-house-party",
+            "source": "Hacker News Newest",
+            "title": "The Foothills of Bay Area House Party",
+            "titleZh": "湾区山麓家庭派对"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "湾区山麓家庭派对"
+      },
+      {
+        "title": "How to Keep Thinking",
+        "url": "https://www.seangoedecke.com/how-to-keep-thinking/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:21:42 +0000",
+        "id": "c4e4fc534143128a8b159e1419bb7def22463ab2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "11894199b65eeee437ebf5828d1d94f09c96fea2",
+        "canonicalUrl": "https://seangoedecke.com/how-to-keep-thinking",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.seangoedecke.com/how-to-keep-thinking/",
+            "source": "Hacker News Newest",
+            "title": "How to Keep Thinking",
+            "titleZh": "如何保持思考"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如何保持思考"
+      },
+      {
+        "title": "Don't Worry About Scratching Your iPhone Camera Lenses",
+        "url": "https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:21:38 +0000",
+        "id": "0f5e0da37419a77dda4a68ab4a00326402994b9d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9915818d58966fe1dca5ce1cd73576a16276477a",
+        "canonicalUrl": "https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance",
+            "source": "Hacker News Newest",
+            "title": "Don't Worry About Scratching Your iPhone Camera Lenses",
+            "titleZh": "别担心划伤你的iPhone摄像头镜片"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "别担心划伤你的iPhone摄像头镜片"
+      },
+      {
+        "title": "Flu vaccine shown to increase infections",
+        "url": "https://www.foxnews.com/health/flu-vaccine-linked-higher-infections-says-early-research",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:21:20 +0000",
+        "id": "977ac61e89f616f59efbd3aca5c1a30e5d6bc95b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "901e2dc8dc9dadffaab17be7f36d34269de0f234",
+        "canonicalUrl": "https://foxnews.com/health/flu-vaccine-linked-higher-infections-says-early-research",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.foxnews.com/health/flu-vaccine-linked-higher-infections-says-early-research",
+            "source": "Hacker News Newest",
+            "title": "Flu vaccine shown to increase infections",
+            "titleZh": "流感疫苗被证明会增加感染"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "流感疫苗被证明会增加感染"
+      },
+      {
+        "title": "Ask HN: Where can I find small programmer communities?",
+        "url": "https://news.ycombinator.com/item?id=49301775",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:21:03 +0000",
+        "id": "fa0f0612d43e2cf2801ab33732d0c5b9c747368e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "61bc4ee04927ad5b3549a3c18119f8b6cf427c5d",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49301775",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49301775",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Where can I find small programmer communities?",
+            "titleZh": "问HN：我在哪里可以找到小型程序员社区？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "问HN：我在哪里可以找到小型程序员社区？"
+      },
+      {
+        "title": "Training AI Scientists to Replicate Research",
+        "url": "https://inherentlabs.ai/research/training-to-replicate",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:20:01 +0000",
+        "id": "a5b761d672f9838717c550faf5e3c43f6b5387d9",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "c3e230178105d01906b9e46c717c529e360a13cf",
+        "canonicalUrl": "https://inherentlabs.ai/research/training-to-replicate",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://inherentlabs.ai/research/training-to-replicate",
+            "source": "Hacker News Newest",
+            "title": "Training AI Scientists to Replicate Research",
+            "titleZh": "训练AI科学家复制研究"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "训练AI科学家复制研究"
+      },
+      {
+        "title": "Regulated Markets Are Slow to Handle Change",
+        "url": "https://marginalrevolution.com/marginalrevolution/2026/08/regulated-markets-are-slow-to-handle-change.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:19:09 +0000",
+        "id": "0942515a79d2e685e8e1ff24b3a5b3d0de499418",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "28138ed0668d944ce01ca9712c37cf24f1faaea5",
+        "canonicalUrl": "https://marginalrevolution.com/marginalrevolution/2026/08/regulated-markets-are-slow-to-handle-change.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://marginalrevolution.com/marginalrevolution/2026/08/regulated-markets-are-slow-to-handle-change.html",
+            "source": "Hacker News Newest",
+            "title": "Regulated Markets Are Slow to Handle Change",
+            "titleZh": "受监管的市场应对变化缓慢"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "受监管的市场应对变化缓慢"
+      },
+      {
+        "title": "Adding to the Barrel of Finance Fallacies",
+        "url": "https://marginalrevolution.com/marginalrevolution/2026/08/shooting-fish-in-a-barrel.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:18:56 +0000",
+        "id": "f755bc735fb079ca1c7d8fa5d380a430e09dcb73",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "154a65c4c58c2f407acd01476b6345ea60b9a9c5",
+        "canonicalUrl": "https://marginalrevolution.com/marginalrevolution/2026/08/shooting-fish-in-a-barrel.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://marginalrevolution.com/marginalrevolution/2026/08/shooting-fish-in-a-barrel.html",
+            "source": "Hacker News Newest",
+            "title": "Adding to the Barrel of Finance Fallacies",
+            "titleZh": "为金融谬误之桶添油加醋"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为金融谬误之桶添油加醋"
+      },
+      {
+        "title": "CFPB to Stop Posting Customer Narratives on Complaint Database",
+        "url": "https://news.bloomberglaw.com/banking-law/cfpb-to-stop-posting-customer-narratives-on-complaint-database",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:18:04 +0000",
+        "id": "b07997f643c2c01ac16044c61f8d080ccd244128",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "302131076ae0e96b6cb4e58f68d8b6cde5dde88f",
+        "canonicalUrl": "https://news.bloomberglaw.com/banking-law/cfpb-to-stop-posting-customer-narratives-on-complaint-database",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.bloomberglaw.com/banking-law/cfpb-to-stop-posting-customer-narratives-on-complaint-database",
+            "source": "Hacker News Newest",
+            "title": "CFPB to Stop Posting Customer Narratives on Complaint Database",
+            "titleZh": "CFPB将停止在投诉数据库中发布客户叙述"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "CFPB将停止在投诉数据库中发布客户叙述"
+      },
+      {
+        "title": "Clicks Communicator and Power Keyboard",
+        "url": "https://www.clicks.tech/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:18:02 +0000",
+        "id": "1e55248c98bf1de1f7bb556644104840204ef8a9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b7ea068433c99c91d622c36565d938bf59abdc0a",
+        "canonicalUrl": "https://clicks.tech/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.clicks.tech/",
+            "source": "Hacker News Newest",
+            "title": "Clicks Communicator and Power Keyboard",
+            "titleZh": "Clicks Communicator和Power Keyboard"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Clicks Communicator和Power Keyboard"
+      },
+      {
+        "title": "Show HN: Easel – Interactive review boards for agent feedback loops",
+        "url": "https://github.com/The-Sentience-Company/easel",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:14:19 +0000",
+        "id": "0bf9c41d481aec3c350ce314ae2b91cdba2b9c6b",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "b42f9b180e9291042540ea54fea47d91b2d1e895",
+        "canonicalUrl": "https://github.com/The-Sentience-Company/easel",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/The-Sentience-Company/easel",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Easel – Interactive review boards for agent feedback loops",
+            "titleZh": "Show HN：Easel——用于代理反馈循环的交互式评审板"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Easel——用于代理反馈循环的交互式评审板"
+      },
+      {
+        "title": "Lisa's Copy (and Cut, and Paste)",
+        "url": "https://unsung.aresluna.org/deeper-dive-lisas-copy-and-cut-and-paste/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:14:04 +0000",
+        "id": "881512015c73c1b970ff89941f109174e9c5012c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9cfdc4a960545878e901649d00b252bab86c7978",
+        "canonicalUrl": "https://unsung.aresluna.org/deeper-dive-lisas-copy-and-cut-and-paste",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://unsung.aresluna.org/deeper-dive-lisas-copy-and-cut-and-paste/",
+            "source": "Hacker News Newest",
+            "title": "Lisa's Copy (and Cut, and Paste)",
+            "titleZh": "Lisa的复制（以及剪切和粘贴）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Lisa的复制（以及剪切和粘贴）"
+      },
+      {
+        "title": "DeepSeek Paper: A Programming Paradigm for Spatiotemporal Composability [pdf]",
+        "url": "https://github.com/cordiverse/paper/blob/main/paper.pdf",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:12:42 +0000",
+        "id": "31680a6e833d0d2310cd858cecfff01fd9db8fcb",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "DeepSeek"
+        ],
+        "isPriority": true,
+        "eventId": "f27c8e09f00d0a9a763b9e2f6d775298aa2e48b5",
+        "canonicalUrl": "https://github.com/cordiverse/paper/blob/main/paper.pdf",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/cordiverse/paper/blob/main/paper.pdf",
+            "source": "Hacker News Newest",
+            "title": "DeepSeek Paper: A Programming Paradigm for Spatiotemporal Composability [pdf]",
+            "titleZh": "DeepSeek论文：一种时空可组合性的编程范式 [pdf]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DeepSeek论文：一种时空可组合性的编程范式 [pdf]"
+      },
+      {
+        "title": "The Deadlock Empire",
+        "url": "https://deadlockempire.github.io/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:11:18 +0000",
+        "id": "2f62d9438c90e0b1d8b8a02e8cc1901179d068c9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "867da531853ea139a4be23040adea70d23c21f61",
+        "canonicalUrl": "https://deadlockempire.github.io/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://deadlockempire.github.io/",
+            "source": "Hacker News Newest",
+            "title": "The Deadlock Empire",
+            "titleZh": "死锁帝国"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "死锁帝国"
+      },
+      {
+        "title": "Asus Oxiis turns bicycle into e-bike with USB-C and 500W motor",
+        "url": "https://www.notebookcheck.net/Asus-Oxiis-turns-bicycle-into-e-bike-with-USB-C-and-500W-motor.1368559.0.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:11:07 +0000",
+        "id": "7fe1a21f4c70f04cef3456fda6c2d48790b1a086",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "da282999ed6e19fa39f259383f3c9fad2d073c32",
+        "canonicalUrl": "https://notebookcheck.net/Asus-Oxiis-turns-bicycle-into-e-bike-with-USB-C-and-500W-motor.1368559.0.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.notebookcheck.net/Asus-Oxiis-turns-bicycle-into-e-bike-with-USB-C-and-500W-motor.1368559.0.html",
+            "source": "Hacker News Newest",
+            "title": "Asus Oxiis turns bicycle into e-bike with USB-C and 500W motor",
+            "titleZh": "华硕Oxiis通过USB-C和500W电机将自行车变为电动自行车"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "华硕Oxiis通过USB-C和500W电机将自行车变为电动自行车"
+      },
+      {
+        "title": "The Bots Always Find Something",
+        "url": "https://faingezicht.com/articles/2026/08/14/the-bots-always-find-something/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:09:33 +0000",
+        "id": "1cb013da56acabee7072f86a9483d35aa5f57aeb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d6e9173bed82f32a2d4285ad7fda31b47b31e8cc",
+        "canonicalUrl": "https://faingezicht.com/articles/2026/08/14/the-bots-always-find-something",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://faingezicht.com/articles/2026/08/14/the-bots-always-find-something/",
+            "source": "Hacker News Newest",
+            "title": "The Bots Always Find Something",
+            "titleZh": "机器人总能找到东西"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "机器人总能找到东西"
+      },
+      {
+        "title": "Systemd-Networkd as a Router",
+        "url": "https://www.apalrd.net/posts/2026/asn_networkd/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:08:36 +0000",
+        "id": "0e991721167d355a0cca1bfdc9758cd442520476",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c89bc80a1eef04d847bced05b1c8f9089fabbc4e",
+        "canonicalUrl": "https://apalrd.net/posts/2026/asn_networkd",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.apalrd.net/posts/2026/asn_networkd/",
+            "source": "Hacker News Newest",
+            "title": "Systemd-Networkd as a Router",
+            "titleZh": "将Systemd-Networkd用作路由器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "将Systemd-Networkd用作路由器"
+      },
+      {
+        "title": "MSCI Gave SpaceX an ESG Score Matching Wartime Russia",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/msci-gave-spacex-esg-score-122904001.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:07:23 +0000",
+        "id": "c365224aa080161bd9276c69db289c6fd44682a1",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "Russia"
+        ],
+        "isPriority": true,
+        "eventId": "b1408eefdefd98a06a48d7db94364e4adc96c803",
+        "canonicalUrl": "https://finance.yahoo.com/markets/stocks/articles/msci-gave-spacex-esg-score-122904001.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://finance.yahoo.com/markets/stocks/articles/msci-gave-spacex-esg-score-122904001.html",
+            "source": "Hacker News Newest",
+            "title": "MSCI Gave SpaceX an ESG Score Matching Wartime Russia",
+            "titleZh": "MSCI给予SpaceX的ESG评分与战时俄罗斯相当"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "MSCI给予SpaceX的ESG评分与战时俄罗斯相当"
+      },
+      {
+        "title": "Fortunes from AI revive effective altruism after Sam Bankman-Fried turmoil",
+        "url": "https://www.ft.com/content/938b4b82-06d2-4b92-a807-38d935d7d5c5",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T17:26:35.476Z",
+        "pubDate": "Fri, 14 Aug 2026 17:07:06 +0000",
+        "id": "7379f7acad79e6015f6dad43e88e22fd3b064480",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "78b600a875575dd34bb944358bcbea92d4cc901a",
+        "canonicalUrl": "https://ft.com/content/938b4b82-06d2-4b92-a807-38d935d7d5c5",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ft.com/content/938b4b82-06d2-4b92-a807-38d935d7d5c5",
+            "source": "Hacker News Newest",
+            "title": "Fortunes from AI revive effective altruism after Sam Bankman-Fried turmoil",
+            "titleZh": "人工智能带来的财富在萨姆·班克曼-弗里德风波后重振有效利他主义"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "人工智能带来的财富在萨姆·班克曼-弗里德风波后重振有效利他主义"
+      },
+      {
+        "title": "Thunderbird’s Desktop Calendar Visual Redesign",
+        "url": "https://blog.thunderbird.net/2026/08/desktop-calendar-a-design-journey/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-14T17:26:35.571Z",
+        "pubDate": "Fri, 14 Aug 2026 12:03:04 -0500",
+        "id": "9ca57371d21c54d4fb488ed744fe14b33f1efd46",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "97ec3ca705e578747254b91fee9e8e2fe1fc3ce4",
+        "canonicalUrl": "https://blog.thunderbird.net/2026/08/desktop-calendar-a-design-journey",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.thunderbird.net/2026/08/desktop-calendar-a-design-journey/",
+            "source": "Lobsters RSS",
+            "title": "Thunderbird’s Desktop Calendar Visual Redesign",
+            "titleZh": "Thunderbird桌面日历视觉重新设计"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Thunderbird桌面日历视觉重新设计"
+      },
+      {
+        "title": "Meta Patents AI Glasses to Use Facial Recognition to Identify People",
+        "url": "https://web.archive.org/web/20260814152736/https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-14T17:26:35.571Z",
+        "pubDate": "Fri, 14 Aug 2026 12:14:39 -0500",
+        "id": "f6c17537e8f497002936a0bec30a51daf75780d0",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "a33d5a87eac241536b38d285a898384e12cc4bea",
+        "canonicalUrl": "https://web.archive.org/web/20260814152736/https:/www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party",
+        "clusterSize": 2,
+        "sourceCount": 2,
+        "relatedSources": [
+          "Lobsters RSS",
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://web.archive.org/web/20260814152736/https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+            "source": "Lobsters RSS",
+            "title": "Meta Patents AI Glasses to Use Facial Recognition to Identify People",
+            "titleZh": "Meta为AI眼镜申请专利，利用面部识别识别人员"
+          },
+          {
+            "url": "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Meta Patents AI Glasses to Use Facial Recognition to Identify People",
+            "titleZh": ""
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Meta为AI眼镜申请专利，利用面部识别识别人员"
+      },
+      {
+        "id": "0431d05e586e4d68c92514ee2fb064a9117604b9",
+        "title": "Why Open Source Matters for AI",
+        "url": "https://www.oreilly.com/radar/why-open-source-matters-for-ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T17:06:09Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "8a155dd3bceb2d33c994d8c39d3aadf028cbb964",
+        "canonicalUrl": "https://oreilly.com/radar/why-open-source-matters-for-ai",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.oreilly.com/radar/why-open-source-matters-for-ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Why Open Source Matters for AI",
+            "titleZh": "为什么开源对AI很重要"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为什么开源对AI很重要"
+      },
+      {
+        "id": "93cea385a9de2d44bc5d583a0917fc36f744e966",
+        "title": "Muxel – a multi-agent terminal multiplexer for AI coding agents",
+        "url": "https://muxel.sh/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T17:03:35Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "1490287dcd9bcac2c3405309f9ff1b838e6550db",
+        "canonicalUrl": "https://muxel.sh/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://muxel.sh/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Muxel – a multi-agent terminal multiplexer for AI coding agents",
+            "titleZh": "Muxel——面向AI编码代理的多代理终端复用器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Muxel——面向AI编码代理的多代理终端复用器"
+      },
+      {
+        "id": "7398fa3e2d6af2a76c8a9d49fc19cb075f274124",
+        "title": "Beyond Zero: Enterprise Security for the AI Era",
+        "url": "https://queue.acm.org/detail.cfm",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T17:02:47Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "331145ba2087877969e3994fc1dba4b8ff8cee3d",
+        "canonicalUrl": "https://queue.acm.org/detail.cfm",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://queue.acm.org/detail.cfm",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Beyond Zero: Enterprise Security for the AI Era",
+            "titleZh": "超越零信任：AI时代的企业安全"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "超越零信任：AI时代的企业安全"
+      },
+      {
+        "id": "9ee9a678fe47b7be8b957dbfd7a494b72620702a",
+        "title": "Just how big is the hidden leverage of AI hyperscalers?",
+        "url": "https://www.ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T17:02:45Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "a3b149e392518c14d6690b57be0a63b2c113fb12",
+        "canonicalUrl": "https://ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Just how big is the hidden leverage of AI hyperscalers?",
+            "titleZh": "AI超大规模企业的隐性杠杆究竟有多大？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI超大规模企业的隐性杠杆究竟有多大？"
+      },
+      {
+        "id": "f21962e122c8183c3f9edd736b4a5881cd7b769f",
+        "title": "Discrete Fourier Transform by Hand",
+        "url": "https://www.byhand.ai/p/28-discrete-fourier-transform",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T16:52:46Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5ae4b8292027a7a6c9d759138451f07d75d8170c",
+        "canonicalUrl": "https://byhand.ai/p/28-discrete-fourier-transform",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.byhand.ai/p/28-discrete-fourier-transform",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Discrete Fourier Transform by Hand",
+            "titleZh": "手算离散傅里叶变换"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "手算离散傅里叶变换"
+      },
+      {
+        "id": "548d5e969fc201a445384efbc170c29daacb4da8",
+        "title": "Evaluating Coding Agents",
+        "url": "https://www.aiuc-1.com/research/technical-docs-evaluating-coding-agents",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T16:50:35Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "智能体"
+        ],
+        "isPriority": true,
+        "eventId": "2589bf2b07dc837824ef8afab8f84d440d142d09",
+        "canonicalUrl": "https://aiuc-1.com/research/technical-docs-evaluating-coding-agents",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.aiuc-1.com/research/technical-docs-evaluating-coding-agents",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Evaluating Coding Agents",
+            "titleZh": "评估编码智能体"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "评估编码智能体"
+      },
+      {
+        "id": "b0ac821e875e3e45e95d9015fc7baeff4d890fcd",
+        "title": "Show HN: I built a tool that delegates bounded spending to an AI agent",
+        "url": "https://github.com/meyerdav24/molt",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T16:39:52Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent",
+          "智能体",
+          "AI智能体"
+        ],
+        "isPriority": true,
+        "eventId": "f2f58fe56b33ff5e28c04e2a7d9fc8647d3ab2ea",
+        "canonicalUrl": "https://github.com/meyerdav24/molt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/meyerdav24/molt",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: I built a tool that delegates bounded spending to an AI agent",
+            "titleZh": "Show HN：我构建了一个将有限支出委托给AI智能体的工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：我构建了一个将有限支出委托给AI智能体的工具"
+      },
+      {
+        "id": "cdb1ecc983880e9e6ab5436f6a9167fd6443f85b",
+        "title": "Show HN: Agentic Ship – open-source Lovable alternative that runs on your agent",
+        "url": "https://github.com/moasq/agentic-ship",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T16:39:40Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent",
+          "智能体",
+          "Agentic"
+        ],
+        "isPriority": true,
+        "eventId": "ffa0c396023ae6f5d1f0c34aa8e3a85965eb60b8",
+        "canonicalUrl": "https://github.com/moasq/agentic-ship",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/moasq/agentic-ship",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Agentic Ship – open-source Lovable alternative that runs on your agent",
+            "titleZh": "Show HN：Agentic Ship——运行在你的智能体上的开源Lovable替代品"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Agentic Ship——运行在你的智能体上的开源Lovable替代品"
+      },
+      {
+        "id": "c0b5961f1303c84cb87192b9ffbf16a2321bf08e",
+        "title": "My Dad Is in Prison. Here's Why I Built an AI Chatbot for His Electronic Tablet",
+        "url": "https://www.themarshallproject.org/2026/08/14/prison-ai-chatbot-nova-cj-jones",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T16:31:52Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "eb22077a31dbbcade2846d49aba00d56bff30455",
+        "canonicalUrl": "https://themarshallproject.org/2026/08/14/prison-ai-chatbot-nova-cj-jones",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.themarshallproject.org/2026/08/14/prison-ai-chatbot-nova-cj-jones",
+            "source": "Hacker News Algolia AI Search",
+            "title": "My Dad Is in Prison. Here's Why I Built an AI Chatbot for His Electronic Tablet",
+            "titleZh": "我父亲在监狱里。这就是我为他电子平板电脑构建AI聊天机器人的原因"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我父亲在监狱里。这就是我为他电子平板电脑构建AI聊天机器人的原因"
+      },
+      {
+        "id": "60f00ee57d7b1977d8851e4cf3c21ee961f850d5",
+        "title": "WakeAI – an AI assistant that tells you when to leave so you're never late",
+        "url": "https://apps.apple.com/us/app/wakeai/id6755909459",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T17:26:35.734Z",
+        "pubDate": "2026-08-14T16:27:46Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "6ab127fcc2bc26697635bc5e4941d983a3f3d97e",
+        "canonicalUrl": "https://apps.apple.com/us/app/wakeai/id6755909459",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://apps.apple.com/us/app/wakeai/id6755909459",
+            "source": "Hacker News Algolia AI Search",
+            "title": "WakeAI – an AI assistant that tells you when to leave so you're never late",
+            "titleZh": "WakeAI——一个告诉你何时出发以免迟到的AI助手"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "WakeAI——一个告诉你何时出发以免迟到的AI助手"
       }
     ]
   },
-  "lastFetchAt": "2026-08-14T16:21:20.530Z"
+  "lastFetchAt": "2026-08-14T17:26:34.850Z"
 }
