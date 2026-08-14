@@ -2,21 +2,20 @@
   "days": {
     "2026-08-15": [
       {
+        "id": "ed4ab18c7f1dc80e51c6effad52c345b63d95ef1",
+        "eventId": "b9710acf5df65ff406cbf2f87a5505f0169aaaf7",
         "title": "Luigi Mangione pleads guilty to federal stalking charges in the killing of UnitedHealthcare CEO - AP News",
+        "titleZh": "路易吉·曼焦内承认在联合健康集团CEO被杀案中犯有联邦跟踪指控 - 美联社新闻",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQczhJdEhZeEpuNk90Wk5ycmQtczVyYm9xeThwR3RXWFlhVGpoYmxOZ0NTeGpLeHRCOVpXNkdzcmp4X0RSVUtLeVRnSWRzazd1SGdYSDdndkJYejNQRmxwOWdvR0NUNmItb0puczF2ODB6SWxKVlRsMWEyeFpzRVpCcmF1US1aZXh3QjhfZm9lUXFMVVYwZXEzWlNQc2ZjVmhXV2c?oc=5",
         "source": "AP News via Google News",
-        "fetchedAt": "2026-08-14T21:20:42.400Z",
         "pubDate": "Fri, 14 Aug 2026 20:41:00 GMT",
-        "id": "ed4ab18c7f1dc80e51c6effad52c345b63d95ef1",
-        "matchedTopics": [],
-        "matchedTopicNames": [],
-        "matchedPushTopics": [],
-        "matchedKeywords": [],
-        "isPriority": false,
-        "eventId": "b9710acf5df65ff406cbf2f87a5505f0169aaaf7",
-        "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQczhJdEhZeEpuNk90Wk5ycmQtczVyYm9xeThwR3RXWFlhVGpoYmxOZ0NTeGpLeHRCOVpXNkdzcmp4X0RSVUtLeVRnSWRzazd1SGdYSDdndkJYejNQRmxwOWdvR0NUNmItb0puczF2ODB6SWxKVlRsMWEyeFpzRVpCcmF1US1aZXh3QjhfZm9lUXFMVVYwZXEzWlNQc2ZjVmhXV2c",
-        "clusterSize": 4,
-        "sourceCount": 3,
+        "fetchedAt": "2026-08-14T21:20:42.400Z",
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
         "relatedSources": [
           "AP News via Google News",
           "Google News",
@@ -33,7 +32,7 @@
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYUtYdGpQbzlLTThLU3pyZHhUa3hZWl9qamhGZndHM2Z0dnRuQW93WnBaR1M4OUxwaXFISHh2Q2h4d3RodVg4TkU5ZU9mUjdZeEZzSEdPMnN3SjdIemNpZzBLNFpReXM1blplTkppWE4zZzl4YWRvSFVXVUM1aEpxanRKY3VJRHB2TGdPX2JDR2ZucVhocG9iY3duR3FoSlE2T2w4enFESmk0Zw?oc=5",
             "source": "Google News",
             "title": "Luigi Mangione pleads guilty to federal charges in the killing of UnitedHealthcare’s CEO - NBC News",
-            "titleZh": ""
+            "titleZh": "Luigi Mangione pleads guilty to federal charges in the killing of UnitedHealthcare’s CEO - NBC News"
           },
           {
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2JKbWVWeko0WHVvY2ViNU1IdnNMR0RxOVZ5cG1iY0FBX01JRmxIVWFiXy1wZFFGSGNmZF9UemFFLTVHcW5UbDVWRHA5OXJnWHJteC1OeFVsUWtVS2FXSUFUM2ZHSEM1bVNFb0gwd2I1ZXcyeTR3cVA3eEs1WjJEcXNhYzZWNGZYUnc?oc=5",
@@ -48,13 +47,14 @@
             "titleZh": "路易吉·曼焦内承认联邦跟踪指控，涉及杀害联合健康集团首席执行官"
           }
         ],
-        "category": "",
-        "categories": [],
-        "region": "",
-        "regions": [],
-        "language": "",
-        "languages": [],
-        "titleZh": "路易吉·曼焦内承认在联合健康集团CEO被杀案中犯有联邦跟踪指控 - 美联社新闻"
+        "clusterSize": 4,
+        "sourceCount": 3,
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQczhJdEhZeEpuNk90Wk5ycmQtczVyYm9xeThwR3RXWFlhVGpoYmxOZ0NTeGpLeHRCOVpXNkdzcmp4X0RSVUtLeVRnSWRzazd1SGdYSDdndkJYejNQRmxwOWdvR0NUNmItb0puczF2ODB6SWxKVlRsMWEyeFpzRVpCcmF1US1aZXh3QjhfZm9lUXFMVVYwZXEzWlNQc2ZjVmhXV2c",
+        "matchedKeywords": [],
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "isPriority": false
       },
       {
         "title": "Police warn of anger and ‘incursions’ as AI datacentre planned near Edinburgh",
@@ -11401,16 +11401,23 @@
         "isPriority": false,
         "eventId": "463c43b534c073a84908f8837a525747ee4d72c0",
         "canonicalUrl": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Google News"
         ],
         "relatedLinks": [
           {
             "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
             "source": "Hacker News Newest",
             "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+            "titleZh": "使攻击者完全控制Mac的漏洞正被积极利用"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVhCNVdjNmZhY1oxM0tRZ2c2NXAtZE5rV2hTNDN5VXVoREFId09UdVY4VFpERVdWWEJTMGhweWR5WXB1WnJxaTNUTlEzQ19URzhqTkhrajVPUGxjUHB6MUoyNkdORk5Uam1KWmk4UDFwVERiQ3BFbXo1UEdNYTVORHRxQkh4dDRRckc0RXlpRDl1VV8zZ2FJSWVxRmprc0hoVXpkY2hoV3k1N2dhUE56NGl5WklmNW9tZC1hdnBKYw?oc=5",
+            "source": "Google News",
+            "title": "Vulnerability giving attackers full control of Macs is under active exploitation - Ars Technica",
             "titleZh": "使攻击者完全控制Mac的漏洞正被积极利用"
           }
         ],
@@ -12408,10 +12415,11 @@
         "isPriority": true,
         "eventId": "06a6dbcc242ea34bb8e179e3ac63e2aeb657516b",
         "canonicalUrl": "https://pub.towardsai.net/grok-4-6-x-cursor-elon-musk-just-bought-his-way-into-the-ai-coding-war-15a1292d4121",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -12443,10 +12451,11 @@
         "isPriority": false,
         "eventId": "7ac4f47b5c4a0768c402ba555afe82bc23936dd5",
         "canonicalUrl": "https://reddit.com/r/Substack/comments/1v3rdpr/another_creepy_feature_of_the_pangram_ai",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -13505,10 +13514,11 @@
         "isPriority": true,
         "eventId": "e4e5af3fc2c1cab0ad22891f3970d7f4626e9e9b",
         "canonicalUrl": "https://github.com/kikazamek999-eng/beyond-brute-force-scaling",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -13548,10 +13558,11 @@
         "isPriority": true,
         "eventId": "61d083584325043aa5df3b0d075cc84b436b5277",
         "canonicalUrl": "https://indiehackers.com/post/selling-my-production-ready-4-in-1-fastapi-ai-automation-suite-8-000-xUGCgKAjlrU9gcOIdp2Z",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -13568,8 +13579,761 @@
         "language": "",
         "languages": [],
         "titleZh": "出售我的生产就绪型4合1 FastAPI AI自动化套件（8000美元）"
+      },
+      {
+        "title": "Trump dismisses families’ concerns about USS Abraham Lincoln conditions - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXBxREg3bWFsR3pibzJqRFY3VlRyTXRuTUpNNXU3ZzhUaEpfc0R2djhMaVlMaW1NVVlmQ1BCS2IyMldCNkdMdXF1QVl2eUcyci1QN0FUMmlYOEU1Mm1KLXJWUVBKX2w5VmJHVlJHNWhRdEVtYVphU3U2N3ZxdTQ3N282cDlRbEd5aGpBMDZhNFZ2TTBrTVByeHluWnFNeDF5R2JoNVRvMlB6bExLeS1ZNHVlM2RoUW05SUFmSDFMUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T23:45:36.862Z",
+        "pubDate": "Fri, 14 Aug 2026 22:20:58 GMT",
+        "id": "0002e758f07fd8acdcf81d15c735cddd6ab71b92",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "50a8fc05b35ffddc887f3eb5ce9c770ed9cfb964",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXBxREg3bWFsR3pibzJqRFY3VlRyTXRuTUpNNXU3ZzhUaEpfc0R2djhMaVlMaW1NVVlmQ1BCS2IyMldCNkdMdXF1QVl2eUcyci1QN0FUMmlYOEU1Mm1KLXJWUVBKX2w5VmJHVlJHNWhRdEVtYVphU3U2N3ZxdTQ3N282cDlRbEd5aGpBMDZhNFZ2TTBrTVByeHluWnFNeDF5R2JoNVRvMlB6bExLeS1ZNHVlM2RoUW05SUFmSDFMUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXBxREg3bWFsR3pibzJqRFY3VlRyTXRuTUpNNXU3ZzhUaEpfc0R2djhMaVlMaW1NVVlmQ1BCS2IyMldCNkdMdXF1QVl2eUcyci1QN0FUMmlYOEU1Mm1KLXJWUVBKX2w5VmJHVlJHNWhRdEVtYVphU3U2N3ZxdTQ3N282cDlRbEd5aGpBMDZhNFZ2TTBrTVByeHluWnFNeDF5R2JoNVRvMlB6bExLeS1ZNHVlM2RoUW05SUFmSDFMUQ?oc=5",
+            "source": "Google News",
+            "title": "Trump dismisses families’ concerns about USS Abraham Lincoln conditions - The Washington Post",
+            "titleZh": "特朗普驳斥家属对“亚伯拉罕·林肯”号航母状况的担忧 - 《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普驳斥家属对“亚伯拉罕·林肯”号航母状况的担忧 - 《华盛顿邮报》"
+      },
+      {
+        "title": "Magnitude 7.6 quake strikes off coast of Indonesia, EMSC says - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQekZqSDNDbk9nUjJMVWd2bEwwTE03eGpyaUN2M3VhQmNEeFhqb0J1SmFFUlJtRE5FMFFJVmhsSWZCZmZwYW9OWWY1c2FDU3hsUUNYTTF4clZiVzRtblRoRmdGcEo3Z2l2Snl0UDJFQWlJeXZPNzd6dTdockZlYUNVVTBGSkEyOUxVNXNMV3d0UGU3SG1mcjk2MnFVTV80TVhLRDlub0tOM3h0OG1QRUluQXI4ZVRJMktwMHc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T23:45:36.862Z",
+        "pubDate": "Fri, 14 Aug 2026 23:12:25 GMT",
+        "id": "fe054ed406b63726b35c3409b72cbe7d95b3154d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "05b9b310de96e0486dab40f6988aa394b672edc2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQekZqSDNDbk9nUjJMVWd2bEwwTE03eGpyaUN2M3VhQmNEeFhqb0J1SmFFUlJtRE5FMFFJVmhsSWZCZmZwYW9OWWY1c2FDU3hsUUNYTTF4clZiVzRtblRoRmdGcEo3Z2l2Snl0UDJFQWlJeXZPNzd6dTdockZlYUNVVTBGSkEyOUxVNXNMV3d0UGU3SG1mcjk2MnFVTV80TVhLRDlub0tOM3h0OG1QRUluQXI4ZVRJMktwMHc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQekZqSDNDbk9nUjJMVWd2bEwwTE03eGpyaUN2M3VhQmNEeFhqb0J1SmFFUlJtRE5FMFFJVmhsSWZCZmZwYW9OWWY1c2FDU3hsUUNYTTF4clZiVzRtblRoRmdGcEo3Z2l2Snl0UDJFQWlJeXZPNzd6dTdockZlYUNVVTBGSkEyOUxVNXNMV3d0UGU3SG1mcjk2MnFVTV80TVhLRDlub0tOM3h0OG1QRUluQXI4ZVRJMktwMHc?oc=5",
+            "source": "Google News",
+            "title": "Magnitude 7.6 quake strikes off coast of Indonesia, EMSC says - Reuters",
+            "titleZh": "印尼海岸发生7.6级地震，EMSC称 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印尼海岸发生7.6级地震，EMSC称 - 路透社"
+      },
+      {
+        "title": "UFC 330 fight card predictions: Expert picks, odds for Islam Makhachev vs. Ian Garry in Philadelphia - cbssports.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX0pUd0hsaHp3VHV2ZGZLaFliU1VySl82eWJra3JUTDg4YXNWZm10dzBEYU9nc1h2a0FlMWIwbUhMdlQ2eHB5Q18xajZzSFFPaFRLZ0FLaHJJVmltc3VNRjQyLW8zaW1HYW5udTFYazBrNHZPOFEteHJRRlNsdHpicU5LaGtKdzhRSUF1RDhKT0FoajE3TkUzN1pVclJlbS12Tk85WjJhZUhPN1pE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T23:45:36.862Z",
+        "pubDate": "Fri, 14 Aug 2026 19:25:00 GMT",
+        "id": "8d8269fa65adf762f7b7b7e2166d295563433991",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a2e8cdbb0abff194c5b4dfcc0770f33259b44073",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX0pUd0hsaHp3VHV2ZGZLaFliU1VySl82eWJra3JUTDg4YXNWZm10dzBEYU9nc1h2a0FlMWIwbUhMdlQ2eHB5Q18xajZzSFFPaFRLZ0FLaHJJVmltc3VNRjQyLW8zaW1HYW5udTFYazBrNHZPOFEteHJRRlNsdHpicU5LaGtKdzhRSUF1RDhKT0FoajE3TkUzN1pVclJlbS12Tk85WjJhZUhPN1pE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX0pUd0hsaHp3VHV2ZGZLaFliU1VySl82eWJra3JUTDg4YXNWZm10dzBEYU9nc1h2a0FlMWIwbUhMdlQ2eHB5Q18xajZzSFFPaFRLZ0FLaHJJVmltc3VNRjQyLW8zaW1HYW5udTFYazBrNHZPOFEteHJRRlNsdHpicU5LaGtKdzhRSUF1RDhKT0FoajE3TkUzN1pVclJlbS12Tk85WjJhZUhPN1pE?oc=5",
+            "source": "Google News",
+            "title": "UFC 330 fight card predictions: Expert picks, odds for Islam Makhachev vs. Ian Garry in Philadelphia - cbssports.com",
+            "titleZh": "UFC 330比赛预测：专家精选、赔率，伊斯兰·马哈切夫对阵伊恩·加里在费城 - cbssports.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "UFC 330比赛预测：专家精选、赔率，伊斯兰·马哈切夫对阵伊恩·加里在费城 - cbssports.com"
+      },
+      {
+        "title": "UFC Mailbag: Is UFC 330 the beginning of the end? - mmafighting.com",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR21iMWtLcjlSeXJ2V0ZUMHE3dlZ4LVNva3Y4bzd6MU5wNGIwTFB6R1ZHOXVVVC1hbVRDVkxUUUxjdzF0bkd6R251LTB3ZWUzTTlSS0Jlb0xaYUFONE9XRk1ScTdMVEY2bTdoNlpTbVp1TEE1TzlPbHd3SGtYd204ajNqd0ZDOFpPakh4Z21Daw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T23:45:36.862Z",
+        "pubDate": "Fri, 14 Aug 2026 18:00:00 GMT",
+        "id": "79c55df01fcb44f1d262a01994f44c272395b604",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ba539f060983b22dc67b66bc8bf3321ffe9b36ba",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR21iMWtLcjlSeXJ2V0ZUMHE3dlZ4LVNva3Y4bzd6MU5wNGIwTFB6R1ZHOXVVVC1hbVRDVkxUUUxjdzF0bkd6R251LTB3ZWUzTTlSS0Jlb0xaYUFONE9XRk1ScTdMVEY2bTdoNlpTbVp1TEE1TzlPbHd3SGtYd204ajNqd0ZDOFpPakh4Z21Daw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR21iMWtLcjlSeXJ2V0ZUMHE3dlZ4LVNva3Y4bzd6MU5wNGIwTFB6R1ZHOXVVVC1hbVRDVkxUUUxjdzF0bkd6R251LTB3ZWUzTTlSS0Jlb0xaYUFONE9XRk1ScTdMVEY2bTdoNlpTbVp1TEE1TzlPbHd3SGtYd204ajNqd0ZDOFpPakh4Z21Daw?oc=5",
+            "source": "Google News",
+            "title": "UFC Mailbag: Is UFC 330 the beginning of the end? - mmafighting.com",
+            "titleZh": "UFC邮件袋：UFC 330是终结的开始吗？ - mmafighting.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "UFC邮件袋：UFC 330是终结的开始吗？ - mmafighting.com"
+      },
+      {
+        "title": "Skyrocketing number of Californians stricken with incurable disease tied to common kitchen item: study - nypost.com",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDhPSUU1VDFsa1R4ZWpKVGVHTU80cUlKcUt4c0dNOGlUTnlWdS1NdDZfT0pWcC14MWVPYTAwcGczVFFMLTdvVjR5UlFvTlRrcXB5ZTJVa2Zma1pXMHkyNW1DVFV0M2JfVjA0V2pzLUdnYlJ0OEZnX3IzcXlQN3Q3dHRPejZmUUFBZTlDd3pFNmNudDloUUx5RVFoaTVhTDVJU3ZlYW5LSQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-14T23:45:36.862Z",
+        "pubDate": "Fri, 14 Aug 2026 21:11:00 GMT",
+        "id": "460abafbf13c7e3d24a25112acfb9361479f3213",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "aaa322ba43d57632dd55cd0267f2b2e3c33b25f9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDhPSUU1VDFsa1R4ZWpKVGVHTU80cUlKcUt4c0dNOGlUTnlWdS1NdDZfT0pWcC14MWVPYTAwcGczVFFMLTdvVjR5UlFvTlRrcXB5ZTJVa2Zma1pXMHkyNW1DVFV0M2JfVjA0V2pzLUdnYlJ0OEZnX3IzcXlQN3Q3dHRPejZmUUFBZTlDd3pFNmNudDloUUx5RVFoaTVhTDVJU3ZlYW5LSQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDhPSUU1VDFsa1R4ZWpKVGVHTU80cUlKcUt4c0dNOGlUTnlWdS1NdDZfT0pWcC14MWVPYTAwcGczVFFMLTdvVjR5UlFvTlRrcXB5ZTJVa2Zma1pXMHkyNW1DVFV0M2JfVjA0V2pzLUdnYlJ0OEZnX3IzcXlQN3Q3dHRPejZmUUFBZTlDd3pFNmNudDloUUx5RVFoaTVhTDVJU3ZlYW5LSQ?oc=5",
+            "source": "Google News",
+            "title": "Skyrocketing number of Californians stricken with incurable disease tied to common kitchen item: study - nypost.com",
+            "titleZh": "加州患有不治之症的人数激增，与常见厨房用品有关：研究 - 《纽约邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "加州患有不治之症的人数激增，与常见厨房用品有关：研究 - 《纽约邮报》"
+      },
+      {
+        "title": "Racket v9.3",
+        "url": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-14T23:45:37.199Z",
+        "pubDate": "Fri, 14 Aug 2026 18:14:48 +0000",
+        "id": "206251a8c1491848baf6e5cdf30321ff87cedad1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dcea05884e6d8b9f672392f82bf81def4fcdc022",
+        "canonicalUrl": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+            "source": "Hacker News Frontpage",
+            "title": "Racket v9.3",
+            "titleZh": "Racket v9.3"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Racket v9.3"
+      },
+      {
+        "title": "Post-mortem after Namecheap/RadiusDC service outage",
+        "url": "https://www.namecheap.com/blog/namecheap-service-outage-update/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:22:15 +0000",
+        "id": "55c9600b5b3305fb769fe94d760fbf7bb1198bcc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f5c03e6f5b520e3fe3fd94dda52570ad4a9ae059",
+        "canonicalUrl": "https://namecheap.com/blog/namecheap-service-outage-update",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.namecheap.com/blog/namecheap-service-outage-update/",
+            "source": "Hacker News Newest",
+            "title": "Post-mortem after Namecheap/RadiusDC service outage",
+            "titleZh": "Namecheap/RadiusDC服务中断后的复盘"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Namecheap/RadiusDC服务中断后的复盘"
+      },
+      {
+        "title": "Towards a Risk Assessment of Malicious Skill Files in Coding Agents",
+        "url": "https://arxiv.org/abs/2608.05223",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:19:14 +0000",
+        "id": "fa56eb57ece8bc1c3a550bbc8b77f14d76ea0f02",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e5dec8bbc17943ec0cfc2d05f82f86cae5db6a51",
+        "canonicalUrl": "https://arxiv.org/abs/2608.05223",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.05223",
+            "source": "Hacker News Newest",
+            "title": "Towards a Risk Assessment of Malicious Skill Files in Coding Agents",
+            "titleZh": "针对编码代理中恶意技能文件的风险评估"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "针对编码代理中恶意技能文件的风险评估"
+      },
+      {
+        "title": "Talos AI Agent Super Secure",
+        "url": "https://github.com/talos-kernel/talos",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:18:48 +0000",
+        "id": "2cb99cae437a4815b51b9e7a4cd9ae4b716b87a0",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "00e56bbe6b4e94784189e5537f90c4ee5a1ed711",
+        "canonicalUrl": "https://github.com/talos-kernel/talos",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/talos-kernel/talos",
+            "source": "Hacker News Newest",
+            "title": "Talos AI Agent Super Secure",
+            "titleZh": "Talos AI代理超级安全"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Talos AI代理超级安全"
+      },
+      {
+        "title": "Learning Augmented Heuristics",
+        "url": "https://systems.seas.harvard.edu/blog/learning-augmented-heuristics/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:17:24 +0000",
+        "id": "957b3da870056bdc26a51c4a44d981d628da0bd9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6e2aa19376c963c59c5ea647f612ee600649dfcb",
+        "canonicalUrl": "https://systems.seas.harvard.edu/blog/learning-augmented-heuristics",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://systems.seas.harvard.edu/blog/learning-augmented-heuristics/",
+            "source": "Hacker News Newest",
+            "title": "Learning Augmented Heuristics",
+            "titleZh": "学习增强启发式算法"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "学习增强启发式算法"
+      },
+      {
+        "title": "Brands Suddenly Care About Reddit. Redditors Don't Return the Feeling.",
+        "url": "https://www.wsj.com/cmo-today/brands-suddenly-care-about-reddit-redditors-dont-return-the-feeling-e7a9d59c",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:16:42 +0000",
+        "id": "b1afb117ee8f89df5455049bceabe327519ca7a4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eae91775d34545a3e1b494a34ad20ce2858c76c8",
+        "canonicalUrl": "https://wsj.com/cmo-today/brands-suddenly-care-about-reddit-redditors-dont-return-the-feeling-e7a9d59c",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/cmo-today/brands-suddenly-care-about-reddit-redditors-dont-return-the-feeling-e7a9d59c",
+            "source": "Hacker News Newest",
+            "title": "Brands Suddenly Care About Reddit. Redditors Don't Return the Feeling.",
+            "titleZh": "品牌突然关心Reddit。Reddit用户却不领情。"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "品牌突然关心Reddit。Reddit用户却不领情。"
+      },
+      {
+        "title": "Qwen 3.8 27B 4-bit designs an animated dolphin riding a bicycle SVG",
+        "url": "https://twitter.com/1littlecoder/status/2088399639628431831",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:15:15 +0000",
+        "id": "91b4e88d93169c7e507e81ab21f70d24a04a88be",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Qwen"
+        ],
+        "isPriority": true,
+        "eventId": "c6062c6872d74a8b7fe1c254ce81bdd2e0e23795",
+        "canonicalUrl": "https://twitter.com/1littlecoder/status/2088399639628431831",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/1littlecoder/status/2088399639628431831",
+            "source": "Hacker News Newest",
+            "title": "Qwen 3.8 27B 4-bit designs an animated dolphin riding a bicycle SVG",
+            "titleZh": "Qwen 3.8 27B 4位设计了一个骑自行车的动画海豚SVG"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Qwen 3.8 27B 4位设计了一个骑自行车的动画海豚SVG"
+      },
+      {
+        "title": "How the World Was Wired",
+        "url": "https://www.economist.com/culture/2026/08/12/how-the-world-was-wired",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:14:07 +0000",
+        "id": "401aaae55f63240a25cab392fedbc5a79d4ca22a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1af19a8dcd01e1187ccd075e5f34aa7e0af9686c",
+        "canonicalUrl": "https://economist.com/culture/2026/08/12/how-the-world-was-wired",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.economist.com/culture/2026/08/12/how-the-world-was-wired",
+            "source": "Hacker News Newest",
+            "title": "How the World Was Wired",
+            "titleZh": "世界是如何被连通的"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "世界是如何被连通的"
+      },
+      {
+        "title": "Show HN: Macsomnia – close your MacBook lid while keeping long jobs alive",
+        "url": "https://github.com/iamdadzilla/Macsomnia",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:13:11 +0000",
+        "id": "438d3d7c407fbf1de0ce722ee093bdb3b025dc22",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b190a1ec1e8202d0fb074ee65a9426fd9510183e",
+        "canonicalUrl": "https://github.com/iamdadzilla/Macsomnia",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/iamdadzilla/Macsomnia",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Macsomnia – close your MacBook lid while keeping long jobs alive",
+            "titleZh": "Show HN：Macsomnia——合上MacBook盖子同时保持长时间任务运行"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Macsomnia——合上MacBook盖子同时保持长时间任务运行"
+      },
+      {
+        "title": "The case for overhauling American science",
+        "url": "https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:11:34 +0000",
+        "id": "1c3ab55a614429e9637a3f8d8caadf6f5b5f7b49",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "284a39fd86afd0e8107200be29fdd6308f243ca9",
+        "canonicalUrl": "https://economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
+            "source": "Hacker News Newest",
+            "title": "The case for overhauling American science",
+            "titleZh": "改革美国科学的理由"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "改革美国科学的理由"
+      },
+      {
+        "title": "Show HN: Kvcachescope – Why Nvidia-smi is blind to vLLM KV cache leaks",
+        "url": "https://github.com/brian-mwirigi/kvcachescope",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:11:14 +0000",
+        "id": "7f7cbcae4dcfe12189819ed08287ac8732ffea52",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "359ac39a2672026cedda5f73dfe7431c58e49a26",
+        "canonicalUrl": "https://github.com/brian-mwirigi/kvcachescope",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/brian-mwirigi/kvcachescope",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Kvcachescope – Why Nvidia-smi is blind to vLLM KV cache leaks",
+            "titleZh": "Show HN：Kvcachescope——为什么Nvidia-smi对vLLM KV缓存泄漏视而不见"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Kvcachescope——为什么Nvidia-smi对vLLM KV缓存泄漏视而不见"
+      },
+      {
+        "title": "Production-Ready FastAPI Back End Suite – Advanced RAG and SEO Automation ($8k)",
+        "url": "https://www.indiehackers.com/post/for-sale-production-ready-fastapi-backend-suite-advanced-rag-seo-automation-8-000-CQImBmoC4A3yH53U4bd4",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:09:36 +0000",
+        "id": "6b9f8008f0e30b44ccfc6135066383fcce036059",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "RAG"
+        ],
+        "isPriority": true,
+        "eventId": "d360e32974e180561ad888567a14fe134dc4f52d",
+        "canonicalUrl": "https://indiehackers.com/post/for-sale-production-ready-fastapi-backend-suite-advanced-rag-seo-automation-8-000-CQImBmoC4A3yH53U4bd4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.indiehackers.com/post/for-sale-production-ready-fastapi-backend-suite-advanced-rag-seo-automation-8-000-CQImBmoC4A3yH53U4bd4",
+            "source": "Hacker News Newest",
+            "title": "Production-Ready FastAPI Back End Suite – Advanced RAG and SEO Automation ($8k)",
+            "titleZh": "生产级FastAPI后端套件——高级RAG与SEO自动化（$8k）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "生产级FastAPI后端套件——高级RAG与SEO自动化（$8k）"
+      },
+      {
+        "title": "Backtesting Congress members stock trades by the disclosure date",
+        "url": "https://investingpaths.com/tools/congress",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:08:56 +0000",
+        "id": "65706a72a271aeb0e7d965b1039dd343ae57aafd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "be2097892f5fec5903bd9e9f2a99b118c9fad730",
+        "canonicalUrl": "https://investingpaths.com/tools/congress",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://investingpaths.com/tools/congress",
+            "source": "Hacker News Newest",
+            "title": "Backtesting Congress members stock trades by the disclosure date",
+            "titleZh": "按披露日期回测国会议员股票交易"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "按披露日期回测国会议员股票交易"
+      },
+      {
+        "title": "Coding Magic the Gathering in C# – Part One – Why Build a Card Game in WinForms",
+        "url": "https://www.youtube.com/watch?v=n7fhuIHD-gM",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-14T23:45:37.326Z",
+        "pubDate": "Fri, 14 Aug 2026 23:08:28 +0000",
+        "id": "e60c54df7db27b7e3fcbc3946d35f95b513b3eab",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "271c5d11466265ac7975f4a6ee0b6a248cf4913a",
+        "canonicalUrl": "https://youtube.com/watch?v=n7fhuIHD-gM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=n7fhuIHD-gM",
+            "source": "Hacker News Newest",
+            "title": "Coding Magic the Gathering in C# – Part One – Why Build a Card Game in WinForms",
+            "titleZh": "用C#编写万智牌——第一部分——为何在WinForms中构建卡牌游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "用C#编写万智牌——第一部分——为何在WinForms中构建卡牌游戏"
+      },
+      {
+        "id": "2cc8b94021892578cfaa0b714c59facd9d413a38",
+        "title": "Flownie – Open and Visual Data Workflow Platform with AI Agent Assistance",
+        "url": "https://flownie.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-14T23:45:37.257Z",
+        "pubDate": "2026-08-14T23:38:09Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent",
+          "智能体",
+          "AI智能体"
+        ],
+        "isPriority": true,
+        "eventId": "a5536e9a334f88765252eea02ce5e6740bf1bc5c",
+        "canonicalUrl": "https://flownie.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://flownie.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Flownie – Open and Visual Data Workflow Platform with AI Agent Assistance",
+            "titleZh": "Flownie——带AI智能体辅助的开放可视化数据工作流平台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Flownie——带AI智能体辅助的开放可视化数据工作流平台"
       }
     ]
   },
-  "lastFetchAt": "2026-08-14T23:17:16.096Z"
+  "lastFetchAt": "2026-08-14T23:45:36.112Z"
 }
