@@ -10246,9 +10246,10 @@
         "eventId": "a5bde88f6c12fd3271657a8532920b0ffb5dd19f",
         "canonicalUrl": "https://zig.day/usa/seattle/3",
         "clusterSize": 2,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS"
+          "Lobsters RSS",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -25330,21 +25331,21 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Lobsters RSS"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.youtube.com/watch?v=MQeIerDsReA&t=673s",
-            "source": "Lobsters RSS",
-            "title": "Haskell: origins, evolution, and future",
-            "titleZh": "Haskell：起源、演变与未来"
-          },
           {
             "url": "https://www.youtube.com/watch?v=MQeIerDsReA",
             "source": "Hacker News Newest",
             "title": "Haskell: Origins, Evolution, and Future [video]",
             "titleZh": "Haskell：起源、演变与未来 [视频]"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=MQeIerDsReA&t=673s",
+            "source": "Lobsters RSS",
+            "title": "Haskell: origins, evolution, and future",
+            "titleZh": "Haskell：起源、演变与未来"
           }
         ],
         "category": "",
@@ -26899,14 +26900,14 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Lobsters RSS"
         ],
         "relatedLinks": [
           {
             "url": "https://sifter.org/~simon/journal/20130713.h.html",
-            "source": "Lobsters RSS",
-            "title": "On Knowledge Representation",
+            "source": "Hacker News Newest",
+            "title": "Knowledge Representation (2013)",
             "titleZh": "论知识表示"
           }
         ],
@@ -32925,10 +32926,11 @@
         "isPriority": true,
         "eventId": "dd946b53be060a21c7b370ddf3ffef23223f9cde",
         "canonicalUrl": "https://peterbloem.nl/blog/craft-coding",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -33109,10 +33111,11 @@
         "isPriority": false,
         "eventId": "cab42d654302b7ea9abd855820eac845d1ec2386",
         "canonicalUrl": "https://sherm4n.com/bloom-security-israel-ai-endpoint-itay-keren",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -33405,10 +33408,11 @@
         "isPriority": true,
         "eventId": "757d3dc6767bb7d518e79f480c412818caa4adaf",
         "canonicalUrl": "https://astroupdate.space/en",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -33518,10 +33522,11 @@
         "isPriority": true,
         "eventId": "06e264f9a1265b53241f1b8710114f483110c160",
         "canonicalUrl": "https://dev.profullstack.com/~anthony/blog/011-post.html",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -33562,10 +33567,11 @@
         "isPriority": true,
         "eventId": "76d96153fe89dc94c438e81834f12355cd7a7466",
         "canonicalUrl": "https://aicharts.grok.me/c/agent-tokens",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -33582,8 +33588,918 @@
         "language": "",
         "languages": [],
         "titleZh": "AI 代理消耗的令牌数可达聊天轮次的 100 倍"
+      },
+      {
+        "title": "Explainer: Trump wants more economic pressure on Iran. What are his options? - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-16T11:15:57.671Z",
+        "pubDate": "Sun, 16 Aug 2026 10:03:43 GMT",
+        "id": "a490204d14ccf4cfd197be16318fbacad416ee73",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "5aebcc6a887394840a8b864a21f8e5a6e9058ec1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Explainer: Trump wants more economic pressure on Iran. What are his options? - Reuters",
+            "titleZh": "解释：特朗普想对伊朗加大经济施压。他有哪些选择？——路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "解释：特朗普想对伊朗加大经济施压。他有哪些选择？——路透社"
+      },
+      {
+        "title": "US law to investigate foodborne illness outbreaks has been delayed for 15 years",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/us-law-foodborne-illness-delay",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T11:15:57.356Z",
+        "pubDate": "Sun, 16 Aug 2026 11:00:24 GMT",
+        "id": "62331359a566228d2a97ab3b80ead8db8ce30e77",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "e61f53f0e23d6b398df875a3d9bf7bc0730ba760",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/16/us-law-foodborne-illness-delay",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/16/us-law-foodborne-illness-delay",
+            "source": "Guardian World",
+            "title": "US law to investigate foodborne illness outbreaks has been delayed for 15 years",
+            "titleZh": "美国调查食源性疾病暴发的法律已被拖延15年"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国调查食源性疾病暴发的法律已被拖延15年"
+      },
+      {
+        "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia - AP News",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T11:15:57.329Z",
+        "pubDate": "Sun, 16 Aug 2026 08:01:00 GMT",
+        "id": "f39379703b4dc1a636bb1992c3017ff0394c3880",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "战争",
+          "俄罗斯",
+          "乌克兰",
+          "Russia",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "93fe96aa58701eb26cafe4f335611fbe15256504",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ?oc=5",
+            "source": "Google News",
+            "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia - AP News",
+            "titleZh": "乌克兰发动战争以来最大规模空袭之一，在俄罗斯造成至少6人死亡——美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "乌克兰发动战争以来最大规模空袭之一，在俄罗斯造成至少6人死亡——美联社"
+      },
+      {
+        "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOamViOTljSm9yZThFTFFwTVptempabG83N2ZRUEcxMlo4ZXlIUzdWSjZ2ZGx4SE0yVXpNTEJac0ROMnh6dnJhMUV3R3Y4RDE1Tm94NmIyUWZXTmdkUC1xb1VxeEFTZkpQLUJBMUROVm12UTBYN3FUalFOcTh6U2I4SWgzREV3SmgtNjZPRm5BcmpxYXlwUWxpbWpQaVBoZ9IBowFBVV95cUxPVW1TOU1qV2JUU19aVDlBaHh4U0lJWlViVThsTzhZZzNGLUI5bi1PanRJZUJhc05ZaVRoNk9aYWRtQ1pKSUZqdENnS2NpU05URlB5YkI2M3U3SXpQMnoxQjBnNGxrTGUxb0x3ajNTeVEzT0kyajA2VFVFbGl4Y2FScmdJTDlmenFfWmM5aklQTl9IWm1VWmpYbGY0a1ZraUF2d3Rn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T11:15:57.329Z",
+        "pubDate": "Sun, 16 Aug 2026 03:04:53 GMT",
+        "id": "29b09a8a1cd54bf3ed887c88ce92ec054736834f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "伊朗"
+        ],
+        "isPriority": true,
+        "eventId": "311ddcd5658a23965b2eefa84b838c8a3b18ee9f",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOamViOTljSm9yZThFTFFwTVptempabG83N2ZRUEcxMlo4ZXlIUzdWSjZ2ZGx4SE0yVXpNTEJac0ROMnh6dnJhMUV3R3Y4RDE1Tm94NmIyUWZXTmdkUC1xb1VxeEFTZkpQLUJBMUROVm12UTBYN3FUalFOcTh6U2I4SWgzREV3SmgtNjZPRm5BcmpxYXlwUWxpbWpQaVBoZ9IBowFBVV95cUxPVW1TOU1qV2JUU19aVDlBaHh4U0lJWlViVThsTzhZZzNGLUI5bi1PanRJZUJhc05ZaVRoNk9aYWRtQ1pKSUZqdENnS2NpU05URlB5YkI2M3U3SXpQMnoxQjBnNGxrTGUxb0x3ajNTeVEzT0kyajA2VFVFbGl4Y2FScmdJTDlmenFfWmM5aklQTl9IWm1VWmpYbGY0a1ZraUF2d3Rn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOamViOTljSm9yZThFTFFwTVptempabG83N2ZRUEcxMlo4ZXlIUzdWSjZ2ZGx4SE0yVXpNTEJac0ROMnh6dnJhMUV3R3Y4RDE1Tm94NmIyUWZXTmdkUC1xb1VxeEFTZkpQLUJBMUROVm12UTBYN3FUalFOcTh6U2I4SWgzREV3SmgtNjZPRm5BcmpxYXlwUWxpbWpQaVBoZ9IBowFBVV95cUxPVW1TOU1qV2JUU19aVDlBaHh4U0lJWlViVThsTzhZZzNGLUI5bi1PanRJZUJhc05ZaVRoNk9aYWRtQ1pKSUZqdENnS2NpU05URlB5YkI2M3U3SXpQMnoxQjBnNGxrTGUxb0x3ajNTeVEzT0kyajA2VFVFbGl4Y2FScmdJTDlmenFfWmM5aklQTl9IWm1VWmpYbGY0a1ZraUF2d3Rn?oc=5",
+            "source": "Google News",
+            "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots - Al Jazeera",
+            "titleZh": "卡塔尔否认德黑兰关于其扣押伊朗轰炸机飞行员的说法——半岛电视台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "卡塔尔否认德黑兰关于其扣押伊朗轰炸机飞行员的说法——半岛电视台"
+      },
+      {
+        "title": "Doctors and women who've had it call for more attention on postpartum psychosis - NPR",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSC1HbERMNlE1YmQ2TkhtTGcyUWtxNlhsZkdSVWhBWERZc3d5WGhZWkZqRVpBMTRVeldwcl9wUDA5T1pHallDMTJyV29iamhEYzhlN1dfcDFRMUNqMnI5SkJvNEZBcmtXcW0zRkZoWXY5UkQyLTM2cWJVX3kxaWg5bkRneUtWVnItZ0xzUXFGcy1WYS1WVzlqZnlxdmY?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T11:15:57.329Z",
+        "pubDate": "Sun, 16 Aug 2026 09:00:00 GMT",
+        "id": "2e8fb50269e5ca150ab9016208a6894e1f3738e2",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "b99f2d478739cc9bcf9042a8c2ba1072f0c85b80",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSC1HbERMNlE1YmQ2TkhtTGcyUWtxNlhsZkdSVWhBWERZc3d5WGhZWkZqRVpBMTRVeldwcl9wUDA5T1pHallDMTJyV29iamhEYzhlN1dfcDFRMUNqMnI5SkJvNEZBcmtXcW0zRkZoWXY5UkQyLTM2cWJVX3kxaWg5bkRneUtWVnItZ0xzUXFGcy1WYS1WVzlqZnlxdmY",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSC1HbERMNlE1YmQ2TkhtTGcyUWtxNlhsZkdSVWhBWERZc3d5WGhZWkZqRVpBMTRVeldwcl9wUDA5T1pHallDMTJyV29iamhEYzhlN1dfcDFRMUNqMnI5SkJvNEZBcmtXcW0zRkZoWXY5UkQyLTM2cWJVX3kxaWg5bkRneUtWVnItZ0xzUXFGcy1WYS1WVzlqZnlxdmY?oc=5",
+            "source": "Google News",
+            "title": "Doctors and women who've had it call for more attention on postpartum psychosis - NPR",
+            "titleZh": "医生和经历过产后精神病的女性呼吁更多关注——美国国家公共广播电台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "医生和经历过产后精神病的女性呼吁更多关注——美国国家公共广播电台"
+      },
+      {
+        "title": "The most common cancer is easy to miss. Here’s what to look for. - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa2o2SG82alpET0lEemZjRm1nNDVNWTg2NXRaZnMzVXpVZkZHblZtT01mdGw4UF95QkZ0UHBnRFBxQVJXYnFpZC1hVGI0Z2k1Y1dBR0c4RW9yei13N05BV2dkQ014eFpfNXg4ZHRMUE54R2t3eUY5N0MtSkJ6ZmpuSnRwT0YtbnM2cHFOMVBkaW04SjAya3VHTC10cTFPMFhn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T11:15:57.329Z",
+        "pubDate": "Sun, 16 Aug 2026 10:32:43 GMT",
+        "id": "2c426e995577ef06b4fe195be130c1217c8165d3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dc36f604d9ff428d34c7de398a544e4c44398d71",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa2o2SG82alpET0lEemZjRm1nNDVNWTg2NXRaZnMzVXpVZkZHblZtT01mdGw4UF95QkZ0UHBnRFBxQVJXYnFpZC1hVGI0Z2k1Y1dBR0c4RW9yei13N05BV2dkQ014eFpfNXg4ZHRMUE54R2t3eUY5N0MtSkJ6ZmpuSnRwT0YtbnM2cHFOMVBkaW04SjAya3VHTC10cTFPMFhn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa2o2SG82alpET0lEemZjRm1nNDVNWTg2NXRaZnMzVXpVZkZHblZtT01mdGw4UF95QkZ0UHBnRFBxQVJXYnFpZC1hVGI0Z2k1Y1dBR0c4RW9yei13N05BV2dkQ014eFpfNXg4ZHRMUE54R2t3eUY5N0MtSkJ6ZmpuSnRwT0YtbnM2cHFOMVBkaW04SjAya3VHTC10cTFPMFhn?oc=5",
+            "source": "Google News",
+            "title": "The most common cancer is easy to miss. Here’s what to look for. - The Washington Post",
+            "titleZh": "最常见的癌症容易被忽视。以下是你需要注意的。——《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "最常见的癌症容易被忽视。以下是你需要注意的。——《华盛顿邮报》"
+      },
+      {
+        "title": "TrueMath – An open-source exact symbolic math tool",
+        "url": "https://news.ycombinator.com/item?id=49318921",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:08:01 +0000",
+        "id": "d07ac5417189f978e3d7b3bcab98dd6739164b53",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0c17f0257c3b5d4ff06f3c8bd1326bd220bda38a",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49318921",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49318921",
+            "source": "Hacker News Newest",
+            "title": "TrueMath – An open-source exact symbolic math tool",
+            "titleZh": "TrueMath——一个开源精确符号数学工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "TrueMath——一个开源精确符号数学工具"
+      },
+      {
+        "title": "Ask HN: Do you know of any company that went back to hand-written code?",
+        "url": "https://news.ycombinator.com/item?id=49318906",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:05:47 +0000",
+        "id": "903bb57657c5c6f37944202ef58e15e03bf36a6b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "989e46aea296399bb3b4c4ba5e62ef052adbae02",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49318906",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49318906",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Do you know of any company that went back to hand-written code?",
+            "titleZh": "向黑客新闻提问：你知道有哪家公司重新回到手写代码吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "向黑客新闻提问：你知道有哪家公司重新回到手写代码吗？"
+      },
+      {
+        "title": "AGCX: Why AI Agents aren't assistants",
+        "url": "https://www.agcx.org",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:04:59 +0000",
+        "id": "0698ec8ee5dbe4ffa96424b8be9136ae13811618",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "f5c62bcf04d86f9ec2d3aacf220f51e884cc97e4",
+        "canonicalUrl": "https://agcx.org/",
+        "clusterSize": 2,
+        "sourceCount": 2,
+        "relatedSources": [
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.agcx.org",
+            "source": "Hacker News Newest",
+            "title": "AGCX: Why AI Agents aren't assistants",
+            "titleZh": "AGCX：为什么AI代理不是助手"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AGCX：为什么AI代理不是助手"
+      },
+      {
+        "title": "Autonomous Agentic Engineering Tools",
+        "url": "https://rywalker.com/research/autonomous-agentic-engineering-tools",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:04:27 +0000",
+        "id": "8f81516ff424972f12865c2bbc27fdc5c6af4ea5",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agentic"
+        ],
+        "isPriority": true,
+        "eventId": "47d5e536503d2b482d3734e6c12931b5578cb8ed",
+        "canonicalUrl": "https://rywalker.com/research/autonomous-agentic-engineering-tools",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://rywalker.com/research/autonomous-agentic-engineering-tools",
+            "source": "Hacker News Newest",
+            "title": "Autonomous Agentic Engineering Tools",
+            "titleZh": "自主代理工程工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "自主代理工程工具"
+      },
+      {
+        "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+        "url": "https://arxiv.org/abs/2608.13522",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:03:32 +0000",
+        "id": "0344cde2de76588eb008de24bbf5749c7368315c",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "6400b6ee702033362a2993b4b45958ef6307208e",
+        "canonicalUrl": "https://arxiv.org/abs/2608.13522",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.13522",
+            "source": "Hacker News Newest",
+            "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+            "titleZh": "Vero：AI代理能否构建形式化验证的软件仓库？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Vero：AI代理能否构建形式化验证的软件仓库？"
+      },
+      {
+        "title": "Roundtables: The \"Censorship-Industrial Complex\" Idea Shaping US Policy",
+        "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:01:52 +0000",
+        "id": "f7fe0830558c4061ae721da01dc7fb12662663cd",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "285bdd821b7f4a2e8482c59fc03ad62a788b728b",
+        "canonicalUrl": "https://technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+            "source": "Hacker News Newest",
+            "title": "Roundtables: The \"Censorship-Industrial Complex\" Idea Shaping US Policy",
+            "titleZh": "圆桌讨论：塑造美国政策的“审查-工业综合体”理念"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "圆桌讨论：塑造美国政策的“审查-工业综合体”理念"
+      },
+      {
+        "title": "Writing code isn't the bottleneck anymore, reading is",
+        "url": "https://threedots.tech/post/understanding-code-is-bottleneck/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 11:01:21 +0000",
+        "id": "af89e2ab019e47b5bc8097abd902102f3d6a5ccc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "da8491d00cd290a214dd98060de5163a401ed1af",
+        "canonicalUrl": "https://threedots.tech/post/understanding-code-is-bottleneck",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://threedots.tech/post/understanding-code-is-bottleneck/",
+            "source": "Hacker News Newest",
+            "title": "Writing code isn't the bottleneck anymore, reading is",
+            "titleZh": "编写代码不再是瓶颈，阅读才是"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "编写代码不再是瓶颈，阅读才是"
+      },
+      {
+        "title": "Being 'good at business' can be bad for business – how enshittification happens",
+        "url": "https://dwyer.co.za/static/being-good-at-business-can-be-bad-for-business-how-enshittification-happens.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:57:15 +0000",
+        "id": "1b89b8d9aa792199628c9b298f313193eb9b1b1b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fba1779404d5ba46e5609258089268568f750098",
+        "canonicalUrl": "https://dwyer.co.za/static/being-good-at-business-can-be-bad-for-business-how-enshittification-happens.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dwyer.co.za/static/being-good-at-business-can-be-bad-for-business-how-enshittification-happens.html",
+            "source": "Hacker News Newest",
+            "title": "Being 'good at business' can be bad for business – how enshittification happens",
+            "titleZh": "“擅长商业”可能对商业不利——劣化是如何发生的"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“擅长商业”可能对商业不利——劣化是如何发生的"
+      },
+      {
+        "title": "Show HN: Health medical messaging with ER7 pipe-hat and Rust",
+        "url": "https://news.ycombinator.com/item?id=49318858",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:53:22 +0000",
+        "id": "ad5ac75677df40f859fcea7c753babfb38101fa3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "efe1e12c8f224a39c4227b80d06317374c4e538f",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49318858",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49318858",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Health medical messaging with ER7 pipe-hat and Rust",
+            "titleZh": "展示HN：使用ER7管道帽和Rust的健康医疗消息传递"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：使用ER7管道帽和Rust的健康医疗消息传递"
+      },
+      {
+        "title": "The first anti-AI protester to be jailed has a message: 'Regain your humanity'",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:53:16 +0000",
+        "id": "3e60e86546878abcddc5028cf496aff52a17410c",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "8ed23f2461c9aa01da4be3a97dc32e06b30e3bb9",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman",
+            "source": "Hacker News Newest",
+            "title": "The first anti-AI protester to be jailed has a message: 'Regain your humanity'",
+            "titleZh": "首位因反AI抗议而入狱者传递信息：“重拾你的人性”"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "首位因反AI抗议而入狱者传递信息：“重拾你的人性”"
+      },
+      {
+        "title": "The 'Country Hicks' Who Refused $26M from an AI Data Center",
+        "url": "https://www.wsj.com/tech/ai/ai-data-center-rural-america-backlash-c0af4e16",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:49:36 +0000",
+        "id": "3a2d22f69915f23ae813ccfb4b7345c6e9b0ab90",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "f0a08c58f08a4a8137e28ee657cdaa087225de1d",
+        "canonicalUrl": "https://wsj.com/tech/ai/ai-data-center-rural-america-backlash-c0af4e16",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/tech/ai/ai-data-center-rural-america-backlash-c0af4e16",
+            "source": "Hacker News Newest",
+            "title": "The 'Country Hicks' Who Refused $26M from an AI Data Center",
+            "titleZh": "拒绝AI数据中心2600万美元的‘乡下人’"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "拒绝AI数据中心2600万美元的‘乡下人’"
+      },
+      {
+        "title": "Deriving human size from fundamental constants",
+        "url": "https://twitter.com/fermatslibrary/status/2088283075801170383",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:48:54 +0000",
+        "id": "162c3fa41bdd7194fe66fad619428f6ca5c04368",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3d083a4c677a14409d25702ac4992189536a8007",
+        "canonicalUrl": "https://twitter.com/fermatslibrary/status/2088283075801170383",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/fermatslibrary/status/2088283075801170383",
+            "source": "Hacker News Newest",
+            "title": "Deriving human size from fundamental constants",
+            "titleZh": "从基本常数推导人类体型"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "从基本常数推导人类体型"
+      },
+      {
+        "title": "What happened at Id Software with layoffs [video]",
+        "url": "https://www.youtube.com/watch?v=aA64Ogzm_VU",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:47:23 +0000",
+        "id": "7972ebca7e507a24b2c96608db3cef0bf2403bf8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "97531c113a4abc3eaa82e07ab95928316a48dfb4",
+        "canonicalUrl": "https://youtube.com/watch?v=aA64Ogzm_VU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=aA64Ogzm_VU",
+            "source": "Hacker News Newest",
+            "title": "What happened at Id Software with layoffs [video]",
+            "titleZh": "Id Software裁员事件始末 [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Id Software裁员事件始末 [视频]"
+      },
+      {
+        "title": "AetherGrid – Distributed AI compute orchestration without K8s",
+        "url": "https://github.com/wycliffRotich-dev/aethergrid",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:47:04 +0000",
+        "id": "cc420deed451a3894c5ddb90c87e3d0f87cfd71c",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "f1fdb19a160d1bd2e3a8c8bc9bfd5916e0f1681a",
+        "canonicalUrl": "https://github.com/wycliffRotich-dev/aethergrid",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/wycliffRotich-dev/aethergrid",
+            "source": "Hacker News Newest",
+            "title": "AetherGrid – Distributed AI compute orchestration without K8s",
+            "titleZh": "AetherGrid——无需K8s的分布式AI计算编排"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AetherGrid——无需K8s的分布式AI计算编排"
+      },
+      {
+        "title": "Punkt. MC03 Sovereign Smartphone Made in Europe",
+        "url": "https://www.punkt.ch/products/mc03-premium-secure-smartphone",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:44:56 +0000",
+        "id": "8505d6a00d29c8f97631ee0746afd36bdd7be84f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "05c857792ea02e91667ddcbdad8eccadd8b1cef8",
+        "canonicalUrl": "https://punkt.ch/products/mc03-premium-secure-smartphone",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.punkt.ch/products/mc03-premium-secure-smartphone",
+            "source": "Hacker News Newest",
+            "title": "Punkt. MC03 Sovereign Smartphone Made in Europe",
+            "titleZh": "Punkt. MC03 Sovereign智能手机，欧洲制造"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Punkt. MC03 Sovereign智能手机，欧洲制造"
+      },
+      {
+        "title": "Simulating Humans at Scale: Simile's Joon Sung Park [video]",
+        "url": "https://www.youtube.com/watch?v=lfhFmwcESRw",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:44:18 +0000",
+        "id": "e63cf055256ea6f91a7a4a557dd7464ef8e1472b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "533f1adc36ed8e150072b28e07f075ebc9efc9b4",
+        "canonicalUrl": "https://youtube.com/watch?v=lfhFmwcESRw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=lfhFmwcESRw",
+            "source": "Hacker News Newest",
+            "title": "Simulating Humans at Scale: Simile's Joon Sung Park [video]",
+            "titleZh": "大规模模拟人类：Simile的Joon Sung Park [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "大规模模拟人类：Simile的Joon Sung Park [视频]"
+      },
+      {
+        "title": "Lawnmower-Like Enzyme Rewinds Decades of Molecular Aging in Human Tissue",
+        "url": "https://www.the-scientist.com/lawnmower-like-enzyme-rewinds-decades-of-molecular-aging-in-human-tissue-74728",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T11:16:02.650Z",
+        "pubDate": "Sun, 16 Aug 2026 10:42:46 +0000",
+        "id": "e727041151d1f7ef8d55b3c4b4fc2fbc1eed7e82",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8c2056c799f33d2cafe7984cc3056038490c5420",
+        "canonicalUrl": "https://the-scientist.com/lawnmower-like-enzyme-rewinds-decades-of-molecular-aging-in-human-tissue-74728",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.the-scientist.com/lawnmower-like-enzyme-rewinds-decades-of-molecular-aging-in-human-tissue-74728",
+            "source": "Hacker News Newest",
+            "title": "Lawnmower-Like Enzyme Rewinds Decades of Molecular Aging in Human Tissue",
+            "titleZh": "割草机式酶逆转人体组织数十年的分子老化"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "割草机式酶逆转人体组织数十年的分子老化"
       }
     ]
   },
-  "lastFetchAt": "2026-08-16T10:47:37.947Z"
+  "lastFetchAt": "2026-08-16T11:15:56.844Z"
 }
