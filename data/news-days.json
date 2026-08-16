@@ -32949,11 +32949,12 @@
         "isPriority": true,
         "eventId": "dd946b53be060a21c7b370ddf3ffef23223f9cde",
         "canonicalUrl": "https://peterbloem.nl/blog/craft-coding",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -33728,10 +33729,11 @@
         "isPriority": true,
         "eventId": "93fe96aa58701eb26cafe4f335611fbe15256504",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "AP News via Google News"
         ],
         "relatedLinks": [
           {
@@ -34993,20 +34995,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/world/2026/aug/16/ukrainian-drone-attack-on-russia-wildberries-warehouse-fire",
-            "source": "Guardian World",
-            "title": "‘Massive’ Ukrainian drone attack on Russia kills at least six, says Moscow",
-            "titleZh": "莫斯科称乌克兰对俄罗斯发动“大规模”无人机袭击，至少造成6人死亡"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZW93d2d5UGpOUm1INzFUdlpuNF92MkNaTFVDVjRaYWpFel9EQkNhN1N6VmFRV1ZGOWw1SnYydnpPMVVabGhMZ0FZRThrblNKY005RGc5UHNuNFVpUzY1UnRZeFg4VndlVk5QMlZ3NVlHMld6M29tRmx1aEVLdmdxRjBPWkNuS1VaNC1HYkctMFprZjZoVWZHUjU4a0xtcWxkWUZoYWRkanE?oc=5",
             "source": "Google News",
             "title": "‘Massive’ Ukrainian drone attack on Russia kills at least six, says Moscow - The Guardian",
+            "titleZh": "莫斯科称乌克兰对俄罗斯发动“大规模”无人机袭击，至少造成6人死亡"
+          },
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/16/ukrainian-drone-attack-on-russia-wildberries-warehouse-fire",
+            "source": "Guardian World",
+            "title": "‘Massive’ Ukrainian drone attack on Russia kills at least six, says Moscow",
             "titleZh": "莫斯科称乌克兰对俄罗斯发动“大规模”无人机袭击，至少造成6人死亡"
           }
         ],
@@ -40114,10 +40116,11 @@
         "isPriority": true,
         "eventId": "9899e7dc29d42a83043efa6f8c8164bcffe7ade0",
         "canonicalUrl": "https://medium.com/tech-ai-chat/the-seven-weaknesses-of-ai-today-eee66aaa9c10",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -40157,10 +40160,11 @@
         "isPriority": true,
         "eventId": "6cb023d29fdbf628507edc79b1b98528b877936e",
         "canonicalUrl": "https://wildstatic.com/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -41102,10 +41106,11 @@
         "isPriority": false,
         "eventId": "080fc2b92b9d6578c813165c9e4ca0ad32b32e67",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOekM5VXhLY1NEVEZnWUFWdzdpd3VnekF5UUkzdzQxSDFLWnJpbHlzN2ZQU2hwTDRVcWthLTJMWmNWUjVQdXRyejZwNllFMm1TNHFSZ05DQjBVQXc3Z01Tc3BiX29TVHVwNlhfakI5eHl5UTZmUm82VGtaR3o2eF9UODl3RHZQTHFwQ2RxdjJqLTJoaHVJSUFSdTBQV3VIdw",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "AP News via Google News"
         ],
         "relatedLinks": [
           {
@@ -41320,16 +41325,23 @@
         "isPriority": false,
         "eventId": "e4cd2077778f35e8bcd2f07f049918f237da5778",
         "canonicalUrl": "https://wired.com/story/black-hole-stars-are-becoming-less-hypothetical",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Google News"
         ],
         "relatedLinks": [
           {
             "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
             "source": "Hacker News Newest",
             "title": "Astronomers Discover the Existence of a Black Hole Star",
+            "titleZh": "天文学家发现黑洞恒星的存在"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamNyTUJzNkNNdUhILTZKeGRIeE4yU1FITk5lWnFMX3lXdWh2RUQ2TWJSVW50bkNqQ0ZXWDFQWWNNRTh3dk5KNG15RElCVGhVd3loS1pVengzZHVvTWdMdzkxYlZESzlNUVpXeVZmQ0lxdVQyWFRRRFJra1pXVVE4bTlR?oc=5",
+            "source": "Google News",
+            "title": "Astronomers Discover the Existence of a Black Hole Star - WIRED",
             "titleZh": "天文学家发现黑洞恒星的存在"
           }
         ],
@@ -41591,10 +41603,11 @@
         "isPriority": true,
         "eventId": "fdd19b7ef05ea911a542689ad0f5b31a481b416a",
         "canonicalUrl": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -41646,8 +41659,1269 @@
         "language": "",
         "languages": [],
         "titleZh": "我始终回归的系统设计规则"
+      },
+      {
+        "title": "低价团曝出“转卖游客、赌团”内幕 总台曝光暑期游乱象",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678793.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T14:17:50.837Z",
+        "pubDate": "Sun, 16 Aug 2026 22:09:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "62104d7d3c8a596cad4b6943af1974eeef737737",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f75550df610b96ab1f87ed4a528ce13102251366",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-16/10678793.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678793.shtml",
+            "source": "中国新闻网",
+            "title": "低价团曝出“转卖游客、赌团”内幕 总台曝光暑期游乱象",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "日媒：高市政权回避历史反省 要警惕其“回归战前”的政策动向",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T14:17:50.837Z",
+        "pubDate": "Sun, 16 Aug 2026 22:02:10 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8f7fd0527ff6c2c77a911df640a834b233fec0f5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3a2348750ca0fe52c36955db3dac53b0439cfe1e",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-16/10678789.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml",
+            "source": "中国新闻网",
+            "title": "日媒：高市政权回避历史反省 要警惕其“回归战前”的政策动向",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Iran executes man convicted of running over police during January protests - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-16T14:17:51.239Z",
+        "pubDate": "Sun, 16 Aug 2026 10:50:26 GMT",
+        "id": "ed06013af795ff04de020f63431a37b9d2e571bf",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "伊朗",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "92ae4ebc1ed30fbd1ba377131c27eb489723d62a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Iran executes man convicted of running over police during January protests - Reuters",
+            "titleZh": "伊朗处决一名在1月抗议活动中驾车碾压警察的男子 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊朗处决一名在1月抗议活动中驾车碾压警察的男子 - 路透社"
+      },
+      {
+        "title": "Logies 2026: Sam Pang wins gold and Sam Neill wins posthumous best actor at Australia’s TV awards",
+        "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/logies-2026-sam-pang-gold-logie-sam-neill-win-awards",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T14:17:50.786Z",
+        "pubDate": "Sun, 16 Aug 2026 14:01:53 GMT",
+        "id": "1e9ff48fe1b275ade42bc27d682cbc41f1d8ee2f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "186009f08ead613c894ba00c70ac4271f902278a",
+        "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/aug/17/logies-2026-sam-pang-gold-logie-sam-neill-win-awards",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/logies-2026-sam-pang-gold-logie-sam-neill-win-awards",
+            "source": "Guardian World",
+            "title": "Logies 2026: Sam Pang wins gold and Sam Neill wins posthumous best actor at Australia’s TV awards",
+            "titleZh": "2026年洛吉奖：萨姆·庞获金奖，萨姆·尼尔追授最佳男演员奖，在澳大利亚电视颁奖礼上"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026年洛吉奖：萨姆·庞获金奖，萨姆·尼尔追授最佳男演员奖，在澳大利亚电视颁奖礼上"
+      },
+      {
+        "title": "Deepfake Anthony Albanese used in celebrity scams duping Australians out of $7.4m, Asic warns",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/17/deepfake-anthony-albanese-used-in-celebrity-scams-duping-australians-out-of-74m-asic-warns",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T14:17:50.786Z",
+        "pubDate": "Sun, 16 Aug 2026 14:01:27 GMT",
+        "id": "e3d1f5520a73d286061081a2b84c8e461a12e927",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ad24a3851ced8cbcb4199d7e5bd2a7cfd445aa3f",
+        "canonicalUrl": "https://theguardian.com/australia-news/2026/aug/17/deepfake-anthony-albanese-used-in-celebrity-scams-duping-australians-out-of-74m-asic-warns",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/aug/17/deepfake-anthony-albanese-used-in-celebrity-scams-duping-australians-out-of-74m-asic-warns",
+            "source": "Guardian World",
+            "title": "Deepfake Anthony Albanese used in celebrity scams duping Australians out of $7.4m, Asic warns",
+            "titleZh": "深度伪造安东尼·阿尔巴内塞被用于名人骗局，骗走澳大利亚人740万澳元，Asic警告"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "深度伪造安东尼·阿尔巴内塞被用于名人骗局，骗走澳大利亚人740万澳元，Asic警告"
+      },
+      {
+        "title": "‘Absolutely manic’: hot weather puts unprecedented pressure on Greater Manchester police",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/16/absolutely-manic-hot-weather-puts-unprecedented-pressure-on-greater-manchester-police",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T14:17:50.786Z",
+        "pubDate": "Sun, 16 Aug 2026 14:00:27 GMT",
+        "id": "da5cb85942c61db7ec575f059c651c44e4566c3e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3d0a9a6c5a4e8e960b8dd14deb219ab83d7c288f",
+        "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/16/absolutely-manic-hot-weather-puts-unprecedented-pressure-on-greater-manchester-police",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/aug/16/absolutely-manic-hot-weather-puts-unprecedented-pressure-on-greater-manchester-police",
+            "source": "Guardian World",
+            "title": "‘Absolutely manic’: hot weather puts unprecedented pressure on Greater Manchester police",
+            "titleZh": "‘极度疯狂’：炎热天气给大曼彻斯特警方带来前所未有的压力"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "‘极度疯狂’：炎热天气给大曼彻斯特警方带来前所未有的压力"
+      },
+      {
+        "title": "‘She is a hero’: 13-year-old survivor of Michigan shooting rampage called 911",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/michigan-shooting-girl-survives",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T14:17:50.786Z",
+        "pubDate": "Sun, 16 Aug 2026 14:01:06 GMT",
+        "id": "77b9b4e8739bce4416a03f7e7bd0776acaf18fff",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "53fb2347ea54baae3cad9dec02bd3ee52f8241f0",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/16/michigan-shooting-girl-survives",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/16/michigan-shooting-girl-survives",
+            "source": "Guardian World",
+            "title": "‘She is a hero’: 13-year-old survivor of Michigan shooting rampage called 911",
+            "titleZh": "‘她是英雄’：密歇根枪击案13岁幸存者拨打911"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "‘她是英雄’：密歇根枪击案13岁幸存者拨打911"
+      },
+      {
+        "title": "A Free-for-All in Alaska as 17 Candidates Compete to Be Governor - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhMMmZ2aEcyTGxFejVfZE94YnZES2FpX3B0ZDNUVFBBZm1FSURVcFpNX2pTMWhrWWotbm5HYmVLM2VPME1hS0ZEbHZ1Vzl6dGVOZ2FTSmtVZVNxenN5MVJMMkNyT25nXzJmeEhQc0c3a2k2cWJHYnVXN0ZFbUQ5NkNB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T14:17:50.814Z",
+        "pubDate": "Sun, 16 Aug 2026 09:00:42 GMT",
+        "id": "1cc5669800bb7336b1c400d5ff9c7b01f71c3f44",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e07db86a41ec37686f5ad841aaff29ebd88898b6",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhMMmZ2aEcyTGxFejVfZE94YnZES2FpX3B0ZDNUVFBBZm1FSURVcFpNX2pTMWhrWWotbm5HYmVLM2VPME1hS0ZEbHZ1Vzl6dGVOZ2FTSmtVZVNxenN5MVJMMkNyT25nXzJmeEhQc0c3a2k2cWJHYnVXN0ZFbUQ5NkNB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhMMmZ2aEcyTGxFejVfZE94YnZES2FpX3B0ZDNUVFBBZm1FSURVcFpNX2pTMWhrWWotbm5HYmVLM2VPME1hS0ZEbHZ1Vzl6dGVOZ2FTSmtVZVNxenN5MVJMMkNyT25nXzJmeEhQc0c3a2k2cWJHYnVXN0ZFbUQ5NkNB?oc=5",
+            "source": "Google News",
+            "title": "A Free-for-All in Alaska as 17 Candidates Compete to Be Governor - The New York Times",
+            "titleZh": "阿拉斯加17名候选人角逐州长，一场混战 - 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "阿拉斯加17名候选人角逐州长，一场混战 - 《纽约时报》"
+      },
+      {
+        "title": "UK-made drones strike targets inside Russia - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMURGdXE1bU1fVnQtdnZLa3FDOXRUVXBqMnEyaktVeFlOd2tHTnJHZ19FQzNuWmVyTU4xRHRDWFRMajNuT3RKZk5VWTI3aFFvOWRwYVMwbTc4Zw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T14:17:50.814Z",
+        "pubDate": "Sun, 16 Aug 2026 12:22:25 GMT",
+        "id": "55d3fc753a50aec315292f3fd9cd9094976854a8",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "Russia"
+        ],
+        "isPriority": true,
+        "eventId": "e13436e5361fd9ab6148f74d490e1e0c186e20d6",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMURGdXE1bU1fVnQtdnZLa3FDOXRUVXBqMnEyaktVeFlOd2tHTnJHZ19FQzNuWmVyTU4xRHRDWFRMajNuT3RKZk5VWTI3aFFvOWRwYVMwbTc4Zw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMURGdXE1bU1fVnQtdnZLa3FDOXRUVXBqMnEyaktVeFlOd2tHTnJHZ19FQzNuWmVyTU4xRHRDWFRMajNuT3RKZk5VWTI3aFFvOWRwYVMwbTc4Zw?oc=5",
+            "source": "Google News",
+            "title": "UK-made drones strike targets inside Russia - BBC",
+            "titleZh": "英国制造的无人机打击俄罗斯境内目标 - BBC"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英国制造的无人机打击俄罗斯境内目标 - BBC"
+      },
+      {
+        "title": "Apple’s first foldable could reshape its entire iPhone launch - thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbktLVHhyV0FPY0t4M3NZeS10LS1QSUZXMFNUaXVjNXd0amR0UnZCVVNtYlMzWDBOU2pLV1o5Mk1qZll3RXZkMnRmN0UycW9wZzlJTnNGU0lCcGJwNHFWd1JQUkFJNV9qM0sxbTVjRVZIZ1lrZWJGclNveGpKakZSSDZqTkxSM1lhX0RUdGt2SEt5Nll3d001dE9TRTE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T14:17:50.814Z",
+        "pubDate": "Sat, 15 Aug 2026 21:03:00 GMT",
+        "id": "72fa89bb2d4a9631947c2cb13e84728e2d5a81ec",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d2856b3b85fe3c93ec7876603ab65b8d232e358a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbktLVHhyV0FPY0t4M3NZeS10LS1QSUZXMFNUaXVjNXd0amR0UnZCVVNtYlMzWDBOU2pLV1o5Mk1qZll3RXZkMnRmN0UycW9wZzlJTnNGU0lCcGJwNHFWd1JQUkFJNV9qM0sxbTVjRVZIZ1lrZWJGclNveGpKakZSSDZqTkxSM1lhX0RUdGt2SEt5Nll3d001dE9TRTE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbktLVHhyV0FPY0t4M3NZeS10LS1QSUZXMFNUaXVjNXd0amR0UnZCVVNtYlMzWDBOU2pLV1o5Mk1qZll3RXZkMnRmN0UycW9wZzlJTnNGU0lCcGJwNHFWd1JQUkFJNV9qM0sxbTVjRVZIZ1lrZWJGclNveGpKakZSSDZqTkxSM1lhX0RUdGt2SEt5Nll3d001dE9TRTE?oc=5",
+            "source": "Google News",
+            "title": "Apple’s first foldable could reshape its entire iPhone launch - thestreet.com",
+            "titleZh": "苹果首款折叠屏可能重塑其整个iPhone发布 - thestreet.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "苹果首款折叠屏可能重塑其整个iPhone发布 - thestreet.com"
+      },
+      {
+        "title": "Bruce Willis photographed at daughter’s wedding in rare appearance since dementia diagnosis - The Independent",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFhuYXFEeVZ1VDFVazhHbnh0X2dBTl9Ubktwb1p0dE5FMlNqcmtsQU90MVo0MFZaX0RWR3hJMHhkWWNGdkFtYzdmVndvVnEwSWxFVmFycGhuRFV0QzRCZHp4YnJUUHJsdVJlc3JxNWNjMUttcnpvTnFZM2FjTkRKQm4zVXYtdDhyVk1rUlVuNUdnem1tLWFxc3JYdXZTQ3g5aHlKMEpfcXZ0QmpmWGc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T14:17:50.814Z",
+        "pubDate": "Sat, 15 Aug 2026 22:54:00 GMT",
+        "id": "7134941b3335fa7fa486deba9b1ac233771703b2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5c3dcb7b09cac19dd380ad077eb4d458bd5d5c00",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFhuYXFEeVZ1VDFVazhHbnh0X2dBTl9Ubktwb1p0dE5FMlNqcmtsQU90MVo0MFZaX0RWR3hJMHhkWWNGdkFtYzdmVndvVnEwSWxFVmFycGhuRFV0QzRCZHp4YnJUUHJsdVJlc3JxNWNjMUttcnpvTnFZM2FjTkRKQm4zVXYtdDhyVk1rUlVuNUdnem1tLWFxc3JYdXZTQ3g5aHlKMEpfcXZ0QmpmWGc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFhuYXFEeVZ1VDFVazhHbnh0X2dBTl9Ubktwb1p0dE5FMlNqcmtsQU90MVo0MFZaX0RWR3hJMHhkWWNGdkFtYzdmVndvVnEwSWxFVmFycGhuRFV0QzRCZHp4YnJUUHJsdVJlc3JxNWNjMUttcnpvTnFZM2FjTkRKQm4zVXYtdDhyVk1rUlVuNUdnem1tLWFxc3JYdXZTQ3g5aHlKMEpfcXZ0QmpmWGc?oc=5",
+            "source": "Google News",
+            "title": "Bruce Willis photographed at daughter’s wedding in rare appearance since dementia diagnosis - The Independent",
+            "titleZh": "布鲁斯·威利斯在女儿婚礼上罕见露面，自痴呆症确诊以来首次 - 《独立报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "布鲁斯·威利斯在女儿婚礼上罕见露面，自痴呆症确诊以来首次 - 《独立报》"
+      },
+      {
+        "title": "Lani Pallister takes down Katie Ledecky for second straight night at Pan Pacs - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakdES0ZiRHgzNXRNaXlKaW5uaVVGRWU2WUZ5d2xGa3I2bFdyMEVMY01qNG1BQ3BUWEM3RTFBS0RDVW1KdXVXOG0ycjFQSzlXY0o3MTlmMTZ0NTh6bUhrWlhibGZuVmlmTWlhc1U0ZTZfcmNDWW1RVnNERW9tQUJiVVoxcEI3S2E2U0w4RDNuRjBhZXdYMVFVLVdiRms?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T14:17:50.814Z",
+        "pubDate": "Sun, 16 Aug 2026 12:34:00 GMT",
+        "id": "871d20c5bb95c176725eca58b125c52f99d2426c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6a33a53120dd90b309f2cf762c8c717853247145",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakdES0ZiRHgzNXRNaXlKaW5uaVVGRWU2WUZ5d2xGa3I2bFdyMEVMY01qNG1BQ3BUWEM3RTFBS0RDVW1KdXVXOG0ycjFQSzlXY0o3MTlmMTZ0NTh6bUhrWlhibGZuVmlmTWlhc1U0ZTZfcmNDWW1RVnNERW9tQUJiVVoxcEI3S2E2U0w4RDNuRjBhZXdYMVFVLVdiRms",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakdES0ZiRHgzNXRNaXlKaW5uaVVGRWU2WUZ5d2xGa3I2bFdyMEVMY01qNG1BQ3BUWEM3RTFBS0RDVW1KdXVXOG0ycjFQSzlXY0o3MTlmMTZ0NTh6bUhrWlhibGZuVmlmTWlhc1U0ZTZfcmNDWW1RVnNERW9tQUJiVVoxcEI3S2E2U0w4RDNuRjBhZXdYMVFVLVdiRms?oc=5",
+            "source": "Google News",
+            "title": "Lani Pallister takes down Katie Ledecky for second straight night at Pan Pacs - The New York Times",
+            "titleZh": "拉尼·帕利斯特连续第二晚在泛太平洋锦标赛上击败凯蒂·莱德基 - 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "拉尼·帕利斯特连续第二晚在泛太平洋锦标赛上击败凯蒂·莱德基 - 《纽约时报》"
+      },
+      {
+        "title": "US oil reserves are so low, the caverns holding them could be damaged",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/strategic-petroleum-reserve-trump-iran-war-gas-prices-b3033680.html",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-16T14:17:51.133Z",
+        "pubDate": "Sun, 16 Aug 2026 12:49:56 +0000",
+        "id": "780c9015c0a92ff19b7438224282bdcb1a1583dc",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "da605cbbfe91d9c81b47bd8403da77a9d57d4142",
+        "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/strategic-petroleum-reserve-trump-iran-war-gas-prices-b3033680.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/strategic-petroleum-reserve-trump-iran-war-gas-prices-b3033680.html",
+            "source": "Hacker News Frontpage",
+            "title": "US oil reserves are so low, the caverns holding them could be damaged",
+            "titleZh": "美国石油储备如此之低，储存它们的岩洞可能受损"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国石油储备如此之低，储存它们的岩洞可能受损"
+      },
+      {
+        "title": "Show HN: SelfUniversity – learn system engineering via interactive puzzles",
+        "url": "https://news.ycombinator.com/item?id=49320280",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:12:54 +0000",
+        "id": "fc4921e079fc244baae9f39a55f4e4b954d22856",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "44d679138ef3db62c2cb253a0945ebcd13c49dca",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49320280",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49320280",
+            "source": "Hacker News Newest",
+            "title": "Show HN: SelfUniversity – learn system engineering via interactive puzzles",
+            "titleZh": "展示HN：自学大学——通过互动谜题学习系统工程"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：自学大学——通过互动谜题学习系统工程"
+      },
+      {
+        "title": "Taking Pause – All property is theft",
+        "url": "https://www.futilitycloset.com/2026/08/16/taking-pause/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:10:29 +0000",
+        "id": "87fa581cecba098108873fa3808365a43746e0e5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "66f915e5602c1b37d13f561ceaf8e13763d2cbde",
+        "canonicalUrl": "https://futilitycloset.com/2026/08/16/taking-pause",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.futilitycloset.com/2026/08/16/taking-pause/",
+            "source": "Hacker News Newest",
+            "title": "Taking Pause – All property is theft",
+            "titleZh": "暂停思考——所有财产都是盗窃"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "暂停思考——所有财产都是盗窃"
+      },
+      {
+        "title": "China Is Opening the First Regular Cargo Route Through the Arctic",
+        "url": "https://www.wsj.com/world/china-is-opening-the-first-regular-cargo-route-through-the-arctic-445245bc",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:10:28 +0000",
+        "id": "53ebe2f357c735373e76ed196ad26274aea97eb0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c9527a1eb5db0303f5ab4e518743ded8a2aa02e7",
+        "canonicalUrl": "https://wsj.com/world/china-is-opening-the-first-regular-cargo-route-through-the-arctic-445245bc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/world/china-is-opening-the-first-regular-cargo-route-through-the-arctic-445245bc",
+            "source": "Hacker News Newest",
+            "title": "China Is Opening the First Regular Cargo Route Through the Arctic",
+            "titleZh": "中国将开通首条穿越北极的常规货运航线"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "中国将开通首条穿越北极的常规货运航线"
+      },
+      {
+        "title": "Welcome to Toronto, World Capital of the Urban Raccoon",
+        "url": "https://lithub.com/welcome-to-toronto-world-capital-of-the-urban-raccoon/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:07:20 +0000",
+        "id": "327ae6b341fe82a9944a4b23af28c77c70473d67",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5efc1df197e92847715d43794849d3d0536c63e7",
+        "canonicalUrl": "https://lithub.com/welcome-to-toronto-world-capital-of-the-urban-raccoon",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lithub.com/welcome-to-toronto-world-capital-of-the-urban-raccoon/",
+            "source": "Hacker News Newest",
+            "title": "Welcome to Toronto, World Capital of the Urban Raccoon",
+            "titleZh": "欢迎来到多伦多，城市浣熊之都"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "欢迎来到多伦多，城市浣熊之都"
+      },
+      {
+        "title": "Show HN: Offshoot – Copy-on-write branching for stock SQLite files",
+        "url": "https://github.com/sricola/offshoot",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:02:31 +0000",
+        "id": "d88f4a6d68a23f11665fcf414aa002a489d137d7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eb9af4b1041e8f38efcb23adb71343d1e8514620",
+        "canonicalUrl": "https://github.com/sricola/offshoot",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/sricola/offshoot",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Offshoot – Copy-on-write branching for stock SQLite files",
+            "titleZh": "展示HN：Offshoot——标准SQLite文件的写时复制分支"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Offshoot——标准SQLite文件的写时复制分支"
+      },
+      {
+        "title": "Show HN: AmitabhC – a programming language made of Amitabh Bachchan dialogues",
+        "url": "https://github.com/jay123anta/amitabhc",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:02:15 +0000",
+        "id": "f5d789db32d8026996955393f4be233f7933131c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eae7640ee59d53180dcbe55910e10f03abbef9e2",
+        "canonicalUrl": "https://github.com/jay123anta/amitabhc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/jay123anta/amitabhc",
+            "source": "Hacker News Newest",
+            "title": "Show HN: AmitabhC – a programming language made of Amitabh Bachchan dialogues",
+            "titleZh": "展示HN：AmitabhC——一种由阿米塔布·巴强台词构成的编程语言"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：AmitabhC——一种由阿米塔布·巴强台词构成的编程语言"
+      },
+      {
+        "title": "Show HN: ponzy.io – I made a casual trading game you can play in the browser",
+        "url": "https://ponzy.io",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:01:44 +0000",
+        "id": "6979b7515613d31a04246f62b975b08023b87ec0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e7d3688a0a4bf0757110dab1bf3b372882e8035e",
+        "canonicalUrl": "https://ponzy.io/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://ponzy.io",
+            "source": "Hacker News Newest",
+            "title": "Show HN: ponzy.io – I made a casual trading game you can play in the browser",
+            "titleZh": "展示HN：ponzy.io——我制作了一款可在浏览器中游玩的休闲交易游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：ponzy.io——我制作了一款可在浏览器中游玩的休闲交易游戏"
+      },
+      {
+        "title": "I thought I was building a C replacement. I was wrong",
+        "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 14:00:50 +0000",
+        "id": "0f024eabac8ff976198a88c10f0792d205e4b5dd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b7304c44b572acb751be22f0fc2844833cf06acb",
+        "canonicalUrl": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement/",
+            "source": "Hacker News Newest",
+            "title": "I thought I was building a C replacement. I was wrong",
+            "titleZh": "我以为我在构建C语言的替代品。我错了"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我以为我在构建C语言的替代品。我错了"
+      },
+      {
+        "title": "*Rats!* (1994) source code reconstruction using Qwen 3.8",
+        "url": "https://github.com/neuromancer/rats-re",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:59:06 +0000",
+        "id": "58acb507ced5e17c33f7bb40b9950cd3a61ca7b7",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Qwen"
+        ],
+        "isPriority": true,
+        "eventId": "3e022ebf56f0ffaa1cecf4d3fc6760529ed52c74",
+        "canonicalUrl": "https://github.com/neuromancer/rats-re",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/neuromancer/rats-re",
+            "source": "Hacker News Newest",
+            "title": "*Rats!* (1994) source code reconstruction using Qwen 3.8",
+            "titleZh": "*老鼠！*（1994年）使用Qwen 3.8进行源代码重建"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "*老鼠！*（1994年）使用Qwen 3.8进行源代码重建"
+      },
+      {
+        "title": "Anthropic revenue reportedly jumps to more than $11.5B in second quarter",
+        "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:58:17 +0000",
+        "id": "d8e0bbbc8fcf429a86c8a2216bf49af1e49c1ab8",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "5dc558b63d094d1b4a463746cd066de759677f0f",
+        "canonicalUrl": "https://cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+            "source": "Hacker News Newest",
+            "title": "Anthropic revenue reportedly jumps to more than $11.5B in second quarter",
+            "titleZh": "据报道，Anthropic第二季度收入跃升至超过115亿美元"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "据报道，Anthropic第二季度收入跃升至超过115亿美元"
+      },
+      {
+        "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+        "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:57:46 +0000",
+        "id": "4eee071cdce21ef0e8b23113af25a9bb17b71d02",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "35657da075dd00f8613e07c05fed756e40d41793",
+        "canonicalUrl": "https://bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+            "source": "Hacker News Newest",
+            "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+            "titleZh": "新型Evooo1Bot Linux僵尸网络将路由器变成流量中继节点"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "新型Evooo1Bot Linux僵尸网络将路由器变成流量中继节点"
+      },
+      {
+        "title": "Show HN: LookTwice – validation APIs that don't turn outages into invalid data",
+        "url": "https://looktwice.dev/tools",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:57:41 +0000",
+        "id": "c7251ec43b7b0a0798c4b203dc6204a6a2251350",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c96e9a88a403529be7de38ce9cbbc4c411162a9a",
+        "canonicalUrl": "https://looktwice.dev/tools",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://looktwice.dev/tools",
+            "source": "Hacker News Newest",
+            "title": "Show HN: LookTwice – validation APIs that don't turn outages into invalid data",
+            "titleZh": "展示HN：LookTwice——验证API不会将中断转化为无效数据"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：LookTwice——验证API不会将中断转化为无效数据"
+      },
+      {
+        "title": "Can Anthropic's invisible watermarks curb AI slop? Researchers remain sceptical",
+        "url": "https://www.nature.com/articles/d41586-026-02503-7",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:56:21 +0000",
+        "id": "5f5f30bc46c74fe58ecb41100f6ed4f5e1f44026",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "12bae8e062e89f7474e6b2141379bb721b1d2b71",
+        "canonicalUrl": "https://nature.com/articles/d41586-026-02503-7",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nature.com/articles/d41586-026-02503-7",
+            "source": "Hacker News Newest",
+            "title": "Can Anthropic's invisible watermarks curb AI slop? Researchers remain sceptical",
+            "titleZh": "Anthropic的隐形水印能遏制AI垃圾内容吗？研究人员仍持怀疑态度"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Anthropic的隐形水印能遏制AI垃圾内容吗？研究人员仍持怀疑态度"
+      },
+      {
+        "title": "My first website passed the Adsense review",
+        "url": "https://news.ycombinator.com/item?id=49320114",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:55:42 +0000",
+        "id": "4607ce41aed9044e07daa961418874c41eb13bc6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "67c7b1fb3682ad9bb7309abcdcfeac47e3e93c54",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49320114",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49320114",
+            "source": "Hacker News Newest",
+            "title": "My first website passed the Adsense review",
+            "titleZh": "我的第一个网站通过了Adsense审核"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我的第一个网站通过了Adsense审核"
+      },
+      {
+        "title": "The Private Messenger That's Simple",
+        "url": "https://z-text.org/privatemessengeractuallysimple/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:55:32 +0000",
+        "id": "9557a6ea232fb4df0836fac9a642f3d4bdebfeb7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6026484702576d03eeefa4585e8f1acad6f35cfc",
+        "canonicalUrl": "https://z-text.org/privatemessengeractuallysimple",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://z-text.org/privatemessengeractuallysimple/",
+            "source": "Hacker News Newest",
+            "title": "The Private Messenger That's Simple",
+            "titleZh": "简单易用的私密通讯应用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "简单易用的私密通讯应用"
+      },
+      {
+        "title": "CEO of Anthropic on the messaging around AI",
+        "url": "https://twitter.com/DarioAmodei/status/2088758819304443967",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:54:50 +0000",
+        "id": "bc5cbb18f70e71fc2ab6cf7b551161490fa7424b",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能",
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "bbc698f17cf6caf57276bcc1772855a4fd0fdecf",
+        "canonicalUrl": "https://twitter.com/DarioAmodei/status/2088758819304443967",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/DarioAmodei/status/2088758819304443967",
+            "source": "Hacker News Newest",
+            "title": "CEO of Anthropic on the messaging around AI",
+            "titleZh": "Anthropic首席执行官谈人工智能相关的信息传递"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Anthropic首席执行官谈人工智能相关的信息传递"
+      },
+      {
+        "title": "Success Is a Clean Cut",
+        "url": "https://julienreszka.com/blog/success-is-a-clean-cut/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:54:39 +0000",
+        "id": "7af64b78aafcad8fd4ca7b8f28265090be3db555",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "36d416bcb994629ba725379c8966d90f0240ae17",
+        "canonicalUrl": "https://julienreszka.com/blog/success-is-a-clean-cut",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://julienreszka.com/blog/success-is-a-clean-cut/",
+            "source": "Hacker News Newest",
+            "title": "Success Is a Clean Cut",
+            "titleZh": "成功在于干净利落"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "成功在于干净利落"
+      },
+      {
+        "title": "From Coding to Orchestrating: New Role of the Software Engineer",
+        "url": "https://blog.lunatech.com/posts/2026-05-19-from-coding-to-orchestrating/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:54:33 +0000",
+        "id": "ddb2be84e587b61325ddd5e2e37454dc3ef97362",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7b4a846f7a915ccabe36bee2cf3ab82de5674938",
+        "canonicalUrl": "https://blog.lunatech.com/posts/2026-05-19-from-coding-to-orchestrating",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.lunatech.com/posts/2026-05-19-from-coding-to-orchestrating/",
+            "source": "Hacker News Newest",
+            "title": "From Coding to Orchestrating: New Role of the Software Engineer",
+            "titleZh": "从编码到编排：软件工程师的新角色"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "从编码到编排：软件工程师的新角色"
+      },
+      {
+        "title": "Show HN: Kungfu – Keep coding-agent work alive across sessions and handoffs",
+        "url": "https://github.com/kungfu-systems/kungfu",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:53:42 +0000",
+        "id": "c508650dd7c7ecd89fb94658b33094d3483953e6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "843f522809cfa415f993171a63185bf61173cd08",
+        "canonicalUrl": "https://github.com/kungfu-systems/kungfu",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/kungfu-systems/kungfu",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Kungfu – Keep coding-agent work alive across sessions and handoffs",
+            "titleZh": "Show HN：Kungfu——让编码代理的工作在会话和交接中保持活跃"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Kungfu——让编码代理的工作在会话和交接中保持活跃"
+      },
+      {
+        "title": "The Folly of Tokenmaxxing or Reinventing the Wheel",
+        "url": "https://age-of-product.com/folly-tokenmaxxing/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T14:17:54.432Z",
+        "pubDate": "Sun, 16 Aug 2026 13:53:22 +0000",
+        "id": "d2bcea8597f4484e40a7a44fe2517c4e14bab4dc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "89b20cea28f2fc7f88bbaed85cc0c5369bb3f7cd",
+        "canonicalUrl": "https://age-of-product.com/folly-tokenmaxxing",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://age-of-product.com/folly-tokenmaxxing/",
+            "source": "Hacker News Newest",
+            "title": "The Folly of Tokenmaxxing or Reinventing the Wheel",
+            "titleZh": "Tokenmaxxing的愚蠢，或重新发明轮子"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Tokenmaxxing的愚蠢，或重新发明轮子"
+      },
+      {
+        "title": "Protecting the Rust standard library from accidental breakage",
+        "url": "https://predr.ag/blog/protecting-the-rust-stdlib-from-breakage/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-16T14:17:51.225Z",
+        "pubDate": "Sun, 16 Aug 2026 08:59:09 -0500",
+        "id": "0ac465f8676ad70f271866970b3de6bc39d09205",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "190e95fc0f13e7d96d440bf6f7289eba06f7028f",
+        "canonicalUrl": "https://predr.ag/blog/protecting-the-rust-stdlib-from-breakage",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://predr.ag/blog/protecting-the-rust-stdlib-from-breakage/",
+            "source": "Lobsters RSS",
+            "title": "Protecting the Rust standard library from accidental breakage",
+            "titleZh": "保护Rust标准库免受意外破坏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "保护Rust标准库免受意外破坏"
       }
     ]
   },
-  "lastFetchAt": "2026-08-16T13:52:54.262Z"
+  "lastFetchAt": "2026-08-16T14:17:49.846Z"
 }
