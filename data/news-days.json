@@ -2870,7 +2870,7 @@
           {
             "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMUl1eTVsMHVkaVpUS0Y3SXVicEl6T09oUkNrNE91cWtqUi1qeXVKLVlRdEZyUE1uY0lQcmowckFWbjMzTVpreHYtMWVNbkRORXNuQ3FGdXViT3NZMjRCQWVYRFk3ekZyeWQzQnYyUW4yLVVBS0lMNkRsWXV0ZUxMNjdWMTVhNENtZVBvLW4wbEhVZ1c2WFBKM2FFay1xYjQ1Y2d6VnBKY0dtNWphUU5B?oc=5",
             "source": "AP News via Google News",
-            "title": "5 people shot at Virginia State University as police investigate multiple suspects - AP News",
+            "title": "Police have arrested a 19-year-old in connection with Virginia State University shooting - AP News",
             "titleZh": "弗吉尼亚州立大学5人被枪击，警方调查多名嫌疑人 - 美联社新闻"
           },
           {
@@ -3025,11 +3025,12 @@
         "isPriority": true,
         "eventId": "574f388cd14f8bf0c595dd46a5d9107e5f5bc9f6",
         "canonicalUrl": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -16626,10 +16627,11 @@
         "isPriority": true,
         "eventId": "576b719de6def081e6685e1ec1c827b005ecdc6f",
         "canonicalUrl": "https://anthropic.com/research/multiagent-systems",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -18467,10 +18469,11 @@
         "isPriority": false,
         "eventId": "fe37b7704c180c4af9b9338c337841b70e65718c",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-16/10678533.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网财经"
+          "中国新闻网财经",
+          "中国新闻网"
         ],
         "relatedLinks": [
           {
@@ -18481,7 +18484,8 @@
           }
         ],
         "categories": [
-          "财经"
+          "财经",
+          "综合"
         ],
         "regions": [
           "中国"
@@ -18954,10 +18958,11 @@
         "isPriority": false,
         "eventId": "a9b18821c18d6bccbcbf959f3a77a4cc516a6bb9",
         "canonicalUrl": "https://nntaleb.substack.com/p/have-another-drink",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -19110,10 +19115,11 @@
         "isPriority": false,
         "eventId": "5d7da5792dd0fd7d70f3e8ee0fe308b0d25c7fb1",
         "canonicalUrl": "https://landing.draftera.ai/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -19463,8 +19469,1060 @@
         "language": "",
         "languages": [],
         "titleZh": "在 PyPI 上实现可重现构建还缺少什么"
+      },
+      {
+        "title": "（走进中国乡村）桑树育绿链 广西山村引来东盟取经客",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678548.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 12:15:51 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3151d52b7dc7f4244cbd94aa92d2db4e8dd4a856",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c0f0a3bce3cac10bf1e6b6e01e13b1a1315c1f5e",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-16/10678548.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678548.shtml",
+            "source": "中国新闻网",
+            "title": "（走进中国乡村）桑树育绿链 广西山村引来东盟取经客",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "香江观澜：外籍人才纷至沓来 彰显香港由治及兴吸引力",
+        "url": "https://www.chinanews.com.cn/dwq/2026/08-16/10678549.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 12:14:25 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3041b2a25a8e936b771e3fa2becece75b7fbabf9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "564a4ae20bb10bd861e26f02e611eab2ad249af0",
+        "canonicalUrl": "https://chinanews.com.cn/dwq/2026/08-16/10678549.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/dwq/2026/08-16/10678549.shtml",
+            "source": "中国新闻网",
+            "title": "香江观澜：外籍人才纷至沓来 彰显香港由治及兴吸引力",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "开渔季到来 刚买的海鲜可以带上高铁吗？",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678546.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 12:08:33 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "af694ce68439fdfd08d0c15ba5f590809a768401",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dc2f6aac176f01ee760e9e9b40f1cd38ee56f505",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-16/10678546.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678546.shtml",
+            "source": "中国新闻网",
+            "title": "开渔季到来 刚买的海鲜可以带上高铁吗？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "千帆竞发！开渔时刻即将到来",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678545.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 12:06:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "da7d8158f13f30744753cfdf787de689fd002d2f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5fddb3b26d062026389cebc054982afcb64e51df",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-16/10678545.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678545.shtml",
+            "source": "中国新闻网",
+            "title": "千帆竞发！开渔时刻即将到来",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "洪秀柱：大海是联结两岸的天然纽带 民俗根脉是任何政治力量割裂不了的",
+        "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-16/news1065556.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 11:46:26 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0b6f83ce1cdf977683e731c96e23d42c48d5fb23",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1ce8298ecf210ad29623d8fd244486e9a00d2630",
+        "canonicalUrl": "http://chinanews.com.cn/sh/shipin/cns-d/2026/08-16/news1065556.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-16/news1065556.shtml",
+            "source": "中国新闻网",
+            "title": "洪秀柱：大海是联结两岸的天然纽带 民俗根脉是任何政治力量割裂不了的",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "应急管理部调派13支排涝队伍在河南周口开展排涝作业",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678540.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 11:41:11 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "26d2f94cd71d7affe4fa11a8f67ccf452c9dc7d2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "367a9228a805be3c5c5c9ed2a0ad1470e7318d93",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-16/10678540.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678540.shtml",
+            "source": "中国新闻网",
+            "title": "应急管理部调派13支排涝队伍在河南周口开展排涝作业",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "华裔大学生海南研习行：在“冲浪胜地”感受文旅新风尚",
+        "url": "https://www.chinanews.com.cn/hr/2026/08-16/10678534.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-16T04:31:05.647Z",
+        "pubDate": "Sun, 16 Aug 2026 11:37:53 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b9767d4d9f07b28c5d5a0b0de771011ca74d8b03",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "97cba7881155dadc8e5b680a73c87de60bc2b9a8",
+        "canonicalUrl": "https://chinanews.com.cn/hr/2026/08-16/10678534.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/hr/2026/08-16/10678534.shtml",
+            "source": "中国新闻网",
+            "title": "华裔大学生海南研习行：在“冲浪胜地”感受文旅新风尚",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS1ZVeVR3dkRTVHNDamZQUkxBc0FUS1RVQlh4WnJnM0hESmZYZUhMdkk1a3JaNE9IQUFMT2hGWU1CU1VkYkxCbUVpUGp0YzJNYmU2U05tZ2ViNE5hWVVnZUtyUW0zNjVLMk9IRDBVSzR0cTFlY0dsUDRGUXlEaWlFUFN5Qk5LTnJkQ0R5NDRpSUpiWmFoQVpKQ2VHaHJIY0o5SmN2OUE5Zm1ndw?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-16T04:31:06.030Z",
+        "pubDate": "Sun, 16 Aug 2026 03:18:00 GMT",
+        "id": "339ff50f083ae7ab14d4d530d601b3f764bed0de",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "28b253314780c42cb7d049271c5d95340196cfb1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS1ZVeVR3dkRTVHNDamZQUkxBc0FUS1RVQlh4WnJnM0hESmZYZUhMdkk1a3JaNE9IQUFMT2hGWU1CU1VkYkxCbUVpUGp0YzJNYmU2U05tZ2ViNE5hWVVnZUtyUW0zNjVLMk9IRDBVSzR0cTFlY0dsUDRGUXlEaWlFUFN5Qk5LTnJkQ0R5NDRpSUpiWmFoQVpKQ2VHaHJIY0o5SmN2OUE5Zm1ndw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS1ZVeVR3dkRTVHNDamZQUkxBc0FUS1RVQlh4WnJnM0hESmZYZUhMdkk1a3JaNE9IQUFMT2hGWU1CU1VkYkxCbUVpUGp0YzJNYmU2U05tZ2ViNE5hWVVnZUtyUW0zNjVLMk9IRDBVSzR0cTFlY0dsUDRGUXlEaWlFUFN5Qk5LTnJkQ0R5NDRpSUpiWmFoQVpKQ2VHaHJIY0o5SmN2OUE5Zm1ndw?oc=5",
+            "source": "AP News via Google News",
+            "title": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere - AP News",
+            "titleZh": "美国撤走亚洲最后一艘航母，特朗普聚焦伊朗和西半球 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国撤走亚洲最后一艘航母，特朗普聚焦伊朗和西半球 - 美联社新闻"
+      },
+      {
+        "title": "Rescue teams search for survivors in Indonesia after powerful earthquake",
+        "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T04:31:05.879Z",
+        "pubDate": "Sun, 16 Aug 2026 03:57:34 GMT",
+        "id": "9dfbbe0e37ea7ca75aeca07e027ad4c78a874063",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1e0e6d8a406a0edff3508a04d335ee2c4225ed56",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
+            "source": "Guardian World",
+            "title": "Rescue teams search for survivors in Indonesia after powerful earthquake",
+            "titleZh": "救援队在印度尼西亚强震后搜寻幸存者"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "救援队在印度尼西亚强震后搜寻幸存者"
+      },
+      {
+        "title": "Destroyed crops, riverbed cyclists and a ‘Rock of Starvation’: how drought has devastated the Danube",
+        "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/16/danube-drought-destroyed-crops-rock-of-starvation-climate-crisis",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T04:31:05.879Z",
+        "pubDate": "Sun, 16 Aug 2026 04:00:15 GMT",
+        "id": "461dd95f5d947b892c70884ac524c3da72038231",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c768919a1b773691320470ad0b7e639e15dd9004",
+        "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/aug/16/danube-drought-destroyed-crops-rock-of-starvation-climate-crisis",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/16/danube-drought-destroyed-crops-rock-of-starvation-climate-crisis",
+            "source": "Guardian World",
+            "title": "Destroyed crops, riverbed cyclists and a ‘Rock of Starvation’: how drought has devastated the Danube",
+            "titleZh": "被摧毁的庄稼、河床上的骑车人和“饥饿之石”：干旱如何重创多瑙河"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "被摧毁的庄稼、河床上的骑车人和“饥饿之石”：干旱如何重创多瑙河"
+      },
+      {
+        "title": "Navy looking into warship redesigns as part of Trump requests - The Hill",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsWEk4R2hYUUpPd05rMlFRQWh4R3pMR3B3dnlIa0tDLV9DR2NaVDRJNHlielBZOWJzSlV3dTZmdWtUTXctc3hUaENHSG8zcjVuYUFfdkJid19PMmFNcjlDQldyZGlJdHhDNkxYeF9yTVk1X2puTkVsMtIBfkFVX3lxTE5maU9ENlpWZ0M1UHBnRDFidDJWZjdDVzNVbk52eFV5ajZaTXZ6TVczSDA2VE9TT3UyS002LUliOFZkbk9ZdkF2OEJPYzJfeU1KR0tfQTNHb2YtZFE5LVoyT1gwZnFvQUt5d0UtWWVCX3hrZTRESnJWaGxDTDZqUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sat, 15 Aug 2026 23:57:00 GMT",
+        "id": "364fc4ec58717ebe40d08dcac9e4ba5248150aa3",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "1dd309e537772e608a4364c7f6a6b4ca97b219d1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsWEk4R2hYUUpPd05rMlFRQWh4R3pMR3B3dnlIa0tDLV9DR2NaVDRJNHlielBZOWJzSlV3dTZmdWtUTXctc3hUaENHSG8zcjVuYUFfdkJid19PMmFNcjlDQldyZGlJdHhDNkxYeF9yTVk1X2puTkVsMtIBfkFVX3lxTE5maU9ENlpWZ0M1UHBnRDFidDJWZjdDVzNVbk52eFV5ajZaTXZ6TVczSDA2VE9TT3UyS002LUliOFZkbk9ZdkF2OEJPYzJfeU1KR0tfQTNHb2YtZFE5LVoyT1gwZnFvQUt5d0UtWWVCX3hrZTRESnJWaGxDTDZqUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsWEk4R2hYUUpPd05rMlFRQWh4R3pMR3B3dnlIa0tDLV9DR2NaVDRJNHlielBZOWJzSlV3dTZmdWtUTXctc3hUaENHSG8zcjVuYUFfdkJid19PMmFNcjlDQldyZGlJdHhDNkxYeF9yTVk1X2puTkVsMtIBfkFVX3lxTE5maU9ENlpWZ0M1UHBnRDFidDJWZjdDVzNVbk52eFV5ajZaTXZ6TVczSDA2VE9TT3UyS002LUliOFZkbk9ZdkF2OEJPYzJfeU1KR0tfQTNHb2YtZFE5LVoyT1gwZnFvQUt5d0UtWWVCX3hrZTRESnJWaGxDTDZqUQ?oc=5",
+            "source": "Google News",
+            "title": "Navy looking into warship redesigns as part of Trump requests - The Hill",
+            "titleZh": "海军研究军舰重新设计，响应特朗普要求 - 《国会山报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "海军研究军舰重新设计，响应特朗普要求 - 《国会山报》"
+      },
+      {
+        "title": "3 Missaukee County shooting victims ID'd by family member - The Detroit News",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY2phVnlRRGJQTW1NLV9Ga1JDdUpjTFMxZDNoX0t5WUxkSko3Y01lX1BFMHdkVmVqdjFaMThsQ3h5V2FvZV9CR21zNUdNSVh4dDZSamJGSkJNRmVsdzRrM3o1bkhNQURQS212NHI5ZlNrVjNxbjVZQjZGZEJ5QWwycHpsX1BuWjREQ0xhUUE4cUlnZ1lsd3pmSXJwcEVIeTc1X3lKeUlmcUhnZDFUS1hrT1RWeXN0RDVuTU5fTVoyMTZ0STdpUEEtTDVhaw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sat, 15 Aug 2026 21:47:00 GMT",
+        "id": "5a6d8c84451c24fa9b41b27c454177b99bcc760a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "edd75437cd62005e2c26f1b9345ac97d95cab380",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY2phVnlRRGJQTW1NLV9Ga1JDdUpjTFMxZDNoX0t5WUxkSko3Y01lX1BFMHdkVmVqdjFaMThsQ3h5V2FvZV9CR21zNUdNSVh4dDZSamJGSkJNRmVsdzRrM3o1bkhNQURQS212NHI5ZlNrVjNxbjVZQjZGZEJ5QWwycHpsX1BuWjREQ0xhUUE4cUlnZ1lsd3pmSXJwcEVIeTc1X3lKeUlmcUhnZDFUS1hrT1RWeXN0RDVuTU5fTVoyMTZ0STdpUEEtTDVhaw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY2phVnlRRGJQTW1NLV9Ga1JDdUpjTFMxZDNoX0t5WUxkSko3Y01lX1BFMHdkVmVqdjFaMThsQ3h5V2FvZV9CR21zNUdNSVh4dDZSamJGSkJNRmVsdzRrM3o1bkhNQURQS212NHI5ZlNrVjNxbjVZQjZGZEJ5QWwycHpsX1BuWjREQ0xhUUE4cUlnZ1lsd3pmSXJwcEVIeTc1X3lKeUlmcUhnZDFUS1hrT1RWeXN0RDVuTU5fTVoyMTZ0STdpUEEtTDVhaw?oc=5",
+            "source": "Google News",
+            "title": "3 Missaukee County shooting victims ID'd by family member - The Detroit News",
+            "titleZh": "密苏基县枪击案3名遇难者身份由家属确认 - 《底特律新闻》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "密苏基县枪击案3名遇难者身份由家属确认 - 《底特律新闻》"
+      },
+      {
+        "title": "Cyclospora spreads through human waste — so how did it get on food? - PBS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQblUyQnBSaXBPUndaNi1YZ3hqRThYWmxhMDNsZmxPTU1hOW1BWV9uQnRwcXdHWlM4VTROTkVIRndJVnVMNjBCRmhCWkZwTjNrNGhIVVVURGhES2EydF9mclh1Z0FSX3Q5UDBzRUxMZVB2MnRHX0lyMkVhVEpYdkZjdUZpVk9VdjBUNWJHRzJGQjYyNHR2Y0ZCUGgxLV90OFhVTVE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sat, 15 Aug 2026 22:34:59 GMT",
+        "id": "bc78e46dfa1fe3d35fd3984fdb60c78a2eddf940",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "16eb28f9b3c1b608957cdd580afb4a91593bc89e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQblUyQnBSaXBPUndaNi1YZ3hqRThYWmxhMDNsZmxPTU1hOW1BWV9uQnRwcXdHWlM4VTROTkVIRndJVnVMNjBCRmhCWkZwTjNrNGhIVVVURGhES2EydF9mclh1Z0FSX3Q5UDBzRUxMZVB2MnRHX0lyMkVhVEpYdkZjdUZpVk9VdjBUNWJHRzJGQjYyNHR2Y0ZCUGgxLV90OFhVTVE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQblUyQnBSaXBPUndaNi1YZ3hqRThYWmxhMDNsZmxPTU1hOW1BWV9uQnRwcXdHWlM4VTROTkVIRndJVnVMNjBCRmhCWkZwTjNrNGhIVVVURGhES2EydF9mclh1Z0FSX3Q5UDBzRUxMZVB2MnRHX0lyMkVhVEpYdkZjdUZpVk9VdjBUNWJHRzJGQjYyNHR2Y0ZCUGgxLV90OFhVTVE?oc=5",
+            "source": "Google News",
+            "title": "Cyclospora spreads through human waste — so how did it get on food? - PBS",
+            "titleZh": "环孢子虫通过人类粪便传播——那么它如何污染食物？ - PBS"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "环孢子虫通过人类粪便传播——那么它如何污染食物？ - PBS"
+      },
+      {
+        "title": "BREAKING: Millennium Falcon: Smuggler's Run Coming to Fortnite, Will Interact at Parks - WDW News Today",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeVhRYzBfdDNEeVdOUjVjYWVDU3lQdkpxMExDRk1jMk12LXkwZ1RIa0UtVzNKWThWY2tRTmIwdW92dDRROFZhN0lkOENCTlZfN2hHVHZoOWtCUUNhVlUza2J1RUZKWUJaeUZ2OGpPRXBMQ2FBMkNPdWF2XzJRR081R2tTMUthUEZydWk3LTFXMA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sat, 15 Aug 2026 23:12:43 GMT",
+        "id": "3c78cc1288ff73d1b9e66f3fe11699da8fca36f7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "64ec10a090291d3cec57599074eeb294d6166f34",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeVhRYzBfdDNEeVdOUjVjYWVDU3lQdkpxMExDRk1jMk12LXkwZ1RIa0UtVzNKWThWY2tRTmIwdW92dDRROFZhN0lkOENCTlZfN2hHVHZoOWtCUUNhVlUza2J1RUZKWUJaeUZ2OGpPRXBMQ2FBMkNPdWF2XzJRR081R2tTMUthUEZydWk3LTFXMA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeVhRYzBfdDNEeVdOUjVjYWVDU3lQdkpxMExDRk1jMk12LXkwZ1RIa0UtVzNKWThWY2tRTmIwdW92dDRROFZhN0lkOENCTlZfN2hHVHZoOWtCUUNhVlUza2J1RUZKWUJaeUZ2OGpPRXBMQ2FBMkNPdWF2XzJRR081R2tTMUthUEZydWk3LTFXMA?oc=5",
+            "source": "Google News",
+            "title": "BREAKING: Millennium Falcon: Smuggler's Run Coming to Fortnite, Will Interact at Parks - WDW News Today",
+            "titleZh": "突发：千年隼号走私者逃亡即将登陆《堡垒之夜》，将在乐园互动 - WDW新闻今日"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "突发：千年隼号走私者逃亡即将登陆《堡垒之夜》，将在乐园互动 - WDW新闻今日"
+      },
+      {
+        "title": "Basketball HOF class of 2026 honors women's hoops, NBA icons - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk1MTlY3NzNIRVZTcDZwU0ViM08yVFZIX3ZFYndaNXVhdXhuaFFVYXNqODdHMkM1UEhzWWVTekRtWlNnRUhFNXdnNjNITEN2M19keXY5dmE3WHZtQk9wMVdyazhKZGpOX2FpTFhvUVEydVpqOVotdGtzR3A4N3NSRzN6R1lIZ0FqV0oyZVEtOWhlWUZNZjFjcFZfS3k4cE1fTVE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sun, 16 Aug 2026 02:11:00 GMT",
+        "id": "46f4e506ebd5a8069c5d04c002378d3f80160f93",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a60c8efead0bcc28d7380a4d6254f4f9862a61b6",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk1MTlY3NzNIRVZTcDZwU0ViM08yVFZIX3ZFYndaNXVhdXhuaFFVYXNqODdHMkM1UEhzWWVTekRtWlNnRUhFNXdnNjNITEN2M19keXY5dmE3WHZtQk9wMVdyazhKZGpOX2FpTFhvUVEydVpqOVotdGtzR3A4N3NSRzN6R1lIZ0FqV0oyZVEtOWhlWUZNZjFjcFZfS3k4cE1fTVE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk1MTlY3NzNIRVZTcDZwU0ViM08yVFZIX3ZFYndaNXVhdXhuaFFVYXNqODdHMkM1UEhzWWVTekRtWlNnRUhFNXdnNjNITEN2M19keXY5dmE3WHZtQk9wMVdyazhKZGpOX2FpTFhvUVEydVpqOVotdGtzR3A4N3NSRzN6R1lIZ0FqV0oyZVEtOWhlWUZNZjFjcFZfS3k4cE1fTVE?oc=5",
+            "source": "Google News",
+            "title": "Basketball HOF class of 2026 honors women's hoops, NBA icons - ESPN",
+            "titleZh": "2026年篮球名人堂致敬女篮与NBA传奇 - ESPN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026年篮球名人堂致敬女篮与NBA传奇 - ESPN"
+      },
+      {
+        "title": "Seahawks, Devon Witherspoon agree to 4-year, $132 million extension: Sources - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV211eXhHQzM3TDk3UjdLYmRHdERLMnQtWHNSSTkwVEhaQzhyQjNTQ2NiNDVaZk85UXdsaUlySkw3YjgwN091N0NIUlAyR2wwVTVpM0JRSS0tZnVCSVU0N0UtS0l4U1RSWVRYdkFsRDh6ODI3MEFGMmk1MTFyRlRZTzdzeXdvQmlUcE40eXFvTkhIWkFQQUNMVlVBdVZlS1k?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sat, 15 Aug 2026 16:40:35 GMT",
+        "id": "7c76cb0e1bd2d30237161477ef938a2aaf6fc49b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7d79e4f6c1e3bb204fd141107aaa648332dda281",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV211eXhHQzM3TDk3UjdLYmRHdERLMnQtWHNSSTkwVEhaQzhyQjNTQ2NiNDVaZk85UXdsaUlySkw3YjgwN091N0NIUlAyR2wwVTVpM0JRSS0tZnVCSVU0N0UtS0l4U1RSWVRYdkFsRDh6ODI3MEFGMmk1MTFyRlRZTzdzeXdvQmlUcE40eXFvTkhIWkFQQUNMVlVBdVZlS1k",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV211eXhHQzM3TDk3UjdLYmRHdERLMnQtWHNSSTkwVEhaQzhyQjNTQ2NiNDVaZk85UXdsaUlySkw3YjgwN091N0NIUlAyR2wwVTVpM0JRSS0tZnVCSVU0N0UtS0l4U1RSWVRYdkFsRDh6ODI3MEFGMmk1MTFyRlRZTzdzeXdvQmlUcE40eXFvTkhIWkFQQUNMVlVBdVZlS1k?oc=5",
+            "source": "Google News",
+            "title": "Seahawks, Devon Witherspoon agree to 4-year, $132 million extension: Sources - The New York Times",
+            "titleZh": "海鹰队与德文·威瑟斯彭达成4年1.32亿美元续约协议：消息源 - 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "海鹰队与德文·威瑟斯彭达成4年1.32亿美元续约协议：消息源 - 《纽约时报》"
+      },
+      {
+        "title": "28-year-old father of 6 killed at Cleveland-Cliffs Northwest Indiana mill in Burns Harbor - nwitimes.com",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbXFDVV9jSE5OYXhGUzhKVm5jcnFfTnZGQnhkdmJHMFl3WXMxd2RTczdITzRWNTNTY3RLalQ5Q0VzZGdQYm5yQU9LUy1GLUVWNXlEak90Q3NmYnJFMThrOE5sd2VIYkt3MGtFcUNPSUZFSmlvUkFEa2Z6Z3laa085TjdPNmt5cWxX?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T04:31:05.706Z",
+        "pubDate": "Sat, 15 Aug 2026 21:11:00 GMT",
+        "id": "c3327fd6fc0ba1537ec9ae2b7bbbac976f7cc276",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0f2ffb835ce040a82276648f3e8b4e3bafbf1033",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbXFDVV9jSE5OYXhGUzhKVm5jcnFfTnZGQnhkdmJHMFl3WXMxd2RTczdITzRWNTNTY3RLalQ5Q0VzZGdQYm5yQU9LUy1GLUVWNXlEak90Q3NmYnJFMThrOE5sd2VIYkt3MGtFcUNPSUZFSmlvUkFEa2Z6Z3laa085TjdPNmt5cWxX",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbXFDVV9jSE5OYXhGUzhKVm5jcnFfTnZGQnhkdmJHMFl3WXMxd2RTczdITzRWNTNTY3RLalQ5Q0VzZGdQYm5yQU9LUy1GLUVWNXlEak90Q3NmYnJFMThrOE5sd2VIYkt3MGtFcUNPSUZFSmlvUkFEa2Z6Z3laa085TjdPNmt5cWxX?oc=5",
+            "source": "Google News",
+            "title": "28-year-old father of 6 killed at Cleveland-Cliffs Northwest Indiana mill in Burns Harbor - nwitimes.com",
+            "titleZh": "28岁六孩之父在印第安纳州伯恩斯港克利夫兰-克利夫斯西北印第安纳钢厂遇害 - nwitimes.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "28岁六孩之父在印第安纳州伯恩斯港克利夫兰-克利夫斯西北印第安纳钢厂遇害 - nwitimes.com"
+      },
+      {
+        "title": "I checked 30 frontier model cards. Here are the benchmarks labs report",
+        "url": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-16T04:31:06.040Z",
+        "pubDate": "Sun, 16 Aug 2026 04:02:38 +0000",
+        "id": "42731eb408b69c6e7f792746a8f7ee3cede1bdfe",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9e2bea28aeb34be9432b2b1f2c0ba8357f1f58eb",
+        "canonicalUrl": "https://koutian.is-a.dev/benchmark-radar?view=leaderboard",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
+            "source": "Hacker News Frontpage",
+            "title": "I checked 30 frontier model cards. Here are the benchmarks labs report",
+            "titleZh": "我检查了30个前沿模型卡。以下是实验室报告的基准测试"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我检查了30个前沿模型卡。以下是实验室报告的基准测试"
+      },
+      {
+        "title": "Decentralized Roller Coaster Tracker",
+        "url": "https://aquacoast.net",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 04:21:33 +0000",
+        "id": "edea5df24666dfd747f996f7470dc47657ab8630",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3b1e5b001e34db01deaa09f09966505062822639",
+        "canonicalUrl": "https://aquacoast.net/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://aquacoast.net",
+            "source": "Hacker News Newest",
+            "title": "Decentralized Roller Coaster Tracker",
+            "titleZh": "去中心化过山车追踪器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "去中心化过山车追踪器"
+      },
+      {
+        "title": "Falstad Math and Physics Simulations",
+        "url": "https://www.falstad.com/mathphysics.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 04:19:32 +0000",
+        "id": "30999cec4c4df6e4c3d3f2686472ae835e1ddaa4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "276b3dfa97bfaa6e2b944abbf23a14609c008c48",
+        "canonicalUrl": "https://falstad.com/mathphysics.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.falstad.com/mathphysics.html",
+            "source": "Hacker News Newest",
+            "title": "Falstad Math and Physics Simulations",
+            "titleZh": "Falstad数学与物理模拟"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Falstad数学与物理模拟"
+      },
+      {
+        "title": "Show HN: DSH Plugin Directory – Every DeepSeek Harness Plugin",
+        "url": "https://dshplugin.online/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 04:13:41 +0000",
+        "id": "e22c537a062ae450552b452200a325573d05766d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "DeepSeek"
+        ],
+        "isPriority": true,
+        "eventId": "8a443577cdf850bd5965286ef522d5675d5f33ba",
+        "canonicalUrl": "https://dshplugin.online/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dshplugin.online/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: DSH Plugin Directory – Every DeepSeek Harness Plugin",
+            "titleZh": "Show HN：DSH插件目录——每个DeepSeek Harness插件"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：DSH插件目录——每个DeepSeek Harness插件"
+      },
+      {
+        "title": "21,000 MCP servers exposed: the protocol reaches a security inflection point",
+        "url": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 04:07:18 +0000",
+        "id": "8f5a1b15b1f44846d1ce54fb23b7acc6e7289e65",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "MCP"
+        ],
+        "isPriority": true,
+        "eventId": "9c92574cd980c58abab905999a9df4f2c1c60fb3",
+        "canonicalUrl": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
+            "source": "Hacker News Newest",
+            "title": "21,000 MCP servers exposed: the protocol reaches a security inflection point",
+            "titleZh": "21,000个MCP服务器暴露：协议达到安全拐点"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "21,000个MCP服务器暴露：协议达到安全拐点"
+      },
+      {
+        "title": "Pizza π, A fun fractions game for kids 6-12",
+        "url": "https://pizzapi.vinceroyer.ca/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 04:01:03 +0000",
+        "id": "818ff90b01c92a80ec69d5b9be9ede64d6ccce7d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e219da873e8e0b478edd8528bcd6a227e3fcaae0",
+        "canonicalUrl": "https://pizzapi.vinceroyer.ca/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://pizzapi.vinceroyer.ca/",
+            "source": "Hacker News Newest",
+            "title": "Pizza π, A fun fractions game for kids 6-12",
+            "titleZh": "披萨π，一款面向6-12岁孩子的趣味分数游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "披萨π，一款面向6-12岁孩子的趣味分数游戏"
+      },
+      {
+        "title": "Taliban government supporters dance, take selfies in Kabul celebrations",
+        "url": "https://www.channelnewsasia.com/world/taliban-government-supporters-dance-take-selfies-in-kabul-celebrations-6321626",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 03:58:07 +0000",
+        "id": "4e9ec044aeceedc6308abe590ddfb36597826a53",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "07fa359b4007d41b76968ffe6483762cd9ba05d3",
+        "canonicalUrl": "https://channelnewsasia.com/world/taliban-government-supporters-dance-take-selfies-in-kabul-celebrations-6321626",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.channelnewsasia.com/world/taliban-government-supporters-dance-take-selfies-in-kabul-celebrations-6321626",
+            "source": "Hacker News Newest",
+            "title": "Taliban government supporters dance, take selfies in Kabul celebrations",
+            "titleZh": "塔利班政府支持者在喀布尔庆祝活动中跳舞、自拍"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "塔利班政府支持者在喀布尔庆祝活动中跳舞、自拍"
+      },
+      {
+        "title": "The Live Shopping App Where Some People Bid Until They're Broke",
+        "url": "https://www.wsj.com/business/retail/whatnot-live-shopping-app-48b67987",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 03:57:21 +0000",
+        "id": "5cc3b93df54db6344993ff981c075ada43067087",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a29e484a67a7e3570bd2d3f5f157d41c16fcfbaf",
+        "canonicalUrl": "https://wsj.com/business/retail/whatnot-live-shopping-app-48b67987",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/business/retail/whatnot-live-shopping-app-48b67987",
+            "source": "Hacker News Newest",
+            "title": "The Live Shopping App Where Some People Bid Until They're Broke",
+            "titleZh": "直播购物应用：有人竞拍到倾家荡产"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "直播购物应用：有人竞拍到倾家荡产"
+      },
+      {
+        "title": "Wk. 4 of Vibecoding an MMO",
+        "url": "https://www.eldermyr.com",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 03:54:48 +0000",
+        "id": "93c16c5ec8dfbb0e5f5ac5db64a1c294af7c2a0a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c0870a1f7aac2277aa969428c41be1986966fe0d",
+        "canonicalUrl": "https://eldermyr.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.eldermyr.com",
+            "source": "Hacker News Newest",
+            "title": "Wk. 4 of Vibecoding an MMO",
+            "titleZh": "用Vibecoding开发MMO的第四周"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "用Vibecoding开发MMO的第四周"
+      },
+      {
+        "title": "The 37signals Manager Playbook",
+        "url": "https://basecamp.com/managers",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 03:47:21 +0000",
+        "id": "2815b3f337de150d8184ba1d52ad76135ab77e1a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e2b23244496f764e7dc6c08777eb676f55e198c1",
+        "canonicalUrl": "https://basecamp.com/managers",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://basecamp.com/managers",
+            "source": "Hacker News Newest",
+            "title": "The 37signals Manager Playbook",
+            "titleZh": "37signals管理者手册"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "37signals管理者手册"
+      },
+      {
+        "title": "Hello hoomans, sorry dog owners. Meet Zoomie, a dog activity tracker",
+        "url": "https://testflight.apple.com/join/zHyWmwu6",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T04:31:13.165Z",
+        "pubDate": "Sun, 16 Aug 2026 03:42:41 +0000",
+        "id": "d1a080fb7035ec703c3067c241a7866e998f85f3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4166914c51c72327c8e1f5d2d09648481e261cdc",
+        "canonicalUrl": "https://testflight.apple.com/join/zHyWmwu6",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://testflight.apple.com/join/zHyWmwu6",
+            "source": "Hacker News Newest",
+            "title": "Hello hoomans, sorry dog owners. Meet Zoomie, a dog activity tracker",
+            "titleZh": "你好，人类——抱歉，狗主人们。认识一下Zoomie，一款狗狗活动追踪器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "你好，人类——抱歉，狗主人们。认识一下Zoomie，一款狗狗活动追踪器"
       }
     ]
   },
-  "lastFetchAt": "2026-08-16T03:43:42.243Z"
+  "lastFetchAt": "2026-08-16T04:31:04.890Z"
 }
