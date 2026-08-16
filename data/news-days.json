@@ -1461,14 +1461,14 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Lobsters RSS"
         ],
         "relatedLinks": [
           {
             "url": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
-            "source": "Lobsters RSS",
-            "title": "People of ACM - Russ Cox",
+            "source": "Hacker News Newest",
+            "title": "People of ACM – Russ Cox",
             "titleZh": "ACM人物 - 拉斯·考克斯"
           }
         ],
@@ -5745,10 +5745,11 @@
         "isPriority": true,
         "eventId": "2184c364e3ca6f461fb4f63c1267d80ec374dd83",
         "canonicalUrl": "https://noahpinion.blog/p/23-low-regret-recommendations-for",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -5780,10 +5781,11 @@
         "isPriority": false,
         "eventId": "a3064fb0bb6b0bbc249abbe7df6e9ba8239e4008",
         "canonicalUrl": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -6306,13 +6308,13 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
-            "url": "https://ai-stock-research-kiaan.streamlit.app/",
-            "source": "Hacker News Algolia AI Search",
+            "url": "https://ai-stock-research-kiaan.streamlit.app",
+            "source": "Hacker News Newest",
             "title": "AI Stock Research Assistant · Streamlit",
             "titleZh": "AI股票研究助手 · Streamlit"
           }
@@ -6417,10 +6419,11 @@
         "isPriority": true,
         "eventId": "f44498e141061a87da7f20c517c0cd2974b62abe",
         "canonicalUrl": "https://canonry.ai/blog/claude-appends-year-to-web-searches",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6636,10 +6639,11 @@
         "isPriority": true,
         "eventId": "7307fbe6b30006ace447f6db6f4aac91a9d31525",
         "canonicalUrl": "https://wsj.com/cmo-today/linkedin-wants-users-to-lean-less-on-ai-maybe-a-lot-less-8e03b2aa",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6680,10 +6684,11 @@
         "isPriority": true,
         "eventId": "6ebbf754675b7efe2cc5221afb551105965e8dea",
         "canonicalUrl": "https://youtube.com/watch?v=M0--ZH1lOzg",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6828,10 +6833,11 @@
         "isPriority": true,
         "eventId": "cdfbec2a7f494e62fe2908f05b783d00674055f3",
         "canonicalUrl": "https://manthan.sirune.tech/share.html?token=942df0d3590d422aa74d9b44f5d3ba77",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -6848,8 +6854,1165 @@
         "language": "",
         "languages": [],
         "titleZh": "展示HN：Manthan——一个用于存储带前置条件链接的概念卡的MCP服务器"
+      },
+      {
+        "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia - AP News",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-16T20:16:36.066Z",
+        "pubDate": "Sun, 16 Aug 2026 18:04:00 GMT",
+        "id": "f39379703b4dc1a636bb1992c3017ff0394c3880",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "战争",
+          "俄罗斯",
+          "乌克兰",
+          "Russia",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "93fe96aa58701eb26cafe4f335611fbe15256504",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ?oc=5",
+            "source": "AP News via Google News",
+            "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia - AP News",
+            "titleZh": "乌克兰发动战争以来最大规模空袭之一，在俄罗斯造成至少6人死亡 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "乌克兰发动战争以来最大规模空袭之一，在俄罗斯造成至少6人死亡 - 美联社新闻"
+      },
+      {
+        "title": "Republican senator denounces Trump’s ‘crazy, stupid’ claims about MMR vaccine safety",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T20:16:35.761Z",
+        "pubDate": "Sun, 16 Aug 2026 19:58:31 GMT",
+        "id": "c9b8778f778086146fea25e50324e648b88f054c",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "ebadf2f84f5d75520fa134fc16e96cefa5b11c4e",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+            "source": "Guardian World",
+            "title": "Republican senator denounces Trump’s ‘crazy, stupid’ claims about MMR vaccine safety",
+            "titleZh": "共和党参议员谴责特朗普关于MMR疫苗安全的‘疯狂、愚蠢’言论"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "共和党参议员谴责特朗普关于MMR疫苗安全的‘疯狂、愚蠢’言论"
+      },
+      {
+        "title": "Suspect in Virginia State University shooting found hiding in dorm closet",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/virginia-state-university-shooting-suspect-arrested",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T20:16:35.761Z",
+        "pubDate": "Sun, 16 Aug 2026 19:39:03 GMT",
+        "id": "64c66cf82ccabc08a8a36b3a5fbb0dc61458971c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f8040daa11718f95ae912dd7435f6a8ba5ecc505",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/16/virginia-state-university-shooting-suspect-arrested",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/16/virginia-state-university-shooting-suspect-arrested",
+            "source": "Guardian World",
+            "title": "Suspect in Virginia State University shooting found hiding in dorm closet",
+            "titleZh": "弗吉尼亚州立大学枪击案嫌疑人被发现藏身于宿舍壁橱"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "弗吉尼亚州立大学枪击案嫌疑人被发现藏身于宿舍壁橱"
+      },
+      {
+        "title": "At least six people dead from days of storms and record flooding in Indiana",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-16T20:16:35.761Z",
+        "pubDate": "Sun, 16 Aug 2026 19:27:22 GMT",
+        "id": "3fa20aebd41001297b93f2c86fccf6502d4da3c2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "16502634efec3eabc4eaf0b6647732c39f58eba4",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+            "source": "Guardian World",
+            "title": "At least six people dead from days of storms and record flooding in Indiana",
+            "titleZh": "印第安纳州连日风暴和创纪录洪水已致至少六人死亡"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印第安纳州连日风暴和创纪录洪水已致至少六人死亡"
+      },
+      {
+        "title": "Top US commander visits aircraft carrier, Gaza talks in Egypt and other Mideast news - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnFRcW9HbzBnVEVnSk92am10b0F0NGx4RTJlcjRTY28xQVdwWWxkdGd5eXNMdmxWeEFRQ3BFZEN6bUF1WDVCQkUtTjlrTGdtenNWclIteG9CRTVZdzVNaUJ4Z2FPVE0zaTBEX0RIdlRWMG1ieHRYcWt0dXpWYllGTjRnT2cxVDZwS0FCNEFEZnpJa0c1VXpaTGw0eFJxc251RUVvUmJPVmltWWlJbHBaLUJwd1I?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T20:16:35.743Z",
+        "pubDate": "Sun, 16 Aug 2026 18:55:00 GMT",
+        "id": "d1c9b9bb23ebcb8c560d3906da6c4736faff8f0c",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "加沙",
+          "中东",
+          "Gaza"
+        ],
+        "isPriority": true,
+        "eventId": "b3646e83cf6e911434564d3fe84168abaf22e4ed",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnFRcW9HbzBnVEVnSk92am10b0F0NGx4RTJlcjRTY28xQVdwWWxkdGd5eXNMdmxWeEFRQ3BFZEN6bUF1WDVCQkUtTjlrTGdtenNWclIteG9CRTVZdzVNaUJ4Z2FPVE0zaTBEX0RIdlRWMG1ieHRYcWt0dXpWYllGTjRnT2cxVDZwS0FCNEFEZnpJa0c1VXpaTGw0eFJxc251RUVvUmJPVmltWWlJbHBaLUJwd1I",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnFRcW9HbzBnVEVnSk92am10b0F0NGx4RTJlcjRTY28xQVdwWWxkdGd5eXNMdmxWeEFRQ3BFZEN6bUF1WDVCQkUtTjlrTGdtenNWclIteG9CRTVZdzVNaUJ4Z2FPVE0zaTBEX0RIdlRWMG1ieHRYcWt0dXpWYllGTjRnT2cxVDZwS0FCNEFEZnpJa0c1VXpaTGw0eFJxc251RUVvUmJPVmltWWlJbHBaLUJwd1I?oc=5",
+            "source": "Google News",
+            "title": "Top US commander visits aircraft carrier, Gaza talks in Egypt and other Mideast news - AP News",
+            "titleZh": "美军最高指挥官视察航空母舰、埃及加沙会谈及其他中东新闻 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美军最高指挥官视察航空母舰、埃及加沙会谈及其他中东新闻 - 美联社新闻"
+      },
+      {
+        "title": "Live updates: Jared Kushner meets with regional leaders as multiple conflicts roil the Middle East - CNN",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T20:16:35.743Z",
+        "pubDate": "Sun, 16 Aug 2026 19:25:00 GMT",
+        "id": "7a9a0645b7cf01adbf49029a4d8d1f6d49b5b9ba",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "中东"
+        ],
+        "isPriority": true,
+        "eventId": "b92f3ee44b68f6c264bae5d5a3f9812cf83a6ecd",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+            "source": "Google News",
+            "title": "Live updates: Jared Kushner meets with regional leaders as multiple conflicts roil the Middle East - CNN",
+            "titleZh": "实时更新：贾里德·库什纳会见地区领导人，多重冲突搅动中东 - CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：贾里德·库什纳会见地区领导人，多重冲突搅动中东 - CNN"
+      },
+      {
+        "title": "Meet Dave Brat, the US ambassador who ‘can speak Trump’ in Canberra - Politico",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEFXZXE2ZllUckNpZGpoQktwaDNqQVR6dzczY1ozVHA4MkpHcG1hUndCaTNRQWFNX0lpUHFxUEZnQzM2eC1CVGhnOVpCWjJlcFlhX2dsTkFBSE42QVdFeGx4eFN1ZlBIeWRlcER3LTkta3ZZYmxpelZVR1h0WUdYTTAwc0daWlU?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T20:16:35.743Z",
+        "pubDate": "Sun, 16 Aug 2026 18:45:00 GMT",
+        "id": "43e65340cd5dab17734bf6c3d5dfcec48b8eb719",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "7feba64cf82e0746890708f749c73ced5180fe95",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEFXZXE2ZllUckNpZGpoQktwaDNqQVR6dzczY1ozVHA4MkpHcG1hUndCaTNRQWFNX0lpUHFxUEZnQzM2eC1CVGhnOVpCWjJlcFlhX2dsTkFBSE42QVdFeGx4eFN1ZlBIeWRlcER3LTkta3ZZYmxpelZVR1h0WUdYTTAwc0daWlU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEFXZXE2ZllUckNpZGpoQktwaDNqQVR6dzczY1ozVHA4MkpHcG1hUndCaTNRQWFNX0lpUHFxUEZnQzM2eC1CVGhnOVpCWjJlcFlhX2dsTkFBSE42QVdFeGx4eFN1ZlBIeWRlcER3LTkta3ZZYmxpelZVR1h0WUdYTTAwc0daWlU?oc=5",
+            "source": "Google News",
+            "title": "Meet Dave Brat, the US ambassador who ‘can speak Trump’ in Canberra - Politico",
+            "titleZh": "认识戴夫·布拉特，这位在堪培拉‘能说特朗普语’的美国大使 - Politico"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "认识戴夫·布拉特，这位在堪培拉‘能说特朗普语’的美国大使 - Politico"
+      },
+      {
+        "title": "Brazil's Lula and Flávio Bolsonaro return to their strongholds to kick off presidential campaigns - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTlBoRmhQRUp0V2J5aFNhVEhOSW9FY3pKQkVKdko0UE5vRjN6WjE4VUU3MEdGSTU0UTZ1RVB6Uy02QjJ5eVN4bkx2bHo1UUZscGtWT21EQWhUb2lzWHlrTUctZU9OME5KMF9UMHh5cF9KaFYtZko2QV9GLVc1N0FaLUlsX1czTTNzbk5iOGxFaUpmTnByaEVlUy05UTlTbldORWIxVGhn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T20:16:35.743Z",
+        "pubDate": "Sun, 16 Aug 2026 18:21:00 GMT",
+        "id": "6f17d529ed905cb11fb4bab95d35a5b9f92dde65",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1a14486a8a2c23fdd51613828b5826c19eb06ae4",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTlBoRmhQRUp0V2J5aFNhVEhOSW9FY3pKQkVKdko0UE5vRjN6WjE4VUU3MEdGSTU0UTZ1RVB6Uy02QjJ5eVN4bkx2bHo1UUZscGtWT21EQWhUb2lzWHlrTUctZU9OME5KMF9UMHh5cF9KaFYtZko2QV9GLVc1N0FaLUlsX1czTTNzbk5iOGxFaUpmTnByaEVlUy05UTlTbldORWIxVGhn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTlBoRmhQRUp0V2J5aFNhVEhOSW9FY3pKQkVKdko0UE5vRjN6WjE4VUU3MEdGSTU0UTZ1RVB6Uy02QjJ5eVN4bkx2bHo1UUZscGtWT21EQWhUb2lzWHlrTUctZU9OME5KMF9UMHh5cF9KaFYtZko2QV9GLVc1N0FaLUlsX1czTTNzbk5iOGxFaUpmTnByaEVlUy05UTlTbldORWIxVGhn?oc=5",
+            "source": "Google News",
+            "title": "Brazil's Lula and Flávio Bolsonaro return to their strongholds to kick off presidential campaigns - AP News",
+            "titleZh": "巴西的卢拉和弗拉维奥·博索纳罗返回各自大本营启动总统竞选 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "巴西的卢拉和弗拉维奥·博索纳罗返回各自大本营启动总统竞选 - 美联社新闻"
+      },
+      {
+        "title": "Arsenal cruise to win over Manchester City in Community Shield - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU1FNTkNfZTY0aTA5Y243UDZvWUNhM2FhaVd4MkdWbmdTZERsREdyeWI5S0hZZEdvUFpuZXJTdGQwem5WYW43U3NnT2dESzdfc0I2bUFONGU1N0FibjFEV0YzS2dtTWVET1Rna1RLNWNoc3ZUWjNTUk92aW1lSWV3YmN1NFVEdFMxYmE4OFVtaTdHS3FucVRlQ2lUUWRxdzdhUHBlRnEyNTVxOEFmQkHSAbMBQVVfeXFMTmJGS25nUWgxd2xtRkoyb2pxallyMXZ2VVQ2ZWltQ2NUSEJOVmJrbi1CM0ZqWjktaDlXWThfc3JJV1F3QUltcC1Qb09hdWRXM2pfTnc5SUhpdS15Q3F3RDVELWVfbllILUk5T1Z4WjktSWxpbDkzWWJSdHJwdF9QUDV2RExNdTExeU5QSjdoZzFzdjZkRFFmTm8tM3dGSDlmT3BJMC1IaEdpWTBYLWJnc2Jzdk0?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-16T20:16:35.743Z",
+        "pubDate": "Sun, 16 Aug 2026 16:32:57 GMT",
+        "id": "214aff4377ec0a4f78b6cb522abe3081ed3ee206",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bfb6d449ee2326c526100bd9a4af6b0c28569d04",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU1FNTkNfZTY0aTA5Y243UDZvWUNhM2FhaVd4MkdWbmdTZERsREdyeWI5S0hZZEdvUFpuZXJTdGQwem5WYW43U3NnT2dESzdfc0I2bUFONGU1N0FibjFEV0YzS2dtTWVET1Rna1RLNWNoc3ZUWjNTUk92aW1lSWV3YmN1NFVEdFMxYmE4OFVtaTdHS3FucVRlQ2lUUWRxdzdhUHBlRnEyNTVxOEFmQkHSAbMBQVVfeXFMTmJGS25nUWgxd2xtRkoyb2pxallyMXZ2VVQ2ZWltQ2NUSEJOVmJrbi1CM0ZqWjktaDlXWThfc3JJV1F3QUltcC1Qb09hdWRXM2pfTnc5SUhpdS15Q3F3RDVELWVfbllILUk5T1Z4WjktSWxpbDkzWWJSdHJwdF9QUDV2RExNdTExeU5QSjdoZzFzdjZkRFFmTm8tM3dGSDlmT3BJMC1IaEdpWTBYLWJnc2Jzdk0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU1FNTkNfZTY0aTA5Y243UDZvWUNhM2FhaVd4MkdWbmdTZERsREdyeWI5S0hZZEdvUFpuZXJTdGQwem5WYW43U3NnT2dESzdfc0I2bUFONGU1N0FibjFEV0YzS2dtTWVET1Rna1RLNWNoc3ZUWjNTUk92aW1lSWV3YmN1NFVEdFMxYmE4OFVtaTdHS3FucVRlQ2lUUWRxdzdhUHBlRnEyNTVxOEFmQkHSAbMBQVVfeXFMTmJGS25nUWgxd2xtRkoyb2pxallyMXZ2VVQ2ZWltQ2NUSEJOVmJrbi1CM0ZqWjktaDlXWThfc3JJV1F3QUltcC1Qb09hdWRXM2pfTnc5SUhpdS15Q3F3RDVELWVfbllILUk5T1Z4WjktSWxpbDkzWWJSdHJwdF9QUDV2RExNdTExeU5QSjdoZzFzdjZkRFFmTm8tM3dGSDlmT3BJMC1IaEdpWTBYLWJnc2Jzdk0?oc=5",
+            "source": "Google News",
+            "title": "Arsenal cruise to win over Manchester City in Community Shield - Al Jazeera",
+            "titleZh": "阿森纳在社区盾杯中大胜曼城 - 半岛电视台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "阿森纳在社区盾杯中大胜曼城 - 半岛电视台"
+      },
+      {
+        "title": "Does Fixing Break Security? An Empirical Study of LLM Security Degradation",
+        "url": "https://arxiv.org/abs/2608.13404",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:09:22 +0000",
+        "id": "94572711f68a708ff495a406d77d461df20d1458",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "82e487361b8cf4abb6fbb4a73e8c8a835ea66e31",
+        "canonicalUrl": "https://arxiv.org/abs/2608.13404",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.13404",
+            "source": "Hacker News Newest",
+            "title": "Does Fixing Break Security? An Empirical Study of LLM Security Degradation",
+            "titleZh": "修复会破坏安全性吗？关于LLM安全退化的实证研究"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "修复会破坏安全性吗？关于LLM安全退化的实证研究"
+      },
+      {
+        "title": "Show HN: World Pop – A world map with countries resized by population, 1800–2100",
+        "url": "https://douwe.com/projects/gapmover",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:08:41 +0000",
+        "id": "0e7289a3a91239f35a98e124c67366b93fc775a4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5ff0b05ff21245390c18c0f32febb67858d7b71f",
+        "canonicalUrl": "https://douwe.com/projects/gapmover",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://douwe.com/projects/gapmover",
+            "source": "Hacker News Newest",
+            "title": "Show HN: World Pop – A world map with countries resized by population, 1800–2100",
+            "titleZh": "展示HN：世界人口图——按人口调整大小的世界地图，1800–2100年"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：世界人口图——按人口调整大小的世界地图，1800–2100年"
+      },
+      {
+        "title": "Why Do Prefetchers Fail? Let Agents Answer",
+        "url": "https://arxiv.org/abs/2608.13027",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:08:01 +0000",
+        "id": "00ecae09de3ddebca051e42b20375f1b7eb2ac6d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "智能体"
+        ],
+        "isPriority": true,
+        "eventId": "eb1ae25bc8bd4a0ad065610a4d668520334925af",
+        "canonicalUrl": "https://arxiv.org/abs/2608.13027",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.13027",
+            "source": "Hacker News Newest",
+            "title": "Why Do Prefetchers Fail? Let Agents Answer",
+            "titleZh": "为什么预取器会失败？让智能体来回答"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为什么预取器会失败？让智能体来回答"
+      },
+      {
+        "title": "ChatGPT's Computer History tracks your clicks and keystrokes",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:07:06 +0000",
+        "id": "d96aa3010cea80fb0743c29c16867eaf73f98dd4",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "ChatGPT"
+        ],
+        "isPriority": true,
+        "eventId": "dbab8dbd473784b8e1830c943c02ce59c798fb91",
+        "canonicalUrl": "https://theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+            "source": "Hacker News Newest",
+            "title": "ChatGPT's Computer History tracks your clicks and keystrokes",
+            "titleZh": "ChatGPT的计算机历史记录追踪你的点击和按键"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ChatGPT的计算机历史记录追踪你的点击和按键"
+      },
+      {
+        "title": "Ianal: Woudl the Supreme Court reexamine right to privacy in public?",
+        "url": "https://news.ycombinator.com/item?id=49323165",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:06:25 +0000",
+        "id": "d4a5d6019203ebac8d9ab580a8604c4f8bf5152e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cf94ae93045a60ecc46f85591d8f7253229b8262",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49323165",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49323165",
+            "source": "Hacker News Newest",
+            "title": "Ianal: Woudl the Supreme Court reexamine right to privacy in public?",
+            "titleZh": "伊纳尔：最高法院会重新审视公共场合的隐私权吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊纳尔：最高法院会重新审视公共场合的隐私权吗？"
+      },
+      {
+        "title": "ICE Shot a Journalist and Threw Him in Detention. He's Approaching 300 Days",
+        "url": "https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:05:24 +0000",
+        "id": "4b1c9bcd3adf4a65b2a47fdd9565f794ce9a412e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ccd011269593a685dff609de928d9adf814c05df",
+        "canonicalUrl": "https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles/",
+            "source": "Hacker News Newest",
+            "title": "ICE Shot a Journalist and Threw Him in Detention. He's Approaching 300 Days",
+            "titleZh": "移民海关执法局枪击一名记者并将其拘留。他已被关押近300天"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "移民海关执法局枪击一名记者并将其拘留。他已被关押近300天"
+      },
+      {
+        "title": "Developer Gameshow by the Makers of OpenCode",
+        "url": "https://app.rebase.tv/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:05:18 +0000",
+        "id": "1c900e02c8630c804194c1c49123d0650405879c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f438795abe3a8b4e1ff03c05936d64ea336c93e6",
+        "canonicalUrl": "https://app.rebase.tv/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://app.rebase.tv/",
+            "source": "Hacker News Newest",
+            "title": "Developer Gameshow by the Makers of OpenCode",
+            "titleZh": "OpenCode开发者制作的开发者游戏秀"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "OpenCode开发者制作的开发者游戏秀"
+      },
+      {
+        "title": "Show HN: AI activity discovery that brings all activities to one platform",
+        "url": "https://hyp-e.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:04:37 +0000",
+        "id": "dacdcb76d8a7d9cacfb526dad818c395345fdee8",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "1db4064e81a8e57df24d5df54a03414be624f42b",
+        "canonicalUrl": "https://hyp-e.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://hyp-e.com/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: AI activity discovery that brings all activities to one platform",
+            "titleZh": "展示HN：AI活动发现，将所有活动汇聚到一个平台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：AI活动发现，将所有活动汇聚到一个平台"
+      },
+      {
+        "title": "Tether Completes the Largest Inaugural Financial Audit in History",
+        "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:02:45 +0000",
+        "id": "57417b339f099cfff337782ba5c4359e6070b661",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fce6fca1994fab7c450bf59a9ab80a05017c55fa",
+        "canonicalUrl": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/",
+            "source": "Hacker News Newest",
+            "title": "Tether Completes the Largest Inaugural Financial Audit in History",
+            "titleZh": "Tether完成历史上规模最大的首次财务审计"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Tether完成历史上规模最大的首次财务审计"
+      },
+      {
+        "title": "Red queen hypothesis – a new way forward for self-improving AI",
+        "url": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:01:13 +0000",
+        "id": "a0305a4e3a212864fbd6e24e7cb85a45e9d004cd",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "508d3992a6dcffd00f8d203cb948012c7b688d1e",
+        "canonicalUrl": "https://cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+            "source": "Hacker News Newest",
+            "title": "Red queen hypothesis – a new way forward for self-improving AI",
+            "titleZh": "红皇后假说——自我改进AI的新前进方向"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "红皇后假说——自我改进AI的新前进方向"
+      },
+      {
+        "title": "Show HN: Hacker News Top Stories as Feeds to Use with RSS/Atom with Summaries",
+        "url": "https://textlog.cc/u/hn10",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 20:01:10 +0000",
+        "id": "dff9937a693259d6b3e9f2015b81020871ad9a82",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a6ddcb6dd44b334c3d29c74064f69bd7004b079f",
+        "canonicalUrl": "https://textlog.cc/u/hn10",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://textlog.cc/u/hn10",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Hacker News Top Stories as Feeds to Use with RSS/Atom with Summaries",
+            "titleZh": "展示HN：黑客新闻头条故事作为RSS/Atom订阅源，附摘要"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：黑客新闻头条故事作为RSS/Atom订阅源，附摘要"
+      },
+      {
+        "title": "Show HN: Terraforming with Minimal Founders – Method for Diversity from Two?",
+        "url": "https://github.com/initsixdev/founder-population-init",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:56:31 +0000",
+        "id": "e4d256fe55baa0e9931fa806046881e590277ba7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "93ca6dae53c3bbfb6b34a56f8cafef371744fb27",
+        "canonicalUrl": "https://github.com/initsixdev/founder-population-init",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/initsixdev/founder-population-init",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Terraforming with Minimal Founders – Method for Diversity from Two?",
+            "titleZh": "展示HN：以最少创始人进行地形改造——从两人实现多样性的方法？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：以最少创始人进行地形改造——从两人实现多样性的方法？"
+      },
+      {
+        "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
+        "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:52:47 +0000",
+        "id": "4147de8cbe6588bf1eaa899ba89781f61f7e7fc6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c71a9e1f1b1a02ad705c3640a4ad5fd61d13f64d",
+        "canonicalUrl": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
+            "source": "Hacker News Newest",
+            "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
+            "titleZh": "2026年第二季度末时间线更新：提升与收入"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026年第二季度末时间线更新：提升与收入"
+      },
+      {
+        "title": "Jean Bourgain",
+        "url": "https://en.wikipedia.org/wiki/Jean_Bourgain",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:49:41 +0000",
+        "id": "7e4c22b9badc976510f9a170ed7f0b7250a943fa",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e774a3c8830b5be8b553f56588d8e7e3c791586e",
+        "canonicalUrl": "https://en.wikipedia.org/wiki/Jean_Bourgain",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Jean_Bourgain",
+            "source": "Hacker News Newest",
+            "title": "Jean Bourgain",
+            "titleZh": "让·布尔甘"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "让·布尔甘"
+      },
+      {
+        "title": "Fearing violence, some Metro bus drivers are bucking order to announce fare",
+        "url": "https://www.washingtonpost.com/dc-md-va/2026/08/10/fearing-violence-some-metro-bus-drivers-are-bucking-order-announce-fare/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:49:37 +0000",
+        "id": "c52b10edf9581122cba9b4d359d71f59498edc86",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fbba437eee6c283829b81831a2257396fca6d93f",
+        "canonicalUrl": "https://washingtonpost.com/dc-md-va/2026/08/10/fearing-violence-some-metro-bus-drivers-are-bucking-order-announce-fare",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.washingtonpost.com/dc-md-va/2026/08/10/fearing-violence-some-metro-bus-drivers-are-bucking-order-announce-fare/",
+            "source": "Hacker News Newest",
+            "title": "Fearing violence, some Metro bus drivers are bucking order to announce fare",
+            "titleZh": "因担心暴力，部分地铁公交司机拒绝执行报站命令"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "因担心暴力，部分地铁公交司机拒绝执行报站命令"
+      },
+      {
+        "title": "RIP EJMR (2008-2026)",
+        "url": "https://www.chrisbrunet.com/p/rip-ejmr-2008-2026",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:48:06 +0000",
+        "id": "cc81e6039521201be6bfd90b4f63074d6e770839",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fdef122edd7a2541fab15837ae123b62e4a87049",
+        "canonicalUrl": "https://chrisbrunet.com/p/rip-ejmr-2008-2026",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chrisbrunet.com/p/rip-ejmr-2008-2026",
+            "source": "Hacker News Newest",
+            "title": "RIP EJMR (2008-2026)",
+            "titleZh": "再见，EJMR（2008-2026）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "再见，EJMR（2008-2026）"
+      },
+      {
+        "title": "Stripe Nears Deal to Buy AI Firm OpenRouter for over $7B",
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:47:34 +0000",
+        "id": "b5bec2d302c800278712fb5d0bfe5f633480bd73",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "8a75fa6f6444d418c324bd6d841db2b2d8559ada",
+        "canonicalUrl": "https://news.bloomberglaw.com/mergers-and-acquisitions/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+            "source": "Hacker News Newest",
+            "title": "Stripe Nears Deal to Buy AI Firm OpenRouter for over $7B",
+            "titleZh": "Stripe接近达成以超过70亿美元收购AI公司OpenRouter的交易"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Stripe接近达成以超过70亿美元收购AI公司OpenRouter的交易"
+      },
+      {
+        "title": "Concise Stock Market Research – Instant Revenue Forecasting",
+        "url": "https://alphaedge.web.app/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:43:58 +0000",
+        "id": "1788beb58c32ad84f0e86bcf06ae3c047381d370",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "39148940afd48160e4834afbaee0079783ab37a2",
+        "canonicalUrl": "https://alphaedge.web.app/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://alphaedge.web.app/",
+            "source": "Hacker News Newest",
+            "title": "Concise Stock Market Research – Instant Revenue Forecasting",
+            "titleZh": "简明股市研究——即时营收预测"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "简明股市研究——即时营收预测"
+      },
+      {
+        "title": "Ubuntu is growing faster on Windows 11 than on Linux PCs – Canonical (nonsense?)",
+        "url": "https://www.windowslatest.com/2026/08/16/ubuntu-is-growing-faster-on-windows-11-than-on-native-linux-pcs-says-canonical/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-16T20:16:35.916Z",
+        "pubDate": "Sun, 16 Aug 2026 19:43:54 +0000",
+        "id": "c5c2ece5c9e573bdd2d93c4ec578f2e9153db7a3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2ae08168b575160bba3fecbf0a986f6bca8ee194",
+        "canonicalUrl": "https://windowslatest.com/2026/08/16/ubuntu-is-growing-faster-on-windows-11-than-on-native-linux-pcs-says-canonical",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.windowslatest.com/2026/08/16/ubuntu-is-growing-faster-on-windows-11-than-on-native-linux-pcs-says-canonical/",
+            "source": "Hacker News Newest",
+            "title": "Ubuntu is growing faster on Windows 11 than on Linux PCs – Canonical (nonsense?)",
+            "titleZh": "Ubuntu在Windows 11上的增长速度超过Linux PC——Canonical（胡说？）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Ubuntu在Windows 11上的增长速度超过Linux PC——Canonical（胡说？）"
+      },
+      {
+        "title": "Human Interface Guidelines from various platforms",
+        "url": "https://unsung.aresluna.org/i-think-theres-a-lot-of-value-in-these/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-16T20:16:35.985Z",
+        "pubDate": "Sun, 16 Aug 2026 14:56:03 -0500",
+        "id": "8d17cb463a8b9bea1e65d8657402056192744e92",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7eee7c0a2aed8a141912a7ed76434da7e8c3eed0",
+        "canonicalUrl": "https://unsung.aresluna.org/i-think-theres-a-lot-of-value-in-these",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://unsung.aresluna.org/i-think-theres-a-lot-of-value-in-these/",
+            "source": "Lobsters RSS",
+            "title": "Human Interface Guidelines from various platforms",
+            "titleZh": "各平台人机界面指南"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "各平台人机界面指南"
+      },
+      {
+        "id": "e57396239e29ac4cace9635fd8a975b95c14cfc9",
+        "title": "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'",
+        "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-16T20:16:36.221Z",
+        "pubDate": "2026-08-16T20:14:04Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "acbee828142531d5cec253025d52487892562d14",
+        "canonicalUrl": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'",
+            "titleZh": "Anthropic CEO称AI反弹'从根本上是一场信任危机'"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Anthropic CEO称AI反弹'从根本上是一场信任危机'"
       }
     ]
   },
-  "lastFetchAt": "2026-08-16T19:42:49.154Z"
+  "lastFetchAt": "2026-08-16T20:16:35.226Z"
 }
