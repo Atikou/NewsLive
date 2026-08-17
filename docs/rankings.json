@@ -1,16 +1,16 @@
 {
   "version": 1,
   "generatedAt": "2026-08-17T12:35:42.041Z",
-  "checkedAt": "2026-08-17T12:35:42.041Z",
+  "checkedAt": "2026-08-17T13:36:05.118Z",
   "platforms": {
     "weibo": {
       "id": "weibo",
       "name": "微博",
-      "status": "success",
+      "status": "failed",
       "upstreamStatus": "success",
-      "stale": false,
-      "errorMessage": "",
-      "checkedAt": "2026-08-17T12:35:42.041Z",
+      "stale": true,
+      "errorMessage": "HTTP 500",
+      "checkedAt": "2026-08-17T13:36:05.118Z",
       "updatedAt": "2026-08-17T12:35:45.333Z",
       "items": [
         {
@@ -258,11 +258,11 @@
     "douyin": {
       "id": "douyin",
       "name": "抖音",
-      "status": "success",
+      "status": "failed",
       "upstreamStatus": "success",
-      "stale": false,
-      "errorMessage": "",
-      "checkedAt": "2026-08-17T12:35:42.041Z",
+      "stale": true,
+      "errorMessage": "HTTP 500",
+      "checkedAt": "2026-08-17T13:36:05.118Z",
       "updatedAt": "2026-08-17T12:35:45.325Z",
       "items": [
         {
@@ -510,11 +510,11 @@
     "bilibili": {
       "id": "bilibili",
       "name": "Bilibili",
-      "status": "success",
+      "status": "failed",
       "upstreamStatus": "success",
-      "stale": false,
-      "errorMessage": "",
-      "checkedAt": "2026-08-17T12:35:42.041Z",
+      "stale": true,
+      "errorMessage": "HTTP 500",
+      "checkedAt": "2026-08-17T13:36:05.118Z",
       "updatedAt": "2026-08-17T12:35:45.341Z",
       "items": [
         {
