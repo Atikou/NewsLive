@@ -803,20 +803,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/us-news/2026/aug/17/jon-ossoff-trump-iran-war-criticism",
-            "source": "Guardian World",
-            "title": "Jon Ossoff calls Trump’s handling of Iran war ‘uniquely despicable’ in excoriating speech",
-            "titleZh": "乔恩·奥索夫在激烈演讲中称特朗普对伊朗战争的处理‘格外卑鄙’"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQ1Y2ZWllRVVyN0JmNk1vT1QzNVNaSnBYNFp1VENrUWxRaFljOFo4QkFOUGxkdnQwUlNXVzctV0NrR3Q0eDhGcHhXV3BBNlU2X2V1T1NobHRENjk5SnR6b0tteExFdG83Tm0xTFlPTmszb2NiVTF1Mm1lcTdSalBvMUhkSVdXdkdkQk5V?oc=5",
             "source": "Google News",
             "title": "Jon Ossoff calls Trump’s handling of Iran war ‘uniquely despicable’ in excoriating speech - The Guardian",
+            "titleZh": "乔恩·奥索夫在激烈演讲中称特朗普对伊朗战争的处理‘格外卑鄙’"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/17/jon-ossoff-trump-iran-war-criticism",
+            "source": "Guardian World",
+            "title": "Jon Ossoff calls Trump’s handling of Iran war ‘uniquely despicable’ in excoriating speech",
             "titleZh": "乔恩·奥索夫在激烈演讲中称特朗普对伊朗战争的处理‘格外卑鄙’"
           }
         ],
@@ -1216,10 +1216,11 @@
         "isPriority": false,
         "eventId": "f468c941de9f0b0ab4b990d3221ba30ab52b37f5",
         "canonicalUrl": "https://sunclock.net/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -2203,10 +2204,11 @@
         "isPriority": true,
         "eventId": "b3ef900f2417269daf6e412a3d16a6986dff7531",
         "canonicalUrl": "https://theworkingmodel.co/analysis",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -2238,10 +2240,11 @@
         "isPriority": false,
         "eventId": "d2f7c17dffef7a1c6e299e613a68ec20cd415718",
         "canonicalUrl": "https://interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -2456,10 +2459,11 @@
         "isPriority": true,
         "eventId": "f34f45d8152fb28691b21eeaf38c3e82e1dc2d0d",
         "canonicalUrl": "https://linear.app/data",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -2676,10 +2680,11 @@
         "isPriority": true,
         "eventId": "b7c741fe5f4f83e716b1aba62a53a5f5f3e3683b",
         "canonicalUrl": "https://theconversation.com/ai-companies-look-to-the-ocean-as-a-place-to-put-more-data-centers-289180",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -2895,10 +2900,11 @@
         "isPriority": true,
         "eventId": "fe88e3abd14c9cebf85817198be46da35fed8a58",
         "canonicalUrl": "https://theregister.com/columnists/2026/08/17/be-a-hater-all-you-want-ais-here-to-stay/5288275",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -3081,8 +3087,1429 @@
         "language": "",
         "languages": [],
         "titleZh": "AI治理初学者指南"
+      },
+      {
+        "title": "Trump blames vandals for damaged grass in the spot where he held his big July 4 celebration - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa1RfM19TUU5waDI1Z1ZzRkdGQVlGdVQzdnRlWmVicXVjM0xMMHFRTjZ3QlVyVnVwSW9fa051bW9xRHRDX2NtaHVDNy13UVY3c1phelZmeWstVDQ5cTd1UEtYR2U0cEMwNE1rRU5sbXphMUIzV0hDYm01TlJURmZtZDM3YmRjdHZzeGRac3NubmVQNDlFUG04eHI2REVWTkFYdk56Mkpn?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-17T17:54:12.688Z",
+        "pubDate": "Mon, 17 Aug 2026 17:22:00 GMT",
+        "id": "753df027e712f6aa13b2078ecc6a0a5fb18ff101",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "dfe5b2aa20030e4e40fe76e5731f49e07a4adaa5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa1RfM19TUU5waDI1Z1ZzRkdGQVlGdVQzdnRlWmVicXVjM0xMMHFRTjZ3QlVyVnVwSW9fa051bW9xRHRDX2NtaHVDNy13UVY3c1phelZmeWstVDQ5cTd1UEtYR2U0cEMwNE1rRU5sbXphMUIzV0hDYm01TlJURmZtZDM3YmRjdHZzeGRac3NubmVQNDlFUG04eHI2REVWTkFYdk56Mkpn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa1RfM19TUU5waDI1Z1ZzRkdGQVlGdVQzdnRlWmVicXVjM0xMMHFRTjZ3QlVyVnVwSW9fa051bW9xRHRDX2NtaHVDNy13UVY3c1phelZmeWstVDQ5cTd1UEtYR2U0cEMwNE1rRU5sbXphMUIzV0hDYm01TlJURmZtZDM3YmRjdHZzeGRac3NubmVQNDlFUG04eHI2REVWTkFYdk56Mkpn?oc=5",
+            "source": "AP News via Google News",
+            "title": "Trump blames vandals for damaged grass in the spot where he held his big July 4 celebration - AP News",
+            "titleZh": "特朗普指责破坏者在7月4日盛大庆祝活动地点损坏草坪 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普指责破坏者在7月4日盛大庆祝活动地点损坏草坪 - 美联社新闻"
+      },
+      {
+        "title": "In Bangkok's gun district, traders say Thai crackdown misses the mark - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVGlhOEl4SXZIT09Lcl9vSTU5VnlHMlBramFtN1lCdTFvNDc4bG9XNWdMdkpudlR4Um5zMnFyTThPdHVKVjlMdGlMbk1pam9OOTdzUDFvbHRWT0I0STFyRFhVVDVmTDlnbW5OclZJUzRndlRhREtnVTM5X1AtWllvNUQwOGdHRjltRmdBdGpEbGhCSFYzWm9MRUZfazU0elkyb2VDLTZYNGdvU1RQb3d1VWt0ZmFNQQ?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-17T17:54:12.756Z",
+        "pubDate": "Mon, 17 Aug 2026 16:44:45 GMT",
+        "id": "0046fb497e808913692e0ecfda6df49e8544d98f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "489018ef244b1936ac3c67544e30ba929f4895c4",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVGlhOEl4SXZIT09Lcl9vSTU5VnlHMlBramFtN1lCdTFvNDc4bG9XNWdMdkpudlR4Um5zMnFyTThPdHVKVjlMdGlMbk1pam9OOTdzUDFvbHRWT0I0STFyRFhVVDVmTDlnbW5OclZJUzRndlRhREtnVTM5X1AtWllvNUQwOGdHRjltRmdBdGpEbGhCSFYzWm9MRUZfazU0elkyb2VDLTZYNGdvU1RQb3d1VWt0ZmFNQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVGlhOEl4SXZIT09Lcl9vSTU5VnlHMlBramFtN1lCdTFvNDc4bG9XNWdMdkpudlR4Um5zMnFyTThPdHVKVjlMdGlMbk1pam9OOTdzUDFvbHRWT0I0STFyRFhVVDVmTDlnbW5OclZJUzRndlRhREtnVTM5X1AtWllvNUQwOGdHRjltRmdBdGpEbGhCSFYzWm9MRUZfazU0elkyb2VDLTZYNGdvU1RQb3d1VWt0ZmFNQQ?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "In Bangkok's gun district, traders say Thai crackdown misses the mark - Reuters",
+            "titleZh": "在曼谷枪支区，商贩称泰国打击行动未达目标 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在曼谷枪支区，商贩称泰国打击行动未达目标 - 路透社"
+      },
+      {
+        "title": "Amanda Abbington awarded five-figure sum by BBC over bullying allegations on Strictly",
+        "url": "https://www.theguardian.com/culture/2026/aug/17/amanda-abbington-settlement-bbc-giovanni-pernice-bullying-allegations-strictly-come-dancing",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-17T17:54:12.282Z",
+        "pubDate": "Mon, 17 Aug 2026 17:05:33 GMT",
+        "id": "d8554fe1bb0c4e0e428511ceab35997d35a2d9bd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fb509c88f0498a11ef6c514ac8690cfdcd228939",
+        "canonicalUrl": "https://theguardian.com/culture/2026/aug/17/amanda-abbington-settlement-bbc-giovanni-pernice-bullying-allegations-strictly-come-dancing",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/culture/2026/aug/17/amanda-abbington-settlement-bbc-giovanni-pernice-bullying-allegations-strictly-come-dancing",
+            "source": "Guardian World",
+            "title": "Amanda Abbington awarded five-figure sum by BBC over bullying allegations on Strictly",
+            "titleZh": "阿曼达·阿宾顿因《舞动奇迹》欺凌指控获BBC五位数赔偿"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "阿曼达·阿宾顿因《舞动奇迹》欺凌指控获BBC五位数赔偿"
+      },
+      {
+        "title": "Hayden Panettiere, actor known for \"Heroes\" and \"Remember the Titans,\" dies at 36 - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlb3c4N0FQV1dJRDVMSnlySGN2T25DUFRfalV1SG5IVGFWQmFlaEdBWGdia2d3dE5tY240TjlJSVk1Q25WRmlrVHZMS1dBNG1pbzdQajIwUGl2VVg2eTNGTFVsQ0g1ZFZ0QXc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-17T17:54:12.312Z",
+        "pubDate": "Mon, 17 Aug 2026 17:02:00 GMT",
+        "id": "c2b1e79bce72cfce425ffd01fc02a73e7ce18e0c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d4d9e40a634eb481952ddf2122f092014980e3bb",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlb3c4N0FQV1dJRDVMSnlySGN2T25DUFRfalV1SG5IVGFWQmFlaEdBWGdia2d3dE5tY240TjlJSVk1Q25WRmlrVHZMS1dBNG1pbzdQajIwUGl2VVg2eTNGTFVsQ0g1ZFZ0QXc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlb3c4N0FQV1dJRDVMSnlySGN2T25DUFRfalV1SG5IVGFWQmFlaEdBWGdia2d3dE5tY240TjlJSVk1Q25WRmlrVHZMS1dBNG1pbzdQajIwUGl2VVg2eTNGTFVsQ0g1ZFZ0QXc?oc=5",
+            "source": "Google News",
+            "title": "Hayden Panettiere, actor known for \"Heroes\" and \"Remember the Titans,\" dies at 36 - CBS News",
+            "titleZh": "因《英雄》和《记住泰坦》而闻名的演员海顿·潘妮蒂尔去世，享年36岁 - CBS新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "因《英雄》和《记住泰坦》而闻名的演员海顿·潘妮蒂尔去世，享年36岁 - CBS新闻"
+      },
+      {
+        "title": "Live updates: Trump threatens to bomb US ally Oman as Iran agreement expires - CNN",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-17T17:54:12.312Z",
+        "pubDate": "Mon, 17 Aug 2026 16:58:00 GMT",
+        "id": "d324814429a139b93f7f4cfefafeafeccea5df27",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "bbfd8d162c5c9b96b10a5a3566fc58f3c3b0dc36",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?oc=5",
+            "source": "Google News",
+            "title": "Live updates: Trump threatens to bomb US ally Oman as Iran agreement expires - CNN",
+            "titleZh": "实时更新：特朗普威胁轰炸美国盟友阿曼，伊朗协议到期 - CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：特朗普威胁轰炸美国盟友阿曼，伊朗协议到期 - CNN"
+      },
+      {
+        "title": "Trump fails to undo E. Jean Carroll verdict at Supreme Court - Axios",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeG5sWHo0cEhsLUxOWV91RnY3X1FVcFBpeFVkRzQ0b09CTXN5TENBbkhGSVNtTlhNRURiMWlBdkdicTdXVHNNd2tydDhmc2J4M2hLX2FQUERIcnQzazNDbkd4cE9PMDJzeG1GcHN3X1VmZkZ1N0kxVTBueGRDV0NTTy16UXAxdHRQVUN3?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-17T17:54:12.312Z",
+        "pubDate": "Mon, 17 Aug 2026 16:53:45 GMT",
+        "id": "e7881480ae9f4280a7129fef506da68d5154e3aa",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "7948a59b1e4914c0f6414ad2667e3858ef4d2d85",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeG5sWHo0cEhsLUxOWV91RnY3X1FVcFBpeFVkRzQ0b09CTXN5TENBbkhGSVNtTlhNRURiMWlBdkdicTdXVHNNd2tydDhmc2J4M2hLX2FQUERIcnQzazNDbkd4cE9PMDJzeG1GcHN3X1VmZkZ1N0kxVTBueGRDV0NTTy16UXAxdHRQVUN3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeG5sWHo0cEhsLUxOWV91RnY3X1FVcFBpeFVkRzQ0b09CTXN5TENBbkhGSVNtTlhNRURiMWlBdkdicTdXVHNNd2tydDhmc2J4M2hLX2FQUERIcnQzazNDbkd4cE9PMDJzeG1GcHN3X1VmZkZ1N0kxVTBueGRDV0NTTy16UXAxdHRQVUN3?oc=5",
+            "source": "Google News",
+            "title": "Trump fails to undo E. Jean Carroll verdict at Supreme Court - Axios",
+            "titleZh": "特朗普未能在最高法院推翻E. Jean Carroll判决 - Axios"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普未能在最高法院推翻E. Jean Carroll判决 - Axios"
+      },
+      {
+        "title": "US-Iran ceasefire set to expire as Trump admin meets with Israel's Netanyahu - foxnews.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYXhZT1kzZWVfaHBjcTRzZS1sbm1GcDVxMWs2c3gtOXdIM1hOSGZxbWZvRkpnaDB1MTktU2RHRTZpd2djdzJiQUhkU0NlR1ZVMTYxN2hHUVFRRDJMUXJyOTlfeGQydFFTUjdnc2NRWEFURTlCTW83SklkMDF3dzZlSFI4NGNVZW8?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-17T17:54:12.312Z",
+        "pubDate": "Mon, 17 Aug 2026 17:07:43 GMT",
+        "id": "f8ee14ba7de34ed1641c8dc9cf86a94701313fa5",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "以色列",
+          "停火",
+          "Trump",
+          "Israel",
+          "ceasefire"
+        ],
+        "isPriority": true,
+        "eventId": "9b2743003d74f40f8fcf4e0f173a1efa5ee92505",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYXhZT1kzZWVfaHBjcTRzZS1sbm1GcDVxMWs2c3gtOXdIM1hOSGZxbWZvRkpnaDB1MTktU2RHRTZpd2djdzJiQUhkU0NlR1ZVMTYxN2hHUVFRRDJMUXJyOTlfeGQydFFTUjdnc2NRWEFURTlCTW83SklkMDF3dzZlSFI4NGNVZW8",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYXhZT1kzZWVfaHBjcTRzZS1sbm1GcDVxMWs2c3gtOXdIM1hOSGZxbWZvRkpnaDB1MTktU2RHRTZpd2djdzJiQUhkU0NlR1ZVMTYxN2hHUVFRRDJMUXJyOTlfeGQydFFTUjdnc2NRWEFURTlCTW83SklkMDF3dzZlSFI4NGNVZW8?oc=5",
+            "source": "Google News",
+            "title": "US-Iran ceasefire set to expire as Trump admin meets with Israel's Netanyahu - foxnews.com",
+            "titleZh": "美伊停火协议即将到期，特朗普政府与以色列内塔尼亚胡会面 - foxnews.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美伊停火协议即将到期，特朗普政府与以色列内塔尼亚胡会面 - foxnews.com"
+      },
+      {
+        "title": "Kushner and Netanyahu agree U.S. general should oversee Hamas ‘demilitarization,’ source says - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcUhZUlhMLVZ3UlVKbW1GdDQ5bkJEWU9yQUFoMGpGSHZDTFNQblVvTE55VEMzUmk0MVYxMjZ5cGZBMmRBVHc3RnRqV2llUmc0NENDT1I5Ymk0aDFRdENoMVdRZEdvWlJQOTg5b0JfbDA3ZUdqS0RmNF9VOGZueW9yUzcydzBLS0l2aGJGbWpzc2ZjMFJvVW9UN2pPUU5oUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-17T17:54:12.312Z",
+        "pubDate": "Mon, 17 Aug 2026 16:50:40 GMT",
+        "id": "adabfa790ab51ce012e9e785812eec27c9c28dff",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "ab8945f6c13ca9d62b74f5f3a0d94eed22969a1d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcUhZUlhMLVZ3UlVKbW1GdDQ5bkJEWU9yQUFoMGpGSHZDTFNQblVvTE55VEMzUmk0MVYxMjZ5cGZBMmRBVHc3RnRqV2llUmc0NENDT1I5Ymk0aDFRdENoMVdRZEdvWlJQOTg5b0JfbDA3ZUdqS0RmNF9VOGZueW9yUzcydzBLS0l2aGJGbWpzc2ZjMFJvVW9UN2pPUU5oUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcUhZUlhMLVZ3UlVKbW1GdDQ5bkJEWU9yQUFoMGpGSHZDTFNQblVvTE55VEMzUmk0MVYxMjZ5cGZBMmRBVHc3RnRqV2llUmc0NENDT1I5Ymk0aDFRdENoMVdRZEdvWlJQOTg5b0JfbDA3ZUdqS0RmNF9VOGZueW9yUzcydzBLS0l2aGJGbWpzc2ZjMFJvVW9UN2pPUU5oUQ?oc=5",
+            "source": "Google News",
+            "title": "Kushner and Netanyahu agree U.S. general should oversee Hamas ‘demilitarization,’ source says - NBC News",
+            "titleZh": "消息人士称，库什纳和内塔尼亚胡同意美国将军应监督哈马斯‘非军事化’ - NBC新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "消息人士称，库什纳和内塔尼亚胡同意美国将军应监督哈马斯‘非军事化’ - NBC新闻"
+      },
+      {
+        "title": "Las Vegas gang leader masterminded Tupac's drive-by killing, prosecutor tells jury - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0RlWmlqSzVaYjN3cWZSdXpXUHJxR0ZTdWZDWHVhYlZrT0tyODFWVldoTy1pQTVEXzBMUW82SnFYY0RGUGkxWGJSNXppZ0tES1cxcTBqTEhPeG43dGExc21sOGtRbnY5WVdUdWZ4VERzU1FkQm1IcXpCb2lJMWMyMXFXWmpjM19JS1BPMmdaeXZjQWJIY252OXlKWHZiUzY3QmFVRXdkMA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-17T17:54:12.312Z",
+        "pubDate": "Mon, 17 Aug 2026 17:00:00 GMT",
+        "id": "e82df27c5a1ab2dbe5897ef26ed516d54c8732a1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c8f8a99269df7c77ccd37c846a853ed08466ef8e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0RlWmlqSzVaYjN3cWZSdXpXUHJxR0ZTdWZDWHVhYlZrT0tyODFWVldoTy1pQTVEXzBMUW82SnFYY0RGUGkxWGJSNXppZ0tES1cxcTBqTEhPeG43dGExc21sOGtRbnY5WVdUdWZ4VERzU1FkQm1IcXpCb2lJMWMyMXFXWmpjM19JS1BPMmdaeXZjQWJIY252OXlKWHZiUzY3QmFVRXdkMA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0RlWmlqSzVaYjN3cWZSdXpXUHJxR0ZTdWZDWHVhYlZrT0tyODFWVldoTy1pQTVEXzBMUW82SnFYY0RGUGkxWGJSNXppZ0tES1cxcTBqTEhPeG43dGExc21sOGtRbnY5WVdUdWZ4VERzU1FkQm1IcXpCb2lJMWMyMXFXWmpjM19JS1BPMmdaeXZjQWJIY252OXlKWHZiUzY3QmFVRXdkMA?oc=5",
+            "source": "Google News",
+            "title": "Las Vegas gang leader masterminded Tupac's drive-by killing, prosecutor tells jury - Reuters",
+            "titleZh": "拉斯维加斯黑帮头目策划了图帕克驾车枪击案，检察官告诉陪审团 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "拉斯维加斯黑帮头目策划了图帕克驾车枪击案，检察官告诉陪审团 - 路透社"
+      },
+      {
+        "title": "Show HN: Schemagic – visual JSON Schema editor",
+        "url": "https://schemagic.app",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:50:46 +0000",
+        "id": "db9141d01d9385904805a74e9fd8bc81b1198dbb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c541dd4eb21e18e8c2670e14d3824a08b2539c3b",
+        "canonicalUrl": "https://schemagic.app/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://schemagic.app",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Schemagic – visual JSON Schema editor",
+            "titleZh": "展示HN：Schemagic – 可视化JSON Schema编辑器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Schemagic – 可视化JSON Schema编辑器"
+      },
+      {
+        "title": "Watch TypeScript Creator Anders Hejlsberg on the Peterman Pod",
+        "url": "https://commandline.microsoft.com/typescript-7-0-anders-hejlsberg-peterman-pod/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:50:32 +0000",
+        "id": "68663f1e94bccea28512680bf95971396db46f84",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4275daedd8eb4eb9b09eb8b2f5f672a528a792a5",
+        "canonicalUrl": "https://commandline.microsoft.com/typescript-7-0-anders-hejlsberg-peterman-pod",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://commandline.microsoft.com/typescript-7-0-anders-hejlsberg-peterman-pod/",
+            "source": "Hacker News Newest",
+            "title": "Watch TypeScript Creator Anders Hejlsberg on the Peterman Pod",
+            "titleZh": "观看TypeScript创始人安德斯·海尔斯伯格在Peterman播客上的访谈"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "观看TypeScript创始人安德斯·海尔斯伯格在Peterman播客上的访谈"
+      },
+      {
+        "title": "More Than 30% of FAS Social Sciences Staff Laid Off in Largest Wave Yet",
+        "url": "https://www.npr.org/2025/09/08/nx-s1-5526066/leni-riefenstahl-nazi-filmmaker-new-documentary",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:47:53 +0000",
+        "id": "55d81dccf1fb028cf13bbb6e6cdac7fcefa2dfa5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d9db46079d9b64e10a0681ffa32ad43ec6d72123",
+        "canonicalUrl": "https://npr.org/2025/09/08/nx-s1-5526066/leni-riefenstahl-nazi-filmmaker-new-documentary",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.npr.org/2025/09/08/nx-s1-5526066/leni-riefenstahl-nazi-filmmaker-new-documentary",
+            "source": "Hacker News Newest",
+            "title": "More Than 30% of FAS Social Sciences Staff Laid Off in Largest Wave Yet",
+            "titleZh": "FAS社会科学系员工裁员超30%，为迄今最大规模"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FAS社会科学系员工裁员超30%，为迄今最大规模"
+      },
+      {
+        "title": "Nothing Broke. Your Agents Just Got Full",
+        "url": "https://twitter.com/moorcheh_ai/status/2089408233358139624",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:47:47 +0000",
+        "id": "354d243a95814f7d86f613145b499c6c1daea24b",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "智能体"
+        ],
+        "isPriority": true,
+        "eventId": "0bc3dc8c70fb9ae6b12faa62aaa9258b1d5c55e3",
+        "canonicalUrl": "https://twitter.com/moorcheh_ai/status/2089408233358139624",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/moorcheh_ai/status/2089408233358139624",
+            "source": "Hacker News Newest",
+            "title": "Nothing Broke. Your Agents Just Got Full",
+            "titleZh": "什么都没坏。你的智能体只是满了"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "什么都没坏。你的智能体只是满了"
+      },
+      {
+        "title": "Ask HN: Is Kimi down for anyone else?",
+        "url": "https://news.ycombinator.com/item?id=49334862",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:45:48 +0000",
+        "id": "dc0a1ca4a704a32146550158a56b0676a332768a",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Kimi"
+        ],
+        "isPriority": true,
+        "eventId": "bce0e712c37847ff3cbe1da8526427b8a877f156",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49334862",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49334862",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Is Kimi down for anyone else?",
+            "titleZh": "问HN：Kimi对其他人也宕机了吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "问HN：Kimi对其他人也宕机了吗？"
+      },
+      {
+        "title": "What You Leave Behind (2023)",
+        "url": "https://makoism.com/what-you-leave-behind/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:44:37 +0000",
+        "id": "2b96752fcaa55bcaa77b93803b95dda91c5a98a4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4d2561e0d654e3b0334e1c09ff7483b2b0717c9c",
+        "canonicalUrl": "https://makoism.com/what-you-leave-behind",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://makoism.com/what-you-leave-behind/",
+            "source": "Hacker News Newest",
+            "title": "What You Leave Behind (2023)",
+            "titleZh": "你留下的东西（2023）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "你留下的东西（2023）"
+      },
+      {
+        "title": "'Social' Mitochondria, Whispering Between Cells, Influence Health (2021)",
+        "url": "https://www.quantamagazine.org/social-mitochondria-whispering-between-cells-influence-health-20210706/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:43:17 +0000",
+        "id": "146dbbbe77fdddd562398102e3d8449a03c8f8d1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7c0bd45fc5e8c78db04e84e96fb73ac6f2fa0a2c",
+        "canonicalUrl": "https://quantamagazine.org/social-mitochondria-whispering-between-cells-influence-health-20210706",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.quantamagazine.org/social-mitochondria-whispering-between-cells-influence-health-20210706/",
+            "source": "Hacker News Newest",
+            "title": "'Social' Mitochondria, Whispering Between Cells, Influence Health (2021)",
+            "titleZh": "“社交”线粒体，在细胞间低语，影响健康（2021）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“社交”线粒体，在细胞间低语，影响健康（2021）"
+      },
+      {
+        "title": "Show HN: An Hacker News TUI Reader, handcrafted in Rust",
+        "url": "https://www.hncli.newstackwhodis.com",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:43:13 +0000",
+        "id": "353ee79590d7f172e53a38979fd8a02f08b34b45",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "73843266fc5624ae02f32c25ba63b66606944b66",
+        "canonicalUrl": "https://hncli.newstackwhodis.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.hncli.newstackwhodis.com",
+            "source": "Hacker News Newest",
+            "title": "Show HN: An Hacker News TUI Reader, handcrafted in Rust",
+            "titleZh": "Show HN：一款用 Rust 手工打造的 Hacker News TUI 阅读器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：一款用 Rust 手工打造的 Hacker News TUI 阅读器"
+      },
+      {
+        "title": "Show HN: I gave my job search data an MCP interface",
+        "url": "https://ackd.app/agents",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:42:40 +0000",
+        "id": "c9c13d703cd3f09d00c3d73d2f7ab9f20a64cb9d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "MCP"
+        ],
+        "isPriority": true,
+        "eventId": "1129571124945123b622169fa5f60d86cf7d0764",
+        "canonicalUrl": "https://ackd.app/agents",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://ackd.app/agents",
+            "source": "Hacker News Newest",
+            "title": "Show HN: I gave my job search data an MCP interface",
+            "titleZh": "Show HN：我为我的求职数据添加了 MCP 接口"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：我为我的求职数据添加了 MCP 接口"
+      },
+      {
+        "title": "The largest electric plane flew for 27 minutes on battery power alone",
+        "url": "https://www.popsci.com/technology/worlds-largest-electric-plane/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:42:16 +0000",
+        "id": "3fbbee3304bed7cf1345346b20e19a295dff8f67",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b6f130f8a0817da87a7e53134938e42c65e7567d",
+        "canonicalUrl": "https://popsci.com/technology/worlds-largest-electric-plane",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.popsci.com/technology/worlds-largest-electric-plane/",
+            "source": "Hacker News Newest",
+            "title": "The largest electric plane flew for 27 minutes on battery power alone",
+            "titleZh": "最大的电动飞机仅靠电池动力飞行了 27 分钟"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "最大的电动飞机仅靠电池动力飞行了 27 分钟"
+      },
+      {
+        "title": "Andreessen Horowitz Focus of DOJ Probe over Board Directors",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-17/andreessen-horowitz-focus-of-doj-probe-over-board-directors",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:41:21 +0000",
+        "id": "811390ec881a653838f37543771f32a70cc3a9df",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "ea1e61122cb7f8a592ecbc22029b5aa79fa3d2e3",
+        "canonicalUrl": "https://bloomberg.com/news/articles/2026-08-17/andreessen-horowitz-focus-of-doj-probe-over-board-directors",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-08-17/andreessen-horowitz-focus-of-doj-probe-over-board-directors",
+            "source": "Hacker News Newest",
+            "title": "Andreessen Horowitz Focus of DOJ Probe over Board Directors",
+            "titleZh": "Andreessen Horowitz 因董事会董事问题成为美国司法部调查焦点"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Andreessen Horowitz 因董事会董事问题成为美国司法部调查焦点"
+      },
+      {
+        "title": "Why does everyone hate data centers?",
+        "url": "https://www.natesilver.net/p/why-does-everyone-hate-data-centers",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:39:04 +0000",
+        "id": "85db5ace81a3435e6e859af53465430052d2e6a7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3a58df088493dfc7be6b29ff814a1320608f39b2",
+        "canonicalUrl": "https://natesilver.net/p/why-does-everyone-hate-data-centers",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.natesilver.net/p/why-does-everyone-hate-data-centers",
+            "source": "Hacker News Newest",
+            "title": "Why does everyone hate data centers?",
+            "titleZh": "为什么大家都讨厌数据中心？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为什么大家都讨厌数据中心？"
+      },
+      {
+        "title": "Show HN: Tesana – An AI game engine that builds quality games end-to-end",
+        "url": "https://tesana.ai/en",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:39:02 +0000",
+        "id": "97804d4a75d4478f5002b18525451b8348f8640b",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "a2557f2f8e0d62517fd4305413d6a95b6ca22f5b",
+        "canonicalUrl": "https://tesana.ai/en",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://tesana.ai/en",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Tesana – An AI game engine that builds quality games end-to-end",
+            "titleZh": "Show HN：Tesana——一款端到端打造高品质游戏的 AI 游戏引擎"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Tesana——一款端到端打造高品质游戏的 AI 游戏引擎"
+      },
+      {
+        "title": "Threads vs. Twitter/X: Which platform wins in 2026?",
+        "url": "https://birdy.so/blog/threads-vs-twitter-2026/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:38:55 +0000",
+        "id": "0e95950d1dd8e79a7ca9c03b443381c7da493026",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "262cc84db29afbdfd0021d01243728e643bad901",
+        "canonicalUrl": "https://birdy.so/blog/threads-vs-twitter-2026",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://birdy.so/blog/threads-vs-twitter-2026/",
+            "source": "Hacker News Newest",
+            "title": "Threads vs. Twitter/X: Which platform wins in 2026?",
+            "titleZh": "Threads 与 Twitter/X：2026 年哪个平台更胜一筹？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Threads 与 Twitter/X：2026 年哪个平台更胜一筹？"
+      },
+      {
+        "title": "About AI and how we publish",
+        "url": "https://mathoverflow.net/questions/514380/about-ai-and-how-we-publish",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:38:41 +0000",
+        "id": "bdfda1c8b81897a50991c2b30f2ab2d0799c2f81",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "cbb661f0fa95189d42d2310e436b4d02406c9c7c",
+        "canonicalUrl": "https://mathoverflow.net/questions/514380/about-ai-and-how-we-publish",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://mathoverflow.net/questions/514380/about-ai-and-how-we-publish",
+            "source": "Hacker News Newest",
+            "title": "About AI and how we publish",
+            "titleZh": "关于 AI 以及我们如何发布内容"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "关于 AI 以及我们如何发布内容"
+      },
+      {
+        "title": "The Trauma Olympics",
+        "url": "https://brookewarner.substack.com/p/the-trauma-olympics",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:38:28 +0000",
+        "id": "03b36e493673137fb588a40afa15e11b9be42699",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "49ebfd1e3b9e6a30f3ecb21fa839c8dc710f5946",
+        "canonicalUrl": "https://brookewarner.substack.com/p/the-trauma-olympics",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://brookewarner.substack.com/p/the-trauma-olympics",
+            "source": "Hacker News Newest",
+            "title": "The Trauma Olympics",
+            "titleZh": "创伤奥运会"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "创伤奥运会"
+      },
+      {
+        "title": "AI Inference chips will end the same as Crypto Mining ASICs",
+        "url": "https://twitter.com/josefchen/status/2089367836745449952",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:38:22 +0000",
+        "id": "696ac62b8c75323fafac8517b4227261eaecd3cd",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "10555f5eae6ffa8e56bace0c952a14d536d8bb8d",
+        "canonicalUrl": "https://twitter.com/josefchen/status/2089367836745449952",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/josefchen/status/2089367836745449952",
+            "source": "Hacker News Newest",
+            "title": "AI Inference chips will end the same as Crypto Mining ASICs",
+            "titleZh": "AI推理芯片的结局将与加密货币挖矿ASIC相同"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI推理芯片的结局将与加密货币挖矿ASIC相同"
+      },
+      {
+        "title": "Trump Will Make South Korea Pay for His Iran Humiliation",
+        "url": "https://www.theatlantic.com/ideas/2026/08/trump-iran-korea/688306/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:38:17 +0000",
+        "id": "9ab8405ffe7cadf226af705dd87faae1efda5212",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "b4124b49a3043298e3cfda5f94b966c663564e88",
+        "canonicalUrl": "https://theatlantic.com/ideas/2026/08/trump-iran-korea/688306",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theatlantic.com/ideas/2026/08/trump-iran-korea/688306/",
+            "source": "Hacker News Newest",
+            "title": "Trump Will Make South Korea Pay for His Iran Humiliation",
+            "titleZh": "特朗普将让韩国为他伊朗的羞辱买单"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普将让韩国为他伊朗的羞辱买单"
+      },
+      {
+        "title": "If LLMs can't write, I doubt it can lead us to AGI",
+        "url": "https://www.thetrueengineer.com/p/i-tested-every-ai-model-the-same",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:37:37 +0000",
+        "id": "8bd391b7ce8e12b832e45dec949a70c6c1267b6e",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "大语言模型",
+          "AGI"
+        ],
+        "isPriority": true,
+        "eventId": "c58c03784c1034042cd6e00d8888119ec3ab8663",
+        "canonicalUrl": "https://thetrueengineer.com/p/i-tested-every-ai-model-the-same",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.thetrueengineer.com/p/i-tested-every-ai-model-the-same",
+            "source": "Hacker News Newest",
+            "title": "If LLMs can't write, I doubt it can lead us to AGI",
+            "titleZh": "如果大语言模型不会写作，我怀疑它能否引领我们走向AGI"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如果大语言模型不会写作，我怀疑它能否引领我们走向AGI"
+      },
+      {
+        "title": "Smallpond: A lightweight data processing framework built on DuckDB and 3FS",
+        "url": "https://github.com/deepseek-ai/smallpond",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-17T17:54:12.451Z",
+        "pubDate": "Mon, 17 Aug 2026 17:37:26 +0000",
+        "id": "e211ddf62e7f0b9399cf95a727b33f6065fd1bdb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "95380feab90c72f47cf84ddf6fa80373fb5c7173",
+        "canonicalUrl": "https://github.com/deepseek-ai/smallpond",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/deepseek-ai/smallpond",
+            "source": "Hacker News Newest",
+            "title": "Smallpond: A lightweight data processing framework built on DuckDB and 3FS",
+            "titleZh": "Smallpond：一个基于DuckDB和3FS构建的轻量级数据处理框架"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Smallpond：一个基于DuckDB和3FS构建的轻量级数据处理框架"
+      },
+      {
+        "id": "4a47377b6118c2320b318d6355a486f5448980ca",
+        "title": "San Francisco Street Artists vs. AI Startup Ads",
+        "url": "https://docpop.org/2025/12/san-francisco-street-artists-vs-ai-startup-ads/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:52:45Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "3bfe56f1f21fe7ab5d2a1cd37f10418d1b8b6505",
+        "canonicalUrl": "https://docpop.org/2025/12/san-francisco-street-artists-vs-ai-startup-ads",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://docpop.org/2025/12/san-francisco-street-artists-vs-ai-startup-ads/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "San Francisco Street Artists vs. AI Startup Ads",
+            "titleZh": "旧金山街头艺术家与AI初创公司广告之争"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "旧金山街头艺术家与AI初创公司广告之争"
+      },
+      {
+        "id": "83ecce8fb1d52fe28f394a3ad2e581d6b81bfa86",
+        "title": "We're hosting Qwen3.8-27B for Free API usage",
+        "url": "https://sprag.ai/models/qwen/qwen3.8-27b",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:51:57Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cb6b522b32befd0d3dc4400b8ce5df04ad0d2a95",
+        "canonicalUrl": "https://sprag.ai/models/qwen/qwen3.8-27b",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://sprag.ai/models/qwen/qwen3.8-27b",
+            "source": "Hacker News Algolia AI Search",
+            "title": "We're hosting Qwen3.8-27B for Free API usage",
+            "titleZh": "我们免费提供Qwen3.8-27B的API使用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我们免费提供Qwen3.8-27B的API使用"
+      },
+      {
+        "id": "44b92806db447e109a47c10284cbbe07ca5dc270",
+        "title": "The AI Data-Centre Bust Will Look Like a Boom",
+        "url": "https://josef.cn/blog/asic",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:37:09Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "2cb3eb42499cafc0db65700a73d78461d692f3fd",
+        "canonicalUrl": "https://josef.cn/blog/asic",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://josef.cn/blog/asic",
+            "source": "Hacker News Algolia AI Search",
+            "title": "The AI Data-Centre Bust Will Look Like a Boom",
+            "titleZh": "AI数据中心泡沫破裂将看似繁荣"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI数据中心泡沫破裂将看似繁荣"
+      },
+      {
+        "id": "8e5447482b6a31f7d6c546d6e217548c6e239efe",
+        "title": "Canva cuts internal value by $10B amid AI market fears",
+        "url": "https://www.smh.com.au/technology/sobering-markdown-canva-slashes-valuation-by-10b-as-ai-reality-bites-20260814-p60of9.html",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:28:45Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "9c1f227f3ec3fd0d73cf5d099f53cf05155fbd54",
+        "canonicalUrl": "https://smh.com.au/technology/sobering-markdown-canva-slashes-valuation-by-10b-as-ai-reality-bites-20260814-p60of9.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.smh.com.au/technology/sobering-markdown-canva-slashes-valuation-by-10b-as-ai-reality-bites-20260814-p60of9.html",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Canva cuts internal value by $10B amid AI market fears",
+            "titleZh": "Canva因人工智能市场担忧内部估值削减100亿美元"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Canva因人工智能市场担忧内部估值削减100亿美元"
+      },
+      {
+        "id": "3be1597a243dc988dca72de94d6efa092641ce53",
+        "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
+        "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:25:17Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d19172d0f49148c8ef9151af05030e37743e2f9b",
+        "canonicalUrl": "https://artificialanalysis.ai/models/qwen3-8-27b",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
+            "titleZh": "Qwen3.8 27B在Artificial Analysis上获得52分"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Qwen3.8 27B在Artificial Analysis上获得52分"
+      },
+      {
+        "id": "fdf6d922ee670d6128b246eb1811fd9d45f8c39e",
+        "title": "Fable vs. Sol – How's Their Taste in Video",
+        "url": "https://magichour.ai/blog/fable-vs-sol-taste-test",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:24:20Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7651dc36531ceb9acef030932aa4bcee11e2946d",
+        "canonicalUrl": "https://magichour.ai/blog/fable-vs-sol-taste-test",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://magichour.ai/blog/fable-vs-sol-taste-test",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Fable vs. Sol – How's Their Taste in Video",
+            "titleZh": "Fable与Sol对比——它们在视频品味上如何"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Fable与Sol对比——它们在视频品味上如何"
+      },
+      {
+        "id": "005af76186c51ca0e94c4f1d96208838aaf44a15",
+        "title": "A million dollars over asking: AI wealth is fueling housing market frenzy in SF",
+        "url": "https://www.cnn.com/2026/08/17/economy/sf-real-estate-ai-wealth",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-17T17:54:12.614Z",
+        "pubDate": "2026-08-17T17:23:20Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "9fda515379a5efa34ef5bcb7cbd00547e708861c",
+        "canonicalUrl": "https://cnn.com/2026/08/17/economy/sf-real-estate-ai-wealth",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cnn.com/2026/08/17/economy/sf-real-estate-ai-wealth",
+            "source": "Hacker News Algolia AI Search",
+            "title": "A million dollars over asking: AI wealth is fueling housing market frenzy in SF",
+            "titleZh": "高出要价百万美元：人工智能财富正在推动旧金山房地产市场狂热"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "高出要价百万美元：人工智能财富正在推动旧金山房地产市场狂热"
       }
     ]
   },
-  "lastFetchAt": "2026-08-17T17:23:01.636Z"
+  "lastFetchAt": "2026-08-17T17:54:11.595Z"
 }
