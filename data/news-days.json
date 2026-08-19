@@ -4433,9 +4433,10 @@
         "eventId": "8c9e22d3e62bf0128bbc5e63ce412963b9bd2998",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalRFZW9SYUlfeVpYRXU5ZWEyRW9Fb1ZEb0FnYU1vNnVOT3NKdS1qVGJCNEx6Nzc5aTgwQ2lCYTQtUDU3emNtRGRpRXJZbEptSUZIQnVrbzBfMmllaW8xa25JUVlNd0lFRXpLenB0WVotU2F6aEI2eDdVclQ4TXRmMDFOV0ZfUVJSZGlxUEpuYjZzSElIX0Z5ZVV3UGJyQUhNRENGMWEwSGRQdUFEWHE4S3kySFdYaFMx",
         "clusterSize": 2,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "AP News via Google News"
         ],
         "relatedLinks": [
           {
@@ -8904,11 +8905,12 @@
         "isPriority": false,
         "eventId": "8068c7dfdf1b76dd9f2c490e032a144651506d82",
         "canonicalUrl": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -41690,14 +41692,14 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
             "url": "https://github.com/iondodon/veyra",
-            "source": "Hacker News Newest",
-            "title": "Show HN: Veyra",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Veyra - Self evolving AI agent",
             "titleZh": "Show HN：Veyra"
           }
         ],
@@ -42857,10 +42859,11 @@
         "isPriority": false,
         "eventId": "0b653fb82a243acd3a4772894fd858f51cb3af49",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680465.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -42871,7 +42874,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -42937,10 +42941,11 @@
         "isPriority": false,
         "eventId": "c3f9fb588f0a09d387d1ca441ae898f0b37a0dbb",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680440.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -42951,7 +42956,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -43057,10 +43063,11 @@
         "isPriority": false,
         "eventId": "c5892c2c94116bce7800ad7372cf83644be7c70a",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680458.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -43071,7 +43078,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -43137,10 +43145,11 @@
         "isPriority": false,
         "eventId": "715e7aae72ef38da363f21ee9557bb1306132aa3",
         "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-19/10680438.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网体育"
         ],
         "relatedLinks": [
           {
@@ -43151,7 +43160,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "体育"
         ],
         "regions": [
           "中国"
@@ -44783,10 +44793,11 @@
         "isPriority": true,
         "eventId": "38dde9870eb71136ab30fca170c62d89fcffea41",
         "canonicalUrl": "https://pathway.com/research/the-equations-of-reasoning",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -44838,8 +44849,1568 @@
         "language": "",
         "languages": [],
         "titleZh": "GLM 5.3 现已在 OpenRouter 上可用"
+      },
+      {
+        "title": "旅埃侨胞参观《开罗宣言》纪念碑：重温国际法理 谴责歪曲侵略历史行径",
+        "url": "https://www.chinanews.com.cn/hr/2026/08-19/10680496.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:55:32 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "5189f7e9c592aadfd9952965fa24d98d39616299",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f693b1ff2cbceacde310c9b3dc4e34e20bc267c0",
+        "canonicalUrl": "https://chinanews.com.cn/hr/2026/08-19/10680496.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/hr/2026/08-19/10680496.shtml",
+            "source": "中国新闻网",
+            "title": "旅埃侨胞参观《开罗宣言》纪念碑：重温国际法理 谴责歪曲侵略历史行径",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "一个河套村庄的共富密码：一户一田到一村一田的嬗变",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680502.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:55:18 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "7a29693a561c6f3bb2219fdb3ba55b5b63961156",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "80075dd387c431aafd0b59aea0532b57ba73cac9",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680502.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680502.shtml",
+            "source": "中国新闻网",
+            "title": "一个河套村庄的共富密码：一户一田到一村一田的嬗变",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "评论：吉林以品牌擦亮黑土粮仓金名片",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680495.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:54:48 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "ae62178892ca17bb984be82de5d2daecab69feb8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ce1fbe32c6b295673e8a0cb9e0e69e8e57b5198b",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680495.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680495.shtml",
+            "source": "中国新闻网",
+            "title": "评论：吉林以品牌擦亮黑土粮仓金名片",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "河南污染防治亮成绩单 优良天增量全国第一",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680494.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:53:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c34322bb06c802545eb88dfa55a9dc75e235219e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6e87f2097ea14c105ecb4b6c353d99200a23944d",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680494.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680494.shtml",
+            "source": "中国新闻网",
+            "title": "河南污染防治亮成绩单 优良天增量全国第一",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "让坚守乡土的教师成为更好的教育者 欣欣向荣暑期教师培训收官",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680492.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:53:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "47a4429278aba79526c387a04f7045c39a49a494",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "859330d8ef9b6caa416fd800aff50f522761350b",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680492.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680492.shtml",
+            "source": "中国新闻网",
+            "title": "让坚守乡土的教师成为更好的教育者 欣欣向荣暑期教师培训收官",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "佛山通报“教师招聘笔试前13名被淘汰，后5名进体检”：多人被处理",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680493.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:52:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4c6fcc404373e636c52522c7f0f4c06d5ece82bc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3f79cd63030b3249bc20ecf6e7138b4a2d5858be",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680493.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680493.shtml",
+            "source": "中国新闻网",
+            "title": "佛山通报“教师招聘笔试前13名被淘汰，后5名进体检”：多人被处理",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "无心插柳长成“心” 爱心树为乡村振兴注入温情流量",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680491.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:52:19 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "ecbe751f86d7c3cbc742613c0b610217528fa571",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2127b78b24c99b46cad8c64056d77a65ea408c8c",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680491.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680491.shtml",
+            "source": "中国新闻网",
+            "title": "无心插柳长成“心” 爱心树为乡村振兴注入温情流量",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "2026年宁夏集体婚礼在青铜峡市举办 52对新人喜结良缘",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680489.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:50:39 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "7cb16687cc090d8cab7217a004a3152321a34481",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "097a0cfe9acb2546af40a2c981da7e40cc7b44a0",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680489.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680489.shtml",
+            "source": "中国新闻网",
+            "title": "2026年宁夏集体婚礼在青铜峡市举办 52对新人喜结良缘",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "今年以来宁夏农村一般交通事故起数和死亡人数同比下降逾五成",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680486.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:48:21 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "7b634fdc1262d282faf6e17b0f3ac6121c16aaaf",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "af0952831ed63ed7c8c041cbfc5024247ed16ff6",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680486.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680486.shtml",
+            "source": "中国新闻网",
+            "title": "今年以来宁夏农村一般交通事故起数和死亡人数同比下降逾五成",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "湖北宜昌：55名困难学子圆梦大学",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680485.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:46:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c944a3e54c7521f0376d1800e05d44ed5570fbe7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a3183ca80fa7c129951da0690d38d2f31ecf5303",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680485.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680485.shtml",
+            "source": "中国新闻网",
+            "title": "湖北宜昌：55名困难学子圆梦大学",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "借半潜船通道远洋出海 福建宁德船舶出口非洲",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680484.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:45:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "00bdc160355be29b336841981f684aedf51614a5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "746883a8978b14e1a70cc1aabc3e3fd7dcc9922b",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680484.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680484.shtml",
+            "source": "中国新闻网",
+            "title": "借半潜船通道远洋出海 福建宁德船舶出口非洲",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "贵州“村舞”《锦·蓝》登上国家舞台 展多民族交融之魅",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680481.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:45:11 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "56fa4b1a35e16b21abe87b0d748cf34989eace11",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a240b28621b4e156be79964c739686840234a159",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-19/10680481.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680481.shtml",
+            "source": "中国新闻网",
+            "title": "贵州“村舞”《锦·蓝》登上国家舞台 展多民族交融之魅",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "南湛高速广东段全面开工 打通“空铁港高”立体枢纽",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680480.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:44:33 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "168fc70f557bf475bb6595d9282b17c2c5ceca1b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ff023c1d2bdcbedc33429af5768914a8840385fd",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680480.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680480.shtml",
+            "source": "中国新闻网",
+            "title": "南湛高速广东段全面开工 打通“空铁港高”立体枢纽",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "宇树科技在中国科创板上市",
+        "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-19/1201544.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:43:56 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "61cd9008657c972ebf448fd7dab20cd86978a6d8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6ceb90fadd638370a5223109db368359bb4fc277",
+        "canonicalUrl": "http://chinanews.com.cn/tp/hd2011/2026/08-19/1201544.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-19/1201544.shtml",
+            "source": "中国新闻网",
+            "title": "宇树科技在中国科创板上市",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "习近平致电祝贺鲍卡就任匈牙利总统",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680488.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:39:39 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c87ccb40e332a51223460688fdbac7f8d43a14de",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5833969749dd43387d3bcf07ed25b67678beef2e",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-19/10680488.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680488.shtml",
+            "source": "中国新闻网",
+            "title": "习近平致电祝贺鲍卡就任匈牙利总统",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "进一步完善全国碳排放计量技术体系 三部门联合印发指导目录",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680482.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:30:28 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "7f6ce907eff35cf33beecac575e8c8ba15dd9960",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cfe0d59da2e2c4962c3be83dacc4f509ec2a2532",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-19/10680482.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680482.shtml",
+            "source": "中国新闻网",
+            "title": "进一步完善全国碳排放计量技术体系 三部门联合印发指导目录",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "长江十年行｜一炉钢火转身向绿 江畔千亿村的破立实践",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680483.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:29:44 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "7147729744069c6d26e2269c028dfd8d773d6b39",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "20b38e0d6e712163bf1908e2f6944e22748dfb4d",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680483.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680483.shtml",
+            "source": "中国新闻网",
+            "title": "长江十年行｜一炉钢火转身向绿 江畔千亿村的破立实践",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "广州国际电竞中心建成启用",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680477.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:25:48 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b516db37ed3412d06c4e2ddbc1c55866ca6e713f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bc2163565b2fc5a49692c4e8c7c0f604c20bcd32",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-19/10680477.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680477.shtml",
+            "source": "中国新闻网",
+            "title": "广州国际电竞中心建成启用",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "2026年全国“新时代好少年”先进事迹发布",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680478.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:24:22 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0d23a95ff737b8f9cc3757933ff83071e60e53d5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a8aa085e23e9ad17e1e5bc4d822051f4ef8193b1",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-19/10680478.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680478.shtml",
+            "source": "中国新闻网",
+            "title": "2026年全国“新时代好少年”先进事迹发布",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "聚焦“愈见自己” 2026天下女人国际论坛收官",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680476.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-19T09:59:12.944Z",
+        "pubDate": "Wed, 19 Aug 2026 17:22:40 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "63049ee49226f59f9b3117b795541b26c435ee76",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cdb214de84c6e1873a4e56822c4dc321bc9b44f4",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-19/10680476.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680476.shtml",
+            "source": "中国新闻网",
+            "title": "聚焦“愈见自己” 2026天下女人国际论坛收官",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Turkey slams Israel's 'untenable' claims after strikes on Syrian base - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTdCNlA1LTNVZ0ttZ2VXTGJLVnR5YjBnUnZMNFVWVzc5cUJEcHdxekdHLXBzcDNLUnp1TUx4N3J6SzJQQ0pOTEtSRFVWOTJpZC1xZEd4QTA1TkpEaG1mOXdTM2pQWU5kV3FqWTM3SlJUZEYyb180ZWxMRHlSZlVveDMtWkNJMTFwMWs0VTB6R1M1aHhNRVAzdXc2V29oOVBBRV8wM2FmWnE4OTNJVWpWU3E0Z0VBcnQ4?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-19T09:59:13.380Z",
+        "pubDate": "Wed, 19 Aug 2026 08:37:09 GMT",
+        "id": "e760c2395e6e8f03cba08b23dffb19436a8f0d03",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "e92ff7a11a6819c7781aac192c37a70458db1df4",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTdCNlA1LTNVZ0ttZ2VXTGJLVnR5YjBnUnZMNFVWVzc5cUJEcHdxekdHLXBzcDNLUnp1TUx4N3J6SzJQQ0pOTEtSRFVWOTJpZC1xZEd4QTA1TkpEaG1mOXdTM2pQWU5kV3FqWTM3SlJUZEYyb180ZWxMRHlSZlVveDMtWkNJMTFwMWs0VTB6R1M1aHhNRVAzdXc2V29oOVBBRV8wM2FmWnE4OTNJVWpWU3E0Z0VBcnQ4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTdCNlA1LTNVZ0ttZ2VXTGJLVnR5YjBnUnZMNFVWVzc5cUJEcHdxekdHLXBzcDNLUnp1TUx4N3J6SzJQQ0pOTEtSRFVWOTJpZC1xZEd4QTA1TkpEaG1mOXdTM2pQWU5kV3FqWTM3SlJUZEYyb180ZWxMRHlSZlVveDMtWkNJMTFwMWs0VTB6R1M1aHhNRVAzdXc2V29oOVBBRV8wM2FmWnE4OTNJVWpWU3E0Z0VBcnQ4?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Turkey slams Israel's 'untenable' claims after strikes on Syrian base - Reuters",
+            "titleZh": "土耳其抨击以色列在袭击叙利亚基地后提出的‘站不住脚’的主张 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "土耳其抨击以色列在袭击叙利亚基地后提出的‘站不住脚’的主张 - 路透社"
+      },
+      {
+        "title": "China robot makers flock to Beijing show, seek path to mass adoption - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSmdkcXpfS1k2UmVHdmxLOFQ2UWF1LXROM2d3Zk0wbVUtSC1YbkxaNEZHNl9adVEwakVNN1Z1dVotcVc2YjZhOHh3cDBJZllMX1FPTTd4d1FLbTRSQjNOdzViZHNaQ200Tmt1UUo4bjZYYWVaTFlxaTZTcHRjNzRQX1JnMVBiVmQ3YUQyQzJaZk82aGFMUzczNDdYQTg0OGdxcFNMSnd4SnB6MVlfWXZYQkJnN0tBZlU?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-19T09:59:13.380Z",
+        "pubDate": "Wed, 19 Aug 2026 09:19:47 GMT",
+        "id": "649071e4abf2aa343b108e33b1ba9da0d7a2ad4a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4224e9f449d2f43c5600f720beed29e8c61e9afb",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSmdkcXpfS1k2UmVHdmxLOFQ2UWF1LXROM2d3Zk0wbVUtSC1YbkxaNEZHNl9adVEwakVNN1Z1dVotcVc2YjZhOHh3cDBJZllMX1FPTTd4d1FLbTRSQjNOdzViZHNaQ200Tmt1UUo4bjZYYWVaTFlxaTZTcHRjNzRQX1JnMVBiVmQ3YUQyQzJaZk82aGFMUzczNDdYQTg0OGdxcFNMSnd4SnB6MVlfWXZYQkJnN0tBZlU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSmdkcXpfS1k2UmVHdmxLOFQ2UWF1LXROM2d3Zk0wbVUtSC1YbkxaNEZHNl9adVEwakVNN1Z1dVotcVc2YjZhOHh3cDBJZllMX1FPTTd4d1FLbTRSQjNOdzViZHNaQ200Tmt1UUo4bjZYYWVaTFlxaTZTcHRjNzRQX1JnMVBiVmQ3YUQyQzJaZk82aGFMUzczNDdYQTg0OGdxcFNMSnd4SnB6MVlfWXZYQkJnN0tBZlU?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "China robot makers flock to Beijing show, seek path to mass adoption - Reuters",
+            "titleZh": "中国机器人制造商齐聚北京展会，寻求大规模普及之路 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "中国机器人制造商齐聚北京展会，寻求大规模普及之路 - 路透社"
+      },
+      {
+        "title": "Labour ‘could lose up to 50 seats’ to Greens if new drilling in North Sea approved",
+        "url": "https://www.theguardian.com/politics/2026/aug/19/labour-could-lose-seats-greens-new-drilling-north-sea",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-19T09:59:13.014Z",
+        "pubDate": "Wed, 19 Aug 2026 09:28:36 GMT",
+        "id": "80f173d54221592cab10ea2b3bfe6c48591302c1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3a5a969bcf9cc1f4c0ca05f31c3e30a3d69f8bde",
+        "canonicalUrl": "https://theguardian.com/politics/2026/aug/19/labour-could-lose-seats-greens-new-drilling-north-sea",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/aug/19/labour-could-lose-seats-greens-new-drilling-north-sea",
+            "source": "Guardian World",
+            "title": "Labour ‘could lose up to 50 seats’ to Greens if new drilling in North Sea approved",
+            "titleZh": "工党‘可能失去多达50个席位’给绿党，如果北海新钻探获批 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "工党‘可能失去多达50个席位’给绿党，如果北海新钻探获批 - 路透社"
+      },
+      {
+        "title": "GOP Sen. Dan Sullivan and Democrat Mary Peltola advance to battleground Senate election in Alaska - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWm1jZnBQczhiSEUweC00LWgya2lLY3plaUl5MXo5YmkyOE93dmFxdW56N3JuSXFQVVhaNDJPT05yeDBESkpMR0thdlNRWnNlSXlOSDFrNlJRMkV1V045R2w1UWtWZjJqU21oMENnbjJBc3BLTGxDMlUzZDZSRVRnYVdrOF9rdkFXRHZFQ2VQNFh6TUlldG42Mk5EdDJUQ0JQYnMwMkZZNTVHWFVXTUs1NjFoZUNteFVMd0c3WHJoSEpuRHJBTEVn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T09:59:12.991Z",
+        "pubDate": "Wed, 19 Aug 2026 05:00:00 GMT",
+        "id": "1af8e632a8044f5dcf4e736cde13f57bd1c471ca",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cf4a8e32becbfde57851e58ef30edeae0e9c9573",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWm1jZnBQczhiSEUweC00LWgya2lLY3plaUl5MXo5YmkyOE93dmFxdW56N3JuSXFQVVhaNDJPT05yeDBESkpMR0thdlNRWnNlSXlOSDFrNlJRMkV1V045R2w1UWtWZjJqU21oMENnbjJBc3BLTGxDMlUzZDZSRVRnYVdrOF9rdkFXRHZFQ2VQNFh6TUlldG42Mk5EdDJUQ0JQYnMwMkZZNTVHWFVXTUs1NjFoZUNteFVMd0c3WHJoSEpuRHJBTEVn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWm1jZnBQczhiSEUweC00LWgya2lLY3plaUl5MXo5YmkyOE93dmFxdW56N3JuSXFQVVhaNDJPT05yeDBESkpMR0thdlNRWnNlSXlOSDFrNlJRMkV1V045R2w1UWtWZjJqU21oMENnbjJBc3BLTGxDMlUzZDZSRVRnYVdrOF9rdkFXRHZFQ2VQNFh6TUlldG42Mk5EdDJUQ0JQYnMwMkZZNTVHWFVXTUs1NjFoZUNteFVMd0c3WHJoSEpuRHJBTEVn?oc=5",
+            "source": "Google News",
+            "title": "GOP Sen. Dan Sullivan and Democrat Mary Peltola advance to battleground Senate election in Alaska - NBC News",
+            "titleZh": "共和党参议员丹·沙利文和民主党人玛丽·佩尔托拉晋级阿拉斯加战场参议院选举 - NBC新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "共和党参议员丹·沙利文和民主党人玛丽·佩尔托拉晋级阿拉斯加战场参议院选举 - NBC新闻"
+      },
+      {
+        "title": "Ebola cases in Congo exceed 5,000, government data shows - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPem5Hd3lmTGZubzE1STRETUxoYzdvaXo3NDRHRlhXOGFjckVnT1BwY1Q3NGRjZlQ5VVNRS2gtTnJfVmdyVUJNTnNBdmZDbUNQT0JsaTlaQjNUWkpUa1I2eElyNUNnNFVKMlVOOXhFdXhva0ljMlExeURaR2FFN0hpUDRDUEJBQ3lvWnNhenhEdDBUdjQ2V0NfWG9aRUs5REV5cWRzMVgxNUpGaUtkdzA4cHNaZFViT1RhbTNfSnBuQ3E?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T09:59:12.991Z",
+        "pubDate": "Wed, 19 Aug 2026 04:38:00 GMT",
+        "id": "828ba4d57013c41e71c0bd68c796c6e2f7795e4b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0451e75e6f1e1bb1f5d70a655063116ffa7c848a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPem5Hd3lmTGZubzE1STRETUxoYzdvaXo3NDRHRlhXOGFjckVnT1BwY1Q3NGRjZlQ5VVNRS2gtTnJfVmdyVUJNTnNBdmZDbUNQT0JsaTlaQjNUWkpUa1I2eElyNUNnNFVKMlVOOXhFdXhva0ljMlExeURaR2FFN0hpUDRDUEJBQ3lvWnNhenhEdDBUdjQ2V0NfWG9aRUs5REV5cWRzMVgxNUpGaUtkdzA4cHNaZFViT1RhbTNfSnBuQ3E",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPem5Hd3lmTGZubzE1STRETUxoYzdvaXo3NDRHRlhXOGFjckVnT1BwY1Q3NGRjZlQ5VVNRS2gtTnJfVmdyVUJNTnNBdmZDbUNQT0JsaTlaQjNUWkpUa1I2eElyNUNnNFVKMlVOOXhFdXhva0ljMlExeURaR2FFN0hpUDRDUEJBQ3lvWnNhenhEdDBUdjQ2V0NfWG9aRUs5REV5cWRzMVgxNUpGaUtkdzA4cHNaZFViT1RhbTNfSnBuQ3E?oc=5",
+            "source": "Google News",
+            "title": "Ebola cases in Congo exceed 5,000, government data shows - Reuters",
+            "titleZh": "刚果埃博拉病例超过5000例，政府数据显示 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "刚果埃博拉病例超过5000例，政府数据显示 - 路透社"
+      },
+      {
+        "title": "Framework's Cheapest Laptop Just Got A Major Spec Bump - Engadget",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTd5Q0dRWXREWHVVc2ZuanVHa1dyOEx3UUdSTVJCUTQ0bHZDYU5qRXI1dk9OQmtsam15bm1lMFZxc0NOUjhSSjAwNUdDWHNob0xKcFU2ckxIR0dIa1VCdDJnRHBNNXJuV0hpVkpzY3hqRkFCSG9kOW9mOXRfNGpOVDAzbU1uUWc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T09:59:12.991Z",
+        "pubDate": "Tue, 18 Aug 2026 22:33:32 GMT",
+        "id": "6b094afc83f6d80bae8da86fe1f40d67d73592a4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ede13607e8a4f3e4643601c070ed55899ed7451a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTd5Q0dRWXREWHVVc2ZuanVHa1dyOEx3UUdSTVJCUTQ0bHZDYU5qRXI1dk9OQmtsam15bm1lMFZxc0NOUjhSSjAwNUdDWHNob0xKcFU2ckxIR0dIa1VCdDJnRHBNNXJuV0hpVkpzY3hqRkFCSG9kOW9mOXRfNGpOVDAzbU1uUWc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTd5Q0dRWXREWHVVc2ZuanVHa1dyOEx3UUdSTVJCUTQ0bHZDYU5qRXI1dk9OQmtsam15bm1lMFZxc0NOUjhSSjAwNUdDWHNob0xKcFU2ckxIR0dIa1VCdDJnRHBNNXJuV0hpVkpzY3hqRkFCSG9kOW9mOXRfNGpOVDAzbU1uUWc?oc=5",
+            "source": "Google News",
+            "title": "Framework's Cheapest Laptop Just Got A Major Spec Bump - Engadget",
+            "titleZh": "Framework最便宜笔记本电脑获得重大规格升级 - Engadget"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Framework最便宜笔记本电脑获得重大规格升级 - Engadget"
+      },
+      {
+        "title": "Sugar-Sweetened Beverages Linked to Stomach Cancer For The First Time - ScienceAlert",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDQzWXVyUmNtVk0tS1VzTGNSU3pvdWdWdk0zVHJvcy1xSkhNci1XUTE1eTJRNHl4YXVFZDJVSmh0Z1Z2MUpxZ2x6TUNmV29xX0JNVnBHYWIyWDhCRy1NSXYtakNKNEkzcjMwTmJXalAyd2Q3dUFMSlNGSExnMEVqZWJFX003N0M5U1Y0Vlo0ektxUTFPVWpabURxOE9GVHM?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T09:59:12.991Z",
+        "pubDate": "Wed, 19 Aug 2026 02:17:46 GMT",
+        "id": "a10bcec249ac6ef34a28c660bf06ba25a546be9d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "178eabee94976070abcd9de8254d883075e859a9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDQzWXVyUmNtVk0tS1VzTGNSU3pvdWdWdk0zVHJvcy1xSkhNci1XUTE1eTJRNHl4YXVFZDJVSmh0Z1Z2MUpxZ2x6TUNmV29xX0JNVnBHYWIyWDhCRy1NSXYtakNKNEkzcjMwTmJXalAyd2Q3dUFMSlNGSExnMEVqZWJFX003N0M5U1Y0Vlo0ektxUTFPVWpabURxOE9GVHM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDQzWXVyUmNtVk0tS1VzTGNSU3pvdWdWdk0zVHJvcy1xSkhNci1XUTE1eTJRNHl4YXVFZDJVSmh0Z1Z2MUpxZ2x6TUNmV29xX0JNVnBHYWIyWDhCRy1NSXYtakNKNEkzcjMwTmJXalAyd2Q3dUFMSlNGSExnMEVqZWJFX003N0M5U1Y0Vlo0ektxUTFPVWpabURxOE9GVHM?oc=5",
+            "source": "Google News",
+            "title": "Sugar-Sweetened Beverages Linked to Stomach Cancer For The First Time - ScienceAlert",
+            "titleZh": "含糖饮料首次与胃癌相关联 - ScienceAlert"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "含糖饮料首次与胃癌相关联 - ScienceAlert"
+      },
+      {
+        "title": "Censorship Industry: The European Firms Monetizing the DSA",
+        "url": "https://foundationforfreedomonline.com/censorship-industry-the-european-firms-monetizing-the-dsa/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:57:43 +0000",
+        "id": "5eda9623baf5c3bc6f92378fa16b4534aae82089",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e1724493d54c2d8f4da7d29a9145f0c581b6f78f",
+        "canonicalUrl": "https://foundationforfreedomonline.com/censorship-industry-the-european-firms-monetizing-the-dsa",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://foundationforfreedomonline.com/censorship-industry-the-european-firms-monetizing-the-dsa/",
+            "source": "Hacker News Newest",
+            "title": "Censorship Industry: The European Firms Monetizing the DSA",
+            "titleZh": "审查产业：将DSA货币化的欧洲公司 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "审查产业：将DSA货币化的欧洲公司 - 路透社"
+      },
+      {
+        "title": "The history (and future) of technology form factors",
+        "url": "https://blog.jacobstechtavern.com/p/technology-form-factors",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:55:13 +0000",
+        "id": "02bc9a9686e279d6bf94ae834e6da5e7d71e81f8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c639f11df981c716b323b657bcac61a9bde26d2a",
+        "canonicalUrl": "https://blog.jacobstechtavern.com/p/technology-form-factors",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.jacobstechtavern.com/p/technology-form-factors",
+            "source": "Hacker News Newest",
+            "title": "The history (and future) of technology form factors",
+            "titleZh": "技术形态因素的历史（与未来）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "技术形态因素的历史（与未来）"
+      },
+      {
+        "title": "Why it might be time to rethink the human family tree",
+        "url": "https://theconversation.com/why-it-might-be-time-to-rethink-the-human-family-tree-289819",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:54:24 +0000",
+        "id": "cf666ecd7720cb1ba240779bdfde14a50d2474d0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e3c853ecdc8855dd1d76cfc4840f3ec24b652a99",
+        "canonicalUrl": "https://theconversation.com/why-it-might-be-time-to-rethink-the-human-family-tree-289819",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://theconversation.com/why-it-might-be-time-to-rethink-the-human-family-tree-289819",
+            "source": "Hacker News Newest",
+            "title": "Why it might be time to rethink the human family tree",
+            "titleZh": "为何可能是时候重新思考人类家族树"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为何可能是时候重新思考人类家族树"
+      },
+      {
+        "title": "Carbon: Graduating from the experiment – Chandler Carruth – NDC Toronto 2026 [video]",
+        "url": "https://www.youtube.com/watch?v=WJl4ftb5Fxg",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:51:18 +0000",
+        "id": "40969a98f14208ae66ddeb52d172344bd4ced7e8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6f61a7b3fe90ef4c836d1e75e4ceda70a623796f",
+        "canonicalUrl": "https://youtube.com/watch?v=WJl4ftb5Fxg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=WJl4ftb5Fxg",
+            "source": "Hacker News Newest",
+            "title": "Carbon: Graduating from the experiment – Chandler Carruth – NDC Toronto 2026 [video]",
+            "titleZh": "碳：从实验毕业——钱德勒·卡鲁斯——NDC多伦多2026 [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "碳：从实验毕业——钱德勒·卡鲁斯——NDC多伦多2026 [视频]"
+      },
+      {
+        "title": "Cixin Liu's Essay: The Ladder of Immortality",
+        "url": "https://masterdai.blog/cixin-lius-essay-the-ladder-of-immortality/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:48:17 +0000",
+        "id": "0413309f1e7ba59c94d5cd31b636688e3e05b946",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e4aff5a398c3b36a584b3ea246b0193c1756a428",
+        "canonicalUrl": "https://masterdai.blog/cixin-lius-essay-the-ladder-of-immortality",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://masterdai.blog/cixin-lius-essay-the-ladder-of-immortality/",
+            "source": "Hacker News Newest",
+            "title": "Cixin Liu's Essay: The Ladder of Immortality",
+            "titleZh": "刘慈欣随笔：永生之梯"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "刘慈欣随笔：永生之梯"
+      },
+      {
+        "title": "Shape of the System Structure over vigilance: Engineering for bounded cognition",
+        "url": "https://shapeofthesystem.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:44:27 +0000",
+        "id": "fa1926500f184138c03dde2ef37263aa56bfdf47",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9a1d86b7c5bb0f0481c3576444fc26015535ea2e",
+        "canonicalUrl": "https://shapeofthesystem.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://shapeofthesystem.com/",
+            "source": "Hacker News Newest",
+            "title": "Shape of the System Structure over vigilance: Engineering for bounded cognition",
+            "titleZh": "系统结构形态优于警觉性：为有限认知而工程"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "系统结构形态优于警觉性：为有限认知而工程"
+      },
+      {
+        "title": "LG Display unveils FLiPP, achieving dream next-generation OLED technology",
+        "url": "https://news.lgdisplay.com/en/2026/08/lg-display-unveils-flipp-achieving-dream-next-generation-oled/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:39:56 +0000",
+        "id": "f74158070fe3b2e0d8f65d0df7df29d06d019774",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b30ddeeadfffd4871cb380f4e6746e063c775612",
+        "canonicalUrl": "https://news.lgdisplay.com/en/2026/08/lg-display-unveils-flipp-achieving-dream-next-generation-oled",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.lgdisplay.com/en/2026/08/lg-display-unveils-flipp-achieving-dream-next-generation-oled/",
+            "source": "Hacker News Newest",
+            "title": "LG Display unveils FLiPP, achieving dream next-generation OLED technology",
+            "titleZh": "LG Display发布FLiPP，实现梦想中的下一代OLED技术"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "LG Display发布FLiPP，实现梦想中的下一代OLED技术"
+      },
+      {
+        "title": "A live browser fingerprinting and bot detection playground",
+        "url": "https://fingerprint-scan.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:36:04 +0000",
+        "id": "2393fb6a577aace17dbd7a5abd5f27a2d9073a3f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ed06c0bd11fcace66e80f432139b5521c8798d4e",
+        "canonicalUrl": "https://fingerprint-scan.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://fingerprint-scan.com/",
+            "source": "Hacker News Newest",
+            "title": "A live browser fingerprinting and bot detection playground",
+            "titleZh": "一个实时的浏览器指纹识别与机器人检测游乐场"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "一个实时的浏览器指纹识别与机器人检测游乐场"
+      },
+      {
+        "title": "The Psychological Transition from C to Rust",
+        "url": "https://strawberry9.github.io/the-wrong-memory/Appendix_04.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:35:07 +0000",
+        "id": "8e80bfc080291b2b0c77973c4169b1a2566b8a7d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "53c3521e62473d3dc45456b676ee09190170ce6b",
+        "canonicalUrl": "https://strawberry9.github.io/the-wrong-memory/Appendix_04.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://strawberry9.github.io/the-wrong-memory/Appendix_04.html",
+            "source": "Hacker News Newest",
+            "title": "The Psychological Transition from C to Rust",
+            "titleZh": "从C到Rust的心理转变"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "从C到Rust的心理转变"
+      },
+      {
+        "title": "Fan Performance Database",
+        "url": "https://www.cybenetics.com/index.php?option=fan-performance-database",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:33:07 +0000",
+        "id": "3ecef032e1510679928c71faa49c183966076bcd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1fb219599c7cb396e2513f15922a9b0e17a9b329",
+        "canonicalUrl": "https://cybenetics.com/index.php?option=fan-performance-database",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cybenetics.com/index.php?option=fan-performance-database",
+            "source": "Hacker News Newest",
+            "title": "Fan Performance Database",
+            "titleZh": "风扇性能数据库"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "风扇性能数据库"
+      },
+      {
+        "title": "Rune – persistent context for AI coding tools",
+        "url": "https://github.com/thecolourfoundation/rune",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:32:15 +0000",
+        "id": "c3631c0308f19c687b9c449e4f4b8d1aaadd3098",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "6889bdfc00699c5f58b3738b8613d401855728d8",
+        "canonicalUrl": "https://github.com/thecolourfoundation/rune",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/thecolourfoundation/rune",
+            "source": "Hacker News Newest",
+            "title": "Rune – persistent context for AI coding tools",
+            "titleZh": "Rune——AI编码工具的持久上下文"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Rune——AI编码工具的持久上下文"
+      },
+      {
+        "title": "Pander Score: How much do AI models mirror what users believe?",
+        "url": "https://sophronresearch.org/pander/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:32:03 +0000",
+        "id": "4bb97df7b082e0e5c7b931482b9193605fea0f48",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "6f663b196fc22576f6284c5539ca84bcdf6623fe",
+        "canonicalUrl": "https://sophronresearch.org/pander",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://sophronresearch.org/pander/",
+            "source": "Hacker News Newest",
+            "title": "Pander Score: How much do AI models mirror what users believe?",
+            "titleZh": "Pander评分：AI模型在多大程度上反映用户的信念？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Pander评分：AI模型在多大程度上反映用户的信念？"
+      },
+      {
+        "title": "Eberto Streaming Companion",
+        "url": "https://eberto.net/top/us/movies/netflix",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:30:10 +0000",
+        "id": "bf61860f475c954c22f58ba39e41cd537bb0330a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bbfa6dd3ccf544fc4ece78963e5adac8dfd239dc",
+        "canonicalUrl": "https://eberto.net/top/us/movies/netflix",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://eberto.net/top/us/movies/netflix",
+            "source": "Hacker News Newest",
+            "title": "Eberto Streaming Companion",
+            "titleZh": "Eberto流媒体伴侣"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Eberto流媒体伴侣"
+      },
+      {
+        "title": "Optimizing Base58: up to 67× faster encoding and decoding",
+        "url": "https://fluxrpc.com/blog/base58-optimization-solana-rpc",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T09:59:13.023Z",
+        "pubDate": "Wed, 19 Aug 2026 09:28:20 +0000",
+        "id": "88c5b389eed0828be71885fadf21a78d6877eadd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4a5a1ae789b1bf57837b51094192a073aadfcb43",
+        "canonicalUrl": "https://fluxrpc.com/blog/base58-optimization-solana-rpc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://fluxrpc.com/blog/base58-optimization-solana-rpc",
+            "source": "Hacker News Newest",
+            "title": "Optimizing Base58: up to 67× faster encoding and decoding",
+            "titleZh": "优化Base58：编码和解码速度提升高达67倍"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "优化Base58：编码和解码速度提升高达67倍"
       }
     ]
   },
-  "lastFetchAt": "2026-08-19T09:28:47.016Z"
+  "lastFetchAt": "2026-08-19T09:59:12.387Z"
 }
