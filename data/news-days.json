@@ -1203,16 +1203,23 @@
         "isPriority": false,
         "eventId": "3eea3ee08251e56b56fc1bd353452e9695cc5019",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzFtMW4yT2p3NVFLT21SeWlSMlNzZWhHb1UyZW0wN3QyRjVGT0MwWE16a0EyOUhiVE9TRE1vZll3LWFBb3h6N0ktRTA5RUFqQ01EQnVfczNndldLaVBOcHlyNmxBZjZXMTFKc096ZkxHeUVKdEV5RVVJSTJtcTNmWHF1ZS1uVXBNbm1uVlNQOE5TSlJLVkxMal9sYkxUN0JoMlBuckJR",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzFtMW4yT2p3NVFLT21SeWlSMlNzZWhHb1UyZW0wN3QyRjVGT0MwWE16a0EyOUhiVE9TRE1vZll3LWFBb3h6N0ktRTA5RUFqQ01EQnVfczNndldLaVBOcHlyNmxBZjZXMTFKc096ZkxHeUVKdEV5RVVJSTJtcTNmWHF1ZS1uVXBNbm1uVlNQOE5TSlJLVkxMal9sYkxUN0JoMlBuckJR?oc=5",
             "source": "Google News",
             "title": "Astronomers detect fastest known star in Milky Way - The Guardian",
+            "titleZh": "天文学家探测到银河系中已知最快的恒星 - 《卫报》"
+          },
+          {
+            "url": "https://www.theguardian.com/science/2026/aug/19/astronomers-detect-fastest-known-star-in-milky-way-s301",
+            "source": "Hacker News Newest",
+            "title": "Astronomers detect fastest known star in Milky Way",
             "titleZh": "天文学家探测到银河系中已知最快的恒星 - 《卫报》"
           }
         ],
@@ -5204,7 +5211,7 @@
           {
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVkl0OHlnRWFEd2x4RkNFcloyYWw0UEhZTjU2VW9KUTlsUGlWN1JUelNlYmtmYkRyRFh6b0ttNTF0c3o3SEtLdFFpVGxhRV82VHlBR2F6ZUJtWGd3SWFjcTNySkt2cnNiMnRaRDd2Z3piUlVQa2pVQzVzbXRyREdDSUx2OGNPX25tSFBGcEpzbXJZQzFFWWRQaFhoQWQ0NWlOR1A5V3ExSkVKN0REV0wwMW0yNVRTYm96RzFZOVpVT0lEbkd6U3h3VHBlbw?oc=5",
             "source": "Reuters World via Google News",
-            "title": "EXCLUSIVE: Mossad director, Syria foreign minister discussed Turkish military deployments before strikes, sources say - Reuters",
+            "title": "EXCLUSIVE: Mossad chief, Syrian foreign minister discussed Turkish military deployments before strikes, sources say - Reuters",
             "titleZh": "独家：消息人士称，摩萨德局长与叙利亚外长在空袭前讨论了土耳其军事部署 - 路透社"
           }
         ],
@@ -8838,11 +8845,12 @@
         "isPriority": false,
         "eventId": "c3d3d60aa18a4677678ebb3b9e1a8edb7498d875",
         "canonicalUrl": "https://router.com/",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -11181,10 +11189,11 @@
         "isPriority": true,
         "eventId": "ed4c8c3f6e62c14522355177858d724b6ec062af",
         "canonicalUrl": "https://yourhuman.ai/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -11574,10 +11583,11 @@
         "isPriority": true,
         "eventId": "ca08d8c3ee86313700a02b11bd3cce1cc9744a8c",
         "canonicalUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -11644,10 +11654,11 @@
         "isPriority": false,
         "eventId": "09e1f1bf63216afa71fac340d18325958ac6344f",
         "canonicalUrl": "https://inco.ai/blog/dflash2",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -11765,10 +11776,11 @@
         "isPriority": true,
         "eventId": "dd8f52667edba6a68f5d1e1d680fd65a346bc55a",
         "canonicalUrl": "https://theverge.com/tech/982270/meta-ai-mac-app",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -12063,8 +12075,1191 @@
         "language": "",
         "languages": [],
         "titleZh": "Squid——我构建了一个知道何时不该说话的AI会议参与者"
+      },
+      {
+        "title": "Australian politics live: Penny Wong says government ‘outraged’ and will call in Israel ambassador over IDF decision not to investigate Frankcom killing",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/20/australian-politics-live-penny-wong-labor-government-anthony-albanese-gambling-ndis-question-time-angus-taylor-pauline-hanson-ntwnfb",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-19T21:20:51.956Z",
+        "pubDate": "Wed, 19 Aug 2026 21:14:36 GMT",
+        "id": "eae4a2eb632939c5488b07b686562da98b60ee95",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "37ac9b96b3c5a8f4b304f46b052325f5f442ab03",
+        "canonicalUrl": "https://theguardian.com/australia-news/live/2026/aug/20/australian-politics-live-penny-wong-labor-government-anthony-albanese-gambling-ndis-question-time-angus-taylor-pauline-hanson-ntwnfb",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/live/2026/aug/20/australian-politics-live-penny-wong-labor-government-anthony-albanese-gambling-ndis-question-time-angus-taylor-pauline-hanson-ntwnfb",
+            "source": "Guardian World",
+            "title": "Australian politics live: Penny Wong says government ‘outraged’ and will call in Israel ambassador over IDF decision not to investigate Frankcom killing",
+            "titleZh": "澳大利亚政治直播：黄英贤称政府对IDF不调查弗兰科姆遇害事件的决定感到“愤怒”，将召见以色列大使"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "澳大利亚政治直播：黄英贤称政府对IDF不调查弗兰科姆遇害事件的决定感到“愤怒”，将召见以色列大使"
+      },
+      {
+        "title": "US gross national debt tops $40tn for first time",
+        "url": "https://www.theguardian.com/us-news/2026/aug/19/us-debt-40-trillion",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-19T21:20:51.956Z",
+        "pubDate": "Wed, 19 Aug 2026 20:52:16 GMT",
+        "id": "8f895eddd4e9f8d20f7965b267becbddb777b1eb",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "b243032ebf5840a2c8ece1792f872dacb2261e40",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/19/us-debt-40-trillion",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/19/us-debt-40-trillion",
+            "source": "Guardian World",
+            "title": "US gross national debt tops $40tn for first time",
+            "titleZh": "美国国债总额首次突破40万亿美元"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国国债总额首次突破40万亿美元"
+      },
+      {
+        "title": "The U.S. debt tops a record-shattering $40 trillion. Yes, with a T. - NPR",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSC1BVWNwSHZMeGd6SDI3OE5QejYxUWF5aHpSbEtwV3UyMXJLNkxkSE5tQkRkMU5DT2NwaUpOWmVzU3JVclpVSGpORFBSMDFyTmN3Yk5QMzNOVFV2Y25MUzBZQXJoVVdkWlVzNWhGd3RieFV4MFBRQXFlcGlyTTFqMHdYQko4T1dEMFRVeGJDUmU2eFlHbENvS3VlOHZqUTdiSzZ4LUIwZzB6YlE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 20:09:39 GMT",
+        "id": "b2066151dd3b7261efd4abca296c816bb73593a6",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "9e40995f055c6d73648de65e309ead72fc0efb35",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSC1BVWNwSHZMeGd6SDI3OE5QejYxUWF5aHpSbEtwV3UyMXJLNkxkSE5tQkRkMU5DT2NwaUpOWmVzU3JVclpVSGpORFBSMDFyTmN3Yk5QMzNOVFV2Y25MUzBZQXJoVVdkWlVzNWhGd3RieFV4MFBRQXFlcGlyTTFqMHdYQko4T1dEMFRVeGJDUmU2eFlHbENvS3VlOHZqUTdiSzZ4LUIwZzB6YlE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSC1BVWNwSHZMeGd6SDI3OE5QejYxUWF5aHpSbEtwV3UyMXJLNkxkSE5tQkRkMU5DT2NwaUpOWmVzU3JVclpVSGpORFBSMDFyTmN3Yk5QMzNOVFV2Y25MUzBZQXJoVVdkWlVzNWhGd3RieFV4MFBRQXFlcGlyTTFqMHdYQko4T1dEMFRVeGJDUmU2eFlHbENvS3VlOHZqUTdiSzZ4LUIwZzB6YlE?oc=5",
+            "source": "Google News",
+            "title": "The U.S. debt tops a record-shattering $40 trillion. Yes, with a T. - NPR",
+            "titleZh": "美国债务突破创纪录的40万亿美元。是的，是万亿。— NPR"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国债务突破创纪录的40万亿美元。是的，是万亿。— NPR"
+      },
+      {
+        "title": "2 dead, multiple injured after crash involving vehicle and Milligan cyclists - WCYB",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVmtxQkc1azdhUGFlb29JcGd0dkxCUHoyRG5zR3NrTWtlV09RdTMxNkdyMDRGV3FBeldoaklBUkZSTlBIT3hUZU8zQ1RkZG1iY0JaX3Q5ZXpWM0xZdTd1S3lrWFRCeHMxNUpsWExzX0c0cHZRM0xPRUM0aFVwTHQ4R1V3RHdOTk9TMldSaWxCWVpYVUwwV0gxdWVjdEpXNXpmbHVpU2pnUVBHTFVxSHBz?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 19:22:26 GMT",
+        "id": "b3c75e6df925302170a63138f2f886696ba6cdb7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b589dbdef125db6f1645a943ac55d92ba4da5d98",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVmtxQkc1azdhUGFlb29JcGd0dkxCUHoyRG5zR3NrTWtlV09RdTMxNkdyMDRGV3FBeldoaklBUkZSTlBIT3hUZU8zQ1RkZG1iY0JaX3Q5ZXpWM0xZdTd1S3lrWFRCeHMxNUpsWExzX0c0cHZRM0xPRUM0aFVwTHQ4R1V3RHdOTk9TMldSaWxCWVpYVUwwV0gxdWVjdEpXNXpmbHVpU2pnUVBHTFVxSHBz",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVmtxQkc1azdhUGFlb29JcGd0dkxCUHoyRG5zR3NrTWtlV09RdTMxNkdyMDRGV3FBeldoaklBUkZSTlBIT3hUZU8zQ1RkZG1iY0JaX3Q5ZXpWM0xZdTd1S3lrWFRCeHMxNUpsWExzX0c0cHZRM0xPRUM0aFVwTHQ4R1V3RHdOTk9TMldSaWxCWVpYVUwwV0gxdWVjdEpXNXpmbHVpU2pnUVBHTFVxSHBz?oc=5",
+            "source": "Google News",
+            "title": "2 dead, multiple injured after crash involving vehicle and Milligan cyclists - WCYB",
+            "titleZh": "车辆与米利根骑行者相撞事故致2人死亡、多人受伤 — WCYB"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "车辆与米利根骑行者相撞事故致2人死亡、多人受伤 — WCYB"
+      },
+      {
+        "title": "More Fed Officials Lost Patience About Elevated Inflation at Latest Meeting - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGJtNHhWeW5zNEk5ZERYN1hFQnI3Vmp3UG9OUENacjBuNndmOHlkZkJ3MHdPMnRRc1RGMUhhZ0xUcTZDV0lYbGVrVU9RTEl0MUFEVTRqVTJvU0U5bXV1emt0dDhCOWtuSDVKSV8xUXVQNGl4OGRhS25NcFR5VUpwOWhvYkNOQQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 18:42:20 GMT",
+        "id": "68863f5e7dcbf2b6b65068badc96d9d2dafdba42",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d6f53fe21edf596e9db40b27271913de3103b057",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGJtNHhWeW5zNEk5ZERYN1hFQnI3Vmp3UG9OUENacjBuNndmOHlkZkJ3MHdPMnRRc1RGMUhhZ0xUcTZDV0lYbGVrVU9RTEl0MUFEVTRqVTJvU0U5bXV1emt0dDhCOWtuSDVKSV8xUXVQNGl4OGRhS25NcFR5VUpwOWhvYkNOQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGJtNHhWeW5zNEk5ZERYN1hFQnI3Vmp3UG9OUENacjBuNndmOHlkZkJ3MHdPMnRRc1RGMUhhZ0xUcTZDV0lYbGVrVU9RTEl0MUFEVTRqVTJvU0U5bXV1emt0dDhCOWtuSDVKSV8xUXVQNGl4OGRhS25NcFR5VUpwOWhvYkNOQQ?oc=5",
+            "source": "Google News",
+            "title": "More Fed Officials Lost Patience About Elevated Inflation at Latest Meeting - The New York Times",
+            "titleZh": "更多美联储官员在最近一次会议上对高通胀失去耐心 — 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "更多美联储官员在最近一次会议上对高通胀失去耐心 — 《纽约时报》"
+      },
+      {
+        "title": "Watch Valve set up the Steam Frame in its own leaked videos - The Verge",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1JXYVF3NW9sQTZlTmQwVFpSb0hNWkFJSTNCUXMtQ2dJaUN5Y2NTMGxCWTJoY25GLXA3Z0lNTHVjRTB4dTIxR0Y1dWluUDgtdkRGUWcwdWVyZC13cWtFN1NYbFhmMDdqUkJHVVEwcF8zVV92bXhmMWJwZzc5SlNMQnNTWWNMX2lRcjFUaA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 18:16:27 GMT",
+        "id": "2dc70763edcf65167d89fb99514d9838396e6833",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e0eab4dea57c89fc63b3919f701d16e2e2f98a97",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1JXYVF3NW9sQTZlTmQwVFpSb0hNWkFJSTNCUXMtQ2dJaUN5Y2NTMGxCWTJoY25GLXA3Z0lNTHVjRTB4dTIxR0Y1dWluUDgtdkRGUWcwdWVyZC13cWtFN1NYbFhmMDdqUkJHVVEwcF8zVV92bXhmMWJwZzc5SlNMQnNTWWNMX2lRcjFUaA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1JXYVF3NW9sQTZlTmQwVFpSb0hNWkFJSTNCUXMtQ2dJaUN5Y2NTMGxCWTJoY25GLXA3Z0lNTHVjRTB4dTIxR0Y1dWluUDgtdkRGUWcwdWVyZC13cWtFN1NYbFhmMDdqUkJHVVEwcF8zVV92bXhmMWJwZzc5SlNMQnNTWWNMX2lRcjFUaA?oc=5",
+            "source": "Google News",
+            "title": "Watch Valve set up the Steam Frame in its own leaked videos - The Verge",
+            "titleZh": "观看Valve在泄露视频中搭建Steam Frame — The Verge"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "观看Valve在泄露视频中搭建Steam Frame — The Verge"
+      },
+      {
+        "title": "Post Malone and Christy Lee Get Engaged After 2025 Breakup - TMZ",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMLWlEYkNnQWFGbjNZQjBLeUFOQ3FEZlhXSHVybUtpbFlNRk5oR2o5MVc5ZkdISGRadDZmZ2d0d0doN0NOTFllUWVSYkxocTFxWU1DT2V5NXhoVXpkY2stNzJQUFpwLXI3cTF0MDRQV3A?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 20:21:02 GMT",
+        "id": "cc06420ed80fbabd5601d24ba053e08343f04647",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e4d162187555bc87281bdf502dddcfbef6bdb24f",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMLWlEYkNnQWFGbjNZQjBLeUFOQ3FEZlhXSHVybUtpbFlNRk5oR2o5MVc5ZkdISGRadDZmZ2d0d0doN0NOTFllUWVSYkxocTFxWU1DT2V5NXhoVXpkY2stNzJQUFpwLXI3cTF0MDRQV3A",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMLWlEYkNnQWFGbjNZQjBLeUFOQ3FEZlhXSHVybUtpbFlNRk5oR2o5MVc5ZkdISGRadDZmZ2d0d0doN0NOTFllUWVSYkxocTFxWU1DT2V5NXhoVXpkY2stNzJQUFpwLXI3cTF0MDRQV3A?oc=5",
+            "source": "Google News",
+            "title": "Post Malone and Christy Lee Get Engaged After 2025 Breakup - TMZ",
+            "titleZh": "Post Malone与Christy Lee在2025年分手后订婚 — TMZ"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Post Malone与Christy Lee在2025年分手后订婚 — TMZ"
+      },
+      {
+        "title": "Wings star rookie Azzi Fudd out for season with knee injury - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaEY3aXlLQXE5ZW5FSmpNdGRTWmI1T0RzeFd1TGFGdUM1MWNFSXh0MlJfbml1c050TXpfdU1tVjlscVlLRHVjRXQ1R3ZlMklTNmVyelczOHk2b294dFV2cnR1WnBJWmluS0RDNnIwRU9CZ21nbEZyMjl0OVhGZlkxTlhjVWxCSHlsLVpLTkx0czZRSC03OU1F?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 20:45:00 GMT",
+        "id": "5c44f4e52708c1d656b7086038e5c4dfb9e45eb1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6ab841be0aba9f30922f6a2a5067213cf1b3e570",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaEY3aXlLQXE5ZW5FSmpNdGRTWmI1T0RzeFd1TGFGdUM1MWNFSXh0MlJfbml1c050TXpfdU1tVjlscVlLRHVjRXQ1R3ZlMklTNmVyelczOHk2b294dFV2cnR1WnBJWmluS0RDNnIwRU9CZ21nbEZyMjl0OVhGZlkxTlhjVWxCSHlsLVpLTkx0czZRSC03OU1F",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaEY3aXlLQXE5ZW5FSmpNdGRTWmI1T0RzeFd1TGFGdUM1MWNFSXh0MlJfbml1c050TXpfdU1tVjlscVlLRHVjRXQ1R3ZlMklTNmVyelczOHk2b294dFV2cnR1WnBJWmluS0RDNnIwRU9CZ21nbEZyMjl0OVhGZlkxTlhjVWxCSHlsLVpLTkx0czZRSC03OU1F?oc=5",
+            "source": "Google News",
+            "title": "Wings star rookie Azzi Fudd out for season with knee injury - ESPN",
+            "titleZh": "飞翼队新秀Azzi Fudd因膝伤赛季报销 — ESPN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "飞翼队新秀Azzi Fudd因膝伤赛季报销 — ESPN"
+      },
+      {
+        "title": "Jayden Higgins Tears ACL: Fantasy Football Impact On Nico Collins, Tank Dell & Rest Of Texans - FantasyLife",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd2dibVZFT0EwbXFjWmZSbW1vdjh1RUhBbnBsR25zX2pGN0hGMTBvbUFqNTNwLVVBazlhaTRUV2RaQlhiN1U2R095bUE4UWxGdjBMT0gtRFlPaGVHbHVHVWdpcnlVV1J0M0I3RTVPY3NwQVBFQzk1VHZZSnN1RzNYYWU1bjA0R1Bwa1ZkTkM1Vzh2TlRCazFYcHdzQWNPa0RxVGRxc1BpbjFGc2diS3c?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-19T21:20:51.845Z",
+        "pubDate": "Wed, 19 Aug 2026 17:05:00 GMT",
+        "id": "5a597fd8c2b984f92342a3ecea903cffb52c014d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "988729b626261e2e0b866fddf69aa5549041ddf1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd2dibVZFT0EwbXFjWmZSbW1vdjh1RUhBbnBsR25zX2pGN0hGMTBvbUFqNTNwLVVBazlhaTRUV2RaQlhiN1U2R095bUE4UWxGdjBMT0gtRFlPaGVHbHVHVWdpcnlVV1J0M0I3RTVPY3NwQVBFQzk1VHZZSnN1RzNYYWU1bjA0R1Bwa1ZkTkM1Vzh2TlRCazFYcHdzQWNPa0RxVGRxc1BpbjFGc2diS3c",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd2dibVZFT0EwbXFjWmZSbW1vdjh1RUhBbnBsR25zX2pGN0hGMTBvbUFqNTNwLVVBazlhaTRUV2RaQlhiN1U2R095bUE4UWxGdjBMT0gtRFlPaGVHbHVHVWdpcnlVV1J0M0I3RTVPY3NwQVBFQzk1VHZZSnN1RzNYYWU1bjA0R1Bwa1ZkTkM1Vzh2TlRCazFYcHdzQWNPa0RxVGRxc1BpbjFGc2diS3c?oc=5",
+            "source": "Google News",
+            "title": "Jayden Higgins Tears ACL: Fantasy Football Impact On Nico Collins, Tank Dell & Rest Of Texans - FantasyLife",
+            "titleZh": "杰登·希金斯前十字韧带撕裂： fantasy football 对尼科·柯林斯、坦克·戴尔及德州人队其他球员的影响 - FantasyLife"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "杰登·希金斯前十字韧带撕裂： fantasy football 对尼科·柯林斯、坦克·戴尔及德州人队其他球员的影响 - FantasyLife"
+      },
+      {
+        "title": "Pressed Penny Machine Map",
+        "url": "https://pennypresses.net/home/map.php",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-19T21:21:02.135Z",
+        "pubDate": "Wed, 19 Aug 2026 20:13:47 +0000",
+        "id": "5b7bfe5b619a26828e258c22d576f42edbbfb372",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f31eb9c5f0c8e2d3c4ac1240c6db80bb082a3e03",
+        "canonicalUrl": "https://pennypresses.net/home/map.php",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://pennypresses.net/home/map.php",
+            "source": "Hacker News Frontpage",
+            "title": "Pressed Penny Machine Map",
+            "titleZh": "压印硬币机地图"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "压印硬币机地图"
+      },
+      {
+        "title": "Digital Immortality",
+        "url": "https://dogdogfish.com/blog/2026/08/19/digital-immortality/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-19T21:21:02.135Z",
+        "pubDate": "Wed, 19 Aug 2026 19:44:45 +0000",
+        "id": "6c41be4b91d6042bc6a6c02f505ecf3bc473402b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f80f7ba7f9e1c479a813ae8961d8ab797cd8e044",
+        "canonicalUrl": "https://dogdogfish.com/blog/2026/08/19/digital-immortality",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dogdogfish.com/blog/2026/08/19/digital-immortality/",
+            "source": "Hacker News Frontpage",
+            "title": "Digital Immortality",
+            "titleZh": "数字永生"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数字永生"
+      },
+      {
+        "title": "Checkout this coding harness that compiles codebase. 78% SWE-Bench (DS v4flash)",
+        "url": "https://benzi.fly.dev/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:12:24 +0000",
+        "id": "126a6b6b1a4fb0f83b8366a626ff6c123cf85db6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3e29234c878c7ac0610b3b4ae0b47c4ee1b2a381",
+        "canonicalUrl": "https://benzi.fly.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://benzi.fly.dev/",
+            "source": "Hacker News Newest",
+            "title": "Checkout this coding harness that compiles codebase. 78% SWE-Bench (DS v4flash)",
+            "titleZh": "看看这个编译代码库的编码工具。SWE-Bench 得分78%（DS v4flash）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "看看这个编译代码库的编码工具。SWE-Bench 得分78%（DS v4flash）"
+      },
+      {
+        "title": "AI code where are the pitfalls?",
+        "url": "https://news.ycombinator.com/item?id=49367259",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:11:54 +0000",
+        "id": "1cc617c05a2fd20b16b5694802ac1b388225f163",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "39e8d110c1520a652d487779a171ee5aef609894",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49367259",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49367259",
+            "source": "Hacker News Newest",
+            "title": "AI code where are the pitfalls?",
+            "titleZh": "AI代码，陷阱在哪里？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI代码，陷阱在哪里？"
+      },
+      {
+        "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+        "url": "https://os8088.com/spotlight/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:11:31 +0000",
+        "id": "195ba2e08b1ae73df971bc734ce7abb52553374f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b6cbe125a29664f410d93081c42fdc4be4e3322b",
+        "canonicalUrl": "https://os8088.com/spotlight",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://os8088.com/spotlight/",
+            "source": "Hacker News Newest",
+            "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+            "titleZh": "Os8088.com：IBM XT 操作系统现在有了浏览器，带 Z80 核心的 CP/M 2.2 和 MS Word 1.1a"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Os8088.com：IBM XT 操作系统现在有了浏览器，带 Z80 核心的 CP/M 2.2 和 MS Word 1.1a"
+      },
+      {
+        "title": "AI generated code is it any good?",
+        "url": "https://discuss.google.dev/t/trusted-automation-with-google-antigravity-scaling-secure-finance-integrations-from-40-days-to-5/383313",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:11:17 +0000",
+        "id": "dae614b8f69cd7d611e38c7dbba5907f4e8cf3d0",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "2d06f557e3200e49103b526f4fac9d199984dd55",
+        "canonicalUrl": "https://discuss.google.dev/t/trusted-automation-with-google-antigravity-scaling-secure-finance-integrations-from-40-days-to-5/383313",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://discuss.google.dev/t/trusted-automation-with-google-antigravity-scaling-secure-finance-integrations-from-40-days-to-5/383313",
+            "source": "Hacker News Newest",
+            "title": "AI generated code is it any good?",
+            "titleZh": "AI生成的代码到底好不好？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI生成的代码到底好不好？"
+      },
+      {
+        "title": "Apple Compared My Neurodivergent Disability Adjustments to Dog-Sitting: VisionOS",
+        "url": "https://edgecaseexistence.com/articles/apple-dogsitting/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:09:47 +0000",
+        "id": "76e580b66e0e482157dba83536bfd224654ecc29",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "52b22809a4d3994a0333380714c217560a254074",
+        "canonicalUrl": "https://edgecaseexistence.com/articles/apple-dogsitting",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://edgecaseexistence.com/articles/apple-dogsitting/",
+            "source": "Hacker News Newest",
+            "title": "Apple Compared My Neurodivergent Disability Adjustments to Dog-Sitting: VisionOS",
+            "titleZh": "苹果将我的神经发育障碍调整比作照看狗：VisionOS"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "苹果将我的神经发育障碍调整比作照看狗：VisionOS"
+      },
+      {
+        "title": "Did OpenAI's AI hack Hugging Face? An evidence audit",
+        "url": "https://speedyweedyops.org/did-openai-ai-hack-hugging-face/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:09:14 +0000",
+        "id": "4a6ee42aa1e5a628fa1b8b25b15beb40ad9501af",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "OpenAI"
+        ],
+        "isPriority": true,
+        "eventId": "badfbeedd90cb258b7ab2cab463df64c0e00e2ce",
+        "canonicalUrl": "https://speedyweedyops.org/did-openai-ai-hack-hugging-face",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://speedyweedyops.org/did-openai-ai-hack-hugging-face/",
+            "source": "Hacker News Newest",
+            "title": "Did OpenAI's AI hack Hugging Face? An evidence audit",
+            "titleZh": "OpenAI的AI是否入侵了Hugging Face？一项证据审计"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "OpenAI的AI是否入侵了Hugging Face？一项证据审计"
+      },
+      {
+        "title": "The AI Boom Is About to Make Cars More Expensive",
+        "url": "https://www.theatlantic.com/technology/2026/08/car-prices-memory-ram-ai/688329/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:08:56 +0000",
+        "id": "e532922b0e2df06b2fd03eb4d19ca14d55092091",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "f69c007428f93e39f20ae5945774eae9a9fcb0c6",
+        "canonicalUrl": "https://theatlantic.com/technology/2026/08/car-prices-memory-ram-ai/688329",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theatlantic.com/technology/2026/08/car-prices-memory-ram-ai/688329/",
+            "source": "Hacker News Newest",
+            "title": "The AI Boom Is About to Make Cars More Expensive",
+            "titleZh": "AI热潮即将推高汽车价格"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI热潮即将推高汽车价格"
+      },
+      {
+        "title": "Firefly Aerospace to fly Zeno Power radioisotope heater on lunar lander mission",
+        "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:08:33 +0000",
+        "id": "92559675564337137c681046c48a96555e195909",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "85c33476aa9698a6d3ed1c7e57f54520acf517be",
+        "canonicalUrl": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/",
+            "source": "Hacker News Newest",
+            "title": "Firefly Aerospace to fly Zeno Power radioisotope heater on lunar lander mission",
+            "titleZh": "萤火虫航空航天公司将在月球着陆器任务中搭载Zeno Power放射性同位素加热器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "萤火虫航空航天公司将在月球着陆器任务中搭载Zeno Power放射性同位素加热器"
+      },
+      {
+        "title": "I Became a Pediatrician Because I Wanted to Be a Good Adult",
+        "url": "https://drped.substack.com/p/i-became-a-pediatrician-because-i",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:03:48 +0000",
+        "id": "53010bf0e38da9325ceeba87b2c688a16fcca3a8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "680dc8d5a2d74b8f2bc68da96bf69c7d48ae43fa",
+        "canonicalUrl": "https://drped.substack.com/p/i-became-a-pediatrician-because-i",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://drped.substack.com/p/i-became-a-pediatrician-because-i",
+            "source": "Hacker News Newest",
+            "title": "I Became a Pediatrician Because I Wanted to Be a Good Adult",
+            "titleZh": "我成为儿科医生，是因为我想成为一个好大人"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我成为儿科医生，是因为我想成为一个好大人"
+      },
+      {
+        "title": "Show HN: ComputeFence – preflight checks for rented GPU training jobs",
+        "url": "https://github.com/Francisco-Booth/ComputeFence",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:02:55 +0000",
+        "id": "9d3135b9b1e5a08ba76b52012a72dbd01bca02c6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9967445d9cb798c6d8fbc113cc7b55e4ebab1131",
+        "canonicalUrl": "https://github.com/Francisco-Booth/ComputeFence",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/Francisco-Booth/ComputeFence",
+            "source": "Hacker News Newest",
+            "title": "Show HN: ComputeFence – preflight checks for rented GPU training jobs",
+            "titleZh": "展示HN：ComputeFence——租用GPU训练任务的预检"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：ComputeFence——租用GPU训练任务的预检"
+      },
+      {
+        "title": "AI-generated writing: it's still bad",
+        "url": "https://greyenlightenment.com/2026/08/18/ai-generated-writing-its-still-bad/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:02:46 +0000",
+        "id": "5ceee7c3840671b74c142bcdbd4d9fa87e0df0c6",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "3a932e9db51b5c34b8371dca7094f8640f978fe8",
+        "canonicalUrl": "https://greyenlightenment.com/2026/08/18/ai-generated-writing-its-still-bad",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://greyenlightenment.com/2026/08/18/ai-generated-writing-its-still-bad/",
+            "source": "Hacker News Newest",
+            "title": "AI-generated writing: it's still bad",
+            "titleZh": "AI生成的写作：仍然很糟糕"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI生成的写作：仍然很糟糕"
+      },
+      {
+        "title": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
+        "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:02:31 +0000",
+        "id": "3591b885d3ee6747b9aec4159f1b097d6a05c059",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "8778a66cb530890ca531e32a708bd2efb5171124",
+        "canonicalUrl": "https://unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/",
+            "source": "Hacker News Newest",
+            "title": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
+            "titleZh": "AI在用日语推理时，发动核打击的可能性更低"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI在用日语推理时，发动核打击的可能性更低"
+      },
+      {
+        "title": "Every Steam Frame Official Video Leaked [video]",
+        "url": "https://www.youtube.com/watch?v=PpMgjtQhVsI",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:02:27 +0000",
+        "id": "79fb90df911807c31c0a6d106c96fb2ce2f02845",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ce25bb0a961e10fae23d794e79a5b64bfbd4ac78",
+        "canonicalUrl": "https://youtube.com/watch?v=PpMgjtQhVsI",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=PpMgjtQhVsI",
+            "source": "Hacker News Newest",
+            "title": "Every Steam Frame Official Video Leaked [video]",
+            "titleZh": "每个Steam帧官方视频泄露【视频】"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "每个Steam帧官方视频泄露【视频】"
+      },
+      {
+        "title": "OpenAI's Unraveling Has Begun",
+        "url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 21:00:57 +0000",
+        "id": "7e68272ad230ab45bd67db32df0d213db7908ebd",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "OpenAI"
+        ],
+        "isPriority": true,
+        "eventId": "5c7fb230b88bc5b3747bec357396539a883e8438",
+        "canonicalUrl": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+            "source": "Hacker News Newest",
+            "title": "OpenAI's Unraveling Has Begun",
+            "titleZh": "OpenAI的解体已经开始"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "OpenAI的解体已经开始"
+      },
+      {
+        "title": "Show HN: I forked an agent stack and measured myself against it, losses included",
+        "url": "https://toolbay.ai/stack",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 20:59:35 +0000",
+        "id": "05cd9caa12fd9646fc3088a3d688685b7770ef56",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "d4537be4b9ce85bdb49a14852c009664a5975f9b",
+        "canonicalUrl": "https://toolbay.ai/stack",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://toolbay.ai/stack",
+            "source": "Hacker News Newest",
+            "title": "Show HN: I forked an agent stack and measured myself against it, losses included",
+            "titleZh": "Show HN：我分叉了一个代理栈，并拿自己与它对比，包括损失"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：我分叉了一个代理栈，并拿自己与它对比，包括损失"
+      },
+      {
+        "title": "I am so against volunteering in academia (ecology-edition)",
+        "url": "https://statmodeling.stat.columbia.edu/2026/08/19/why-i-am-so-against-volunteering-in-academia-ecology-edition/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 20:58:22 +0000",
+        "id": "aaba4df3d110235fbcb033a3d4d638ba345c2332",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d996401afbf71daf9434788f2d2d9aebaa30ec03",
+        "canonicalUrl": "https://statmodeling.stat.columbia.edu/2026/08/19/why-i-am-so-against-volunteering-in-academia-ecology-edition",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://statmodeling.stat.columbia.edu/2026/08/19/why-i-am-so-against-volunteering-in-academia-ecology-edition/",
+            "source": "Hacker News Newest",
+            "title": "I am so against volunteering in academia (ecology-edition)",
+            "titleZh": "我强烈反对学术界志愿服务（生态学版）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我强烈反对学术界志愿服务（生态学版）"
+      },
+      {
+        "title": "Ask HN: If you write release notes, what stops you from being specific?",
+        "url": "https://news.ycombinator.com/item?id=49367131",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 20:57:15 +0000",
+        "id": "e41a84a769d8c6f9cbac368c8b66776a1717f2a2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7046c2e3494008b1438add6cc068234931df20a6",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49367131",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49367131",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: If you write release notes, what stops you from being specific?",
+            "titleZh": "Ask HN：如果你写发布说明，是什么阻止你写得具体？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Ask HN：如果你写发布说明，是什么阻止你写得具体？"
+      },
+      {
+        "title": "Taurus: Building a live guitar pedalboard from AudioUnit plugins on Mac and iPad [video]",
+        "url": "https://www.youtube.com/watch?v=CpU4yg9-E9Y",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 20:54:07 +0000",
+        "id": "28d62bcb88a7d486a3a776d4e1e219c64a846595",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0f986cc85ad930e517714afc04f1281ebbe7317c",
+        "canonicalUrl": "https://youtube.com/watch?v=CpU4yg9-E9Y",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=CpU4yg9-E9Y",
+            "source": "Hacker News Newest",
+            "title": "Taurus: Building a live guitar pedalboard from AudioUnit plugins on Mac and iPad [video]",
+            "titleZh": "Taurus：在Mac和iPad上从AudioUnit插件构建实时吉他踏板 [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Taurus：在Mac和iPad上从AudioUnit插件构建实时吉他踏板 [视频]"
+      },
+      {
+        "title": "The learned helplessness epidemic of the AI era",
+        "url": "https://substack.com/sign-in",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-19T21:20:53.312Z",
+        "pubDate": "Wed, 19 Aug 2026 20:52:21 +0000",
+        "id": "f90870d3dd7f0d1cc4dfec76ae28d6ce7d36f4be",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "4aa5e32697f1d91607aa67079fabc2467354979b",
+        "canonicalUrl": "https://substack.com/sign-in",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://substack.com/sign-in",
+            "source": "Hacker News Newest",
+            "title": "The learned helplessness epidemic of the AI era",
+            "titleZh": "AI时代习得性无助的流行病"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI时代习得性无助的流行病"
+      },
+      {
+        "title": "Easy to use Entity Component System (ECS) crafted with Odin",
+        "url": "https://github.com/helioscout/moecs",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-19T21:20:52.370Z",
+        "pubDate": "Wed, 19 Aug 2026 15:59:50 -0500",
+        "id": "f8177bb10379c72ba9168687f6a5aab6d309682c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dfa631d51fc807cbc17443b69c13baed72a759d4",
+        "canonicalUrl": "https://github.com/helioscout/moecs",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/helioscout/moecs",
+            "source": "Lobsters RSS",
+            "title": "Easy to use Entity Component System (ECS) crafted with Odin",
+            "titleZh": "使用Odin打造易用的实体组件系统（ECS）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "使用Odin打造易用的实体组件系统（ECS）"
       }
     ]
   },
-  "lastFetchAt": "2026-08-19T20:52:50.041Z"
+  "lastFetchAt": "2026-08-19T21:20:51.068Z"
 }
