@@ -10685,10 +10685,11 @@
         "isPriority": false,
         "eventId": "d0029a60f54381b174601512a102ff94095961d3",
         "canonicalUrl": "https://theregister.com/saas/2026/08/21/salesforce-partners-are-not-seeing-revenue-from-agentforce-ai-platform-report-says/5291167",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -10800,17 +10801,24 @@
         "isPriority": true,
         "eventId": "d001aa1aecad025f5f7755bdb38bcded735f73a4",
         "canonicalUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Google News"
         ],
         "relatedLinks": [
           {
             "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
             "source": "Hacker News Newest",
             "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+            "titleZh": "英伟达刚刚表明，现在真正的英雄是框架，而非AI模型"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYUhYMWlQcFVnY3ZOSzhwb21sNFEwVlNzS3dJaTl2bHJpYm1sM3g3MHl6S3NoU1Etd2VWakh5b0ZkelB3a2hNNy03akFEN1JybGF5ZTUxcmUzeEw1X1lBd2dqeU5fUWF2NVRHWWpIZXFYTWk1SFhKMlZBY1RoSlRjLWljUE1HMm5xcFN6RkM0NkNYOFlYSTBwWWhReXpXZFVsSVNnOUNIc3dQUlNQ?oc=5",
+            "source": "Google News",
+            "title": "Nvidia just showed that the harness, not the AI model, is now the real hero - TechCrunch",
             "titleZh": "英伟达刚刚表明，现在真正的英雄是框架，而非AI模型"
           }
         ],
@@ -11661,10 +11669,11 @@
         "isPriority": true,
         "eventId": "9904072a45c15287216b231ee59f7a26464aca3c",
         "canonicalUrl": "https://tomshardware.com/tech-industry/data-centers/amazons-new-7-65gw-texas-ai-data-center-power-plant-could-become-the-largest-source-of-co2-pollution-in-the-us-custom-35-turbine-gas-plant-authorized-to-emit-33-million-tons-of-annual-greenhouse-gases",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -11856,8 +11865,1078 @@
         "language": "",
         "languages": [],
         "titleZh": "一个Postgres集群，多个应用"
+      },
+      {
+        "title": "TikTok agrees to $400m settlement to resolve US children’s privacy litigation",
+        "url": "https://www.theguardian.com/technology/2026/aug/21/tiktok-settlement-children-privacy",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-21T22:19:23.963Z",
+        "pubDate": "Fri, 21 Aug 2026 22:05:24 GMT",
+        "id": "6fd14248812654f499c18f759ed5e18c60a24c77",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "35402b4e9db1fe53213ef41e384cd43135ef689d",
+        "canonicalUrl": "https://theguardian.com/technology/2026/aug/21/tiktok-settlement-children-privacy",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/technology/2026/aug/21/tiktok-settlement-children-privacy",
+            "source": "Guardian World",
+            "title": "TikTok agrees to $400m settlement to resolve US children’s privacy litigation",
+            "titleZh": "TikTok同意支付4亿美元和解金，以解决美国儿童隐私诉讼"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "TikTok同意支付4亿美元和解金，以解决美国儿童隐私诉讼"
+      },
+      {
+        "title": "‘Darth Vader’ comes out in favor of Flock cameras at San Diego city council meeting",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/darth-vader-flock-cameras-san-diego",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-21T22:19:23.963Z",
+        "pubDate": "Fri, 21 Aug 2026 21:58:56 GMT",
+        "id": "f311199daa694c398f6beaae172c5953ae3daf02",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5ee6ffcf9f29c2498e8f96e53a401fbb918f3183",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/21/darth-vader-flock-cameras-san-diego",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/21/darth-vader-flock-cameras-san-diego",
+            "source": "Guardian World",
+            "title": "‘Darth Vader’ comes out in favor of Flock cameras at San Diego city council meeting",
+            "titleZh": "‘达斯·维达’在圣地亚哥市议会会议上公开支持Flock摄像头"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "‘达斯·维达’在圣地亚哥市议会会议上公开支持Flock摄像头"
+      },
+      {
+        "title": "‘Trump in purgatory’: A White House plan to lower beef prices is dividing the president’s supporters - Politico",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hY2JYOVVTRUVXQjlpWWtYRVZfbnZtc2ZZYjZUSVM5dmNEREJIZmVBMVJ3SDQzZDJDOVRtVTI0RGxRZ09vUjg5dl96eVRjdkU4aHl4YU94VG5ULVc1MGxla283eXF6S3E3Q3R3enZfQW9EZGJI?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 20:45:00 GMT",
+        "id": "2e9d4ae8524ea0c4325f566106d87f8fd96b65e6",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "白宫",
+          "Trump",
+          "White House"
+        ],
+        "isPriority": true,
+        "eventId": "ce6b13ec75a668d012be959fef4d31930b780776",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hY2JYOVVTRUVXQjlpWWtYRVZfbnZtc2ZZYjZUSVM5dmNEREJIZmVBMVJ3SDQzZDJDOVRtVTI0RGxRZ09vUjg5dl96eVRjdkU4aHl4YU94VG5ULVc1MGxla283eXF6S3E3Q3R3enZfQW9EZGJI",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hY2JYOVVTRUVXQjlpWWtYRVZfbnZtc2ZZYjZUSVM5dmNEREJIZmVBMVJ3SDQzZDJDOVRtVTI0RGxRZ09vUjg5dl96eVRjdkU4aHl4YU94VG5ULVc1MGxla283eXF6S3E3Q3R3enZfQW9EZGJI?oc=5",
+            "source": "Google News",
+            "title": "‘Trump in purgatory’: A White House plan to lower beef prices is dividing the president’s supporters - Politico",
+            "titleZh": "‘炼狱中的特朗普’：白宫降低牛肉价格的计划正在分裂总统的支持者 - 政客"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "‘炼狱中的特朗普’：白宫降低牛肉价格的计划正在分裂总统的支持者 - 政客"
+      },
+      {
+        "title": "Trump loyalist Ed Martin is leaving the Justice Department to focus on election ‘legal battles’ - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQVFzbGlXNTl0aDNoNEtSUFhwYm1KZ0xhd3FyRWVNNEE3MTZScklvdVY4RjR6WHZMWXp0ck4tWmQyam9NODF0OW5uc2JERXBoZG1BcTlMRzZlTmVUWXM4R2cwcFFFanFrWjY1NWlXak00Y2swTmc2ZGVxZXNWZ1VuWDVDdjRjaEx2OTJqd2hLVWVHZ3FzbldXMmpzNG0xbGdKUklWVjlR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 20:33:00 GMT",
+        "id": "144e783c3162b60f489e156489b20c3471c0eb17",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "7c51ad845cdf125ddce5499bfb8790f305b6ffc4",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQVFzbGlXNTl0aDNoNEtSUFhwYm1KZ0xhd3FyRWVNNEE3MTZScklvdVY4RjR6WHZMWXp0ck4tWmQyam9NODF0OW5uc2JERXBoZG1BcTlMRzZlTmVUWXM4R2cwcFFFanFrWjY1NWlXak00Y2swTmc2ZGVxZXNWZ1VuWDVDdjRjaEx2OTJqd2hLVWVHZ3FzbldXMmpzNG0xbGdKUklWVjlR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQVFzbGlXNTl0aDNoNEtSUFhwYm1KZ0xhd3FyRWVNNEE3MTZScklvdVY4RjR6WHZMWXp0ck4tWmQyam9NODF0OW5uc2JERXBoZG1BcTlMRzZlTmVUWXM4R2cwcFFFanFrWjY1NWlXak00Y2swTmc2ZGVxZXNWZ1VuWDVDdjRjaEx2OTJqd2hLVWVHZ3FzbldXMmpzNG0xbGdKUklWVjlR?oc=5",
+            "source": "Google News",
+            "title": "Trump loyalist Ed Martin is leaving the Justice Department to focus on election ‘legal battles’ - AP News",
+            "titleZh": "特朗普忠诚者埃德·马丁将离开司法部，专注于选举‘法律斗争’ - 美联社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普忠诚者埃德·马丁将离开司法部，专注于选举‘法律斗争’ - 美联社"
+      },
+      {
+        "title": "Desperation Mounts in Indiana After 10 Days Without Power - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzSGNTREdtTjI5Nk5mZ1FjSEhnQWNCMTduOGUyOVIyb0N3eGRSbWdCakZTYldET3Vlc2N4ckJEOFNCRm5qQnY2MzFhSVFOMnBPTDFENGJVcHR2TWNPU29TQ24ya0ZhWGlCdk81emVidXRjSVYwWkRn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 19:28:53 GMT",
+        "id": "9912dbbbb8da0d70565ad5300916f0d3cb9663d9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9cc43f2816502dcaebca74f54c02af2a55d33a3d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzSGNTREdtTjI5Nk5mZ1FjSEhnQWNCMTduOGUyOVIyb0N3eGRSbWdCakZTYldET3Vlc2N4ckJEOFNCRm5qQnY2MzFhSVFOMnBPTDFENGJVcHR2TWNPU29TQ24ya0ZhWGlCdk81emVidXRjSVYwWkRn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzSGNTREdtTjI5Nk5mZ1FjSEhnQWNCMTduOGUyOVIyb0N3eGRSbWdCakZTYldET3Vlc2N4ckJEOFNCRm5qQnY2MzFhSVFOMnBPTDFENGJVcHR2TWNPU29TQ24ya0ZhWGlCdk81emVidXRjSVYwWkRn?oc=5",
+            "source": "Google News",
+            "title": "Desperation Mounts in Indiana After 10 Days Without Power - The New York Times",
+            "titleZh": "印第安纳州停电10天后绝望情绪加剧 - 纽约时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印第安纳州停电10天后绝望情绪加剧 - 纽约时报"
+      },
+      {
+        "title": "Prince Harry’s Return to U.K. Sets Up Showdown With Tabloids - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcXpmUnJkNGFDOTFPRWtoa3o3Z1c1VWFYVVZ6clBwbEpoakFrRUJna3NmRW1taS1nMXM1eGMxdExUTE5VT1hlX3hjRE9yQjBYM0dPWC1IQ2VoMHVCbnBmYWxRWHhUM0VZYzRtanFYeHhkdGExTUZYa0ljbmtrZFY1LVQ3SFVpRkhkdXlJVmdydUdmaTJLOC1SVnR4N1o?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 19:57:00 GMT",
+        "id": "5847ca61129fe1932ded84366f98e07f8c82859c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9b7c9cc77d3be120ee1e0f94c5e67aa5831862d0",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcXpmUnJkNGFDOTFPRWtoa3o3Z1c1VWFYVVZ6clBwbEpoakFrRUJna3NmRW1taS1nMXM1eGMxdExUTE5VT1hlX3hjRE9yQjBYM0dPWC1IQ2VoMHVCbnBmYWxRWHhUM0VZYzRtanFYeHhkdGExTUZYa0ljbmtrZFY1LVQ3SFVpRkhkdXlJVmdydUdmaTJLOC1SVnR4N1o",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcXpmUnJkNGFDOTFPRWtoa3o3Z1c1VWFYVVZ6clBwbEpoakFrRUJna3NmRW1taS1nMXM1eGMxdExUTE5VT1hlX3hjRE9yQjBYM0dPWC1IQ2VoMHVCbnBmYWxRWHhUM0VZYzRtanFYeHhkdGExTUZYa0ljbmtrZFY1LVQ3SFVpRkhkdXlJVmdydUdmaTJLOC1SVnR4N1o?oc=5",
+            "source": "Google News",
+            "title": "Prince Harry’s Return to U.K. Sets Up Showdown With Tabloids - WSJ",
+            "titleZh": "哈里王子返回英国，与八卦小报展开对决 - 华尔街日报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "哈里王子返回英国，与八卦小报展开对决 - 华尔街日报"
+      },
+      {
+        "title": "Bonnaroo Is Taking 2027 Off - Pitchfork",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Yc3JDTVRCVDJCaDdLRlNyeHpEeGMwZ05vYVlfUmJxZkREQ0wyY3hsQVpxTjhPVzkxOVk1bkxpXzBLZTdaT0NjTkpZektqMkR0dmZHTnB1UWFQRU9uMHBJZGg2NTB2eU0?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 17:25:49 GMT",
+        "id": "9b709c8065e44b31d2c41a324a4ff93484936e98",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ca9bd1fc33fd5438d301e8a5c01828215fe84cd7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Yc3JDTVRCVDJCaDdLRlNyeHpEeGMwZ05vYVlfUmJxZkREQ0wyY3hsQVpxTjhPVzkxOVk1bkxpXzBLZTdaT0NjTkpZektqMkR0dmZHTnB1UWFQRU9uMHBJZGg2NTB2eU0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Yc3JDTVRCVDJCaDdLRlNyeHpEeGMwZ05vYVlfUmJxZkREQ0wyY3hsQVpxTjhPVzkxOVk1bkxpXzBLZTdaT0NjTkpZektqMkR0dmZHTnB1UWFQRU9uMHBJZGg2NTB2eU0?oc=5",
+            "source": "Google News",
+            "title": "Bonnaroo Is Taking 2027 Off - Pitchfork",
+            "titleZh": "Bonnaroo音乐节将休办2027年 - Pitchfork"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Bonnaroo音乐节将休办2027年 - Pitchfork"
+      },
+      {
+        "title": "Ketlen Vieira misses weight by 7 pounds for Cris Cyborg title fight at PFL Tampa, Vieira issues statement - MMA Fighting",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVk1R3R5eE5lRWhSV0UyUHdxU0UtYXFZWWQ3c0NjVk10bWdrcVUxM1gzelduX0c0V09iQjZPYld0OW8yalVnWkZiNml0bmtBdWp5UjNHTkhpRE1QUHZWZThwSExxMjFzM1RocnpKU1ZMekM3MlNjdWg0QmtmUUFvaW85bmNHLVpBTmNJZFNyYmNxbHI5SUtlNno2dTVFaExWaUJMUmRVdlREZlRaNG5fUWJtOWRwcFI5aVM4?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 19:05:06 GMT",
+        "id": "ffe0a8d006e5cd4254f127aa796ccf3f1944d915",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "37daedde686c057c62d977b0112e4ad37dc4de7d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVk1R3R5eE5lRWhSV0UyUHdxU0UtYXFZWWQ3c0NjVk10bWdrcVUxM1gzelduX0c0V09iQjZPYld0OW8yalVnWkZiNml0bmtBdWp5UjNHTkhpRE1QUHZWZThwSExxMjFzM1RocnpKU1ZMekM3MlNjdWg0QmtmUUFvaW85bmNHLVpBTmNJZFNyYmNxbHI5SUtlNno2dTVFaExWaUJMUmRVdlREZlRaNG5fUWJtOWRwcFI5aVM4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVk1R3R5eE5lRWhSV0UyUHdxU0UtYXFZWWQ3c0NjVk10bWdrcVUxM1gzelduX0c0V09iQjZPYld0OW8yalVnWkZiNml0bmtBdWp5UjNHTkhpRE1QUHZWZThwSExxMjFzM1RocnpKU1ZMekM3MlNjdWg0QmtmUUFvaW85bmNHLVpBTmNJZFNyYmNxbHI5SUtlNno2dTVFaExWaUJMUmRVdlREZlRaNG5fUWJtOWRwcFI5aVM4?oc=5",
+            "source": "Google News",
+            "title": "Ketlen Vieira misses weight by 7 pounds for Cris Cyborg title fight at PFL Tampa, Vieira issues statement - MMA Fighting",
+            "titleZh": "Ketlen Vieira在PFL坦帕站对阵Cris Cyborg的冠军战前超重7磅，Vieira发表声明 - MMA Fighting"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Ketlen Vieira在PFL坦帕站对阵Cris Cyborg的冠军战前超重7磅，Vieira发表声明 - MMA Fighting"
+      },
+      {
+        "title": "Deadly drug-resistant ‘superbug’ is spreading in California. What to know - Sacramento Bee",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWVpaeTNnSmcycXRseW8waUFOVGJzbGx4TzQybUdfbURhWVdqeXpxOWV6MVNSbEgzUmpTTUM4MlFNSFNXblA3YXBuNzI2aWJUTXJBOUstLUl4b1dsZ1hZb1BsTHFCNXp6Zm82LWtDOEtyOFJsWUtDMWo3QWc1YnBCdNIBgAFBVV95cUxQLWhGSG91M2djaEluVWRoOGptX1B5eGN1c3AtNGtWTmFDOXU2NXJ3VFhoRE9lYXJ4ZDBnbXBSOW92Q1pteV9QQnlGVV9NSzU0TEczeUdJYzZtTmZLRnB1TXhSNmtYSVBvQVdtUWVoTVc0cm9HcDVOWjMxc3E3VmFwdA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T22:19:23.769Z",
+        "pubDate": "Fri, 21 Aug 2026 19:15:00 GMT",
+        "id": "0ae91727edc484f6eb2b9f531b6d23c6045f43ad",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0419e9f2f684b87a938d14fbc11cc925259c1355",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWVpaeTNnSmcycXRseW8waUFOVGJzbGx4TzQybUdfbURhWVdqeXpxOWV6MVNSbEgzUmpTTUM4MlFNSFNXblA3YXBuNzI2aWJUTXJBOUstLUl4b1dsZ1hZb1BsTHFCNXp6Zm82LWtDOEtyOFJsWUtDMWo3QWc1YnBCdNIBgAFBVV95cUxQLWhGSG91M2djaEluVWRoOGptX1B5eGN1c3AtNGtWTmFDOXU2NXJ3VFhoRE9lYXJ4ZDBnbXBSOW92Q1pteV9QQnlGVV9NSzU0TEczeUdJYzZtTmZLRnB1TXhSNmtYSVBvQVdtUWVoTVc0cm9HcDVOWjMxc3E3VmFwdA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWVpaeTNnSmcycXRseW8waUFOVGJzbGx4TzQybUdfbURhWVdqeXpxOWV6MVNSbEgzUmpTTUM4MlFNSFNXblA3YXBuNzI2aWJUTXJBOUstLUl4b1dsZ1hZb1BsTHFCNXp6Zm82LWtDOEtyOFJsWUtDMWo3QWc1YnBCdNIBgAFBVV95cUxQLWhGSG91M2djaEluVWRoOGptX1B5eGN1c3AtNGtWTmFDOXU2NXJ3VFhoRE9lYXJ4ZDBnbXBSOW92Q1pteV9QQnlGVV9NSzU0TEczeUdJYzZtTmZLRnB1TXhSNmtYSVBvQVdtUWVoTVc0cm9HcDVOWjMxc3E3VmFwdA?oc=5",
+            "source": "Google News",
+            "title": "Deadly drug-resistant ‘superbug’ is spreading in California. What to know - Sacramento Bee",
+            "titleZh": "致命耐药性‘超级细菌’正在加州蔓延。你需要知道什么 - 《萨克拉门托蜜蜂报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "致命耐药性‘超级细菌’正在加州蔓延。你需要知道什么 - 《萨克拉门托蜜蜂报》"
+      },
+      {
+        "title": "Man loses so much weight employer doesn't recognize him",
+        "url": "https://wsvn.com/news/help-me-howard/man-loses-so-much-weight-employer-doesnt-recognize-him/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-21T22:19:26.273Z",
+        "pubDate": "Fri, 21 Aug 2026 17:30:17 +0000",
+        "id": "476fd57c454e36e08592f7ffe4d9a653a4c4bd4e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "52e8f0b1be0e56b616eeaec592acdde3ad827286",
+        "canonicalUrl": "https://wsvn.com/news/help-me-howard/man-loses-so-much-weight-employer-doesnt-recognize-him",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://wsvn.com/news/help-me-howard/man-loses-so-much-weight-employer-doesnt-recognize-him/",
+            "source": "Hacker News Frontpage",
+            "title": "Man loses so much weight employer doesn't recognize him",
+            "titleZh": "男子减重太多，雇主认不出他"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "男子减重太多，雇主认不出他"
+      },
+      {
+        "title": "Dolphins observed using sea snail shells as tools outside Western Australia",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/mms.70252",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:11:55 +0000",
+        "id": "c4a8c2dce40215da2aaecda9dd39ca8ae87bad15",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1d65b770d153d9461275282717534d5e28fb7e4f",
+        "canonicalUrl": "https://onlinelibrary.wiley.com/doi/10.1111/mms.70252",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/mms.70252",
+            "source": "Hacker News Newest",
+            "title": "Dolphins observed using sea snail shells as tools outside Western Australia",
+            "titleZh": "在西澳大利亚以外地区观察到海豚使用海螺壳作为工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在西澳大利亚以外地区观察到海豚使用海螺壳作为工具"
+      },
+      {
+        "title": "Show HN: A collection of websites built on .lol",
+        "url": "https://upon.lol/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:10:38 +0000",
+        "id": "5eb77428a2329f74b247abb7cd446914140f2d33",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5e2a5b348af9c6cf5050d4818eac8f46b1df7cdc",
+        "canonicalUrl": "https://upon.lol/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://upon.lol/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: A collection of websites built on .lol",
+            "titleZh": "展示HN：一个基于.lol构建的网站集合"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：一个基于.lol构建的网站集合"
+      },
+      {
+        "title": "The Dinosaur Database",
+        "url": "https://dinosaurpictures.org/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:08:41 +0000",
+        "id": "5790a347388368e23b2e7af34a0410e26fc4d229",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9e2c31f7f00f7955eabfdc9abd10c775ae353048",
+        "canonicalUrl": "https://dinosaurpictures.org/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dinosaurpictures.org/",
+            "source": "Hacker News Newest",
+            "title": "The Dinosaur Database",
+            "titleZh": "恐龙数据库"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "恐龙数据库"
+      },
+      {
+        "title": "Show HN: Front Page of the Internet",
+        "url": "https://frontpageoftheinternet.lol/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:06:04 +0000",
+        "id": "3713c1e34bcbc6359da6245c84a32e625175006d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "294e61cdb81fe092c65e5ae280824a0c5158823d",
+        "canonicalUrl": "https://frontpageoftheinternet.lol/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://frontpageoftheinternet.lol/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Front Page of the Internet",
+            "titleZh": "展示HN：互联网首页"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：互联网首页"
+      },
+      {
+        "title": "San Francisco Bay Area dethroned as largest tech talent market",
+        "url": "https://www.sfgate.com/news/article/san-francisco-bay-area-dethroned-largest-tech-22396813.php",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:05:51 +0000",
+        "id": "723a34fa201e18b5b142ee803a73ae3c6064bd20",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "541798106b63d0dcd6706ddfaff106395f7b0dfa",
+        "canonicalUrl": "https://sfgate.com/news/article/san-francisco-bay-area-dethroned-largest-tech-22396813.php",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.sfgate.com/news/article/san-francisco-bay-area-dethroned-largest-tech-22396813.php",
+            "source": "Hacker News Newest",
+            "title": "San Francisco Bay Area dethroned as largest tech talent market",
+            "titleZh": "旧金山湾区失去最大科技人才市场地位"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "旧金山湾区失去最大科技人才市场地位"
+      },
+      {
+        "title": "Show HN: Flowtube – Distraction Free YouTube",
+        "url": "https://chromewebstore.google.com/detail/flowtube-â-distraction-fr/cppgodeleiojlickmcgobbcdfpjifhdf",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:02:53 +0000",
+        "id": "ca2aceb706c91f28109481dce2695e571aae7835",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7f23d92d1ac9c6efb7a90aecf5b4cf3cc383e2f7",
+        "canonicalUrl": "https://chromewebstore.google.com/detail/flowtube-%C3%A2%C2%80%C2%93-distraction-fr/cppgodeleiojlickmcgobbcdfpjifhdf",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://chromewebstore.google.com/detail/flowtube-â-distraction-fr/cppgodeleiojlickmcgobbcdfpjifhdf",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Flowtube – Distraction Free YouTube",
+            "titleZh": "展示HN：Flowtube – 无干扰YouTube"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Flowtube – 无干扰YouTube"
+      },
+      {
+        "title": "No Chocolate,No Beef:Israel's Restrictions on Goods to Gaza and the Black Market",
+        "url": "https://www.haaretz.com/gaza/2026-01-22/ty-article-magazine/.premium/no-chocolate-no-beef-israels-restrictions-on-goods-to-gaza-have-created-a-black-market/0000019b-e170-d4bd-a3db-fbf2413f0000",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 22:02:51 +0000",
+        "id": "f16375c0c4d582cfa61b6282c2e350efdc98029a",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "加沙",
+          "Israel",
+          "Gaza"
+        ],
+        "isPriority": true,
+        "eventId": "0f79f8e33a61cf1bf6f7e4831be9ec7d98d3b825",
+        "canonicalUrl": "https://haaretz.com/gaza/2026-01-22/ty-article-magazine/.premium/no-chocolate-no-beef-israels-restrictions-on-goods-to-gaza-have-created-a-black-market/0000019b-e170-d4bd-a3db-fbf2413f0000",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.haaretz.com/gaza/2026-01-22/ty-article-magazine/.premium/no-chocolate-no-beef-israels-restrictions-on-goods-to-gaza-have-created-a-black-market/0000019b-e170-d4bd-a3db-fbf2413f0000",
+            "source": "Hacker News Newest",
+            "title": "No Chocolate,No Beef:Israel's Restrictions on Goods to Gaza and the Black Market",
+            "titleZh": "无巧克力，无牛肉：以色列对加沙的物资限制与黑市"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "无巧克力，无牛肉：以色列对加沙的物资限制与黑市"
+      },
+      {
+        "title": "Lunch with the FT. Errol Musk: 'I'm Elon's father, not his pal'",
+        "url": "https://www.ft.com/content/ded0ef2a-fb61-4960-981d-5bcf5f0c6bf2",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:59:29 +0000",
+        "id": "f1fbdd626ad258ee0783fba65d27f01fca462cb2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "928b7f370721ee13d1c27b67b79394c55b8e5c4e",
+        "canonicalUrl": "https://ft.com/content/ded0ef2a-fb61-4960-981d-5bcf5f0c6bf2",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ft.com/content/ded0ef2a-fb61-4960-981d-5bcf5f0c6bf2",
+            "source": "Hacker News Newest",
+            "title": "Lunch with the FT. Errol Musk: 'I'm Elon's father, not his pal'",
+            "titleZh": "与FT共进午餐：埃罗尔·马斯克——‘我是埃隆的父亲，不是他的朋友’"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "与FT共进午餐：埃罗尔·马斯克——‘我是埃隆的父亲，不是他的朋友’"
+      },
+      {
+        "title": "Infimaker K1 – Professional Desktop 5-Axis CNC",
+        "url": "https://infimaker.com/pages/infimaker-k1",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:56:00 +0000",
+        "id": "f6c8d60717c38d3739803db659d6611ee9f5b054",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "279700e181ffa3e290421e72d7499be674005049",
+        "canonicalUrl": "https://infimaker.com/pages/infimaker-k1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://infimaker.com/pages/infimaker-k1",
+            "source": "Hacker News Newest",
+            "title": "Infimaker K1 – Professional Desktop 5-Axis CNC",
+            "titleZh": "Infimaker K1——专业桌面五轴数控机床"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Infimaker K1——专业桌面五轴数控机床"
+      },
+      {
+        "title": "LinkedIn-maxxing: An early-stage GTM guide",
+        "url": "https://nmn.gl/blog/linkedin-maxxing",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:55:18 +0000",
+        "id": "9247560e38ba0c8a33ab9a044020c07c589ad922",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "73eeb057d73f2530d6361a670781ad1a9ee1e845",
+        "canonicalUrl": "https://nmn.gl/blog/linkedin-maxxing",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://nmn.gl/blog/linkedin-maxxing",
+            "source": "Hacker News Newest",
+            "title": "LinkedIn-maxxing: An early-stage GTM guide",
+            "titleZh": "LinkedIn最大化：早期阶段GTM指南"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "LinkedIn最大化：早期阶段GTM指南"
+      },
+      {
+        "title": "Behaviour‑based decision layer for real‑time audio analysis (CEPA Logic)",
+        "url": "https://github.com/AdBusterOfficial",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:54:19 +0000",
+        "id": "93ed4b21766cdb23babd17cfabf3f102b96dfd07",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "00887131b3f1509a95318049085281f5b39f4163",
+        "canonicalUrl": "https://github.com/AdBusterOfficial",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/AdBusterOfficial",
+            "source": "Hacker News Newest",
+            "title": "Behaviour‑based decision layer for real‑time audio analysis (CEPA Logic)",
+            "titleZh": "基于行为的决策层，用于实时音频分析（CEPA逻辑）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "基于行为的决策层，用于实时音频分析（CEPA逻辑）"
+      },
+      {
+        "title": "Oleander: Query Routing and Multi-Engine Infra Is the Future",
+        "url": "https://oleander.dev",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:52:53 +0000",
+        "id": "e7bc4c14da0c16dd32dffc7e748207fb7a6d80cb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "80ef6a7bb559e6c6febd4d373aa4e26107b6ab4a",
+        "canonicalUrl": "https://oleander.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://oleander.dev",
+            "source": "Hacker News Newest",
+            "title": "Oleander: Query Routing and Multi-Engine Infra Is the Future",
+            "titleZh": "夹竹桃：查询路由与多引擎基础设施是未来"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "夹竹桃：查询路由与多引擎基础设施是未来"
+      },
+      {
+        "title": "80% of developers find AI coding more addictive than helpful",
+        "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:51:36 +0000",
+        "id": "ae8495cff6127ac03ea75d1d5be643a0941f43c0",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "be6df5cbf44fe19ef35e92bb2faea4ce24db4a42",
+        "canonicalUrl": "https://zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+            "source": "Hacker News Newest",
+            "title": "80% of developers find AI coding more addictive than helpful",
+            "titleZh": "80%的开发者发现AI编程更令人上瘾而非更有帮助"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "80%的开发者发现AI编程更令人上瘾而非更有帮助"
+      },
+      {
+        "title": "Mecrisp – Native Code Forth",
+        "url": "https://mecrisp.sourceforge.net/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:50:32 +0000",
+        "id": "5fa83b154d854c94ec62ef5d4ee30bc6a5a01c9e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5045510781088680d8c4efa7a3c08e1dda615d58",
+        "canonicalUrl": "https://mecrisp.sourceforge.net/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://mecrisp.sourceforge.net/",
+            "source": "Hacker News Newest",
+            "title": "Mecrisp – Native Code Forth",
+            "titleZh": "Mecrisp——原生代码Forth"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Mecrisp——原生代码Forth"
+      },
+      {
+        "title": "The Center for Bits and Atoms",
+        "url": "https://cba.mit.edu/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:48:19 +0000",
+        "id": "fa6357cdcdb417970e48d70529d1aff3aebe76f3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "58d1204a13cdd836cd718dbc4d86003b7ab99713",
+        "canonicalUrl": "https://cba.mit.edu/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://cba.mit.edu/",
+            "source": "Hacker News Newest",
+            "title": "The Center for Bits and Atoms",
+            "titleZh": "比特与原子中心"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "比特与原子中心"
+      },
+      {
+        "title": "Building Piclaw on Top of an Opinionated Coding Agent",
+        "url": "https://taoofmac.com/space/blog/2026/08/21/2218",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:47:22 +0000",
+        "id": "3a865eed35994d96c5b331df2e164aa2b23a9d04",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "32a41712edd0759960ec04a0d5600ab7cd2c10d9",
+        "canonicalUrl": "https://taoofmac.com/space/blog/2026/08/21/2218",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://taoofmac.com/space/blog/2026/08/21/2218",
+            "source": "Hacker News Newest",
+            "title": "Building Piclaw on Top of an Opinionated Coding Agent",
+            "titleZh": "在固执己见的编码代理之上构建Piclaw"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在固执己见的编码代理之上构建Piclaw"
+      },
+      {
+        "title": "Run 290B+ frontier MoE models locally on your gaming PC",
+        "url": "https://github.com/FlashML-org/FreeToken",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:46:56 +0000",
+        "id": "87c46eedef579042a0f7e1b435039ac05ee8699f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6c5220bfa63e22adb3f5a4f4fca3a7aea7aba158",
+        "canonicalUrl": "https://github.com/FlashML-org/FreeToken",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/FlashML-org/FreeToken",
+            "source": "Hacker News Newest",
+            "title": "Run 290B+ frontier MoE models locally on your gaming PC",
+            "titleZh": "在游戏PC上本地运行290B+前沿MoE模型"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在游戏PC上本地运行290B+前沿MoE模型"
+      },
+      {
+        "title": "Massive Child Safety Trial Against Meta Starts in Federal Court",
+        "url": "https://www.wsj.com/tech/massive-child-safety-trial-against-meta-starts-in-federal-court-130e3739",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:45:16 +0000",
+        "id": "bbcf93ef7db6e44d244aedb35a612c1a635926b5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a0b3363655531e70f5b749cbba27d399dc8cccf9",
+        "canonicalUrl": "https://wsj.com/tech/massive-child-safety-trial-against-meta-starts-in-federal-court-130e3739",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/tech/massive-child-safety-trial-against-meta-starts-in-federal-court-130e3739",
+            "source": "Hacker News Newest",
+            "title": "Massive Child Safety Trial Against Meta Starts in Federal Court",
+            "titleZh": "针对Meta的大规模儿童安全审判在联邦法院开始"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "针对Meta的大规模儿童安全审判在联邦法院开始"
+      },
+      {
+        "title": "Personalized Language Learning",
+        "url": "https://lumilanguage.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T22:19:24.198Z",
+        "pubDate": "Fri, 21 Aug 2026 21:43:51 +0000",
+        "id": "4c5801aee02ffcaa69663c82adb38ef6560ab692",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "651af30ca9d98ef7bf44ad33013cd43884ff7e90",
+        "canonicalUrl": "https://lumilanguage.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lumilanguage.com/",
+            "source": "Hacker News Newest",
+            "title": "Personalized Language Learning",
+            "titleZh": "个性化语言学习"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "个性化语言学习"
       }
     ]
   },
-  "lastFetchAt": "2026-08-21T21:47:55.277Z"
+  "lastFetchAt": "2026-08-21T22:19:22.768Z"
 }
