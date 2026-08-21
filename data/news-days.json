@@ -3077,11 +3077,12 @@
         "isPriority": false,
         "eventId": "84899d364b06dcd4c84383820fe323c4f6856c79",
         "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/20/academic-who-accused-jason-arday-of-plagiarism-suspended-by-his-university",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Guardian World",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Google News"
         ],
         "relatedLinks": [
           {
@@ -3095,6 +3096,12 @@
             "source": "Hacker News Newest",
             "title": "Academic who accused Jason Arday of plagiarism suspended by university",
             "titleZh": ""
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVUZPV1RVSExGbVRtcmk2WmJUVG5hNW1NNzJJMk55ZVRVUUNhOEZ2bmVuODAxYmZwQURVUDJvZXR6dXJBT2lpVm1JWGtYMjRYWkNJWF9COW9ISU43M2UyOHZUeHNTZXlMWTdFMUhWRElhcEdDUEtlTWNjT1FQTXZoc2NuZ21IdW9uc0U5Tmh2bEo5MDJKRUlidjRUUXZreENTdklWTmpFR3A2dUZ0czRmMGJqRER5b21xUUlDSUdDaw?oc=5",
+            "source": "Google News",
+            "title": "Academic who accused Jason Arday of plagiarism suspended by his university - The Guardian",
+            "titleZh": "指控杰森·阿戴剽窃的学者被其大学停职"
           }
         ],
         "category": "",
@@ -24639,26 +24646,26 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网财经",
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681550.shtml",
-            "source": "中国新闻网财经",
-            "title": "财政部：财政金融协同促内需一揽子政策已惠及企业622万家",
-            "titleZh": ""
-          },
           {
             "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681601.shtml",
             "source": "中国新闻网",
             "title": "财政部：财政金融协同促内需一揽子政策已惠及企业622万家",
             "titleZh": ""
+          },
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681550.shtml",
+            "source": "中国新闻网财经",
+            "title": "财政部：财政金融协同促内需一揽子政策已惠及企业622万家",
+            "titleZh": ""
           }
         ],
         "categories": [
-          "财经",
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -26568,10 +26575,11 @@
         "isPriority": false,
         "eventId": "4608589576da19c41af079512a66e7d7727c0d02",
         "canonicalUrl": "https://theatlantic.com/technology/2026/08/ai-jargon-in-everday-speech/688358",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -26682,10 +26690,11 @@
         "isPriority": true,
         "eventId": "fc94c0e6c0713a7f13bfd5907418bc0dac55f5d7",
         "canonicalUrl": "https://blog.oxplot.com/the-sloppiest-thing-about-ai",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -26729,10 +26738,11 @@
         "isPriority": true,
         "eventId": "729334af92635e770b56cc38ed00daf34aa67b3e",
         "canonicalUrl": "https://engadget.com/2241098/meta-pocket-app-for-creating-generative-ai-minigames-available-in-us",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -28689,10 +28699,11 @@
         "isPriority": false,
         "eventId": "781939edf7b14101d076467a5841008fcb4b48cf",
         "canonicalUrl": "https://opencode.ai/go",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -28779,8 +28790,1179 @@
         "language": "",
         "languages": [],
         "titleZh": "KDE中的Btrfs快照集成"
+      },
+      {
+        "title": "2027年女足世界杯赛程公布 已有18支队伍获参赛资格",
+        "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681647.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:51:44 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fdb95685ac0b0ea4745678079693c1841c762feb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "502fd1536925907c9770bf7ce1eefa82c0476f89",
+        "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-21/10681647.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681647.shtml",
+            "source": "中国新闻网",
+            "title": "2027年女足世界杯赛程公布 已有18支队伍获参赛资格",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "重庆市原副市长江敦涛被公诉",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681648.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:48:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "33b44913582929a08e0a3df13fc5a1fe0556f784",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ca3912e1d1c2029725127dcfd221d82cba5fc10f",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681648.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681648.shtml",
+            "source": "中国新闻网",
+            "title": "重庆市原副市长江敦涛被公诉",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "古城墙下纳凉听歌 “乐见长沙”路边音乐会唱响时光乐章",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681621.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:43:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2c597a21caef361e59e2d8b6d3cd6ddc0cb25f1e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "286c802c19c5cac6f82f50a57f9541a091b6c695",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681621.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681621.shtml",
+            "source": "中国新闻网",
+            "title": "古城墙下纳凉听歌 “乐见长沙”路边音乐会唱响时光乐章",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "平陆运河首个海关监管作业场所建成运营",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681634.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:37:25 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bfcc8b50e9078c45a54324a12d2845923ad1fa90",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ab734e0f7b1690ad27ebc28b7a004816a08ef026",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681634.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681634.shtml",
+            "source": "中国新闻网",
+            "title": "平陆运河首个海关监管作业场所建成运营",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "调查者李晓方：留住历史的平民记录者",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681632.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:34:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "48ccfdc9093ce85f40815b841a9542feb7544c59",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "541ab234d2c689ec2023d412d86dd88b7c4f2a69",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681632.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681632.shtml",
+            "source": "中国新闻网",
+            "title": "调查者李晓方：留住历史的平民记录者",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "我国期货市场首次实现跨境交割",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681629.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:30:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f2d7b734e877f0fe98790a2b9cfbb588b1ebf524",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f764bf6f6ad23759120ab2b40c285b2802d1f550",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681629.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681629.shtml",
+            "source": "中国新闻网",
+            "title": "我国期货市场首次实现跨境交割",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "西双版纳关累港口岸今年以来出入境旅客同比增长42.8%",
+        "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-21/10681622.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:28:24 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "953418a6ab7421521466aaa81d25138fd0b6892d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6a0a85c87aa540d42914b682e8cb03b8b76875fb",
+        "canonicalUrl": "https://chinanews.com.cn/aseaninfo/2026/08-21/10681622.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-21/10681622.shtml",
+            "source": "中国新闻网",
+            "title": "西双版纳关累港口岸今年以来出入境旅客同比增长42.8%",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "两岸影人相聚北京 共话华语电影新未来",
+        "url": "http://www.chinanews.com.cn/cul/shipin/cns-d/2026/08-21/news1066097.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 13:07:21 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c57dc5ba3b1ebc90389efbbdeefaba81bf410fa5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1163a48e946a505210ff9353b5f00dbcee08a13e",
+        "canonicalUrl": "http://chinanews.com.cn/cul/shipin/cns-d/2026/08-21/news1066097.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/cul/shipin/cns-d/2026/08-21/news1066097.shtml",
+            "source": "中国新闻网",
+            "title": "两岸影人相聚北京 共话华语电影新未来",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "南狮北耀 北疆石榴情拉满！各族少年以非遗解锁民族团结新玩法",
+        "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-21/news1066091.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T05:58:46.867Z",
+        "pubDate": "Fri, 21 Aug 2026 11:26:38 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f7651760ead3fa520eb83df254f865163ed06b9b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "acc32dac8504014b1d02f0dc3b846ba573e9c313",
+        "canonicalUrl": "http://chinanews.com.cn/sh/shipin/cns-d/2026/08-21/news1066091.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-21/news1066091.shtml",
+            "source": "中国新闻网",
+            "title": "南狮北耀 北疆石榴情拉满！各族少年以非遗解锁民族团结新玩法",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Ships passing through Hormuz hover in single digits, data shows - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T05:58:47.581Z",
+        "pubDate": "Fri, 21 Aug 2026 03:15:52 GMT",
+        "id": "0527497321de79beec793a3910445449f5c77dd8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b38326d80934aa8041dbf1454d1a86a4543994ce",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Ships passing through Hormuz hover in single digits, data shows - Reuters",
+            "titleZh": "数据显示，通过霍尔木兹海峡的船只数量降至个位数 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数据显示，通过霍尔木兹海峡的船只数量降至个位数 - 路透社"
+      },
+      {
+        "title": "AI reshapes India's IT services sector contracts as clients demand more for less - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUNrcEw1LWRMcThiZ3U3bzRtZ3ItREZlaXdRaEdWb3FfS09ndHZvcXhQMnlCWDVsLTAyUGNoQTM0TW9ESDVPbkxIaHRxTVFuZDRhYzlpR2Rxb2hiVnlDWHhMQ2F4NWx2c2k3VTZiOFZ3dFc4Z0lPOWVOM3k1d21wbGpJWWpTRGVFejRPdHpWdlhVSnJYQ0w1a1J3TDBmdGFKMExtZVM2c0w0ZTJrcV9HRTI4YjZPUUdnY2xjUg?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T05:58:47.581Z",
+        "pubDate": "Thu, 20 Aug 2026 23:02:00 GMT",
+        "id": "f6a0905b57b72c26a196c877c280cf9d8782dff3",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "8292eb5e35dbbe0edc36fcad00abe5e0c5ea2b29",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUNrcEw1LWRMcThiZ3U3bzRtZ3ItREZlaXdRaEdWb3FfS09ndHZvcXhQMnlCWDVsLTAyUGNoQTM0TW9ESDVPbkxIaHRxTVFuZDRhYzlpR2Rxb2hiVnlDWHhMQ2F4NWx2c2k3VTZiOFZ3dFc4Z0lPOWVOM3k1d21wbGpJWWpTRGVFejRPdHpWdlhVSnJYQ0w1a1J3TDBmdGFKMExtZVM2c0w0ZTJrcV9HRTI4YjZPUUdnY2xjUg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUNrcEw1LWRMcThiZ3U3bzRtZ3ItREZlaXdRaEdWb3FfS09ndHZvcXhQMnlCWDVsLTAyUGNoQTM0TW9ESDVPbkxIaHRxTVFuZDRhYzlpR2Rxb2hiVnlDWHhMQ2F4NWx2c2k3VTZiOFZ3dFc4Z0lPOWVOM3k1d21wbGpJWWpTRGVFejRPdHpWdlhVSnJYQ0w1a1J3TDBmdGFKMExtZVM2c0w0ZTJrcV9HRTI4YjZPUUdnY2xjUg?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "AI reshapes India's IT services sector contracts as clients demand more for less - Reuters",
+            "titleZh": "人工智能重塑印度IT服务行业合同，客户要求更多服务更低价格 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "人工智能重塑印度IT服务行业合同，客户要求更多服务更低价格 - 路透社"
+      },
+      {
+        "title": "Indian shares inch higher at open; higher oil, bond stress cap gains - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTRaUnV1SklLS1c2TjZIUTAyV0Q5aHI1NDJDLUhYMUNfTUt1SzRzMl9ubnV5ejB1RV9pQnU4YXBrU0piZHF4eXZ5WjBDcnRZdy04LTMxcWs3X0RPaHV5Y3lHRGRScWwzX3pRRjZ6TWRlV0dBNWlHbExJbXlOM2liYjZRQ1pWZ1B5bFRWNXU3b3ZuQkpGeU1senpXZm1MeVJvUXk2SHNRMkdWVFlZZ0NGazlNTnY?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T05:58:47.581Z",
+        "pubDate": "Fri, 21 Aug 2026 02:26:00 GMT",
+        "id": "bb7fcf574dfecb165954510b1f8adafbbe68bde9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "99022d0bf121bbf04054f72fe8e6718e666c2d63",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTRaUnV1SklLS1c2TjZIUTAyV0Q5aHI1NDJDLUhYMUNfTUt1SzRzMl9ubnV5ejB1RV9pQnU4YXBrU0piZHF4eXZ5WjBDcnRZdy04LTMxcWs3X0RPaHV5Y3lHRGRScWwzX3pRRjZ6TWRlV0dBNWlHbExJbXlOM2liYjZRQ1pWZ1B5bFRWNXU3b3ZuQkpGeU1senpXZm1MeVJvUXk2SHNRMkdWVFlZZ0NGazlNTnY",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTRaUnV1SklLS1c2TjZIUTAyV0Q5aHI1NDJDLUhYMUNfTUt1SzRzMl9ubnV5ejB1RV9pQnU4YXBrU0piZHF4eXZ5WjBDcnRZdy04LTMxcWs3X0RPaHV5Y3lHRGRScWwzX3pRRjZ6TWRlV0dBNWlHbExJbXlOM2liYjZRQ1pWZ1B5bFRWNXU3b3ZuQkpGeU1senpXZm1MeVJvUXk2SHNRMkdWVFlZZ0NGazlNTnY?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Indian shares inch higher at open; higher oil, bond stress cap gains - Reuters",
+            "titleZh": "印度股市开盘小幅走高；油价上涨和债券压力限制涨幅 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印度股市开盘小幅走高；油价上涨和债券压力限制涨幅 - 路透社"
+      },
+      {
+        "title": "State of emergency in Dover, Delaware due to damage following tornado warning - 6abc Philadelphia",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnFhR0VSbHBwbXgzb3hDTHFoLUxibExYd3Z3NVdGbGRuMG9wNW1RTzR5ODBqQm51QldRV29DcTZYZWhpamxqQmhHNnRYd0NaN2dkbTQ0S3NodldxRG1SYmY4Z0RBMVpPc0o3eklQNkZZbVRkTFl2UFRCUlM2YlBDSlpzQjRJNHF2bkk3OHhOUE7SAZYBQVVfeXFMUE1PSFRBSzdRTVpMR21Ka3djUHpkVUt3NVJEdGszdzN1M1YzRzdrTjFUTEtEZmpGbmpsbE9iOWZwZWZvS3JSdElZbU9ncDdnXzViTmRvaWhvcW9PWVZ3QkZvQmZWT1A5d0tYcHp1ck5BblBvLTdVWlc5NW5zRVJhcnRBWWlpMmdYeHUxZEgzeEtnYWc2ckpB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T05:58:47.085Z",
+        "pubDate": "Fri, 21 Aug 2026 02:35:14 GMT",
+        "id": "be787f81526ef6bbae46ecf262e4964671b5b4bb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "862a9f082512a5e1d0079f70a437364b319f2028",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnFhR0VSbHBwbXgzb3hDTHFoLUxibExYd3Z3NVdGbGRuMG9wNW1RTzR5ODBqQm51QldRV29DcTZYZWhpamxqQmhHNnRYd0NaN2dkbTQ0S3NodldxRG1SYmY4Z0RBMVpPc0o3eklQNkZZbVRkTFl2UFRCUlM2YlBDSlpzQjRJNHF2bkk3OHhOUE7SAZYBQVVfeXFMUE1PSFRBSzdRTVpMR21Ka3djUHpkVUt3NVJEdGszdzN1M1YzRzdrTjFUTEtEZmpGbmpsbE9iOWZwZWZvS3JSdElZbU9ncDdnXzViTmRvaWhvcW9PWVZ3QkZvQmZWT1A5d0tYcHp1ck5BblBvLTdVWlc5NW5zRVJhcnRBWWlpMmdYeHUxZEgzeEtnYWc2ckpB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnFhR0VSbHBwbXgzb3hDTHFoLUxibExYd3Z3NVdGbGRuMG9wNW1RTzR5ODBqQm51QldRV29DcTZYZWhpamxqQmhHNnRYd0NaN2dkbTQ0S3NodldxRG1SYmY4Z0RBMVpPc0o3eklQNkZZbVRkTFl2UFRCUlM2YlBDSlpzQjRJNHF2bkk3OHhOUE7SAZYBQVVfeXFMUE1PSFRBSzdRTVpMR21Ka3djUHpkVUt3NVJEdGszdzN1M1YzRzdrTjFUTEtEZmpGbmpsbE9iOWZwZWZvS3JSdElZbU9ncDdnXzViTmRvaWhvcW9PWVZ3QkZvQmZWT1A5d0tYcHp1ck5BblBvLTdVWlc5NW5zRVJhcnRBWWlpMmdYeHUxZEgzeEtnYWc2ckpB?oc=5",
+            "source": "Google News",
+            "title": "State of emergency in Dover, Delaware due to damage following tornado warning - 6abc Philadelphia",
+            "titleZh": "特拉华州多佛市因龙卷风警告后受损宣布进入紧急状态 - 6abc费城"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特拉华州多佛市因龙卷风警告后受损宣布进入紧急状态 - 6abc费城"
+      },
+      {
+        "title": "Scott Bessent takes on bond vigilantes in $32tn Treasury market - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORWkycTRKNEJ3ZGRORjhSNi1MNjVCQ21TcVNrQWo3aXRvZkFKTlZyYm0wUi1tRlk4Y1ppbXZvUmh4V1BjdzNvREE1RUtJekt5RWVRT2lSUWFfR0FOOUZkVk5ERjBUMGlsaUpyUkFzbDNqUDhXVUpNZlBhZVZTeS1aX2U2Zlo?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T05:58:47.085Z",
+        "pubDate": "Fri, 21 Aug 2026 04:00:21 GMT",
+        "id": "3a26ac3967283c592368b261af7d0da7b6237516",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c4637a46f07b677812791fc17a236ba451d32ef2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORWkycTRKNEJ3ZGRORjhSNi1MNjVCQ21TcVNrQWo3aXRvZkFKTlZyYm0wUi1tRlk4Y1ppbXZvUmh4V1BjdzNvREE1RUtJekt5RWVRT2lSUWFfR0FOOUZkVk5ERjBUMGlsaUpyUkFzbDNqUDhXVUpNZlBhZVZTeS1aX2U2Zlo",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORWkycTRKNEJ3ZGRORjhSNi1MNjVCQ21TcVNrQWo3aXRvZkFKTlZyYm0wUi1tRlk4Y1ppbXZvUmh4V1BjdzNvREE1RUtJekt5RWVRT2lSUWFfR0FOOUZkVk5ERjBUMGlsaUpyUkFzbDNqUDhXVUpNZlBhZVZTeS1aX2U2Zlo?oc=5",
+            "source": "Google News",
+            "title": "Scott Bessent takes on bond vigilantes in $32tn Treasury market - Financial Times",
+            "titleZh": "斯科特·贝森特在32万亿美元国债市场中对抗债券义警 - 金融时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "斯科特·贝森特在32万亿美元国债市场中对抗债券义警 - 金融时报"
+      },
+      {
+        "title": "Chris Hansen Was Not Asked To \"Sign Away\" Rights At 'Primetime' Screening - Deadline",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnkyd201S1ZtYjlUUlJ3bDdJZDJERFJEdlJJekNsRDFjUm9GTVBGMkVMY1R0dVFIUlhfaHUzaVBXZFZ0T2xDZGlkUERVODdCNDFBUEVPWG0yZUxrb2N0QTg5TDFCYnRodUhoM1hIandDR2VvVXNsVlBETjF0XzdEbzdSQ0Z5a3MxQ1hKUF96dmFnQW1XVDJMdQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T05:58:47.085Z",
+        "pubDate": "Fri, 21 Aug 2026 03:02:00 GMT",
+        "id": "b688c4d399cd3b9d1aa5f86321ba480421544f5a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bee1973807075e39cf39eb51c145fa6c4241974f",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnkyd201S1ZtYjlUUlJ3bDdJZDJERFJEdlJJekNsRDFjUm9GTVBGMkVMY1R0dVFIUlhfaHUzaVBXZFZ0T2xDZGlkUERVODdCNDFBUEVPWG0yZUxrb2N0QTg5TDFCYnRodUhoM1hIandDR2VvVXNsVlBETjF0XzdEbzdSQ0Z5a3MxQ1hKUF96dmFnQW1XVDJMdQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnkyd201S1ZtYjlUUlJ3bDdJZDJERFJEdlJJekNsRDFjUm9GTVBGMkVMY1R0dVFIUlhfaHUzaVBXZFZ0T2xDZGlkUERVODdCNDFBUEVPWG0yZUxrb2N0QTg5TDFCYnRodUhoM1hIandDR2VvVXNsVlBETjF0XzdEbzdSQ0Z5a3MxQ1hKUF96dmFnQW1XVDJMdQ?oc=5",
+            "source": "Google News",
+            "title": "Chris Hansen Was Not Asked To \"Sign Away\" Rights At 'Primetime' Screening - Deadline",
+            "titleZh": "克里斯·汉森未被要求签署《黄金时段》放映的“放弃权利”协议 - Deadline"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "克里斯·汉森未被要求签署《黄金时段》放映的“放弃权利”协议 - Deadline"
+      },
+      {
+        "title": "Duane Davis said he’d never told anyone the story. Jurors just heard him walk police through the night Tupac was killed - CNN",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42MHdJWlEzaEduZEdNc3VNUVhkbXZ0cjdNZi1PUmo1dUVkUmtHaUJRdVV5Yl9YYVJmQUZ6a1lCNkN3cjNXN01IRlRGYmIxWkhVVEdjdVhNN3RhdDdtdUtQejM5cWZGYTBCazhUcE82bFBKdw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T05:58:47.085Z",
+        "pubDate": "Fri, 21 Aug 2026 02:45:00 GMT",
+        "id": "b17f868eb2903000a177fda8203882eab964d919",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7ff6d6e204b52c433b2133e5edd3e33718d3d21e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE42MHdJWlEzaEduZEdNc3VNUVhkbXZ0cjdNZi1PUmo1dUVkUmtHaUJRdVV5Yl9YYVJmQUZ6a1lCNkN3cjNXN01IRlRGYmIxWkhVVEdjdVhNN3RhdDdtdUtQejM5cWZGYTBCazhUcE82bFBKdw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42MHdJWlEzaEduZEdNc3VNUVhkbXZ0cjdNZi1PUmo1dUVkUmtHaUJRdVV5Yl9YYVJmQUZ6a1lCNkN3cjNXN01IRlRGYmIxWkhVVEdjdVhNN3RhdDdtdUtQejM5cWZGYTBCazhUcE82bFBKdw?oc=5",
+            "source": "Google News",
+            "title": "Duane Davis said he’d never told anyone the story. Jurors just heard him walk police through the night Tupac was killed - CNN",
+            "titleZh": "杜安·戴维斯称从未向任何人讲述过这个故事。陪审团刚刚听到他向警方描述图帕克被杀当晚的情况 - CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "杜安·戴维斯称从未向任何人讲述过这个故事。陪审团刚刚听到他向警方描述图帕克被杀当晚的情况 - CNN"
+      },
+      {
+        "title": "2026 NFL Preseason, Week 2: What We Learned from Thursday's games - NFL.com",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3VWZklsNE16eW1naC1XUW9hcktsNjBIb2E4YWczUnJoRXBLYkhaTjNJNkZBeXJwLTVUUHRyVEVBakh3VTJYNk5mU1FCQkRuX0s1cm1DaXVzRHgzQi1uVm5vbmxRUElIOWxrMm43d3lDcHdhQmdfZk5BaWNPRFZ3RUxBMVRMZFIt?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T05:58:47.085Z",
+        "pubDate": "Fri, 21 Aug 2026 00:06:00 GMT",
+        "id": "8ce02cc162a22216f70ae7be9f2ff650be82d324",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5c18ae7638e86c6afca77a6b18ce24ac6ddaa78c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3VWZklsNE16eW1naC1XUW9hcktsNjBIb2E4YWczUnJoRXBLYkhaTjNJNkZBeXJwLTVUUHRyVEVBakh3VTJYNk5mU1FCQkRuX0s1cm1DaXVzRHgzQi1uVm5vbmxRUElIOWxrMm43d3lDcHdhQmdfZk5BaWNPRFZ3RUxBMVRMZFIt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3VWZklsNE16eW1naC1XUW9hcktsNjBIb2E4YWczUnJoRXBLYkhaTjNJNkZBeXJwLTVUUHRyVEVBakh3VTJYNk5mU1FCQkRuX0s1cm1DaXVzRHgzQi1uVm5vbmxRUElIOWxrMm43d3lDcHdhQmdfZk5BaWNPRFZ3RUxBMVRMZFIt?oc=5",
+            "source": "Google News",
+            "title": "2026 NFL Preseason, Week 2: What We Learned from Thursday's games - NFL.com",
+            "titleZh": "2026年NFL季前赛第二周：周四比赛回顾 - NFL.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026年NFL季前赛第二周：周四比赛回顾 - NFL.com"
+      },
+      {
+        "title": "Opinion | Federal vaccine drama is causing great confusion. Your questions, answered. - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcG4tWktJeURyVm9nYlduUHFqZk9IcTFmVjdlMWdEeENHanRkVThDcWVwaXlGbV9tMlR2OHBxVUx3UGpWLTlvNnl1aDRMaksweV9tQmdjVWswQ3hnQTRpUFFMd3BKY2d0RzMxU3dNei1keTJSenIyc1ZocHdQVGJBNmhFLS1pc0JScndCMHJDU1BObUpURTNTOUo1OHF4bkV6M2YyV3BUZEJiU2xCSmxDR3NCQnRWLUlnWFE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T05:58:47.085Z",
+        "pubDate": "Fri, 21 Aug 2026 03:30:00 GMT",
+        "id": "ba925c59ca4e58f06f05be819cae8b3ac4fd9d87",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9fa14cc793a67f39662526a8cb348758fd4df90e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcG4tWktJeURyVm9nYlduUHFqZk9IcTFmVjdlMWdEeENHanRkVThDcWVwaXlGbV9tMlR2OHBxVUx3UGpWLTlvNnl1aDRMaksweV9tQmdjVWswQ3hnQTRpUFFMd3BKY2d0RzMxU3dNei1keTJSenIyc1ZocHdQVGJBNmhFLS1pc0JScndCMHJDU1BObUpURTNTOUo1OHF4bkV6M2YyV3BUZEJiU2xCSmxDR3NCQnRWLUlnWFE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcG4tWktJeURyVm9nYlduUHFqZk9IcTFmVjdlMWdEeENHanRkVThDcWVwaXlGbV9tMlR2OHBxVUx3UGpWLTlvNnl1aDRMaksweV9tQmdjVWswQ3hnQTRpUFFMd3BKY2d0RzMxU3dNei1keTJSenIyc1ZocHdQVGJBNmhFLS1pc0JScndCMHJDU1BObUpURTNTOUo1OHF4bkV6M2YyV3BUZEJiU2xCSmxDR3NCQnRWLUlnWFE?oc=5",
+            "source": "Google News",
+            "title": "Opinion | Federal vaccine drama is causing great confusion. Your questions, answered. - The Washington Post",
+            "titleZh": "观点 | 联邦疫苗风波引发巨大困惑。您的问题，已解答。——《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "观点 | 联邦疫苗风波引发巨大困惑。您的问题，已解答。——《华盛顿邮报》"
+      },
+      {
+        "title": "Pitfalls of Benchmarking on Modern Systems",
+        "url": "https://stefan-marr.de/2026/08/pitfalls-of-benchmarking-on-modern-systems/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:49:12 +0000",
+        "id": "c8bc07fed376a25d2ce96ac074dfa492664b3204",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3f2edc131ebaf192cf99a0226ca074860e3ab54d",
+        "canonicalUrl": "https://stefan-marr.de/2026/08/pitfalls-of-benchmarking-on-modern-systems",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://stefan-marr.de/2026/08/pitfalls-of-benchmarking-on-modern-systems/",
+            "source": "Hacker News Newest",
+            "title": "Pitfalls of Benchmarking on Modern Systems",
+            "titleZh": "现代系统基准测试的陷阱"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "现代系统基准测试的陷阱"
+      },
+      {
+        "title": "Escaping the Quicksand: A Call to Arms",
+        "url": "https://arxiv.org/abs/2608.19674",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:46:29 +0000",
+        "id": "b945a9fba9786c7cfaf1bc245a2218bf3b0c5d8a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eea179e2c59314557adad958ce43cd6bb86731a3",
+        "canonicalUrl": "https://arxiv.org/abs/2608.19674",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.19674",
+            "source": "Hacker News Newest",
+            "title": "Escaping the Quicksand: A Call to Arms",
+            "titleZh": "逃离流沙：战斗号角"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "逃离流沙：战斗号角"
+      },
+      {
+        "title": "The Religious Experience of Philip K. Dick by R. Crumb (1986)",
+        "url": "https://philipdick.com/resources/miscellaneous/the-religious-experience-of-philip-k-dick-by-r-crumb-from-weirdo-17/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:39:39 +0000",
+        "id": "c5cbdf21f2ec096b32157620538708e26f0779df",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0e42f9395e113d3664e6602cec79aff52d5e5e19",
+        "canonicalUrl": "https://philipdick.com/resources/miscellaneous/the-religious-experience-of-philip-k-dick-by-r-crumb-from-weirdo-17",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://philipdick.com/resources/miscellaneous/the-religious-experience-of-philip-k-dick-by-r-crumb-from-weirdo-17/",
+            "source": "Hacker News Newest",
+            "title": "The Religious Experience of Philip K. Dick by R. Crumb (1986)",
+            "titleZh": "菲利普·K·迪克的宗教体验，作者：R·克拉姆（1986年）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "菲利普·K·迪克的宗教体验，作者：R·克拉姆（1986年）"
+      },
+      {
+        "title": "Cognition and consciousness arise from analog computations, says new theory",
+        "url": "https://picower.mit.edu/news/cognition-and-consciousness-arise-analog-computations-says-new-theory",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:37:52 +0000",
+        "id": "ad766c0aa50be34da33d5889eba4823943d11bb9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d50f0bb6c65d8e31d09ccdb997e5b0902d8c9af0",
+        "canonicalUrl": "https://picower.mit.edu/news/cognition-and-consciousness-arise-analog-computations-says-new-theory",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://picower.mit.edu/news/cognition-and-consciousness-arise-analog-computations-says-new-theory",
+            "source": "Hacker News Newest",
+            "title": "Cognition and consciousness arise from analog computations, says new theory",
+            "titleZh": "新理论称认知与意识源于模拟计算"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "新理论称认知与意识源于模拟计算"
+      },
+      {
+        "title": "The superfast and compatible < 100kb pure HTML/oldJS Jellyfin front-end",
+        "url": "https://www.reddit.com/r/jellyfin/comments/1vtcltb/meet_jellydinosaur_the_superfast_very_compatible/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:31:51 +0000",
+        "id": "821fa06529c42c6f297b9d66931073804acdb9a6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ad9bc96cc538f207076293526490a7ecab425e1a",
+        "canonicalUrl": "https://reddit.com/r/jellyfin/comments/1vtcltb/meet_jellydinosaur_the_superfast_very_compatible",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.reddit.com/r/jellyfin/comments/1vtcltb/meet_jellydinosaur_the_superfast_very_compatible/",
+            "source": "Hacker News Newest",
+            "title": "The superfast and compatible < 100kb pure HTML/oldJS Jellyfin front-end",
+            "titleZh": "超快且兼容的 <100kb 纯HTML/旧JS Jellyfin前端"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "超快且兼容的 <100kb 纯HTML/旧JS Jellyfin前端"
+      },
+      {
+        "title": "Japan tried to build an operating system for the world, the US intervened",
+        "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:31:34 +0000",
+        "id": "0b51e4e521bbc4cd0a4cadf8b6ea0ca18ccbe39e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "bdf23dc58a4c077bcec8cdbd07a79d9dc128596e",
+        "canonicalUrl": "https://xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+            "source": "Hacker News Newest",
+            "title": "Japan tried to build an operating system for the world, the US intervened",
+            "titleZh": "日本曾试图为世界构建操作系统，美国出手干预"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "日本曾试图为世界构建操作系统，美国出手干预"
+      },
+      {
+        "title": "Meta's Global Playbook for Fighting Child Safety Laws",
+        "url": "https://www.techtransparencyproject.org/articles/inside-metas-global-playbook-for-fighting-child-safety-laws",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:31:05 +0000",
+        "id": "f0c0c284ae911aac280d749f3915fa23d67d2f42",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cdac02c563c733d98e55dc1041fefc82cf4b1e4f",
+        "canonicalUrl": "https://techtransparencyproject.org/articles/inside-metas-global-playbook-for-fighting-child-safety-laws",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.techtransparencyproject.org/articles/inside-metas-global-playbook-for-fighting-child-safety-laws",
+            "source": "Hacker News Newest",
+            "title": "Meta's Global Playbook for Fighting Child Safety Laws",
+            "titleZh": "Meta应对儿童安全法律的全球策略手册"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Meta应对儿童安全法律的全球策略手册"
+      },
+      {
+        "title": "Submit privacy-focused companies and projects on PrivBid.com",
+        "url": "https://privbid.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:24:39 +0000",
+        "id": "a210fb62a542a40e52e599c0367aa9a2c60ee0be",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c224a850ccd5882790ff6302ea54a4e0e4305d42",
+        "canonicalUrl": "https://privbid.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://privbid.com/",
+            "source": "Hacker News Newest",
+            "title": "Submit privacy-focused companies and projects on PrivBid.com",
+            "titleZh": "在PrivBid.com上提交注重隐私的公司和项目"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在PrivBid.com上提交注重隐私的公司和项目"
+      },
+      {
+        "title": "Code Doesn't Speak – It Compiles: Why Small Models Win",
+        "url": "https://www.innerkore.com/blog/code-doesnt-speak-it-compiles-small-models-win/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:23:44 +0000",
+        "id": "20c00d7875e402fbdb403b77c13d962f4fb31b65",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "77c481f3c9320826db8e13667e1fae874fafeca1",
+        "canonicalUrl": "https://innerkore.com/blog/code-doesnt-speak-it-compiles-small-models-win",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.innerkore.com/blog/code-doesnt-speak-it-compiles-small-models-win/",
+            "source": "Hacker News Newest",
+            "title": "Code Doesn't Speak – It Compiles: Why Small Models Win",
+            "titleZh": "代码不说话——它编译：为什么小模型获胜"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "代码不说话——它编译：为什么小模型获胜"
+      },
+      {
+        "title": "Seed: Minimal, self-modifying agent harness",
+        "url": "https://github.com/vivekhaldar/seed",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:20:50 +0000",
+        "id": "36a6e1c05d9211bb87ed6aba3340e91c36b1448e",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "466e39de2a2319fc1d2e92c790ff836420b8710a",
+        "canonicalUrl": "https://github.com/vivekhaldar/seed",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/vivekhaldar/seed",
+            "source": "Hacker News Newest",
+            "title": "Seed: Minimal, self-modifying agent harness",
+            "titleZh": "Seed：极简、自我修改的代理框架"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Seed：极简、自我修改的代理框架"
+      },
+      {
+        "title": "Ask HN: Claude Code in Video Editor",
+        "url": "https://news.ycombinator.com/item?id=49384106",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:19:37 +0000",
+        "id": "0b8f5930783f5136bf2f725d662be80a23c1e516",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Claude"
+        ],
+        "isPriority": true,
+        "eventId": "e5564c9aa3c4041a986eb71469d5770f03f4fd83",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49384106",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49384106",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Claude Code in Video Editor",
+            "titleZh": "向HN提问：视频编辑器中的Claude Code"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "向HN提问：视频编辑器中的Claude Code"
+      },
+      {
+        "title": "Show HN: I built an open source video editor that you can control with an LLM",
+        "url": "https://github.com/DonkeyCut/Donkey",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T05:58:47.277Z",
+        "pubDate": "Fri, 21 Aug 2026 05:19:27 +0000",
+        "id": "e5e2e28c69bd4d7cbbcda2cb95ef107994ba7b4e",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "61895387dc170c0e69269cb78d9495248ca8b393",
+        "canonicalUrl": "https://github.com/DonkeyCut/Donkey",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/DonkeyCut/Donkey",
+            "source": "Hacker News Newest",
+            "title": "Show HN: I built an open source video editor that you can control with an LLM",
+            "titleZh": "展示HN：我构建了一个可以用LLM控制的开源视频编辑器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：我构建了一个可以用LLM控制的开源视频编辑器"
+      },
+      {
+        "id": "258de918650e0cf8cdede104a1866a413e46b139",
+        "title": "Thousands of years of indoor air pollution",
+        "url": "https://www.slowboring.com/p/thousands-of-years-of-indoor-air",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-21T05:58:47.486Z",
+        "pubDate": "2026-08-21T05:50:46Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a3cb2fc3c881ed160678ba87c734bda674b94e4a",
+        "canonicalUrl": "https://slowboring.com/p/thousands-of-years-of-indoor-air",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.slowboring.com/p/thousands-of-years-of-indoor-air",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Thousands of years of indoor air pollution",
+            "titleZh": "数千年的室内空气污染"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数千年的室内空气污染"
       }
     ]
   },
-  "lastFetchAt": "2026-08-21T05:28:15.527Z"
+  "lastFetchAt": "2026-08-21T05:58:46.336Z"
 }
