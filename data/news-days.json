@@ -11903,10 +11903,11 @@
         "isPriority": false,
         "eventId": "7a2dae972fec24649ff829efcbddd7199f4fae95",
         "canonicalUrl": "https://matklad.github.io/2026/08/20/better-batteries.html",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Lobsters RSS"
         ],
         "relatedLinks": [
           {
@@ -15421,11 +15422,12 @@
         "isPriority": true,
         "eventId": "aaf3d73a90cb06c85c4d7fb368eba6f72c160497",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM2xHek5kS3JrV2xmZXFjSTJFenhmM0xjM1VXUnVzSHVfb1MtUXZXSkxEaHBlWmN3ZDVMMUNwQkMyeWNkMEZJN1ZITXVUcElrMkpBcGtNLTVfbzFHZVh3enNIR0R0YkRmR09XVzByOEVVdTBrc3hnZFdqMnFsZUpWbWdpQzRVeUlMb1BzVFZ4d3lXcmN5T0pEa3ZqNlBLdEJBMlVodw",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Google News",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -16262,16 +16264,17 @@
         "isPriority": false,
         "eventId": "5f67e5ed41b597ea2c0a106052e900ab23633737",
         "canonicalUrl": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
+          "Hacker News Newest",
           "Lobsters RSS",
-          "Hacker News Newest"
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
-            "url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY#L246",
-            "source": "Lobsters RSS",
+            "url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY",
+            "source": "Hacker News Newest",
             "title": "Emacs 31.1 will release on 8/24",
             "titleZh": "Emacs 31.1将于8月24日发布"
           }
@@ -22098,7 +22101,7 @@
         "isPriority": false,
         "eventId": "e6bfa951dda6d963425916c6580dd77a6e78b8d7",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZWNXWVZhaGltWHN3dmJYYy1EcTgxeDNvSTJTYUlBTXJRTlM0NDJ0cGR4VjFfekwzT0ZDOG9IeFY5X1daOHJqRl9QSi1FU3ljUkktbmRlZkZ6MzBNajlkbXIzYmR4ZlZkdVRSSUt3TTIzeThZa0Q3b2ZqVkhHYWZFWDNScEplR2FydENxNGNfS1BILWF4V0VkNXlXMA",
-        "clusterSize": 1,
+        "clusterSize": 2,
         "sourceCount": 1,
         "relatedSources": [
           "Google News"
@@ -22108,6 +22111,12 @@
             "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZWNXWVZhaGltWHN3dmJYYy1EcTgxeDNvSTJTYUlBTXJRTlM0NDJ0cGR4VjFfekwzT0ZDOG9IeFY5X1daOHJqRl9QSi1FU3ljUkktbmRlZkZ6MzBNajlkbXIzYmR4ZlZkdVRSSUt3TTIzeThZa0Q3b2ZqVkhHYWZFWDNScEplR2FydENxNGNfS1BILWF4V0VkNXlXMA?oc=5",
             "source": "Google News",
             "title": "Jurors hear 'Keffe D' say his nephew fired fatal shots at Tupac Shakur in 1996 drive-by shooting - AP News",
+            "titleZh": "陪审团听取“Keffe D”称其侄子于1996年驾车枪击案中向图帕克·沙库尔开了致命一枪——《美联社》"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaVJoM211SWRuc0pHazUtcC1pNlkwUDNHR3F6c29WTFpkZTVTdXp5cGZKd01qenV0d0lKRXRaWkExWlE0OHFYOVdheGNrTnRHMkdYOXJRcmNUeUNGSzllTE9lOENVVDVBanVoeGQwNXhVamN3LTVMdG9qaGRIWGFiOVlJV3JjNGk2VnlEdF9oeWNaOGxuSDg2eXJxdEFLQzFSQmowaUtfSDlOZzlwWE9lY19VTXdtTHpiVUE3WVlSY3Y5TjhFMEVXRFlQMzBPY0xEWWxxSUdB?oc=5",
+            "source": "Google News",
+            "title": "Jurors hear 'Keffe D' say his nephew fired fatal shots at Tupac Shakur in 1996 drive-by shooting - NPR",
             "titleZh": "陪审团听取“Keffe D”称其侄子于1996年驾车枪击案中向图帕克·沙库尔开了致命一枪——《美联社》"
           }
         ],
@@ -26050,13 +26059,13 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Lobsters RSS"
         ],
         "relatedLinks": [
           {
-            "url": "https://www.akitaonrails.com/en/2026/08/19/survival-guide-for-a-censored-internet/",
-            "source": "Lobsters RSS",
+            "url": "https://akitaonrails.com/en/2026/08/19/survival-guide-for-a-censored-internet/",
+            "source": "Hacker News Newest",
             "title": "Survival Guide for a Censored Internet",
             "titleZh": "被审查互联网的生存指南"
           }
@@ -26285,12 +26294,12 @@
         ]
       },
       {
-        "title": "Charter plane carrying 8 crashes near remote radar site in western Alaska, NTSB says - AP News",
+        "title": "Charter plane crash kills 8 near remote radar site in western Alaska, military says - AP News",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR2lLNnhWYlF0UWtrc0lGeEdZTTQxa1l6WEdmTnhib0tqbGsyYkxOZTVGcVppbGtUUUVqTndBcWxySExoM1ZYQmtZam5NOURVb2RHUXNJa0dqNExxMHBsRDU0SGhCQ3J1OXk1ZzhXRnB6eFE5ZWxkLVdsM1gtTzE2bVhrZnhta095YU05ZUFQTQ?oc=5",
         "source": "AP News via Google News",
-        "fetchedAt": "2026-08-21T04:33:27.651Z",
-        "pubDate": "Fri, 21 Aug 2026 02:28:00 GMT",
-        "id": "d58c74f24de42af75877f3d2170a152588418527",
+        "fetchedAt": "2026-08-21T09:32:11.478Z",
+        "pubDate": "Fri, 21 Aug 2026 05:41:00 GMT",
+        "id": "469478268bf5909610a39442a4c869dbed2031cf",
         "matchedTopics": [],
         "matchedTopicNames": [],
         "matchedPushTopics": [],
@@ -26298,10 +26307,11 @@
         "isPriority": false,
         "eventId": "9270083fb9ee8e8027d2c1c94aa4db0baad0361d",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR2lLNnhWYlF0UWtrc0lGeEdZTTQxa1l6WEdmTnhib0tqbGsyYkxOZTVGcVppbGtUUUVqTndBcWxySExoM1ZYQmtZam5NOURVb2RHUXNJa0dqNExxMHBsRDU0SGhCQ3J1OXk1ZzhXRnB6eFE5ZWxkLVdsM1gtTzE2bVhrZnhta095YU05ZUFQTQ",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "AP News via Google News"
+          "AP News via Google News",
+          "Google News"
         ],
         "relatedLinks": [
           {
@@ -26309,6 +26319,12 @@
             "source": "AP News via Google News",
             "title": "Charter plane carrying 8 crashes near remote radar site in western Alaska, NTSB says - AP News",
             "titleZh": "载有8人的包机在阿拉斯加西部偏远雷达站附近坠毁，NTSB称 - 美联社"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53d1hFZV9ienB1SHZGRkFSQzVGTllwQ3NWd1gwR2o0ZE14WEFBUWVwVzk1aEw4UDNNU2RCS0dmbHhJT19WcHlXRGV6NUx1YzZ3SURVQXFRbXpsY0xWZm9SQWhkbXc5TUFrOGRqakdZRlhSa3RJM0wyQVlR?oc=5",
+            "source": "Google News",
+            "title": "Charter plane crash kills 8 at remote radar site in western Alaska, military says - CBS News",
+            "titleZh": ""
           }
         ],
         "category": "",
@@ -35928,10 +35944,11 @@
         "isPriority": false,
         "eventId": "29706e9530567259ff25505cec04e5f2e8457e68",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681816.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -35942,7 +35959,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -36370,10 +36388,11 @@
         "isPriority": false,
         "eventId": "8f7a23e232921b953c20b48b18a1e99d7bcd5014",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681796.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -36384,7 +36403,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -36570,10 +36590,11 @@
         "isPriority": false,
         "eventId": "15f000a7516c874012634a3199dc00b624a030d5",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681801.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -36584,7 +36605,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -36610,10 +36632,11 @@
         "isPriority": false,
         "eventId": "21c11aa3e2ae826bed094709f9c5167f94358664",
         "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-21/10681803.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网体育"
         ],
         "relatedLinks": [
           {
@@ -36624,7 +36647,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "体育"
         ],
         "regions": [
           "中国"
@@ -36730,10 +36754,11 @@
         "isPriority": false,
         "eventId": "4ba8a3260cb451ff2cfbdb09a163422265dccc10",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681787.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -36744,7 +36769,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -36770,10 +36796,11 @@
         "isPriority": false,
         "eventId": "53dc93b38dbdb9716f27360663b8fa4b456c0acd",
         "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-21/10681799.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网体育"
         ],
         "relatedLinks": [
           {
@@ -36784,7 +36811,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "体育"
         ],
         "regions": [
           "中国"
@@ -37010,10 +37038,11 @@
         "isPriority": false,
         "eventId": "a29c1983f43dce370b58ced7aba60a171b379edb",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681784.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -37024,7 +37053,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -37653,10 +37683,11 @@
         "isPriority": true,
         "eventId": "372d1bab0dd6a09c3fb557f971c2a58daa8f4a82",
         "canonicalUrl": "https://youtube.com/watch?v=Q7d2KMdVp9E",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -37957,10 +37988,11 @@
         "isPriority": true,
         "eventId": "7b75a0fed6bf6ae48a6e9ee10edc4dde981b3248",
         "canonicalUrl": "https://afr.com/work-and-careers/workplace/judges-may-be-the-only-survivors-of-law-s-ai-carnage-futurist-20260819-p60pla",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -38000,10 +38032,11 @@
         "isPriority": true,
         "eventId": "24be98dcb772a221ed7da9ed51afb424d71cf417",
         "canonicalUrl": "https://lambdaland.org/posts/2026-08-07-ai-writing-stupid",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -38098,8 +38131,2775 @@
         "language": "",
         "languages": [],
         "titleZh": "有界代理：多代理AI系统的委托安全"
+      },
+      {
+        "title": "黑龙江今夜到周末降雨连连 黑河伊春等地局部有暴雨",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681883.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:27:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bf5f374838fa01b0c42d597cccc3417e3bc61c0b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "df268e47ca0c8820ac5988e05fc876abbc2f214a",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681883.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681883.shtml",
+            "source": "中国新闻网",
+            "title": "黑龙江今夜到周末降雨连连 黑河伊春等地局部有暴雨",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "今年1—7月全国吸收外资4383.3亿元人民币",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681882.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:23:27 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "ca6fb21975e293063d7ea8b73afa1fa6eaa6a0d4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ad4e468ff5dc894e6182db26a1ba85c369754dff",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681882.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681882.shtml",
+            "source": "中国新闻网",
+            "title": "今年1—7月全国吸收外资4383.3亿元人民币",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "云南警官学院党委原书记胡水旺接受审查调查",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681881.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:22:05 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "19cf7afc6c60024bf4b7131ec5433e6d594b4e90",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1da80dadcdc432ab18b66d91ae9c0976b4838d28",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681881.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681881.shtml",
+            "source": "中国新闻网",
+            "title": "云南警官学院党委原书记胡水旺接受审查调查",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "吉林省政府原党组成员、秘书长刘化文接受审查调查",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681879.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:21:11 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "e237adeda32e65ac99af26634ebe331e610a33e4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "55182ffe20c85109ca73069d0252804d793c43a0",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681879.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681879.shtml",
+            "source": "中国新闻网",
+            "title": "吉林省政府原党组成员、秘书长刘化文接受审查调查",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "广西壮族自治区国资委原主任管跃庆接受审查调查",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681877.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:19:53 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "976b4196816b8a3ba86cee1a41eb273df11931c6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b973cbbfa5025b774a4688a5e008efa922b69544",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681877.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681877.shtml",
+            "source": "中国新闻网",
+            "title": "广西壮族自治区国资委原主任管跃庆接受审查调查",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "山西省人民政府驻北京办事处原副主任张建平被开除党籍",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681876.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:18:47 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "209215cd3ac75cdbb7917b40456a52d8014c106f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "39437e92637ad44ec811901338a6474050bc2013",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681876.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681876.shtml",
+            "source": "中国新闻网",
+            "title": "山西省人民政府驻北京办事处原副主任张建平被开除党籍",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "山西省投资促进局原党组书记、局长杨春权被“双开”",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681875.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:17:51 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "21f79f5f6ab987310ef4bab0c22a64b0db621703",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1a8c39b821a66662fafb24c7daa1f3176fdff083",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681875.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681875.shtml",
+            "source": "中国新闻网",
+            "title": "山西省投资促进局原党组书记、局长杨春权被“双开”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "潞安化工集团有限公司原副总经理韩玉明被“双开”",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681874.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:16:55 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b7df30c5a02cbafe41ad1b9403b69ab80a3a7355",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7879fc679ef1efb2eca62a9a14927c02a4634d8c",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681874.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681874.shtml",
+            "source": "中国新闻网",
+            "title": "潞安化工集团有限公司原副总经理韩玉明被“双开”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "黑龙江省人民检察院原党组成员、巡视员徐军被开除党籍",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681793.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:14:47 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "28cc42980b25ea0c001dd8095dd3ccda33b1fb9e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b33b72f9af2a518d1a02efbc3a5719e408d196af",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681793.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681793.shtml",
+            "source": "中国新闻网",
+            "title": "黑龙江省人民检察院原党组成员、巡视员徐军被开除党籍",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国财政部：将及时谋划出台务实管用的增量政策",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681871.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:14:09 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "ed707089a69c28e6ba349e4020e2ef1686f82343",
+        "matchedTopics": [
+          "china-policy"
+        ],
+        "matchedTopicNames": [
+          "国家政策与民生"
+        ],
+        "matchedPushTopics": [
+          "国家政策与民生"
+        ],
+        "matchedKeywords": [
+          "财政部"
+        ],
+        "isPriority": true,
+        "eventId": "0a2e235458c139ae7ed9b9315b6e37d12f9b02e4",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681871.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681871.shtml",
+            "source": "中国新闻网",
+            "title": "中国财政部：将及时谋划出台务实管用的增量政策",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "解放军南部战区：菲律宾3架小型飞机非法侵入中国黄岩岛领空",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681872.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:12:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "cf6286dc920e4617f9fe6b00eba011b37058aa48",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d2da3460229fdbc9cd5d3fc52acb9bb32b1c9c7a",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681872.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681872.shtml",
+            "source": "中国新闻网",
+            "title": "解放军南部战区：菲律宾3架小型飞机非法侵入中国黄岩岛领空",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "多彩民族有多彩丨在天山腹地奋战五年！贵州交通人助力铺就南北疆2小时快车道",
+        "url": "https://www.chinanews.com.cn/txy/2026/08-21/10681873.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:10:38 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b9acfcff96d5455410c490754ab7b9e713875b0a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "49284ce83c5cd16b7e534a8b3f36bf62f7a8a28d",
+        "canonicalUrl": "https://chinanews.com.cn/txy/2026/08-21/10681873.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/txy/2026/08-21/10681873.shtml",
+            "source": "中国新闻网",
+            "title": "多彩民族有多彩丨在天山腹地奋战五年！贵州交通人助力铺就南北疆2小时快车道",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "临夏有约：博物馆里“剧游”意思",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681867.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:05:50 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "9bcc1035cebb9bf3a86cf4f8edb134bd753946a6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cc202b1d005b3792001e8e18b0d885eae9b5abf9",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-21/10681867.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681867.shtml",
+            "source": "中国新闻网",
+            "title": "临夏有约：博物馆里“剧游”意思",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "第五届瓷艺中华“陶溪川杯”儿童青少年陶瓷作品展亮相景德镇",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681859.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:05:04 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "eddd299329d3b00c81b1ceb4c450af9fe4bbf007",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9fa3a8e824168c1756fe528208019b543d9891a0",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-21/10681859.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681859.shtml",
+            "source": "中国新闻网",
+            "title": "第五届瓷艺中华“陶溪川杯”儿童青少年陶瓷作品展亮相景德镇",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "2026江苏省新消费创新创业大赛“消费+人工智能”复赛在苏州举行",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681858.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:04:26 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "429a72d9da3467238224add7f615c5da8368ac4d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "511ab2cb846bfcde00f56d638611964d0a0ecf2c",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681858.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681858.shtml",
+            "source": "中国新闻网",
+            "title": "2026江苏省新消费创新创业大赛“消费+人工智能”复赛在苏州举行",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国团队系统识别青藏高原石冰川逾13万个约1.65万平方公里",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681860.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:04:18 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6d0b202bca63806933efdd9b5f2a6b8649d4d40d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8f8f50c61835939af0493a086c7530ffc5938031",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681860.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681860.shtml",
+            "source": "中国新闻网",
+            "title": "中国团队系统识别青藏高原石冰川逾13万个约1.65万平方公里",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "今年中国中央本级科学技术支出预算安排比上年增长10%",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681861.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:02:42 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "29e6e2f9a549764a44edd216697df8b099c4826c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "27614dcfcbfc336198d47b0b5650c94084987172",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681861.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681861.shtml",
+            "source": "中国新闻网",
+            "title": "今年中国中央本级科学技术支出预算安排比上年增长10%",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "走近“生命守护者”：守一方热土，护岁岁安康",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681857.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:01:36 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2d1e151adace53cd7aa1985fc2b1a9ff8db3cd70",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b5a2d04dc30d3cbc75b5a979b520d906c22bb11f",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681857.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681857.shtml",
+            "source": "中国新闻网",
+            "title": "走近“生命守护者”：守一方热土，护岁岁安康",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "受贿6344万 国家中医药管理局原局长于文明一审获刑十五年",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681865.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:01:22 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "10eeb7fdd81fe30e9052c627ed1430780583d750",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7e36a7b19be5ae143db1470fd8933dea15b0c134",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-21/10681865.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681865.shtml",
+            "source": "中国新闻网",
+            "title": "受贿6344万 国家中医药管理局原局长于文明一审获刑十五年",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "告别AI脸谱化 让文艺看见鲜活的人",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681862.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:01:10 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c1dd35e980a22e3eb9bd785d83de9c9a2813a1c6",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "73c96cfde3fd519eeeb9b8f2517c07d153a12156",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-21/10681862.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681862.shtml",
+            "source": "中国新闻网",
+            "title": "告别AI脸谱化 让文艺看见鲜活的人",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国科学家为何要把算力“打”上天？",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681864.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:01:06 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f5fc0f1e64fd67b4dec5517f3045d6ea4b573026",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c3e0a0b15b532333b2da53c4ef83e0e1ffae4aab",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681864.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681864.shtml",
+            "source": "中国新闻网",
+            "title": "中国科学家为何要把算力“打”上天？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "国家卫生健康委：接种流感疫苗是预防流感最经济有效的手段",
+        "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681782.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:00:44 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "5bd02aad8e7214b28ac538be74d889aa5f783370",
+        "matchedTopics": [
+          "china-policy"
+        ],
+        "matchedTopicNames": [
+          "国家政策与民生"
+        ],
+        "matchedPushTopics": [
+          "国家政策与民生"
+        ],
+        "matchedKeywords": [
+          "国家卫生健康委"
+        ],
+        "isPriority": true,
+        "eventId": "695ac3d904b95f58feabfdd8e75f170c5dbb89bf",
+        "canonicalUrl": "https://chinanews.com.cn/jk/2026/08-21/10681782.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681782.shtml",
+            "source": "中国新闻网",
+            "title": "国家卫生健康委：接种流感疫苗是预防流感最经济有效的手段",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "APEC财长会10月将在香港举办",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681855.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 17:00:38 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "508479c561e25bec0366da5fd3d44fdfbbd091a7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "33f9438b9d050337b9b2f33e4528bafd1206ff09",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681855.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681855.shtml",
+            "source": "中国新闻网",
+            "title": "APEC财长会10月将在香港举办",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "开渔过后 福州海鲜市场购销两旺",
+        "url": "https://www.chinanews.com.cn/tp/2026/08-21/10681832.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:54:55 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4c8cd4cded9fdf42f6da514fbcf160453207ad51",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f7f87237b9a64b7a35064c5c71d619c39ac2fd8f",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/08-21/10681832.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/08-21/10681832.shtml",
+            "source": "中国新闻网",
+            "title": "开渔过后 福州海鲜市场购销两旺",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "广西桂林财政强化财金协同 赋能世界级旅游城市建设",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681828.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:52:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "958204c316067dfbfe751df55f79e38995135d08",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "00df18b3059a6f32cb8234f3691add00b9fe5dc0",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681828.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681828.shtml",
+            "source": "中国新闻网",
+            "title": "广西桂林财政强化财金协同 赋能世界级旅游城市建设",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "（乡村行·看振兴）山西屯留：千亩大葱破土成“金” 田间奏响丰收曲",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681827.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:52:01 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "9152b228a3067d784c3f7229a5eb105f09ed96cf",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "31592ca2777b76ee62e9f69009b36a48537ffa9a",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681827.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681827.shtml",
+            "source": "中国新闻网",
+            "title": "（乡村行·看振兴）山西屯留：千亩大葱破土成“金” 田间奏响丰收曲",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "广东省残疾预防和残疾人康复专家库将推出 首批入库专家213名",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681829.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:51:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "825988ce2852b2095d78f27a2c449d7c6ef9a1ea",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ca10f66e0e2bdca937f60aeaa9d5aa71a2a7a9bd",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681829.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681829.shtml",
+            "source": "中国新闻网",
+            "title": "广东省残疾预防和残疾人康复专家库将推出 首批入库专家213名",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "仙游竹雕非遗代表性传承人王新明：一把刻刀三十余载谢师恩",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681826.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:50:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f2f46970d1aca36a14b21ca42f98ed650c292f1d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "180a3c924f87d2f688e3aabe1a657178988ddf08",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-21/10681826.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681826.shtml",
+            "source": "中国新闻网",
+            "title": "仙游竹雕非遗代表性传承人王新明：一把刻刀三十余载谢师恩",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "探访“中国云谷”：看见绿色算力的真实模样",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681835.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:50:09 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c331fe81420a8986a97a452fdcde9f197b161e2a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5154199b3a928c360a644432d4d01fe5d70bd287",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681835.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681835.shtml",
+            "source": "中国新闻网",
+            "title": "探访“中国云谷”：看见绿色算力的真实模样",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "前7月广东规上工业增加值同比增长5.7%",
+        "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10681852.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-21T09:32:11.254Z",
+        "pubDate": "Fri, 21 Aug 2026 16:49:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "929d88e526362b592cb278abad4027dfdc9f1bb0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "980c299b9896b3e534dc86978ccbb0c91c1750f5",
+        "canonicalUrl": "https://chinanews.com.cn/dwq/2026/08-21/10681852.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10681852.shtml",
+            "source": "中国新闻网",
+            "title": "前7月广东规上工业增加值同比增长5.7%",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "科技破局金融赋能 山东威海做强蓝色产业",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681849.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:47:47 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "158e1cd3b0501f44ce0ea7daf9ddcbcbe36a3ec3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7958c5eb9350ac44542833f9a50a38331318c0f1",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681849.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681849.shtml",
+            "source": "中国新闻网财经",
+            "title": "科技破局金融赋能 山东威海做强蓝色产业",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "财政部：增进民生福祉 真金白银投得更“实”",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681837.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:46:49 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f44697ea30d395f6af435e14caaf3e55c9494bc2",
+        "matchedTopics": [
+          "china-policy"
+        ],
+        "matchedTopicNames": [
+          "国家政策与民生"
+        ],
+        "matchedPushTopics": [
+          "国家政策与民生"
+        ],
+        "matchedKeywords": [
+          "财政部"
+        ],
+        "isPriority": true,
+        "eventId": "4a15f9b64fd1ce3659c791b03d0aa2e999af6b7e",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681837.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681837.shtml",
+            "source": "中国新闻网财经",
+            "title": "财政部：增进民生福祉 真金白银投得更“实”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "从煤矿到AI漫剧 山西吕梁数智化布局“破圈”提速",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681823.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:46:33 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "e856b76d97ee6985e6d23396aa77e693091bcb60",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "6f15f93fadb04fdf640944d6b3b1ba6e7bebf94d",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681823.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681823.shtml",
+            "source": "中国新闻网财经",
+            "title": "从煤矿到AI漫剧 山西吕梁数智化布局“破圈”提速",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "第二十九届成都车展开幕 呈现中国汽车技术新图景",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681841.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:45:47 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c527459775af100de2e82481dc30c46c9b2867d2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "054baf6a12350536739e3ffe5358f13c3eb018c3",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681841.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681841.shtml",
+            "source": "中国新闻网财经",
+            "title": "第二十九届成都车展开幕 呈现中国汽车技术新图景",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "四川“十五五”城市更新：9800余个项目近万亿元投资惠民",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681822.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:44:09 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a2149b98cd0ce86a207293b257e939069560dfb3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bf9ffc03df945c1b1131dd530a37efa0662e6d34",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681822.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681822.shtml",
+            "source": "中国新闻网财经",
+            "title": "四川“十五五”城市更新：9800余个项目近万亿元投资惠民",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "财政部：1—7月全国一般公共预算收入同比增长5.8%",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681820.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:38:00 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "249d867b117876e7c341bb3a763a8d13c98d5e8b",
+        "matchedTopics": [
+          "china-policy"
+        ],
+        "matchedTopicNames": [
+          "国家政策与民生"
+        ],
+        "matchedPushTopics": [
+          "国家政策与民生"
+        ],
+        "matchedKeywords": [
+          "财政部"
+        ],
+        "isPriority": true,
+        "eventId": "4cb558ba2bbd183fd7a676b8e2cf801f5187cbf6",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681820.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681820.shtml",
+            "source": "中国新闻网财经",
+            "title": "财政部：1—7月全国一般公共预算收入同比增长5.8%",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "诗与烟火 何以留您——徐州市铜山区全力以赴构筑区域有聚合力的商贸文旅高地",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681817.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-21T09:32:11.569Z",
+        "pubDate": "Fri, 21 Aug 2026 16:36:00 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "31844b669c461b7a64648cc41725aaabf93517da",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "30869ea389f454905f00af1a6c56642d8174adfc",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-21/10681817.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681817.shtml",
+            "source": "中国新闻网财经",
+            "title": "诗与烟火 何以留您——徐州市铜山区全力以赴构筑区域有聚合力的商贸文旅高地",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "How major US stock indexes fared Thursday 8/20/2026 - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaVFHWktOcUxIbmgyRFotMW5JWnAwTHRXZkpFRmhHY1Y4dV8tRkpjdzN6VEg1SFozd3o1QTJma09fQ3JQT19KaWlJcHdQSndmT0k5c3AxTXRVQ28yQTFUQkgtdDRYRXBpMTh0U3RjdUdwRGZRU1U3a1ZHbnpzSVYta2cwMk9oNFZ5RzQ2U2V5RzZJdDg?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-21T09:32:11.478Z",
+        "pubDate": "Thu, 20 Aug 2026 20:22:00 GMT",
+        "id": "49a720af5b13147e50d9fd2b8d605fca63193957",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "43587ccd2470cc5b371e4d883dcfd47922d22377",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaVFHWktOcUxIbmgyRFotMW5JWnAwTHRXZkpFRmhHY1Y4dV8tRkpjdzN6VEg1SFozd3o1QTJma09fQ3JQT19KaWlJcHdQSndmT0k5c3AxTXRVQ28yQTFUQkgtdDRYRXBpMTh0U3RjdUdwRGZRU1U3a1ZHbnpzSVYta2cwMk9oNFZ5RzQ2U2V5RzZJdDg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaVFHWktOcUxIbmgyRFotMW5JWnAwTHRXZkpFRmhHY1Y4dV8tRkpjdzN6VEg1SFozd3o1QTJma09fQ3JQT19KaWlJcHdQSndmT0k5c3AxTXRVQ28yQTFUQkgtdDRYRXBpMTh0U3RjdUdwRGZRU1U3a1ZHbnpzSVYta2cwMk9oNFZ5RzQ2U2V5RzZJdDg?oc=5",
+            "source": "AP News via Google News",
+            "title": "How major US stock indexes fared Thursday 8/20/2026 - AP News",
+            "titleZh": "美国主要股指周四（2026年8月20日）表现如何 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国主要股指周四（2026年8月20日）表现如何 - 美联社新闻"
+      },
+      {
+        "title": "Iran says Tehran must overcome 'unjust sanctions' as U.S. ramps up economic pressure - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T09:32:11.505Z",
+        "pubDate": "Fri, 21 Aug 2026 08:14:41 GMT",
+        "id": "9f9f2f81e1d0a3677853803a56faa006d6ce6e10",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "伊朗",
+          "制裁",
+          "Iran",
+          "sanctions"
+        ],
+        "isPriority": true,
+        "eventId": "06de9bc2abc035b8f1abcb6502af758f8044d286",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Iran says Tehran must overcome 'unjust sanctions' as U.S. ramps up economic pressure - Reuters",
+            "titleZh": "伊朗称德黑兰必须克服“不公正制裁”，美国加大经济施压 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊朗称德黑兰必须克服“不公正制裁”，美国加大经济施压 - 路透社"
+      },
+      {
+        "title": "India orders removal of Google Firebase accounts after spotting scam pattern - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnlmWWZrN2UwRVI4Zkc5cHZJdWkxdTBlU3dXYW43d3dzVzdnVi1iN1RiM1RuTHI2U3Y4cm5fOWZsU2RsU2VJclkwVDNwZlhGODVPVVpSTEk1VEt1QjRmcUlTQjhYLW9zMnNfRWV0UUZlbGduQTFtNWk3WFFMRjNmODFWQ3pzcHNiczRHdUV2Q3RCdjFmVDhOUU1ESWY5TFRVdXFnQlByVWc0ZnBkLVl0VU5mOEFyQjFyYnA2LXlR?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T09:32:11.505Z",
+        "pubDate": "Fri, 21 Aug 2026 08:15:06 GMT",
+        "id": "7d5ccf9ac33227d61830735635beceb53ec9e343",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1706aec2a6b866d39e2d6e1cd53e7d72b67f5a30",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnlmWWZrN2UwRVI4Zkc5cHZJdWkxdTBlU3dXYW43d3dzVzdnVi1iN1RiM1RuTHI2U3Y4cm5fOWZsU2RsU2VJclkwVDNwZlhGODVPVVpSTEk1VEt1QjRmcUlTQjhYLW9zMnNfRWV0UUZlbGduQTFtNWk3WFFMRjNmODFWQ3pzcHNiczRHdUV2Q3RCdjFmVDhOUU1ESWY5TFRVdXFnQlByVWc0ZnBkLVl0VU5mOEFyQjFyYnA2LXlR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSnlmWWZrN2UwRVI4Zkc5cHZJdWkxdTBlU3dXYW43d3dzVzdnVi1iN1RiM1RuTHI2U3Y4cm5fOWZsU2RsU2VJclkwVDNwZlhGODVPVVpSTEk1VEt1QjRmcUlTQjhYLW9zMnNfRWV0UUZlbGduQTFtNWk3WFFMRjNmODFWQ3pzcHNiczRHdUV2Q3RCdjFmVDhOUU1ESWY5TFRVdXFnQlByVWc0ZnBkLVl0VU5mOEFyQjFyYnA2LXlR?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "India orders removal of Google Firebase accounts after spotting scam pattern - Reuters",
+            "titleZh": "印度发现诈骗模式后下令移除谷歌Firebase账户 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "印度发现诈骗模式后下令移除谷歌Firebase账户 - 路透社"
+      },
+      {
+        "title": "Families protest in Nigeria over children abducted nearly 100 days ago - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOThfN0FQbkpkZWdqNGNvd0xuc05QQ0dKRVBFY0RhejROUnNWTm51eGs2allMemQzRjY2QVd2cmM3RzJZZndBSEFZN3YxM05kYUY5STRoV1hSM1RKT2UtNzNobG93c0NicTkxaUFzYnRhS2o2NWZfTjhNSjhhOWhQeUYwN1BHVkEyTS0xNmN6M3dWWnFwRGxkRlFmRlhDcGo1UG9OOGlqS0JqY3lyVnNaTUM2Nk9QWVk?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T09:32:11.505Z",
+        "pubDate": "Fri, 21 Aug 2026 07:07:43 GMT",
+        "id": "5996925a849d4e8d30e6245f27332562e4718723",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "62cea124d7b3d6f4cdc73441b6c9e7d389ac7439",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOThfN0FQbkpkZWdqNGNvd0xuc05QQ0dKRVBFY0RhejROUnNWTm51eGs2allMemQzRjY2QVd2cmM3RzJZZndBSEFZN3YxM05kYUY5STRoV1hSM1RKT2UtNzNobG93c0NicTkxaUFzYnRhS2o2NWZfTjhNSjhhOWhQeUYwN1BHVkEyTS0xNmN6M3dWWnFwRGxkRlFmRlhDcGo1UG9OOGlqS0JqY3lyVnNaTUM2Nk9QWVk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOThfN0FQbkpkZWdqNGNvd0xuc05QQ0dKRVBFY0RhejROUnNWTm51eGs2allMemQzRjY2QVd2cmM3RzJZZndBSEFZN3YxM05kYUY5STRoV1hSM1RKT2UtNzNobG93c0NicTkxaUFzYnRhS2o2NWZfTjhNSjhhOWhQeUYwN1BHVkEyTS0xNmN6M3dWWnFwRGxkRlFmRlhDcGo1UG9OOGlqS0JqY3lyVnNaTUM2Nk9QWVk?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Families protest in Nigeria over children abducted nearly 100 days ago - Reuters",
+            "titleZh": "尼日利亚家庭抗议儿童被绑架近100天 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "尼日利亚家庭抗议儿童被绑架近100天 - 路透社"
+      },
+      {
+        "title": "India set to approve $1.2 billion incentive plan to make building equipment, sources say - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWFozQy1XZHVfdTB4MmlpVmg1dWdvZzRqa1R5dl9iYWNtZXdKaXBHcjNHMlUtZV9pV2VWaXFGenBPckhaQ29zSXBFcWE1b2hnM3VSQ0lWOTdoMEhQTzhnakZJNVcwdHZXd1ZBcEJTUnZfT3JfWXhraTREa3hwREk2Vl9zR1Boa1FuUlpYNFF0SEowRnRJcGYxQy0yMnZ3X0lVOVluZWMtLXpoZGlWall4WURrenZGSktlanI1OURrZlJFUWlaRGc?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T09:32:11.505Z",
+        "pubDate": "Fri, 21 Aug 2026 07:09:43 GMT",
+        "id": "2824ebb3ab0858164e589cdbf070fd43383f26b4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3ec31994da758e8be7ce13ab239a7287435cf148",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWFozQy1XZHVfdTB4MmlpVmg1dWdvZzRqa1R5dl9iYWNtZXdKaXBHcjNHMlUtZV9pV2VWaXFGenBPckhaQ29zSXBFcWE1b2hnM3VSQ0lWOTdoMEhQTzhnakZJNVcwdHZXd1ZBcEJTUnZfT3JfWXhraTREa3hwREk2Vl9zR1Boa1FuUlpYNFF0SEowRnRJcGYxQy0yMnZ3X0lVOVluZWMtLXpoZGlWall4WURrenZGSktlanI1OURrZlJFUWlaRGc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWFozQy1XZHVfdTB4MmlpVmg1dWdvZzRqa1R5dl9iYWNtZXdKaXBHcjNHMlUtZV9pV2VWaXFGenBPckhaQ29zSXBFcWE1b2hnM3VSQ0lWOTdoMEhQTzhnakZJNVcwdHZXd1ZBcEJTUnZfT3JfWXhraTREa3hwREk2Vl9zR1Boa1FuUlpYNFF0SEowRnRJcGYxQy0yMnZ3X0lVOVluZWMtLXpoZGlWall4WURrenZGSktlanI1OURrZlJFUWlaRGc?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "India set to approve $1.2 billion incentive plan to make building equipment, sources say - Reuters",
+            "titleZh": "消息人士称印度将批准12亿美元激励计划以制造建筑设备 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "消息人士称印度将批准12亿美元激励计划以制造建筑设备 - 路透社"
+      },
+      {
+        "title": "Second poll shows Swiss likely to reject tighter neutrality - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUhocGRuUlVaN3otTDI0MXRtQVpyZG5FQW44eGQxZUd5T254WmRRYzAtSGZXaTdSMHlSTURuQWszZzNCRjVVUWtFSzhpWlN3TnV4cGNSVFdwQmpTZGtvMUdSUmlERHlYZUhUcG5BcjRIa094MlRvbi1WZnlITU5Ka1Q5clpnQjE3YkkzeW5ZSWRYYlNvc1lLNHZhZzVHMkE?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-21T09:32:11.505Z",
+        "pubDate": "Fri, 21 Aug 2026 06:07:00 GMT",
+        "id": "ed17ff8fdd142ba30b1b7649f2ef9ee4a0e7505b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "649f900ceb7b8baa3d118535171c820f8c943742",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUhocGRuUlVaN3otTDI0MXRtQVpyZG5FQW44eGQxZUd5T254WmRRYzAtSGZXaTdSMHlSTURuQWszZzNCRjVVUWtFSzhpWlN3TnV4cGNSVFdwQmpTZGtvMUdSUmlERHlYZUhUcG5BcjRIa094MlRvbi1WZnlITU5Ka1Q5clpnQjE3YkkzeW5ZSWRYYlNvc1lLNHZhZzVHMkE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUhocGRuUlVaN3otTDI0MXRtQVpyZG5FQW44eGQxZUd5T254WmRRYzAtSGZXaTdSMHlSTURuQWszZzNCRjVVUWtFSzhpWlN3TnV4cGNSVFdwQmpTZGtvMUdSUmlERHlYZUhUcG5BcjRIa094MlRvbi1WZnlITU5Ka1Q5clpnQjE3YkkzeW5ZSWRYYlNvc1lLNHZhZzVHMkE?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Second poll shows Swiss likely to reject tighter neutrality - Reuters",
+            "titleZh": "第二项民调显示瑞士可能拒绝更严格的中立政策 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "第二项民调显示瑞士可能拒绝更严格的中立政策 - 路透社"
+      },
+      {
+        "title": "Burnham to chair growth meeting call at No 10 North – UK politics live",
+        "url": "https://www.theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-21T09:32:11.115Z",
+        "pubDate": "Fri, 21 Aug 2026 09:20:32 GMT",
+        "id": "a246b045c7697e9a76d3e5d8ab365c9865a5b0fa",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2eb8c9668b3ad78e2de8841630fb4f10597d5a2a",
+        "canonicalUrl": "https://theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+            "source": "Guardian World",
+            "title": "Burnham to chair growth meeting call at No 10 North – UK politics live",
+            "titleZh": "伯纳姆将在唐宁街10号北部主持增长会议电话 - 英国政治直播"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伯纳姆将在唐宁街10号北部主持增长会议电话 - 英国政治直播"
+      },
+      {
+        "title": "Durham art gallery opens with works by Tracey Emin and Steve McQueen",
+        "url": "https://www.theguardian.com/culture/2026/aug/21/durham-art-gallery-opens-with-works-by-tracey-emin-and-steve-mcqueen",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-21T09:32:11.115Z",
+        "pubDate": "Fri, 21 Aug 2026 09:00:30 GMT",
+        "id": "e8123b99e83a28997330a51c51c7b228f0312af8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "472a8be4677dc2a3d8016c4ca6d3e0350eafe4e9",
+        "canonicalUrl": "https://theguardian.com/culture/2026/aug/21/durham-art-gallery-opens-with-works-by-tracey-emin-and-steve-mcqueen",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/culture/2026/aug/21/durham-art-gallery-opens-with-works-by-tracey-emin-and-steve-mcqueen",
+            "source": "Guardian World",
+            "title": "Durham art gallery opens with works by Tracey Emin and Steve McQueen",
+            "titleZh": "达勒姆美术馆开幕，展出特蕾西·艾敏和史蒂夫·麦奎因作品"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "达勒姆美术馆开幕，展出特蕾西·艾敏和史蒂夫·麦奎因作品"
+      },
+      {
+        "title": "Retail sales in Great Britain fall despite heatwave increasing food and drink demand",
+        "url": "https://www.theguardian.com/business/2026/aug/21/retail-sales-in-great-britain-fall-despite-heatwave-increasing-food-and-drink-demand",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-21T09:32:11.115Z",
+        "pubDate": "Fri, 21 Aug 2026 08:58:10 GMT",
+        "id": "0b1dfc2186bb15c8fffa15bbf755f716f0b89fd1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ce159c2d64bbef198d6b9a2d517cf62cfe1c4b58",
+        "canonicalUrl": "https://theguardian.com/business/2026/aug/21/retail-sales-in-great-britain-fall-despite-heatwave-increasing-food-and-drink-demand",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/business/2026/aug/21/retail-sales-in-great-britain-fall-despite-heatwave-increasing-food-and-drink-demand",
+            "source": "Guardian World",
+            "title": "Retail sales in Great Britain fall despite heatwave increasing food and drink demand",
+            "titleZh": "尽管热浪增加了食品和饮料需求，英国零售额仍下降"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "尽管热浪增加了食品和饮料需求，英国零售额仍下降"
+      },
+      {
+        "title": "Pastor unleashes on Dearborn as religious tensions erupt at city council meeting: 'Enough is enough' - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0pYR25hem9FeVZmX1NvazIyRllpZkNOTFlvN2QtcHJBcFpycjlvZlN2eHk4d0ltaHVnUWg4a2wzUjJYYW9ON1hjQ0w3bW9nT2s3QVdfWFdYVnlFZlhydS1udzFDeFZuNEpKSmgxMGdNT2JhZlplNEZEdWI2anVaV1JkQ3hnZlZQYlNHVi1aZWtZQU9CdDJETS14RDNKcWxJd1A2Z3BjMXZYalFYdHEwLVJR0gG3AUFVX3lxTE1LUVZSX3NIVEhJY0pfMEpzMHFQYUVhR2RtZnl3bDN2SmZxV2V1dVBkTTJwc2pvX0tITXF0dEZoLVFPZ1Q5UWVoemdHWC1ydkhQMDBrSnlkXzNJblJ4cmYySjVLUXFrTkFrZm5OLUZTWFJOa3diVms2clZDdkdlN3l0OERfdF8wOFVRTXVpU0dSQ2taTWVxcnNDN2kzN2NKcDJBMk04Z1F2dVdWTzIwQU9UazZ4UWJISQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T09:32:11.171Z",
+        "pubDate": "Thu, 20 Aug 2026 22:19:40 GMT",
+        "id": "cf1257d38958cf55a0740b6c4adafa076326fbd4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "be7cdeb1a212cb9e06310cf289790252f0e4df01",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0pYR25hem9FeVZmX1NvazIyRllpZkNOTFlvN2QtcHJBcFpycjlvZlN2eHk4d0ltaHVnUWg4a2wzUjJYYW9ON1hjQ0w3bW9nT2s3QVdfWFdYVnlFZlhydS1udzFDeFZuNEpKSmgxMGdNT2JhZlplNEZEdWI2anVaV1JkQ3hnZlZQYlNHVi1aZWtZQU9CdDJETS14RDNKcWxJd1A2Z3BjMXZYalFYdHEwLVJR0gG3AUFVX3lxTE1LUVZSX3NIVEhJY0pfMEpzMHFQYUVhR2RtZnl3bDN2SmZxV2V1dVBkTTJwc2pvX0tITXF0dEZoLVFPZ1Q5UWVoemdHWC1ydkhQMDBrSnlkXzNJblJ4cmYySjVLUXFrTkFrZm5OLUZTWFJOa3diVms2clZDdkdlN3l0OERfdF8wOFVRTXVpU0dSQ2taTWVxcnNDN2kzN2NKcDJBMk04Z1F2dVdWTzIwQU9UazZ4UWJISQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0pYR25hem9FeVZmX1NvazIyRllpZkNOTFlvN2QtcHJBcFpycjlvZlN2eHk4d0ltaHVnUWg4a2wzUjJYYW9ON1hjQ0w3bW9nT2s3QVdfWFdYVnlFZlhydS1udzFDeFZuNEpKSmgxMGdNT2JhZlplNEZEdWI2anVaV1JkQ3hnZlZQYlNHVi1aZWtZQU9CdDJETS14RDNKcWxJd1A2Z3BjMXZYalFYdHEwLVJR0gG3AUFVX3lxTE1LUVZSX3NIVEhJY0pfMEpzMHFQYUVhR2RtZnl3bDN2SmZxV2V1dVBkTTJwc2pvX0tITXF0dEZoLVFPZ1Q5UWVoemdHWC1ydkhQMDBrSnlkXzNJblJ4cmYySjVLUXFrTkFrZm5OLUZTWFJOa3diVms2clZDdkdlN3l0OERfdF8wOFVRTXVpU0dSQ2taTWVxcnNDN2kzN2NKcDJBMk04Z1F2dVdWTzIwQU9UazZ4UWJISQ?oc=5",
+            "source": "Google News",
+            "title": "Pastor unleashes on Dearborn as religious tensions erupt at city council meeting: 'Enough is enough' - Fox News",
+            "titleZh": "牧师在迪尔伯恩市议会会议上猛烈抨击，宗教紧张局势爆发：‘受够了’——福克斯新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "牧师在迪尔伯恩市议会会议上猛烈抨击，宗教紧张局势爆发：‘受够了’——福克斯新闻"
+      },
+      {
+        "title": "2 Hijackings in 4 Days: Somali Piracy Rises - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOazltYVVjanNHNXFYNG9TelZRUlhzX3VTNTJYZXhNaHRtV3Y0Y2NxMlVqdWhhbDg1d2h4VjFNX0VnWDlOX3RIUkRPM2YzRF94LVU1TUVNZnRzYVAzYmdEY0FjNHVMWEpFVV9GSjdYemRHa0lHX0NEWnRYaERLX0puS1NIU1NHYnFuZVRXN2NBY2Vka2dYTVplejZTTnc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T09:32:11.171Z",
+        "pubDate": "Fri, 21 Aug 2026 01:05:38 GMT",
+        "id": "2c5c7144525d1202729c63bb9c8f8029c9d353b1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9178eb0266d143c6bf58828eee9c64ee3903d35c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOazltYVVjanNHNXFYNG9TelZRUlhzX3VTNTJYZXhNaHRtV3Y0Y2NxMlVqdWhhbDg1d2h4VjFNX0VnWDlOX3RIUkRPM2YzRF94LVU1TUVNZnRzYVAzYmdEY0FjNHVMWEpFVV9GSjdYemRHa0lHX0NEWnRYaERLX0puS1NIU1NHYnFuZVRXN2NBY2Vka2dYTVplejZTTnc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOazltYVVjanNHNXFYNG9TelZRUlhzX3VTNTJYZXhNaHRtV3Y0Y2NxMlVqdWhhbDg1d2h4VjFNX0VnWDlOX3RIUkRPM2YzRF94LVU1TUVNZnRzYVAzYmdEY0FjNHVMWEpFVV9GSjdYemRHa0lHX0NEWnRYaERLX0puS1NIU1NHYnFuZVRXN2NBY2Vka2dYTVplejZTTnc?oc=5",
+            "source": "Google News",
+            "title": "2 Hijackings in 4 Days: Somali Piracy Rises - The New York Times",
+            "titleZh": "4天内2起劫持事件：索马里海盗活动抬头——《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "4天内2起劫持事件：索马里海盗活动抬头——《纽约时报》"
+      },
+      {
+        "title": "RayNeo’s New Smart Glasses Are Taking the Cameraless Route - Gizmodo",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN1ZoSGZ3UVJ2NXBQQTV5VlhJaGRfdmdCWm5MTXR5NFN6ZFdVdzRVY3hkb2syV1BITEpGQXJ5ZkdyZV84bktYd2dZWFp4OTlFNEM3VEUxUjZNbGNrZmV2Wl9qVENOaENibGhUbHctQ1gxa09jRHNQYWw3MGNyQ014YWFiTzdYZ0xPNkI5RDg5Uzd2dw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-21T09:32:11.171Z",
+        "pubDate": "Fri, 21 Aug 2026 07:00:30 GMT",
+        "id": "fbfd92c17646f6e3ac136e1d0c3a20fb86728701",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "332efb307fed33f46c034dbe23bd631ab8b69f92",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN1ZoSGZ3UVJ2NXBQQTV5VlhJaGRfdmdCWm5MTXR5NFN6ZFdVdzRVY3hkb2syV1BITEpGQXJ5ZkdyZV84bktYd2dZWFp4OTlFNEM3VEUxUjZNbGNrZmV2Wl9qVENOaENibGhUbHctQ1gxa09jRHNQYWw3MGNyQ014YWFiTzdYZ0xPNkI5RDg5Uzd2dw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN1ZoSGZ3UVJ2NXBQQTV5VlhJaGRfdmdCWm5MTXR5NFN6ZFdVdzRVY3hkb2syV1BITEpGQXJ5ZkdyZV84bktYd2dZWFp4OTlFNEM3VEUxUjZNbGNrZmV2Wl9qVENOaENibGhUbHctQ1gxa09jRHNQYWw3MGNyQ014YWFiTzdYZ0xPNkI5RDg5Uzd2dw?oc=5",
+            "source": "Google News",
+            "title": "RayNeo’s New Smart Glasses Are Taking the Cameraless Route - Gizmodo",
+            "titleZh": "雷鸟创新的新款智能眼镜走无摄像头路线——Gizmodo"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "雷鸟创新的新款智能眼镜走无摄像头路线——Gizmodo"
+      },
+      {
+        "title": "Oregon Is Spending More Than Ever on Low-Income Housing. A State Law Keeps the Details Secret.",
+        "url": "https://www.propublica.org/article/oregon-affordable-housing-cost-secrecy",
+        "source": "ProPublica",
+        "fetchedAt": "2026-08-21T09:32:11.239Z",
+        "pubDate": "Fri, 21 Aug 2026 09:00:00 +0000",
+        "id": "39c763ab6d4f3c562e9395f87d509c5bcbf7e6e0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b1eed15e71a9d49d404e85c681c86163065abacb",
+        "canonicalUrl": "https://propublica.org/article/oregon-affordable-housing-cost-secrecy",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "ProPublica"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.propublica.org/article/oregon-affordable-housing-cost-secrecy",
+            "source": "ProPublica",
+            "title": "Oregon Is Spending More Than Ever on Low-Income Housing. A State Law Keeps the Details Secret.",
+            "titleZh": "俄勒冈州在低收入住房上的支出比以往任何时候都多。一项州法律却让细节保密。"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "俄勒冈州在低收入住房上的支出比以往任何时候都多。一项州法律却让细节保密。"
+      },
+      {
+        "title": "Show HN: Squid Pay – Financial infrastructure for autonomous AI agents",
+        "url": "https://www.squidpay.dev/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:22:17 +0000",
+        "id": "9b9a593b87d02053c2fc09e9a1d848c42669b454",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "b54aa6b5fd2dcc428c0b71af7712fd4e13d601d9",
+        "canonicalUrl": "https://squidpay.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.squidpay.dev/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Squid Pay – Financial infrastructure for autonomous AI agents",
+            "titleZh": "展示HN：Squid Pay——面向自主AI代理的金融基础设施"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Squid Pay——面向自主AI代理的金融基础设施"
+      },
+      {
+        "title": "Show HN: Payluck – a startup directory where luck decides your discount",
+        "url": "https://payluck.lol/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:18:53 +0000",
+        "id": "dc19a1aaad4a74da1bd38357a729f7bde7356cd3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "362f40884d0cfcc244c069f641a06bd40ed6f946",
+        "canonicalUrl": "https://payluck.lol/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://payluck.lol/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Payluck – a startup directory where luck decides your discount",
+            "titleZh": "展示HN：Payluck——一个由运气决定折扣的初创公司目录"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Payluck——一个由运气决定折扣的初创公司目录"
+      },
+      {
+        "title": "Ask HN: Why does $50M buy just 10% productivity for Enterprises?",
+        "url": "https://news.ycombinator.com/item?id=49385679",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:18:10 +0000",
+        "id": "da31014f70ce5198cb8ec6afc959bf19e400cb27",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "331089892763e41447f617995a938513e27f27d7",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49385679",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49385679",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Why does $50M buy just 10% productivity for Enterprises?",
+            "titleZh": "询问HN：为什么5000万美元只能为企业带来10%的生产力提升？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "询问HN：为什么5000万美元只能为企业带来10%的生产力提升？"
+      },
+      {
+        "title": "ITER is a showcase,for the drawbacks of fusion energy(2018)",
+        "url": "https://thebulletin.org/2018/02/iter-is-a-showcase-for-the-drawbacks-of-fusion-energy/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:15:44 +0000",
+        "id": "50f566bdbe0594505168803e6776577fbdc4e2f7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "349065a22186ffe9c2e31f86e4f6746fd8c6808d",
+        "canonicalUrl": "https://thebulletin.org/2018/02/iter-is-a-showcase-for-the-drawbacks-of-fusion-energy",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://thebulletin.org/2018/02/iter-is-a-showcase-for-the-drawbacks-of-fusion-energy/",
+            "source": "Hacker News Newest",
+            "title": "ITER is a showcase,for the drawbacks of fusion energy(2018)",
+            "titleZh": "ITER是聚变能缺点的展示台（2018）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ITER是聚变能缺点的展示台（2018）"
+      },
+      {
+        "title": "I don't think AI is a bubble",
+        "url": "https://honnibal.dev/blog/ai-bubble",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:10:33 +0000",
+        "id": "67b9e722608cb9e8c3e1154b6c5ce8dfe59c1fbb",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "bf9f7f2aee404d5f159410355bf654c65fd228e0",
+        "canonicalUrl": "https://honnibal.dev/blog/ai-bubble",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://honnibal.dev/blog/ai-bubble",
+            "source": "Hacker News Newest",
+            "title": "I don't think AI is a bubble",
+            "titleZh": "我不认为人工智能是泡沫"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我不认为人工智能是泡沫"
+      },
+      {
+        "title": "Show HN: 2Day – Aesthetic live widgets studio for Notion and web dashboards",
+        "url": "https://2day.jpgdic.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:07:47 +0000",
+        "id": "799d6a1272985fbb476e307bf2cb8cb965d083aa",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2314505b9b610fb38469fc01cc852ea674d34923",
+        "canonicalUrl": "https://2day.jpgdic.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://2day.jpgdic.com/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: 2Day – Aesthetic live widgets studio for Notion and web dashboards",
+            "titleZh": "展示HN：2Day——为Notion和网页仪表板设计的美观实时组件工作室"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：2Day——为Notion和网页仪表板设计的美观实时组件工作室"
+      },
+      {
+        "title": "Stripe Buys A.I. Startup OpenRouter for $7.5B",
+        "url": "https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:05:16 +0000",
+        "id": "9890d7254f74e83fab63aa8b78e16bf551726017",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "5e3fb2cfdb149282f724e92e2d275392461f9a65",
+        "canonicalUrl": "https://nytimes.com/2026/08/19/business/stripe-openrouter-ai.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html",
+            "source": "Hacker News Newest",
+            "title": "Stripe Buys A.I. Startup OpenRouter for $7.5B",
+            "titleZh": "Stripe以75亿美元收购人工智能初创公司OpenRouter"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Stripe以75亿美元收购人工智能初创公司OpenRouter"
+      },
+      {
+        "title": "Nowlert – self-hosted infrastructure alerts from SMTP, HTTP and Redfish",
+        "url": "https://github.com/Theriark/nowlert-ce",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:03:40 +0000",
+        "id": "6883b1d099d7d6fe4336e3e6e267431d386475c8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2f80ed4a3dfc4fb757acfa0924e43c775969f574",
+        "canonicalUrl": "https://github.com/Theriark/nowlert-ce",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/Theriark/nowlert-ce",
+            "source": "Hacker News Newest",
+            "title": "Nowlert – self-hosted infrastructure alerts from SMTP, HTTP and Redfish",
+            "titleZh": "Nowlert——来自SMTP、HTTP和Redfish的自托管基础设施警报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Nowlert——来自SMTP、HTTP和Redfish的自托管基础设施警报"
+      },
+      {
+        "title": "Anthropic Plans to Change Data Retention Policy for Advanced AI",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:03:10 +0000",
+        "id": "ac2002ea7322dcef315e8aebc4391bc5a9e02f77",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能",
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "3b524bcacb9a8d335af43ec41ad81b8f3560fa0d",
+        "canonicalUrl": "https://bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+            "source": "Hacker News Newest",
+            "title": "Anthropic Plans to Change Data Retention Policy for Advanced AI",
+            "titleZh": "Anthropic计划更改高级人工智能的数据保留政策"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Anthropic计划更改高级人工智能的数据保留政策"
+      },
+      {
+        "title": "BigLake's Iceberg REST Catalog",
+        "url": "https://olake.io/blog/biglake-iceberg-rest-catalog-olake-go-setup/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:03:09 +0000",
+        "id": "f9f0bc45b0495d68c5666364f05d40dc7a52970b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "56943dc457def05f37aabadb97e13db60125282a",
+        "canonicalUrl": "https://olake.io/blog/biglake-iceberg-rest-catalog-olake-go-setup",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://olake.io/blog/biglake-iceberg-rest-catalog-olake-go-setup/",
+            "source": "Hacker News Newest",
+            "title": "BigLake's Iceberg REST Catalog",
+            "titleZh": "BigLake的Iceberg REST目录"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "BigLake的Iceberg REST目录"
+      },
+      {
+        "title": "Show HN: Can you tell Wodehouse from a model imitating Wodehouse?",
+        "url": "https://voxoria.ai/ai-or-not-text/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 09:00:07 +0000",
+        "id": "0f0bdfd90104aa6c88fc784114a2d9c4620112e6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d3f275b464c7a2d45fa98aec5e86315fc9084d4e",
+        "canonicalUrl": "https://voxoria.ai/ai-or-not-text",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://voxoria.ai/ai-or-not-text/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Can you tell Wodehouse from a model imitating Wodehouse?",
+            "titleZh": "展示HN：你能分辨出沃德豪斯和模仿沃德豪斯的模型吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：你能分辨出沃德豪斯和模仿沃德豪斯的模型吗？"
+      },
+      {
+        "title": "Study: Subtle white light changes make indoor rooms feel cooler or warmer",
+        "url": "https://www.psu.edu/news/research/story/subtle-white-light-changes-make-indoor-rooms-feel-cooler-or-warmer",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:59:18 +0000",
+        "id": "51b36d476ba9cc72d8c42ab8b62e315d0a45ba81",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d95b1f160140cc6d72577d90a81089d8a7425bf0",
+        "canonicalUrl": "https://psu.edu/news/research/story/subtle-white-light-changes-make-indoor-rooms-feel-cooler-or-warmer",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.psu.edu/news/research/story/subtle-white-light-changes-make-indoor-rooms-feel-cooler-or-warmer",
+            "source": "Hacker News Newest",
+            "title": "Study: Subtle white light changes make indoor rooms feel cooler or warmer",
+            "titleZh": "研究：微妙的白色光线变化让室内房间感觉更凉爽或更温暖"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "研究：微妙的白色光线变化让室内房间感觉更凉爽或更温暖"
+      },
+      {
+        "title": "Kopi Luwak",
+        "url": "https://en.wikipedia.org/wiki/Kopi_luwak",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:56:49 +0000",
+        "id": "7128a27cbfaf93ed89fe736e5f89652be048287f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b032db9e0958b0b0eca47056e900ce22215caaaa",
+        "canonicalUrl": "https://en.wikipedia.org/wiki/Kopi_luwak",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Kopi_luwak",
+            "source": "Hacker News Newest",
+            "title": "Kopi Luwak",
+            "titleZh": "猫屎咖啡"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "猫屎咖啡"
+      },
+      {
+        "title": "Ask HN: Do you need Google ads help?",
+        "url": "https://news.ycombinator.com/item?id=49385541",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:56:29 +0000",
+        "id": "720153656d3bbfaae0b83eb72d7b60c85698ae5e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cbeda71966c866c03d2472eb7b63c75f87fa2f46",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49385541",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49385541",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: Do you need Google ads help?",
+            "titleZh": "问HN：你需要谷歌广告帮助吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "问HN：你需要谷歌广告帮助吗？"
+      },
+      {
+        "title": "The day the business started deploying to prod",
+        "url": "https://annampeter.substack.com/p/the-day-the-business-started-deploying",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:51:53 +0000",
+        "id": "7044aa86e126f23109612195a247a30e6d71f11c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4405a2fd42c59884e370c545997f5287ec171a75",
+        "canonicalUrl": "https://annampeter.substack.com/p/the-day-the-business-started-deploying",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://annampeter.substack.com/p/the-day-the-business-started-deploying",
+            "source": "Hacker News Newest",
+            "title": "The day the business started deploying to prod",
+            "titleZh": "业务开始部署到生产环境的那一天"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "业务开始部署到生产环境的那一天"
+      },
+      {
+        "title": "Show HN: Grok-ultracode – standing ultracode for Grok Build CLI",
+        "url": "https://github.com/malakhov-dmitrii/grok-ultracode",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:50:48 +0000",
+        "id": "0c7138c7fce1ecf62ce92da6cb9c0aafb33e3e75",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Grok"
+        ],
+        "isPriority": true,
+        "eventId": "ee53476de45291488625cf5e286ce7f39b6ccfb2",
+        "canonicalUrl": "https://github.com/malakhov-dmitrii/grok-ultracode",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/malakhov-dmitrii/grok-ultracode",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Grok-ultracode – standing ultracode for Grok Build CLI",
+            "titleZh": "展示HN：Grok-ultracode——为Grok Build CLI提供的常驻超代码"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Grok-ultracode——为Grok Build CLI提供的常驻超代码"
+      },
+      {
+        "title": "In Soviet Union, Optimization Problem Solves You (2012 but Relevant Again)",
+        "url": "https://crookedtimber.org/2012/05/30/in-soviet-union-optimization-problem-solves-you/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:50:08 +0000",
+        "id": "df9218113848c4df66f9d4d9a951864725d1b3bf",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "701aa018e52d17e7ae74d096558c8751099db216",
+        "canonicalUrl": "https://crookedtimber.org/2012/05/30/in-soviet-union-optimization-problem-solves-you",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://crookedtimber.org/2012/05/30/in-soviet-union-optimization-problem-solves-you/",
+            "source": "Hacker News Newest",
+            "title": "In Soviet Union, Optimization Problem Solves You (2012 but Relevant Again)",
+            "titleZh": "在苏联，优化问题解决你（2012年但再次相关）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在苏联，优化问题解决你（2012年但再次相关）"
+      },
+      {
+        "title": "ZeroVer: 0-Based Versioning",
+        "url": "https://0ver.org/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:48:48 +0000",
+        "id": "90f56c6ce5a4c1f40ddd9d0a1a306a36661934ce",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c92c646e605c9ff194c8bf856f216bc881af6b92",
+        "canonicalUrl": "https://0ver.org/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://0ver.org/",
+            "source": "Hacker News Newest",
+            "title": "ZeroVer: 0-Based Versioning",
+            "titleZh": "ZeroVer：基于0的版本控制"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ZeroVer：基于0的版本控制"
+      },
+      {
+        "title": "White House tech strategy leaves open-weight AI off its critical list",
+        "url": "https://thenextweb.com/news/white-house-strategy-open-weight-ai-critical-technology-list",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:48:46 +0000",
+        "id": "0a7e47d704a67bcfc232a222ad83807ebd9fdc31",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "白宫",
+          "White House",
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "108e96d326a6e4baec37f0fece39b2141db4970d",
+        "canonicalUrl": "https://thenextweb.com/news/white-house-strategy-open-weight-ai-critical-technology-list",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://thenextweb.com/news/white-house-strategy-open-weight-ai-critical-technology-list",
+            "source": "Hacker News Newest",
+            "title": "White House tech strategy leaves open-weight AI off its critical list",
+            "titleZh": "白宫技术战略未将开放权重AI列入关键清单"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "白宫技术战略未将开放权重AI列入关键清单"
+      },
+      {
+        "title": "Domain Name Journal",
+        "url": "https://www.dnjournal.com/index.htm",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-21T09:32:12.308Z",
+        "pubDate": "Fri, 21 Aug 2026 08:48:34 +0000",
+        "id": "ff88756e5d2ec7532f9bd60cde1597ca1f92d6d1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2007fb0b92d01261e0d54a1075e8ef8a84eaee8f",
+        "canonicalUrl": "https://dnjournal.com/index.htm",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.dnjournal.com/index.htm",
+            "source": "Hacker News Newest",
+            "title": "Domain Name Journal",
+            "titleZh": "域名杂志"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "域名杂志"
       }
     ]
   },
-  "lastFetchAt": "2026-08-21T08:35:11.810Z"
+  "lastFetchAt": "2026-08-21T09:32:10.717Z"
 }
