@@ -10146,10 +10146,11 @@
         "isPriority": false,
         "eventId": "4b7a7294c93cca089be38346366a31948dc30a8f",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUdoUkpLcFVnOWFKMlJ3bkZLR2VKMndOal9mR2QxMG5JMl9ZeUJXd21Relp6OUgtd1FRTU8wSmFkczh2YjVBQ3FjQ190MjY2dER4WnEwSkZtWFJQT1lqWFhSTHNFN2pGRVBIVUh2cTFiTktZd2RINHVxc2w1UjFvSUZFU2w1b2RiSWZfTTlDY2xMRkdHZDREQXo2aU5ZYXFC",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "AP News via Google News"
         ],
         "relatedLinks": [
           {
@@ -16510,6 +16511,12 @@
             "source": "中国新闻网",
             "title": "国际足联重罚阿根廷队 阿根廷足协称将上诉",
             "titleZh": ""
+          },
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682245.shtml",
+            "source": "中国新闻网",
+            "title": "国际足联重罚阿根廷队 阿根廷足协：将上诉",
+            "titleZh": ""
           }
         ],
         "categories": [
@@ -17255,14 +17262,22 @@
         "title": "US Army Secretary Driscoll is expected to step down by year's end, WSJ reports - Reuters",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblVNM2JWT0l4cUVHSzdxOHRqaDg2QlEzaFh2V0FkQmdobHNQeHgwZUx0M2JrOFN4Rm9ia1ZlS0g3Y2VoNGFtbVlpaXlNczktaHRwM2NCZk9jU190SkFCZWJaUGRwLXdZUkdOeEpxTzJsd1BsUGlzR0xsZFBEVEtZOVI2T2d4OW9HRE9ZcU9ZUTB2QjFaWVdyUHV3NExhaUx6NVQxTllkZHdCeUVPWUdIdXVjaWxWUQ?oc=5",
         "source": "Reuters World via Google News",
-        "fetchedAt": "2026-08-22T01:00:14.603Z",
+        "fetchedAt": "2026-08-22T04:58:55.484Z",
         "pubDate": "Fri, 21 Aug 2026 21:39:22 GMT",
         "id": "4fbe2290724cb290ab6cd2bf415e4f8984a27ace",
-        "matchedTopics": [],
-        "matchedTopicNames": [],
-        "matchedPushTopics": [],
-        "matchedKeywords": [],
-        "isPriority": false,
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
         "eventId": "3ce39a9cc13ea55d8bd3d55992d2b1c6448c883e",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblVNM2JWT0l4cUVHSzdxOHRqaDg2QlEzaFh2V0FkQmdobHNQeHgwZUx0M2JrOFN4Rm9ia1ZlS0g3Y2VoNGFtbVlpaXlNczktaHRwM2NCZk9jU190SkFCZWJaUGRwLXdZUkdOeEpxTzJsd1BsUGlzR0xsZFBEVEtZOVI2T2d4OW9HRE9ZcU9ZUTB2QjFaWVdyUHV3NExhaUx6NVQxTllkZHdCeUVPWUdIdXVjaWxWUQ",
         "clusterSize": 1,
@@ -17283,7 +17298,8 @@
         "region": "",
         "regions": [],
         "language": "",
-        "languages": []
+        "languages": [],
+        "titleZh": "《华尔街日报》报道，美国陆军部长德里斯科尔预计将在年底前卸任 - 路透社"
       },
       {
         "title": "Explainer: Who are the candidates running for UN secretary-general? - Reuters",
@@ -18483,21 +18499,21 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search",
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
-          {
-            "url": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
-            "source": "Hacker News Algolia AI Search",
-            "title": "Linus: \"A debug session from hell, enormously helped by an AI\"",
-            "titleZh": "Linus：“一场地狱般的调试会话，AI 提供了巨大帮助”"
-          },
           {
             "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
             "source": "Hacker News Newest",
             "title": "Linus: And this was a debug session from hell, enormously helped by an AI",
             "titleZh": "Linus：这是一场地狱般的调试会话，人工智能帮了大忙"
+          },
+          {
+            "url": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Linus: \"A debug session from hell, enormously helped by an AI\"",
+            "titleZh": "Linus：“一场地狱般的调试会话，AI 提供了巨大帮助”"
           }
         ],
         "category": "",
@@ -19568,20 +19584,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule",
-            "source": "Guardian World",
-            "title": "US Postal Service rule tightens mail-in voting despite court orders blocking changes",
-            "titleZh": "美国邮政总局规则收紧邮寄投票，尽管法院命令阻止变更"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3QzdFBWOFAyY3VIcXNHMmN2aDVtU3hZTHBFZ0pfd2ROamZ2TUd3RWdnQUR4Q2JOTUQyYVNILVJMYmZYUEZpTXJhSjNHdXVSaWZzbEVxQWF4Tks5b3ZCdkluLXIyRENKN1M1V3VEb3BLbkRqZlhBeGFXdnI2OS1fM09zYkpTQmJpT2FGbA?oc=5",
             "source": "Google News",
             "title": "US Postal Service rule tightens mail-in voting despite court orders blocking changes - The Guardian",
+            "titleZh": "美国邮政总局规则收紧邮寄投票，尽管法院命令阻止变更"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule",
+            "source": "Guardian World",
+            "title": "US Postal Service rule tightens mail-in voting despite court orders blocking changes",
             "titleZh": "美国邮政总局规则收紧邮寄投票，尽管法院命令阻止变更"
           }
         ],
@@ -20772,7 +20788,7 @@
         "isPriority": false,
         "eventId": "0d5cb47ca4df49f97c31b3af8eb57c6c5ce49459",
         "canonicalUrl": "https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726",
-        "clusterSize": 1,
+        "clusterSize": 2,
         "sourceCount": 1,
         "relatedSources": [
           "Hacker News Newest"
@@ -20782,6 +20798,12 @@
             "url": "https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726",
             "source": "Hacker News Newest",
             "title": "20% price reduction for GPT 5.6 Sol",
+            "titleZh": "GPT 5.6 Sol降价20%"
+          },
+          {
+            "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+            "source": "Hacker News Newest",
+            "title": "GPT 5.6 Sol 20% price reduction",
             "titleZh": "GPT 5.6 Sol降价20%"
           }
         ],
@@ -20976,10 +20998,11 @@
         "isPriority": false,
         "eventId": "b4ae77f9456bcc0a9ee5347eb907a54f3e372954",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-22/10682209.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -20990,7 +21013,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -21344,10 +21368,11 @@
         "isPriority": false,
         "eventId": "584b0f66fe88e19d962b2c7e59e024e55d0a36a3",
         "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-22/10682199.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网体育"
         ],
         "relatedLinks": [
           {
@@ -21358,7 +21383,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "体育"
         ],
         "regions": [
           "中国"
@@ -22828,15 +22854,15 @@
         ]
       },
       {
-        "title": "加拿大总理称暂停与美国的贸易谈判",
+        "title": "加拿大称暂停与美贸易谈判 将对美实施对等关税措施",
         "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682227.shtml",
         "source": "中国新闻网",
-        "fetchedAt": "2026-08-22T04:04:28.925Z",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
         "pubDate": "Sat, 22 Aug 2026 11:52:29 +0800",
         "category": "综合",
         "region": "中国",
         "language": "zh-CN",
-        "id": "d2fd38ab3bc8bae3105fb7983eb489df12f8aad2",
+        "id": "0bf8ba070ed36be34f4db7099e1812ec6914d7ec",
         "matchedTopics": [
           "global-affairs"
         ],
@@ -22847,7 +22873,8 @@
           "国际局势"
         ],
         "matchedKeywords": [
-          "美国"
+          "美国",
+          "关税"
         ],
         "isPriority": true,
         "eventId": "9db58979fe17a463bd6d2875dae981e3edeac870",
@@ -24090,10 +24117,11 @@
         "isPriority": true,
         "eventId": "7766c2c57a3eb71e556393d86f9c9a6f923f11a5",
         "canonicalUrl": "https://iankduncan.com/engineering/2026-08-07-getting-freaky-in-the-age-of-ai",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -24204,10 +24232,11 @@
         "isPriority": true,
         "eventId": "03366855231dd0f8d42ab698955ee49c87e202ed",
         "canonicalUrl": "https://deepsql.ai/blog/giving-an-llm-your-database-is-easy-taking-access-away-is-hard",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -24422,10 +24451,11 @@
         "isPriority": true,
         "eventId": "11693539d74d1e1e3df4f025ceccc2abaead6e1f",
         "canonicalUrl": "https://wsj.com/tech/ai/ai-agents-startup-work-culture-fa10494d",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -24547,8 +24577,1312 @@
         "language": "",
         "languages": [],
         "titleZh": "吉他调音器（2015）"
+      },
+      {
+        "title": "“让爱温暖未来” 困境儿童原创艺术作品展开展",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682239.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:46:56 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "eebc9f3d7829d785200022788e250620de8f7864",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "52c84c50cd080a06c8de0eab77222fcb9f09d217",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-22/10682239.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682239.shtml",
+            "source": "中国新闻网",
+            "title": "“让爱温暖未来” 困境儿童原创艺术作品展开展",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "“重庆之夜·南滨音乐会”开启常态化首演",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682240.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:44:56 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "14fc3327cb3142754653fea80c086072f43ac9dc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2ab6ae3bc70a4dd07ea9df2f90cc03b155d1488c",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-22/10682240.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682240.shtml",
+            "source": "中国新闻网",
+            "title": "“重庆之夜·南滨音乐会”开启常态化首演",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "（走进中国乡村）皖南大山村：生态“硒”引力 康养富乡村",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682242.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:44:42 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "eb91aaf1f8de38c1c3234c3a6e3a4eb2e308fe68",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cd2ba0d792525c96fc06f4075919fc98c9edc2d0",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-22/10682242.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682242.shtml",
+            "source": "中国新闻网",
+            "title": "（走进中国乡村）皖南大山村：生态“硒”引力 康养富乡村",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "（乡村行·看振兴）“绿宝石”串起富民产业链 广西乡村绘就振兴新图景",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682243.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:44:12 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "18759d71ce9c86dfb0e4e5a170261a17c75a9160",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b2f7ce0a1945ef5054e28a1230b71f03440ec474",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-22/10682243.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682243.shtml",
+            "source": "中国新闻网",
+            "title": "（乡村行·看振兴）“绿宝石”串起富民产业链 广西乡村绘就振兴新图景",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "未达贸易协议 美国将对部分加拿大商品征50%关税",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682244.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:33:23 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "18afaa36ae91bfc976cb4d68d4b9cc69b2301e82",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "关税"
+        ],
+        "isPriority": true,
+        "eventId": "796d89bb571f8f8035f2675ae7ffe1d11d32a259",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-22/10682244.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682244.shtml",
+            "source": "中国新闻网",
+            "title": "未达贸易协议 美国将对部分加拿大商品征50%关税",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "同心聚力 实干笃行——台湾同学会这五年",
+        "url": "https://www.chinanews.com.cn/txy/2026/08-22/10682241.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:22:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "08da3c45ec0b8b6be785ec5e733781d082deaed1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "520260b331455a4b4bc84ed1e9bd6e92963a26dc",
+        "canonicalUrl": "https://chinanews.com.cn/txy/2026/08-22/10682241.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/txy/2026/08-22/10682241.shtml",
+            "source": "中国新闻网",
+            "title": "同心聚力 实干笃行——台湾同学会这五年",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "特朗普称若输掉中期选举他将被弹劾",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682237.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:12:50 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "334a5dc6b6a87a347dad4229987200388afcf000",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普"
+        ],
+        "isPriority": true,
+        "eventId": "0576dedc0dbb0d12b60e22fca356a5e5ed43ab73",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-22/10682237.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682237.shtml",
+            "source": "中国新闻网",
+            "title": "特朗普称若输掉中期选举他将被弹劾",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "贵州从江：秋到山乡 丰收在望",
+        "url": "https://www.chinanews.com.cn/tp/2026/08-22/10682224.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:10:08 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "9241d210baecc6e6662f95b401745571e9506ddb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4c31045ed56e30ea5f7d3a47ef55c04edf1c74c5",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/08-22/10682224.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/08-22/10682224.shtml",
+            "source": "中国新闻网",
+            "title": "贵州从江：秋到山乡 丰收在望",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "土耳其寻求对内塔尼亚胡发布“红色通缉令”",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682235.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:07:08 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3cd91df58617c58f6ff04bd277b0e9f485885748",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "02432c75f52305305a9317f71617226de0b09555",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-22/10682235.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682235.shtml",
+            "source": "中国新闻网",
+            "title": "土耳其寻求对内塔尼亚胡发布“红色通缉令”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "特朗普称未指示美财长干预债券市场",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682234.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-22T04:58:55.159Z",
+        "pubDate": "Sat, 22 Aug 2026 12:02:40 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "9278ba80b6f2bd15d261d03d3a4f1eb67ccda3b1",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普"
+        ],
+        "isPriority": true,
+        "eventId": "79d63808478b0d4d53fe98f896eeb48828116511",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-22/10682234.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682234.shtml",
+            "source": "中国新闻网",
+            "title": "特朗普称未指示美财长干预债券市场",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "MAHA activists urge Trump against promoting coal to power energy-hungry AI data centers - AP News",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXBsS1JsTmlTVkxmclhsRVR4N3hzMFVOenFtNnhlZG5oSUd6blJ1MWotaDlBZ1U0bEx6RGcxQUJFNUlkb0Q5NlE3dTAtcHBGOEZvVWJsOUFvZVFjU3dhRmU2WjZFYnFFcl9tYW5jTWFjTUFqU25iWTExa2pkaWk1OXdSY1ZVREJqZlhTN2NlY19kSFR0c252Nlhvbw?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-22T04:58:55.523Z",
+        "pubDate": "Fri, 21 Aug 2026 18:23:00 GMT",
+        "id": "8b0a3087676eeb9777ac98233c24ab458af33922",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump",
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "e76d792b9474b410e9752069a82d53067386369d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXBsS1JsTmlTVkxmclhsRVR4N3hzMFVOenFtNnhlZG5oSUd6blJ1MWotaDlBZ1U0bEx6RGcxQUJFNUlkb0Q5NlE3dTAtcHBGOEZvVWJsOUFvZVFjU3dhRmU2WjZFYnFFcl9tYW5jTWFjTUFqU25iWTExa2pkaWk1OXdSY1ZVREJqZlhTN2NlY19kSFR0c252Nlhvbw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXBsS1JsTmlTVkxmclhsRVR4N3hzMFVOenFtNnhlZG5oSUd6blJ1MWotaDlBZ1U0bEx6RGcxQUJFNUlkb0Q5NlE3dTAtcHBGOEZvVWJsOUFvZVFjU3dhRmU2WjZFYnFFcl9tYW5jTWFjTUFqU25iWTExa2pkaWk1OXdSY1ZVREJqZlhTN2NlY19kSFR0c252Nlhvbw?oc=5",
+            "source": "AP News via Google News",
+            "title": "MAHA activists urge Trump against promoting coal to power energy-hungry AI data centers - AP News",
+            "titleZh": "MAHA活动人士敦促特朗普不要推广煤炭为耗电的AI数据中心供电 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "MAHA活动人士敦促特朗普不要推广煤炭为耗电的AI数据中心供电 - 美联社新闻"
+      },
+      {
+        "title": "US is set to impose 50% tariffs on $20 billion worth of Canadian products - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFZQdTRIMXVabHVfUTNldG4yeGlBSWlHNTFsNUt4WktQeHBuT1RzUUxVT3NZMTQ4ampFeFMtQVhVUDN4bXZXVWlzWXY5LTBEVTI1d29obi03ZGd2dTB6WG0zRGtsa3llaHhtVlVnRjFKYW4tOGpubG1qSWp6NWZfNG5WUVlpeGdjc0s0ck5GM0F3eWs?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-22T04:58:55.523Z",
+        "pubDate": "Sat, 22 Aug 2026 03:48:00 GMT",
+        "id": "15c9300504c276ca64ba299e84af693b67528a49",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "关税"
+        ],
+        "isPriority": true,
+        "eventId": "76ee1cf4b0b57b5bd91fa0b644b663019d9fa7d6",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFZQdTRIMXVabHVfUTNldG4yeGlBSWlHNTFsNUt4WktQeHBuT1RzUUxVT3NZMTQ4ampFeFMtQVhVUDN4bXZXVWlzWXY5LTBEVTI1d29obi03ZGd2dTB6WG0zRGtsa3llaHhtVlVnRjFKYW4tOGpubG1qSWp6NWZfNG5WUVlpeGdjc0s0ck5GM0F3eWs",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFZQdTRIMXVabHVfUTNldG4yeGlBSWlHNTFsNUt4WktQeHBuT1RzUUxVT3NZMTQ4ampFeFMtQVhVUDN4bXZXVWlzWXY5LTBEVTI1d29obi03ZGd2dTB6WG0zRGtsa3llaHhtVlVnRjFKYW4tOGpubG1qSWp6NWZfNG5WUVlpeGdjc0s0ck5GM0F3eWs?oc=5",
+            "source": "AP News via Google News",
+            "title": "US is set to impose 50% tariffs on $20 billion worth of Canadian products - AP News",
+            "titleZh": "美国将对价值200亿美元的加拿大产品征收50%关税 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国将对价值200亿美元的加拿大产品征收50%关税 - 美联社新闻"
+      },
+      {
+        "title": "US Postal Service issues rules to tighten mail-in voting if court gives OK - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZXhWMEQ5T1ZuUnd3cHIxWUhURGIwLUxhRmFrRFdCTzRvSlNXMVljbkhLM2J4UUgxa3poY215TWhLVGg3V2NKN1NrbW9NSG9tdmNrZ25HNVYxT3pHbk9WVTR4YUc1Z3JSZ3FsWlNUUEpadm8zMnV0SmtRVnNkNXM1MHkwRXRGRWFaZVozQ3BtREIwOXpMT29HM0dvUXZaTnVZN2Q1NHRYZE5qaThGV1I4enVFbw?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-22T04:58:55.484Z",
+        "pubDate": "Sat, 22 Aug 2026 01:20:00 GMT",
+        "id": "29a657d04193ae373e9e08047301220395081d55",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "72dbe3090bb6618eb1c407145e3a9b62d30f5c51",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZXhWMEQ5T1ZuUnd3cHIxWUhURGIwLUxhRmFrRFdCTzRvSlNXMVljbkhLM2J4UUgxa3poY215TWhLVGg3V2NKN1NrbW9NSG9tdmNrZ25HNVYxT3pHbk9WVTR4YUc1Z3JSZ3FsWlNUUEpadm8zMnV0SmtRVnNkNXM1MHkwRXRGRWFaZVozQ3BtREIwOXpMT29HM0dvUXZaTnVZN2Q1NHRYZE5qaThGV1I4enVFbw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZXhWMEQ5T1ZuUnd3cHIxWUhURGIwLUxhRmFrRFdCTzRvSlNXMVljbkhLM2J4UUgxa3poY215TWhLVGg3V2NKN1NrbW9NSG9tdmNrZ25HNVYxT3pHbk9WVTR4YUc1Z3JSZ3FsWlNUUEpadm8zMnV0SmtRVnNkNXM1MHkwRXRGRWFaZVozQ3BtREIwOXpMT29HM0dvUXZaTnVZN2Q1NHRYZE5qaThGV1I4enVFbw?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "US Postal Service issues rules to tighten mail-in voting if court gives OK - Reuters",
+            "titleZh": "美国邮政总局发布规则，若法院批准将收紧邮寄投票 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国邮政总局发布规则，若法院批准将收紧邮寄投票 - 路透社"
+      },
+      {
+        "title": "Canada vows to match Trump’s 50% tariffs after trade deal talks fail",
+        "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-22T04:58:55.261Z",
+        "pubDate": "Sat, 22 Aug 2026 04:23:38 GMT",
+        "id": "aaa0bd3829f4a02da0d965e2ad9d3ce5510b1a78",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "关税",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "ce06e4a1fa7faf6be2f325f6ed292a27a5af7353",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+            "source": "Guardian World",
+            "title": "Canada vows to match Trump’s 50% tariffs after trade deal talks fail",
+            "titleZh": "贸易协议谈判失败后，加拿大誓言对特朗普的50%关税进行对等报复"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "贸易协议谈判失败后，加拿大誓言对特朗普的50%关税进行对等报复"
+      },
+      {
+        "title": "Canada-U.S. Trade Talks Collapse; Washington Imposes New Tariffs - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMXJicWNvNlVhUFZsYjd3QXBXbnQ1MzRGYXNCM2tkUnhLWFVaNnVxYjR4dThzMEpyUVQ3SjJOcUNKYm8xR0NGMG80d3gzdW95OUxSb3dZXzI2NWpoZEpYamxIQ2dQajFvMi1udTNjYmpVQVIxWkhGazRrYy1tTTQ1c3hmVDBoVHNmbXd3QmZ0TXpIeEZ6dUpjZm1n?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-22T04:58:55.192Z",
+        "pubDate": "Sat, 22 Aug 2026 04:01:00 GMT",
+        "id": "ef98b3bd6f38c6272d9b3ec77dfacd49ed458430",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "关税"
+        ],
+        "isPriority": true,
+        "eventId": "d5f6e1a4826e8c81ef502fcbbded4bdc95ebc6d8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMXJicWNvNlVhUFZsYjd3QXBXbnQ1MzRGYXNCM2tkUnhLWFVaNnVxYjR4dThzMEpyUVQ3SjJOcUNKYm8xR0NGMG80d3gzdW95OUxSb3dZXzI2NWpoZEpYamxIQ2dQajFvMi1udTNjYmpVQVIxWkhGazRrYy1tTTQ1c3hmVDBoVHNmbXd3QmZ0TXpIeEZ6dUpjZm1n",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMXJicWNvNlVhUFZsYjd3QXBXbnQ1MzRGYXNCM2tkUnhLWFVaNnVxYjR4dThzMEpyUVQ3SjJOcUNKYm8xR0NGMG80d3gzdW95OUxSb3dZXzI2NWpoZEpYamxIQ2dQajFvMi1udTNjYmpVQVIxWkhGazRrYy1tTTQ1c3hmVDBoVHNmbXd3QmZ0TXpIeEZ6dUpjZm1n?oc=5",
+            "source": "Google News",
+            "title": "Canada-U.S. Trade Talks Collapse; Washington Imposes New Tariffs - The New York Times",
+            "titleZh": "加拿大与美国贸易谈判破裂；华盛顿实施新关税 - 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "加拿大与美国贸易谈判破裂；华盛顿实施新关税 - 《纽约时报》"
+      },
+      {
+        "title": "Supreme Court says Trump can continue ballroom work as it weighs case - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYmdNUTJ1X3NSdncwZDh2S2NlUm1OcTQ5SHdxVzNVTjM0T2NucEZrc2FKMjBZUWZueGFmcmdUN1VkNnBSc2pXOENMaHp1cmJPdWhMVV9zSVJCSzl5bW84UVFnV2lEWnhicXl3d09UNTkxYmlpMnJVbDN4YWNwaUtxVUNxd19HeS1jMm1hZF9DZTAzeF82UDlCbV95dTFBLVREVXpDSDJEVHhUd2NNckpjN3lsSnNPTExTQnc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-22T04:58:55.192Z",
+        "pubDate": "Sat, 22 Aug 2026 01:55:56 GMT",
+        "id": "3161fdce2a7b046b676aefc1ecfd82cb2852e789",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "75892edff1a7964c6b758971fada28b15465dd63",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYmdNUTJ1X3NSdncwZDh2S2NlUm1OcTQ5SHdxVzNVTjM0T2NucEZrc2FKMjBZUWZueGFmcmdUN1VkNnBSc2pXOENMaHp1cmJPdWhMVV9zSVJCSzl5bW84UVFnV2lEWnhicXl3d09UNTkxYmlpMnJVbDN4YWNwaUtxVUNxd19HeS1jMm1hZF9DZTAzeF82UDlCbV95dTFBLVREVXpDSDJEVHhUd2NNckpjN3lsSnNPTExTQnc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYmdNUTJ1X3NSdncwZDh2S2NlUm1OcTQ5SHdxVzNVTjM0T2NucEZrc2FKMjBZUWZueGFmcmdUN1VkNnBSc2pXOENMaHp1cmJPdWhMVV9zSVJCSzl5bW84UVFnV2lEWnhicXl3d09UNTkxYmlpMnJVbDN4YWNwaUtxVUNxd19HeS1jMm1hZF9DZTAzeF82UDlCbV95dTFBLVREVXpDSDJEVHhUd2NNckpjN3lsSnNPTExTQnc?oc=5",
+            "source": "Google News",
+            "title": "Supreme Court says Trump can continue ballroom work as it weighs case - The Washington Post",
+            "titleZh": "最高法院表示，特朗普在审理案件期间可继续舞厅工作 - 《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "最高法院表示，特朗普在审理案件期间可继续舞厅工作 - 《华盛顿邮报》"
+      },
+      {
+        "title": "Lindsay Clancy’s defense rests at trial over whether postpartum psychosis drove her to kill her kids - AP News",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTVViWDlLRjR5ZGYxNm1uZHdhWWdsUFR5OElyQ1dwVG9MMzdKY1NpNXdzWmNpSjNMd21zTm96bFdWU3JzWi12OEw3YWtQcENoanZzbFJFVjRTNVl2VkFoS2lZY0hDNTljQVlya1kxQXQ3OUFWalRHN2NSNUdWSzkxYWZDeldpWGszYjg5dnowSVEyU25DWTdhWUlpMA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-22T04:58:55.192Z",
+        "pubDate": "Fri, 21 Aug 2026 22:57:00 GMT",
+        "id": "992c811656aa9cce3b89abc6d07bc761721f7f29",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6eda786d7574b32bdadf20c3c4cd2d569fed2c05",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTVViWDlLRjR5ZGYxNm1uZHdhWWdsUFR5OElyQ1dwVG9MMzdKY1NpNXdzWmNpSjNMd21zTm96bFdWU3JzWi12OEw3YWtQcENoanZzbFJFVjRTNVl2VkFoS2lZY0hDNTljQVlya1kxQXQ3OUFWalRHN2NSNUdWSzkxYWZDeldpWGszYjg5dnowSVEyU25DWTdhWUlpMA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTVViWDlLRjR5ZGYxNm1uZHdhWWdsUFR5OElyQ1dwVG9MMzdKY1NpNXdzWmNpSjNMd21zTm96bFdWU3JzWi12OEw3YWtQcENoanZzbFJFVjRTNVl2VkFoS2lZY0hDNTljQVlya1kxQXQ3OUFWalRHN2NSNUdWSzkxYWZDeldpWGszYjg5dnowSVEyU25DWTdhWUlpMA?oc=5",
+            "source": "Google News",
+            "title": "Lindsay Clancy’s defense rests at trial over whether postpartum psychosis drove her to kill her kids - AP News",
+            "titleZh": "林赛·克兰西的辩护律师在审判中结束陈述，该案涉及其是否因产后精神病而杀害子女 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "林赛·克兰西的辩护律师在审判中结束陈述，该案涉及其是否因产后精神病而杀害子女 - 美联社新闻"
+      },
+      {
+        "title": "Missing New York City grandmother found dead near airport in Las Vegas - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcTROU1luMDBqckpMdXc0eG41SGV6Q2o1VW5xMnJDNnk1TW9lZThEMHpUU3BEYmxaZDM5by1vcXNvOTBwYW1yQVk1MWYwcUxBRTZxWkQ4aFZLdEg5NnBGc2JkbEZIZlV1c1hPenI3b0N1Z2FDWlBMNjlJRUNCeGNVMDQ2NW9WUzFBUGYtSlpYSXY5enViN0ZFdGhFbnZnbDM4TVctNA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-22T04:58:55.192Z",
+        "pubDate": "Sat, 22 Aug 2026 00:12:00 GMT",
+        "id": "5de9026b8d4b9d4bbad649524a4f79649e74c9c4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f8223c305a8aa4aa210731f4a604f0b573edb300",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcTROU1luMDBqckpMdXc0eG41SGV6Q2o1VW5xMnJDNnk1TW9lZThEMHpUU3BEYmxaZDM5by1vcXNvOTBwYW1yQVk1MWYwcUxBRTZxWkQ4aFZLdEg5NnBGc2JkbEZIZlV1c1hPenI3b0N1Z2FDWlBMNjlJRUNCeGNVMDQ2NW9WUzFBUGYtSlpYSXY5enViN0ZFdGhFbnZnbDM4TVctNA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcTROU1luMDBqckpMdXc0eG41SGV6Q2o1VW5xMnJDNnk1TW9lZThEMHpUU3BEYmxaZDM5by1vcXNvOTBwYW1yQVk1MWYwcUxBRTZxWkQ4aFZLdEg5NnBGc2JkbEZIZlV1c1hPenI3b0N1Z2FDWlBMNjlJRUNCeGNVMDQ2NW9WUzFBUGYtSlpYSXY5enViN0ZFdGhFbnZnbDM4TVctNA?oc=5",
+            "source": "Google News",
+            "title": "Missing New York City grandmother found dead near airport in Las Vegas - NBC News",
+            "titleZh": "失踪的纽约市祖母在拉斯维加斯机场附近被发现死亡 - NBC新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "失踪的纽约市祖母在拉斯维加斯机场附近被发现死亡 - NBC新闻"
+      },
+      {
+        "title": "E coli and salmonella outbreak linked to alfalfa sprouts sickens dozens across multiple states - Fox Business",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNmtVMmZMWkhUZ0dmMFpPRkJ0OHktYkxrVkI1OW9IVXlyWHB1V2hYX0o0RDN0azR4TFFKQ1hSSFJSRGhzaUFkWjYtWGJkOVYtc2RES3dTUDgydnVNZ1JiNFEwQlNIaGFwSi1jU3NwS0lpU0NwcWFPUzVfdjh6MkVTS3FmOTZvX3dtdzdjZDdwRnh2V01jWFpWSTR2V1pmYVRzMjJydWRONEJSNVczanlOMHdnelVGUnROdm5tT2pPOGdRRW_SAcgBQVVfeXFMTXFrOVFFYko0Xy1ENDZzX0Z2QUxxSUxmdEdzamJxR1VXeFhGTTUyZU5LeEM2dk9RZVp0TkNWWmtTTHdFY3JSOXVfNkVnTnB6VE9TTkZqVmNHZ3dQa21Ib2V1ZkJmc2dBZUpMSmNHS3lWbm83M0dWaFFYQUdIbnRCeHdOajV4dGNxYTR5RUFjUk9sUnJKWk4ta0otNG9JU191S0ZiN3dEZE5XSG1hN200VWRGdTIwNG0zbTdkbnBXR2tpSkpuNW5sbk4?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-22T04:58:55.192Z",
+        "pubDate": "Sat, 22 Aug 2026 01:39:00 GMT",
+        "id": "010cb5270b7466a734d5bdc7be2f0a5d8820c367",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "82c361b49da24ce4ae4829954242e90b4b3bdfb4",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNmtVMmZMWkhUZ0dmMFpPRkJ0OHktYkxrVkI1OW9IVXlyWHB1V2hYX0o0RDN0azR4TFFKQ1hSSFJSRGhzaUFkWjYtWGJkOVYtc2RES3dTUDgydnVNZ1JiNFEwQlNIaGFwSi1jU3NwS0lpU0NwcWFPUzVfdjh6MkVTS3FmOTZvX3dtdzdjZDdwRnh2V01jWFpWSTR2V1pmYVRzMjJydWRONEJSNVczanlOMHdnelVGUnROdm5tT2pPOGdRRW_SAcgBQVVfeXFMTXFrOVFFYko0Xy1ENDZzX0Z2QUxxSUxmdEdzamJxR1VXeFhGTTUyZU5LeEM2dk9RZVp0TkNWWmtTTHdFY3JSOXVfNkVnTnB6VE9TTkZqVmNHZ3dQa21Ib2V1ZkJmc2dBZUpMSmNHS3lWbm83M0dWaFFYQUdIbnRCeHdOajV4dGNxYTR5RUFjUk9sUnJKWk4ta0otNG9JU191S0ZiN3dEZE5XSG1hN200VWRGdTIwNG0zbTdkbnBXR2tpSkpuNW5sbk4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNmtVMmZMWkhUZ0dmMFpPRkJ0OHktYkxrVkI1OW9IVXlyWHB1V2hYX0o0RDN0azR4TFFKQ1hSSFJSRGhzaUFkWjYtWGJkOVYtc2RES3dTUDgydnVNZ1JiNFEwQlNIaGFwSi1jU3NwS0lpU0NwcWFPUzVfdjh6MkVTS3FmOTZvX3dtdzdjZDdwRnh2V01jWFpWSTR2V1pmYVRzMjJydWRONEJSNVczanlOMHdnelVGUnROdm5tT2pPOGdRRW_SAcgBQVVfeXFMTXFrOVFFYko0Xy1ENDZzX0Z2QUxxSUxmdEdzamJxR1VXeFhGTTUyZU5LeEM2dk9RZVp0TkNWWmtTTHdFY3JSOXVfNkVnTnB6VE9TTkZqVmNHZ3dQa21Ib2V1ZkJmc2dBZUpMSmNHS3lWbm83M0dWaFFYQUdIbnRCeHdOajV4dGNxYTR5RUFjUk9sUnJKWk4ta0otNG9JU191S0ZiN3dEZE5XSG1hN200VWRGdTIwNG0zbTdkbnBXR2tpSkpuNW5sbk4?oc=5",
+            "source": "Google News",
+            "title": "E coli and salmonella outbreak linked to alfalfa sprouts sickens dozens across multiple states - Fox Business",
+            "titleZh": "与苜蓿芽相关的大肠杆菌和沙门氏菌疫情导致多州数十人患病 - 福克斯商业"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "与苜蓿芽相关的大肠杆菌和沙门氏菌疫情导致多州数十人患病 - 福克斯商业"
+      },
+      {
+        "title": "Microsoft has been served a 'Grand Theft Auto 6' court subpoena by Take-Two (UPDATE) - Windows Central",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW9OR1ZMZ0VNalBteXdXYkJFSTl3anFvMV9lQnpSSU5lWUxHRTAzN0NpNVpkNUVmVzlqS1hMNXZOdC1yTUxFaUpRNGRWRFh5RWcwTmh3TzZGRVNBWDJsUklLUm5PNUtxVzJ1ZU84eVJGNFFNRnNMbDRSTl9sdVgweHhaMXMyaFU2NldiNmFhbUtnWDNwbUc5TUVaOG1SalhRMWJHeG9yUi1PT3pGMGR6TWE2QWpfTlU?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-22T04:58:55.192Z",
+        "pubDate": "Fri, 21 Aug 2026 23:53:43 GMT",
+        "id": "1e2a7d664a0a67ce9d27d4c0a1c8918a9b6c341d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bb705c0f4b29a7fcecdc5fa4c6684a44c8d93026",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW9OR1ZMZ0VNalBteXdXYkJFSTl3anFvMV9lQnpSSU5lWUxHRTAzN0NpNVpkNUVmVzlqS1hMNXZOdC1yTUxFaUpRNGRWRFh5RWcwTmh3TzZGRVNBWDJsUklLUm5PNUtxVzJ1ZU84eVJGNFFNRnNMbDRSTl9sdVgweHhaMXMyaFU2NldiNmFhbUtnWDNwbUc5TUVaOG1SalhRMWJHeG9yUi1PT3pGMGR6TWE2QWpfTlU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW9OR1ZMZ0VNalBteXdXYkJFSTl3anFvMV9lQnpSSU5lWUxHRTAzN0NpNVpkNUVmVzlqS1hMNXZOdC1yTUxFaUpRNGRWRFh5RWcwTmh3TzZGRVNBWDJsUklLUm5PNUtxVzJ1ZU84eVJGNFFNRnNMbDRSTl9sdVgweHhaMXMyaFU2NldiNmFhbUtnWDNwbUc5TUVaOG1SalhRMWJHeG9yUi1PT3pGMGR6TWE2QWpfTlU?oc=5",
+            "source": "Google News",
+            "title": "Microsoft has been served a 'Grand Theft Auto 6' court subpoena by Take-Two (UPDATE) - Windows Central",
+            "titleZh": "微软已被Take-Two送达'侠盗猎车手6'法院传票（更新） - Windows Central"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "微软已被Take-Two送达'侠盗猎车手6'法院传票（更新） - Windows Central"
+      },
+      {
+        "title": "4 in 10 travellers visit tourist sites to capture social media content",
+        "url": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-22T04:58:55.380Z",
+        "pubDate": "Sat, 22 Aug 2026 04:42:19 +0000",
+        "id": "2972b012767e42754ae3feca5fbd1b3ceff96f42",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "957a588ff8053664526a09668bdb2909ace4242d",
+        "canonicalUrl": "https://tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+            "source": "Hacker News Frontpage",
+            "title": "4 in 10 travellers visit tourist sites to capture social media content",
+            "titleZh": "十分之四的游客前往旅游景点是为了拍摄社交媒体内容"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "十分之四的游客前往旅游景点是为了拍摄社交媒体内容"
+      },
+      {
+        "title": "ESP32-S31 dual-core RISC-V SoC is getting official Linux support",
+        "url": "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:40:50 +0000",
+        "id": "e521a1888a2b4868c337b1842d8663f7aa813719",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0ed314ffa694308eb4ad3873f764445cdd3bace9",
+        "canonicalUrl": "https://cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/",
+            "source": "Hacker News Newest",
+            "title": "ESP32-S31 dual-core RISC-V SoC is getting official Linux support",
+            "titleZh": "ESP32-S31双核RISC-V SoC获得官方Linux支持"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ESP32-S31双核RISC-V SoC获得官方Linux支持"
+      },
+      {
+        "title": "Meta $1.4T threat could mean 'turning in the keys and walking away'",
+        "url": "https://fortune.com/article/meta-faces-1-4-trillion-threat-stakes-of-case-reach-across-tech-08-20-2026/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:33:34 +0000",
+        "id": "fd7e9e63e674c405cd53dabb0939a2a216514bbb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "65c710bdc9bdda0901952418c73b4ebf9664e80b",
+        "canonicalUrl": "https://fortune.com/article/meta-faces-1-4-trillion-threat-stakes-of-case-reach-across-tech-08-20-2026",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://fortune.com/article/meta-faces-1-4-trillion-threat-stakes-of-case-reach-across-tech-08-20-2026/",
+            "source": "Hacker News Newest",
+            "title": "Meta $1.4T threat could mean 'turning in the keys and walking away'",
+            "titleZh": "Meta 1.4万亿美元威胁可能意味着'交出钥匙并走开'"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Meta 1.4万亿美元威胁可能意味着'交出钥匙并走开'"
+      },
+      {
+        "title": "Suspicions of hitting daughter between a congressman and his ex-wife",
+        "url": "https://www.washingtonpost.com/investigations/2026/08/21/inside-police-investigation-how-rep-max-millers-daughter-got-hurt/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:31:01 +0000",
+        "id": "f49db115a43e1ff5e5d31b6f6a5bda23e45df8e3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1214e9128091aef2a4331c44ed22ea1153b65117",
+        "canonicalUrl": "https://washingtonpost.com/investigations/2026/08/21/inside-police-investigation-how-rep-max-millers-daughter-got-hurt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.washingtonpost.com/investigations/2026/08/21/inside-police-investigation-how-rep-max-millers-daughter-got-hurt/",
+            "source": "Hacker News Newest",
+            "title": "Suspicions of hitting daughter between a congressman and his ex-wife",
+            "titleZh": "一名国会议员与其前妻之间涉嫌殴打女儿的疑云"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "一名国会议员与其前妻之间涉嫌殴打女儿的疑云"
+      },
+      {
+        "title": "Fighter jets help destroy Russian drone boat near European offshore gas platform",
+        "url": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:30:46 +0000",
+        "id": "1d031c1168a392cdfa76db343be7941d6bd080b8",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯"
+        ],
+        "isPriority": true,
+        "eventId": "751bc81defe98adbfaaf0b30041f3701eab12c46",
+        "canonicalUrl": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site/",
+            "source": "Hacker News Newest",
+            "title": "Fighter jets help destroy Russian drone boat near European offshore gas platform",
+            "titleZh": "战斗机协助摧毁欧洲近海天然气平台附近的俄罗斯无人艇"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "战斗机协助摧毁欧洲近海天然气平台附近的俄罗斯无人艇"
+      },
+      {
+        "title": "I built an open-source FACEIT stats Browser Source for OBS",
+        "url": "https://faceitwidget.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:26:24 +0000",
+        "id": "f0853f921aef7ac5fd9c5226e569bc135d593530",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "72f2308f1745467c3017762121778853569ee57c",
+        "canonicalUrl": "https://faceitwidget.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://faceitwidget.com/",
+            "source": "Hacker News Newest",
+            "title": "I built an open-source FACEIT stats Browser Source for OBS",
+            "titleZh": "我为OBS构建了一个开源的FACEIT统计数据浏览器源"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我为OBS构建了一个开源的FACEIT统计数据浏览器源"
+      },
+      {
+        "title": "Firezone REST API generally available",
+        "url": "https://www.firezone.dev/blog/rest-api-ga",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:22:14 +0000",
+        "id": "1adb4efb5dec2fcffb1975fefed3723d85ca031e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "44df8d91f0f1c2d80d2e46e2b36d8bd328082979",
+        "canonicalUrl": "https://firezone.dev/blog/rest-api-ga",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.firezone.dev/blog/rest-api-ga",
+            "source": "Hacker News Newest",
+            "title": "Firezone REST API generally available",
+            "titleZh": "Firezone REST API现已全面可用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Firezone REST API现已全面可用"
+      },
+      {
+        "title": "Prevention of myopia in a near-primate by supplemental indigo light",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42612637/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:17:29 +0000",
+        "id": "44333c58ac070530f1dbe938f96157c436def209",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "231ef540601dcb271afe97a539928415b53bc712",
+        "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42612637",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42612637/",
+            "source": "Hacker News Newest",
+            "title": "Prevention of myopia in a near-primate by supplemental indigo light",
+            "titleZh": "通过补充靛蓝光预防近灵长类动物的近视"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "通过补充靛蓝光预防近灵长类动物的近视"
+      },
+      {
+        "title": "I tested 20 \"agent-ready\" Shopify stores –> 25% silently break at add-to-cart",
+        "url": "https://github.com/MythrilS/agent-ready-checkout",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:10:13 +0000",
+        "id": "16a0a265d99a3e99e9a8be0c38cd9ed7c1b7a75f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "675ea1a74436dc910650a09c915a7f012e64cddf",
+        "canonicalUrl": "https://github.com/MythrilS/agent-ready-checkout",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/MythrilS/agent-ready-checkout",
+            "source": "Hacker News Newest",
+            "title": "I tested 20 \"agent-ready\" Shopify stores –> 25% silently break at add-to-cart",
+            "titleZh": "我测试了20家“支持代理”的Shopify商店——>25%在加入购物车时悄然失效"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我测试了20家“支持代理”的Shopify商店——>25%在加入购物车时悄然失效"
+      },
+      {
+        "title": "Limnic Eruption",
+        "url": "https://en.wikipedia.org/wiki/Limnic_eruption",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:08:21 +0000",
+        "id": "c433e1bc3e6944f5b22ed3bbdefe1532e1c0ab74",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3cbc137d4e7089aa533176e9e371c8d734b48bd5",
+        "canonicalUrl": "https://en.wikipedia.org/wiki/Limnic_eruption",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Limnic_eruption",
+            "source": "Hacker News Newest",
+            "title": "Limnic Eruption",
+            "titleZh": "湖底喷发"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "湖底喷发"
+      },
+      {
+        "title": "EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models",
+        "url": "https://arxiv.org/abs/2608.20055",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:07:07 +0000",
+        "id": "3522a066fb0c143d98991ccf8fa7375e59094538",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "推理模型"
+        ],
+        "isPriority": true,
+        "eventId": "4210737d4d012c01a6ad84a0975426a89555c218",
+        "canonicalUrl": "https://arxiv.org/abs/2608.20055",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.20055",
+            "source": "Hacker News Newest",
+            "title": "EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models",
+            "titleZh": "EchoCoT：从大型推理模型中提取隐藏的思维链"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "EchoCoT：从大型推理模型中提取隐藏的思维链"
+      },
+      {
+        "title": "Finding a hidden Mersenne Twister inside a 15 year old game binary",
+        "url": "https://medium.com/@jizoskasa/i-reverse-engineered-plants-vs-zombies-to-answer-one-very-specific-question-557637a68a3e",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-22T04:59:05.340Z",
+        "pubDate": "Sat, 22 Aug 2026 04:04:14 +0000",
+        "id": "c5019ceba77cafbadc467868ef25fc140f166af3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2cac5a03131b372a4bdf4d75819f8691a26876c1",
+        "canonicalUrl": "https://medium.com/@jizoskasa/i-reverse-engineered-plants-vs-zombies-to-answer-one-very-specific-question-557637a68a3e",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/@jizoskasa/i-reverse-engineered-plants-vs-zombies-to-answer-one-very-specific-question-557637a68a3e",
+            "source": "Hacker News Newest",
+            "title": "Finding a hidden Mersenne Twister inside a 15 year old game binary",
+            "titleZh": "在15年前的游戏二进制文件中发现隐藏的梅森旋转算法"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在15年前的游戏二进制文件中发现隐藏的梅森旋转算法"
+      },
+      {
+        "title": "Programming Language Semantics and Memory Safety",
+        "url": "https://burakemir.ch/post/formal-semantics/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-22T04:58:55.572Z",
+        "pubDate": "Fri, 21 Aug 2026 23:19:40 -0500",
+        "id": "e3687cf4d958f62f3909e90f0bf3f01e5880dfef",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "efd035af39bc4d873163e2f044f7002630b689f8",
+        "canonicalUrl": "https://burakemir.ch/post/formal-semantics",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://burakemir.ch/post/formal-semantics/",
+            "source": "Lobsters RSS",
+            "title": "Programming Language Semantics and Memory Safety",
+            "titleZh": "编程语言语义与内存安全"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "编程语言语义与内存安全"
       }
     ]
   },
-  "lastFetchAt": "2026-08-22T04:04:28.264Z"
+  "lastFetchAt": "2026-08-22T04:58:54.479Z"
 }
