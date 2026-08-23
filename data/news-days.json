@@ -3187,11 +3187,12 @@
         "isPriority": true,
         "eventId": "9089d844059ad66dab400af345257511bfaf9f8a",
         "canonicalUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -36433,7 +36434,7 @@
         "title": "中国多部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
         "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682835.shtml",
         "source": "中国新闻网",
-        "fetchedAt": "2026-08-23T13:28:17.525Z",
+        "fetchedAt": "2026-08-23T15:45:43.267Z",
         "pubDate": "Sun, 23 Aug 2026 21:11:29 +0800",
         "category": "综合",
         "region": "中国",
@@ -36447,9 +36448,10 @@
         "eventId": "c08a7f22302c566a56eabb62831b54be100a64ce",
         "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-23/10682835.shtml",
         "clusterSize": 3,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -36472,7 +36474,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -42187,10 +42190,11 @@
         "isPriority": true,
         "eventId": "94e2bba0acd526f54a3a2c8a270b9016217861fb",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObGRqUjN0ODlLTkQ2Q0ZldXRMb0llSEQxVklHWF9Wd1JpMWVwTUIwRGRpWnNRRmFMWXYzaUxESVd6OVVwSUhBbmx3RjJFdGxZWlJzRlZ5LWM3VW15Q0JWRTB5RWQ2Mzlxa1dzcGNudEZPOFBWNzladk5QWHJJNFVuM1FPQ3c3STY3OXFoaEtqbUxEbUlYMHlUSmZXcHJwckVjNm9pZ0VZVWxFMTg1UjNDTkRn",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "AP News via Google News"
         ],
         "relatedLinks": [
           {
@@ -44399,8 +44403,611 @@
         "language": "",
         "languages": [],
         "titleZh": "5. eh：一个极简的类vi编辑器"
+      },
+      {
+        "title": "“紫檀”造成广西10条河流15个站超警 紧急转移安置8087人",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682867.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T15:45:43.267Z",
+        "pubDate": "Sun, 23 Aug 2026 23:35:40 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c19812e485bd7a4e613d97f159c91432649c5620",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b1a75cd8399a4218a3dc7536ab43b6510271c579",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-23/10682867.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682867.shtml",
+            "source": "中国新闻网",
+            "title": "“紫檀”造成广西10条河流15个站超警 紧急转移安置8087人",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中超第24轮：申花战胜蓉城 国安玉昆激战言和",
+        "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682866.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T15:45:43.267Z",
+        "pubDate": "Sun, 23 Aug 2026 23:26:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "89a83f2fa444d812f9f6284d75d274e18be086db",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "59c2b2388ffd777def0b83decd14f318437f8c9b",
+        "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-23/10682866.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682866.shtml",
+            "source": "中国新闻网",
+            "title": "中超第24轮：申花战胜蓉城 国安玉昆激战言和",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Israeli airstrikes in Gaza kill two people, including a 4-year-old boy, medics say - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaFU5eGhHTHlWTGEwdF9hVzNLSFJMR2hZWTRFOGQ0aFNvVmFzaTFsRmRGa3JPZVhFcFFfeUs3YmRCYjBtNDZmYi15WF9xLUpjeDJXYThlaUFTNU5ISkMtTDl6MUo3N25rSmRWbXVpN1dhdzJ0QmpxZGFKRDMwcmlWaS1IOTVEM1NwY05Xdjd2ejZJcG13c2NjRmVrVHJZNEEwYTVmYW5fb0I3Zk01eGgzMjE0dHpDUjlrVFFzUVpKdlN4QjFoZVZ6dDBR?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-23T15:45:43.246Z",
+        "pubDate": "Sun, 23 Aug 2026 13:15:43 GMT",
+        "id": "ab02f502a17c361d1ef4b790e2e776ffcdba5d34",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "加沙",
+          "Gaza"
+        ],
+        "isPriority": true,
+        "eventId": "901f8656b0d755d2f1d112b867f08584d6be7cb9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaFU5eGhHTHlWTGEwdF9hVzNLSFJMR2hZWTRFOGQ0aFNvVmFzaTFsRmRGa3JPZVhFcFFfeUs3YmRCYjBtNDZmYi15WF9xLUpjeDJXYThlaUFTNU5ISkMtTDl6MUo3N25rSmRWbXVpN1dhdzJ0QmpxZGFKRDMwcmlWaS1IOTVEM1NwY05Xdjd2ejZJcG13c2NjRmVrVHJZNEEwYTVmYW5fb0I3Zk01eGgzMjE0dHpDUjlrVFFzUVpKdlN4QjFoZVZ6dDBR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaFU5eGhHTHlWTGEwdF9hVzNLSFJMR2hZWTRFOGQ0aFNvVmFzaTFsRmRGa3JPZVhFcFFfeUs3YmRCYjBtNDZmYi15WF9xLUpjeDJXYThlaUFTNU5ISkMtTDl6MUo3N25rSmRWbXVpN1dhdzJ0QmpxZGFKRDMwcmlWaS1IOTVEM1NwY05Xdjd2ejZJcG13c2NjRmVrVHJZNEEwYTVmYW5fb0I3Zk01eGgzMjE0dHpDUjlrVFFzUVpKdlN4QjFoZVZ6dDBR?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Israeli airstrikes in Gaza kill two people, including a 4-year-old boy, medics say - Reuters",
+            "titleZh": "以色列空袭加沙致两人死亡，包括一名4岁男孩，医护人员称 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "以色列空袭加沙致两人死亡，包括一名4岁男孩，医护人员称 - 路透社"
+      },
+      {
+        "title": "Illicit deeds have just gotten a new Halloween video game banned in Australia – and it’s not because of the violence",
+        "url": "https://www.theguardian.com/games/2026/aug/24/michael-myers-halloween-video-game-banned-in-australia-drugs",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-23T15:45:43.285Z",
+        "pubDate": "Sun, 23 Aug 2026 15:00:36 GMT",
+        "id": "5b10b31f8ea89b9ef10c5770fc6b2953e49ed7f6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "81479b452572185e7e8eaeb04b930897c1cbdc0b",
+        "canonicalUrl": "https://theguardian.com/games/2026/aug/24/michael-myers-halloween-video-game-banned-in-australia-drugs",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/games/2026/aug/24/michael-myers-halloween-video-game-banned-in-australia-drugs",
+            "source": "Guardian World",
+            "title": "Illicit deeds have just gotten a new Halloween video game banned in Australia – and it’s not because of the violence",
+            "titleZh": "非法行为让一款新的万圣节电子游戏在澳大利亚被禁——并非因为暴力内容"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "非法行为让一款新的万圣节电子游戏在澳大利亚被禁——并非因为暴力内容"
+      },
+      {
+        "title": "Australia’s marine parks protect ‘places no one goes’ rather than fragile coastal zones, scientists say",
+        "url": "https://www.theguardian.com/environment/2026/aug/24/australias-marine-parks-protect-places-no-one-goes-rather-than-fragile-coastal-zones-scientists-say",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-23T15:45:43.285Z",
+        "pubDate": "Sun, 23 Aug 2026 15:00:36 GMT",
+        "id": "5d111884074984bfece1f5096f8f5d57cceb6ed3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5400ce0c9119ac592bc8fe44052abdd30e7a6a8e",
+        "canonicalUrl": "https://theguardian.com/environment/2026/aug/24/australias-marine-parks-protect-places-no-one-goes-rather-than-fragile-coastal-zones-scientists-say",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/aug/24/australias-marine-parks-protect-places-no-one-goes-rather-than-fragile-coastal-zones-scientists-say",
+            "source": "Guardian World",
+            "title": "Australia’s marine parks protect ‘places no one goes’ rather than fragile coastal zones, scientists say",
+            "titleZh": "科学家称，澳大利亚的海洋公园保护的是“无人涉足之地”，而非脆弱的沿海区域"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "科学家称，澳大利亚的海洋公园保护的是“无人涉足之地”，而非脆弱的沿海区域"
+      },
+      {
+        "title": "Australia’s first home buyers are still taking out loans as property investors step back, data shows",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/24/first-home-buyers-property-investors-mortgage-loan",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-23T15:45:43.285Z",
+        "pubDate": "Sun, 23 Aug 2026 15:00:35 GMT",
+        "id": "364163fe32f321dba5982a041f7fc2bc6b922f42",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "36fed6b4aeb8306e58e486badfef86b4d8bbba8e",
+        "canonicalUrl": "https://theguardian.com/australia-news/2026/aug/24/first-home-buyers-property-investors-mortgage-loan",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/aug/24/first-home-buyers-property-investors-mortgage-loan",
+            "source": "Guardian World",
+            "title": "Australia’s first home buyers are still taking out loans as property investors step back, data shows",
+            "titleZh": "数据显示，澳大利亚首次购房者仍在贷款，而房地产投资者则有所退缩"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数据显示，澳大利亚首次购房者仍在贷款，而房地产投资者则有所退缩"
+      },
+      {
+        "title": "‘Absurd’: children to see gambling logos on sports jerseys until 2032 in transition period condemned by Pocock",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/24/gambling-sport-logos-jerseys-pocock-labor",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-23T15:45:43.285Z",
+        "pubDate": "Sun, 23 Aug 2026 15:00:35 GMT",
+        "id": "03ac6e1a62e1fdf9b8ba0b005acd638b088d3473",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ead46de636fece59c5959f1d4e2b9aedbe26f62c",
+        "canonicalUrl": "https://theguardian.com/australia-news/2026/aug/24/gambling-sport-logos-jerseys-pocock-labor",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/aug/24/gambling-sport-logos-jerseys-pocock-labor",
+            "source": "Guardian World",
+            "title": "‘Absurd’: children to see gambling logos on sports jerseys until 2032 in transition period condemned by Pocock",
+            "titleZh": "“荒谬”：儿童将在2032年前看到运动衫上的赌博标志，过渡期遭波科克谴责"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“荒谬”：儿童将在2032年前看到运动衫上的赌博标志，过渡期遭波科克谴责"
+      },
+      {
+        "title": "Spying device detectors may give domestic abuse victims false sense of security, study finds",
+        "url": "https://www.theguardian.com/society/2026/aug/23/spying-device-detectors-may-give-domestic-abuse-victims-false-sense-of-security-study-finds",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-23T15:45:43.285Z",
+        "pubDate": "Sun, 23 Aug 2026 15:00:37 GMT",
+        "id": "a7a7c151e8270439c3834fb30bdc549da749680f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "83907489571e745e9b3e4fff7f3ec598ccf77c1b",
+        "canonicalUrl": "https://theguardian.com/society/2026/aug/23/spying-device-detectors-may-give-domestic-abuse-victims-false-sense-of-security-study-finds",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/society/2026/aug/23/spying-device-detectors-may-give-domestic-abuse-victims-false-sense-of-security-study-finds",
+            "source": "Guardian World",
+            "title": "Spying device detectors may give domestic abuse victims false sense of security, study finds",
+            "titleZh": "研究发现，间谍设备探测器可能给家庭暴力受害者带来虚假的安全感"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "研究发现，间谍设备探测器可能给家庭暴力受害者带来虚假的安全感"
+      },
+      {
+        "title": "‘The writing on the wall’: Trump’s staff departs ahead of possible turmoil - Politico",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa3FGNUJfOHFrZGdlQm9YMDd6dmM5aEVyT3YwNzV1Ri1pUXcxX3djWXd1Y1RUYW1uZkhfOVUwblFWUVh6NEJFZm5TOVFsMjcza1NkLXNPcjFpS0ZHdU04NFUzaU8xQ0F3MGJEaFhyQ0dyRzlrWFlYbGt2QUJXZWN0SmdhV1RkRllZY2JRdEhTODZaYnlLWVV0bkJzeEhSa3c5WlN2VF9LbEktSUd5TE5ndU9KU0RScS00STZ2ZQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T15:45:43.258Z",
+        "pubDate": "Sun, 23 Aug 2026 15:00:00 GMT",
+        "id": "6286be8036931730d74af351dca2bdac70313b57",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "4cd2f137da94f2a064b8bf8ad6ed85802bae076f",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa3FGNUJfOHFrZGdlQm9YMDd6dmM5aEVyT3YwNzV1Ri1pUXcxX3djWXd1Y1RUYW1uZkhfOVUwblFWUVh6NEJFZm5TOVFsMjcza1NkLXNPcjFpS0ZHdU04NFUzaU8xQ0F3MGJEaFhyQ0dyRzlrWFlYbGt2QUJXZWN0SmdhV1RkRllZY2JRdEhTODZaYnlLWVV0bkJzeEhSa3c5WlN2VF9LbEktSUd5TE5ndU9KU0RScS00STZ2ZQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa3FGNUJfOHFrZGdlQm9YMDd6dmM5aEVyT3YwNzV1Ri1pUXcxX3djWXd1Y1RUYW1uZkhfOVUwblFWUVh6NEJFZm5TOVFsMjcza1NkLXNPcjFpS0ZHdU04NFUzaU8xQ0F3MGJEaFhyQ0dyRzlrWFlYbGt2QUJXZWN0SmdhV1RkRllZY2JRdEhTODZaYnlLWVV0bkJzeEhSa3c5WlN2VF9LbEktSUd5TE5ndU9KU0RScS00STZ2ZQ?oc=5",
+            "source": "Google News",
+            "title": "‘The writing on the wall’: Trump’s staff departs ahead of possible turmoil - Politico",
+            "titleZh": "“墙上的字迹”：特朗普工作人员在可能的动荡前离职 - 政治新闻网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“墙上的字迹”：特朗普工作人员在可能的动荡前离职 - 政治新闻网"
+      },
+      {
+        "title": "Russia likely to mobilize at least 300,000 more troops to Ukraine war, Zelensky warns - CNN",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMGJRQmhkR0ROQmwxN09qQ2dYWHRjbjdfVmJwSFhvSG8zNkxUYllNcXhXa1RJVTF3VUs4OVlDSGZ4VS16cmd6R2JKOGFfUGM5QVVMb3l2S3UzLXgxU1dSTUwtRzNVR3JzOVBRM3hVbWs4bk1HNVYycER2UHBTWHVmbm1pTEMyUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T15:45:43.258Z",
+        "pubDate": "Sun, 23 Aug 2026 12:00:10 GMT",
+        "id": "4968fb6280559e623884c9bca1a3fd0bd0783e22",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "战争",
+          "美国",
+          "俄罗斯",
+          "乌克兰",
+          "Russia",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "b9a77c1062eae775a747e50c276c766df522170d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMGJRQmhkR0ROQmwxN09qQ2dYWHRjbjdfVmJwSFhvSG8zNkxUYllNcXhXa1RJVTF3VUs4OVlDSGZ4VS16cmd6R2JKOGFfUGM5QVVMb3l2S3UzLXgxU1dSTUwtRzNVR3JzOVBRM3hVbWs4bk1HNVYycER2UHBTWHVmbm1pTEMyUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMGJRQmhkR0ROQmwxN09qQ2dYWHRjbjdfVmJwSFhvSG8zNkxUYllNcXhXa1RJVTF3VUs4OVlDSGZ4VS16cmd6R2JKOGFfUGM5QVVMb3l2S3UzLXgxU1dSTUwtRzNVR3JzOVBRM3hVbWs4bk1HNVYycER2UHBTWHVmbm1pTEMyUQ?oc=5",
+            "source": "Google News",
+            "title": "Russia likely to mobilize at least 300,000 more troops to Ukraine war, Zelensky warns - CNN",
+            "titleZh": "泽连斯基警告，俄罗斯可能动员至少30万更多兵力投入乌克兰战争 - 美国有线电视新闻网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "泽连斯基警告，俄罗斯可能动员至少30万更多兵力投入乌克兰战争 - 美国有线电视新闻网"
+      },
+      {
+        "title": "35 Expensive Purchases People Regretted The Second They Bought Them - AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVXYzc014OXkwdDV4NWFZU2R4RHJMTktNeWY0bG9SbVdNM3ByemFLNzMyY2V5WVMzUUt4N1B3RUhoMGtmYVl5cHZxdGJFOGRzUjZBQVVFbWpPamdJdUdZa0Ztak02TllrUi1OTXQxNlVsZW44THpPcTI3WDJZemdUT0g5bzZHNUlKTElJ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T15:45:43.258Z",
+        "pubDate": "Sun, 23 Aug 2026 13:48:38 GMT",
+        "id": "be71a482eb8503c5d8c318ea4e9c4396123756e1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9a84b9a805b1fdf682a0ef52b05bbb01100364f9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVXYzc014OXkwdDV4NWFZU2R4RHJMTktNeWY0bG9SbVdNM3ByemFLNzMyY2V5WVMzUUt4N1B3RUhoMGtmYVl5cHZxdGJFOGRzUjZBQVVFbWpPamdJdUdZa0Ztak02TllrUi1OTXQxNlVsZW44THpPcTI3WDJZemdUT0g5bzZHNUlKTElJ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVXYzc014OXkwdDV4NWFZU2R4RHJMTktNeWY0bG9SbVdNM3ByemFLNzMyY2V5WVMzUUt4N1B3RUhoMGtmYVl5cHZxdGJFOGRzUjZBQVVFbWpPamdJdUdZa0Ztak02TllrUi1OTXQxNlVsZW44THpPcTI3WDJZemdUT0g5bzZHNUlKTElJ?oc=5",
+            "source": "Google News",
+            "title": "35 Expensive Purchases People Regretted The Second They Bought Them - AOL.com",
+            "titleZh": "35件人们一买就后悔的昂贵物品 - AOL.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "35件人们一买就后悔的昂贵物品 - AOL.com"
+      },
+      {
+        "title": "Anthony Hernandez told ref Gregory Rodrigues was cheating in UFC Sacramento main event - MMA Junkie",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFlBWDRrbG9wWVpscDFsaU5CcS1FU2NNdkI2bVJmQzRzU2VTQjZRdzFaVHN4Z2g4Zld2OUhPWE8wSjBZZW1WRTQyNzhuWUpVZUJpaXM2M1ZZQ0VoeWdJOEtKbXItQ2Q3b2tNY3dMQ1NUMDhGRFByQXphc29UYURLYkxhU1hJb2czU3IzX0QxWGtuTk1GNzJDSDBZVDB3Wm9hQjQteUhtZEJHQmFteWs5NzVXNHB3cEtEeWU0U09rV3hlRG1RYy1lc1pScXVjaHhaRWdaSw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T15:45:43.258Z",
+        "pubDate": "Sun, 23 Aug 2026 14:00:00 GMT",
+        "id": "c71f0c532a08f7530829cfd84ff7fc85baa1a6a7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "08154f5f77fe8ad54bbc8fc50c72f87673edbf02",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFlBWDRrbG9wWVpscDFsaU5CcS1FU2NNdkI2bVJmQzRzU2VTQjZRdzFaVHN4Z2g4Zld2OUhPWE8wSjBZZW1WRTQyNzhuWUpVZUJpaXM2M1ZZQ0VoeWdJOEtKbXItQ2Q3b2tNY3dMQ1NUMDhGRFByQXphc29UYURLYkxhU1hJb2czU3IzX0QxWGtuTk1GNzJDSDBZVDB3Wm9hQjQteUhtZEJHQmFteWs5NzVXNHB3cEtEeWU0U09rV3hlRG1RYy1lc1pScXVjaHhaRWdaSw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFlBWDRrbG9wWVpscDFsaU5CcS1FU2NNdkI2bVJmQzRzU2VTQjZRdzFaVHN4Z2g4Zld2OUhPWE8wSjBZZW1WRTQyNzhuWUpVZUJpaXM2M1ZZQ0VoeWdJOEtKbXItQ2Q3b2tNY3dMQ1NUMDhGRFByQXphc29UYURLYkxhU1hJb2czU3IzX0QxWGtuTk1GNzJDSDBZVDB3Wm9hQjQteUhtZEJHQmFteWs5NzVXNHB3cEtEeWU0U09rV3hlRG1RYy1lc1pScXVjaHhaRWdaSw?oc=5",
+            "source": "Google News",
+            "title": "Anthony Hernandez told ref Gregory Rodrigues was cheating in UFC Sacramento main event - MMA Junkie",
+            "titleZh": "安东尼·埃尔南德斯告诉裁判格雷戈里·罗德里格斯在UFC萨克拉门托主赛中作弊 - MMA Junkie"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "安东尼·埃尔南德斯告诉裁判格雷戈里·罗德里格斯在UFC萨克拉门托主赛中作弊 - MMA Junkie"
+      },
+      {
+        "title": "It’s time for the Browns and Deshaun Watson to go their separate ways - NBC Sports",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZk45WEx1dGdNNmZzVHVJZ2s3ekQ2RmhrWkE1d1hIeWMzU25jcHFtcFVHUmJEY2tpcHZrd2FhQVdFTlY3Q3ZFQ0w3azM3YXpkTE1pRU5qVnRUcndPZnpXMlIzNUlrMzN0TDJ4OGE3am9wWmtzSnI4NE11SFJhRG82VXJrSkNqOXZ3VExvZHNSajFTTHFIbHBwWUs2d1JoNTBQYUFDTzduQmx2UzBWZTVaRUVjWTFiaUFEN2NBcURfZlFKTk9vQmJKTVRB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T15:45:43.258Z",
+        "pubDate": "Sun, 23 Aug 2026 10:33:23 GMT",
+        "id": "0a8f5057fdd9abaf21d986cdbe4dae2a0c18a597",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "88cf967314de9c485c5a99d035b2422e3512bb27",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZk45WEx1dGdNNmZzVHVJZ2s3ekQ2RmhrWkE1d1hIeWMzU25jcHFtcFVHUmJEY2tpcHZrd2FhQVdFTlY3Q3ZFQ0w3azM3YXpkTE1pRU5qVnRUcndPZnpXMlIzNUlrMzN0TDJ4OGE3am9wWmtzSnI4NE11SFJhRG82VXJrSkNqOXZ3VExvZHNSajFTTHFIbHBwWUs2d1JoNTBQYUFDTzduQmx2UzBWZTVaRUVjWTFiaUFEN2NBcURfZlFKTk9vQmJKTVRB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZk45WEx1dGdNNmZzVHVJZ2s3ekQ2RmhrWkE1d1hIeWMzU25jcHFtcFVHUmJEY2tpcHZrd2FhQVdFTlY3Q3ZFQ0w3azM3YXpkTE1pRU5qVnRUcndPZnpXMlIzNUlrMzN0TDJ4OGE3am9wWmtzSnI4NE11SFJhRG82VXJrSkNqOXZ3VExvZHNSajFTTHFIbHBwWUs2d1JoNTBQYUFDTzduQmx2UzBWZTVaRUVjWTFiaUFEN2NBcURfZlFKTk9vQmJKTVRB?oc=5",
+            "source": "Google News",
+            "title": "It’s time for the Browns and Deshaun Watson to go their separate ways - NBC Sports",
+            "titleZh": "布朗队和德肖恩·沃森是时候分道扬镳了 - NBC体育"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "布朗队和德肖恩·沃森是时候分道扬镳了 - NBC体育"
+      },
+      {
+        "title": "China abruptly postpones ambitious Chang’e-7 lunar mission launch - AP News",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWXEwX0JsZ3g2N2oyb1p1YkpvT3BneC1TUWxLWUFNdHNsc3pwOUF2UW1XZ014ZE9iVWVTSXJCQi1JUE1ueTBxQ3g4UkRBQnRoZWt4TzlUbTVEY0liS2g2QjJQNVdLS25LcXpkbjZ2cXJnUDFvdlhtQU9sZWRqQXY4QzlTZXMyU1ZtejlacGxLeWhRWjl2aVE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T15:45:43.258Z",
+        "pubDate": "Sun, 23 Aug 2026 13:39:00 GMT",
+        "id": "c69b0a44435f687747ec2c43b28bd0ccc8d5b7c8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "36569daa2e6f5dc070064f42d58cb15e3bdd008a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWXEwX0JsZ3g2N2oyb1p1YkpvT3BneC1TUWxLWUFNdHNsc3pwOUF2UW1XZ014ZE9iVWVTSXJCQi1JUE1ueTBxQ3g4UkRBQnRoZWt4TzlUbTVEY0liS2g2QjJQNVdLS25LcXpkbjZ2cXJnUDFvdlhtQU9sZWRqQXY4QzlTZXMyU1ZtejlacGxLeWhRWjl2aVE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWXEwX0JsZ3g2N2oyb1p1YkpvT3BneC1TUWxLWUFNdHNsc3pwOUF2UW1XZ014ZE9iVWVTSXJCQi1JUE1ueTBxQ3g4UkRBQnRoZWt4TzlUbTVEY0liS2g2QjJQNVdLS25LcXpkbjZ2cXJnUDFvdlhtQU9sZWRqQXY4QzlTZXMyU1ZtejlacGxLeWhRWjl2aVE?oc=5",
+            "source": "Google News",
+            "title": "China abruptly postpones ambitious Chang’e-7 lunar mission launch - AP News",
+            "titleZh": "中国突然推迟雄心勃勃的嫦娥七号月球任务发射 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "中国突然推迟雄心勃勃的嫦娥七号月球任务发射 - 美联社新闻"
+      },
+      {
+        "title": "Using Unicode Half-Stars Symbols in Ratings",
+        "url": "https://kvibber.com/tech-tips/half-stars/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T15:45:43.738Z",
+        "pubDate": "Sun, 23 Aug 2026 15:18:39 +0000",
+        "id": "22d5721e5d05080079d552e51f472a5f350ee54f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "894fc8031dafb3e5ff03f5a8ae769662053b2f5c",
+        "canonicalUrl": "https://kvibber.com/tech-tips/half-stars",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://kvibber.com/tech-tips/half-stars/",
+            "source": "Hacker News Newest",
+            "title": "Using Unicode Half-Stars Symbols in Ratings",
+            "titleZh": "在评分中使用Unicode半星符号"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "在评分中使用Unicode半星符号"
+      },
+      {
+        "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+        "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T15:45:43.738Z",
+        "pubDate": "Sun, 23 Aug 2026 15:16:41 +0000",
+        "id": "3c08c9f16ede5782bf1db9c37f721ff6cf2cd705",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2368a485f40a32959d3504f1f7c28330c2e03b6e",
+        "canonicalUrl": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+            "source": "Hacker News Newest",
+            "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+            "titleZh": "由于需要‘绝对成功’，中国将关键月球发射推迟至2027年"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "由于需要‘绝对成功’，中国将关键月球发射推迟至2027年"
       }
     ]
   },
-  "lastFetchAt": "2026-08-23T15:17:54.682Z"
+  "lastFetchAt": "2026-08-23T15:45:42.431Z"
 }
