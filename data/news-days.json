@@ -10149,20 +10149,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/us-news/2026/aug/22/hawaii-tropical-storm-moke",
-            "source": "Guardian World",
-            "title": "Tropical Storm Moke poised to slam into Hawaii just days after Hurricane Lala",
-            "titleZh": "热带风暴莫克预计在飓风拉拉过后几天袭击夏威夷"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpMkZ0U2s1OGxLWHRFclVQLU5ENWZhNG5USTNPSnQyZm9oVzFUOFFVMGxlWkpudk81UlAtVUZDVjdzVFhkRUZmZXNJV0tKTFc1cjNrMzl4MjR5UEhuM2pXYXNEQnNZb1JaOUxyNEk5M01CcmZsR2NRSk1YUFYzOGM?oc=5",
             "source": "Google News",
             "title": "Tropical Storm Moke poised to slam into Hawaii just days after Hurricane Lala - The Guardian",
+            "titleZh": "热带风暴莫克预计在飓风拉拉过后几天袭击夏威夷"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/22/hawaii-tropical-storm-moke",
+            "source": "Guardian World",
+            "title": "Tropical Storm Moke poised to slam into Hawaii just days after Hurricane Lala",
             "titleZh": "热带风暴莫克预计在飓风拉拉过后几天袭击夏威夷"
           }
         ],
@@ -16244,7 +16244,7 @@
         "isPriority": false,
         "eventId": "c469cf3c2d095ec7a95c50114f74e2da05fb640c",
         "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-23/10682558.shtml",
-        "clusterSize": 1,
+        "clusterSize": 2,
         "sourceCount": 1,
         "relatedSources": [
           "中国新闻网"
@@ -16252,6 +16252,12 @@
         "relatedLinks": [
           {
             "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682558.shtml",
+            "source": "中国新闻网",
+            "title": "第48届世界技能大赛中国代表团成立",
+            "titleZh": ""
+          },
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682674.shtml",
             "source": "中国新闻网",
             "title": "第48届世界技能大赛中国代表团成立",
             "titleZh": ""
@@ -21581,10 +21587,11 @@
         "isPriority": false,
         "eventId": "61529da457aeb0700ef6859929726f090b4be958",
         "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-23/10682642.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网体育"
         ],
         "relatedLinks": [
           {
@@ -21595,7 +21602,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "体育"
         ],
         "regions": [
           "中国"
@@ -21749,10 +21757,11 @@
         "isPriority": false,
         "eventId": "40234914e7de7edf585225a5131d64bba8a9f98c",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-23/10682640.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -21763,7 +21772,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -21829,10 +21839,11 @@
         "isPriority": false,
         "eventId": "64b9ac9e88e0657a4726dd7bbe19576246dbe8c2",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-23/10682631.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -21843,7 +21854,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -21909,10 +21921,11 @@
         "isPriority": false,
         "eventId": "08ed9e4b86703a865908462809ed78057d91bcad",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-23/10682620.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -21923,7 +21936,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -23494,10 +23508,11 @@
         "isPriority": false,
         "eventId": "13fd9e053b3edba3e5a0403772705a84212d07b8",
         "canonicalUrl": "https://thejpster.org.uk/blog/blog-2026-08-22",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS"
+          "Lobsters RSS",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -26947,8 +26962,1333 @@
         "language": "",
         "languages": [],
         "titleZh": "交互式程序运行时间界限的基础验证"
+      },
+      {
+        "title": "广东开展森林消防“以水灭火”实战拉练",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682677.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:51:45 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0730051f9abfba6e0a39287dd6f34ed944a6f3c8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a798b8b0acb7b99f58564b3911f38e49d41d574d",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-23/10682677.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682677.shtml",
+            "source": "中国新闻网",
+            "title": "广东开展森林消防“以水灭火”实战拉练",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "2026年宋庆龄少年儿童未来科学日活动在北京启动",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682683.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:49:54 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "87cdfa41f0fa5a6adf17158e9b8a08ecf00801d3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b734e9f562644f38160b4dc11572b2986ae19a91",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-23/10682683.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682683.shtml",
+            "source": "中国新闻网",
+            "title": "2026年宋庆龄少年儿童未来科学日活动在北京启动",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "街头田径燃动羊城 撑竿跳高、跳高项目同台绽放",
+        "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682682.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:49:28 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "58e2b2beb9a8fc7f0a807c71125b104930fc69a0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f653c4d9615dc96e93b70053769663eadd629b97",
+        "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-23/10682682.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682682.shtml",
+            "source": "中国新闻网",
+            "title": "街头田径燃动羊城 撑竿跳高、跳高项目同台绽放",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "数智赋能展风采 山东高校硬核成果亮相教育博览会",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682691.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:48:28 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "61847af4ca17ed11c83630bbc0acdd9334297385",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f3491eff22867fd8cf75f94158194bf68b560d76",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-23/10682691.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682691.shtml",
+            "source": "中国新闻网",
+            "title": "数智赋能展风采 山东高校硬核成果亮相教育博览会",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "海内外嘉宾青岛共议“可持续、高效、智能”交通能源未来",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682693.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:45:26 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8d6fd06c7c442d905b434a1702b06d06267a6489",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ab1529282dbf20882a3a72eb63bf0f2a29b89be8",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-23/10682693.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682693.shtml",
+            "source": "中国新闻网",
+            "title": "海内外嘉宾青岛共议“可持续、高效、智能”交通能源未来",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "提前9年押注、个人砸下10亿，中国版Moderna背后的神秘科技大佬",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682692.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:45:00 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "86b7fbc27d4f51c9c839a9a5349a485992bd6aa6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "419d572654cb745cb9a9961dacd587a62271f178",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-23/10682692.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682692.shtml",
+            "source": "中国新闻网",
+            "title": "提前9年押注、个人砸下10亿，中国版Moderna背后的神秘科技大佬",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "“东北超”官方推广曲及赛事荣誉视觉发布会在沈阳举办",
+        "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682673.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:44:02 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bfefa0425108c4acca94f619fb4671b10f0c31bd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cc98e42b04ac75f1d2d465842494535f93769e7e",
+        "canonicalUrl": "https://chinanews.com.cn/ty/2026/08-23/10682673.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682673.shtml",
+            "source": "中国新闻网",
+            "title": "“东北超”官方推广曲及赛事荣誉视觉发布会在沈阳举办",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "东西问丨“树”的猜想",
+        "url": "https://www.chinanews.com.cn/dxw/2026/08-23/10682688.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:40:28 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b178e63ec7f6c73f2af0b8236517aa76688a8e97",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7b89e586a9d2fa6624d51cc0b90a68e11080407e",
+        "canonicalUrl": "https://chinanews.com.cn/dxw/2026/08-23/10682688.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/dxw/2026/08-23/10682688.shtml",
+            "source": "中国新闻网",
+            "title": "东西问丨“树”的猜想",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "高温天气来袭 重庆人在水中涮火锅",
+        "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682684.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:37:40 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "cfd5c10d1881d0380ca5e50d30c119b407bbe3e4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a954d186397af85bdbd23b9504bc19ca57430299",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/08-23/10682684.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682684.shtml",
+            "source": "中国新闻网",
+            "title": "高温天气来袭 重庆人在水中涮火锅",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "（文化中国行）敦煌医药文化跨界出圈 “滋补”丝路康养游",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682704.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:37:10 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "1a9f6ce92339cecfb913c1f4011dd82117f48cbd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "77f7e40a8d020396d3d4411e087d47e16b286fbb",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-23/10682704.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682704.shtml",
+            "source": "中国新闻网",
+            "title": "（文化中国行）敦煌医药文化跨界出圈 “滋补”丝路康养游",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "骗子租写字楼让求职者上假班 揭秘虚假招聘骗局",
+        "url": "https://www.chinanews.com.cn/fz/2026/08-23/10682705.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:37:04 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "da41f31ff27ec8bd5272662a7580dcb2662d551d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2170bab54d30d350cf8ee88ebd6a90cac0d6e6fc",
+        "canonicalUrl": "https://chinanews.com.cn/fz/2026/08-23/10682705.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/fz/2026/08-23/10682705.shtml",
+            "source": "中国新闻网",
+            "title": "骗子租写字楼让求职者上假班 揭秘虚假招聘骗局",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "山海为家，草木为邻——英国植物画家奔雅的香港情缘",
+        "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682679.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:36:22 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bb3cd2079f82ebc7fd8fc2af85becc02d43b2600",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2f234e6defa50548b76068fe118d68d5952bc184",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/08-23/10682679.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682679.shtml",
+            "source": "中国新闻网",
+            "title": "山海为家，草木为邻——英国植物画家奔雅的香港情缘",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "上海楼市“沪八条”施行 新政组合拳激活消费需求",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682703.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:33:22 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3766f138767caa0456294eab9011f9b507d4ce5d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1e26db9bce232d05efc460dd0959d12c7faf6634",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-23/10682703.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682703.shtml",
+            "source": "中国新闻网",
+            "title": "上海楼市“沪八条”施行 新政组合拳激活消费需求",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "三部门调拨2万件中央救灾物资支持广西做好台风“紫檀”救灾救助工作",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682702.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:32:47 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6decc3ed0736ef4ce4d93cd042acec8436105032",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "97e47e8fe020e7807bf8c46d35c8ed1f4bc68bb8",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-23/10682702.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682702.shtml",
+            "source": "中国新闻网",
+            "title": "三部门调拨2万件中央救灾物资支持广西做好台风“紫檀”救灾救助工作",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "（活力中国调研行）福建古村新潮：喝老祖宗的酒，走年轻人的路",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682685.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:32:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4bbde9ad6c33685b666a6e93ac12472ac79a2ecd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9c8899a6f90b574e96fd63127dc52d3855b3517b",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-23/10682685.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682685.shtml",
+            "source": "中国新闻网",
+            "title": "（活力中国调研行）福建古村新潮：喝老祖宗的酒，走年轻人的路",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "新疆第十五届运动会航模比赛在伊宁开赛",
+        "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682680.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:31:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a072d32a04f2bf590bb224e2a5202dda7349f998",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f7c34ff1f0cee8d0339c322fce00f53320ea88e2",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/08-23/10682680.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682680.shtml",
+            "source": "中国新闻网",
+            "title": "新疆第十五届运动会航模比赛在伊宁开赛",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "“东方美学生活方式展”在京开展 融汇古今中外艺术家作品",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682675.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:29:23 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "7036434d117945607ae2c2e8db2a39b69e0ebae1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5f8f3990b39538a09b4fb13f09c2c50deb6d3ab6",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-23/10682675.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682675.shtml",
+            "source": "中国新闻网",
+            "title": "“东方美学生活方式展”在京开展 融汇古今中外艺术家作品",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "截资金、假出票、低赔率设套 警惕非法彩票骗局",
+        "url": "https://www.chinanews.com.cn/fz/2026/08-23/10682699.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:28:23 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "e268df62ffaea453d7f8a8604bcc5097e972bfe6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "855abeb5777f40afdeafd09dfbd60cdf18cf079f",
+        "canonicalUrl": "https://chinanews.com.cn/fz/2026/08-23/10682699.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/fz/2026/08-23/10682699.shtml",
+            "source": "中国新闻网",
+            "title": "截资金、假出票、低赔率设套 警惕非法彩票骗局",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "保护动物绝非“想养就能养” 异宠暗藏生态风险",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682696.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-23T07:57:42.838Z",
+        "pubDate": "Sun, 23 Aug 2026 15:25:13 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "433d96a28e90fe7bbc85948286907923568a1e11",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "571d27b5ca3fb68cdd92f70ec0bdf25e98fa7a76",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-23/10682696.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682696.shtml",
+            "source": "中国新闻网",
+            "title": "保护动物绝非“想养就能养” 异宠暗藏生态风险",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Search continues for 22 after bulk carrier sinks off India - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjRlaFE0VUJieE53aVpBUHpxZDBZc3VYQ0laVTJGT2lYZG8wM1JydzQ2TmJ5Z1NMTDM4UkxTc1VTc0lEY2lhS25jZVRYV2FBMGZBSEYwQkQ4NDBqM0tYc3BWUHdVYWdWLTFJakpBUWdTMGoybU03YXN3M254ZWhBUlF1ZUh2TE5VTEQ3eEREUXFfLXpHVUZSUVBMZ3dGYVdwR29WLQ?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-23T07:57:43.142Z",
+        "pubDate": "Sun, 23 Aug 2026 05:26:00 GMT",
+        "id": "b9e9a13208f4d642580fc68d70676e78003b6bf3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4e41b4611eeaee1bb94d39013ceb6b75615fe54c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjRlaFE0VUJieE53aVpBUHpxZDBZc3VYQ0laVTJGT2lYZG8wM1JydzQ2TmJ5Z1NMTDM4UkxTc1VTc0lEY2lhS25jZVRYV2FBMGZBSEYwQkQ4NDBqM0tYc3BWUHdVYWdWLTFJakpBUWdTMGoybU03YXN3M254ZWhBUlF1ZUh2TE5VTEQ3eEREUXFfLXpHVUZSUVBMZ3dGYVdwR29WLQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjRlaFE0VUJieE53aVpBUHpxZDBZc3VYQ0laVTJGT2lYZG8wM1JydzQ2TmJ5Z1NMTDM4UkxTc1VTc0lEY2lhS25jZVRYV2FBMGZBSEYwQkQ4NDBqM0tYc3BWUHdVYWdWLTFJakpBUWdTMGoybU03YXN3M254ZWhBUlF1ZUh2TE5VTEQ3eEREUXFfLXpHVUZSUVBMZ3dGYVdwR29WLQ?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Search continues for 22 after bulk carrier sinks off India - Reuters",
+            "titleZh": "散货船在印度附近沉没后，继续搜寻22名失踪人员 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "散货船在印度附近沉没后，继续搜寻22名失踪人员 - 路透社"
+      },
+      {
+        "title": "Army Secretary Dan Driscoll considering stepping down, sources say - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbXdPWXdUOFVtSWtBS2V4bnAtTi1JUldtNU1ONTNTSnJlbzNYVGJ4UTBnNzdSdzVvX1JHYXZhX1ctUUt3dVhsZFNXbHR4UnQtVERaN3hxS2J5VUNSbU12eE0tYWxJcDBaZS1pN1lOVkRwaUZ5bDZrUC11SDJxTVJXTGlyR0dNZHY5STBB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T07:57:42.793Z",
+        "pubDate": "Sun, 23 Aug 2026 03:17:07 GMT",
+        "id": "b37ccabf94d557994672b24d8e150575bfbfe16c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bea54b271050bb83350699d6b01654b59eed0bd9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbXdPWXdUOFVtSWtBS2V4bnAtTi1JUldtNU1ONTNTSnJlbzNYVGJ4UTBnNzdSdzVvX1JHYXZhX1ctUUt3dVhsZFNXbHR4UnQtVERaN3hxS2J5VUNSbU12eE0tYWxJcDBaZS1pN1lOVkRwaUZ5bDZrUC11SDJxTVJXTGlyR0dNZHY5STBB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbXdPWXdUOFVtSWtBS2V4bnAtTi1JUldtNU1ONTNTSnJlbzNYVGJ4UTBnNzdSdzVvX1JHYXZhX1ctUUt3dVhsZFNXbHR4UnQtVERaN3hxS2J5VUNSbU12eE0tYWxJcDBaZS1pN1lOVkRwaUZ5bDZrUC11SDJxTVJXTGlyR0dNZHY5STBB?oc=5",
+            "source": "Google News",
+            "title": "Army Secretary Dan Driscoll considering stepping down, sources say - CBS News",
+            "titleZh": "陆军部长丹·德里斯科尔据消息人士称正考虑辞职 - CBS新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "陆军部长丹·德里斯科尔据消息人士称正考虑辞职 - CBS新闻"
+      },
+      {
+        "title": "Instant analysis from Patriots’ 24-21 preseason win over Eagles - Pats Pulpit",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFd3bXpXem5Oal9adzBYMWhhWDUycHJ0QXc3aEthblhWWFZ1LURYVC1CMHM4UG9wTFB5Uk42dTEyTUpiQWFVRWc4VktNbllacjVsOFg1akFzSjdRVmV6eFhFWnVGWm5GSUQwbWp0Z1BtTEJVZUNyTFR4OFNxR1RfY3Fqc1pyQmN6UU13M1JGczNXRTBDbExpMUh3UV94enJDRk5yNFIwVTJVQQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-23T07:57:42.793Z",
+        "pubDate": "Sun, 23 Aug 2026 03:02:00 GMT",
+        "id": "6066ba3788c3cb01a0380e8479fce9b677e48ec0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cba55fc3e138c32465f06e043fccc374486fb619",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFd3bXpXem5Oal9adzBYMWhhWDUycHJ0QXc3aEthblhWWFZ1LURYVC1CMHM4UG9wTFB5Uk42dTEyTUpiQWFVRWc4VktNbllacjVsOFg1akFzSjdRVmV6eFhFWnVGWm5GSUQwbWp0Z1BtTEJVZUNyTFR4OFNxR1RfY3Fqc1pyQmN6UU13M1JGczNXRTBDbExpMUh3UV94enJDRk5yNFIwVTJVQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFd3bXpXem5Oal9adzBYMWhhWDUycHJ0QXc3aEthblhWWFZ1LURYVC1CMHM4UG9wTFB5Uk42dTEyTUpiQWFVRWc4VktNbllacjVsOFg1akFzSjdRVmV6eFhFWnVGWm5GSUQwbWp0Z1BtTEJVZUNyTFR4OFNxR1RfY3Fqc1pyQmN6UU13M1JGczNXRTBDbExpMUh3UV94enJDRk5yNFIwVTJVQQ?oc=5",
+            "source": "Google News",
+            "title": "Instant analysis from Patriots’ 24-21 preseason win over Eagles - Pats Pulpit",
+            "titleZh": "爱国者队24-21季前赛战胜老鹰队的即时分析 - Pats Pulpit"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "爱国者队24-21季前赛战胜老鹰队的即时分析 - Pats Pulpit"
+      },
+      {
+        "title": "Kestrel – I built a 900 KB macOS browser because Chrome ate my 8 GB Mac",
+        "url": "https://github.com/bishosilwal/kestrel-browser",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:43:21 +0000",
+        "id": "4d69cbda310f874e001b949cee7485f38ddae528",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "82668eeefbea0cef272147802a556fde5ca7a746",
+        "canonicalUrl": "https://github.com/bishosilwal/kestrel-browser",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/bishosilwal/kestrel-browser",
+            "source": "Hacker News Newest",
+            "title": "Kestrel – I built a 900 KB macOS browser because Chrome ate my 8 GB Mac",
+            "titleZh": "Kestrel——我构建了一个900 KB的macOS浏览器，因为Chrome吃掉了我的8 GB Mac"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Kestrel——我构建了一个900 KB的macOS浏览器，因为Chrome吃掉了我的8 GB Mac"
+      },
+      {
+        "title": "ISO 24495 [pdf]",
+        "url": "https://cdn.standards.iteh.ai/samples/78907/d194fac21d6a45f38bfcfec9657f7498/ISO-24495-1-2023.pdf",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:41:00 +0000",
+        "id": "803c29bfc96976eaefc88eee22ee318e3797fd1e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4dd3c5907abd62d0eda46d58e32d2350104b69d1",
+        "canonicalUrl": "https://cdn.standards.iteh.ai/samples/78907/d194fac21d6a45f38bfcfec9657f7498/ISO-24495-1-2023.pdf",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://cdn.standards.iteh.ai/samples/78907/d194fac21d6a45f38bfcfec9657f7498/ISO-24495-1-2023.pdf",
+            "source": "Hacker News Newest",
+            "title": "ISO 24495 [pdf]",
+            "titleZh": "ISO 24495 [pdf]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ISO 24495 [pdf]"
+      },
+      {
+        "title": "Show HN: Zuse\" One agent coordinating 20 Linear issues in worktrees",
+        "url": "https://www.zuse.sh/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:40:13 +0000",
+        "id": "47540e5df11ec8d5c1799d4fd16ee802f93d5878",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "77ecb7565f17ea58c667af96efd033f59a8795f4",
+        "canonicalUrl": "https://zuse.sh/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.zuse.sh/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Zuse\" One agent coordinating 20 Linear issues in worktrees",
+            "titleZh": "Show HN：Zuse——一个代理协调工作树中的20个Linear问题"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Zuse——一个代理协调工作树中的20个Linear问题"
+      },
+      {
+        "title": "Show HN: Sol-Luna Orchestrator – let Codex decide whether to delegate",
+        "url": "https://www.npmjs.com/package/sol-luna-orchestrator",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:37:52 +0000",
+        "id": "75a02c8cd1792dcbc3096349fcee70eb7dcc8d35",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0e1800cab54adca6c5b5b54e47307d1696c77b89",
+        "canonicalUrl": "https://npmjs.com/package/sol-luna-orchestrator",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.npmjs.com/package/sol-luna-orchestrator",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Sol-Luna Orchestrator – let Codex decide whether to delegate",
+            "titleZh": "Show HN：Sol-Luna编排器——让Codex决定是否委派"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Sol-Luna编排器——让Codex决定是否委派"
+      },
+      {
+        "title": "Markdown Without the Split Screen",
+        "url": "https://medium.com/@chris.ahrweiler/markdown-without-the-split-screen-36627b3d7a55",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:37:08 +0000",
+        "id": "688ba53ef9c4a6005e08393ba44eaa8e66e5cb54",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cccb69842e329c35e78d31000061838cf4dd8e99",
+        "canonicalUrl": "https://medium.com/@chris.ahrweiler/markdown-without-the-split-screen-36627b3d7a55",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/@chris.ahrweiler/markdown-without-the-split-screen-36627b3d7a55",
+            "source": "Hacker News Newest",
+            "title": "Markdown Without the Split Screen",
+            "titleZh": "无分屏的Markdown"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "无分屏的Markdown"
+      },
+      {
+        "title": "Show HN: Open sourcing MonsterWriter, piece by piece",
+        "url": "https://www.monsterwriter.com/open-source.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:35:48 +0000",
+        "id": "920af78b03b360d1f235b76a47f6493893610079",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8a3f304d3fd67423b1a6046fd018bdded04330a4",
+        "canonicalUrl": "https://monsterwriter.com/open-source.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.monsterwriter.com/open-source.html",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Open sourcing MonsterWriter, piece by piece",
+            "titleZh": "Show HN：逐步开源MonsterWriter"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：逐步开源MonsterWriter"
+      },
+      {
+        "title": "Unitree G1 vs. Human: This Robot Learned Tennis by \"Watching\" Amateurs [video]",
+        "url": "https://www.youtube.com/watch?v=fLp-75h-Bn8",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:28:12 +0000",
+        "id": "d0b781e2a71e8468942e8ba4199fc16e2f380810",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c3010cc67783c835129193b3320853bc231bddf9",
+        "canonicalUrl": "https://youtube.com/watch?v=fLp-75h-Bn8",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=fLp-75h-Bn8",
+            "source": "Hacker News Newest",
+            "title": "Unitree G1 vs. Human: This Robot Learned Tennis by \"Watching\" Amateurs [video]",
+            "titleZh": "宇树G1对阵人类：这个机器人通过“观看”业余选手学会了网球 [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "宇树G1对阵人类：这个机器人通过“观看”业余选手学会了网球 [视频]"
+      },
+      {
+        "title": "The Asymptote of Reality: The Hard Limit of Multimodal Models",
+        "url": "https://medium.com/@lizka.k/the-asymptote-of-reality-the-hard-limit-of-multimodal-models-c68a1a09c2ca",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:23:12 +0000",
+        "id": "25f2e5effa9db9a53d1b50fd43af60311f2a4151",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "多模态"
+        ],
+        "isPriority": true,
+        "eventId": "e5c3992f68d1ec1c43533a8b3968a660bc9cd226",
+        "canonicalUrl": "https://medium.com/@lizka.k/the-asymptote-of-reality-the-hard-limit-of-multimodal-models-c68a1a09c2ca",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/@lizka.k/the-asymptote-of-reality-the-hard-limit-of-multimodal-models-c68a1a09c2ca",
+            "source": "Hacker News Newest",
+            "title": "The Asymptote of Reality: The Hard Limit of Multimodal Models",
+            "titleZh": "现实的渐近线：多模态模型的硬极限"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "现实的渐近线：多模态模型的硬极限"
+      },
+      {
+        "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+        "url": "https://www.youtube.com/watch?v=656058JxTM0",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-23T07:57:43.130Z",
+        "pubDate": "Sun, 23 Aug 2026 07:20:42 +0000",
+        "id": "3000380c7569ec22ff99735a23dde473d753c806",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e0db578a7ef396245c12ba3d9b825e50c81a5d64",
+        "canonicalUrl": "https://youtube.com/watch?v=656058JxTM0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=656058JxTM0",
+            "source": "Hacker News Newest",
+            "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+            "titleZh": "追踪狡猾的黑客：40年后——克利夫·斯托尔 [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "追踪狡猾的黑客：40年后——克利夫·斯托尔 [视频]"
+      },
+      {
+        "id": "ea92821179dab0c5bdeea991f7c79d5dea6e141b",
+        "title": "Ksumiyo – AI music generation with producer-level controls",
+        "url": "https://www.ksumiyo.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-23T07:57:43.061Z",
+        "pubDate": "2026-08-23T07:55:25Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "9a6030e99165442f254bbfe8ac8d31f0787f8713",
+        "canonicalUrl": "https://ksumiyo.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ksumiyo.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Ksumiyo – AI music generation with producer-level controls",
+            "titleZh": "Ksumiyo——具备制作人级控制力的AI音乐生成"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Ksumiyo——具备制作人级控制力的AI音乐生成"
+      },
+      {
+        "id": "97fe632104f7fb65d5182a46fe6e96b1ed4cd032",
+        "title": "The Zen of AI",
+        "url": "https://www.dtlarson.com/zen",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-23T07:57:43.061Z",
+        "pubDate": "2026-08-23T07:53:06Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "f5a6ee87df88734a43189769a5fd5b9ca1505a37",
+        "canonicalUrl": "https://dtlarson.com/zen",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.dtlarson.com/zen",
+            "source": "Hacker News Algolia AI Search",
+            "title": "The Zen of AI",
+            "titleZh": "AI的禅意"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI的禅意"
+      },
+      {
+        "id": "abeded564bd3dd8ffb5b549dd853d5d2d14ec4f0",
+        "title": "A Test for AI Consciousness",
+        "url": "https://gruhn.me/blog/2026-08-16/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-23T07:57:43.061Z",
+        "pubDate": "2026-08-23T07:51:09Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "2919fbe5439c0a0a3b631f4c9858b470f16157a2",
+        "canonicalUrl": "https://gruhn.me/blog/2026-08-16",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://gruhn.me/blog/2026-08-16/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "A Test for AI Consciousness",
+            "titleZh": "AI意识测试"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI意识测试"
       }
     ]
   },
-  "lastFetchAt": "2026-08-23T07:29:37.259Z"
+  "lastFetchAt": "2026-08-23T07:57:42.164Z"
 }
