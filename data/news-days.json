@@ -4235,10 +4235,11 @@
         "isPriority": true,
         "eventId": "59bef7208d05df81fcb5cf68dbd02056833e5def",
         "canonicalUrl": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
@@ -15847,16 +15848,23 @@
         "isPriority": true,
         "eventId": "eb26583c72bbb355f665ec4376620c1805302963",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeU5TZjlrVHZicGoxZEhiWnJzQ05SMUJ2cTBOVnRmcG1NcUw5cFo1RUszZm55b3MzUEhaY05KUHFyQ0hIa090R041X2ZRQk1WdjNmM2xIc3dqVEdKYjJwSWFnYklDa2lxZU5URHFlUE9NYUlNakVtWDBPNWoxT3dvTURNZmc",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Google News"
+          "Google News",
+          "Hacker News Newest"
         ],
         "relatedLinks": [
           {
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeU5TZjlrVHZicGoxZEhiWnJzQ05SMUJ2cTBOVnRmcG1NcUw5cFo1RUszZm55b3MzUEhaY05KUHFyQ0hIa090R041X2ZRQk1WdjNmM2xIc3dqVEdKYjJwSWFnYklDa2lxZU5URHFlUE9NYUlNakVtWDBPNWoxT3dvTURNZmc?oc=5",
             "source": "Google News",
             "title": "SEC subpoenas Wall Street banks over Situational Awareness - Financial Times",
+            "titleZh": "美国证券交易委员会就“态势感知”传唤华尔街银行 - 金融时报"
+          },
+          {
+            "url": "https://www.ft.com/content/c36d4e57-1ea2-47a5-8f6d-f390369aedc4",
+            "source": "Hacker News Newest",
+            "title": "SEC Subpoenas Wall Street Banks over Situational Awareness",
             "titleZh": "美国证券交易委员会就“态势感知”传唤华尔街银行 - 金融时报"
           }
         ],
@@ -32072,20 +32080,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/business/2026/aug/25/us-treasury-scott-bessent-bond-buying-donald-trump-stanley-druckenmiller",
-            "source": "Guardian World",
-            "title": "US Treasury’s Scott Bessent ‘will lose’ battle with bond markets, former mentor warns",
-            "titleZh": "美国财政部长斯科特·贝森特将在债券市场之战中“落败”，前导师警告"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTG1OWWR6UUt5X0QtUUg2Y1VITEpIaUZvVEtfa003ZkFodEpRTXVRdTlWWDF2TzUwUThnN0tibDY1bW4zYzhKb21iUi03TTMwbkk3aHpycUllTVlhYzdzYnFvVEFiZXJfU1VvTVJLVUozdE5ZMkFSX0thRk1IUEo3TnRwNXZuemZib0VFNzQ3eHVtZDRmVVY1QkM4NE5SWGg2V1RCTkF1ZjY4bUxVTGJocnNQbW5DRW1qTTRZUkFn?oc=5",
             "source": "Google News",
             "title": "US Treasury’s Scott Bessent ‘will lose’ battle with bond markets, former mentor warns - The Guardian",
+            "titleZh": "美国财政部长斯科特·贝森特将在债券市场之战中“落败”，前导师警告"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2026/aug/25/us-treasury-scott-bessent-bond-buying-donald-trump-stanley-druckenmiller",
+            "source": "Guardian World",
+            "title": "US Treasury’s Scott Bessent ‘will lose’ battle with bond markets, former mentor warns",
             "titleZh": "美国财政部长斯科特·贝森特将在债券市场之战中“落败”，前导师警告"
           }
         ],
@@ -36075,7 +36083,7 @@
         "isPriority": false,
         "eventId": "3157bb3c9571e37403b09b73b6192f592e4bcf9c",
         "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-25/10683966.shtml",
-        "clusterSize": 1,
+        "clusterSize": 2,
         "sourceCount": 1,
         "relatedSources": [
           "中国新闻网"
@@ -36083,6 +36091,12 @@
         "relatedLinks": [
           {
             "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683966.shtml",
+            "source": "中国新闻网",
+            "title": "应急管理部针对山西、内蒙古、青海启动国家地质灾害四级应急响应",
+            "titleZh": ""
+          },
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683978.shtml",
             "source": "中国新闻网",
             "title": "应急管理部针对山西、内蒙古、青海启动国家地质灾害四级应急响应",
             "titleZh": ""
@@ -36523,10 +36537,11 @@
         "isPriority": false,
         "eventId": "31ee99dbe785879b30435c093ac8bb1b345ffa11",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683941.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -36537,7 +36552,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -36990,10 +37006,11 @@
         "isPriority": false,
         "eventId": "bfbbcd49ce14ae9f086795c737df33ff961fcc10",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683929.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -37004,7 +37021,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -37030,10 +37048,11 @@
         "isPriority": false,
         "eventId": "029ed2a7f4ae87f0e950446b88dd0398c0137f21",
         "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683936.shtml",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "中国新闻网"
+          "中国新闻网",
+          "中国新闻网财经"
         ],
         "relatedLinks": [
           {
@@ -37044,7 +37063,8 @@
           }
         ],
         "categories": [
-          "综合"
+          "综合",
+          "财经"
         ],
         "regions": [
           "中国"
@@ -37984,10 +38004,11 @@
         "isPriority": false,
         "eventId": "2ade14f68b63636953e4a113691f54fd0af0a2ca",
         "canonicalUrl": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -38097,10 +38118,11 @@
         "isPriority": true,
         "eventId": "1aece4857d5a7f73d404abeee233d54785d09007",
         "canonicalUrl": "https://twitter.com/JensenHuang/status/2089331487342829862",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -38221,10 +38243,11 @@
         "isPriority": true,
         "eventId": "9706c89b8c235f79bbe720eba14844e4662aeb63",
         "canonicalUrl": "https://me.mashable.com/tech/75268/xiaomi-reveals-ai-cube-prototype-multi-chip-local-llm-powerhouse-takes-aim-at-apples-macs",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -38291,10 +38314,11 @@
         "isPriority": false,
         "eventId": "fd92ad90dd6faa3b058b3da0fc767b11c603ab10",
         "canonicalUrl": "https://abnormal.ai/blog/iauthflow-v2-phishing-google-passkeys",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -38953,8 +38977,2694 @@
         "language": "",
         "languages": [],
         "titleZh": "Show HN：Ablo，让你的AI应用支持多人互动"
+      },
+      {
+        "title": "台风橙色预警发布！“紫檀”“沙德尔”最新登陆时间→",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684010.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:22:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "74f7f8343ef71acf08e25254668aa6b4fe11bc9f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "26119dff186f5ee00be9657022a2b84c310c78d3",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10684010.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684010.shtml",
+            "source": "中国新闻网",
+            "title": "台风橙色预警发布！“紫檀”“沙德尔”最新登陆时间→",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "西安机场新开杭州快递专线",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684001.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:17:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bf33ffddc8a3587fdd4a39ea1a4126c920a0800f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cadea7c8ee6e633ddc007a774cff3104d37f6ac0",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10684001.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684001.shtml",
+            "source": "中国新闻网",
+            "title": "西安机场新开杭州快递专线",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国发布第五批50个公共数据“跑起来”示范场景",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684003.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:16:35 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "ea64921e2eb9f2909b2b013c3d86a7d3af28b4a3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "23af80c789ca3219f7e7643b51708b171c449df7",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10684003.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684003.shtml",
+            "source": "中国新闻网",
+            "title": "中国发布第五批50个公共数据“跑起来”示范场景",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "埃及华商张宇：亲历动荡，尼罗河畔守正宗中国味道",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683996.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:14:51 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "cbe325f78f48c9eeb3f246158bc86b62b4df0088",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "347fbf6743fd02c032eec9201fc9c804aa6e3cd9",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10683996.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683996.shtml",
+            "source": "中国新闻网",
+            "title": "埃及华商张宇：亲历动荡，尼罗河畔守正宗中国味道",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "从“东大门”到“幸福门”：一位村支书和她的安业村故事",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683993.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:09:13 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2d85d50b78558a9216c5cbbc0b1c9ecba89b32d5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f9c4c7335af8b83c5c6d5c6d96e978741d4a929b",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10683993.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683993.shtml",
+            "source": "中国新闻网",
+            "title": "从“东大门”到“幸福门”：一位村支书和她的安业村故事",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "德国建筑业6月新订单环比增长6.0%",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683982.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:08:21 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "acc9057f23a7bab183897c7cdc6825e23413efa9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0b47fd7bcca450a8fb5b7d34942ab8d12ed89bdc",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-25/10683982.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683982.shtml",
+            "source": "中国新闻网",
+            "title": "德国建筑业6月新订单环比增长6.0%",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "“中国北方日用瓷都”谋“智变”：向高端化、智能化、绿色化升级",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683983.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:08:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "e238f68cd307fa1e2f73ba3aba374b94dc484a40",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "19d725ee0c9a5c758812827fb911aab677cd491d",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683983.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683983.shtml",
+            "source": "中国新闻网",
+            "title": "“中国北方日用瓷都”谋“智变”：向高端化、智能化、绿色化升级",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "山西运城聚力打造国家级铝镁精深加工产业集群",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683985.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:07:25 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "911b67d0ad11c63ca41d2233d35bf5342dfaa15d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ce98ad1f39c3677aa03eb3c752f4c1a1277aeb00",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683985.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683985.shtml",
+            "source": "中国新闻网",
+            "title": "山西运城聚力打造国家级铝镁精深加工产业集群",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "近百件泰山主题作品亮相德州 画作与摄影同台“对话”",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-25/10683986.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:06:59 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "621f81144956fbe4100cf8a0917fce26e5245aeb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3d60a0efc8d9846a0801090cf9af0004b8b0309e",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-25/10683986.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-25/10683986.shtml",
+            "source": "中国新闻网",
+            "title": "近百件泰山主题作品亮相德州 画作与摄影同台“对话”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "第四期鲁迅文学院残疾人作家研修班开班",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683987.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:06:19 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8942364055a9b66b71f565400181b3604df2d1d6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ea75de89d3f9b1e8e60905ec05cafa853a495081",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10683987.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683987.shtml",
+            "source": "中国新闻网",
+            "title": "第四期鲁迅文学院残疾人作家研修班开班",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "湖南省直公积金新政施行 支持购房契税、维修资金提取",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683981.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:06:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fc1a2ebc304e8acea9e33e4dd4a160f43ce91ec6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "63a080941d66f60a15b33a84cd474e751a8b77f6",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683981.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683981.shtml",
+            "source": "中国新闻网",
+            "title": "湖南省直公积金新政施行 支持购房契税、维修资金提取",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "特朗普连晒三张与金正恩合影 韩媒：再释放重启朝美对话信号",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683994.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:05:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "e0ded4afc839d0acbe7c00d55e2e0ff1fa52de63",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普"
+        ],
+        "isPriority": true,
+        "eventId": "bbf136d94b85f9cb13b74bea256a6a5d50c72e69",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-25/10683994.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683994.shtml",
+            "source": "中国新闻网",
+            "title": "特朗普连晒三张与金正恩合影 韩媒：再释放重启朝美对话信号",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "开局起步“十五五”：海南渔业第一大县向现代海洋经济发展新高地迈进",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683992.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:05:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a54991caaa42246849ff2b4830d4afb4c5bca827",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7901f624ff12badedff5687d772fda3b4286a401",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683992.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683992.shtml",
+            "source": "中国新闻网",
+            "title": "开局起步“十五五”：海南渔业第一大县向现代海洋经济发展新高地迈进",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "世界人形机器人运动会25日安排17项比赛 街舞等新项目亮相",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683988.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:04:59 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c2f2bc426119aeab5f42aad8b6a9fa5e4c474916",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "008ef23da4c3b560ee3254a95d5ef2baf40ddce0",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683988.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683988.shtml",
+            "source": "中国新闻网",
+            "title": "世界人形机器人运动会25日安排17项比赛 街舞等新项目亮相",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "浙江检察机关上线AI智能体 “智慧搭档”融入办案全链条",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683991.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:04:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "19511866f6e5d6ed968bccf663ed2d43b3dbaabf",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "智能体",
+          "AI智能体"
+        ],
+        "isPriority": true,
+        "eventId": "4f74c91972f25ed0616a9f91f74f31e45ad19262",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10683991.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683991.shtml",
+            "source": "中国新闻网",
+            "title": "浙江检察机关上线AI智能体 “智慧搭档”融入办案全链条",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "（乡村行·看振兴）浙江庆元：“一只瓜蒌”带来乡村产业新蝶变",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683990.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:04:24 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a8dacfeb07b6be811ffe2c5a3092f2734318f232",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1968ab4c9620924ebbe432cc8db06421ff0d04e2",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683990.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683990.shtml",
+            "source": "中国新闻网",
+            "title": "（乡村行·看振兴）浙江庆元：“一只瓜蒌”带来乡村产业新蝶变",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "锡林郭勒草原秋季打草进行时",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683979.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 18:01:24 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "11f1c351dc516c8f809211f998b371c664dbc669",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "506932f4d130c6586b7b9ca92d1fa995f9700c96",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10683979.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683979.shtml",
+            "source": "中国新闻网",
+            "title": "锡林郭勒草原秋季打草进行时",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "鲁迅文学周在上海开幕 市民游客“遇见大先生”",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683976.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 17:46:25 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0459d31a7c39d23d85495fe180cf95e0348ebe29",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3a381893c8a5aa2a75262db74a86cd0f61d6a591",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-25/10683976.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683976.shtml",
+            "source": "中国新闻网",
+            "title": "鲁迅文学周在上海开幕 市民游客“遇见大先生”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "香港与秘鲁自贸协定将于9月1日生效",
+        "url": "https://www.chinanews.com.cn/dwq/2026/08-25/10683977.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 17:45:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "dae047a25753c0e87ad0b63424301382f8a79218",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "36e535acb8ad31e0cd3b85d3930c690d0b1ce8c2",
+        "canonicalUrl": "https://chinanews.com.cn/dwq/2026/08-25/10683977.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/dwq/2026/08-25/10683977.shtml",
+            "source": "中国新闻网",
+            "title": "香港与秘鲁自贸协定将于9月1日生效",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "迎峰度夏看万石：一座江南小镇的电力装备“隐形力量”",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683974.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 17:45:41 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6ce2e25863fbeef037d7d7e6d327c367c5044c26",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d2b8a2b81df1f3af2b94ce47a3e761a36cb6d859",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683974.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683974.shtml",
+            "source": "中国新闻网",
+            "title": "迎峰度夏看万石：一座江南小镇的电力装备“隐形力量”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "洪水湍急还有毒蛇！“05后”武警战士激流中上演惊险时刻",
+        "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-25/news1066522.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 17:30:50 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a2b92679ebe7166fbf143e9d9daf364f5a2471c8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "161718d3b80411c39c80e15f3716766ad7d1456f",
+        "canonicalUrl": "http://chinanews.com.cn/sh/shipin/2026/08-25/news1066522.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-25/news1066522.shtml",
+            "source": "中国新闻网",
+            "title": "洪水湍急还有毒蛇！“05后”武警战士激流中上演惊险时刻",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国民营卫星企业首次面向东南亚国家整星出口",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683963.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-25T10:27:12.013Z",
+        "pubDate": "Tue, 25 Aug 2026 17:29:46 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3396b981da6f24af4fb9e37b02952f8c81888ff2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5befafb06fa25cb347e04751baba885da01eecef",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-25/10683963.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683963.shtml",
+            "source": "中国新闻网",
+            "title": "中国民营卫星企业首次面向东南亚国家整星出口",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "DC’s delegate candidate plans to target federal lawmakers challenging the city’s autonomy - AP News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR2h4WTl5cUdxSjhGSm9kMFp3TEIyX3hpbnNmSHZFOFlWcm5HM05ORmJXTXZ6bDJhc2REMkZJZ0xxSVVtTXFkZzFmVzdybVo0N0J2SEtXbDkyMXFGWk1ZNG44NUwzbFdGT2dEVUlQeXlKWHZzbjZRRFkxQktmbF9md1FvM2U4bDlvQlZKWTdqT1JOcm1DMzBtWTRDcmg?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.466Z",
+        "pubDate": "Mon, 24 Aug 2026 21:40:00 GMT",
+        "id": "f9e9381c70b1df7585f538a3d82535e411c2f404",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "29fba0d1032785b20289d2ad2d19672ab4c670c5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR2h4WTl5cUdxSjhGSm9kMFp3TEIyX3hpbnNmSHZFOFlWcm5HM05ORmJXTXZ6bDJhc2REMkZJZ0xxSVVtTXFkZzFmVzdybVo0N0J2SEtXbDkyMXFGWk1ZNG44NUwzbFdGT2dEVUlQeXlKWHZzbjZRRFkxQktmbF9md1FvM2U4bDlvQlZKWTdqT1JOcm1DMzBtWTRDcmg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR2h4WTl5cUdxSjhGSm9kMFp3TEIyX3hpbnNmSHZFOFlWcm5HM05ORmJXTXZ6bDJhc2REMkZJZ0xxSVVtTXFkZzFmVzdybVo0N0J2SEtXbDkyMXFGWk1ZNG44NUwzbFdGT2dEVUlQeXlKWHZzbjZRRFkxQktmbF9md1FvM2U4bDlvQlZKWTdqT1JOcm1DMzBtWTRDcmg?oc=5",
+            "source": "AP News via Google News",
+            "title": "DC’s delegate candidate plans to target federal lawmakers challenging the city’s autonomy - AP News",
+            "titleZh": "华盛顿特区代表候选人计划针对挑战该市自治权的联邦议员 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "华盛顿特区代表候选人计划针对挑战该市自治权的联邦议员 - 美联社新闻"
+      },
+      {
+        "title": "Bills offer condolences, support to defensive tackle Ed Oliver following death of his 1-year-old son - AP News",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUlRoRlE2UHlLR1YxT2hkUzdPc2Ytbmc5RGFUcWd6VXBHNUU3X2hjRDRPMVBHdUV6Ykdlc19pdWpVRHVVekJTM3gtaDNYMEhxQkJGZGt0VVpobzdKM0EtNW5vR2NtY1NhVlVVWkkwemxtRVlZdHoyZ0s0MTFRZ2taamhpazF5LWxOT0dOMFhCV2dFeEVNbWVJdA?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.466Z",
+        "pubDate": "Mon, 24 Aug 2026 23:36:00 GMT",
+        "id": "98791b9cac226c8077378351460385c1e07b2c21",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a1b7263c4a5a70137ac3e716f16770f4e40f33c8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUlRoRlE2UHlLR1YxT2hkUzdPc2Ytbmc5RGFUcWd6VXBHNUU3X2hjRDRPMVBHdUV6Ykdlc19pdWpVRHVVekJTM3gtaDNYMEhxQkJGZGt0VVpobzdKM0EtNW5vR2NtY1NhVlVVWkkwemxtRVlZdHoyZ0s0MTFRZ2taamhpazF5LWxOT0dOMFhCV2dFeEVNbWVJdA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUlRoRlE2UHlLR1YxT2hkUzdPc2Ytbmc5RGFUcWd6VXBHNUU3X2hjRDRPMVBHdUV6Ykdlc19pdWpVRHVVekJTM3gtaDNYMEhxQkJGZGt0VVpobzdKM0EtNW5vR2NtY1NhVlVVWkkwemxtRVlZdHoyZ0s0MTFRZ2taamhpazF5LWxOT0dOMFhCV2dFeEVNbWVJdA?oc=5",
+            "source": "AP News via Google News",
+            "title": "Bills offer condolences, support to defensive tackle Ed Oliver following death of his 1-year-old son - AP News",
+            "titleZh": "比尔队对防守截锋埃德·奥利弗一岁儿子去世表示哀悼和支持 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "比尔队对防守截锋埃德·奥利弗一岁儿子去世表示哀悼和支持 - 美联社新闻"
+      },
+      {
+        "title": "Ukraine's Zelenskiy sees window for U.S. mediation until summer 2027 - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSktfQ1RSc2JycXBhT1pHV1lWNHVtbDdMWEJ6MjNMdm5xSnJpUkZ5QnBWa1B3T2c5SmFyZHlURmNnbUlkMHpPMFQ2ZUlxY1k2UWhINmtOLUh0d0lacXpyRGMwNkJzNVdIYWxRYjBfQS1rWW9kQzdnWEU2UWJrd0xiRVMwZENFTE96WlJvb0tqSWZPY1I0Uk1uMmpibVg2TE85NUFkTUNoMEtMeWh1Rnpr?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.494Z",
+        "pubDate": "Tue, 25 Aug 2026 09:24:03 GMT",
+        "id": "526709810a149ecc65eb8b6570317584c023b057",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "乌克兰",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "d2d24e52acd8b62040f05634dc9fd234f6a50875",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSktfQ1RSc2JycXBhT1pHV1lWNHVtbDdMWEJ6MjNMdm5xSnJpUkZ5QnBWa1B3T2c5SmFyZHlURmNnbUlkMHpPMFQ2ZUlxY1k2UWhINmtOLUh0d0lacXpyRGMwNkJzNVdIYWxRYjBfQS1rWW9kQzdnWEU2UWJrd0xiRVMwZENFTE96WlJvb0tqSWZPY1I0Uk1uMmpibVg2TE85NUFkTUNoMEtMeWh1Rnpr",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSktfQ1RSc2JycXBhT1pHV1lWNHVtbDdMWEJ6MjNMdm5xSnJpUkZ5QnBWa1B3T2c5SmFyZHlURmNnbUlkMHpPMFQ2ZUlxY1k2UWhINmtOLUh0d0lacXpyRGMwNkJzNVdIYWxRYjBfQS1rWW9kQzdnWEU2UWJrd0xiRVMwZENFTE96WlJvb0tqSWZPY1I0Uk1uMmpibVg2TE85NUFkTUNoMEtMeWh1Rnpr?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Ukraine's Zelenskiy sees window for U.S. mediation until summer 2027 - Reuters",
+            "titleZh": "乌克兰的泽连斯基认为美国调解窗口期持续至2027年夏季 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "乌克兰的泽连斯基认为美国调解窗口期持续至2027年夏季 - 路透社"
+      },
+      {
+        "title": "New installations emerge on islet as China accelerates South China Sea build-up - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVNLQXVYZlJVS2s4RkVMRlB3anJuLUd2WlVoTk5QMm96YVhTWHZCLXdBcUptQWdGclRKc0NRaTBaZFM4MjQ2UFVFanFoYndGRmgyVFlZWko2Q1RxRVhhU0QxSmhubmFEeHduMUJRUDdNVmVkSnREQnJQY0EydnNTamhMUnJZWldaSmF6Rkl5bXBIcEF6WVV1dU1Dby1KNjU5Yi1Dalk5Z1pUNVpVMlhxUUpBb09fdXpxTDYwaFd3?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.494Z",
+        "pubDate": "Tue, 25 Aug 2026 09:42:36 GMT",
+        "id": "c537d93357e3c8638c89b955fdf00717d216757c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1e91528b5e8d5ae83eb918de7f3beb92627af0ff",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVNLQXVYZlJVS2s4RkVMRlB3anJuLUd2WlVoTk5QMm96YVhTWHZCLXdBcUptQWdGclRKc0NRaTBaZFM4MjQ2UFVFanFoYndGRmgyVFlZWko2Q1RxRVhhU0QxSmhubmFEeHduMUJRUDdNVmVkSnREQnJQY0EydnNTamhMUnJZWldaSmF6Rkl5bXBIcEF6WVV1dU1Dby1KNjU5Yi1Dalk5Z1pUNVpVMlhxUUpBb09fdXpxTDYwaFd3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVNLQXVYZlJVS2s4RkVMRlB3anJuLUd2WlVoTk5QMm96YVhTWHZCLXdBcUptQWdGclRKc0NRaTBaZFM4MjQ2UFVFanFoYndGRmgyVFlZWko2Q1RxRVhhU0QxSmhubmFEeHduMUJRUDdNVmVkSnREQnJQY0EydnNTamhMUnJZWldaSmF6Rkl5bXBIcEF6WVV1dU1Dby1KNjU5Yi1Dalk5Z1pUNVpVMlhxUUpBb09fdXpxTDYwaFd3?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "New installations emerge on islet as China accelerates South China Sea build-up - Reuters",
+            "titleZh": "中国加速南海建设，小岛上出现新设施 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "中国加速南海建设，小岛上出现新设施 - 路透社"
+      },
+      {
+        "title": "German business sentiment rises more than expected in August, Ifo survey finds - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGZnamhCOXoxUTZLalZMcHhreWxDNUNTT1hIQk1LdHNTdXRrbjBBWDFsSDRwYjVRUEFWV1lpZXBrUFNod3U1SGFVTXp0YnJPVHhxc2hJSlQ3WjdDUFZvdWxJeVpNaGgzSWg4QWo5eURBU25JYldJQ3JpVG9WeVpiVVJpTlNVOFZPX1NNUHBaSGJnQ3Q4Sm4tc3k1NkZvd3d4ZkN6RmFrajNoa2JhNTRrdEdrdEpDVjdicE5pX0M2d1k?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.494Z",
+        "pubDate": "Tue, 25 Aug 2026 08:23:18 GMT",
+        "id": "7eb7433b7cd9a5aa97210c84cbe71a14f5d8e2d7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2f137f3f21d4d7cc87d5bc3ffe97636de01e0c6b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGZnamhCOXoxUTZLalZMcHhreWxDNUNTT1hIQk1LdHNTdXRrbjBBWDFsSDRwYjVRUEFWV1lpZXBrUFNod3U1SGFVTXp0YnJPVHhxc2hJSlQ3WjdDUFZvdWxJeVpNaGgzSWg4QWo5eURBU25JYldJQ3JpVG9WeVpiVVJpTlNVOFZPX1NNUHBaSGJnQ3Q4Sm4tc3k1NkZvd3d4ZkN6RmFrajNoa2JhNTRrdEdrdEpDVjdicE5pX0M2d1k",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGZnamhCOXoxUTZLalZMcHhreWxDNUNTT1hIQk1LdHNTdXRrbjBBWDFsSDRwYjVRUEFWV1lpZXBrUFNod3U1SGFVTXp0YnJPVHhxc2hJSlQ3WjdDUFZvdWxJeVpNaGgzSWg4QWo5eURBU25JYldJQ3JpVG9WeVpiVVJpTlNVOFZPX1NNUHBaSGJnQ3Q4Sm4tc3k1NkZvd3d4ZkN6RmFrajNoa2JhNTRrdEdrdEpDVjdicE5pX0M2d1k?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "German business sentiment rises more than expected in August, Ifo survey finds - Reuters",
+            "titleZh": "伊福调查发现，德国8月商业景气指数升幅超预期 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊福调查发现，德国8月商业景气指数升幅超预期 - 路透社"
+      },
+      {
+        "title": "Rupee bolted in place by central bank muscle, traders wince - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONENQQzk3elh2bE02TFhNNGdiaTVValpsRmctWHNGc1VZX3k5MjM5Qk9yTHBEZ19SWVlNRHBVUFRtX0VxV1c4aWpLdjZfS3l4SnEwWjJCaU1qZjRzdXZxQXBMWk5QWDBsOUhJb0dkdl90dXN0WmxudGxZUE5HREduV3Q0MUd4cXUtNEUxZy1rRGhoTlJfaEc0WWprVEdQVjlBTXJqNEJ3eUtxVGVUMEMzcEVYSEdvR1ZrR3c?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.494Z",
+        "pubDate": "Tue, 25 Aug 2026 05:23:56 GMT",
+        "id": "74d85956fcf16cd2be4c6bec4ba962b7f4571dfd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dc9653a5643c688bc6b84c0ab1ef164e351031a3",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONENQQzk3elh2bE02TFhNNGdiaTVValpsRmctWHNGc1VZX3k5MjM5Qk9yTHBEZ19SWVlNRHBVUFRtX0VxV1c4aWpLdjZfS3l4SnEwWjJCaU1qZjRzdXZxQXBMWk5QWDBsOUhJb0dkdl90dXN0WmxudGxZUE5HREduV3Q0MUd4cXUtNEUxZy1rRGhoTlJfaEc0WWprVEdQVjlBTXJqNEJ3eUtxVGVUMEMzcEVYSEdvR1ZrR3c",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONENQQzk3elh2bE02TFhNNGdiaTVValpsRmctWHNGc1VZX3k5MjM5Qk9yTHBEZ19SWVlNRHBVUFRtX0VxV1c4aWpLdjZfS3l4SnEwWjJCaU1qZjRzdXZxQXBMWk5QWDBsOUhJb0dkdl90dXN0WmxudGxZUE5HREduV3Q0MUd4cXUtNEUxZy1rRGhoTlJfaEc0WWprVEdQVjlBTXJqNEJ3eUtxVGVUMEMzcEVYSEdvR1ZrR3c?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Rupee bolted in place by central bank muscle, traders wince - Reuters",
+            "titleZh": "卢比在央行强力干预下保持稳定，交易员叫苦不迭 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "卢比在央行强力干预下保持稳定，交易员叫苦不迭 - 路透社"
+      },
+      {
+        "title": "AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkp1YllobWRwNG5PZ2p2SmtTNG5IcTFhdU1vcHF4THhPN2NhU20zY3dQdFpna3dhMTBZMjhJY0hGWWNLMmlmWmd6ZnF3cGRnZXUySUVfZWdKQXhoei01cUZQWFNaUzNHbDV3YjRrSDludlNvQjRfa3JZOWlKeEtWTTY0SHJYOEJPQUdabUpHMTVsbTlIQWdleElGWU5yTlYyWGQwZUlZdUhMakVlbkNkRUhfQmp0dG9YZXJNZVA1QmlncFgzekc4?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-25T10:27:12.494Z",
+        "pubDate": "Tue, 25 Aug 2026 03:05:00 GMT",
+        "id": "39b48c0f1b581fdb8dee4d22cc9405669a6242af",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "AI芯片"
+        ],
+        "isPriority": true,
+        "eventId": "76d9c30facd0a71f585bd0bd7c4aff12b2641898",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkp1YllobWRwNG5PZ2p2SmtTNG5IcTFhdU1vcHF4THhPN2NhU20zY3dQdFpna3dhMTBZMjhJY0hGWWNLMmlmWmd6ZnF3cGRnZXUySUVfZWdKQXhoei01cUZQWFNaUzNHbDV3YjRrSDludlNvQjRfa3JZOWlKeEtWTTY0SHJYOEJPQUdabUpHMTVsbTlIQWdleElGWU5yTlYyWGQwZUlZdUhMakVlbkNkRUhfQmp0dG9YZXJNZVA1QmlncFgzekc4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkp1YllobWRwNG5PZ2p2SmtTNG5IcTFhdU1vcHF4THhPN2NhU20zY3dQdFpna3dhMTBZMjhJY0hGWWNLMmlmWmd6ZnF3cGRnZXUySUVfZWdKQXhoei01cUZQWFNaUzNHbDV3YjRrSDludlNvQjRfa3JZOWlKeEtWTTY0SHJYOEJPQUdabUpHMTVsbTlIQWdleElGWU5yTlYyWGQwZUlZdUhMakVlbkNkRUhfQmp0dG9YZXJNZVA1QmlncFgzekc4?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO - Reuters",
+            "titleZh": "AI芯片制造商燧原科技为近9亿美元上海IPO确定申购日期 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI芯片制造商燧原科技为近9亿美元上海IPO确定申购日期 - 路透社"
+      },
+      {
+        "title": "Yorkshireman believed to be first Briton to die fighting for Russia against Ukraine",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/25/yorkshireman-briton-die-fighting-russia-ukraine",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-25T10:27:12.102Z",
+        "pubDate": "Tue, 25 Aug 2026 09:51:23 GMT",
+        "id": "2cd25f172bd1449ee17707e1929c1643ceacaf83",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "乌克兰",
+          "Russia",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "cdc68258b285e12be56bd7d760c64b7dcae2608c",
+        "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/25/yorkshireman-briton-die-fighting-russia-ukraine",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/aug/25/yorkshireman-briton-die-fighting-russia-ukraine",
+            "source": "Guardian World",
+            "title": "Yorkshireman believed to be first Briton to die fighting for Russia against Ukraine",
+            "titleZh": "约克郡男子据信成为首位为俄罗斯对抗乌克兰而战的英国人 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "约克郡男子据信成为首位为俄罗斯对抗乌克兰而战的英国人 - 路透社"
+      },
+      {
+        "title": "Canada to respond to Trump’s new tariffs – US politics live",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-25T10:27:12.102Z",
+        "pubDate": "Tue, 25 Aug 2026 10:08:47 GMT",
+        "id": "5fd88f8f96a854e8a5b467ffda99cf6a3574aca9",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "关税",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "cc2485e81b20daa9391d55ef6561a70374e86cee",
+        "canonicalUrl": "https://theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates",
+            "source": "Guardian World",
+            "title": "Canada to respond to Trump’s new tariffs – US politics live",
+            "titleZh": "加拿大将回应特朗普的新关税——美国政治直播"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "加拿大将回应特朗普的新关税——美国政治直播"
+      },
+      {
+        "title": "US building twice as much gas-fired capacity as China in AI boom, analysis finds",
+        "url": "https://www.theguardian.com/us-news/2026/aug/25/us-gas-power-china-ai-datacenter",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-25T10:27:12.102Z",
+        "pubDate": "Tue, 25 Aug 2026 10:00:34 GMT",
+        "id": "38519bae4c73caa866fd495f721e8f41f5c36db4",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "de86ab03be17e5295c40600942cd591e250be349",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/25/us-gas-power-china-ai-datacenter",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/25/us-gas-power-china-ai-datacenter",
+            "source": "Guardian World",
+            "title": "US building twice as much gas-fired capacity as China in AI boom, analysis finds",
+            "titleZh": "分析发现，美国在人工智能热潮中建设的燃气发电能力是中国的两倍"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "分析发现，美国在人工智能热潮中建设的燃气发电能力是中国的两倍"
+      },
+      {
+        "title": "Wisconsin kitten with 29 toes breaks world record for most toes on a cat",
+        "url": "https://www.theguardian.com/world/2026/aug/25/wisconsin-kitten-29-toes-world-record",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-25T10:27:12.102Z",
+        "pubDate": "Tue, 25 Aug 2026 10:00:34 GMT",
+        "id": "1623ce8f0b77cda730d22b96ce181a0d963d4481",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a29e5cb7a072dc8dd0c60e52c17669ac7ce04f9c",
+        "canonicalUrl": "https://theguardian.com/world/2026/aug/25/wisconsin-kitten-29-toes-world-record",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/aug/25/wisconsin-kitten-29-toes-world-record",
+            "source": "Guardian World",
+            "title": "Wisconsin kitten with 29 toes breaks world record for most toes on a cat",
+            "titleZh": "威斯康星州一只长有29个脚趾的小猫打破世界纪录，成为脚趾最多的猫"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "威斯康星州一只长有29个脚趾的小猫打破世界纪录，成为脚趾最多的猫"
+      },
+      {
+        "title": "Darline Graham and Ralph Norman head to South Carolina’s Senate runoff",
+        "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
+        "source": "Guardian World",
+        "fetchedAt": "2026-08-25T10:27:12.102Z",
+        "pubDate": "Tue, 25 Aug 2026 10:00:33 GMT",
+        "id": "ffe3d3f71b0576fa114bf95f359efead72b0ac72",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9fc355af1149ac595f91900be8606c55046d5ed5",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
+            "source": "Guardian World",
+            "title": "Darline Graham and Ralph Norman head to South Carolina’s Senate runoff",
+            "titleZh": "达尔林·格雷厄姆和拉尔夫·诺曼进入南卡罗来纳州参议院决选"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "达尔林·格雷厄姆和拉尔夫·诺曼进入南卡罗来纳州参议院决选"
+      },
+      {
+        "title": "How U.S.-Canada Tariff Negotiations Turned Into an All-Out Trade War - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjgyam16ajl5RG5oYnJjOFhDMndvMDJqbFZ4WHZVMkctOHNneU5GaU1KQkFiS29CNS1kcmRDY1JPN3dwekZEeTB5d0hvUVEyc3JQVGZuQm1KNDBENnhaUmp0UW5ieUJuV21rczFZWnZpRWxIWEo1UGVUd0c5SF9WSzZxTmt5dVRWMlJN?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 04:01:11 GMT",
+        "id": "e2748690c52b05ed83ffcdbc9971e0823c657cf4",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "关税",
+          "贸易战"
+        ],
+        "isPriority": true,
+        "eventId": "130fa8da44c1cec3fc00fded4954cf46ccabfea5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjgyam16ajl5RG5oYnJjOFhDMndvMDJqbFZ4WHZVMkctOHNneU5GaU1KQkFiS29CNS1kcmRDY1JPN3dwekZEeTB5d0hvUVEyc3JQVGZuQm1KNDBENnhaUmp0UW5ieUJuV21rczFZWnZpRWxIWEo1UGVUd0c5SF9WSzZxTmt5dVRWMlJN",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjgyam16ajl5RG5oYnJjOFhDMndvMDJqbFZ4WHZVMkctOHNneU5GaU1KQkFiS29CNS1kcmRDY1JPN3dwekZEeTB5d0hvUVEyc3JQVGZuQm1KNDBENnhaUmp0UW5ieUJuV21rczFZWnZpRWxIWEo1UGVUd0c5SF9WSzZxTmt5dVRWMlJN?oc=5",
+            "source": "Google News",
+            "title": "How U.S.-Canada Tariff Negotiations Turned Into an All-Out Trade War - The New York Times",
+            "titleZh": "美加关税谈判如何演变为全面贸易战——《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美加关税谈判如何演变为全面贸易战——《纽约时报》"
+      },
+      {
+        "title": "Lindsay Clancy defense seeks mistrial after ‘mortal sin’ raised again - NewsNation",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNHpKZ2xTdzUxanFoNl9FbmRBNENpRnNJM2tCamdweUpFZlpvVmxWMmV4TE9XdFdBWjFubkZnMTUyTWtwMFZnZTlrYzBqZW9YMEZBVzd2ZDNzQ0FQMHdHT3JOd3RfN2Q3cTlsOWFuVjV6blJMZFM2TkRIcEg0RDhjLXlkVmJocHhMekJWcnY1SGVSUmNfcUlCV05idTkzTm01LWZEZjF6ONIBrAFBVV95cUxNLUwySFVZZk5CVDFYcGtCT2Ftci10eG5tU0ZmeGExaFA5cnNud2lYbHdudEtwUy1PZWdTOThnNnNWNlhUNTBXUUhZMHg3ZGtpYzJ2R2gyZWppUkI5ZHlSWE4zVDdWOURHaDlTWElPb181Y19IQ01YR19GRkMzdThCb2luWk9RVk5EaFhSLTZ5a0YtbDBxQ0JTR3BieS1jVWh4R0d0c0kxZmdBam9S?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 04:50:08 GMT",
+        "id": "b414722a40e95d1217e93646e54abb5036443a9c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eb96acc5d1828cb9e0111d1c86fbaaa245a0114c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNHpKZ2xTdzUxanFoNl9FbmRBNENpRnNJM2tCamdweUpFZlpvVmxWMmV4TE9XdFdBWjFubkZnMTUyTWtwMFZnZTlrYzBqZW9YMEZBVzd2ZDNzQ0FQMHdHT3JOd3RfN2Q3cTlsOWFuVjV6blJMZFM2TkRIcEg0RDhjLXlkVmJocHhMekJWcnY1SGVSUmNfcUlCV05idTkzTm01LWZEZjF6ONIBrAFBVV95cUxNLUwySFVZZk5CVDFYcGtCT2Ftci10eG5tU0ZmeGExaFA5cnNud2lYbHdudEtwUy1PZWdTOThnNnNWNlhUNTBXUUhZMHg3ZGtpYzJ2R2gyZWppUkI5ZHlSWE4zVDdWOURHaDlTWElPb181Y19IQ01YR19GRkMzdThCb2luWk9RVk5EaFhSLTZ5a0YtbDBxQ0JTR3BieS1jVWh4R0d0c0kxZmdBam9S",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNHpKZ2xTdzUxanFoNl9FbmRBNENpRnNJM2tCamdweUpFZlpvVmxWMmV4TE9XdFdBWjFubkZnMTUyTWtwMFZnZTlrYzBqZW9YMEZBVzd2ZDNzQ0FQMHdHT3JOd3RfN2Q3cTlsOWFuVjV6blJMZFM2TkRIcEg0RDhjLXlkVmJocHhMekJWcnY1SGVSUmNfcUlCV05idTkzTm01LWZEZjF6ONIBrAFBVV95cUxNLUwySFVZZk5CVDFYcGtCT2Ftci10eG5tU0ZmeGExaFA5cnNud2lYbHdudEtwUy1PZWdTOThnNnNWNlhUNTBXUUhZMHg3ZGtpYzJ2R2gyZWppUkI5ZHlSWE4zVDdWOURHaDlTWElPb181Y19IQ01YR19GRkMzdThCb2luWk9RVk5EaFhSLTZ5a0YtbDBxQ0JTR3BieS1jVWh4R0d0c0kxZmdBam9S?oc=5",
+            "source": "Google News",
+            "title": "Lindsay Clancy defense seeks mistrial after ‘mortal sin’ raised again - NewsNation",
+            "titleZh": "林赛·克兰西辩护方在“致命罪”再次被提及后寻求审判无效——NewsNation"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "林赛·克兰西辩护方在“致命罪”再次被提及后寻求审判无效——NewsNation"
+      },
+      {
+        "title": "Trump Administration to Target Visas of Up To 200,000 Foreign Citizens Applying for Asylum - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZXhmT3p5cUtzZXNYWXhWaU5reU5fdG9kdkhOOG9hempkMGNIWnRWVkF3eUJJRHdLVFo0YUVuc1dlT0kxRThHVEFOUldUR1FIZ3o0cXpYXzZCeDZ3TnpOUGFpQUU4SGVpbFN3Qkc0cjV2YnZnYTNwcVRSWEJ1N3RNSzZvSVRPOGxuTk9xa3dB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 09:22:00 GMT",
+        "id": "b376908883f962ee2065e3e56895214b594ca3f5",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "05ba39110d10b56d79853c415bb812cefeaa09de",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZXhmT3p5cUtzZXNYWXhWaU5reU5fdG9kdkhOOG9hempkMGNIWnRWVkF3eUJJRHdLVFo0YUVuc1dlT0kxRThHVEFOUldUR1FIZ3o0cXpYXzZCeDZ3TnpOUGFpQUU4SGVpbFN3Qkc0cjV2YnZnYTNwcVRSWEJ1N3RNSzZvSVRPOGxuTk9xa3dB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZXhmT3p5cUtzZXNYWXhWaU5reU5fdG9kdkhOOG9hempkMGNIWnRWVkF3eUJJRHdLVFo0YUVuc1dlT0kxRThHVEFOUldUR1FIZ3o0cXpYXzZCeDZ3TnpOUGFpQUU4SGVpbFN3Qkc0cjV2YnZnYTNwcVRSWEJ1N3RNSzZvSVRPOGxuTk9xa3dB?oc=5",
+            "source": "Google News",
+            "title": "Trump Administration to Target Visas of Up To 200,000 Foreign Citizens Applying for Asylum - The New York Times",
+            "titleZh": "特朗普政府将针对多达20万名申请庇护的外国公民的签证——《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普政府将针对多达20万名申请庇护的外国公民的签证——《纽约时报》"
+      },
+      {
+        "title": "Sheriff: Multiple people dead following fire and shooting at Billings home - KTVQ",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb2tzUWZVS1R5U094ZEc2RFVFQkVXX0hTalNDeEZXZkFCMTRLVEJnQjBnZ19ZVlNSWlhKbUprN1JXUXJYSEJnQ2plUEFIYlBibnpFaTJtaDNUNHVFSGZBbkhXdmx0U0sxdkhoTUVVanVqcENBWDFCS2lBS2xoblJaYnYzT20wQW13ZzUxdVB1V25YbXBnd3poN0UtVmRXYkZm?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Mon, 24 Aug 2026 18:47:34 GMT",
+        "id": "228b3ee8918bad06ad71deb66503c3952fdd5002",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7789996e2d95c5e740bd6657538ba344506be3a1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb2tzUWZVS1R5U094ZEc2RFVFQkVXX0hTalNDeEZXZkFCMTRLVEJnQjBnZ19ZVlNSWlhKbUprN1JXUXJYSEJnQ2plUEFIYlBibnpFaTJtaDNUNHVFSGZBbkhXdmx0U0sxdkhoTUVVanVqcENBWDFCS2lBS2xoblJaYnYzT20wQW13ZzUxdVB1V25YbXBnd3poN0UtVmRXYkZm",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb2tzUWZVS1R5U094ZEc2RFVFQkVXX0hTalNDeEZXZkFCMTRLVEJnQjBnZ19ZVlNSWlhKbUprN1JXUXJYSEJnQ2plUEFIYlBibnpFaTJtaDNUNHVFSGZBbkhXdmx0U0sxdkhoTUVVanVqcENBWDFCS2lBS2xoblJaYnYzT20wQW13ZzUxdVB1V25YbXBnd3poN0UtVmRXYkZm?oc=5",
+            "source": "Google News",
+            "title": "Sheriff: Multiple people dead following fire and shooting at Billings home - KTVQ",
+            "titleZh": "警长：比林斯住宅发生火灾和枪击，多人死亡——KTVQ"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "警长：比林斯住宅发生火灾和枪击，多人死亡——KTVQ"
+      },
+      {
+        "title": "As El Niño Dries Indonesia, Wildfires Intensify - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPai02NnlfY1FBcGViM1BsN3ktZko0QmVsMG9mU2Job1B4dlQ4WjlYQTFqcUtrbjNXaUZjczN4X1o0bUNnZGY1MUlMLXloSnZjMHZoZVQ0TU81ZHdSWUc5c3lObnFCYlJzTW5pbGllblRFS3hJUU9TdEhYRDExcUtTb3BKdkwtREE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Mon, 24 Aug 2026 18:14:15 GMT",
+        "id": "03b1da02fff4f6c33d16eb8b448bb88b6ef70416",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "203691b63b976a3434129c7e3c427a2f412d6a56",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPai02NnlfY1FBcGViM1BsN3ktZko0QmVsMG9mU2Job1B4dlQ4WjlYQTFqcUtrbjNXaUZjczN4X1o0bUNnZGY1MUlMLXloSnZjMHZoZVQ0TU81ZHdSWUc5c3lObnFCYlJzTW5pbGllblRFS3hJUU9TdEhYRDExcUtTb3BKdkwtREE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPai02NnlfY1FBcGViM1BsN3ktZko0QmVsMG9mU2Job1B4dlQ4WjlYQTFqcUtrbjNXaUZjczN4X1o0bUNnZGY1MUlMLXloSnZjMHZoZVQ0TU81ZHdSWUc5c3lObnFCYlJzTW5pbGllblRFS3hJUU9TdEhYRDExcUtTb3BKdkwtREE?oc=5",
+            "source": "Google News",
+            "title": "As El Niño Dries Indonesia, Wildfires Intensify - The New York Times",
+            "titleZh": "随着厄尔尼诺现象使印度尼西亚干旱，野火加剧 - 纽约时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "随着厄尔尼诺现象使印度尼西亚干旱，野火加剧 - 纽约时报"
+      },
+      {
+        "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 02:18:00 GMT",
+        "id": "b99af7a991230c1fc986844e4bc73a7184e9d8ac",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump",
+          "英伟达",
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "ee45b101d9b8fbe2f99b6e53c6a65aa0b7d887e0",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB?oc=5",
+            "source": "Google News",
+            "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings - Investor's Business Daily",
+            "titleZh": "道琼斯期货：特朗普、贝森特言论引发科技股下跌；英伟达在财报前抛售 - 投资者商业日报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "道琼斯期货：特朗普、贝森特言论引发科技股下跌；英伟达在财报前抛售 - 投资者商业日报"
+      },
+      {
+        "title": "Android is getting its own weird dots to cure car sickness - The Verge",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVlhTMnhveHRVQUhCYzJBNEIwdEpjRW5yZjRiVXBMRnpkRGs0dXlYWEhZcUVPZVNaZWNkUTNGczlOd1M1NVpiVlhfVGJVa0R6OWxVQmZ0QlZsZ2l4ZENIczhCcjlRdXVLa2xYOUZRaDNnclQ2LXdTaG9XQWF2S1otaldFNVZ6VUJQNzVpcHdaYk8?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 08:36:27 GMT",
+        "id": "00a55256f8548aaa0c7527b777bea708a68e431d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "67a4ec445538346d5989374e5934b42b4075fb50",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVlhTMnhveHRVQUhCYzJBNEIwdEpjRW5yZjRiVXBMRnpkRGs0dXlYWEhZcUVPZVNaZWNkUTNGczlOd1M1NVpiVlhfVGJVa0R6OWxVQmZ0QlZsZ2l4ZENIczhCcjlRdXVLa2xYOUZRaDNnclQ2LXdTaG9XQWF2S1otaldFNVZ6VUJQNzVpcHdaYk8",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVlhTMnhveHRVQUhCYzJBNEIwdEpjRW5yZjRiVXBMRnpkRGs0dXlYWEhZcUVPZVNaZWNkUTNGczlOd1M1NVpiVlhfVGJVa0R6OWxVQmZ0QlZsZ2l4ZENIczhCcjlRdXVLa2xYOUZRaDNnclQ2LXdTaG9XQWF2S1otaldFNVZ6VUJQNzVpcHdaYk8?oc=5",
+            "source": "Google News",
+            "title": "Android is getting its own weird dots to cure car sickness - The Verge",
+            "titleZh": "安卓正在推出自己的奇特圆点来缓解晕车 - The Verge"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "安卓正在推出自己的奇特圆点来缓解晕车 - The Verge"
+      },
+      {
+        "title": "Jelly Roll Celebrates His 300-Pound Weight Loss on ‘Jimmy Kimmel Live’ - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUnlXQ21Scm5rQnFqVDlWc0FNNmpDTGpsTjJaZWlaMFVUUzRaeEJJQUtHNUc1UDhicEpBN1I4YUtadGIzR1cxUEJPQ3JtdF9JNFY4WHRmV19CYTRnWHlEcjBlOWNXYzJNN2xuQjBtell0YS1nMGtyNXY0em9QY1FBLVRTYjBQb2thNTI5V19n?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 05:13:16 GMT",
+        "id": "6b7ddb965dcb893f4fad93d64b9376071ff800f2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e212d821b0959ae26151f2d29db91f236a2aae98",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUnlXQ21Scm5rQnFqVDlWc0FNNmpDTGpsTjJaZWlaMFVUUzRaeEJJQUtHNUc1UDhicEpBN1I4YUtadGIzR1cxUEJPQ3JtdF9JNFY4WHRmV19CYTRnWHlEcjBlOWNXYzJNN2xuQjBtell0YS1nMGtyNXY0em9QY1FBLVRTYjBQb2thNTI5V19n",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUnlXQ21Scm5rQnFqVDlWc0FNNmpDTGpsTjJaZWlaMFVUUzRaeEJJQUtHNUc1UDhicEpBN1I4YUtadGIzR1cxUEJPQ3JtdF9JNFY4WHRmV19CYTRnWHlEcjBlOWNXYzJNN2xuQjBtell0YS1nMGtyNXY0em9QY1FBLVRTYjBQb2thNTI5V19n?oc=5",
+            "source": "Google News",
+            "title": "Jelly Roll Celebrates His 300-Pound Weight Loss on ‘Jimmy Kimmel Live’ - The New York Times",
+            "titleZh": "Jelly Roll在《吉米·坎摩尔直播秀》上庆祝减重300磅 - 纽约时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Jelly Roll在《吉米·坎摩尔直播秀》上庆祝减重300磅 - 纽约时报"
+      },
+      {
+        "title": "San Francisco 49ers Owner Jed York Arrested At Trailer Park On Disorderly Conduct Charge - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUx0TURyNmxsSXRFWE9UaVNZVzJwejBta0V5WHVlZjd0bXVZSXhib0tsRzJqekZJNHNLSFBrQU1YMzd3OVdOTjdrUkRVbWNpRVB5dGJuWmhKUDlKM3JyM1ZXeWVMYWtjZVRyQVBFNFBZdWtsaXpVZG5JRkV4cS05S28zZWJEY1dQNzRJX0lIOFB0allTMkFTcmRhQUpnTWxmYk5CRms4cHRBZ0xpcXFRc1JOY0JRVlBpbjViN3pTZGFnVk5zUmZfS1lsYWtTZDBaVkl1TTlUUkg?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Mon, 24 Aug 2026 19:11:00 GMT",
+        "id": "e92f489c6225c9a703b7707167cd679c4c2a645a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e375079ca1f921899149916bc7c6e66d552a6be5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUx0TURyNmxsSXRFWE9UaVNZVzJwejBta0V5WHVlZjd0bXVZSXhib0tsRzJqekZJNHNLSFBrQU1YMzd3OVdOTjdrUkRVbWNpRVB5dGJuWmhKUDlKM3JyM1ZXeWVMYWtjZVRyQVBFNFBZdWtsaXpVZG5JRkV4cS05S28zZWJEY1dQNzRJX0lIOFB0allTMkFTcmRhQUpnTWxmYk5CRms4cHRBZ0xpcXFRc1JOY0JRVlBpbjViN3pTZGFnVk5zUmZfS1lsYWtTZDBaVkl1TTlUUkg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUx0TURyNmxsSXRFWE9UaVNZVzJwejBta0V5WHVlZjd0bXVZSXhib0tsRzJqekZJNHNLSFBrQU1YMzd3OVdOTjdrUkRVbWNpRVB5dGJuWmhKUDlKM3JyM1ZXeWVMYWtjZVRyQVBFNFBZdWtsaXpVZG5JRkV4cS05S28zZWJEY1dQNzRJX0lIOFB0allTMkFTcmRhQUpnTWxmYk5CRms4cHRBZ0xpcXFRc1JOY0JRVlBpbjViN3pTZGFnVk5zUmZfS1lsYWtTZDBaVkl1TTlUUkg?oc=5",
+            "source": "Google News",
+            "title": "San Francisco 49ers Owner Jed York Arrested At Trailer Park On Disorderly Conduct Charge - Forbes",
+            "titleZh": "旧金山49人队老板杰德·约克因扰乱治安行为在拖车公园被捕 - 福布斯"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "旧金山49人队老板杰德·约克因扰乱治安行为在拖车公园被捕 - 福布斯"
+      },
+      {
+        "title": "Lunar eclipse 2026: Will weather block it in the U.S.? - The Weather Channel",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFlsaGQzeExxNV9sQWpqTFZzQkVLMjRkRWQybWRwM1FOY2wxR2dJN2h0NlVQWTFFX2xEREdQVGR4cGZnV3VrNUtJUUhGSGVOSVI3VXRHMnBlUXNtMlVCaV9lNFFnd3Fua1lYakVjOVhEcGhTb0lWSUhkR196ZVpVNTBhUHNVMzJxS3c?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 09:24:00 GMT",
+        "id": "2477c66fc41e3fb960e404838cd2d6d78176d671",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "4a8aec7f0b7cc11569580109a3752bf06fa8105b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFlsaGQzeExxNV9sQWpqTFZzQkVLMjRkRWQybWRwM1FOY2wxR2dJN2h0NlVQWTFFX2xEREdQVGR4cGZnV3VrNUtJUUhGSGVOSVI3VXRHMnBlUXNtMlVCaV9lNFFnd3Fua1lYakVjOVhEcGhTb0lWSUhkR196ZVpVNTBhUHNVMzJxS3c",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFlsaGQzeExxNV9sQWpqTFZzQkVLMjRkRWQybWRwM1FOY2wxR2dJN2h0NlVQWTFFX2xEREdQVGR4cGZnV3VrNUtJUUhGSGVOSVI3VXRHMnBlUXNtMlVCaV9lNFFnd3Fua1lYakVjOVhEcGhTb0lWSUhkR196ZVpVNTBhUHNVMzJxS3c?oc=5",
+            "source": "Google News",
+            "title": "Lunar eclipse 2026: Will weather block it in the U.S.? - The Weather Channel",
+            "titleZh": "2026年月食：美国天气会阻挡观测吗？ - 天气频道"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026年月食：美国天气会阻挡观测吗？ - 天气频道"
+      },
+      {
+        "title": "Look up! North Carolina could see Tuesday morning's SpaceX Starlink launch - WRAL",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBQ2RxY09Uby1RLTJ0SW9tYktGUms2ZGIySjZCUTZ1MlVBVnQxejBCNTc5cXJwOXpCMElKamp4eWpkenRBendwVHkxaWNWYVJfMWtHeGlBRHdWVW4wSWJ1M3dQR2tvRE1oeFM5Tm05b3FYWnlmZmFod09QOA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-25T10:27:12.133Z",
+        "pubDate": "Tue, 25 Aug 2026 10:03:15 GMT",
+        "id": "884b0f97431d05bd93b0b570d646482c5e5df014",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2fe27a94126b1092186b9a442f1b115ef829f415",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBQ2RxY09Uby1RLTJ0SW9tYktGUms2ZGIySjZCUTZ1MlVBVnQxejBCNTc5cXJwOXpCMElKamp4eWpkenRBendwVHkxaWNWYVJfMWtHeGlBRHdWVW4wSWJ1M3dQR2tvRE1oeFM5Tm05b3FYWnlmZmFod09QOA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBQ2RxY09Uby1RLTJ0SW9tYktGUms2ZGIySjZCUTZ1MlVBVnQxejBCNTc5cXJwOXpCMElKamp4eWpkenRBendwVHkxaWNWYVJfMWtHeGlBRHdWVW4wSWJ1M3dQR2tvRE1oeFM5Tm05b3FYWnlmZmFod09QOA?oc=5",
+            "source": "Google News",
+            "title": "Look up! North Carolina could see Tuesday morning's SpaceX Starlink launch - WRAL",
+            "titleZh": "抬头看！北卡罗来纳州或可观看周二早上的SpaceX星链发射 - WRAL"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "抬头看！北卡罗来纳州或可观看周二早上的SpaceX星链发射 - WRAL"
+      },
+      {
+        "title": "Why some US restaurants are banning tips",
+        "url": "https://www.bbc.com/news/articles/c4g36yze692o",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-25T10:27:12.342Z",
+        "pubDate": "Tue, 25 Aug 2026 10:09:47 +0000",
+        "id": "cf70610421695cbaa2f79440dd952c5bca03f9db",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "ff76055620796fea6d6c9f06d60ac15ae7ef9d23",
+        "canonicalUrl": "https://bbc.com/news/articles/c4g36yze692o",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.bbc.com/news/articles/c4g36yze692o",
+            "source": "Hacker News Frontpage",
+            "title": "Why some US restaurants are banning tips",
+            "titleZh": "为什么美国一些餐馆禁止小费"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为什么美国一些餐馆禁止小费"
+      },
+      {
+        "title": "We open-sourced Myli: a harness for AI design agents",
+        "url": "https://github.com/EightPotions/Myli",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:20:00 +0000",
+        "id": "541f662cee2dc0c96375e86594a28e7a3492585f",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "3b04e001b1531c9b4089deaa7e88bdb2c7b907a4",
+        "canonicalUrl": "https://github.com/EightPotions/Myli",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/EightPotions/Myli",
+            "source": "Hacker News Newest",
+            "title": "We open-sourced Myli: a harness for AI design agents",
+            "titleZh": "我们开源了Myli：一个用于AI设计代理的框架"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我们开源了Myli：一个用于AI设计代理的框架"
+      },
+      {
+        "title": "Anatomy of an Autonomous Attack: 5 Alarming A.I. Capabilities",
+        "url": "https://www.nytimes.com/2026/08/24/science/openai-huggingface-alarming-capabilities.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:18:32 +0000",
+        "id": "37087cea99dfdfbdad39ee8bb0b6ea400dcc857c",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "64beefddb25b2076e64dcc3e2699cf60f59ebb2c",
+        "canonicalUrl": "https://nytimes.com/2026/08/24/science/openai-huggingface-alarming-capabilities.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nytimes.com/2026/08/24/science/openai-huggingface-alarming-capabilities.html",
+            "source": "Hacker News Newest",
+            "title": "Anatomy of an Autonomous Attack: 5 Alarming A.I. Capabilities",
+            "titleZh": "自主攻击剖析：5项令人警惕的人工智能能力"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "自主攻击剖析：5项令人警惕的人工智能能力"
+      },
+      {
+        "title": "From Natural Language to Executable Action",
+        "url": "https://geoffreychen.com/from-natural-language-to-executable-action-the-structural-problem-in-agent-development/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:17:28 +0000",
+        "id": "3e936c3af6f1befd742c98902017c8e84b17368f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d328940acca7c797226bcfb23da125ace4728b46",
+        "canonicalUrl": "https://geoffreychen.com/from-natural-language-to-executable-action-the-structural-problem-in-agent-development",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://geoffreychen.com/from-natural-language-to-executable-action-the-structural-problem-in-agent-development/",
+            "source": "Hacker News Newest",
+            "title": "From Natural Language to Executable Action",
+            "titleZh": "从自然语言到可执行操作"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "从自然语言到可执行操作"
+      },
+      {
+        "title": "Suno introduces song download limits",
+        "url": "https://suno.com/blog/suno-updates-tos",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:14:32 +0000",
+        "id": "af340c25a77926d7f739e54515b603d1832bb7ef",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "91f92fe8d5308c1adcd6f200b3ca75c8d5c4bf6d",
+        "canonicalUrl": "https://suno.com/blog/suno-updates-tos",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://suno.com/blog/suno-updates-tos",
+            "source": "Hacker News Newest",
+            "title": "Suno introduces song download limits",
+            "titleZh": "Suno推出歌曲下载限制"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Suno推出歌曲下载限制"
+      },
+      {
+        "title": "The Threats to 'Swiss Made'",
+        "url": "https://www.ft.com/content/db7494b8-c590-4a50-8644-211d154a8f7b",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:12:49 +0000",
+        "id": "274ecb985cf39dcb3b5e56d154f45a5b6c4aaf8f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e859977a1e7632e467862d887a0a0613215d54cf",
+        "canonicalUrl": "https://ft.com/content/db7494b8-c590-4a50-8644-211d154a8f7b",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ft.com/content/db7494b8-c590-4a50-8644-211d154a8f7b",
+            "source": "Hacker News Newest",
+            "title": "The Threats to 'Swiss Made'",
+            "titleZh": "对‘瑞士制造’的威胁"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "对‘瑞士制造’的威胁"
+      },
+      {
+        "title": "Show HN: SkillPreflight – score AI agent skills before installing them",
+        "url": "https://github.com/agent-contracts/skill-preflight",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:08:13 +0000",
+        "id": "6acfa36126b57ab96f2e8324b3c1a3e3e5ecb65b",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "df4c776befb3b271b65c376a3fb180ccc057484e",
+        "canonicalUrl": "https://github.com/agent-contracts/skill-preflight",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/agent-contracts/skill-preflight",
+            "source": "Hacker News Newest",
+            "title": "Show HN: SkillPreflight – score AI agent skills before installing them",
+            "titleZh": "Show HN：SkillPreflight——在安装前为AI代理技能评分"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：SkillPreflight——在安装前为AI代理技能评分"
+      },
+      {
+        "title": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams",
+        "url": "https://arxiv.org/abs/2608.23541",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:07:06 +0000",
+        "id": "185ac1ce6ab078ecbb718df969932fcaf1b594ce",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f29fee87aa1fc92cbf5c689fd8bb4793240e5200",
+        "canonicalUrl": "https://arxiv.org/abs/2608.23541",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.23541",
+            "source": "Hacker News Newest",
+            "title": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams",
+            "titleZh": "交互税：当沟通抹去多代理团队中的多样性"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "交互税：当沟通抹去多代理团队中的多样性"
+      },
+      {
+        "title": "The People Are Still There",
+        "url": "https://emsh.cat/en/the-people-are-still-there/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:04:46 +0000",
+        "id": "22162597bc3edabd5cb0af785395965b589d5ed5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "230e20b59cb995443c057baa1e93d57ff32a0f3f",
+        "canonicalUrl": "https://emsh.cat/en/the-people-are-still-there",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://emsh.cat/en/the-people-are-still-there/",
+            "source": "Hacker News Newest",
+            "title": "The People Are Still There",
+            "titleZh": "人们依然在那里"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "人们依然在那里"
+      },
+      {
+        "title": "Show HN: Local Personally Identifiable Information Anonymization",
+        "url": "https://dataanonymiser.com",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 10:00:44 +0000",
+        "id": "f9ce5071370062c88fe156617a1197380f627e68",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ea83a4b517656ba7a5d0f96001ac607719e0eb4b",
+        "canonicalUrl": "https://dataanonymiser.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dataanonymiser.com",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Local Personally Identifiable Information Anonymization",
+            "titleZh": "展示HN：本地个人身份信息匿名化"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：本地个人身份信息匿名化"
+      },
+      {
+        "title": "SHOW HN: a CLI that runs 15 prompt-injection attacks against your LLM",
+        "url": "https://github.com/Ventrova/sentinel-scan-cli",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:56:49 +0000",
+        "id": "99e960e6af05114e34cc4306874e4803ac5b8605",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "9eca742f12c33627f923f2787695da289fa2fa1d",
+        "canonicalUrl": "https://github.com/Ventrova/sentinel-scan-cli",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/Ventrova/sentinel-scan-cli",
+            "source": "Hacker News Newest",
+            "title": "SHOW HN: a CLI that runs 15 prompt-injection attacks against your LLM",
+            "titleZh": "展示HN：一个命令行工具，可对您的LLM发起15种提示注入攻击"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：一个命令行工具，可对您的LLM发起15种提示注入攻击"
+      },
+      {
+        "title": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
+        "url": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:52:58 +0000",
+        "id": "d51532954555758cb28e3c2857dc93c5837e872c",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "b5dd99fef2db4f897f90d7a0880a7dcbea756822",
+        "canonicalUrl": "https://servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+            "source": "Hacker News Newest",
+            "title": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
+            "titleZh": "英特尔新月岛160GB至480GB LPDDR5X AI GPU亮相2026年热芯片大会"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英特尔新月岛160GB至480GB LPDDR5X AI GPU亮相2026年热芯片大会"
+      },
+      {
+        "title": "Last chance to start project and publish it in NeurIPS 2026 workshop",
+        "url": "https://glee-competition.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:52:43 +0000",
+        "id": "88c030d5ab2c8c0f8f8c115cf4be7ac0d7f074fb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "af31f5e03aa53a18ee29e62fbdb6331188fb4ae1",
+        "canonicalUrl": "https://glee-competition.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://glee-competition.com/",
+            "source": "Hacker News Newest",
+            "title": "Last chance to start project and publish it in NeurIPS 2026 workshop",
+            "titleZh": "启动项目并在NeurIPS 2026研讨会发表论文的最后机会"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "启动项目并在NeurIPS 2026研讨会发表论文的最后机会"
+      },
+      {
+        "title": "WTF Happened in 1971?",
+        "url": "https://wtfhappenedin1971.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:51:26 +0000",
+        "id": "ed2d8ed9e62e0849fb4ada0dd81bcade8bbc35da",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f6ad51f663dcb28c4796de0472129ef6f991dff3",
+        "canonicalUrl": "https://wtfhappenedin1971.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://wtfhappenedin1971.com/",
+            "source": "Hacker News Newest",
+            "title": "WTF Happened in 1971?",
+            "titleZh": "1971年到底发生了什么？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "1971年到底发生了什么？"
+      },
+      {
+        "title": "The Internet Is Becoming an App",
+        "url": "https://polding.eu/2026/08/21/the-internet-is-becoming-an-app-here-is-what-the-research-says/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:51:03 +0000",
+        "id": "48d3f4cc3527b8006ed222c1d7e8c6ab9ab87707",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "de0d5bb413e28ce97d4ec4d6ab0832404665495a",
+        "canonicalUrl": "https://polding.eu/2026/08/21/the-internet-is-becoming-an-app-here-is-what-the-research-says",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://polding.eu/2026/08/21/the-internet-is-becoming-an-app-here-is-what-the-research-says/",
+            "source": "Hacker News Newest",
+            "title": "The Internet Is Becoming an App",
+            "titleZh": "互联网正在变成一个应用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "互联网正在变成一个应用"
+      },
+      {
+        "title": "Nvidia Has Become a Banker to the AI Boom, Putting It on Dangerous Ground",
+        "url": "https://www.wsj.com/tech/ai/nvidia-has-become-a-banker-to-the-ai-boom-putting-it-on-dangerous-ground-94c03545",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:50:22 +0000",
+        "id": "bf5964ae7981ee6231f8c2053dafeafda839be3d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "英伟达",
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "e36bf01bf07d604752068bf4fa3586be57fb5912",
+        "canonicalUrl": "https://wsj.com/tech/ai/nvidia-has-become-a-banker-to-the-ai-boom-putting-it-on-dangerous-ground-94c03545",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wsj.com/tech/ai/nvidia-has-become-a-banker-to-the-ai-boom-putting-it-on-dangerous-ground-94c03545",
+            "source": "Hacker News Newest",
+            "title": "Nvidia Has Become a Banker to the AI Boom, Putting It on Dangerous Ground",
+            "titleZh": "英伟达已成为AI热潮的银行家，使其处于危险境地"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英伟达已成为AI热潮的银行家，使其处于危险境地"
+      },
+      {
+        "title": "Show HN: Stage – Build websites together by editing a shared document",
+        "url": "https://www.youtube.com/watch?v=DfpqJzd8-zk",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:40:38 +0000",
+        "id": "9166493ce66a888c2b4e84eae86a18936f6bbf66",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "99772e2ceba121fa37024636a75a0a10585e8189",
+        "canonicalUrl": "https://youtube.com/watch?v=DfpqJzd8-zk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=DfpqJzd8-zk",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Stage – Build websites together by editing a shared document",
+            "titleZh": "展示HN：Stage——通过编辑共享文档共同构建网站"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Stage——通过编辑共享文档共同构建网站"
+      },
+      {
+        "title": "Redactle: The Daily Wikipedia Game",
+        "url": "https://redactle.net/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-25T10:27:13.311Z",
+        "pubDate": "Tue, 25 Aug 2026 09:38:45 +0000",
+        "id": "1650e098f8a4f57b8a197e1f1ad8878dfb510bcc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d8b1be8ee8131511492f6dc3db43e1a175be1a58",
+        "canonicalUrl": "https://redactle.net/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://redactle.net/",
+            "source": "Hacker News Newest",
+            "title": "Redactle: The Daily Wikipedia Game",
+            "titleZh": "Redactle：每日维基百科游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Redactle：每日维基百科游戏"
+      },
+      {
+        "title": "Galaxium, a WebGPU universe explorer",
+        "url": "https://galaxium.app",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-25T10:27:12.406Z",
+        "pubDate": "Tue, 25 Aug 2026 04:33:23 -0500",
+        "id": "56c764468cb64635147fbd8d04b950066d9e0813",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "739cfbaa2a7827e4855625dae9ea988785a1d9fc",
+        "canonicalUrl": "https://galaxium.app/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://galaxium.app",
+            "source": "Lobsters RSS",
+            "title": "Galaxium, a WebGPU universe explorer",
+            "titleZh": "Galaxium：一个WebGPU宇宙探索器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Galaxium：一个WebGPU宇宙探索器"
+      },
+      {
+        "title": "Porffor goes alpha August 11th",
+        "url": "https://honk.foo/porffor-alpha/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-08-25T10:27:12.406Z",
+        "pubDate": "Tue, 25 Aug 2026 05:01:40 -0500",
+        "id": "c3d3c99767bae4ceb3a35652240f41dd3903b542",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fddb373837a6c352592f486402a353a4415a24ea",
+        "canonicalUrl": "https://honk.foo/porffor-alpha",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://honk.foo/porffor-alpha/",
+            "source": "Lobsters RSS",
+            "title": "Porffor goes alpha August 11th",
+            "titleZh": "Porffor于8月11日进入alpha阶段"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Porffor于8月11日进入alpha阶段"
+      },
+      {
+        "id": "2b39310f8ffb6d601c897b80d346ef0f4e65b85c",
+        "title": "Highest AI benchmarks ≠ adoption stonks",
+        "url": "https://pran.sh/blog/reliable-model-wins",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-25T10:27:12.746Z",
+        "pubDate": "2026-08-25T09:35:49Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "60c6a61cce952ff19e925901b3f7469253f9637b",
+        "canonicalUrl": "https://pran.sh/blog/reliable-model-wins",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://pran.sh/blog/reliable-model-wins",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Highest AI benchmarks ≠ adoption stonks",
+            "titleZh": "最高AI基准≠采用率飙升"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "最高AI基准≠采用率飙升"
+      },
+      {
+        "id": "e8ea49e21337b658bed685e3f6e8487f977427c6",
+        "title": "Ox Alpha – A mysterious new AI model",
+        "url": "https://oxalpha.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-25T10:27:12.746Z",
+        "pubDate": "2026-08-25T09:31:53Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "37020b65ace245b5b7df2acd380e5719cbc35fe8",
+        "canonicalUrl": "https://oxalpha.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://oxalpha.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Ox Alpha – A mysterious new AI model",
+            "titleZh": "Ox Alpha——一个神秘的新AI模型"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Ox Alpha——一个神秘的新AI模型"
+      },
+      {
+        "id": "2fc9bc25862ecfb1673813680306df7026413f27",
+        "title": "Sam Altman on AI: 'We've not had the iPhone moment'",
+        "url": "https://www.youtube.com/watch?v=dktlHZOSn5o",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-25T10:27:12.746Z",
+        "pubDate": "2026-08-25T09:29:42Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "759e23d92a4a140e20c416b0bf7f9b012017a1a4",
+        "canonicalUrl": "https://youtube.com/watch?v=dktlHZOSn5o",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=dktlHZOSn5o",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Sam Altman on AI: 'We've not had the iPhone moment'",
+            "titleZh": "萨姆·奥特曼谈AI：‘我们尚未迎来iPhone时刻’"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "萨姆·奥特曼谈AI：‘我们尚未迎来iPhone时刻’"
       }
     ]
   },
-  "lastFetchAt": "2026-08-25T09:30:50.902Z"
+  "lastFetchAt": "2026-08-25T10:27:11.243Z"
 }
