@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T08:36:41.180Z",
-  "checkedAt": "2026-08-25T08:36:41.180Z",
+  "generatedAt": "2026-08-25T09:30:50.902Z",
+  "checkedAt": "2026-08-25T09:30:50.902Z",
   "platforms": {
     "weibo": {
       "id": "weibo",
       "name": "微博",
       "status": "success",
-      "upstreamStatus": "success",
+      "upstreamStatus": "cache",
       "stale": false,
       "errorMessage": "",
-      "checkedAt": "2026-08-25T08:36:41.180Z",
-      "updatedAt": "2026-08-25T08:36:46.652Z",
+      "checkedAt": "2026-08-25T09:30:50.902Z",
+      "updatedAt": "2026-08-25T09:28:51.535Z",
       "items": [
         {
           "title": "金鹰奖提名名单",
           "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B9%B0%E5%A5%96%E6%8F%90%E5%90%8D%E5%90%8D%E5%8D%95&t=31&band_rank=1&Refer=top",
           "rank": 1,
-          "previousRank": 11,
-          "rankChange": 10,
+          "previousRank": 1,
+          "rankChange": 0,
           "isNew": false
         },
         {
           "title": "多款APP被通报",
           "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E6%AC%BEAPP%E8%A2%AB%E9%80%9A%E6%8A%A5%23&t=31&band_rank=2&Refer=top",
           "rank": 2,
-          "previousRank": 20,
-          "rankChange": 18,
+          "previousRank": 2,
+          "rankChange": 0,
           "isNew": false
         },
         {
@@ -41,217 +41,217 @@
           "title": "杨幂掉提",
           "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E5%B9%82%E6%8E%89%E6%8F%90&t=31&band_rank=4&Refer=top",
           "rank": 4,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "previousRank": 4,
+          "rankChange": 0,
+          "isNew": false
         },
         {
-          "title": "爱情公寓",
-          "url": "https://s.weibo.com/weibo?q=%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93&t=31&band_rank=5&Refer=top",
+          "title": "网传爱情公寓回归季阵容",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E4%BC%A0%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93%E5%9B%9E%E5%BD%92%E5%AD%A3%E9%98%B5%E5%AE%B9%23&t=31&band_rank=5&Refer=top",
           "rank": 5,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "网传1.9万获返还遭索赔家属称不知情",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E4%BC%A01.9%E4%B8%87%E8%8E%B7%E8%BF%94%E8%BF%98%E9%81%AD%E7%B4%A2%E8%B5%94%E5%AE%B6%E5%B1%9E%E7%A7%B0%E4%B8%8D%E7%9F%A5%E6%83%85%23&t=31&band_rank=6&Refer=top",
+          "title": "女子用3年垃圾桶才发现用错了",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%94%A83%E5%B9%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%E6%89%8D%E5%8F%91%E7%8E%B0%E7%94%A8%E9%94%99%E4%BA%86%23&t=31&band_rank=6&Refer=top",
           "rank": 6,
-          "previousRank": 6,
-          "rankChange": 0,
+          "previousRank": 16,
+          "rankChange": 10,
           "isNew": false
         },
         {
           "title": "孙俪掉提金鹰奖",
           "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E4%BF%AA%E6%8E%89%E6%8F%90%E9%87%91%E9%B9%B0%E5%A5%96%23&t=31&band_rank=7&Refer=top",
           "rank": 7,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "德芙文案 翻车",
-          "url": "https://s.weibo.com/weibo?q=%E5%BE%B7%E8%8A%99%E6%96%87%E6%A1%88%20%E7%BF%BB%E8%BD%A6&t=31&band_rank=8&Refer=top",
-          "rank": 8,
-          "previousRank": 1,
-          "rankChange": -7,
-          "isNew": false
-        },
-        {
-          "title": "癌症疫苗来了",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%8C%E7%97%87%E7%96%AB%E8%8B%97%E6%9D%A5%E4%BA%86%23&t=31&band_rank=9&Refer=top",
-          "rank": 9,
-          "previousRank": 4,
-          "rankChange": -5,
+          "previousRank": 7,
+          "rankChange": 0,
           "isNew": false
         },
         {
           "title": "宁波致1死4伤车祸司机突发疾病",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E8%87%B41%E6%AD%BB4%E4%BC%A4%E8%BD%A6%E7%A5%B8%E5%8F%B8%E6%9C%BA%E7%AA%81%E5%8F%91%E7%96%BE%E7%97%85%23&t=31&band_rank=10&Refer=top",
-          "rank": 10,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E8%87%B41%E6%AD%BB4%E4%BC%A4%E8%BD%A6%E7%A5%B8%E5%8F%B8%E6%9C%BA%E7%AA%81%E5%8F%91%E7%96%BE%E7%97%85%23&t=31&band_rank=8&Refer=top",
+          "rank": 8,
+          "previousRank": 10,
+          "rankChange": 2,
+          "isNew": false
         },
         {
-          "title": "外卖 百草枯",
-          "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%8D%96%20%E7%99%BE%E8%8D%89%E6%9E%AF&t=31&band_rank=11&Refer=top",
+          "title": "德芙文案 翻车",
+          "url": "https://s.weibo.com/weibo?q=%E5%BE%B7%E8%8A%99%E6%96%87%E6%A1%88%20%E7%BF%BB%E8%BD%A6&t=31&band_rank=9&Refer=top",
+          "rank": 9,
+          "previousRank": 8,
+          "rankChange": -1,
+          "isNew": false
+        },
+        {
+          "title": "癌症疫苗来了",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%99%8C%E7%97%87%E7%96%AB%E8%8B%97%E6%9D%A5%E4%BA%86%23&t=31&band_rank=10&Refer=top",
+          "rank": 10,
+          "previousRank": 9,
+          "rankChange": -1,
+          "isNew": false
+        },
+        {
+          "title": "肖战金鹰掉提",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E9%87%91%E9%B9%B0%E6%8E%89%E6%8F%90%23&t=31&band_rank=11&Refer=top",
           "rank": 11,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "金鹰奖把电视剧编剧打成了编刷",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B9%B0%E5%A5%96%E6%8A%8A%E7%94%B5%E8%A7%86%E5%89%A7%E7%BC%96%E5%89%A7%E6%89%93%E6%88%90%E4%BA%86%E7%BC%96%E5%88%B7&t=31&band_rank=12&Refer=top",
+          "title": "靳东掉提金鹰奖最佳男主角",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%9D%B3%E4%B8%9C%E6%8E%89%E6%8F%90%E9%87%91%E9%B9%B0%E5%A5%96%E6%9C%80%E4%BD%B3%E7%94%B7%E4%B8%BB%E8%A7%92%23&t=31&band_rank=12&Refer=top",
           "rank": 12,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "张凌赫母校不请张凌赫因为安保不行",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E6%AF%8D%E6%A0%A1%E4%B8%8D%E8%AF%B7%E5%BC%A0%E5%87%8C%E8%B5%AB%E5%9B%A0%E4%B8%BA%E5%AE%89%E4%BF%9D%E4%B8%8D%E8%A1%8C%23&t=31&band_rank=13&Refer=top",
+          "title": "成都蛋烘糕奶奶被镜头霸凌",
+          "url": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E8%9B%8B%E7%83%98%E7%B3%95%E5%A5%B6%E5%A5%B6%E8%A2%AB%E9%95%9C%E5%A4%B4%E9%9C%B8%E5%87%8C&t=31&band_rank=13&Refer=top",
           "rank": 13,
-          "previousRank": 12,
-          "rankChange": -1,
+          "previousRank": 27,
+          "rankChange": 14,
           "isNew": false
         },
         {
-          "title": "乳房触诊20多次后发现结节摸不到",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B3%E6%88%BF%E8%A7%A6%E8%AF%8A20%E5%A4%9A%E6%AC%A1%E5%90%8E%E5%8F%91%E7%8E%B0%E7%BB%93%E8%8A%82%E6%91%B8%E4%B8%8D%E5%88%B0%23&t=31&band_rank=14&Refer=top",
+          "title": "金鹰奖把电视剧编剧打成了编刷",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B9%B0%E5%A5%96%E6%8A%8A%E7%94%B5%E8%A7%86%E5%89%A7%E7%BC%96%E5%89%A7%E6%89%93%E6%88%90%E4%BA%86%E7%BC%96%E5%88%B7&t=31&band_rank=14&Refer=top",
           "rank": 14,
-          "previousRank": 13,
-          "rankChange": -1,
+          "previousRank": 12,
+          "rankChange": -2,
           "isNew": false
         },
         {
-          "title": "曾舜晞跟孟子义吵架会哭",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%BE%E8%88%9C%E6%99%9E%E8%B7%9F%E5%AD%9F%E5%AD%90%E4%B9%89%E5%90%B5%E6%9E%B6%E4%BC%9A%E5%93%AD%23&t=31&band_rank=15&Refer=top",
+          "title": "爱情公寓",
+          "url": "https://s.weibo.com/weibo?q=%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93&t=31&band_rank=15&Refer=top",
           "rank": 15,
-          "previousRank": 14,
-          "rankChange": -1,
+          "previousRank": 5,
+          "rankChange": -10,
           "isNew": false
         },
         {
-          "title": "女子用3年垃圾桶才发现用错了",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%94%A83%E5%B9%B4%E5%9E%83%E5%9C%BE%E6%A1%B6%E6%89%8D%E5%8F%91%E7%8E%B0%E7%94%A8%E9%94%99%E4%BA%86%23&t=31&band_rank=16&Refer=top",
+          "title": "大众汽车拟裁员5万人 史上最大重组",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E4%BC%97%E6%B1%BD%E8%BD%A6%E6%8B%9F%E8%A3%81%E5%91%985%E4%B8%87%E4%BA%BA%20%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E9%87%8D%E7%BB%84&t=31&band_rank=16&Refer=top",
           "rank": 16,
-          "previousRank": 9,
-          "rankChange": -7,
+          "previousRank": 19,
+          "rankChange": 3,
           "isNew": false
         },
         {
-          "title": "氧化菊删除权志龙签名酒视频",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B0%A7%E5%8C%96%E8%8F%8A%E5%88%A0%E9%99%A4%E6%9D%83%E5%BF%97%E9%BE%99%E7%AD%BE%E5%90%8D%E9%85%92%E8%A7%86%E9%A2%91%23&t=31&band_rank=17&Refer=top",
+          "title": "自动驾驶状态违法由车企担责",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E7%8A%B6%E6%80%81%E8%BF%9D%E6%B3%95%E7%94%B1%E8%BD%A6%E4%BC%81%E6%8B%85%E8%B4%A3%23&t=31&band_rank=17&Refer=top",
           "rank": 17,
-          "previousRank": 16,
-          "rankChange": -1,
+          "previousRank": 23,
+          "rankChange": 6,
           "isNew": false
         },
         {
-          "title": "心动9爆出隐藏清香片段",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BF%83%E5%8A%A89%E7%88%86%E5%87%BA%E9%9A%90%E8%97%8F%E6%B8%85%E9%A6%99%E7%89%87%E6%AE%B5%23&t=31&band_rank=18&Refer=top",
+          "title": "余秀华希望一百年后人类灭亡",
+          "url": "https://s.weibo.com/weibo?q=%E4%BD%99%E7%A7%80%E5%8D%8E%E5%B8%8C%E6%9C%9B%E4%B8%80%E7%99%BE%E5%B9%B4%E5%90%8E%E4%BA%BA%E7%B1%BB%E7%81%AD%E4%BA%A1&t=31&band_rank=18&Refer=top",
           "rank": 18,
+          "previousRank": 25,
+          "rankChange": 7,
+          "isNew": false
+        },
+        {
+          "title": "赵丽颖掉提金鹰奖最佳女主",
+          "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%8E%89%E6%8F%90%E9%87%91%E9%B9%B0%E5%A5%96%E6%9C%80%E4%BD%B3%E5%A5%B3%E4%B8%BB&t=31&band_rank=19&Refer=top",
+          "rank": 19,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "大众汽车拟裁员5万人 史上最大重组",
-          "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E4%BC%97%E6%B1%BD%E8%BD%A6%E6%8B%9F%E8%A3%81%E5%91%985%E4%B8%87%E4%BA%BA%20%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E9%87%8D%E7%BB%84&t=31&band_rank=19&Refer=top",
-          "rank": 19,
-          "previousRank": 17,
-          "rankChange": -2,
-          "isNew": false
-        },
-        {
-          "title": "金鹰奖",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B9%B0%E5%A5%96&t=31&band_rank=20&Refer=top",
+          "title": "罗永浩凑10万捐助扶老人被索赔店主",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%97%E6%B0%B8%E6%B5%A9%E5%87%9110%E4%B8%87%E6%8D%90%E5%8A%A9%E6%89%B6%E8%80%81%E4%BA%BA%E8%A2%AB%E7%B4%A2%E8%B5%94%E5%BA%97%E4%B8%BB%23&t=31&band_rank=20&Refer=top",
           "rank": 20,
-          "previousRank": 2,
-          "rankChange": -18,
-          "isNew": false
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
-          "title": "起底家具假检测报告产业链",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B7%E5%BA%95%E5%AE%B6%E5%85%B7%E5%81%87%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A%E4%BA%A7%E4%B8%9A%E9%93%BE%23&t=31&band_rank=21&Refer=top",
+          "title": "曝iPhone18Pro涨幅堪称温和",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9DiPhone18Pro%E6%B6%A8%E5%B9%85%E5%A0%AA%E7%A7%B0%E6%B8%A9%E5%92%8C%23&t=31&band_rank=21&Refer=top",
           "rank": 21,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "第一批拒绝上岸的人出现了",
-          "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%B8%80%E6%89%B9%E6%8B%92%E7%BB%9D%E4%B8%8A%E5%B2%B8%E7%9A%84%E4%BA%BA%E5%87%BA%E7%8E%B0%E4%BA%86&t=31&band_rank=22&Refer=top",
+          "title": "杨幂生万物下沉口碑",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%E7%94%9F%E4%B8%87%E7%89%A9%E4%B8%8B%E6%B2%89%E5%8F%A3%E7%A2%91%23&t=31&band_rank=22&Refer=top",
           "rank": 22,
-          "previousRank": 22,
-          "rankChange": 0,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
+        },
+        {
+          "title": "乳房触诊20多次后发现结节摸不到",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B9%B3%E6%88%BF%E8%A7%A6%E8%AF%8A20%E5%A4%9A%E6%AC%A1%E5%90%8E%E5%8F%91%E7%8E%B0%E7%BB%93%E8%8A%82%E6%91%B8%E4%B8%8D%E5%88%B0%23&t=31&band_rank=23&Refer=top",
+          "rank": 23,
+          "previousRank": 14,
+          "rankChange": -9,
           "isNew": false
         },
         {
-          "title": "自动驾驶状态违法由车企担责",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E7%8A%B6%E6%80%81%E8%BF%9D%E6%B3%95%E7%94%B1%E8%BD%A6%E4%BC%81%E6%8B%85%E8%B4%A3%23&t=31&band_rank=23&Refer=top",
-          "rank": 23,
-          "previousRank": 25,
-          "rankChange": 2,
+          "title": "张凌赫母校不请张凌赫因为安保不行",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E6%AF%8D%E6%A0%A1%E4%B8%8D%E8%AF%B7%E5%BC%A0%E5%87%8C%E8%B5%AB%E5%9B%A0%E4%B8%BA%E5%AE%89%E4%BF%9D%E4%B8%8D%E8%A1%8C%23&t=31&band_rank=24&Refer=top",
+          "rank": 24,
+          "previousRank": 13,
+          "rankChange": -11,
           "isNew": false
         },
         {
           "title": "原来不是挂面不好吃",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E4%B8%8D%E6%98%AF%E6%8C%82%E9%9D%A2%E4%B8%8D%E5%A5%BD%E5%90%83%23&t=31&band_rank=24&Refer=top",
-          "rank": 24,
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E4%B8%8D%E6%98%AF%E6%8C%82%E9%9D%A2%E4%B8%8D%E5%A5%BD%E5%90%83%23&t=31&band_rank=25&Refer=top",
+          "rank": 25,
+          "previousRank": 24,
+          "rankChange": -1,
+          "isNew": false
+        },
+        {
+          "title": "曾舜晞跟孟子义吵架会哭",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%BE%E8%88%9C%E6%99%9E%E8%B7%9F%E5%AD%9F%E5%AD%90%E4%B9%89%E5%90%B5%E6%9E%B6%E4%BC%9A%E5%93%AD%23&t=31&band_rank=26&Refer=top",
+          "rank": 26,
+          "previousRank": 15,
+          "rankChange": -11,
+          "isNew": false
+        },
+        {
+          "title": "300多只东北虎再次延长轻断食",
+          "url": "https://s.weibo.com/weibo?q=%23300%E5%A4%9A%E5%8F%AA%E4%B8%9C%E5%8C%97%E8%99%8E%E5%86%8D%E6%AC%A1%E5%BB%B6%E9%95%BF%E8%BD%BB%E6%96%AD%E9%A3%9F%23&t=31&band_rank=27&Refer=top",
+          "rank": 27,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "余秀华希望一百年后人类灭亡",
-          "url": "https://s.weibo.com/weibo?q=%E4%BD%99%E7%A7%80%E5%8D%8E%E5%B8%8C%E6%9C%9B%E4%B8%80%E7%99%BE%E5%B9%B4%E5%90%8E%E4%BA%BA%E7%B1%BB%E7%81%AD%E4%BA%A1&t=31&band_rank=25&Refer=top",
-          "rank": 25,
-          "previousRank": 5,
-          "rankChange": -20,
+          "title": "A股成交1.83万亿缩量1756亿",
+          "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E6%88%90%E4%BA%A41.83%E4%B8%87%E4%BA%BF%E7%BC%A9%E9%87%8F1756%E4%BA%BF%23&t=31&band_rank=28&Refer=top",
+          "rank": 28,
+          "previousRank": 30,
+          "rankChange": 2,
           "isNew": false
         },
         {
           "title": "85岁爷爷把8岁自闭孙子当正常娃带",
-          "url": "https://s.weibo.com/weibo?q=%2385%E5%B2%81%E7%88%B7%E7%88%B7%E6%8A%8A8%E5%B2%81%E8%87%AA%E9%97%AD%E5%AD%99%E5%AD%90%E5%BD%93%E6%AD%A3%E5%B8%B8%E5%A8%83%E5%B8%A6%23&t=31&band_rank=26&Refer=top",
-          "rank": 26,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "成都蛋烘糕奶奶被镜头霸凌",
-          "url": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E8%9B%8B%E7%83%98%E7%B3%95%E5%A5%B6%E5%A5%B6%E8%A2%AB%E9%95%9C%E5%A4%B4%E9%9C%B8%E5%87%8C&t=31&band_rank=27&Refer=top",
-          "rank": 27,
-          "previousRank": 30,
-          "rankChange": 3,
+          "url": "https://s.weibo.com/weibo?q=%2385%E5%B2%81%E7%88%B7%E7%88%B7%E6%8A%8A8%E5%B2%81%E8%87%AA%E9%97%AD%E5%AD%99%E5%AD%90%E5%BD%93%E6%AD%A3%E5%B8%B8%E5%A8%83%E5%B8%A6%23&t=31&band_rank=29&Refer=top",
+          "rank": 29,
+          "previousRank": 26,
+          "rankChange": -3,
           "isNew": false
         },
         {
           "title": "科比生前最后一张公开照片",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%A7%91%E6%AF%94%E7%94%9F%E5%89%8D%E6%9C%80%E5%90%8E%E4%B8%80%E5%BC%A0%E5%85%AC%E5%BC%80%E7%85%A7%E7%89%87%23&t=31&band_rank=28&Refer=top",
-          "rank": 28,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "孙浩评论了刘浩存",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E6%B5%A9%E8%AF%84%E8%AE%BA%E4%BA%86%E5%88%98%E6%B5%A9%E5%AD%98%23&t=31&band_rank=29&Refer=top",
-          "rank": 29,
-          "previousRank": 24,
-          "rankChange": -5,
-          "isNew": false
-        },
-        {
-          "title": "A股成交1.83万亿缩量1756亿",
-          "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E6%88%90%E4%BA%A41.83%E4%B8%87%E4%BA%BF%E7%BC%A9%E9%87%8F1756%E4%BA%BF%23&t=31&band_rank=30&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%A7%91%E6%AF%94%E7%94%9F%E5%89%8D%E6%9C%80%E5%90%8E%E4%B8%80%E5%BC%A0%E5%85%AC%E5%BC%80%E7%85%A7%E7%89%87%23&t=31&band_rank=30&Refer=top",
           "rank": 30,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "previousRank": 28,
+          "rankChange": -2,
+          "isNew": false
         }
       ]
     },
@@ -262,8 +262,8 @@
       "upstreamStatus": "success",
       "stale": false,
       "errorMessage": "",
-      "checkedAt": "2026-08-25T08:36:41.180Z",
-      "updatedAt": "2026-08-25T08:36:46.646Z",
+      "checkedAt": "2026-08-25T09:30:50.902Z",
+      "updatedAt": "2026-08-25T09:30:52.264Z",
       "items": [
         {
           "title": "台风紫檀即将登陆",
@@ -274,12 +274,12 @@
           "isNew": false
         },
         {
-          "title": "一张用光签名的拍立得",
-          "url": "https://www.douyin.com/hot/2621692",
+          "title": "用一顿夜宵抓住暑假的尾巴",
+          "url": "https://www.douyin.com/hot/2622975",
           "rank": 2,
-          "previousRank": 2,
-          "rankChange": 0,
-          "isNew": false
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
           "title": "加速形成全链条科技服务体系",
@@ -298,67 +298,67 @@
           "isNew": false
         },
         {
-          "title": "央视少儿给00后的一封信",
-          "url": "https://www.douyin.com/hot/2622466",
+          "title": "一张用光签名的拍立得",
+          "url": "https://www.douyin.com/hot/2621692",
           "rank": 5,
-          "previousRank": 5,
-          "rankChange": 0,
+          "previousRank": 2,
+          "rankChange": -3,
           "isNew": false
         },
         {
-          "title": "武陵山天池到底有多豪横",
-          "url": "https://www.douyin.com/hot/2622584",
+          "title": "央视少儿给00后的一封信",
+          "url": "https://www.douyin.com/hot/2622466",
           "rank": 6,
-          "previousRank": 7,
-          "rankChange": 1,
+          "previousRank": 5,
+          "rankChange": -1,
           "isNew": false
+        },
+        {
+          "title": "看着你的笑我好像就足够",
+          "url": "https://www.douyin.com/hot/2623161",
+          "rank": 7,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
           "title": "白泽杯复活投票开启",
           "url": "https://www.douyin.com/hot/2622927",
-          "rank": 7,
-          "previousRank": 8,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "我的出伏自救指南",
-          "url": "https://www.douyin.com/hot/2622174",
           "rank": 8,
-          "previousRank": 9,
-          "rankChange": 1,
+          "previousRank": 7,
+          "rankChange": -1,
           "isNew": false
         },
         {
-          "title": "孙颖莎连续4年女单世界第一",
-          "url": "https://www.douyin.com/hot/2622324",
+          "title": "印度洋沉船18名中国船员失联",
+          "url": "https://www.douyin.com/hot/2622524",
           "rank": 9,
           "previousRank": 10,
           "rankChange": 1,
           "isNew": false
         },
         {
-          "title": "印度洋沉船18名中国船员失联",
-          "url": "https://www.douyin.com/hot/2622524",
+          "title": "安安摇手势舞挑战",
+          "url": "https://www.douyin.com/hot/2623155",
           "rank": 10,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "双人版第57次取消发送",
-          "url": "https://www.douyin.com/hot/2620845",
+          "title": "孙颖莎连续4年女单世界第一",
+          "url": "https://www.douyin.com/hot/2622324",
           "rank": 11,
-          "previousRank": 11,
-          "rankChange": 0,
+          "previousRank": 9,
+          "rankChange": -2,
           "isNew": false
         },
         {
-          "title": "飞到我心上定档",
-          "url": "https://www.douyin.com/hot/2622764",
+          "title": "武陵山天池到底有多豪横",
+          "url": "https://www.douyin.com/hot/2622584",
           "rank": 12,
-          "previousRank": 12,
-          "rankChange": 0,
+          "previousRank": 6,
+          "rankChange": -6,
           "isNew": false
         },
         {
@@ -370,132 +370,132 @@
           "isNew": false
         },
         {
-          "title": "莫慌莫忙时间还长",
-          "url": "https://www.douyin.com/hot/2622042",
+          "title": "飞到我心上定档",
+          "url": "https://www.douyin.com/hot/2622764",
           "rank": 14,
-          "previousRank": 14,
-          "rankChange": 0,
+          "previousRank": 12,
+          "rankChange": -2,
           "isNew": false
         },
         {
-          "title": "中美1.5轨对话在北京举行",
-          "url": "https://www.douyin.com/hot/2622602",
+          "title": "我的出伏自救指南",
+          "url": "https://www.douyin.com/hot/2622174",
           "rank": 15,
-          "previousRank": 18,
-          "rankChange": 3,
+          "previousRank": 8,
+          "rankChange": -7,
           "isNew": false
         },
         {
           "title": "热火官宣克莱加盟",
           "url": "https://www.douyin.com/hot/2622367",
           "rank": 16,
-          "previousRank": 17,
-          "rankChange": 1,
+          "previousRank": 16,
+          "rankChange": 0,
           "isNew": false
         },
         {
-          "title": "英伟达市值蒸发万亿背后",
-          "url": "https://www.douyin.com/hot/2622960",
+          "title": "isa的树懒跳动舞",
+          "url": "https://www.douyin.com/hot/2623088",
           "rank": 17,
-          "previousRank": 15,
-          "rankChange": -2,
-          "isNew": false
-        },
-        {
-          "title": "沙德尔进入48小时警戒线",
-          "url": "https://www.douyin.com/hot/2622853",
-          "rank": 18,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "被沈腾在龙餐馆里的英语秀到了",
-          "url": "https://www.douyin.com/hot/2622935",
-          "rank": 19,
-          "previousRank": 16,
-          "rankChange": -3,
+          "title": "莫慌莫忙时间还长",
+          "url": "https://www.douyin.com/hot/2622042",
+          "rank": 18,
+          "previousRank": 14,
+          "rankChange": -4,
           "isNew": false
+        },
+        {
+          "title": "科技正改变大学生报到方式",
+          "url": "https://www.douyin.com/hot/2623334",
+          "rank": 19,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
           "title": "警方通报青岛男子辱骂女游客",
           "url": "https://www.douyin.com/hot/2622303",
           "rank": 20,
-          "previousRank": 22,
-          "rankChange": 2,
+          "previousRank": 20,
+          "rankChange": 0,
+          "isNew": false
+        },
+        {
+          "title": "中美1.5轨对话在北京举行",
+          "url": "https://www.douyin.com/hot/2622602",
+          "rank": 21,
+          "previousRank": 15,
+          "rankChange": -6,
+          "isNew": false
+        },
+        {
+          "title": "沈阳小作坊动物园还是太超前了",
+          "url": "https://www.douyin.com/hot/2623078",
+          "rank": 22,
+          "previousRank": 25,
+          "rankChange": 3,
           "isNew": false
         },
         {
           "title": "送别黄奶奶",
           "url": "https://www.douyin.com/hot/2622835",
-          "rank": 21,
-          "previousRank": 20,
-          "rankChange": -1,
-          "isNew": false
-        },
-        {
-          "title": "donk获EWC赛事MVP",
-          "url": "https://www.douyin.com/hot/2622192",
-          "rank": 22,
-          "previousRank": 24,
-          "rankChange": 2,
-          "isNew": false
-        },
-        {
-          "title": "TUIDE出道",
-          "url": "https://www.douyin.com/hot/2622105",
           "rank": 23,
-          "previousRank": 19,
-          "rankChange": -4,
+          "previousRank": 21,
+          "rankChange": -2,
           "isNew": false
         },
         {
           "title": "我愿意一直这样",
           "url": "https://www.douyin.com/hot/2622319",
           "rank": 24,
-          "previousRank": 21,
-          "rankChange": -3,
+          "previousRank": 24,
+          "rankChange": 0,
           "isNew": false
         },
         {
-          "title": "沈阳小作坊动物园还是太超前了",
-          "url": "https://www.douyin.com/hot/2623078",
+          "title": "被沈腾在龙餐馆里的英语秀到了",
+          "url": "https://www.douyin.com/hot/2622935",
           "rank": 25,
-          "previousRank": 28,
-          "rankChange": 3,
+          "previousRank": 19,
+          "rankChange": -6,
           "isNew": false
         },
         {
           "title": "墨镜加emo帅到没朋友",
           "url": "https://www.douyin.com/hot/2622165",
           "rank": 26,
-          "previousRank": 25,
-          "rankChange": -1,
+          "previousRank": 26,
+          "rankChange": 0,
           "isNew": false
         },
         {
-          "title": "殷玉珍赛考斯故事何以打动全网",
-          "url": "https://www.douyin.com/hot/2621904",
+          "title": "登陆少年好想好想",
+          "url": "https://www.douyin.com/hot/2622484",
           "rank": 27,
-          "previousRank": 26,
-          "rankChange": -1,
-          "isNew": false
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
+        },
+        {
+          "title": "媒体评中国俱乐部登顶EWC",
+          "url": "https://www.douyin.com/hot/2622342",
+          "rank": 28,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
           "title": "老一辈的我要找到你就是带劲",
           "url": "https://www.douyin.com/hot/2621974",
-          "rank": 28,
-          "previousRank": 29,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "张韶涵成都演唱会造型惊艳",
-          "url": "https://www.douyin.com/hot/2621951",
           "rank": 29,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "previousRank": 28,
+          "rankChange": -1,
+          "isNew": false
         },
         {
           "title": "英超切尔西3:2战胜富勒姆",
@@ -514,8 +514,8 @@
       "upstreamStatus": "success",
       "stale": false,
       "errorMessage": "",
-      "checkedAt": "2026-08-25T08:36:41.180Z",
-      "updatedAt": "2026-08-25T08:36:46.649Z",
+      "checkedAt": "2026-08-25T09:30:50.902Z",
+      "updatedAt": "2026-08-25T09:30:52.248Z",
       "items": [
         {
           "title": "哈利波特来B站了",
@@ -534,64 +534,64 @@
           "isNew": false
         },
         {
-          "title": "曼城将1.4亿签下恩佐",
-          "url": "https://search.bilibili.com/all?keyword=%E6%9B%BC%E5%9F%8E%E5%B0%861.4%E4%BA%BF%E7%AD%BE%E4%B8%8B%E6%81%A9%E4%BD%90",
+          "title": "头文字D主角车集合PK",
+          "url": "https://search.bilibili.com/all?keyword=%E5%A4%B4%E6%96%87%E5%AD%97D%E4%B8%BB%E8%A7%92%E8%BD%A6%E9%9B%86%E5%90%88PK",
           "rank": 3,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "previousRank": 5,
+          "rankChange": 2,
+          "isNew": false
         },
         {
-          "title": "特朗普贴身助理的权力有多大",
-          "url": "https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E8%B4%B4%E8%BA%AB%E5%8A%A9%E7%90%86%E7%9A%84%E6%9D%83%E5%8A%9B%E6%9C%89%E5%A4%9A%E5%A4%A7",
+          "title": "美股延长交易时间有何影响",
+          "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E8%82%A1%E5%BB%B6%E9%95%BF%E4%BA%A4%E6%98%93%E6%97%B6%E9%97%B4%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D",
           "rank": 4,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "头文字D主角车集合PK",
-          "url": "https://search.bilibili.com/all?keyword=%E5%A4%B4%E6%96%87%E5%AD%97D%E4%B8%BB%E8%A7%92%E8%BD%A6%E9%9B%86%E5%90%88PK",
+          "title": "宇树科技为什么急着上市",
+          "url": "https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%A5%E7%9D%80%E4%B8%8A%E5%B8%82",
           "rank": 5,
-          "previousRank": 7,
-          "rankChange": 2,
-          "isNew": false
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
+        },
+        {
+          "title": "内娱养成系追星有多抽象",
+          "url": "https://search.bilibili.com/all?keyword=%E5%86%85%E5%A8%B1%E5%85%BB%E6%88%90%E7%B3%BB%E8%BF%BD%E6%98%9F%E6%9C%89%E5%A4%9A%E6%8A%BD%E8%B1%A1",
+          "rank": 6,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
           "title": "小潮陈泽贱谍过家家",
           "url": "https://search.bilibili.com/all?keyword=%E5%B0%8F%E6%BD%AE%E9%99%88%E6%B3%BD%E8%B4%B1%E8%B0%8D%E8%BF%87%E5%AE%B6%E5%AE%B6",
-          "rank": 6,
+          "rank": 7,
           "previousRank": 6,
+          "rankChange": -1,
+          "isNew": false
+        },
+        {
+          "title": "你的胆子真是肥嘟嘟的",
+          "url": "https://search.bilibili.com/all?keyword=%E4%BD%A0%E7%9A%84%E8%83%86%E5%AD%90%E7%9C%9F%E6%98%AF%E8%82%A5%E5%98%9F%E5%98%9F%E7%9A%84",
+          "rank": 8,
+          "previousRank": 8,
           "rankChange": 0,
           "isNew": false
         },
         {
           "title": "3000人进行高考生存挑战",
           "url": "https://search.bilibili.com/all?keyword=3000%E4%BA%BA%E8%BF%9B%E8%A1%8C%E9%AB%98%E8%80%83%E7%94%9F%E5%AD%98%E6%8C%91%E6%88%98",
-          "rank": 7,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "你的胆子真是肥嘟嘟的",
-          "url": "https://search.bilibili.com/all?keyword=%E4%BD%A0%E7%9A%84%E8%83%86%E5%AD%90%E7%9C%9F%E6%98%AF%E8%82%A5%E5%98%9F%E5%98%9F%E7%9A%84",
-          "rank": 8,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "AI科普护理工作的意义所在",
-          "url": "https://search.bilibili.com/all?keyword=AI%E7%A7%91%E6%99%AE%E6%8A%A4%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E4%B9%89%E6%89%80%E5%9C%A8",
           "rank": 9,
-          "previousRank": 8,
-          "rankChange": -1,
+          "previousRank": 7,
+          "rankChange": -2,
           "isNew": false
         },
         {
-          "title": "LPL季后赛最新赛程",
-          "url": "https://search.bilibili.com/all?keyword=LPL%E5%AD%A3%E5%90%8E%E8%B5%9B%E6%9C%80%E6%96%B0%E8%B5%9B%E7%A8%8B",
+          "title": "韩国女星综艺炫耀牵出历史疑案",
+          "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E5%A5%B3%E6%98%9F%E7%BB%BC%E8%89%BA%E7%82%AB%E8%80%80%E7%89%B5%E5%87%BA%E5%8E%86%E5%8F%B2%E7%96%91%E6%A1%88",
           "rank": 10,
           "previousRank": null,
           "rankChange": null,
@@ -606,24 +606,24 @@
           "isNew": false
         },
         {
-          "title": "开学时的我belike",
-          "url": "https://search.bilibili.com/all?keyword=%E5%BC%80%E5%AD%A6%E6%97%B6%E7%9A%84%E6%88%91belike",
+          "title": "MiniMax等模型开放14天免费调用",
+          "url": "https://search.bilibili.com/all?keyword=MiniMax%E7%AD%89%E6%A8%A1%E5%9E%8B%E5%BC%80%E6%94%BE14%E5%A4%A9%E5%85%8D%E8%B4%B9%E8%B0%83%E7%94%A8",
           "rank": 12,
-          "previousRank": 3,
-          "rankChange": -9,
-          "isNew": false
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
-          "title": "盘点00后足球球员最佳阵容",
-          "url": "https://search.bilibili.com/all?keyword=%E7%9B%98%E7%82%B900%E5%90%8E%E8%B6%B3%E7%90%83%E7%90%83%E5%91%98%E6%9C%80%E4%BD%B3%E9%98%B5%E5%AE%B9",
+          "title": "国产单机伊始之猫首曝PV",
+          "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7%E5%8D%95%E6%9C%BA%E4%BC%8A%E5%A7%8B%E4%B9%8B%E7%8C%AB%E9%A6%96%E6%9B%9DPV",
           "rank": 13,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "韩国人评欧美风女团新歌",
-          "url": "https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E4%BA%BA%E8%AF%84%E6%AC%A7%E7%BE%8E%E9%A3%8E%E5%A5%B3%E5%9B%A2%E6%96%B0%E6%AD%8C",
+          "title": "Spirit TI15夺冠复盘",
+          "url": "https://search.bilibili.com/all?keyword=Spirit%20TI15%E5%A4%BA%E5%86%A0%E5%A4%8D%E7%9B%98",
           "rank": 14,
           "previousRank": null,
           "rankChange": null,
@@ -633,129 +633,129 @@
           "title": "柯洁复盘王中王决赛对局",
           "url": "https://search.bilibili.com/all?keyword=%E6%9F%AF%E6%B4%81%E5%A4%8D%E7%9B%98%E7%8E%8B%E4%B8%AD%E7%8E%8B%E5%86%B3%E8%B5%9B%E5%AF%B9%E5%B1%80",
           "rank": 15,
-          "previousRank": 13,
-          "rankChange": -2,
-          "isNew": false
-        },
-        {
-          "title": "AI短剧把人写成了妖",
-          "url": "https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E5%89%A7%E6%8A%8A%E4%BA%BA%E5%86%99%E6%88%90%E4%BA%86%E5%A6%96",
-          "rank": 16,
-          "previousRank": 16,
+          "previousRank": 15,
           "rankChange": 0,
           "isNew": false
         },
         {
-          "title": "AI短片槐灯",
-          "url": "https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E7%89%87%E6%A7%90%E7%81%AF",
-          "rank": 17,
-          "previousRank": 10,
-          "rankChange": -7,
-          "isNew": false
-        },
-        {
-          "title": "三角洲S11赛季爆料",
-          "url": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2S11%E8%B5%9B%E5%AD%A3%E7%88%86%E6%96%99",
-          "rank": 18,
-          "previousRank": 19,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "Spirit夺冠名场面回顾",
-          "url": "https://search.bilibili.com/all?keyword=Spirit%E5%A4%BA%E5%86%A0%E5%90%8D%E5%9C%BA%E9%9D%A2%E5%9B%9E%E9%A1%BE",
-          "rank": 19,
-          "previousRank": 18,
-          "rankChange": -1,
-          "isNew": false
-        },
-        {
-          "title": "美伊以冲突有何经济意义",
-          "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BC%8A%E4%BB%A5%E5%86%B2%E7%AA%81%E6%9C%89%E4%BD%95%E7%BB%8F%E6%B5%8E%E6%84%8F%E4%B9%89",
-          "rank": 20,
-          "previousRank": 23,
-          "rankChange": 3,
-          "isNew": false
-        },
-        {
-          "title": "鲁豫对话陈岚",
-          "url": "https://search.bilibili.com/all?keyword=%E9%B2%81%E8%B1%AB%E5%AF%B9%E8%AF%9D%E9%99%88%E5%B2%9A",
-          "rank": 21,
-          "previousRank": 22,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "锐评我们的少年时代2",
-          "url": "https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84%E6%88%91%E4%BB%AC%E7%9A%84%E5%B0%91%E5%B9%B4%E6%97%B6%E4%BB%A32",
-          "rank": 22,
-          "previousRank": 17,
-          "rankChange": -5,
-          "isNew": false
-        },
-        {
-          "title": "HYBE新女团TUIDE出道曲MV",
-          "url": "https://search.bilibili.com/all?keyword=HYBE%E6%96%B0%E5%A5%B3%E5%9B%A2TUIDE%E5%87%BA%E9%81%93%E6%9B%B2MV",
-          "rank": 23,
-          "previousRank": 24,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "龙餐馆和家是本有何异同",
-          "url": "https://search.bilibili.com/all?keyword=%E9%BE%99%E9%A4%90%E9%A6%86%E5%92%8C%E5%AE%B6%E6%98%AF%E6%9C%AC%E6%9C%89%E4%BD%95%E5%BC%82%E5%90%8C",
-          "rank": 24,
-          "previousRank": 15,
-          "rankChange": -9,
-          "isNew": false
-        },
-        {
-          "title": "民办本科为何出现招生难",
-          "url": "https://search.bilibili.com/all?keyword=%E6%B0%91%E5%8A%9E%E6%9C%AC%E7%A7%91%E4%B8%BA%E4%BD%95%E5%87%BA%E7%8E%B0%E6%8B%9B%E7%94%9F%E9%9A%BE",
-          "rank": 25,
-          "previousRank": 14,
-          "rankChange": -11,
-          "isNew": false
-        },
-        {
-          "title": "美日联手保日元有效吗",
-          "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E6%97%A5%E8%81%94%E6%89%8B%E4%BF%9D%E6%97%A5%E5%85%83%E6%9C%89%E6%95%88%E5%90%97",
-          "rank": 26,
-          "previousRank": 28,
-          "rankChange": 2,
-          "isNew": false
-        },
-        {
-          "title": "放假最后一天belike",
-          "url": "https://search.bilibili.com/all?keyword=%E6%94%BE%E5%81%87%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9belike",
-          "rank": 27,
-          "previousRank": 21,
-          "rankChange": -6,
-          "isNew": false
-        },
-        {
-          "title": "解析哈利波特原著中的斯内普",
-          "url": "https://search.bilibili.com/all?keyword=%E8%A7%A3%E6%9E%90%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9%E5%8E%9F%E8%91%97%E4%B8%AD%E7%9A%84%E6%96%AF%E5%86%85%E6%99%AE",
-          "rank": 28,
+          "title": "赛考斯坐在沙地上动情落泪",
+          "url": "https://search.bilibili.com/all?keyword=%E8%B5%9B%E8%80%83%E6%96%AF%E5%9D%90%E5%9C%A8%E6%B2%99%E5%9C%B0%E4%B8%8A%E5%8A%A8%E6%83%85%E8%90%BD%E6%B3%AA",
+          "rank": 16,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "恐怖版PVZ新僵尸诡异清扫者",
-          "url": "https://search.bilibili.com/all?keyword=%E6%81%90%E6%80%96%E7%89%88PVZ%E6%96%B0%E5%83%B5%E5%B0%B8%E8%AF%A1%E5%BC%82%E6%B8%85%E6%89%AB%E8%80%85",
+          "title": "UP主聊龙餐馆创作呈现方式",
+          "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E8%81%8A%E9%BE%99%E9%A4%90%E9%A6%86%E5%88%9B%E4%BD%9C%E5%91%88%E7%8E%B0%E6%96%B9%E5%BC%8F",
+          "rank": 17,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
+        },
+        {
+          "title": "三角洲S11赛季爆料",
+          "url": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2S11%E8%B5%9B%E5%AD%A3%E7%88%86%E6%96%99",
+          "rank": 18,
+          "previousRank": 18,
+          "rankChange": 0,
+          "isNew": false
+        },
+        {
+          "title": "AI短剧把人写成了妖",
+          "url": "https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E5%89%A7%E6%8A%8A%E4%BA%BA%E5%86%99%E6%88%90%E4%BA%86%E5%A6%96",
+          "rank": 19,
+          "previousRank": 16,
+          "rankChange": -3,
+          "isNew": false
+        },
+        {
+          "title": "Spirit夺冠名场面回顾",
+          "url": "https://search.bilibili.com/all?keyword=Spirit%E5%A4%BA%E5%86%A0%E5%90%8D%E5%9C%BA%E9%9D%A2%E5%9B%9E%E9%A1%BE",
+          "rank": 20,
+          "previousRank": 19,
+          "rankChange": -1,
+          "isNew": false
+        },
+        {
+          "title": "龙餐馆和家是本有何异同",
+          "url": "https://search.bilibili.com/all?keyword=%E9%BE%99%E9%A4%90%E9%A6%86%E5%92%8C%E5%AE%B6%E6%98%AF%E6%9C%AC%E6%9C%89%E4%BD%95%E5%BC%82%E5%90%8C",
+          "rank": 21,
+          "previousRank": 24,
+          "rankChange": 3,
+          "isNew": false
+        },
+        {
+          "title": "甲醛白菜背后的运输难题",
+          "url": "https://search.bilibili.com/all?keyword=%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%E8%83%8C%E5%90%8E%E7%9A%84%E8%BF%90%E8%BE%93%E9%9A%BE%E9%A2%98",
+          "rank": 22,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
+        },
+        {
+          "title": "AI短片槐灯",
+          "url": "https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E7%89%87%E6%A7%90%E7%81%AF",
+          "rank": 23,
+          "previousRank": 17,
+          "rankChange": -6,
+          "isNew": false
+        },
+        {
+          "title": "民办本科为何出现招生难",
+          "url": "https://search.bilibili.com/all?keyword=%E6%B0%91%E5%8A%9E%E6%9C%AC%E7%A7%91%E4%B8%BA%E4%BD%95%E5%87%BA%E7%8E%B0%E6%8B%9B%E7%94%9F%E9%9A%BE",
+          "rank": 24,
+          "previousRank": 25,
+          "rankChange": 1,
+          "isNew": false
+        },
+        {
+          "title": "AI科普护理工作的意义所在",
+          "url": "https://search.bilibili.com/all?keyword=AI%E7%A7%91%E6%99%AE%E6%8A%A4%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E4%B9%89%E6%89%80%E5%9C%A8",
+          "rank": 25,
+          "previousRank": 9,
+          "rankChange": -16,
+          "isNew": false
+        },
+        {
+          "title": "美伊以冲突有何经济意义",
+          "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E4%BC%8A%E4%BB%A5%E5%86%B2%E7%AA%81%E6%9C%89%E4%BD%95%E7%BB%8F%E6%B5%8E%E6%84%8F%E4%B9%89",
+          "rank": 26,
+          "previousRank": 20,
+          "rankChange": -6,
+          "isNew": false
+        },
+        {
+          "title": "锐评我们的少年时代2",
+          "url": "https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84%E6%88%91%E4%BB%AC%E7%9A%84%E5%B0%91%E5%B9%B4%E6%97%B6%E4%BB%A32",
+          "rank": 27,
+          "previousRank": 22,
+          "rankChange": -5,
+          "isNew": false
+        },
+        {
+          "title": "开学时的我belike",
+          "url": "https://search.bilibili.com/all?keyword=%E5%BC%80%E5%AD%A6%E6%97%B6%E7%9A%84%E6%88%91belike",
+          "rank": 28,
+          "previousRank": 12,
+          "rankChange": -16,
+          "isNew": false
+        },
+        {
+          "title": "美国全面升级对伊制裁",
+          "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7%E5%AF%B9%E4%BC%8A%E5%88%B6%E8%A3%81",
           "rank": 29,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "为何上大学后会产生空虚感",
-          "url": "https://search.bilibili.com/all?keyword=%E4%B8%BA%E4%BD%95%E4%B8%8A%E5%A4%A7%E5%AD%A6%E5%90%8E%E4%BC%9A%E4%BA%A7%E7%94%9F%E7%A9%BA%E8%99%9A%E6%84%9F",
+          "title": "曼城将1.4亿签下恩佐",
+          "url": "https://search.bilibili.com/all?keyword=%E6%9B%BC%E5%9F%8E%E5%B0%861.4%E4%BA%BF%E7%AD%BE%E4%B8%8B%E6%81%A9%E4%BD%90",
           "rank": 30,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "previousRank": 3,
+          "rankChange": -27,
+          "isNew": false
         }
       ]
     }
