@@ -2005,20 +2005,20 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Guardian World",
-          "Google News"
+          "Google News",
+          "Guardian World"
         ],
         "relatedLinks": [
-          {
-            "url": "https://www.theguardian.com/us-news/2026/aug/30/trump-nbc-kristen-welker-fcc",
-            "source": "Guardian World",
-            "title": "Trump says NBC’s Kristen ‌Welker should face ‘punishment’ from FCC",
-            "titleZh": "特朗普称NBC的克里斯汀·韦尔克应受到FCC的‘惩罚’"
-          },
           {
             "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOc2RVM0pVVURyOUR6NGJiMVdKcTY2d2M1bkx2RjctaGdEZVp5TTFlcnRmQXdfbVcxRDI5Z1gxcjVzWE5yZG9JZXgwN3YzLUNEZ3l4SURwRkxNWGY3TDhGZWUwemlIMWZGNFVQb29pOTRhWU0wV25NaERGV3ozcGM2Zkp3?oc=5",
             "source": "Google News",
             "title": "Trump says NBC’s Kristen ‌Welker should face ‘punishment’ from FCC - The Guardian",
+            "titleZh": "特朗普称NBC的克里斯汀·韦尔克应受到FCC的‘惩罚’"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/30/trump-nbc-kristen-welker-fcc",
+            "source": "Guardian World",
+            "title": "Trump says NBC’s Kristen ‌Welker should face ‘punishment’ from FCC",
             "titleZh": "特朗普称NBC的克里斯汀·韦尔克应受到FCC的‘惩罚’"
           }
         ],
@@ -5051,10 +5051,11 @@
         "isPriority": true,
         "eventId": "19057e65fac8ff4c08d331863ea55c2eaec8a49a",
         "canonicalUrl": "https://medium.com/freedomofthought/ai-can-answer-almost-anything-it-still-cant-tell-you-what-matters-31fd8b08437b",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -5305,10 +5306,11 @@
         "isPriority": true,
         "eventId": "39473c574d0dee5c8e558f3cc0b0c4c07586203c",
         "canonicalUrl": "https://cryptobriefing.com/openai-acquires-thousands-of-mac-minis-mac-studios-for-ai-training-the",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -5924,10 +5926,11 @@
         "isPriority": false,
         "eventId": "d12a3efa56ec3744d1d84ced775d51691aae2ae7",
         "canonicalUrl": "https://sander.ai/2026/08/24/continuous-dlms.html",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -6023,8 +6026,3341 @@
         "language": "",
         "languages": [],
         "titleZh": "XGBoost向量叶模型"
+      },
+      {
+        "title": "开辟新的泄洪通道、转移群众8000人 云南磨憨洪涝灾害最新救援进展",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687004.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:32:00 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0432c4ac26e2b2a24f5b05ce7f3e7ba71aad627d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a5edf895242ea40bf15c4182055e325906717f61",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-31/10687004.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687004.shtml",
+            "source": "中国新闻网",
+            "title": "开辟新的泄洪通道、转移群众8000人 云南磨憨洪涝灾害最新救援进展",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "9月起，这些新规将影响你我生活！",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687003.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:30:26 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "856260fe9cbc67c474c13ebab439339a4ad50d8a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "298fe6b2ecee290e67c8823a981cc6d606fd504c",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10687003.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687003.shtml",
+            "source": "中国新闻网",
+            "title": "9月起，这些新规将影响你我生活！",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "线上“气氛组”为何在线下成了“社恐人”",
+        "url": "https://www.chinanews.com.cn/edu/2026/08-31/10687001.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:15:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "c186b4e7bb8d36405a6bd8a66ad391ac7bed2556",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d4d011028d5cf044a8fb9fe7b4482baecaee6205",
+        "canonicalUrl": "https://chinanews.com.cn/edu/2026/08-31/10687001.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/edu/2026/08-31/10687001.shtml",
+            "source": "中国新闻网",
+            "title": "线上“气氛组”为何在线下成了“社恐人”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "危化品码头违规垂钓何以禁而不绝",
+        "url": "https://www.chinanews.com.cn/fz/2026/08-31/10687000.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:14:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "d1305f9ce4f9640f0c1854109edadee19a178223",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cc2fa1fd338b4a361e827b4c4484b3f251187491",
+        "canonicalUrl": "https://chinanews.com.cn/fz/2026/08-31/10687000.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/fz/2026/08-31/10687000.shtml",
+            "source": "中国新闻网",
+            "title": "危化品码头违规垂钓何以禁而不绝",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "县域消费，不是“把城市的东西搬过来”",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686999.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:12:31 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4aae00dd3accc733de8bc6240cb1a6d2651a187c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0aec06641ca1c4b427e22df4e0d01879147c3ed5",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-31/10686999.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686999.shtml",
+            "source": "中国新闻网",
+            "title": "县域消费，不是“把城市的东西搬过来”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "订单排到年底！这一千亿级“冷”市场，“热”起来了",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686998.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:09:23 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "33b9b49d74b3f5f09b6347d1d340b3d69d55143b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2b63c1a04246fa02f85180c530497338aa310cd6",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-31/10686998.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686998.shtml",
+            "source": "中国新闻网",
+            "title": "订单排到年底！这一千亿级“冷”市场，“热”起来了",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "美大峡谷国家公园突发山洪，至少15人失联",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686995.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 08:01:13 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "cd4702cbe9220ed77eda34f4612b56618775d709",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fe4a9f350e11ff5eabe0d3ae98022c05f111763d",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686995.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686995.shtml",
+            "source": "中国新闻网",
+            "title": "美大峡谷国家公园突发山洪，至少15人失联",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "国产大模型与算力平台“双向奔赴” 带来哪些新机遇？",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686994.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:56:46 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "966aa6e9e86330d467890267fc60e75e5133901c",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "大模型"
+        ],
+        "isPriority": true,
+        "eventId": "3c2c8fa978c18eb5545ebbc2279d2674cff3fdc4",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-31/10686994.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686994.shtml",
+            "source": "中国新闻网",
+            "title": "国产大模型与算力平台“双向奔赴” 带来哪些新机遇？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "特朗普“踢牌跳舞”，美国用户打开谷歌地图一看，“安大略湖”真成“美国湖”了！",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686991.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:52:10 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "575f9db29672021c5b3741f6acd5bab7d2249f9c",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "369b19484d1cce1c8a9824268852185a5cc98295",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686991.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686991.shtml",
+            "source": "中国新闻网",
+            "title": "特朗普“踢牌跳舞”，美国用户打开谷歌地图一看，“安大略湖”真成“美国湖”了！",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "台风“班朗”将逐渐变性为温带气旋 “艾涛”停止编号",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686988.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:46:51 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "df4bb15912ba2ccae2dc4eb358a98035458c902d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "792b0819c2509225129da8abe00da98cb498a7dd",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686988.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686988.shtml",
+            "source": "中国新闻网",
+            "title": "台风“班朗”将逐渐变性为温带气旋 “艾涛”停止编号",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "从赛场惊艳到产业深耕 中国机器人加速领跑全球",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686987.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:46:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a11f70de037a0aa44eebde7ad84dc77316deb73f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "36236a664031c6b54d16cb64eda3e9501673a99f",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-31/10686987.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686987.shtml",
+            "source": "中国新闻网",
+            "title": "从赛场惊艳到产业深耕 中国机器人加速领跑全球",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "警惕“成功学”带偏孩子的阅读",
+        "url": "https://www.chinanews.com.cn/edu/2026/08-31/10686986.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:42:21 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "cc56e86fadcda6d96753e7f49269369457d77a06",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9f56e79437e640387390f53bd53b5bef6942d770",
+        "canonicalUrl": "https://chinanews.com.cn/edu/2026/08-31/10686986.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/edu/2026/08-31/10686986.shtml",
+            "source": "中国新闻网",
+            "title": "警惕“成功学”带偏孩子的阅读",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "“沙德尔”残余涡旋可能发展为热带低压或编号台风",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686985.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:38:35 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f455ed1219df3361c2bb64ce2be3eaba79bf69e1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d1eff4f3c6766a01b5fdfd101e7519da6c869351",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686985.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686985.shtml",
+            "source": "中国新闻网",
+            "title": "“沙德尔”残余涡旋可能发展为热带低压或编号台风",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "暴雨黄色预警：江苏安徽等9省区部分地区有大暴雨 局地特大暴雨",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686983.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:37:41 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "86a42c9c1938b0758e71a0b77c09219cfc3037b0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8290f5e14d30047bc7edb7721535d5836c08000e",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686983.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686983.shtml",
+            "source": "中国新闻网",
+            "title": "暴雨黄色预警：江苏安徽等9省区部分地区有大暴雨 局地特大暴雨",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "别被AI的“自信”带偏了",
+        "url": "https://www.chinanews.com.cn/ll/2026/08-31/10686982.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:36:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8b7ee125c1d2e947d72793f246b08a0790b35c1f",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "76984a538a5f3bde5932d99ff40ac47047d0b5d9",
+        "canonicalUrl": "https://chinanews.com.cn/ll/2026/08-31/10686982.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/ll/2026/08-31/10686982.shtml",
+            "source": "中国新闻网",
+            "title": "别被AI的“自信”带偏了",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "今起三天北京晴天持续 早晚凉意渐起注意添衣",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686981.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:34:53 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3a41419c8cde0f28362e03de94767e157ac997ac",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "114fd3fc91780cc1ace5598fe1f33f432a997987",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686981.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686981.shtml",
+            "source": "中国新闻网",
+            "title": "今起三天北京晴天持续 早晚凉意渐起注意添衣",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "AI客服“转人工”难？“新国标”来了",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686980.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:32:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "21549b9942961693322270736ac592db1d69a034",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "78a8fe328cc6bbda51426fd9159bb763f20e2d31",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686980.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686980.shtml",
+            "source": "中国新闻网",
+            "title": "AI客服“转人工”难？“新国标”来了",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "军工企业骨干遭围猎 为两国境外间谍提供敏感资料 细节披露",
+        "url": "https://www.chinanews.com.cn/fz/2026/08-31/10686979.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:28:56 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "91c1f5af87fe10bd9553a8fef6e2f0f28a9bff44",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fc61b9eb8f46e3f5ab124f39d4e05f11633c469e",
+        "canonicalUrl": "https://chinanews.com.cn/fz/2026/08-31/10686979.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/fz/2026/08-31/10686979.shtml",
+            "source": "中国新闻网",
+            "title": "军工企业骨干遭围猎 为两国境外间谍提供敏感资料 细节披露",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "吉隆口岸信号抢通 新堰塞湖基本排空 受灾核心区将进行深层次搜索",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686978.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:27:24 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "d9b40ae74248b3738337e195c9ba2530229c54c7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8cc625bfe6be58581e730c29dfe09df93e13f871",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-31/10686978.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686978.shtml",
+            "source": "中国新闻网",
+            "title": "吉隆口岸信号抢通 新堰塞湖基本排空 受灾核心区将进行深层次搜索",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "国道216线受泥石流灾害冲击通行中断 抢通工作持续进行中",
+        "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686977.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:22:56 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "6f62674446cd86370dbb6425c8ec595ea8c0d2cd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "10c02e530fd9b3573622f30510a9d0a48f3873ab",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/08-31/10686977.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686977.shtml",
+            "source": "中国新闻网",
+            "title": "国道216线受泥石流灾害冲击通行中断 抢通工作持续进行中",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "塞浦路斯渡轮倾覆事件已致8人死亡",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686976.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:21:36 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "5d76a001b7c541d97888cc645836422980fc51fd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "97aa64e50036ee072269029c9346974c82e5434f",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686976.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686976.shtml",
+            "source": "中国新闻网",
+            "title": "塞浦路斯渡轮倾覆事件已致8人死亡",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "跟着潮玩“解锁”大陆旅游新体验",
+        "url": "https://www.chinanews.com.cn/cul/2026/08-31/10686975.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:18:16 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "bdf9275b4a562bf04f56b93c2b39c3718eba487d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fb29227db80194191dc68dc0d58f41998aea82c2",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/08-31/10686975.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/08-31/10686975.shtml",
+            "source": "中国新闻网",
+            "title": "跟着潮玩“解锁”大陆旅游新体验",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "受美行政令影响谷歌地图调整安大略湖标注，特朗普发图展示“美国湖”",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686974.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 07:15:00 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "5f2865783a0e916e549681043bd7da392a3e3eb7",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "d24d81f15948c4b8c01db236cf55cf3380adf479",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686974.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686974.shtml",
+            "source": "中国新闻网",
+            "title": "受美行政令影响谷歌地图调整安大略湖标注，特朗普发图展示“美国湖”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "8月31日新闻早报",
+        "url": "https://www.chinanews.com.cn/iframe/2026/08-31/10686973.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:52:00 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8393751cffb29d0ef75c666ae8a3ceec6eccf0d0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b4a504ca79d401a484329e44215415b088a265d2",
+        "canonicalUrl": "https://chinanews.com.cn/iframe/2026/08-31/10686973.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/iframe/2026/08-31/10686973.shtml",
+            "source": "中国新闻网",
+            "title": "8月31日新闻早报",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "气候变暖和吉隆县泥石流灾害有关系吗？",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686972.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:47:30 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0cf26ecdc2e8eb6cae4bba26dce3d4d7ccd8accc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6b98ce8f80face9339d473f3aa1eb29ef09d223e",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686972.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686972.shtml",
+            "source": "中国新闻网",
+            "title": "气候变暖和吉隆县泥石流灾害有关系吗？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "美国大峡谷国家公园突发山洪 超20人失联",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686971.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:42:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "873f71eb6e91323652789560ca2b0a2471b8965f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "3ec1a017bdb0cedc331b8db646a3ecf7cdfcd8d7",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686971.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686971.shtml",
+            "source": "中国新闻网",
+            "title": "美国大峡谷国家公园突发山洪 超20人失联",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "塞浦路斯渡轮倾覆事故已致7人死亡23人失踪",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686970.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:39:33 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b432d9906610e95e14ac2bee3dc5e5792a6ed818",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "607043051d0be47881c9b5ebdf493a31d7a8233b",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686970.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686970.shtml",
+            "source": "中国新闻网",
+            "title": "塞浦路斯渡轮倾覆事故已致7人死亡23人失踪",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "大学生创业补贴，何以成了中介的“唐僧肉”？",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686969.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:34:17 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "39908c1a1585f3859c4e571d4a8e4da6f80bf640",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cbb538bac77b84fe34301749af8565cb55e9c4fb",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686969.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686969.shtml",
+            "source": "中国新闻网",
+            "title": "大学生创业补贴，何以成了中介的“唐僧肉”？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "美伊再度交火：美军袭击伊朗导弹阵地，伊朗回击",
+        "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686968.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:28:55 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "e0de648e984e669aba2b3a245a5779d2ef710eef",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "伊朗"
+        ],
+        "isPriority": true,
+        "eventId": "462a57d73e3b27fef7e98afdbe630e72831f04f6",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/08-31/10686968.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686968.shtml",
+            "source": "中国新闻网",
+            "title": "美伊再度交火：美军袭击伊朗导弹阵地，伊朗回击",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "“新中国民族团结第一碑”最后一位在世签字代表李万学逝世",
+        "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686966.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-08-31T00:44:08.117Z",
+        "pubDate": "Mon, 31 Aug 2026 06:22:30 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "9ed664ee0ac8f8a3e49423ed8f99e7b949baa602",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "70c8f3f146f10802d507a1fc8643d3f24daf030e",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/08-31/10686966.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686966.shtml",
+            "source": "中国新闻网",
+            "title": "“新中国民族团结第一碑”最后一位在世签字代表李万学逝世",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中国新能源车如何改变南非人的购车选择？",
+        "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686967.shtml",
+        "source": "中国新闻网财经",
+        "fetchedAt": "2026-08-31T00:44:07.949Z",
+        "pubDate": "Mon, 31 Aug 2026 06:22:10 +0800",
+        "category": "财经",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "504d5f4316a5ee06f83dab0cf3f3b7bf8def0188",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5d09171e8692ac6159b96859b824a7a99f038352",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/08-31/10686967.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网财经"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686967.shtml",
+            "source": "中国新闻网财经",
+            "title": "中国新能源车如何改变南非人的购车选择？",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "财经"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Karina becomes a Pacific hurricane well away from land and is forecast to become a major storm - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbTR4WTlCVnhET21UWUhNMHc1WUtsbjNHeXZpZ1dETFJjTjBuLUoyRnN0LWo3U3JETVhnQVJSZnBWam4xTEQ1Y0RvR2ZpUVZ6NEFad2YxS3VCRGJJeXREVmJjQldKekI5dGxvUG5XbXhJTFYxcUtyTS1FUkQ4UTloQl94QWFVaC1SdDdPczBKa294WmYwblpYZUpla1JPYWdxb0otcEtITlk?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-31T00:44:08.283Z",
+        "pubDate": "Sun, 30 Aug 2026 20:53:00 GMT",
+        "id": "d7c06daf3f37783254680dd397d2ca240e967952",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "42e6e73ebbb840fbfcf304ec8538f421b0052647",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbTR4WTlCVnhET21UWUhNMHc1WUtsbjNHeXZpZ1dETFJjTjBuLUoyRnN0LWo3U3JETVhnQVJSZnBWam4xTEQ1Y0RvR2ZpUVZ6NEFad2YxS3VCRGJJeXREVmJjQldKekI5dGxvUG5XbXhJTFYxcUtyTS1FUkQ4UTloQl94QWFVaC1SdDdPczBKa294WmYwblpYZUpla1JPYWdxb0otcEtITlk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbTR4WTlCVnhET21UWUhNMHc1WUtsbjNHeXZpZ1dETFJjTjBuLUoyRnN0LWo3U3JETVhnQVJSZnBWam4xTEQ1Y0RvR2ZpUVZ6NEFad2YxS3VCRGJJeXREVmJjQldKekI5dGxvUG5XbXhJTFYxcUtyTS1FUkQ4UTloQl94QWFVaC1SdDdPczBKa294WmYwblpYZUpla1JPYWdxb0otcEtITlk?oc=5",
+            "source": "AP News via Google News",
+            "title": "Karina becomes a Pacific hurricane well away from land and is forecast to become a major storm - AP News",
+            "titleZh": "卡琳娜成为远离陆地的太平洋飓风，预计将增强为强风暴 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "卡琳娜成为远离陆地的太平洋飓风，预计将增强为强风暴 - 美联社新闻"
+      },
+      {
+        "title": "US Treasury blocks certain journalists from G20 meeting in North Carolina - AP News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYjVPYXBuYXdIZUtXVkN4VzRJVlA3aU83Sjlrc3hpQXhvT1VtQ3p1Q3gzdWhETEJVUFgxNkJBeXB4c3ZpY2thanU3MkFmRHJqNEVxYjdfTzd1VVF4QjFLY3U0dHhmeTRwS19Ua1VEMDlOQkRCZDBKaG1tSVZHVkw2SHRLRjBwYmM5ZVpGWWxVTEVDM0c2SjlR?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-31T00:44:08.283Z",
+        "pubDate": "Sun, 30 Aug 2026 22:16:00 GMT",
+        "id": "2048cd0a60b09f443c1bd8d29b652ea057cc8bd2",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "d5987d1758ac071cdda7f2a7b9edbe10d1600206",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYjVPYXBuYXdIZUtXVkN4VzRJVlA3aU83Sjlrc3hpQXhvT1VtQ3p1Q3gzdWhETEJVUFgxNkJBeXB4c3ZpY2thanU3MkFmRHJqNEVxYjdfTzd1VVF4QjFLY3U0dHhmeTRwS19Ua1VEMDlOQkRCZDBKaG1tSVZHVkw2SHRLRjBwYmM5ZVpGWWxVTEVDM0c2SjlR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYjVPYXBuYXdIZUtXVkN4VzRJVlA3aU83Sjlrc3hpQXhvT1VtQ3p1Q3gzdWhETEJVUFgxNkJBeXB4c3ZpY2thanU3MkFmRHJqNEVxYjdfTzd1VVF4QjFLY3U0dHhmeTRwS19Ua1VEMDlOQkRCZDBKaG1tSVZHVkw2SHRLRjBwYmM5ZVpGWWxVTEVDM0c2SjlR?oc=5",
+            "source": "AP News via Google News",
+            "title": "US Treasury blocks certain journalists from G20 meeting in North Carolina - AP News",
+            "titleZh": "美国财政部阻止部分记者参加在北卡罗来纳州举行的二十国集团会议 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国财政部阻止部分记者参加在北卡罗来纳州举行的二十国集团会议 - 美联社新闻"
+      },
+      {
+        "title": "As NFL roster deadline nears, several teams make trades - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM1FZQkdwa3Npd1d1LWRWLUtPbmdzU1QxeF9LVGxmNmZRMl9OOEJDdnFuWVJyc3VDRURyWnFyWDRfcGVXdE4zOEhISDhkS0ZfM2JCVF85Y2k5WGZNcHM5aWRicWRJOTdIdFZJUXlNZERPNGYzMVF0enlNaHVNZWFnWS1fU3RNTG51TUE?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-31T00:44:08.283Z",
+        "pubDate": "Sun, 30 Aug 2026 18:21:00 GMT",
+        "id": "2958ee475eab253384bcf122ad1655a00c653659",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "78b048a05b21d716f35450134253ca1d069b36d9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM1FZQkdwa3Npd1d1LWRWLUtPbmdzU1QxeF9LVGxmNmZRMl9OOEJDdnFuWVJyc3VDRURyWnFyWDRfcGVXdE4zOEhISDhkS0ZfM2JCVF85Y2k5WGZNcHM5aWRicWRJOTdIdFZJUXlNZERPNGYzMVF0enlNaHVNZWFnWS1fU3RNTG51TUE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM1FZQkdwa3Npd1d1LWRWLUtPbmdzU1QxeF9LVGxmNmZRMl9OOEJDdnFuWVJyc3VDRURyWnFyWDRfcGVXdE4zOEhISDhkS0ZfM2JCVF85Y2k5WGZNcHM5aWRicWRJOTdIdFZJUXlNZERPNGYzMVF0enlNaHVNZWFnWS1fU3RNTG51TUE?oc=5",
+            "source": "AP News via Google News",
+            "title": "As NFL roster deadline nears, several teams make trades - AP News",
+            "titleZh": "随着NFL阵容截止日期临近，多支球队进行交易 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "随着NFL阵容截止日期临近，多支球队进行交易 - 美联社新闻"
+      },
+      {
+        "title": "What we know about Trump’s deal giving US access to vast oil reserves in Venezuela - AP News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXNxWElFTl8zZkM0SHliM3NOTGcxb0lEMDVjVUtmanZuOE16MEJScEtoajFwM0k4Qk5MQTM2dUtpc2psTVJMX2RyUjdncFNKTUtXMnRxejM1T2xTZi0tMUYxRkVUQnJKSThHMXJFb21PXzZNbGpXNGQ1aDlYa0tRV0E3Slp3bzNFM3hKc0cxY2Y1U3NMQkZBS1YtdmRoV0l5Z0w1WUN2N3l6bFVncGJYZQ?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-31T00:44:08.283Z",
+        "pubDate": "Sun, 30 Aug 2026 21:54:00 GMT",
+        "id": "56cbceb2a6cf9aec9caab4906368aa33ddcd1a58",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "e4c55cdf4fce19533d5a486e4d7a30e9bd146893",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXNxWElFTl8zZkM0SHliM3NOTGcxb0lEMDVjVUtmanZuOE16MEJScEtoajFwM0k4Qk5MQTM2dUtpc2psTVJMX2RyUjdncFNKTUtXMnRxejM1T2xTZi0tMUYxRkVUQnJKSThHMXJFb21PXzZNbGpXNGQ1aDlYa0tRV0E3Slp3bzNFM3hKc0cxY2Y1U3NMQkZBS1YtdmRoV0l5Z0w1WUN2N3l6bFVncGJYZQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXNxWElFTl8zZkM0SHliM3NOTGcxb0lEMDVjVUtmanZuOE16MEJScEtoajFwM0k4Qk5MQTM2dUtpc2psTVJMX2RyUjdncFNKTUtXMnRxejM1T2xTZi0tMUYxRkVUQnJKSThHMXJFb21PXzZNbGpXNGQ1aDlYa0tRV0E3Slp3bzNFM3hKc0cxY2Y1U3NMQkZBS1YtdmRoV0l5Z0w1WUN2N3l6bFVncGJYZQ?oc=5",
+            "source": "AP News via Google News",
+            "title": "What we know about Trump’s deal giving US access to vast oil reserves in Venezuela - AP News",
+            "titleZh": "关于特朗普协议让美国获得委内瑞拉巨大石油储备的已知信息 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "关于特朗普协议让美国获得委内瑞拉巨大石油储备的已知信息 - 美联社新闻"
+      },
+      {
+        "title": "Iran’s supreme leader calls for Muslim unity against US and Israel, and other Mideast news - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXNXUlRyRVRBMTBUdkJPYjk4a1lyalIyS04tY0QzS0JxYjRFR1F4a2lDeEZteUhYNTJnMFYzLTVBc0N2Uk5uNVc2cElLOUVmd3VxRFRjOEpWYUNRTzdkTE9uMTNIcV9QdXhzTEhmXzN2NmgyYlkzczRYYTgtWGxsZlhDSVFwMWFKS2VyRHBzbHNnSU9HMlN0b1BhdExxWTcyTFpTQUFjb0xsRUE?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-08-31T00:44:08.283Z",
+        "pubDate": "Sun, 30 Aug 2026 20:23:00 GMT",
+        "id": "64f871dc74b8fe2024dbba3432b6e996b4bddbfc",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "伊朗",
+          "以色列",
+          "中东",
+          "Iran",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "7901519cc119d3c706b2e95ce93bc13b89785fbc",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXNXUlRyRVRBMTBUdkJPYjk4a1lyalIyS04tY0QzS0JxYjRFR1F4a2lDeEZteUhYNTJnMFYzLTVBc0N2Uk5uNVc2cElLOUVmd3VxRFRjOEpWYUNRTzdkTE9uMTNIcV9QdXhzTEhmXzN2NmgyYlkzczRYYTgtWGxsZlhDSVFwMWFKS2VyRHBzbHNnSU9HMlN0b1BhdExxWTcyTFpTQUFjb0xsRUE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXNXUlRyRVRBMTBUdkJPYjk4a1lyalIyS04tY0QzS0JxYjRFR1F4a2lDeEZteUhYNTJnMFYzLTVBc0N2Uk5uNVc2cElLOUVmd3VxRFRjOEpWYUNRTzdkTE9uMTNIcV9QdXhzTEhmXzN2NmgyYlkzczRYYTgtWGxsZlhDSVFwMWFKS2VyRHBzbHNnSU9HMlN0b1BhdExxWTcyTFpTQUFjb0xsRUE?oc=5",
+            "source": "AP News via Google News",
+            "title": "Iran’s supreme leader calls for Muslim unity against US and Israel, and other Mideast news - AP News",
+            "titleZh": "伊朗最高领袖呼吁穆斯林团结对抗美国和以色列，及其他中东新闻 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊朗最高领袖呼吁穆斯林团结对抗美国和以色列，及其他中东新闻 - 美联社新闻"
+      },
+      {
+        "title": "Iran's IRGC says it launched attack on two US bases in Jordan - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOclJRRzlZV2lpOFlsSGdGcE1fUXVlel9CRndnX1NoM3lHcXkya2JMMWdrTEhUcnJyTHY0WDBqeFVoRzJmdEw5TlFXSGY1SVd1NXJERFdHS0IzQkhtRTdNTlJOMlp3RjgwYVVFYjY3NnV6d1c5cEt0UlVmaDJOdFBlT1ZRc0RpTVRVSkliRkU0SWZGYXZFa1JJdzNaOGxqVEFkX0FuV0l5WUNoaEFO?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-31T00:44:07.976Z",
+        "pubDate": "Sun, 30 Aug 2026 23:07:20 GMT",
+        "id": "7037a115b98ba218b692c36808559f9b42b36b7f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "伊朗",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "54d4cbff0e788c7b628b3af30b87cc6f0333a026",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOclJRRzlZV2lpOFlsSGdGcE1fUXVlel9CRndnX1NoM3lHcXkya2JMMWdrTEhUcnJyTHY0WDBqeFVoRzJmdEw5TlFXSGY1SVd1NXJERFdHS0IzQkhtRTdNTlJOMlp3RjgwYVVFYjY3NnV6d1c5cEt0UlVmaDJOdFBlT1ZRc0RpTVRVSkliRkU0SWZGYXZFa1JJdzNaOGxqVEFkX0FuV0l5WUNoaEFO",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOclJRRzlZV2lpOFlsSGdGcE1fUXVlel9CRndnX1NoM3lHcXkya2JMMWdrTEhUcnJyTHY0WDBqeFVoRzJmdEw5TlFXSGY1SVd1NXJERFdHS0IzQkhtRTdNTlJOMlp3RjgwYVVFYjY3NnV6d1c5cEt0UlVmaDJOdFBlT1ZRc0RpTVRVSkliRkU0SWZGYXZFa1JJdzNaOGxqVEFkX0FuV0l5WUNoaEFO?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Iran's IRGC says it launched attack on two US bases in Jordan - Reuters",
+            "titleZh": "伊朗伊斯兰革命卫队称对约旦两处美军基地发动袭击 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "伊朗伊斯兰革命卫队称对约旦两处美军基地发动袭击 - 路透社"
+      },
+      {
+        "title": "Pacific forum set to open in Palau without several leaders - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ1gtLWZUYWJNdHkzR1B6N3pfRFVIaGpISHVRS3JRWWFwWE4ybDhCRTU1RzFuQ2RtME5fM2ZMNG0zbHBreGs5Sk9CSTVLc2xTXzdScWtPcEJreFhfNGlwX1hQSDZQdDlqNmU2Tm9LanQ3eDZfeWJ2Nk5WOU5rNHRNS3JTSkdkWHp2QnN3Tm9BVF9obTVLNmZwTkVYY0JkdTd2REVSYkJ3ZElLc28?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-08-31T00:44:07.976Z",
+        "pubDate": "Sun, 30 Aug 2026 22:47:43 GMT",
+        "id": "43185d92cb39bdac26fce311231281521b5c7b7a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "10fa3bb20e003e731dab49957f1a7e47a3638736",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ1gtLWZUYWJNdHkzR1B6N3pfRFVIaGpISHVRS3JRWWFwWE4ybDhCRTU1RzFuQ2RtME5fM2ZMNG0zbHBreGs5Sk9CSTVLc2xTXzdScWtPcEJreFhfNGlwX1hQSDZQdDlqNmU2Tm9LanQ3eDZfeWJ2Nk5WOU5rNHRNS3JTSkdkWHp2QnN3Tm9BVF9obTVLNmZwTkVYY0JkdTd2REVSYkJ3ZElLc28",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ1gtLWZUYWJNdHkzR1B6N3pfRFVIaGpISHVRS3JRWWFwWE4ybDhCRTU1RzFuQ2RtME5fM2ZMNG0zbHBreGs5Sk9CSTVLc2xTXzdScWtPcEJreFhfNGlwX1hQSDZQdDlqNmU2Tm9LanQ3eDZfeWJ2Nk5WOU5rNHRNS3JTSkdkWHp2QnN3Tm9BVF9obTVLNmZwTkVYY0JkdTd2REVSYkJ3ZElLc28?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Pacific forum set to open in Palau without several leaders - Reuters",
+            "titleZh": "太平洋论坛将在帕劳开幕，多位领导人缺席 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "太平洋论坛将在帕劳开幕，多位领导人缺席 - 路透社"
+      },
+      {
+        "title": "15 People May Be Missing at Grand Canyon After Flash Flood - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3k2b2VidEVVck12bUE1Y0NxUS0zYnVmdkxxYzNodjZyZ2pjWmJmcXZYSU41dUppRmNiOE9VWW56ZXBwNk5ULUtWMmVyYjlKZkFPUlc3VU9zcVNwNkNLSkFTSGFHVnpDR1paZ25fNm9yMDlyc0Znbml2ZGdFeEY3MGNxaVF5c2U4WFE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 23:35:57 GMT",
+        "id": "277def96af253b4d60f3e214d61c747ad72f3881",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a8fc982f1c2f01b25965beefa87ca3a664a32a16",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3k2b2VidEVVck12bUE1Y0NxUS0zYnVmdkxxYzNodjZyZ2pjWmJmcXZYSU41dUppRmNiOE9VWW56ZXBwNk5ULUtWMmVyYjlKZkFPUlc3VU9zcVNwNkNLSkFTSGFHVnpDR1paZ25fNm9yMDlyc0Znbml2ZGdFeEY3MGNxaVF5c2U4WFE",
+        "clusterSize": 2,
+        "sourceCount": 2,
+        "relatedSources": [
+          "Google News",
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3k2b2VidEVVck12bUE1Y0NxUS0zYnVmdkxxYzNodjZyZ2pjWmJmcXZYSU41dUppRmNiOE9VWW56ZXBwNk5ULUtWMmVyYjlKZkFPUlc3VU9zcVNwNkNLSkFTSGFHVnpDR1paZ25fNm9yMDlyc0Znbml2ZGdFeEY3MGNxaVF5c2U4WFE?oc=5",
+            "source": "Google News",
+            "title": "15 People May Be Missing at Grand Canyon After Flash Flood - The New York Times",
+            "titleZh": "大峡谷山洪后可能有15人失踪 - 《纽约时报》"
+          },
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/30/grand-canyon-flash-flood-arizona-people-missing-evacuated",
+            "source": "Guardian World",
+            "title": "At least 15 people may be missing after flash flood in Arizona’s Grand Canyon",
+            "titleZh": ""
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "大峡谷山洪后可能有15人失踪 - 《纽约时报》"
+      },
+      {
+        "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 23:53:03 GMT",
+        "id": "2c7d76b06d6299b9da0c8ad9449e71f3ed954cbd",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "伊朗"
+        ],
+        "isPriority": true,
+        "eventId": "e7b4009d95612e9bf149cfd98501575de05e2fca",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?oc=5",
+            "source": "Google News",
+            "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks - BBC",
+            "titleZh": "美国袭击伊朗在拉拉克岛的发射装置，这是数周来首次已知攻击 - BBC"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国袭击伊朗在拉拉克岛的发射装置，这是数周来首次已知攻击 - BBC"
+      },
+      {
+        "title": "Devastation from the Nepal-China Floods in 30 photos - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU08xUnlVQ0hYZmFuYmtYbG1zcmNoSFBGRnFUX3k4eHJveW1PTnZ1eU5LSlRyV05hb2VIekVLZ29fLVRmd1NyRGY1NjExY3R2TzFfeE1kbXc1TVBSd01pUXROclVRMG9qQktSOW9MTmZVeXhZWUYtSm1qamtTTXBwVG9LYm9HSm5NbHA1UHpUS25CemN6RkxkcVpESdIBoAFBVV95cUxPVTNnMmlfcUdubWlKV0Z4V01kTnZPcC1tSkwwMlI0Z1lSc2JYekU3elQ4azBXSFJ5TDAwMXpEcUNKUEpUQlR1cTFwU2g5aUhid0FXYWFBTTFPWGlVN08weFhCOUFsVXEwOGk0WkFtLUJMNy1TZ0dGcGNobDF2RzNWOTdHRzZnbFhBOFJubEt3bW9ZYkpEVnJiZ3hmYmN4a1Vt?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 18:36:49 GMT",
+        "id": "2127c505523ccceb2c8f118e75551ca044b2e9e1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "60880b9fb6359ba05d1ab2836dd755c01cf4c1f6",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU08xUnlVQ0hYZmFuYmtYbG1zcmNoSFBGRnFUX3k4eHJveW1PTnZ1eU5LSlRyV05hb2VIekVLZ29fLVRmd1NyRGY1NjExY3R2TzFfeE1kbXc1TVBSd01pUXROclVRMG9qQktSOW9MTmZVeXhZWUYtSm1qamtTTXBwVG9LYm9HSm5NbHA1UHpUS25CemN6RkxkcVpESdIBoAFBVV95cUxPVTNnMmlfcUdubWlKV0Z4V01kTnZPcC1tSkwwMlI0Z1lSc2JYekU3elQ4azBXSFJ5TDAwMXpEcUNKUEpUQlR1cTFwU2g5aUhid0FXYWFBTTFPWGlVN08weFhCOUFsVXEwOGk0WkFtLUJMNy1TZ0dGcGNobDF2RzNWOTdHRzZnbFhBOFJubEt3bW9ZYkpEVnJiZ3hmYmN4a1Vt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU08xUnlVQ0hYZmFuYmtYbG1zcmNoSFBGRnFUX3k4eHJveW1PTnZ1eU5LSlRyV05hb2VIekVLZ29fLVRmd1NyRGY1NjExY3R2TzFfeE1kbXc1TVBSd01pUXROclVRMG9qQktSOW9MTmZVeXhZWUYtSm1qamtTTXBwVG9LYm9HSm5NbHA1UHpUS25CemN6RkxkcVpESdIBoAFBVV95cUxPVTNnMmlfcUdubWlKV0Z4V01kTnZPcC1tSkwwMlI0Z1lSc2JYekU3elQ4azBXSFJ5TDAwMXpEcUNKUEpUQlR1cTFwU2g5aUhid0FXYWFBTTFPWGlVN08weFhCOUFsVXEwOGk0WkFtLUJMNy1TZ0dGcGNobDF2RzNWOTdHRzZnbFhBOFJubEt3bW9ZYkpEVnJiZ3hmYmN4a1Vt?oc=5",
+            "source": "Google News",
+            "title": "Devastation from the Nepal-China Floods in 30 photos - Al Jazeera",
+            "titleZh": "尼泊尔-中国洪灾造成的破坏，30张照片 - 半岛电视台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "尼泊尔-中国洪灾造成的破坏，30张照片 - 半岛电视台"
+      },
+      {
+        "title": "Venezuela vowed not to ‘hand over’ its oil. Trump aims to grab a windfall. - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDhpVVpJMnVaXy11d21lcU5ZcHpsNkJKOUhJX0U3d3ZfcHlyVXdmaVQta0pxUl9mMmdaa0pwSlRVWlJ6TmI2OUc5My1CQVplZkxiOTdDXzg1V3FQNkoxdzlRZGhZVzNIdGRxOHdGME05NTBjanhPenpzWkxpbEZqYnJZS0NoRk1EUW9iVUp2RDZDWV9JMy1pbmxReTNNLXhOWkpOYUctTzg4NGV2UzVGdg?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 23:56:58 GMT",
+        "id": "900e2cc2d37f31d27b0dbcb9b864e863a3dd853f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "2d7fea0096afdfaace4a68f2953bdef0e7c4e743",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDhpVVpJMnVaXy11d21lcU5ZcHpsNkJKOUhJX0U3d3ZfcHlyVXdmaVQta0pxUl9mMmdaa0pwSlRVWlJ6TmI2OUc5My1CQVplZkxiOTdDXzg1V3FQNkoxdzlRZGhZVzNIdGRxOHdGME05NTBjanhPenpzWkxpbEZqYnJZS0NoRk1EUW9iVUp2RDZDWV9JMy1pbmxReTNNLXhOWkpOYUctTzg4NGV2UzVGdg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDhpVVpJMnVaXy11d21lcU5ZcHpsNkJKOUhJX0U3d3ZfcHlyVXdmaVQta0pxUl9mMmdaa0pwSlRVWlJ6TmI2OUc5My1CQVplZkxiOTdDXzg1V3FQNkoxdzlRZGhZVzNIdGRxOHdGME05NTBjanhPenpzWkxpbEZqYnJZS0NoRk1EUW9iVUp2RDZDWV9JMy1pbmxReTNNLXhOWkpOYUctTzg4NGV2UzVGdg?oc=5",
+            "source": "Google News",
+            "title": "Venezuela vowed not to ‘hand over’ its oil. Trump aims to grab a windfall. - The Washington Post",
+            "titleZh": "委内瑞拉誓言不会‘交出’其石油。特朗普意在攫取意外之财。 - 《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "委内瑞拉誓言不会‘交出’其石油。特朗普意在攫取意外之财。 - 《华盛顿邮报》"
+      },
+      {
+        "title": "Google Maps switches to \"Lake America\" as Canada compares change to SNL skit - Axios",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YcGJBQWIwd2kwN01rQlkzUzZpMUlnZTZRZURRWUtWamxBUUQ0RGI1YnB3WFNxdWF1bFBjX21KRjJZTXRrLVhYVmJpTVNVdGd1UkY3NHNCMkc1MWFGWVpGSTM5U1RWMVVDc0tTSU10M2dyR2NMay1NTA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 23:50:49 GMT",
+        "id": "53237c74bed5f473988f6e650e16aa6dd9cb2646",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "4be8784549a3a1abea0913ab5e36d6737257305b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YcGJBQWIwd2kwN01rQlkzUzZpMUlnZTZRZURRWUtWamxBUUQ0RGI1YnB3WFNxdWF1bFBjX21KRjJZTXRrLVhYVmJpTVNVdGd1UkY3NHNCMkc1MWFGWVpGSTM5U1RWMVVDc0tTSU10M2dyR2NMay1NTA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YcGJBQWIwd2kwN01rQlkzUzZpMUlnZTZRZURRWUtWamxBUUQ0RGI1YnB3WFNxdWF1bFBjX21KRjJZTXRrLVhYVmJpTVNVdGd1UkY3NHNCMkc1MWFGWVpGSTM5U1RWMVVDc0tTSU10M2dyR2NMay1NTA?oc=5",
+            "source": "Google News",
+            "title": "Google Maps switches to \"Lake America\" as Canada compares change to SNL skit - Axios",
+            "titleZh": "谷歌地图更名为“美国湖”，加拿大将此举比作《周六夜现场》小品 - Axios"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "谷歌地图更名为“美国湖”，加拿大将此举比作《周六夜现场》小品 - Axios"
+      },
+      {
+        "title": "Venezuela’s Maduro Resurfaces on Social Media Amid US Oil Deal - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUDRPSG5oQy0ydHhIMWJya2RRWEdFelJXQ2g4SXZaYmRaNmZDZktFcWswZm1ZVkFmR29aRnhsN1lhWXJuRml6cmpTcERiQnZBSlVDZVVNRGtzWjBPakFRUE9iVW95NTk2TFJPZ3NGLUEtLVFObF9EeUIxUTNEaXYtMnJJanYxQnRaTWdqeUFzdHJFd3dyeDRYam05bVZ2bktsWHR0LTFDWWlTRXlIV1FGbENHMA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 19:18:51 GMT",
+        "id": "c2320a035f11d232088fe6ff455dcd9cbd194d7d",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "92eb0e264e684b5efe0b16737dfa319a253c3430",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUDRPSG5oQy0ydHhIMWJya2RRWEdFelJXQ2g4SXZaYmRaNmZDZktFcWswZm1ZVkFmR29aRnhsN1lhWXJuRml6cmpTcERiQnZBSlVDZVVNRGtzWjBPakFRUE9iVW95NTk2TFJPZ3NGLUEtLVFObF9EeUIxUTNEaXYtMnJJanYxQnRaTWdqeUFzdHJFd3dyeDRYam05bVZ2bktsWHR0LTFDWWlTRXlIV1FGbENHMA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUDRPSG5oQy0ydHhIMWJya2RRWEdFelJXQ2g4SXZaYmRaNmZDZktFcWswZm1ZVkFmR29aRnhsN1lhWXJuRml6cmpTcERiQnZBSlVDZVVNRGtzWjBPakFRUE9iVW95NTk2TFJPZ3NGLUEtLVFObF9EeUIxUTNEaXYtMnJJanYxQnRaTWdqeUFzdHJFd3dyeDRYam05bVZ2bktsWHR0LTFDWWlTRXlIV1FGbENHMA?oc=5",
+            "source": "Google News",
+            "title": "Venezuela’s Maduro Resurfaces on Social Media Amid US Oil Deal - Bloomberg.com",
+            "titleZh": "委内瑞拉的马杜罗在美国石油交易背景下重新现身社交媒体 - Bloomberg.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "委内瑞拉的马杜罗在美国石油交易背景下重新现身社交媒体 - Bloomberg.com"
+      },
+      {
+        "title": "At least 3 dead, 18 wounded in separate blue state mass shootings less than 15 minutes apart - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeURwZWpDejJoQklLZWN0b2REMDB1RmtKQ25ETlB6UUI2S21keDduNUlRRVBuNmgwbTY2RGJRWnNFQ0Q0S2ZXVmxvX0I1U1g5X21aUFhBNlZJMlNIZDhRNFljNG9uZlpsMXdySFZjZnZKMUFiOE0zUHczMHR4YzE5bDhXeU9mbGYwQ3hRTHFNSTBrUVlFNjZ0MWg1VGJERkhMY3k2U01FZWpqME5wTGlZ0gG0AUFVX3lxTE5FdkplRV83TF91RWVPY1gyRk9sREhHcDhPZGtjbHlCcDRrMU42TUlId0pzOVdZTkk2clJZTG9jRE8yLW0wS21ua201N2NpSDhaajFjdmIxVHROOWt1UTNQNEx3Q0oyZi1BVEtHc2RHZm1sZnFwWGV3eXpPelIya0kyTXMzeTJnQzUwRTNKaG1sRXRsMVhfd004RFJ5ZU5wMG0tLUZhTl9RLVhJZ1A5UjhDSUc5Mw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 17:03:33 GMT",
+        "id": "2e5c8af80de0d1a2c9e8242525b43375926de50e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c209315dc2082732e2864141c57df39cc1838f52",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeURwZWpDejJoQklLZWN0b2REMDB1RmtKQ25ETlB6UUI2S21keDduNUlRRVBuNmgwbTY2RGJRWnNFQ0Q0S2ZXVmxvX0I1U1g5X21aUFhBNlZJMlNIZDhRNFljNG9uZlpsMXdySFZjZnZKMUFiOE0zUHczMHR4YzE5bDhXeU9mbGYwQ3hRTHFNSTBrUVlFNjZ0MWg1VGJERkhMY3k2U01FZWpqME5wTGlZ0gG0AUFVX3lxTE5FdkplRV83TF91RWVPY1gyRk9sREhHcDhPZGtjbHlCcDRrMU42TUlId0pzOVdZTkk2clJZTG9jRE8yLW0wS21ua201N2NpSDhaajFjdmIxVHROOWt1UTNQNEx3Q0oyZi1BVEtHc2RHZm1sZnFwWGV3eXpPelIya0kyTXMzeTJnQzUwRTNKaG1sRXRsMVhfd004RFJ5ZU5wMG0tLUZhTl9RLVhJZ1A5UjhDSUc5Mw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeURwZWpDejJoQklLZWN0b2REMDB1RmtKQ25ETlB6UUI2S21keDduNUlRRVBuNmgwbTY2RGJRWnNFQ0Q0S2ZXVmxvX0I1U1g5X21aUFhBNlZJMlNIZDhRNFljNG9uZlpsMXdySFZjZnZKMUFiOE0zUHczMHR4YzE5bDhXeU9mbGYwQ3hRTHFNSTBrUVlFNjZ0MWg1VGJERkhMY3k2U01FZWpqME5wTGlZ0gG0AUFVX3lxTE5FdkplRV83TF91RWVPY1gyRk9sREhHcDhPZGtjbHlCcDRrMU42TUlId0pzOVdZTkk2clJZTG9jRE8yLW0wS21ua201N2NpSDhaajFjdmIxVHROOWt1UTNQNEx3Q0oyZi1BVEtHc2RHZm1sZnFwWGV3eXpPelIya0kyTXMzeTJnQzUwRTNKaG1sRXRsMVhfd004RFJ5ZU5wMG0tLUZhTl9RLVhJZ1A5UjhDSUc5Mw?oc=5",
+            "source": "Google News",
+            "title": "At least 3 dead, 18 wounded in separate blue state mass shootings less than 15 minutes apart - Fox News",
+            "titleZh": "蓝色州两起大规模枪击案相隔不到15分钟，至少3人死亡、18人受伤 - 福克斯新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "蓝色州两起大规模枪击案相隔不到15分钟，至少3人死亡、18人受伤 - 福克斯新闻"
+      },
+      {
+        "title": "West Bank: Israeli settlers storm Palestinian village, seizing home with owner inside - CNN",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTW1oTXpaamJPY2FFZ3pBOUhNbkV3SFRLUGJrMDV1Qm1QdmJ4VVItd1hCcmdKejk0WlcwOU90elhsSllReVBWU2RNTjQxTkxYREd3VzdPeGE3LU9FRzk3YTQwbXlJU0hPS2pIRGV3c0czS29sS0JHYk0xSUQ2a0VIUG5tUkN2R2xYY3JLN05Fa250ZUk?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 16:58:53 GMT",
+        "id": "eb72e66fc1eb7b229aab393d3e493fa0dd3ea86c",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "巴勒斯坦"
+        ],
+        "isPriority": true,
+        "eventId": "4f661b18a949fe3557e70ddedecfdc358f6e709f",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTW1oTXpaamJPY2FFZ3pBOUhNbkV3SFRLUGJrMDV1Qm1QdmJ4VVItd1hCcmdKejk0WlcwOU90elhsSllReVBWU2RNTjQxTkxYREd3VzdPeGE3LU9FRzk3YTQwbXlJU0hPS2pIRGV3c0czS29sS0JHYk0xSUQ2a0VIUG5tUkN2R2xYY3JLN05Fa250ZUk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTW1oTXpaamJPY2FFZ3pBOUhNbkV3SFRLUGJrMDV1Qm1QdmJ4VVItd1hCcmdKejk0WlcwOU90elhsSllReVBWU2RNTjQxTkxYREd3VzdPeGE3LU9FRzk3YTQwbXlJU0hPS2pIRGV3c0czS29sS0JHYk0xSUQ2a0VIUG5tUkN2R2xYY3JLN05Fa250ZUk?oc=5",
+            "source": "Google News",
+            "title": "West Bank: Israeli settlers storm Palestinian village, seizing home with owner inside - CNN",
+            "titleZh": "约旦河西岸：以色列定居者闯入巴勒斯坦村庄，在房主在场的情况下强占房屋 - CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "约旦河西岸：以色列定居者闯入巴勒斯坦村庄，在房主在场的情况下强占房屋 - CNN"
+      },
+      {
+        "title": "US plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP - AP News",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdldWT1BUeFUxSlNnaU9rZTl5eDlWd0dSejRvTUg4YkhEZzNIWjVGc0x3VFVENkltZ2dKb3JleFc0YTRQX0M1NGVJcUhXd0l3endPSHFIZl90N0tHSW80S21ZVUhrOG1Yb1RrMTlBX2UydVFCMEV1MjQ1UDI5Z3RkTDQ1TjY3Z1BseXQyZ3Q5eVBENDYwQ2s5Rm9HMkhIQQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 23:30:00 GMT",
+        "id": "b9c87e52b018edf4f14ea788edcb72a4481bedc7",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "伊朗",
+          "制裁",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "859cbb0db025446774cdc6a9d6dff5a2880e876e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdldWT1BUeFUxSlNnaU9rZTl5eDlWd0dSejRvTUg4YkhEZzNIWjVGc0x3VFVENkltZ2dKb3JleFc0YTRQX0M1NGVJcUhXd0l3endPSHFIZl90N0tHSW80S21ZVUhrOG1Yb1RrMTlBX2UydVFCMEV1MjQ1UDI5Z3RkTDQ1TjY3Z1BseXQyZ3Q5eVBENDYwQ2s5Rm9HMkhIQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdldWT1BUeFUxSlNnaU9rZTl5eDlWd0dSejRvTUg4YkhEZzNIWjVGc0x3VFVENkltZ2dKb3JleFc0YTRQX0M1NGVJcUhXd0l3endPSHFIZl90N0tHSW80S21ZVUhrOG1Yb1RrMTlBX2UydVFCMEV1MjQ1UDI5Z3RkTDQ1TjY3Z1BseXQyZ3Q5eVBENDYwQ2s5Rm9HMkhIQQ?oc=5",
+            "source": "Google News",
+            "title": "US plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP - AP News",
+            "titleZh": "美国计划制裁另一家银行以加大对伊朗交易的打击力度，贝森特告诉美联社 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国计划制裁另一家银行以加大对伊朗交易的打击力度，贝森特告诉美联社 - 美联社新闻"
+      },
+      {
+        "title": "Rockstar Has GTA 5 Fans Marveling At How Far GTA 6 Has Come - Kotaku",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09MWG5kT3Vib2JlaGxld2duU2NKNnd2azRtT0ZpYVRuR25Lc0UzUWZpSk1TMEFTRG81RGFxWFl5WE9nMExWeFFIVExIWEVmNlA4TTlpTWFyc1BXeUMyY3N0WmRKanBLVUhxUkdTVEZzR0k3R29qa0xnaHEyOFM5dnYtS0lZQUQtZHlWX1ZLbHFCRmRCMTBTU01BUUd3SHM?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 17:11:57 GMT",
+        "id": "1172a8c7086bde3477f2a7af983abd56419f1e2e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4b78ef8a89659e50f1e7349a9b62f524957ce467",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09MWG5kT3Vib2JlaGxld2duU2NKNnd2azRtT0ZpYVRuR25Lc0UzUWZpSk1TMEFTRG81RGFxWFl5WE9nMExWeFFIVExIWEVmNlA4TTlpTWFyc1BXeUMyY3N0WmRKanBLVUhxUkdTVEZzR0k3R29qa0xnaHEyOFM5dnYtS0lZQUQtZHlWX1ZLbHFCRmRCMTBTU01BUUd3SHM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb09MWG5kT3Vib2JlaGxld2duU2NKNnd2azRtT0ZpYVRuR25Lc0UzUWZpSk1TMEFTRG81RGFxWFl5WE9nMExWeFFIVExIWEVmNlA4TTlpTWFyc1BXeUMyY3N0WmRKanBLVUhxUkdTVEZzR0k3R29qa0xnaHEyOFM5dnYtS0lZQUQtZHlWX1ZLbHFCRmRCMTBTU01BUUd3SHM?oc=5",
+            "source": "Google News",
+            "title": "Rockstar Has GTA 5 Fans Marveling At How Far GTA 6 Has Come - Kotaku",
+            "titleZh": "Rockstar让GTA 5玩家惊叹GTA 6的进步 - Kotaku"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Rockstar让GTA 5玩家惊叹GTA 6的进步 - Kotaku"
+      },
+      {
+        "title": "Dolly Parton’s niece shares emotional tribute after singer’s private funeral - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRDN3bkRWVTVLcGs2V0liNEk3Yld5UTRmZ1oxQnY3VEstUi0tN0c4N3ZyUWpnNVg3RXBMc2VQRHQ0RnVfTG1DcU5sU0E2dXR0YXVqa2FEdFEwV0I5dENNVkp1cEpYa0F4dTZrODljMjZ1bTBlNjhhVnJndEVPMUhiQUprbVV3LUFYcE1mTVI4bm1QZF9nRHkzcnNZY2lMenduODd5aVo5aU9wZU1Oc0ViT1BR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 21:05:55 GMT",
+        "id": "9896fc2d9b3da116442b10c76104278896cf3b01",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "09f700e6d843b856689a6e8196392267b315c96d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRDN3bkRWVTVLcGs2V0liNEk3Yld5UTRmZ1oxQnY3VEstUi0tN0c4N3ZyUWpnNVg3RXBMc2VQRHQ0RnVfTG1DcU5sU0E2dXR0YXVqa2FEdFEwV0I5dENNVkp1cEpYa0F4dTZrODljMjZ1bTBlNjhhVnJndEVPMUhiQUprbVV3LUFYcE1mTVI4bm1QZF9nRHkzcnNZY2lMenduODd5aVo5aU9wZU1Oc0ViT1BR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRDN3bkRWVTVLcGs2V0liNEk3Yld5UTRmZ1oxQnY3VEstUi0tN0c4N3ZyUWpnNVg3RXBMc2VQRHQ0RnVfTG1DcU5sU0E2dXR0YXVqa2FEdFEwV0I5dENNVkp1cEpYa0F4dTZrODljMjZ1bTBlNjhhVnJndEVPMUhiQUprbVV3LUFYcE1mTVI4bm1QZF9nRHkzcnNZY2lMenduODd5aVo5aU9wZU1Oc0ViT1BR?oc=5",
+            "source": "Google News",
+            "title": "Dolly Parton’s niece shares emotional tribute after singer’s private funeral - NBC News",
+            "titleZh": "多莉·帕顿的侄女在歌手私人葬礼后分享感人悼念 - NBC新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "多莉·帕顿的侄女在歌手私人葬礼后分享感人悼念 - NBC新闻"
+      },
+      {
+        "title": "Finneas O’Connell and Claudia Sulewski Are Married - The Hollywood Reporter",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMDlUSnZZNU14ZDZGWWp3RklkbGwxLXZETjFUX1FjUy1QZVZtREdOX0VKTDdMWGlCeTBheWZBQVR1S1ZVQUJuN0Q3UXVmOGJQQ25TQVhFUzRyQnlUWTZvRWhHQ044Nm13OHdCeVptY01XS2tsY0dsVXR5blg0WEQya0M5NUFKeEhCV2lFT2tCdzR2TDZKaTFCLUdYcDBrVFNsV1hZX1J2YkxGYkdyWVhkc0pn?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 19:50:29 GMT",
+        "id": "115164bb646ffd1be7096f0edb8d60188b134e7b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6c06878840e2489c5d772b691f268c456d860534",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMDlUSnZZNU14ZDZGWWp3RklkbGwxLXZETjFUX1FjUy1QZVZtREdOX0VKTDdMWGlCeTBheWZBQVR1S1ZVQUJuN0Q3UXVmOGJQQ25TQVhFUzRyQnlUWTZvRWhHQ044Nm13OHdCeVptY01XS2tsY0dsVXR5blg0WEQya0M5NUFKeEhCV2lFT2tCdzR2TDZKaTFCLUdYcDBrVFNsV1hZX1J2YkxGYkdyWVhkc0pn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMDlUSnZZNU14ZDZGWWp3RklkbGwxLXZETjFUX1FjUy1QZVZtREdOX0VKTDdMWGlCeTBheWZBQVR1S1ZVQUJuN0Q3UXVmOGJQQ25TQVhFUzRyQnlUWTZvRWhHQ044Nm13OHdCeVptY01XS2tsY0dsVXR5blg0WEQya0M5NUFKeEhCV2lFT2tCdzR2TDZKaTFCLUdYcDBrVFNsV1hZX1J2YkxGYkdyWVhkc0pn?oc=5",
+            "source": "Google News",
+            "title": "Finneas O’Connell and Claudia Sulewski Are Married - The Hollywood Reporter",
+            "titleZh": "菲尼亚斯·奥康奈尔和克劳迪娅·苏莱夫斯基已结婚 - 好莱坞报道者"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "菲尼亚斯·奥康奈尔和克劳迪娅·苏莱夫斯基已结婚 - 好莱坞报道者"
+      },
+      {
+        "title": "Scottie Scheffler passes Tiger Woods at No. 1 on PGA Tour all-time money list after second FedEx Cup win - CBS Sports",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjBxYTN4MGFEQ25aX253SG9jMUxtOWJmcFh6cTB2Yk85NlVIT0JhTGNBWDFzclBWS0REZVhyRG9VN2syMnRSWmxyT2JBOHVhQV81bnJmalpVQVppYmxUNWpSeDI2cGFaYWRhd0pGUlNKcFA5TnRVb3NkdGIwM2g2WFVZSnJsbUkyVGN2REp5LVRUcFhySFhLTEhLRQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 22:48:45 GMT",
+        "id": "ba16a04904421038f90ad424fba9a84647c0985c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5c7935f35c97f4d3c26f2bd5357d2d6cc89c1c21",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjBxYTN4MGFEQ25aX253SG9jMUxtOWJmcFh6cTB2Yk85NlVIT0JhTGNBWDFzclBWS0REZVhyRG9VN2syMnRSWmxyT2JBOHVhQV81bnJmalpVQVppYmxUNWpSeDI2cGFaYWRhd0pGUlNKcFA5TnRVb3NkdGIwM2g2WFVZSnJsbUkyVGN2REp5LVRUcFhySFhLTEhLRQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjBxYTN4MGFEQ25aX253SG9jMUxtOWJmcFh6cTB2Yk85NlVIT0JhTGNBWDFzclBWS0REZVhyRG9VN2syMnRSWmxyT2JBOHVhQV81bnJmalpVQVppYmxUNWpSeDI2cGFaYWRhd0pGUlNKcFA5TnRVb3NkdGIwM2g2WFVZSnJsbUkyVGN2REp5LVRUcFhySFhLTEhLRQ?oc=5",
+            "source": "Google News",
+            "title": "Scottie Scheffler passes Tiger Woods at No. 1 on PGA Tour all-time money list after second FedEx Cup win - CBS Sports",
+            "titleZh": "斯科蒂·舍夫勒在第二次赢得联邦快递杯后，超越泰格·伍兹登上PGA巡回赛历史奖金榜首位 - CBS体育"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "斯科蒂·舍夫勒在第二次赢得联邦快递杯后，超越泰格·伍兹登上PGA巡回赛历史奖金榜首位 - CBS体育"
+      },
+      {
+        "title": "U.S. Open 2026: How to watch today, full TV schedule, streaming info and more - Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWld1TTNtZzRVdmlscWM3Q3dXa1JxU180ZU5EX0JoSUZacl9aZG95WTdLcm10aS1aWXJxY0hBOS11YlQ1UjZIWVptSUhBT3FjRGoxZm4xZWV6cGl0VkFReXNBT0g5NVRUR01oOHl6QlBrSDh6OUxodlJsLWJqb09uaEpnZ0lkSlBhdUk2ZnVHV3BXOVZHRmh5TF91cXpBMjFleU9LZ21mZnJLbGxoQmNRRmtyVWw2TTR1bFJ5Sk5YdDU5QWJiTlE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 16:30:00 GMT",
+        "id": "da8173d79d0c1d8800b54957ea0d4e9c5f2bf4de",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "ca2e48a24852b31c12e74e6c83738c6535224f7b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWld1TTNtZzRVdmlscWM3Q3dXa1JxU180ZU5EX0JoSUZacl9aZG95WTdLcm10aS1aWXJxY0hBOS11YlQ1UjZIWVptSUhBT3FjRGoxZm4xZWV6cGl0VkFReXNBT0g5NVRUR01oOHl6QlBrSDh6OUxodlJsLWJqb09uaEpnZ0lkSlBhdUk2ZnVHV3BXOVZHRmh5TF91cXpBMjFleU9LZ21mZnJLbGxoQmNRRmtyVWw2TTR1bFJ5Sk5YdDU5QWJiTlE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWld1TTNtZzRVdmlscWM3Q3dXa1JxU180ZU5EX0JoSUZacl9aZG95WTdLcm10aS1aWXJxY0hBOS11YlQ1UjZIWVptSUhBT3FjRGoxZm4xZWV6cGl0VkFReXNBT0g5NVRUR01oOHl6QlBrSDh6OUxodlJsLWJqb09uaEpnZ0lkSlBhdUk2ZnVHV3BXOVZHRmh5TF91cXpBMjFleU9LZ21mZnJLbGxoQmNRRmtyVWw2TTR1bFJ5Sk5YdDU5QWJiTlE?oc=5",
+            "source": "Google News",
+            "title": "U.S. Open 2026: How to watch today, full TV schedule, streaming info and more - Yahoo Sports",
+            "titleZh": "2026年美国公开赛：今日观看方式、完整电视转播时间表、流媒体信息等 - Yahoo体育"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026年美国公开赛：今日观看方式、完整电视转播时间表、流媒体信息等 - Yahoo体育"
+      },
+      {
+        "title": "NCDPH: Hotel guests possibly exposed to measles during stay - WYFF",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sa0c1cHdaS055WGxOZUtYYzVZYXlrUUFCeHRnWTAzUXo0OE81YkRnOEdmbGd2UGEwSzZHMXlLZ29VMW1Eei00NXV4Q3NWeWZoNjAzZTg4NnlKd1owdXM3VlpGVFNzWG42SVExdlpmNHBJQzZyTVF4Sg?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-08-31T00:44:08.009Z",
+        "pubDate": "Sun, 30 Aug 2026 21:11:00 GMT",
+        "id": "3a48a5358b63acf0f6571809ffb974f7347f6896",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8d5261614db48c254f578a08c97abdc1975a5cc2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sa0c1cHdaS055WGxOZUtYYzVZYXlrUUFCeHRnWTAzUXo0OE81YkRnOEdmbGd2UGEwSzZHMXlLZ29VMW1Eei00NXV4Q3NWeWZoNjAzZTg4NnlKd1owdXM3VlpGVFNzWG42SVExdlpmNHBJQzZyTVF4Sg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sa0c1cHdaS055WGxOZUtYYzVZYXlrUUFCeHRnWTAzUXo0OE81YkRnOEdmbGd2UGEwSzZHMXlLZ29VMW1Eei00NXV4Q3NWeWZoNjAzZTg4NnlKd1owdXM3VlpGVFNzWG42SVExdlpmNHBJQzZyTVF4Sg?oc=5",
+            "source": "Google News",
+            "title": "NCDPH: Hotel guests possibly exposed to measles during stay - WYFF",
+            "titleZh": "NCDPH：酒店客人住宿期间可能接触过麻疹 - WYFF"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "NCDPH：酒店客人住宿期间可能接触过麻疹 - WYFF"
+      },
+      {
+        "title": "“I just chose words carefully”",
+        "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-31T00:44:08.412Z",
+        "pubDate": "Sun, 30 Aug 2026 22:49:48 +0000",
+        "id": "91a891d47bfa8b2741bb46edc073318223329f6e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "babdcb3073bf101d7d288c49411d37e9ce0c9d13",
+        "canonicalUrl": "https://unsung.aresluna.org/i-just-chose-words-carefully",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+            "source": "Hacker News Frontpage",
+            "title": "“I just chose words carefully”",
+            "titleZh": "“我只是谨慎地选择了措辞”"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“我只是谨慎地选择了措辞”"
+      },
+      {
+        "title": "Thoughts on Pope Leo XIV's Magnifica Humanitas",
+        "url": "https://adropincalm.com/blog/thoughts-on-magnifica-humanitas/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-31T00:44:08.412Z",
+        "pubDate": "Sun, 30 Aug 2026 22:46:04 +0000",
+        "id": "4861620e8c6a0b96b775425a44ea0cfdbdc12892",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b13cac5e4eddb72324d74ffc465b41ddf04ef4b1",
+        "canonicalUrl": "https://adropincalm.com/blog/thoughts-on-magnifica-humanitas",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://adropincalm.com/blog/thoughts-on-magnifica-humanitas/",
+            "source": "Hacker News Frontpage",
+            "title": "Thoughts on Pope Leo XIV's Magnifica Humanitas",
+            "titleZh": "对教皇利奥十四世《Magnifica Humanitas》的思考"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "对教皇利奥十四世《Magnifica Humanitas》的思考"
+      },
+      {
+        "title": "Show HN: Academa – Long-form STEM lecture videos generated by LLMs",
+        "url": "https://academa.ai/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-31T00:44:08.412Z",
+        "pubDate": "Sun, 30 Aug 2026 22:22:23 +0000",
+        "id": "af58acbf69f55c1ff7af4ceaabc116f04551412d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "406bd2ea1fc25edcae261c800b9253c654cc63af",
+        "canonicalUrl": "https://academa.ai/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://academa.ai/",
+            "source": "Hacker News Frontpage",
+            "title": "Show HN: Academa – Long-form STEM lecture videos generated by LLMs",
+            "titleZh": "展示HN：Academa——由LLM生成的长篇STEM讲座视频"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Academa——由LLM生成的长篇STEM讲座视频"
+      },
+      {
+        "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+        "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-08-31T00:44:08.412Z",
+        "pubDate": "Sun, 30 Aug 2026 20:00:25 +0000",
+        "id": "bf8f08593b5f82d2a18b37f18cf77de9eabd0e67",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "278f0e8a1ee0ba196e0a5a4bfe2aff2dad9ef027",
+        "canonicalUrl": "https://righto.com/2026/08/spacelab-core-memory.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+            "source": "Hacker News Frontpage",
+            "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+            "titleZh": "太空中的磁芯：1980年Spacelab计算机的磁芯存储模块"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "太空中的磁芯：1980年Spacelab计算机的磁芯存储模块"
+      },
+      {
+        "title": "Free tools for the Microsoft Project Online retirement, 30 days out",
+        "url": "https://onplana.com/tools",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:33:34 +0000",
+        "id": "b7c8f28d57a0f64ba6de106bb9e9bb15213d0bc2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1092de590040dc3c3c1636e874843eb47d5ecb5f",
+        "canonicalUrl": "https://onplana.com/tools",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://onplana.com/tools",
+            "source": "Hacker News Newest",
+            "title": "Free tools for the Microsoft Project Online retirement, 30 days out",
+            "titleZh": "微软Project Online退役的免费工具，还剩30天"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "微软Project Online退役的免费工具，还剩30天"
+      },
+      {
+        "title": "Static Evaluation of Model Switching in LLM Agents Scores the Wrong World",
+        "url": "https://arxiv.org/abs/2608.08239",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:28:52 +0000",
+        "id": "5412e21b71da961fcde008d065a895652321600a",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "05f6134d11dcb18850ffd9db818fff1892acff66",
+        "canonicalUrl": "https://arxiv.org/abs/2608.08239",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.08239",
+            "source": "Hacker News Newest",
+            "title": "Static Evaluation of Model Switching in LLM Agents Scores the Wrong World",
+            "titleZh": "LLM代理中模型切换的静态评估评分错误世界"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "LLM代理中模型切换的静态评估评分错误世界"
+      },
+      {
+        "title": "Show HN: Python Static Site Generator for Small Businesses",
+        "url": "https://codeberg.org/Marking-Time/MicroStore",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:28:18 +0000",
+        "id": "ec0140c3d47b36d388322368d4e7712eb5da7323",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1cc0c4485c4dc296029a65973fb387febaebb07e",
+        "canonicalUrl": "https://codeberg.org/Marking-Time/MicroStore",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://codeberg.org/Marking-Time/MicroStore",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Python Static Site Generator for Small Businesses",
+            "titleZh": "展示HN：面向小企业的Python静态网站生成器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：面向小企业的Python静态网站生成器"
+      },
+      {
+        "title": "Ace Targets Streaming Pirates Through Cloudflare and Discord Subpoenas",
+        "url": "https://torrentfreak.com/ace-targets-dozens-of-streaming-pirates-through-cloudflare-and-discord-subpoenas/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:20:26 +0000",
+        "id": "9023950a7bcb3ffac16e568e23ba1cdbff023ffd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e70c27517be290a4a6dc4f8cbd804a6207d50e8d",
+        "canonicalUrl": "https://torrentfreak.com/ace-targets-dozens-of-streaming-pirates-through-cloudflare-and-discord-subpoenas",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://torrentfreak.com/ace-targets-dozens-of-streaming-pirates-through-cloudflare-and-discord-subpoenas/",
+            "source": "Hacker News Newest",
+            "title": "Ace Targets Streaming Pirates Through Cloudflare and Discord Subpoenas",
+            "titleZh": "Ace通过Cloudflare和Discord传票打击流媒体盗版者"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Ace通过Cloudflare和Discord传票打击流媒体盗版者"
+      },
+      {
+        "title": "Europe's warm nights nearly doubled this summer",
+        "url": "https://emot.substack.com/p/europes-warm-nights-nearly-doubled",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:15:38 +0000",
+        "id": "cb7efeba604826f7eaff243a18bee9883372c6f8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cc0a7e025154513c1565da9b693a946579c5ea9f",
+        "canonicalUrl": "https://emot.substack.com/p/europes-warm-nights-nearly-doubled",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://emot.substack.com/p/europes-warm-nights-nearly-doubled",
+            "source": "Hacker News Newest",
+            "title": "Europe's warm nights nearly doubled this summer",
+            "titleZh": "欧洲今年夏季温暖夜晚数量几乎翻倍"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "欧洲今年夏季温暖夜晚数量几乎翻倍"
+      },
+      {
+        "title": "Anyone Got a Fenty.dev Invite?",
+        "url": "https://news.ycombinator.com/item?id=49504211",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:15:29 +0000",
+        "id": "fae0dc56834a4c58ed62f3503ef50ffbee2a9e8c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5439017b0fce0ef400bf98b4293e4489dce6b4fb",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49504211",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49504211",
+            "source": "Hacker News Newest",
+            "title": "Anyone Got a Fenty.dev Invite?",
+            "titleZh": "有人有Fenty.dev的邀请吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "有人有Fenty.dev的邀请吗？"
+      },
+      {
+        "title": "The Distractor",
+        "url": "http://booktwo.org/notebook/the-distractor/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:15:11 +0000",
+        "id": "146fc65a2ba4a4ed0505726e22edb4259c7098e7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "84f32b5ba9b17422c2ada13f08c2761da9d382bf",
+        "canonicalUrl": "http://booktwo.org/notebook/the-distractor",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://booktwo.org/notebook/the-distractor/",
+            "source": "Hacker News Newest",
+            "title": "The Distractor",
+            "titleZh": "干扰者"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "干扰者"
+      },
+      {
+        "title": "Show HN: Clownbid.lol – pay to be the biggest clown on the internet",
+        "url": "https://clownbid.lol/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:14:00 +0000",
+        "id": "9f4de58070c4f3468b2b6431142eacd3999e1afb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "23a30d30c3098387cbdb7798d101b1c8e994d7d0",
+        "canonicalUrl": "https://clownbid.lol/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://clownbid.lol/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Clownbid.lol – pay to be the biggest clown on the internet",
+            "titleZh": "Show HN：Clownbid.lol——付费成为互联网上最大的小丑"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Clownbid.lol——付费成为互联网上最大的小丑"
+      },
+      {
+        "title": "Give Your Coding Agent a Journal",
+        "url": "https://doug.sh/posts/give-your-coding-agent-a-journal/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:12:30 +0000",
+        "id": "ac7463cdb8d79b7a8632fd1783822674ec5b4e0f",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "a0d7f69325f258cd1d358f8436495f1c27c44e7a",
+        "canonicalUrl": "https://doug.sh/posts/give-your-coding-agent-a-journal",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://doug.sh/posts/give-your-coding-agent-a-journal/",
+            "source": "Hacker News Newest",
+            "title": "Give Your Coding Agent a Journal",
+            "titleZh": "给你的编程代理一本日志"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "给你的编程代理一本日志"
+      },
+      {
+        "title": "If You Knew God Exists, Wouldn't You Become a Priest?",
+        "url": "https://joecmarshall.com/posts/if-you-knew-god-exists-wouldnt-you-become-a-priest/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:12:19 +0000",
+        "id": "7f9b97abd277bae94c58f628544c3da2bec69ad7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3d4e5513a650f808e541cf1a9e49fa144630f16a",
+        "canonicalUrl": "https://joecmarshall.com/posts/if-you-knew-god-exists-wouldnt-you-become-a-priest",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://joecmarshall.com/posts/if-you-knew-god-exists-wouldnt-you-become-a-priest/",
+            "source": "Hacker News Newest",
+            "title": "If You Knew God Exists, Wouldn't You Become a Priest?",
+            "titleZh": "如果你知道上帝存在，你不会成为牧师吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如果你知道上帝存在，你不会成为牧师吗？"
+      },
+      {
+        "title": "Are We Learning to Think Less?",
+        "url": "https://socketstudy.com/sparks/are-we-learning-to-think-less/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:11:24 +0000",
+        "id": "3e247a62cf004c3858af4077a40c25196de88909",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d7ea7173fb8938de13745e6f670c32faced657e7",
+        "canonicalUrl": "https://socketstudy.com/sparks/are-we-learning-to-think-less",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://socketstudy.com/sparks/are-we-learning-to-think-less/",
+            "source": "Hacker News Newest",
+            "title": "Are We Learning to Think Less?",
+            "titleZh": "我们是否在学习少思考？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我们是否在学习少思考？"
+      },
+      {
+        "title": "The Ternus Era at Apple Begins, but Cook Isn't Leaving",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-30/the-ternus-era-at-apple-begins-but-cook-isn-t-leaving",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:07:08 +0000",
+        "id": "d64dce0d09cb17774b95e0b9976d610bd74631bf",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a5eced1be34d7a54996e25c86d0c176ce35e66c6",
+        "canonicalUrl": "https://bloomberg.com/news/videos/2026-08-30/the-ternus-era-at-apple-begins-but-cook-isn-t-leaving",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.bloomberg.com/news/videos/2026-08-30/the-ternus-era-at-apple-begins-but-cook-isn-t-leaving",
+            "source": "Hacker News Newest",
+            "title": "The Ternus Era at Apple Begins, but Cook Isn't Leaving",
+            "titleZh": "苹果的泰尔努斯时代开始，但库克并未离开"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "苹果的泰尔努斯时代开始，但库克并未离开"
+      },
+      {
+        "title": "Will anybody use AI as much as coders?",
+        "url": "https://www.economist.com/business/2026/08/30/will-anybody-use-ai-as-much-as-coders",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:06:42 +0000",
+        "id": "bf82cccfc6567265396cc3473a29ec17431ce25d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "1b573ed2034e16b621bb49b1cbf9503dcb0e0fe2",
+        "canonicalUrl": "https://economist.com/business/2026/08/30/will-anybody-use-ai-as-much-as-coders",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.economist.com/business/2026/08/30/will-anybody-use-ai-as-much-as-coders",
+            "source": "Hacker News Newest",
+            "title": "Will anybody use AI as much as coders?",
+            "titleZh": "会有人像程序员一样大量使用AI吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "会有人像程序员一样大量使用AI吗？"
+      },
+      {
+        "title": "Show HN: Break 5, the addictive, 5 minute, daily word game",
+        "url": "https://break5.co.uk/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:05:24 +0000",
+        "id": "aaa5b8354f7963d75f27d223dbf85c96cf43a0bf",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "28d5cfee1a0aa5a6c5ff1dd4e81d377a45e045b6",
+        "canonicalUrl": "https://break5.co.uk/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://break5.co.uk/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Break 5, the addictive, 5 minute, daily word game",
+            "titleZh": "Show HN：Break 5，令人上瘾的5分钟每日单词游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Break 5，令人上瘾的5分钟每日单词游戏"
+      },
+      {
+        "title": "West Point prof fired for continuing to teach human causes of climate change",
+        "url": "https://www.theguardian.com/us-news/2026/aug/27/west-point-climate-scientist-fired",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:02:42 +0000",
+        "id": "f950896b9f26fa58ff71d14633f3d7c006f7bc3d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5aec51d85cac457713bbf125eeb0817bdeb5decd",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/aug/27/west-point-climate-scientist-fired",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/aug/27/west-point-climate-scientist-fired",
+            "source": "Hacker News Newest",
+            "title": "West Point prof fired for continuing to teach human causes of climate change",
+            "titleZh": "西点军校教授因继续教授气候变化的人为原因而被解职"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "西点军校教授因继续教授气候变化的人为原因而被解职"
+      },
+      {
+        "title": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
+        "url": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:02:21 +0000",
+        "id": "12feaf8262a6b8e7ef863637d9a008916cc93812",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "Israel",
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "acda7e005a5e1966e1b77de5c8ff2ae8a40f81a4",
+        "canonicalUrl": "https://404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
+            "source": "Hacker News Newest",
+            "title": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
+            "titleZh": "以色列正在运营一个合成智库以影响人工智能搜索结果"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "以色列正在运营一个合成智库以影响人工智能搜索结果"
+      },
+      {
+        "title": "Show HN: Open-source hands-free mouse control with Tracky Mouse",
+        "url": "https://github.com/1j01/tracky-mouse/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Mon, 31 Aug 2026 00:00:10 +0000",
+        "id": "cc7d61719601ab1654f4503b7e016fbd19e85569",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "56af2c5d4b61ea224d195a12d84c2e033fb0279f",
+        "canonicalUrl": "https://github.com/1j01/tracky-mouse",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/1j01/tracky-mouse/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Open-source hands-free mouse control with Tracky Mouse",
+            "titleZh": "展示HN：使用Tracky Mouse的开源免提鼠标控制"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：使用Tracky Mouse的开源免提鼠标控制"
+      },
+      {
+        "title": "Debian developer resigns after corporate LLM use without disclosure wins vote",
+        "url": "https://lists.debian.org/debian-devel/2026/08/msg00318.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Sun, 30 Aug 2026 23:57:37 +0000",
+        "id": "783e2a4e9867039825d6171178f68df873e48297",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "大语言模型",
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "da77274346d56820e017678825f01be592cdf986",
+        "canonicalUrl": "https://lists.debian.org/debian-devel/2026/08/msg00318.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lists.debian.org/debian-devel/2026/08/msg00318.html",
+            "source": "Hacker News Newest",
+            "title": "Debian developer resigns after corporate LLM use without disclosure wins vote",
+            "titleZh": "Debian开发者因未披露的企业大语言模型使用赢得投票后辞职"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Debian开发者因未披露的企业大语言模型使用赢得投票后辞职"
+      },
+      {
+        "title": "Papers with wrong IDs on ArXiv more common",
+        "url": "https://www.reddit.com/r/learnmachinelearning/comments/1w2u68z/heads_up_some_papers_are_citing_completely_wrong/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Sun, 30 Aug 2026 23:52:42 +0000",
+        "id": "751b4ecc6c1f22670c3ec4acf44bad5ce488c053",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9076210e90fafe3ecf284087aff0b3c0e663ceef",
+        "canonicalUrl": "https://reddit.com/r/learnmachinelearning/comments/1w2u68z/heads_up_some_papers_are_citing_completely_wrong",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.reddit.com/r/learnmachinelearning/comments/1w2u68z/heads_up_some_papers_are_citing_completely_wrong/",
+            "source": "Hacker News Newest",
+            "title": "Papers with wrong IDs on ArXiv more common",
+            "titleZh": "ArXiv上ID错误的论文更为常见"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ArXiv上ID错误的论文更为常见"
+      },
+      {
+        "title": "Show HN: St. Louis Food Map",
+        "url": "https://stlouing.com/food/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-08-31T00:44:08.411Z",
+        "pubDate": "Sun, 30 Aug 2026 23:51:34 +0000",
+        "id": "e915da9619291d0088b3d330da0e6fdbed7834d9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8c3ad7c4fdb44f87b5c9f212964c5377ac052170",
+        "canonicalUrl": "https://stlouing.com/food",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://stlouing.com/food/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: St. Louis Food Map",
+            "titleZh": "展示HN：圣路易斯美食地图"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：圣路易斯美食地图"
+      },
+      {
+        "id": "d9fc0a6456cd2b8eccbd01985c185022656f40c5",
+        "title": "AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI",
+        "url": "https://arxiv.org/abs/2608.26418",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-31T00:44:08.407Z",
+        "pubDate": "2026-08-31T00:37:46Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "cfa8836920db397ed9d456d94402bcbd200ea136",
+        "canonicalUrl": "https://arxiv.org/abs/2608.26418",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2608.26418",
+            "source": "Hacker News Algolia AI Search",
+            "title": "AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI",
+            "titleZh": "人工智能在两周内从零设计、验证并部署的AI加速器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "人工智能在两周内从零设计、验证并部署的AI加速器"
+      },
+      {
+        "id": "9d3ff8da301a6d17396df80056a6dd7028f3eff3",
+        "title": "Lady Gaga is now an AI-longevity biotech founder",
+        "url": "https://www.regeneration.ai/p/lady-gaga-is-now-an-ai-longevity",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-31T00:44:08.407Z",
+        "pubDate": "2026-08-30T23:44:44Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "e7c5d105a86cf3db29ff9b03e35d29149930d1ef",
+        "canonicalUrl": "https://regeneration.ai/p/lady-gaga-is-now-an-ai-longevity",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.regeneration.ai/p/lady-gaga-is-now-an-ai-longevity",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Lady Gaga is now an AI-longevity biotech founder",
+            "titleZh": "Lady Gaga如今成为人工智能长寿生物技术创始人"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Lady Gaga如今成为人工智能长寿生物技术创始人"
+      },
+      {
+        "id": "8ccd5168ac342521c5b280afd1bbc09d2c106f6f",
+        "title": "Show HN: What Apple's OS updates silently change in the on-device AI model",
+        "url": "https://umer9538.github.io/underfoot/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-31T00:44:08.407Z",
+        "pubDate": "2026-08-30T23:41:50Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "9ac16b1b2bdf860fa6c7f75798f3fb1043faaf14",
+        "canonicalUrl": "https://umer9538.github.io/underfoot",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://umer9538.github.io/underfoot/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: What Apple's OS updates silently change in the on-device AI model",
+            "titleZh": "展示HN：苹果操作系统更新在设备端AI模型中悄然改变了什么"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：苹果操作系统更新在设备端AI模型中悄然改变了什么"
+      },
+      {
+        "id": "90923868680ada66cd482fd63dce38680988a3c2",
+        "title": "Which AI Wrote This?",
+        "url": "https://modelaccent.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-31T00:44:08.407Z",
+        "pubDate": "2026-08-30T22:52:11Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "94394a8e1f242ce146b61c399c5d3cb508efc0bb",
+        "canonicalUrl": "https://modelaccent.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://modelaccent.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Which AI Wrote This?",
+            "titleZh": "哪个人工智能写了这个？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "哪个人工智能写了这个？"
+      },
+      {
+        "id": "b4bbc2290cdb24e727e4a10b91862974c168fa39",
+        "title": "Civitas – A Civilization for AI Agents on GitHub",
+        "url": "https://github.com/btahir/civitas",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-31T00:44:08.407Z",
+        "pubDate": "2026-08-30T22:51:24Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "af50595ec701a080b16bfb60d41dd42d98b6c4e3",
+        "canonicalUrl": "https://github.com/btahir/civitas",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/btahir/civitas",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Civitas – A Civilization for AI Agents on GitHub",
+            "titleZh": "Civitas——GitHub上的人工智能代理文明"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Civitas——GitHub上的人工智能代理文明"
+      },
+      {
+        "id": "5c6c55cae89e7e93f8014eedac1d3c2757688781",
+        "title": "The Shape and Feel of the Post-AI Data Stack",
+        "url": "https://www.iandmacomber.com/blog/post-ai-data-stack/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-08-31T00:44:08.407Z",
+        "pubDate": "2026-08-30T22:36:54Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "5869350f7b45c02962d22d6114ca9aad278496e4",
+        "canonicalUrl": "https://iandmacomber.com/blog/post-ai-data-stack",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.iandmacomber.com/blog/post-ai-data-stack/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "The Shape and Feel of the Post-AI Data Stack",
+            "titleZh": "后AI数据栈的形态与感受"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "后AI数据栈的形态与感受"
       }
     ]
   },
-  "lastFetchAt": "2026-08-30T22:20:58.433Z"
+  "lastFetchAt": "2026-08-31T00:44:07.355Z"
 }
