@@ -926,11 +926,13 @@
         "isPriority": false,
         "eventId": "2de7eabeb230ed740ade8e3b3ad999767698c259",
         "canonicalUrl": "https://opentrailpaper.com/",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 4,
+        "sourceCount": 4,
         "relatedSources": [
           "Hacker News Newest",
-          "Hacker News Algolia AI Search"
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -1041,10 +1043,11 @@
         "isPriority": true,
         "eventId": "9475f5ca542516f4b74ec3c8dde655b76b6f18a6",
         "canonicalUrl": "https://twitter.com/ggerganov/status/2095897173376618881",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -1189,10 +1192,11 @@
         "isPriority": true,
         "eventId": "b57bce8486f748da466c5d5de58195bf5eeb5956",
         "canonicalUrl": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -1806,8 +1810,2849 @@
         "language": "",
         "languages": [],
         "titleZh": "理解中国前沿人工智能格局"
+      },
+      {
+        "title": "US issues sanctions on Turkish bank that it calls a ‘critical financial lifeline’ for Iran - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanB5cnFJYmZzM1AxbjlvTGZnanhyQzRiYWIzXzNPV1Y1NzhkRlUxZEIxMUdMVDZiX3l3U2N0dDNUZnRNeWF5UHM0SHhJNE55TmtyUDBOSHZWekxwdGZaVUJrWUM1QnpnY2R0TGlieVNhR3ZrTGV0Vi1KYk41bHVwSW4zRXRmcFNILVBXTzNQdm0?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.613Z",
+        "pubDate": "Fri, 04 Sep 2026 16:32:00 GMT",
+        "id": "7266689a35fd168caf215fca0389cff47a2e5826",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "伊朗",
+          "制裁",
+          "Iran",
+          "sanctions"
+        ],
+        "isPriority": true,
+        "eventId": "4c931cca7d64b9db2a37e501c55292340c0b0dbb",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanB5cnFJYmZzM1AxbjlvTGZnanhyQzRiYWIzXzNPV1Y1NzhkRlUxZEIxMUdMVDZiX3l3U2N0dDNUZnRNeWF5UHM0SHhJNE55TmtyUDBOSHZWekxwdGZaVUJrWUM1QnpnY2R0TGlieVNhR3ZrTGV0Vi1KYk41bHVwSW4zRXRmcFNILVBXTzNQdm0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanB5cnFJYmZzM1AxbjlvTGZnanhyQzRiYWIzXzNPV1Y1NzhkRlUxZEIxMUdMVDZiX3l3U2N0dDNUZnRNeWF5UHM0SHhJNE55TmtyUDBOSHZWekxwdGZaVUJrWUM1QnpnY2R0TGlieVNhR3ZrTGV0Vi1KYk41bHVwSW4zRXRmcFNILVBXTzNQdm0?oc=5",
+            "source": "AP News via Google News",
+            "title": "US issues sanctions on Turkish bank that it calls a ‘critical financial lifeline’ for Iran - AP News",
+            "titleZh": "美国对土耳其银行实施制裁，称其为伊朗的‘关键金融生命线’ - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国对土耳其银行实施制裁，称其为伊朗的‘关键金融生命线’ - 美联社新闻"
+      },
+      {
+        "title": "Trump says Witkoff, Kushner heading abroad to discuss Ukraine peace - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.737Z",
+        "pubDate": "Fri, 04 Sep 2026 19:27:03 GMT",
+        "id": "03957e071af97f864059e1aaa3371ac29417451d",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "乌克兰",
+          "Trump",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "08b808d262bd2422ea9f6d8291a6c1409b5c3635",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Trump says Witkoff, Kushner heading abroad to discuss Ukraine peace - Reuters",
+            "titleZh": "特朗普称威特科夫和库什纳将前往海外讨论乌克兰和平 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普称威特科夫和库什纳将前往海外讨论乌克兰和平 - 路透社"
+      },
+      {
+        "title": "UN approves resolution in support of map that shows Africa's true size - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkZDdXVTbjZITk5peW5zRVhuVEF3eHB2ZWR4STdweWQyMUhFRnV1MWpHZ0ZNUi10akk4d0FlUGRGdGZwY05hN0pRLWU5MlhIMXNKeEVickZDenZfN3p3UTF2MElYR2VXV21qRkJIRmstU2lwQ0EyREUyclNkX0lvaTBsc0Q5aXBBY2FnVHFIS2gtODFqUTFiQzk4TktXd25hUXRXT24zc3E3NlBleFhwelZ3?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.737Z",
+        "pubDate": "Fri, 04 Sep 2026 16:59:43 GMT",
+        "id": "176ddc5653900647e3d6c17107e2ba967f739fbb",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "联合国"
+        ],
+        "isPriority": true,
+        "eventId": "9de03aac40c883c962b3be8a2c19e58cd71f4448",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkZDdXVTbjZITk5peW5zRVhuVEF3eHB2ZWR4STdweWQyMUhFRnV1MWpHZ0ZNUi10akk4d0FlUGRGdGZwY05hN0pRLWU5MlhIMXNKeEVickZDenZfN3p3UTF2MElYR2VXV21qRkJIRmstU2lwQ0EyREUyclNkX0lvaTBsc0Q5aXBBY2FnVHFIS2gtODFqUTFiQzk4TktXd25hUXRXT24zc3E3NlBleFhwelZ3",
+        "clusterSize": 2,
+        "sourceCount": 2,
+        "relatedSources": [
+          "Reuters World via Google News",
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkZDdXVTbjZITk5peW5zRVhuVEF3eHB2ZWR4STdweWQyMUhFRnV1MWpHZ0ZNUi10akk4d0FlUGRGdGZwY05hN0pRLWU5MlhIMXNKeEVickZDenZfN3p3UTF2MElYR2VXV21qRkJIRmstU2lwQ0EyREUyclNkX0lvaTBsc0Q5aXBBY2FnVHFIS2gtODFqUTFiQzk4TktXd25hUXRXT24zc3E3NlBleFhwelZ3?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "UN approves resolution in support of map that shows Africa's true size - Reuters",
+            "titleZh": "联合国通过支持显示非洲真实大小地图的决议 - 路透社"
+          },
+          {
+            "url": "https://www.reuters.com/world/africa/un-approves-resolution-support-map-that-shows-africas-true-size-2026-09-04/",
+            "source": "Hacker News Newest",
+            "title": "UN approves resolution in support of map that shows Africa's true size",
+            "titleZh": ""
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "联合国通过支持显示非洲真实大小地图的决议 - 路透社"
+      },
+      {
+        "title": "Trump expected to sign a beef-related executive order on Friday, sources say - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeXhrY2ozbmJESDk5NTdOcHhuSXY1aDZZcWZTdHAzZDFoc2M1WFl3OEdIR3hzRUlVSEpTMm5wNkp2MGI3N1dMQ0tDcEp0ZmJuOEVmcHRvcVEza0V1MlhCR3JCQkRhUnMwZHBxM3JYTFdza1dwU2tSczM2bS1pYzZGenFhRDVldE5GNVBuMnhWT1UyYldQeng1SWN6dUhYcFBNbWUxUGxZZ0VFQ3BaQ2NERHRR?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.737Z",
+        "pubDate": "Fri, 04 Sep 2026 16:49:14 GMT",
+        "id": "5e68f39ed7e67e1ea5c9a2471201346d70225eec",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "537aed48762f1122319ad11339e552bb6eb401a6",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeXhrY2ozbmJESDk5NTdOcHhuSXY1aDZZcWZTdHAzZDFoc2M1WFl3OEdIR3hzRUlVSEpTMm5wNkp2MGI3N1dMQ0tDcEp0ZmJuOEVmcHRvcVEza0V1MlhCR3JCQkRhUnMwZHBxM3JYTFdza1dwU2tSczM2bS1pYzZGenFhRDVldE5GNVBuMnhWT1UyYldQeng1SWN6dUhYcFBNbWUxUGxZZ0VFQ3BaQ2NERHRR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeXhrY2ozbmJESDk5NTdOcHhuSXY1aDZZcWZTdHAzZDFoc2M1WFl3OEdIR3hzRUlVSEpTMm5wNkp2MGI3N1dMQ0tDcEp0ZmJuOEVmcHRvcVEza0V1MlhCR3JCQkRhUnMwZHBxM3JYTFdza1dwU2tSczM2bS1pYzZGenFhRDVldE5GNVBuMnhWT1UyYldQeng1SWN6dUhYcFBNbWUxUGxZZ0VFQ3BaQ2NERHRR?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Trump expected to sign a beef-related executive order on Friday, sources say - Reuters",
+            "titleZh": "消息人士称，特朗普预计将于周五签署一项与牛肉相关的行政命令 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "消息人士称，特朗普预计将于周五签署一项与牛肉相关的行政命令 - 路透社"
+      },
+      {
+        "title": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.737Z",
+        "pubDate": "Fri, 04 Sep 2026 18:22:57 GMT",
+        "id": "94e539b977e62d7e6c06bb0c517d11301342e144",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "伊朗",
+          "制裁",
+          "Iran",
+          "sanctions"
+        ],
+        "isPriority": true,
+        "eventId": "173aca71265acd5b151bfb82c1b6923d58527a66",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - Reuters",
+            "titleZh": "美国制裁土耳其银行及其两家子公司，加大对伊朗施压 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国制裁土耳其银行及其两家子公司，加大对伊朗施压 - 路透社"
+      },
+      {
+        "title": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.737Z",
+        "pubDate": "Fri, 04 Sep 2026 18:12:50 GMT",
+        "id": "795b6da4dbd4db47eac5c6c07a8ec7dcf4ed0075",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "99d65f33dd9f6372dee89e04b501ea6017b0d972",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge - Reuters",
+            "titleZh": "以色列称已清除黎巴嫩关键山脊下隧道中的真主党武装分子 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "以色列称已清除黎巴嫩关键山脊下隧道中的真主党武装分子 - 路透社"
+      },
+      {
+        "title": "Opponents seek to block US from breaking ground on Trump arch in Washington - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaGFGcFRUR3AwN0poLVUzV3doRlZmMlY0Vi1VQVFtRVNJRlVfbmplZGJzWXJQU3NGeU1CdXItQ3pZTGhEdjRoS1N5dWQxMTNRZ2xSNF81aTZnWlR5VGZuZkp2dWU1d3d4TzRPbHBsMVk1dFRHMFRhODU1VUJyNWxHRlRQOVBndFd3aFlDWXI3bF80R2kyejRuY0FrNFZmSUJSRnJ2emxueVloQQ?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-04T19:47:34.737Z",
+        "pubDate": "Fri, 04 Sep 2026 18:28:02 GMT",
+        "id": "9975e24f96425056f8982422427d3aa760400604",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "美国",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "9412187b3969057e0fbd99d5042111bd407137a8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaGFGcFRUR3AwN0poLVUzV3doRlZmMlY0Vi1VQVFtRVNJRlVfbmplZGJzWXJQU3NGeU1CdXItQ3pZTGhEdjRoS1N5dWQxMTNRZ2xSNF81aTZnWlR5VGZuZkp2dWU1d3d4TzRPbHBsMVk1dFRHMFRhODU1VUJyNWxHRlRQOVBndFd3aFlDWXI3bF80R2kyejRuY0FrNFZmSUJSRnJ2emxueVloQQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaGFGcFRUR3AwN0poLVUzV3doRlZmMlY0Vi1VQVFtRVNJRlVfbmplZGJzWXJQU3NGeU1CdXItQ3pZTGhEdjRoS1N5dWQxMTNRZ2xSNF81aTZnWlR5VGZuZkp2dWU1d3d4TzRPbHBsMVk1dFRHMFRhODU1VUJyNWxHRlRQOVBndFd3aFlDWXI3bF80R2kyejRuY0FrNFZmSUJSRnJ2emxueVloQQ?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Opponents seek to block US from breaking ground on Trump arch in Washington - Reuters",
+            "titleZh": "反对者试图阻止美国在华盛顿破土动工建造特朗普拱门 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "反对者试图阻止美国在华盛顿破土动工建造特朗普拱门 - 路透社"
+      },
+      {
+        "title": "Farage seeks to shore up damaged leadership as scandal engulfs Reform conference",
+        "url": "https://www.theguardian.com/politics/2026/sep/04/nigel-farage-seeks-shore-up-damaged-reform-leadership-scandal-engulfs-party-conference",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-04T19:47:34.326Z",
+        "pubDate": "Fri, 04 Sep 2026 18:16:10 GMT",
+        "id": "d5f0de394cc5b4a22f8ecb7ef25cc345e0f47405",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "db4eef8124a4eba61e6e33fd8997eab0d7582a9c",
+        "canonicalUrl": "https://theguardian.com/politics/2026/sep/04/nigel-farage-seeks-shore-up-damaged-reform-leadership-scandal-engulfs-party-conference",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/sep/04/nigel-farage-seeks-shore-up-damaged-reform-leadership-scandal-engulfs-party-conference",
+            "source": "Guardian World",
+            "title": "Farage seeks to shore up damaged leadership as scandal engulfs Reform conference",
+            "titleZh": "法拉奇试图在改革党大会陷入丑闻之际巩固受损的领导地位 - 路透社"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "法拉奇试图在改革党大会陷入丑闻之际巩固受损的领导地位 - 路透社"
+      },
+      {
+        "title": "Cambridge University examines conduct of academic suspended by Reform UK",
+        "url": "https://www.theguardian.com/politics/2026/sep/04/cambridge-university-probing-conduct-of-academic-suspended-by-reform-uk",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-04T19:47:34.326Z",
+        "pubDate": "Fri, 04 Sep 2026 17:48:34 GMT",
+        "id": "f07c7e01d0f740ca4202de46a3e8d1391fdb2ad6",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fad7daad9483017c19566b22049ae1041e5217fa",
+        "canonicalUrl": "https://theguardian.com/politics/2026/sep/04/cambridge-university-probing-conduct-of-academic-suspended-by-reform-uk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/sep/04/cambridge-university-probing-conduct-of-academic-suspended-by-reform-uk",
+            "source": "Guardian World",
+            "title": "Cambridge University examines conduct of academic suspended by Reform UK",
+            "titleZh": "剑桥大学审查被改革英国党停职的学者的行为"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "剑桥大学审查被改革英国党停职的学者的行为"
+      },
+      {
+        "title": "Cambridge University asks former chief crown prosecutor to open Arday review",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/04/cambridge-university-nazir-afzal-to-lead-first-part-jason-arday-review",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-04T19:47:34.326Z",
+        "pubDate": "Fri, 04 Sep 2026 17:48:21 GMT",
+        "id": "971db30e5ba5ef0250ca8be0c936e6245d2808d8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ec7152af13fc2c5f88ae1d98d554eac1f74c80ae",
+        "canonicalUrl": "https://theguardian.com/uk-news/2026/sep/04/cambridge-university-nazir-afzal-to-lead-first-part-jason-arday-review",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/sep/04/cambridge-university-nazir-afzal-to-lead-first-part-jason-arday-review",
+            "source": "Guardian World",
+            "title": "Cambridge University asks former chief crown prosecutor to open Arday review",
+            "titleZh": "剑桥大学要求前首席皇家检察官启动阿代审查"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "剑桥大学要求前首席皇家检察官启动阿代审查"
+      },
+      {
+        "title": "Six-week-old child in Pennsylvania dies from measles, coroner says",
+        "url": "https://www.theguardian.com/us-news/2026/sep/04/pennsylvania-measles-death-infant",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-04T19:47:34.326Z",
+        "pubDate": "Fri, 04 Sep 2026 19:26:44 GMT",
+        "id": "4a1c36d7c322348c350d83977da8ba2c55f6da40",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "54d8c5cb03476cc9f73bc5b2fcd59c3b130fa3da",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/sep/04/pennsylvania-measles-death-infant",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/sep/04/pennsylvania-measles-death-infant",
+            "source": "Guardian World",
+            "title": "Six-week-old child in Pennsylvania dies from measles, coroner says",
+            "titleZh": "宾夕法尼亚州一名六周大婴儿死于麻疹，验尸官称"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "宾夕法尼亚州一名六周大婴儿死于麻疹，验尸官称"
+      },
+      {
+        "title": "Trump to take gifted Qatar jet to Ireland despite questions about its security",
+        "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-qatar-jet-ireland",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-04T19:47:34.326Z",
+        "pubDate": "Fri, 04 Sep 2026 19:16:20 GMT",
+        "id": "6bf4f187f2faa1b2109cb9de2f418232800beab9",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "c3fd7a783f88640f3b3e90a2c064b1049f85469e",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/sep/04/trump-qatar-jet-ireland",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/sep/04/trump-qatar-jet-ireland",
+            "source": "Guardian World",
+            "title": "Trump to take gifted Qatar jet to Ireland despite questions about its security",
+            "titleZh": "特朗普将乘坐卡塔尔赠送的飞机前往爱尔兰，尽管其安全性存疑"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普将乘坐卡塔尔赠送的飞机前往爱尔兰，尽管其安全性存疑"
+      },
+      {
+        "title": "Judge declares mistrial in Lindsay Clancy case after jury deadlocked again",
+        "url": "https://www.theguardian.com/us-news/2026/sep/04/lindsay-clancy-mistrial",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-04T19:47:34.326Z",
+        "pubDate": "Fri, 04 Sep 2026 18:41:51 GMT",
+        "id": "930c0221a960f4794f6d8a5f29d040f7495ee5d9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ff1a43772f40c3fe0fa43aa859d0b8396a5a11da",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/sep/04/lindsay-clancy-mistrial",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/sep/04/lindsay-clancy-mistrial",
+            "source": "Guardian World",
+            "title": "Judge declares mistrial in Lindsay Clancy case after jury deadlocked again",
+            "titleZh": "法官在林赛·克兰西案中宣布审判无效，陪审团再次陷入僵局"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "法官在林赛·克兰西案中宣布审判无效，陪审团再次陷入僵局"
+      },
+      {
+        "title": "Former labor secretary misused funds and drank on the job, report finds - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdGFNOFp5MDZNaWQtbFVmQkg3MjdwZ1BlcTJfd1B0ZEQ1eTY2eUlTOFdrTTJOMGREVnNmcDZfREdLaVk3WXhvVmVzWGRhSFNHQ1dybVE3QTc4V2Zac1lwRlEzYUNPbFJDMXA0RDBGcWU4VFd5RjRjMFFadnNhM2NGcURTWHZ3RGVzQWJNd1BfTkxuUUdMb2hSSnpnakJfMGJtZndqakhIZVdZV0RQZy00XzJ6NUw5eDIxOENmdklEM2g2cUMzTnVHZlRESQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 17:43:33 GMT",
+        "id": "ea1d9f9007cd17e6a6132d7d246bbc5c7e39eb88",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "87ed5318171b3a404ceac4d1a9cf3634a0f320c7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdGFNOFp5MDZNaWQtbFVmQkg3MjdwZ1BlcTJfd1B0ZEQ1eTY2eUlTOFdrTTJOMGREVnNmcDZfREdLaVk3WXhvVmVzWGRhSFNHQ1dybVE3QTc4V2Zac1lwRlEzYUNPbFJDMXA0RDBGcWU4VFd5RjRjMFFadnNhM2NGcURTWHZ3RGVzQWJNd1BfTkxuUUdMb2hSSnpnakJfMGJtZndqakhIZVdZV0RQZy00XzJ6NUw5eDIxOENmdklEM2g2cUMzTnVHZlRESQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdGFNOFp5MDZNaWQtbFVmQkg3MjdwZ1BlcTJfd1B0ZEQ1eTY2eUlTOFdrTTJOMGREVnNmcDZfREdLaVk3WXhvVmVzWGRhSFNHQ1dybVE3QTc4V2Zac1lwRlEzYUNPbFJDMXA0RDBGcWU4VFd5RjRjMFFadnNhM2NGcURTWHZ3RGVzQWJNd1BfTkxuUUdMb2hSSnpnakJfMGJtZndqakhIZVdZV0RQZy00XzJ6NUw5eDIxOENmdklEM2g2cUMzTnVHZlRESQ?oc=5",
+            "source": "Google News",
+            "title": "Former labor secretary misused funds and drank on the job, report finds - The Washington Post",
+            "titleZh": "报告发现前劳工部长滥用资金并在工作中饮酒——《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "报告发现前劳工部长滥用资金并在工作中饮酒——《华盛顿邮报》"
+      },
+      {
+        "title": "Two men pulled alive from Nepal hydropower plant tunnel nine days after floods - CNN",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SQ1Z4Y0tBTWczN3dZTkh5dnAwbHZoUE5ucExVX0g1bUIyYmE3UEloZWhubTh0eVNIdXJkT2xMYWR1UmFxc19EMS16eWxYai1fcnFfNVN0NjRDYTRvaFAwcjhuWVp2ai1vUlVDWjRWelNEdlJtcmgwM3JscFhZZw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 17:12:00 GMT",
+        "id": "d9d9e8767647320d29cc10aae505be642ae64561",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "aae81d53ac75574835ce75ac1e11eb9da03efe2a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SQ1Z4Y0tBTWczN3dZTkh5dnAwbHZoUE5ucExVX0g1bUIyYmE3UEloZWhubTh0eVNIdXJkT2xMYWR1UmFxc19EMS16eWxYai1fcnFfNVN0NjRDYTRvaFAwcjhuWVp2ai1vUlVDWjRWelNEdlJtcmgwM3JscFhZZw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SQ1Z4Y0tBTWczN3dZTkh5dnAwbHZoUE5ucExVX0g1bUIyYmE3UEloZWhubTh0eVNIdXJkT2xMYWR1UmFxc19EMS16eWxYai1fcnFfNVN0NjRDYTRvaFAwcjhuWVp2ai1vUlVDWjRWelNEdlJtcmgwM3JscFhZZw?oc=5",
+            "source": "Google News",
+            "title": "Two men pulled alive from Nepal hydropower plant tunnel nine days after floods - CNN",
+            "titleZh": "两名男子在尼泊尔水电站隧道被洪水困九天后获救生还——CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "两名男子在尼泊尔水电站隧道被洪水困九天后获救生还——CNN"
+      },
+      {
+        "title": "Longtime host Maria Bartiromo disputes reports of Fox News termination - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MQ2FZMURybVQ3YW00el9ZNDFpMWxhcmtSS05yN1A0TGRBS3ZkdXZvdnpqR2JqSmtVXzdMNFdMNi1YVmllTklCRFY2c21xckQ5YVU3T1NaWHVxZ1dLc1J1bjVucGxDSFFYdUJQTEhFV2gtQmg1b1hhc1BCaDZwZ9IBgwFBVV95cUxPckxUZFk2NjdnSm5IVm1ISE1FVlZHdFFuTnluT3pvUHhkZ1V1eFBqUVh1OVhrVU9QdGxQc0RfVWJFVmxsNm9DQ3pIQVpwSFhoUld2QjZXeFJqVW5XMVF3N2l6R2hhYWxkNVRLOEZNUzM2T0VRU3Q0N1JjblVPeGNTVGl2TQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 17:09:50 GMT",
+        "id": "390104d712441b59b5784bce87a25361fa4f9050",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "91190552dc2eed7e5ba04d405cf53cc09f7b5d9e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MQ2FZMURybVQ3YW00el9ZNDFpMWxhcmtSS05yN1A0TGRBS3ZkdXZvdnpqR2JqSmtVXzdMNFdMNi1YVmllTklCRFY2c21xckQ5YVU3T1NaWHVxZ1dLc1J1bjVucGxDSFFYdUJQTEhFV2gtQmg1b1hhc1BCaDZwZ9IBgwFBVV95cUxPckxUZFk2NjdnSm5IVm1ISE1FVlZHdFFuTnluT3pvUHhkZ1V1eFBqUVh1OVhrVU9QdGxQc0RfVWJFVmxsNm9DQ3pIQVpwSFhoUld2QjZXeFJqVW5XMVF3N2l6R2hhYWxkNVRLOEZNUzM2T0VRU3Q0N1JjblVPeGNTVGl2TQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MQ2FZMURybVQ3YW00el9ZNDFpMWxhcmtSS05yN1A0TGRBS3ZkdXZvdnpqR2JqSmtVXzdMNFdMNi1YVmllTklCRFY2c21xckQ5YVU3T1NaWHVxZ1dLc1J1bjVucGxDSFFYdUJQTEhFV2gtQmg1b1hhc1BCaDZwZ9IBgwFBVV95cUxPckxUZFk2NjdnSm5IVm1ISE1FVlZHdFFuTnluT3pvUHhkZ1V1eFBqUVh1OVhrVU9QdGxQc0RfVWJFVmxsNm9DQ3pIQVpwSFhoUld2QjZXeFJqVW5XMVF3N2l6R2hhYWxkNVRLOEZNUzM2T0VRU3Q0N1JjblVPeGNTVGl2TQ?oc=5",
+            "source": "Google News",
+            "title": "Longtime host Maria Bartiromo disputes reports of Fox News termination - CNBC",
+            "titleZh": "长期主持人玛丽亚·巴蒂罗莫否认福克斯新闻解雇报道——CNBC"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "长期主持人玛丽亚·巴蒂罗莫否认福克斯新闻解雇报道——CNBC"
+      },
+      {
+        "title": "ICE officer pleads not guilty to lying about shooting and is ordered released from custody - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2lMZm5uVndPZHpxOURLNFNaRjBGOWx1YjRYM1JHand0NDNaUHZsZ1JWcFhoTDc2OVJfb28ydzdkcW5OdjhsZGJpVnNUci1qbjl0aEVyZTl6NWg5T1YzcDE5dzh5eE96WW93bmduR2h3OHh3U3lHOXlIM1BKYkxmN3U2ci1fek0zQTFuR2trVHUtZ2tNRF9QelJPaWJSdlZZSWVoUWJrZkd1Q0x5WDF1TU1rWTU?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 17:47:00 GMT",
+        "id": "b02c1275591272d838720f2d0837f82c58864bc1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8bfb9957fe905bbd5ee5a5071fefe56997d502f2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2lMZm5uVndPZHpxOURLNFNaRjBGOWx1YjRYM1JHand0NDNaUHZsZ1JWcFhoTDc2OVJfb28ydzdkcW5OdjhsZGJpVnNUci1qbjl0aEVyZTl6NWg5T1YzcDE5dzh5eE96WW93bmduR2h3OHh3U3lHOXlIM1BKYkxmN3U2ci1fek0zQTFuR2trVHUtZ2tNRF9QelJPaWJSdlZZSWVoUWJrZkd1Q0x5WDF1TU1rWTU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2lMZm5uVndPZHpxOURLNFNaRjBGOWx1YjRYM1JHand0NDNaUHZsZ1JWcFhoTDc2OVJfb28ydzdkcW5OdjhsZGJpVnNUci1qbjl0aEVyZTl6NWg5T1YzcDE5dzh5eE96WW93bmduR2h3OHh3U3lHOXlIM1BKYkxmN3U2ci1fek0zQTFuR2trVHUtZ2tNRF9QelJPaWJSdlZZSWVoUWJrZkd1Q0x5WDF1TU1rWTU?oc=5",
+            "source": "Google News",
+            "title": "ICE officer pleads not guilty to lying about shooting and is ordered released from custody - AP News",
+            "titleZh": "ICE官员对谎称开枪一事拒不认罪，获释出狱 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ICE官员对谎称开枪一事拒不认罪，获释出狱 - 美联社新闻"
+      },
+      {
+        "title": "Vance says Trump, US military have prevented ‘energy crisis’ during Iran war - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbGFIVGlBaUNiekdjQ3dleWxrQUNJcHBWSklSRHR2bWk3VUswUmZnOHpELWhlbEplRVVOWHZHREJMQ0x4LWVkdDl5eVEtMnpHOUFSYmxRYy1LcVpnTUJBZk1NM1V3S3Z2eTgxYnRKMkVCUTNZUzRsOXQ1LTRvc3dvcGNNSnNHVE5QYVc0VTNB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 16:27:35 GMT",
+        "id": "c02e98b69c192d4b3b8b03d3765ce4efe3e92aca",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "战争",
+          "特朗普",
+          "美国",
+          "伊朗",
+          "Trump",
+          "Iran"
+        ],
+        "isPriority": true,
+        "eventId": "b20fcc1d0e20561f9d954565b6e08ca6f75e8745",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbGFIVGlBaUNiekdjQ3dleWxrQUNJcHBWSklSRHR2bWk3VUswUmZnOHpELWhlbEplRVVOWHZHREJMQ0x4LWVkdDl5eVEtMnpHOUFSYmxRYy1LcVpnTUJBZk1NM1V3S3Z2eTgxYnRKMkVCUTNZUzRsOXQ1LTRvc3dvcGNNSnNHVE5QYVc0VTNB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbGFIVGlBaUNiekdjQ3dleWxrQUNJcHBWSklSRHR2bWk3VUswUmZnOHpELWhlbEplRVVOWHZHREJMQ0x4LWVkdDl5eVEtMnpHOUFSYmxRYy1LcVpnTUJBZk1NM1V3S3Z2eTgxYnRKMkVCUTNZUzRsOXQ1LTRvc3dvcGNNSnNHVE5QYVc0VTNB?oc=5",
+            "source": "Google News",
+            "title": "Vance says Trump, US military have prevented ‘energy crisis’ during Iran war - Fox News",
+            "titleZh": "万斯称特朗普与美国军方在伊朗战争期间避免了‘能源危机’ - 福克斯新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "万斯称特朗普与美国军方在伊朗战争期间避免了‘能源危机’ - 福克斯新闻"
+      },
+      {
+        "title": "Trump Threatens to Halt Some Trade Unless the Fed Cuts Rates - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEVicmpWNTBDUVpfTGN4dXhleDJyWklRWngwTlZycFgzTzFPSzBNakp6Z1FQakZBZzJhMklVbWZhVTUxcjNtcGxadzhRY1JSZ3ZGM2VIUG4yWlZTeDlHZUc1VEhJY05mRUxKMjdtWTJVSmlUUk1naHhna3FVU1NOb2ZhTjRDUDhza0lxUDZfQkszcE1G?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 18:17:29 GMT",
+        "id": "ee9d0d82986fae313a358b07d94ee888a97d8dc3",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "cc457d8e63dbc5e94e6a882c4cc2248157fae988",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEVicmpWNTBDUVpfTGN4dXhleDJyWklRWngwTlZycFgzTzFPSzBNakp6Z1FQakZBZzJhMklVbWZhVTUxcjNtcGxadzhRY1JSZ3ZGM2VIUG4yWlZTeDlHZUc1VEhJY05mRUxKMjdtWTJVSmlUUk1naHhna3FVU1NOb2ZhTjRDUDhza0lxUDZfQkszcE1G",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEVicmpWNTBDUVpfTGN4dXhleDJyWklRWngwTlZycFgzTzFPSzBNakp6Z1FQakZBZzJhMklVbWZhVTUxcjNtcGxadzhRY1JSZ3ZGM2VIUG4yWlZTeDlHZUc1VEhJY05mRUxKMjdtWTJVSmlUUk1naHhna3FVU1NOb2ZhTjRDUDhza0lxUDZfQkszcE1G?oc=5",
+            "source": "Google News",
+            "title": "Trump Threatens to Halt Some Trade Unless the Fed Cuts Rates - The New York Times",
+            "titleZh": "特朗普威胁除非美联储降息，否则将暂停部分贸易 - 纽约时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普威胁除非美联储降息，否则将暂停部分贸易 - 纽约时报"
+      },
+      {
+        "title": "Trump administration opens probe into Tesla’s self-driving Cybercab - Politico",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzh4UW1nWmE5SEZUT3NpOVJISWpBb3JVUGVJal9qbWFjamRncGViZ1VycjdCYWNhRERSWGlDNndOZVQzelFESlNKaFJHX1E4LTlEYmdjMjNBQlpxYVN3Y2xyalB0aWRPd0t6NDdMaFJlMGNRZWZqZ1owampQS3VOUQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 18:23:00 GMT",
+        "id": "6913956c85c1d4094e13ddd32f85f2ebdcc8e24e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "f6cd92c57a72396a63516d5ab9832f9a6962e4af",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzh4UW1nWmE5SEZUT3NpOVJISWpBb3JVUGVJal9qbWFjamRncGViZ1VycjdCYWNhRERSWGlDNndOZVQzelFESlNKaFJHX1E4LTlEYmdjMjNBQlpxYVN3Y2xyalB0aWRPd0t6NDdMaFJlMGNRZWZqZ1owampQS3VOUQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzh4UW1nWmE5SEZUT3NpOVJISWpBb3JVUGVJal9qbWFjamRncGViZ1VycjdCYWNhRERSWGlDNndOZVQzelFESlNKaFJHX1E4LTlEYmdjMjNBQlpxYVN3Y2xyalB0aWRPd0t6NDdMaFJlMGNRZWZqZ1owampQS3VOUQ?oc=5",
+            "source": "Google News",
+            "title": "Trump administration opens probe into Tesla’s self-driving Cybercab - Politico",
+            "titleZh": "特朗普政府启动对特斯拉自动驾驶Cybercab的调查 - 政客新闻网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普政府启动对特斯拉自动驾驶Cybercab的调查 - 政客新闻网"
+      },
+      {
+        "title": "Xbox Game Pass imposes strict monthly hour limits on cloud gaming - mashable.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR0dlN2REZ2JGbGJmcldEbmotTm9BaGhPMEUtRXR6dTV1bTZ0VWJXMlpyMnE2cU9RWGkxMGk5RFlkTk9yNlpPc1hLcVZvSzlHbnlyZGEzT25EcUppV2NTVlJmellQUkdLTWhQRDN4dF81YlNzUFR6d2QtSk9vTlkxay1PQUw4QQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 18:30:24 GMT",
+        "id": "317fa92d2f45d78a7a13b419d5ee3759d1c7abef",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b11a7f1385232678b1c9fde87b2d8b2fb5b44331",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR0dlN2REZ2JGbGJmcldEbmotTm9BaGhPMEUtRXR6dTV1bTZ0VWJXMlpyMnE2cU9RWGkxMGk5RFlkTk9yNlpPc1hLcVZvSzlHbnlyZGEzT25EcUppV2NTVlJmellQUkdLTWhQRDN4dF81YlNzUFR6d2QtSk9vTlkxay1PQUw4QQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR0dlN2REZ2JGbGJmcldEbmotTm9BaGhPMEUtRXR6dTV1bTZ0VWJXMlpyMnE2cU9RWGkxMGk5RFlkTk9yNlpPc1hLcVZvSzlHbnlyZGEzT25EcUppV2NTVlJmellQUkdLTWhQRDN4dF81YlNzUFR6d2QtSk9vTlkxay1PQUw4QQ?oc=5",
+            "source": "Google News",
+            "title": "Xbox Game Pass imposes strict monthly hour limits on cloud gaming - mashable.com",
+            "titleZh": "Xbox Game Pass对云游戏实施严格的每月时长限制 - mashable.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Xbox Game Pass对云游戏实施严格的每月时长限制 - mashable.com"
+      },
+      {
+        "title": "Miley, Beyoncé, ADÉLA & More: New Music Friday Guide - billboard.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckc2XzJ1UTdjNE9LdWZnRGQ5OVQ5WVY0dkdFd210aFdTeHJvY3haTnlGYlZuWC0wdDJ0X0o1V01iVUEyY0paaHkwbzc2aHg5V1kxc01oalJiUmdiRC1veTJ5NXdRZ0p0SjljM3NzUXFIRzFnQUdMcHVPMnJFejR0Q3FlY1JCUGlra0ZxMzMzaDVncUtTNEY3X1pkRTB3UQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 19:05:11 GMT",
+        "id": "280ab2c85a9bba115d3d2a90351874848217a0a3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4b18c870fe8bdf1b5d4685f66319c83c4221d64a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckc2XzJ1UTdjNE9LdWZnRGQ5OVQ5WVY0dkdFd210aFdTeHJvY3haTnlGYlZuWC0wdDJ0X0o1V01iVUEyY0paaHkwbzc2aHg5V1kxc01oalJiUmdiRC1veTJ5NXdRZ0p0SjljM3NzUXFIRzFnQUdMcHVPMnJFejR0Q3FlY1JCUGlra0ZxMzMzaDVncUtTNEY3X1pkRTB3UQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckc2XzJ1UTdjNE9LdWZnRGQ5OVQ5WVY0dkdFd210aFdTeHJvY3haTnlGYlZuWC0wdDJ0X0o1V01iVUEyY0paaHkwbzc2aHg5V1kxc01oalJiUmdiRC1veTJ5NXdRZ0p0SjljM3NzUXFIRzFnQUdMcHVPMnJFejR0Q3FlY1JCUGlra0ZxMzMzaDVncUtTNEY3X1pkRTB3UQ?oc=5",
+            "source": "Google News",
+            "title": "Miley, Beyoncé, ADÉLA & More: New Music Friday Guide - billboard.com",
+            "titleZh": "麦莉、碧昂丝、阿黛拉等：新音乐周五指南 - billboard.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "麦莉、碧昂丝、阿黛拉等：新音乐周五指南 - billboard.com"
+      },
+      {
+        "title": "Betelgeuse's atmosphere is becoming spotty and asymmetric—and a nearby companion could be shaping the pattern - Phys.org",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0syd3N3eXplcS15d3N5UGREUTRBeTNPVFdjREtTSDdtR21LSXNzeUdrMkJHbkhkOGRpNzZSUFlnbklCSmZpS0RfYW5vdW15TmZRSno2alBfTF9nOERKUHFYbms2NDBBOGdqUlBudVFZcFBUVTdUbGhDSjRVV1ZOVzd5dzBpZjVC?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 16:20:03 GMT",
+        "id": "f94dd3af4c2869b00f4d551f601ee8bcad51d6ad",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "68307d712de1f9f92cac876b5134460842307dc1",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0syd3N3eXplcS15d3N5UGREUTRBeTNPVFdjREtTSDdtR21LSXNzeUdrMkJHbkhkOGRpNzZSUFlnbklCSmZpS0RfYW5vdW15TmZRSno2alBfTF9nOERKUHFYbms2NDBBOGdqUlBudVFZcFBUVTdUbGhDSjRVV1ZOVzd5dzBpZjVC",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0syd3N3eXplcS15d3N5UGREUTRBeTNPVFdjREtTSDdtR21LSXNzeUdrMkJHbkhkOGRpNzZSUFlnbklCSmZpS0RfYW5vdW15TmZRSno2alBfTF9nOERKUHFYbms2NDBBOGdqUlBudVFZcFBUVTdUbGhDSjRVV1ZOVzd5dzBpZjVC?oc=5",
+            "source": "Google News",
+            "title": "Betelgeuse's atmosphere is becoming spotty and asymmetric—and a nearby companion could be shaping the pattern - Phys.org",
+            "titleZh": "参宿四的大气变得斑驳且不对称——附近的伴星可能正在塑造这一模式 - Phys.org"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "参宿四的大气变得斑驳且不对称——附近的伴星可能正在塑造这一模式 - Phys.org"
+      },
+      {
+        "title": "Second complete map of a fruit fly brain completed - Ars Technica",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMExXSUVqa0w4a3FxdW02UlBEeVRrRnJweXlqdG8xdDROeWV3eUtnREsxZXR2bXhENWtGTDVXYlk2cXJTWUdXeWt0Q092d1c4bVNJaGM0MEd1dzdESlBoVC0zX3ZVYnNuS2VRNU5wT0VuN1ozTk83cmxzeEY2a24xVXNuMjVnOGdFTmUzTGJGenQ5M2tjRmgxNF9XWWpJZ3ZMakN0aGRvOUFTRUx4UTMtUFZCQjE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 16:24:24 GMT",
+        "id": "ca4136c16ee82189db965bc39aae003c89b0d00a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "035a3041dcf18a286b904c6d33503e650c92235c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMExXSUVqa0w4a3FxdW02UlBEeVRrRnJweXlqdG8xdDROeWV3eUtnREsxZXR2bXhENWtGTDVXYlk2cXJTWUdXeWt0Q092d1c4bVNJaGM0MEd1dzdESlBoVC0zX3ZVYnNuS2VRNU5wT0VuN1ozTk83cmxzeEY2a24xVXNuMjVnOGdFTmUzTGJGenQ5M2tjRmgxNF9XWWpJZ3ZMakN0aGRvOUFTRUx4UTMtUFZCQjE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMExXSUVqa0w4a3FxdW02UlBEeVRrRnJweXlqdG8xdDROeWV3eUtnREsxZXR2bXhENWtGTDVXYlk2cXJTWUdXeWt0Q092d1c4bVNJaGM0MEd1dzdESlBoVC0zX3ZVYnNuS2VRNU5wT0VuN1ozTk83cmxzeEY2a24xVXNuMjVnOGdFTmUzTGJGenQ5M2tjRmgxNF9XWWpJZ3ZMakN0aGRvOUFTRUx4UTMtUFZCQjE?oc=5",
+            "source": "Google News",
+            "title": "Second complete map of a fruit fly brain completed - Ars Technica",
+            "titleZh": "果蝇大脑第二张完整图谱完成 - Ars Technica"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "果蝇大脑第二张完整图谱完成 - Ars Technica"
+      },
+      {
+        "title": "Second baby died of measles, Lancaster County coroner says - WGAL",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTRxSVVwSXBvalVZb0lZdXdSbHlwYldFa29JcTMxd2JaLXNWbGlMMmxHcy1zbHBUVVdmT0VDTFUxZlJaeWtITlRJTWNienZFenhPdV9qeElhNHhaa0E3UWt4RVVreTM2b0pDZzdpVTVPTldITkloTGJUc2NYZEh0N01LVnI3QkJjbUFRRU5pSmZMbXZt?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 16:09:00 GMT",
+        "id": "eaf773c2c94a327996c3a40dbf202aad1453e860",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5449b67d6ed071adc72561c51537aba4e67cb78f",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTRxSVVwSXBvalVZb0lZdXdSbHlwYldFa29JcTMxd2JaLXNWbGlMMmxHcy1zbHBUVVdmT0VDTFUxZlJaeWtITlRJTWNienZFenhPdV9qeElhNHhaa0E3UWt4RVVreTM2b0pDZzdpVTVPTldITkloTGJUc2NYZEh0N01LVnI3QkJjbUFRRU5pSmZMbXZt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTRxSVVwSXBvalVZb0lZdXdSbHlwYldFa29JcTMxd2JaLXNWbGlMMmxHcy1zbHBUVVdmT0VDTFUxZlJaeWtITlRJTWNienZFenhPdV9qeElhNHhaa0E3UWt4RVVreTM2b0pDZzdpVTVPTldITkloTGJUc2NYZEh0N01LVnI3QkJjbUFRRU5pSmZMbXZt?oc=5",
+            "source": "Google News",
+            "title": "Second baby died of measles, Lancaster County coroner says - WGAL",
+            "titleZh": "第二名婴儿死于麻疹，兰开斯特县验尸官表示 - WGAL"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "第二名婴儿死于麻疹，兰开斯特县验尸官表示 - WGAL"
+      },
+      {
+        "title": "Alcohol-related cancer deaths in US have more than doubled over three decades - theguardian.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb2hHOGlfdHEtV3czOFNaazlQNk9VSzJoc3lmb2NxR1hoOWMzT0RjX0NTdHFTQU9MVlFoT1Qxd0tMVDhxWFo3SnY3b1NzT2ZvTGRBd3JoSjBNQ3BkemxpZ216U1BTLWxvai1jUk54SHJoMDVPNEV5d0ZTMWNoVEtFSW94QQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 17:12:00 GMT",
+        "id": "40de1226c2ff2c8213a203b67451ee7acf7212eb",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "bb0a677c72463d2eafd51e8a3c4938aab9779d5c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb2hHOGlfdHEtV3czOFNaazlQNk9VSzJoc3lmb2NxR1hoOWMzT0RjX0NTdHFTQU9MVlFoT1Qxd0tMVDhxWFo3SnY3b1NzT2ZvTGRBd3JoSjBNQ3BkemxpZ216U1BTLWxvai1jUk54SHJoMDVPNEV5d0ZTMWNoVEtFSW94QQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb2hHOGlfdHEtV3czOFNaazlQNk9VSzJoc3lmb2NxR1hoOWMzT0RjX0NTdHFTQU9MVlFoT1Qxd0tMVDhxWFo3SnY3b1NzT2ZvTGRBd3JoSjBNQ3BkemxpZ216U1BTLWxvai1jUk54SHJoMDVPNEV5d0ZTMWNoVEtFSW94QQ?oc=5",
+            "source": "Google News",
+            "title": "Alcohol-related cancer deaths in US have more than doubled over three decades - theguardian.com",
+            "titleZh": "美国与酒精相关的癌症死亡人数三十年来增加了一倍多 - theguardian.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国与酒精相关的癌症死亡人数三十年来增加了一倍多 - theguardian.com"
+      },
+      {
+        "title": "Inside the fight against mosquitoes spreading dengue fever in Florida - Tampa Bay Times",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbnZ6T3VkWVRMb0FHdTZfQ0Z6bTBWMnNqRHJEeVlabnppNlM3UEZ0RUJ6TTBFWTBkZUxjeGZFZ1JnQ29EeG9sbFZqUWRsRFlDWU9RZzBZbGJuajAwVDVFdGd6cXdvVzdheEI4YVJIVVJuMzBuUnN3NUJtR3dhY2ZPOHBFUU1wdDVvV0R1ZFVtWFpRaGRWNkwyd2NIOEl3OXFyMnA0TmhqWHZVSVE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-04T19:47:34.298Z",
+        "pubDate": "Fri, 04 Sep 2026 18:17:52 GMT",
+        "id": "de6644d392a1a998a0ae6e1a79a797e939bc62ff",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ca4f17c69a04bab87a2a66aaea1f6a41fe6ebfe9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbnZ6T3VkWVRMb0FHdTZfQ0Z6bTBWMnNqRHJEeVlabnppNlM3UEZ0RUJ6TTBFWTBkZUxjeGZFZ1JnQ29EeG9sbFZqUWRsRFlDWU9RZzBZbGJuajAwVDVFdGd6cXdvVzdheEI4YVJIVVJuMzBuUnN3NUJtR3dhY2ZPOHBFUU1wdDVvV0R1ZFVtWFpRaGRWNkwyd2NIOEl3OXFyMnA0TmhqWHZVSVE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbnZ6T3VkWVRMb0FHdTZfQ0Z6bTBWMnNqRHJEeVlabnppNlM3UEZ0RUJ6TTBFWTBkZUxjeGZFZ1JnQ29EeG9sbFZqUWRsRFlDWU9RZzBZbGJuajAwVDVFdGd6cXdvVzdheEI4YVJIVVJuMzBuUnN3NUJtR3dhY2ZPOHBFUU1wdDVvV0R1ZFVtWFpRaGRWNkwyd2NIOEl3OXFyMnA0TmhqWHZVSVE?oc=5",
+            "source": "Google News",
+            "title": "Inside the fight against mosquitoes spreading dengue fever in Florida - Tampa Bay Times",
+            "titleZh": "佛罗里达州抗击传播登革热的蚊子的内部斗争 - 坦帕湾时报"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "佛罗里达州抗击传播登革热的蚊子的内部斗争 - 坦帕湾时报"
+      },
+      {
+        "title": "Government Rails Site Hit Hours After CVE Patch",
+        "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-04T19:47:34.359Z",
+        "pubDate": "Fri, 04 Sep 2026 19:06:39 +0000",
+        "id": "e0c7b7337de0802020f357db52277ccfacc32a8e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9eaae03806c70d18bd1f3431ac54d58ac6a84c28",
+        "canonicalUrl": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+            "source": "Hacker News Frontpage",
+            "title": "Government Rails Site Hit Hours After CVE Patch",
+            "titleZh": "政府铁路网站在CVE补丁发布数小时后遭攻击"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "政府铁路网站在CVE补丁发布数小时后遭攻击"
+      },
+      {
+        "title": "Shutting down our public encrypted DNS",
+        "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-04T19:47:34.359Z",
+        "pubDate": "Fri, 04 Sep 2026 18:50:28 +0000",
+        "id": "f40a168da0ae68873db565cf49fa3db71943a30c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0efa7e5b0667f8e1072cc50fc74a4e3c25fa246e",
+        "canonicalUrl": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+            "source": "Hacker News Frontpage",
+            "title": "Shutting down our public encrypted DNS",
+            "titleZh": "关闭我们的公共加密DNS"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "关闭我们的公共加密DNS"
+      },
+      {
+        "title": "Formalizing Fermat's Last Theorem",
+        "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-04T19:47:34.359Z",
+        "pubDate": "Fri, 04 Sep 2026 18:42:56 +0000",
+        "id": "4ac7e4181fed96c7cc7d991260b2b128e191569f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f3164402454ac27d73cba37e702f91fbd1bfdd29",
+        "canonicalUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+            "source": "Hacker News Frontpage",
+            "title": "Formalizing Fermat's Last Theorem",
+            "titleZh": "形式化费马大定理"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "形式化费马大定理"
+      },
+      {
+        "title": "The Rust React Compiler is now native in Vite",
+        "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-04T19:47:34.359Z",
+        "pubDate": "Fri, 04 Sep 2026 17:49:09 +0000",
+        "id": "97108938e610788df6d8f104d0245b19e63fdc79",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "68a86af90f58710d736452cbc3fc96905e12d0db",
+        "canonicalUrl": "https://blog.master.dev/react-now-rusted-all-the-way-out",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+            "source": "Hacker News Frontpage",
+            "title": "The Rust React Compiler is now native in Vite",
+            "titleZh": "Rust React编译器现已在Vite中原生支持"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Rust React编译器现已在Vite中原生支持"
+      },
+      {
+        "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages",
+        "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-04T19:47:34.359Z",
+        "pubDate": "Fri, 04 Sep 2026 17:29:22 +0000",
+        "id": "bdf12b3c720fc1fabe73cf2286dbdf16d134776f",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "165615628e9c6879ff7f3d995855b26d47f95f20",
+        "canonicalUrl": "https://wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+            "source": "Hacker News Frontpage",
+            "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages",
+            "titleZh": "没有人说明OpenAI和Anthropic为何发生宕机"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "没有人说明OpenAI和Anthropic为何发生宕机"
+      },
+      {
+        "title": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+        "url": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-04T19:47:34.359Z",
+        "pubDate": "Fri, 04 Sep 2026 16:46:59 +0000",
+        "id": "2bc64866ba29257489ed953d377574116a94c72a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ca404ea708656c4711b32de446df46e5ca8745b8",
+        "canonicalUrl": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
+            "source": "Hacker News Frontpage",
+            "title": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+            "titleZh": "成人电影制片人揭露多产的‘John DOE’种子盗版者为Meta高管"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "成人电影制片人揭露多产的‘John DOE’种子盗版者为Meta高管"
+      },
+      {
+        "title": "Driftwood Deli to Offer Poutine, Steve Cites Canadian Solidarity",
+        "url": "https://news.ycombinator.com/item?id=49569220",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:36:51 +0000",
+        "id": "bdd733d06ddfdc4433aeea7885ff024523fc7766",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6f88acc83bde9bd9af7f8393eff531117f3cc469",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49569220",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49569220",
+            "source": "Hacker News Newest",
+            "title": "Driftwood Deli to Offer Poutine, Steve Cites Canadian Solidarity",
+            "titleZh": "漂流木熟食店将提供肉汁奶酪薯条，史蒂夫称加拿大团结一致"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "漂流木熟食店将提供肉汁奶酪薯条，史蒂夫称加拿大团结一致"
+      },
+      {
+        "title": "Saloni's Guide to Data Visualization",
+        "url": "https://www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:36:06 +0000",
+        "id": "0a431980d87a5a0b7d658766fa7e7deaa9f2f69e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "4f4b4c12a68a673c6b2fc4f74cd6c2047f0d4388",
+        "canonicalUrl": "https://scientificdiscovery.dev/p/salonis-guide-to-data-visualization",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization",
+            "source": "Hacker News Newest",
+            "title": "Saloni's Guide to Data Visualization",
+            "titleZh": "萨洛尼的数据可视化指南"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "萨洛尼的数据可视化指南"
+      },
+      {
+        "title": "Ask HN: What Is AGI?",
+        "url": "https://news.ycombinator.com/item?id=49569196",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:34:33 +0000",
+        "id": "19a4922f408f890a2c895e2dd0ddf5feb0dee369",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AGI"
+        ],
+        "isPriority": true,
+        "eventId": "c804552e821421d046bc4cf9b0b80fa50996cc8a",
+        "canonicalUrl": "https://news.ycombinator.com/item?id=49569196",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.ycombinator.com/item?id=49569196",
+            "source": "Hacker News Newest",
+            "title": "Ask HN: What Is AGI?",
+            "titleZh": "向HN提问：什么是AGI？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "向HN提问：什么是AGI？"
+      },
+      {
+        "title": "Boom Supersonic's SuperPower Jet Engine Is Real [video]",
+        "url": "https://www.youtube.com/watch?v=vPOUfcpOSDg",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:33:21 +0000",
+        "id": "bc36417cf091a24aba736e38022ba7abd63cad0b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "877ae2d4b1442b510566629c0aefded63cf7d062",
+        "canonicalUrl": "https://youtube.com/watch?v=vPOUfcpOSDg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=vPOUfcpOSDg",
+            "source": "Hacker News Newest",
+            "title": "Boom Supersonic's SuperPower Jet Engine Is Real [video]",
+            "titleZh": "Boom超音速公司的超级动力喷气发动机是真的【视频】"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Boom超音速公司的超级动力喷气发动机是真的【视频】"
+      },
+      {
+        "title": "UN tells the world: Stop making Africa look small",
+        "url": "https://news.un.org/en/story/2026/09/1168284",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:31:09 +0000",
+        "id": "7969411d059b26a0357e510ffbb8ed5494cf8e78",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "联合国"
+        ],
+        "isPriority": true,
+        "eventId": "49a60de7b7bca5c1d231c28077d896cce3036b78",
+        "canonicalUrl": "https://news.un.org/en/story/2026/09/1168284",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.un.org/en/story/2026/09/1168284",
+            "source": "Hacker News Newest",
+            "title": "UN tells the world: Stop making Africa look small",
+            "titleZh": "联合国告诉世界：别再让非洲显得渺小"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "联合国告诉世界：别再让非洲显得渺小"
+      },
+      {
+        "title": "More Targets of the OpenAI Agent Swarm",
+        "url": "https://fi-le.net/vanderbilt/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:31:04 +0000",
+        "id": "0711de7155c0c907e1da0a8a1c8b10f9d7872bea",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent",
+          "智能体",
+          "AI智能体",
+          "OpenAI"
+        ],
+        "isPriority": true,
+        "eventId": "fee2be01be60ebf65f1474ac2948c3acb2fbc4e7",
+        "canonicalUrl": "https://fi-le.net/vanderbilt",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://fi-le.net/vanderbilt/",
+            "source": "Hacker News Newest",
+            "title": "More Targets of the OpenAI Agent Swarm",
+            "titleZh": "OpenAI智能体群组的更多目标"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "OpenAI智能体群组的更多目标"
+      },
+      {
+        "title": "No Silver Bullets",
+        "url": "https://writing.jan.io/2026/09/04/no-silver-bullets.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:30:51 +0000",
+        "id": "b6b90a92d29fa6c043bf091b5b9243f3d683321a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fc6dc6d2054b6723f1626b473ce8ca79bfd7cf50",
+        "canonicalUrl": "https://writing.jan.io/2026/09/04/no-silver-bullets.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://writing.jan.io/2026/09/04/no-silver-bullets.html",
+            "source": "Hacker News Newest",
+            "title": "No Silver Bullets",
+            "titleZh": "没有银弹"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "没有银弹"
+      },
+      {
+        "title": "Show HN: Sageling – free, private, local, Cowork AI harness for non-devs",
+        "url": "https://sageling.ai/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:30:31 +0000",
+        "id": "ea2cd40864bd964278ca1b7140b055755b5d237b",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "ccbba9019aa4032788252da290c78902efac7d8f",
+        "canonicalUrl": "https://sageling.ai/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://sageling.ai/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Sageling – free, private, local, Cowork AI harness for non-devs",
+            "titleZh": "展示HN：Sageling——面向非开发者的免费、私密、本地化协同AI工具"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Sageling——面向非开发者的免费、私密、本地化协同AI工具"
+      },
+      {
+        "title": "Show HN: Airuncode – an AI runtime coding agent with a built-in 3D game engine",
+        "url": "https://airuncode.com/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:29:27 +0000",
+        "id": "50f2d16b13e85bde56dffbf2e9637e3da1a1e8a1",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "00181b7457a469ceb98b2095d2055915bf80fbf4",
+        "canonicalUrl": "https://airuncode.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://airuncode.com/",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Airuncode – an AI runtime coding agent with a built-in 3D game engine",
+            "titleZh": "展示HN：Airuncode——内置3D游戏引擎的AI运行时编码代理"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Airuncode——内置3D游戏引擎的AI运行时编码代理"
+      },
+      {
+        "title": "Burning Man Project",
+        "url": "https://burningman.org/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:29:14 +0000",
+        "id": "c20cb16420919ca0c02d6b94f8196bf26087b26a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7045942bcf27dccdab382f181bdf128f2bebebc4",
+        "canonicalUrl": "https://burningman.org/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://burningman.org/",
+            "source": "Hacker News Newest",
+            "title": "Burning Man Project",
+            "titleZh": "火人节项目"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "火人节项目"
+      },
+      {
+        "title": "The Glass Bead Game",
+        "url": "https://en.wikipedia.org/wiki/The_Glass_Bead_Game",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:27:17 +0000",
+        "id": "f51a11fbc4e820c0744c9bcfe8badacb66c5e58e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dbfdb9b58c23998f20a1429f086f4aafbcbb4e22",
+        "canonicalUrl": "https://en.wikipedia.org/wiki/The_Glass_Bead_Game",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Glass_Bead_Game",
+            "source": "Hacker News Newest",
+            "title": "The Glass Bead Game",
+            "titleZh": "玻璃珠游戏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "玻璃珠游戏"
+      },
+      {
+        "title": "Training a Specialist Code Search Agent with Turbopuffer",
+        "url": "https://www.appliedcompute.com/case-studies/turbopuffer",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:26:09 +0000",
+        "id": "03a8f14257c5f292affd7536ed4c1f9642a32793",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Agent"
+        ],
+        "isPriority": true,
+        "eventId": "2ba300efe094773f009674ec85a6183f9218d13e",
+        "canonicalUrl": "https://appliedcompute.com/case-studies/turbopuffer",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.appliedcompute.com/case-studies/turbopuffer",
+            "source": "Hacker News Newest",
+            "title": "Training a Specialist Code Search Agent with Turbopuffer",
+            "titleZh": "使用Turbopuffer训练专业代码搜索代理"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "使用Turbopuffer训练专业代码搜索代理"
+      },
+      {
+        "title": "U.S. Navy Spent $3.4B on Idled Submarines, Could Spend Another $3.1B More",
+        "url": "https://www.jalopnik.com/2249392/u-s-navy-3-4-billion-idled-submarines/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:24:59 +0000",
+        "id": "92b83d4e9bc766b996d6eff13d64d3b9c5b6a08e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "82f177d4edc862fa396123db92364e42a58df3a8",
+        "canonicalUrl": "https://jalopnik.com/2249392/u-s-navy-3-4-billion-idled-submarines",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.jalopnik.com/2249392/u-s-navy-3-4-billion-idled-submarines/",
+            "source": "Hacker News Newest",
+            "title": "U.S. Navy Spent $3.4B on Idled Submarines, Could Spend Another $3.1B More",
+            "titleZh": "美国海军在闲置潜艇上花费34亿美元，可能再花费31亿美元"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国海军在闲置潜艇上花费34亿美元，可能再花费31亿美元"
+      },
+      {
+        "title": "CD sales are making an unexpected comeback amid a retro tech boom",
+        "url": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:23:41 +0000",
+        "id": "8bbc56bfa33b16f921dc375327fb370ec82242ff",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e6fd5841375041117a69de8b0ef84d389ed40a23",
+        "canonicalUrl": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
+            "source": "Hacker News Newest",
+            "title": "CD sales are making an unexpected comeback amid a retro tech boom",
+            "titleZh": "CD销量在复古科技热潮中意外回升"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "CD销量在复古科技热潮中意外回升"
+      },
+      {
+        "title": "In a First, a Pig Kidney Kept a Patient Alive Until He Got a Human One",
+        "url": "https://www.nytimes.com/2026/09/03/well/pig-kidney-bridge-transplant.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:22:37 +0000",
+        "id": "2078ebb560220d644a555595cd12019dad6bbc7f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ff173345f1d9a6b6d89590afec69343163358cd5",
+        "canonicalUrl": "https://nytimes.com/2026/09/03/well/pig-kidney-bridge-transplant.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nytimes.com/2026/09/03/well/pig-kidney-bridge-transplant.html",
+            "source": "Hacker News Newest",
+            "title": "In a First, a Pig Kidney Kept a Patient Alive Until He Got a Human One",
+            "titleZh": "首次实现：猪肾让患者存活至获得人类肾脏"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "首次实现：猪肾让患者存活至获得人类肾脏"
+      },
+      {
+        "title": "Finding Emily",
+        "url": "https://www.commonreader.co.uk/p/finding-emily",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:22:06 +0000",
+        "id": "f472a9dbbb3603d945e6b0b6218fb95d0ebd654f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d2a15c4d7e4ce756258999257d757499b4d95c7c",
+        "canonicalUrl": "https://commonreader.co.uk/p/finding-emily",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.commonreader.co.uk/p/finding-emily",
+            "source": "Hacker News Newest",
+            "title": "Finding Emily",
+            "titleZh": "寻找艾米丽"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "寻找艾米丽"
+      },
+      {
+        "title": "One geometric idea that explains SGD, AdamW, and Muon",
+        "url": "https://kbwal.github.io/writing/notes-on-muon/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:21:49 +0000",
+        "id": "5dae2b2572d6b93f08a0574a4e3083e9251d1275",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "aa55063930590b174931959dd631f82f28af3394",
+        "canonicalUrl": "https://kbwal.github.io/writing/notes-on-muon",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://kbwal.github.io/writing/notes-on-muon/",
+            "source": "Hacker News Newest",
+            "title": "One geometric idea that explains SGD, AdamW, and Muon",
+            "titleZh": "一个解释SGD、AdamW和Muon的几何思想"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "一个解释SGD、AdamW和Muon的几何思想"
+      },
+      {
+        "title": "After Work, We'll Have Each Other Clara Collier",
+        "url": "https://asteriskmag.com/issues/15/after-work-we-ll-have-each-other",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:21:38 +0000",
+        "id": "6a36a44e3b654a7bb4c861b75f1378f53ee95a21",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9d09b319b67615cb81951a9d35d982af5f32500c",
+        "canonicalUrl": "https://asteriskmag.com/issues/15/after-work-we-ll-have-each-other",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://asteriskmag.com/issues/15/after-work-we-ll-have-each-other",
+            "source": "Hacker News Newest",
+            "title": "After Work, We'll Have Each Other Clara Collier",
+            "titleZh": "下班后，我们彼此相伴——克拉拉·科利尔"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "下班后，我们彼此相伴——克拉拉·科利尔"
+      },
+      {
+        "title": "Show HN: Covenant – A governance framework for multi-agent AI systems",
+        "url": "https://github.com/asalsali/covenant-framework-community",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-09-04T19:47:34.374Z",
+        "pubDate": "Fri, 04 Sep 2026 19:19:57 +0000",
+        "id": "dc517fcd940fd68c47b9ede5ebe1be15b1ca0ef0",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "智能体"
+        ],
+        "isPriority": true,
+        "eventId": "102715e2b7f77ffb61c84569243464bd09402141",
+        "canonicalUrl": "https://github.com/asalsali/covenant-framework-community",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/asalsali/covenant-framework-community",
+            "source": "Hacker News Newest",
+            "title": "Show HN: Covenant – A governance framework for multi-agent AI systems",
+            "titleZh": "展示HN：Covenant——多智能体AI系统的治理框架"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：Covenant——多智能体AI系统的治理框架"
+      },
+      {
+        "title": "Babashka 1.13.220 gets FFI",
+        "url": "https://blog.michielborkent.nl/babashka-ffi.html",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-04T19:47:34.430Z",
+        "pubDate": "Fri, 04 Sep 2026 13:33:44 -0500",
+        "id": "2eb1c1695c63276c5cd3b560d3c1cc1deac0c8d8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "70d896bc5485a4b93beafae6d3f5e4a6b5bc0f53",
+        "canonicalUrl": "https://blog.michielborkent.nl/babashka-ffi.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.michielborkent.nl/babashka-ffi.html",
+            "source": "Lobsters RSS",
+            "title": "Babashka 1.13.220 gets FFI",
+            "titleZh": "Babashka 1.13.220获得FFI支持"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Babashka 1.13.220获得FFI支持"
+      },
+      {
+        "title": "jank reimagines C++ errors and gets an official native package repo",
+        "url": "https://jank-lang.org/blog/2026-09-04-better-and-better/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-04T19:47:34.430Z",
+        "pubDate": "Fri, 04 Sep 2026 12:47:34 -0500",
+        "id": "6f10f8a93d77bf716838e92b062f0b0a08cc9c8f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0175eb1a4719658f0fef4394636bd246ba068c87",
+        "canonicalUrl": "https://jank-lang.org/blog/2026-09-04-better-and-better",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://jank-lang.org/blog/2026-09-04-better-and-better/",
+            "source": "Lobsters RSS",
+            "title": "jank reimagines C++ errors and gets an official native package repo",
+            "titleZh": "jank重新构想C++错误处理，并推出官方原生软件包仓库"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "jank重新构想C++错误处理，并推出官方原生软件包仓库"
+      },
+      {
+        "title": "A preview of the future Intel Architecture documentation",
+        "url": "https://intel.github.io/SDM/announcement/2026/08/20/announce-preview.html",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-04T19:47:34.430Z",
+        "pubDate": "Fri, 04 Sep 2026 11:20:30 -0500",
+        "id": "dcdee1c3f0ebd08f726cc7f9801a70872d8367f1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a77856a9dbec8b2f7edcca36ef043cdae27923ea",
+        "canonicalUrl": "https://intel.github.io/SDM/announcement/2026/08/20/announce-preview.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://intel.github.io/SDM/announcement/2026/08/20/announce-preview.html",
+            "source": "Lobsters RSS",
+            "title": "A preview of the future Intel Architecture documentation",
+            "titleZh": "英特尔未来架构文档预览"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英特尔未来架构文档预览"
+      },
+      {
+        "title": "FLT: Anthropic has beaten me to it",
+        "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-04T19:47:34.430Z",
+        "pubDate": "Fri, 04 Sep 2026 14:11:37 -0500",
+        "id": "8a005c4693bdfed86f80d310e1775ff3ebb3e729",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Anthropic"
+        ],
+        "isPriority": true,
+        "eventId": "d94fac3e1f7d898ab20758e3a1ce4a98c099b3e7",
+        "canonicalUrl": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
+            "source": "Lobsters RSS",
+            "title": "FLT: Anthropic has beaten me to it",
+            "titleZh": "FLT：Anthropic抢先一步"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FLT：Anthropic抢先一步"
+      },
+      {
+        "title": "deft: A gradual type system for Janet",
+        "url": "https://codeberg.org/zzkt/deft",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-04T19:47:34.430Z",
+        "pubDate": "Fri, 04 Sep 2026 11:51:46 -0500",
+        "id": "0f0051f55204493f8840045fd872d3dfd22d29e2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "76777b8297ca7fc5587e57eb1aa0ebb9078acf16",
+        "canonicalUrl": "https://codeberg.org/zzkt/deft",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://codeberg.org/zzkt/deft",
+            "source": "Lobsters RSS",
+            "title": "deft: A gradual type system for Janet",
+            "titleZh": "deft：为Janet设计的渐进类型系统"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "deft：为Janet设计的渐进类型系统"
+      },
+      {
+        "id": "41cf9143e0a8409b5300f9d80ee9cfad48012b1c",
+        "title": "GPT-6-Astra Generally Available on Vercel's AI Gateway",
+        "url": "https://twitter.com/vercel_dev/status/2095957372850389186",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:40:25Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "915cbcbe5993cae45683b04e9a15e8e22c46618f",
+        "canonicalUrl": "https://twitter.com/vercel_dev/status/2095957372850389186",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/vercel_dev/status/2095957372850389186",
+            "source": "Hacker News Algolia AI Search",
+            "title": "GPT-6-Astra Generally Available on Vercel's AI Gateway",
+            "titleZh": "GPT-6-Astra在Vercel的AI网关上全面可用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "GPT-6-Astra在Vercel的AI网关上全面可用"
+      },
+      {
+        "id": "ebc57973cd00f74f47985f2b087845a7d4231a22",
+        "title": "GotChat – Apache 2.0 LLM chat with installable full-stacked plugins",
+        "url": "https://github.com/gotchat-ai/foundry",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:40:22Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "LLM"
+        ],
+        "isPriority": true,
+        "eventId": "fac5762db8f2f00632c0f3c493c9f482686627a0",
+        "canonicalUrl": "https://github.com/gotchat-ai/foundry",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/gotchat-ai/foundry",
+            "source": "Hacker News Algolia AI Search",
+            "title": "GotChat – Apache 2.0 LLM chat with installable full-stacked plugins",
+            "titleZh": "GotChat——Apache 2.0许可的LLM聊天，支持可安装的全栈插件"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "GotChat——Apache 2.0许可的LLM聊天，支持可安装的全栈插件"
+      },
+      {
+        "id": "82828ff40e3e739d4eea75efb6ab355afd1e86a9",
+        "title": "OpenAI's AI Agents Build a Secret Community to Talk with Each Other",
+        "url": "https://www.aiexperts.com/blog/openai-agents-broke-out-of-their-sandboxes",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:13:57Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "OpenAI"
+        ],
+        "isPriority": true,
+        "eventId": "2142cafc18573bc0c6828f8f920c58cdf1eaf731",
+        "canonicalUrl": "https://aiexperts.com/blog/openai-agents-broke-out-of-their-sandboxes",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.aiexperts.com/blog/openai-agents-broke-out-of-their-sandboxes",
+            "source": "Hacker News Algolia AI Search",
+            "title": "OpenAI's AI Agents Build a Secret Community to Talk with Each Other",
+            "titleZh": "OpenAI的AI代理构建秘密社区以相互交流"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "OpenAI的AI代理构建秘密社区以相互交流"
+      },
+      {
+        "id": "f7840ecb2e1d69733629afc518fa887bfe10796c",
+        "title": "Job postings show early signs of AI automation impact",
+        "url": "https://www.dallasfed.org/research/economics/2026/0901",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:12:15Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "cb0e2bb55ba91d752081fc4351bd67e0a46d0a26",
+        "canonicalUrl": "https://dallasfed.org/research/economics/2026/0901",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.dallasfed.org/research/economics/2026/0901",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Job postings show early signs of AI automation impact",
+            "titleZh": "招聘信息显示AI自动化影响的早期迹象"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "招聘信息显示AI自动化影响的早期迹象"
+      },
+      {
+        "id": "01fa3e4d453f0c1906a34c471a52770ea3aca680",
+        "title": "Filmmakers tout AI's use in Hollywood",
+        "url": "https://www.semafor.com/article/09/04/2026/filmmakers-tout-ais-use-in-hollywood-at-the-other-film-festival-in-venice",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:08:52Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "fdedc29cf987b1a5c96f4ebe4e5343d38c2e091e",
+        "canonicalUrl": "https://semafor.com/article/09/04/2026/filmmakers-tout-ais-use-in-hollywood-at-the-other-film-festival-in-venice",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.semafor.com/article/09/04/2026/filmmakers-tout-ais-use-in-hollywood-at-the-other-film-festival-in-venice",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Filmmakers tout AI's use in Hollywood",
+            "titleZh": "电影制作人推崇AI在好莱坞的应用"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "电影制作人推崇AI在好莱坞的应用"
+      },
+      {
+        "id": "69f460cb1a48cec5fd6c2a2844686bcd0690861f",
+        "title": "Show HN: MyHandler – Local-first AI assistant for Windows, llama.cpp on Vulkan",
+        "url": "https://myhandler.ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:07:43Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Llama"
+        ],
+        "isPriority": true,
+        "eventId": "32934926b9f564157e7ff4ccbdb5d93e68c6eb54",
+        "canonicalUrl": "https://myhandler.ai/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://myhandler.ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: MyHandler – Local-first AI assistant for Windows, llama.cpp on Vulkan",
+            "titleZh": "Show HN：MyHandler——面向Windows的本地优先AI助手，基于Vulkan的llama.cpp"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：MyHandler——面向Windows的本地优先AI助手，基于Vulkan的llama.cpp"
+      },
+      {
+        "id": "69475735c860a5ab28197139cc3bf755e94e27f8",
+        "title": "Raising Capital? Start Here",
+        "url": "https://leadagentx.ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:01:49Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "68ee006c3cb74af3db971cd25ab08fb487826bac",
+        "canonicalUrl": "https://leadagentx.ai/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://leadagentx.ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Raising Capital? Start Here",
+            "titleZh": "筹集资金？从这里开始"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "筹集资金？从这里开始"
+      },
+      {
+        "id": "28d144d62dc94f1545203071e98e3dbd37330c26",
+        "title": "NetworkManager Works to Enforce AI Policy by Tricking AI Agents to Add a Canary",
+        "url": "https://www.phoronix.com/news/NetworkManager-AI-Canary",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T19:00:11Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "1f4f623ea38f1b4cef5ea9eaa4ce5662caeeb719",
+        "canonicalUrl": "https://phoronix.com/news/NetworkManager-AI-Canary",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.phoronix.com/news/NetworkManager-AI-Canary",
+            "source": "Hacker News Algolia AI Search",
+            "title": "NetworkManager Works to Enforce AI Policy by Tricking AI Agents to Add a Canary",
+            "titleZh": "NetworkManager 通过欺骗 AI 代理添加金丝雀来执行 AI 政策"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "NetworkManager 通过欺骗 AI 代理添加金丝雀来执行 AI 政策"
+      },
+      {
+        "id": "e3df0820ca6099cd22faed7cc41c3a71c53b392e",
+        "title": "Eidon: Self-hosted AI assistant with Grok Bot-like agent mode",
+        "url": "https://github.com/Quack6765/Eidon-AI",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:57:14Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agent",
+          "Grok"
+        ],
+        "isPriority": true,
+        "eventId": "8f19a11992174d7518089c140a48bc76878da662",
+        "canonicalUrl": "https://github.com/Quack6765/Eidon-AI",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/Quack6765/Eidon-AI",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Eidon: Self-hosted AI assistant with Grok Bot-like agent mode",
+            "titleZh": "Eidon：自托管 AI 助手，具有类似 Grok Bot 的代理模式"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Eidon：自托管 AI 助手，具有类似 Grok Bot 的代理模式"
+      },
+      {
+        "id": "b70c69db2e38477be3c80c139746e74759fac5c9",
+        "title": "Data Centers Are 'Awesome for Blue-Collar Americans'",
+        "url": "https://www.businessinsider.com/gavin-baker-ai-data-centers-awesome-blue-collar-americans-2026-9",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:56:21Z",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "569aec0717bece12c8d016aa50f0df7dbdf61c16",
+        "canonicalUrl": "https://businessinsider.com/gavin-baker-ai-data-centers-awesome-blue-collar-americans-2026-9",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.businessinsider.com/gavin-baker-ai-data-centers-awesome-blue-collar-americans-2026-9",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Data Centers Are 'Awesome for Blue-Collar Americans'",
+            "titleZh": "数据中心“对美国蓝领工人来说太棒了”"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数据中心“对美国蓝领工人来说太棒了”"
+      },
+      {
+        "id": "69443d6ea439d63cb3f9c67ec6856c0bbbaf97ff",
+        "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
+        "url": "https://economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:53:16Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "e596b9424f54f6501940054b5bccf961ad0295e2",
+        "canonicalUrl": "https://economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+            "source": "Hacker News Algolia AI Search",
+            "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
+            "titleZh": "就业末日被推迟。AI 就业热潮来了"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "就业末日被推迟。AI 就业热潮来了"
+      },
+      {
+        "id": "a15b7ccdf9c90d409955d8283f0268bdafbd6797",
+        "title": "AI Budget Is There. It's Hiding in Your Cloud Bill",
+        "url": "https://medium.com/@yanivleven/your-ai-budget-is-already-there-its-hiding-in-your-cloud-bill-859546a848e9",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:52:15Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "bc7a643b0243dec49ce48c5695b1b1490ca425ae",
+        "canonicalUrl": "https://medium.com/@yanivleven/your-ai-budget-is-already-there-its-hiding-in-your-cloud-bill-859546a848e9",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://medium.com/@yanivleven/your-ai-budget-is-already-there-its-hiding-in-your-cloud-bill-859546a848e9",
+            "source": "Hacker News Algolia AI Search",
+            "title": "AI Budget Is There. It's Hiding in Your Cloud Bill",
+            "titleZh": "AI 预算就在那里。它藏在你的云账单里"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI 预算就在那里。它藏在你的云账单里"
+      },
+      {
+        "id": "d53ccab6dba62eeb80710fbba197fc3128963489",
+        "title": "Z1T: Sparse Transformer‑Like Models for Probabilistic Hardware",
+        "url": "https://extropic.ai/writing/z1t/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:48:28Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cccc70e8c84ee789893ac6d76e6328a0215496d4",
+        "canonicalUrl": "https://extropic.ai/writing/z1t",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://extropic.ai/writing/z1t/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Z1T: Sparse Transformer‑Like Models for Probabilistic Hardware",
+            "titleZh": "Z1T：面向概率硬件的稀疏类 Transformer 模型"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Z1T：面向概率硬件的稀疏类 Transformer 模型"
+      },
+      {
+        "id": "23e3839139e0dcd8d7092c9822fe91cf19615eb3",
+        "title": "Will Greed Destroy AI?",
+        "url": "https://auxiliarymemory.com/2026/09/04/will-greed-destroy-ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:39:54Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "3846d4d8cbfcc3fb196a5a5561cbee345bdd1dc5",
+        "canonicalUrl": "https://auxiliarymemory.com/2026/09/04/will-greed-destroy-ai",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://auxiliarymemory.com/2026/09/04/will-greed-destroy-ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Will Greed Destroy AI?",
+            "titleZh": "贪婪会毁掉 AI 吗？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "贪婪会毁掉 AI 吗？"
+      },
+      {
+        "id": "e48b45ac86405c9d38099b6446f0a052ab06481c",
+        "title": "Montgomery v0.1: computer vision AI training in any GPU",
+        "url": "https://github.com/boquila/montgomery",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-04T19:47:34.569Z",
+        "pubDate": "2026-09-04T18:36:32Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "4c990f1fb95b77fde0deb7f175d55c551d0cb0b6",
+        "canonicalUrl": "https://github.com/boquila/montgomery",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/boquila/montgomery",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Montgomery v0.1: computer vision AI training in any GPU",
+            "titleZh": "Montgomery v0.1：在任何 GPU 上进行计算机视觉 AI 训练"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Montgomery v0.1：在任何 GPU 上进行计算机视觉 AI 训练"
       }
     ]
   },
-  "lastFetchAt": "2026-09-04T17:27:25.664Z"
+  "lastFetchAt": "2026-09-04T19:47:33.331Z"
 }
