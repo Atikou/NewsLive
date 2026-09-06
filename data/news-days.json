@@ -1762,10 +1762,11 @@
         "isPriority": false,
         "eventId": "0702a280e9a83d4c30e406d118f4ebd45e130944",
         "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVmJIdGJzdkhLMUJybzF4SHU5U2VfMUpJSXRIMC1TdlozSUVnZlllX1dINEV0U1ZxUlFoUjFndkpGTGtzNWItSEp6OTFETGwxY3ZKY2l4enhVTXl6anpkbENFeVJhRkZqM3BfWk9EUk15S2hFcVdrUy13Skh4WmpaMWR3LTRhRzJWNVBkaDhkT25OM3RyNjE4",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "AP News via Google News"
+          "AP News via Google News",
+          "Google News"
         ],
         "relatedLinks": [
           {
@@ -4614,14 +4615,14 @@
         "clusterSize": 2,
         "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage",
-          "Lobsters RSS"
+          "Lobsters RSS",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
             "url": "https://arxiv.org/abs/2609.03344",
-            "source": "Hacker News Frontpage",
-            "title": "LLMs as a Cognitive Virus",
+            "source": "Lobsters RSS",
+            "title": "Large-Language Models as a Cognitive Virus",
             "titleZh": "大语言模型作为认知病毒"
           }
         ],
@@ -6230,10 +6231,11 @@
         "isPriority": true,
         "eventId": "9722b6a55138a326604dd3d5c9c2689946c03b04",
         "canonicalUrl": "https://techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6351,10 +6353,11 @@
         "isPriority": true,
         "eventId": "b2e85901c0dbb01da089ef1afd65e4ca430bdd06",
         "canonicalUrl": "https://thecooldown.com/green-tech/global-south-data-workers-ai-labor-organization",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6604,10 +6607,11 @@
         "isPriority": false,
         "eventId": "8cf109246aceb7219fb41e442a490e3721f440ac",
         "canonicalUrl": "https://halv.ai/blog/halv-swe-rebench-20-pairs",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6796,10 +6800,11 @@
         "isPriority": true,
         "eventId": "5f19809828f99d77a5120d411ee8a5724de04024",
         "canonicalUrl": "https://blog.bilus.dev/posts/good-ai-slop",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6839,10 +6844,11 @@
         "isPriority": true,
         "eventId": "54ba4d592e1c13973e8301cffa826f3c20832a71",
         "canonicalUrl": "https://arxiv.org/abs/2604.03136",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search"
         ],
         "relatedLinks": [
           {
@@ -6883,10 +6889,11 @@
         "isPriority": true,
         "eventId": "5bcfe97f5b84cb9db93465c92a8d8a0af319a9ea",
         "canonicalUrl": "https://github.com/okf-memory/okf-agent-memory",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7040,10 +7047,11 @@
         "isPriority": false,
         "eventId": "738a85077ba43ff9127d6d88289c73367f24150a",
         "canonicalUrl": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Lobsters RSS"
+          "Lobsters RSS",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -7146,8 +7154,1247 @@
         "language": "",
         "languages": [],
         "titleZh": "谷歌AI在残酷直白的采访中反噬其创造者"
+      },
+      {
+        "title": "印太？亚太！",
+        "url": "https://www.chinanews.com.cn/cj/2026/09-06/10691241.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 09:04:20 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "239983b4f926c8b13e5cc7295bb993fba5636fb0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e5a8a6236520d680e9f0d154a46bac6205ec8de5",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/09-06/10691241.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/09-06/10691241.shtml",
+            "source": "中国新闻网",
+            "title": "印太？亚太！",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "【向新之翼】习言道｜迎头赶上 奋起直追 力争超越",
+        "url": "http://www.chinanews.com.cn/gn/shipin/2026/09-06/news1067909.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 08:55:42 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4b2cdebc5f08eca0ddebf2a8228c17cc4660389d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e66b46bdd5cd36a1953710e0d7899276c525a985",
+        "canonicalUrl": "http://chinanews.com.cn/gn/shipin/2026/09-06/news1067909.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/gn/shipin/2026/09-06/news1067909.shtml",
+            "source": "中国新闻网",
+            "title": "【向新之翼】习言道｜迎头赶上 奋起直追 力争超越",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "会见超3小时 俄方介绍普京与美总统特使会谈成果",
+        "url": "https://www.chinanews.com.cn/gj/2026/09-06/10691239.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 08:55:33 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "462c99866db7c4a8047d989573ce93619538ed0b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d4d2a18d918ab427db84beda54947671fe495ff3",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/09-06/10691239.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/09-06/10691239.shtml",
+            "source": "中国新闻网",
+            "title": "会见超3小时 俄方介绍普京与美总统特使会谈成果",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "388元体验3分钟短剧拍摄 “我在横店当主演”",
+        "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691237.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 08:51:27 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "633b63960b7b8040c9d14ca059062a7be8dead08",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "0344ee2df0d97340707a6055f39273bbe8e5764f",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/09-06/10691237.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691237.shtml",
+            "source": "中国新闻网",
+            "title": "388元体验3分钟短剧拍摄 “我在横店当主演”",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "很多人用错！这6种居家健身器械的使用误区一定要避开",
+        "url": "https://www.chinanews.com.cn/life/2026/09-06/10691236.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 08:46:15 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0427d84051f9a55e77c4465921127b36cdcb6571",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5fd36743549dd032032b443bdde763f4f112c27e",
+        "canonicalUrl": "https://chinanews.com.cn/life/2026/09-06/10691236.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/life/2026/09-06/10691236.shtml",
+            "source": "中国新闻网",
+            "title": "很多人用错！这6种居家健身器械的使用误区一定要避开",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "青春华章｜他们走过千万步，只为中国科技再进一步",
+        "url": "https://www.chinanews.com.cn/chuangyi/2026/09-06/10691234.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 08:40:16 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f4ad52ce95d9906c2459134f468d13154392976d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5f7e5d3be1e864c0f05cbef1aed6d10587d64a6d",
+        "canonicalUrl": "https://chinanews.com.cn/chuangyi/2026/09-06/10691234.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/chuangyi/2026/09-06/10691234.shtml",
+            "source": "中国新闻网",
+            "title": "青春华章｜他们走过千万步，只为中国科技再进一步",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中小学校服如何买得放心、穿得安心",
+        "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691235.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 08:31:14 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "4ada27ffb4709bb1694af8b9593da2224280e7e5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ed67468c9f671bd92030aa2b40655a1d0ff9d86a",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/09-06/10691235.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691235.shtml",
+            "source": "中国新闻网",
+            "title": "中小学校服如何买得放心、穿得安心",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "菲华裔青少年角逐“启斐杯” 以华语之声筑文化传承之桥",
+        "url": "https://www.chinanews.com.cn/hr/2026/09-06/10691230.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-09-06T01:11:00.295Z",
+        "pubDate": "Sun, 6 Sep 2026 07:34:48 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "d012308df8fc10908c27e91d4238998e027b9544",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e5bab0a15b1835ff6066b51b61073ca026e0c9ed",
+        "canonicalUrl": "https://chinanews.com.cn/hr/2026/09-06/10691230.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/hr/2026/09-06/10691230.shtml",
+            "source": "中国新闻网",
+            "title": "菲华裔青少年角逐“启斐杯” 以华语之声筑文化传承之桥",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "Zheng Qinwen stuns Madison Keys with a spectacular rally at the US Open. Fritz, Anisimova also lose - apnews.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT2NPWl83REZteDhYekllekJmMzFuT3hWUmRLeEwyYmpGU3FCVl9fZWtnLWpPWHdQTzJrWFhNSkdVUUNNU3Vvb0Z4SFkzNUtPSTVkYWd1NnY2VGFkYWUyRVEyWHk0X1ozQ2QtT21hWnI1VWZqRGlNb1RRTFl4Q1JGOG9oZU1CQUJGRVpUaEtR?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-09-06T01:11:00.537Z",
+        "pubDate": "Sat, 05 Sep 2026 21:42:00 GMT",
+        "id": "5e80d59c07b8373287d4052ef4780885d9f74e71",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "eddfb42e56c810b2fd58b10c92e644b914982c4a",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT2NPWl83REZteDhYekllekJmMzFuT3hWUmRLeEwyYmpGU3FCVl9fZWtnLWpPWHdQTzJrWFhNSkdVUUNNU3Vvb0Z4SFkzNUtPSTVkYWd1NnY2VGFkYWUyRVEyWHk0X1ozQ2QtT21hWnI1VWZqRGlNb1RRTFl4Q1JGOG9oZU1CQUJGRVpUaEtR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT2NPWl83REZteDhYekllekJmMzFuT3hWUmRLeEwyYmpGU3FCVl9fZWtnLWpPWHdQTzJrWFhNSkdVUUNNU3Vvb0Z4SFkzNUtPSTVkYWd1NnY2VGFkYWUyRVEyWHk0X1ozQ2QtT21hWnI1VWZqRGlNb1RRTFl4Q1JGOG9oZU1CQUJGRVpUaEtR?oc=5",
+            "source": "AP News via Google News",
+            "title": "Zheng Qinwen stuns Madison Keys with a spectacular rally at the US Open. Fritz, Anisimova also lose - apnews.com",
+            "titleZh": "郑钦文在美网以精彩回合击败麦迪逊·凯斯，弗里茨、阿尼西莫娃也告负 - apnews.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "郑钦文在美网以精彩回合击败麦迪逊·凯斯，弗里茨、阿尼西莫娃也告负 - apnews.com"
+      },
+      {
+        "title": "US ambassador visits Palestinian town amid rise in West Bank settler violence - reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-09-06T01:11:00.578Z",
+        "pubDate": "Sat, 05 Sep 2026 22:29:12 GMT",
+        "id": "d07fa6720dc05eadee41321724cbce23e454eb66",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国",
+          "巴勒斯坦"
+        ],
+        "isPriority": true,
+        "eventId": "e6d0fa3df8e5274f01cf865beb11a51ecababe88",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "US ambassador visits Palestinian town amid rise in West Bank settler violence - reuters.com",
+            "titleZh": "美国大使访问巴勒斯坦城镇，西岸定居者暴力事件上升 - reuters.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国大使访问巴勒斯坦城镇，西岸定居者暴力事件上升 - reuters.com"
+      },
+      {
+        "title": "Manhunt after alleged axe attack in Victoria leaves three people with serious injuries",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/06/manhunt-after-alleged-axe-attack-in-victoria-leaves-three-people-with-life-threatening-injuries-ntwnfb",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-06T01:11:00.128Z",
+        "pubDate": "Sun, 06 Sep 2026 00:22:11 GMT",
+        "id": "401bb26628147e9e2632c8e6d372fa5572f71f3e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "541c54db255abb296550efd1fb0ed10086b7db2d",
+        "canonicalUrl": "https://theguardian.com/australia-news/2026/sep/06/manhunt-after-alleged-axe-attack-in-victoria-leaves-three-people-with-life-threatening-injuries-ntwnfb",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/sep/06/manhunt-after-alleged-axe-attack-in-victoria-leaves-three-people-with-life-threatening-injuries-ntwnfb",
+            "source": "Guardian World",
+            "title": "Manhunt after alleged axe attack in Victoria leaves three people with serious injuries",
+            "titleZh": "维多利亚州涉嫌斧头袭击事件致三人重伤，警方展开追捕"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "维多利亚州涉嫌斧头袭击事件致三人重伤，警方展开追捕"
+      },
+      {
+        "title": "Falling ceiling debris at Kennedy Center may mire debate over renovations",
+        "url": "https://www.theguardian.com/us-news/2026/sep/05/kennedy-center-ceiling-debris-renovations",
+        "source": "Guardian World",
+        "fetchedAt": "2026-09-06T01:11:00.128Z",
+        "pubDate": "Sat, 05 Sep 2026 23:21:22 GMT",
+        "id": "cd9e92c8b9aa45b4146078d3ad483197c479dd16",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "7ff0f50cdcafe007802ea9bc8a71392964739e08",
+        "canonicalUrl": "https://theguardian.com/us-news/2026/sep/05/kennedy-center-ceiling-debris-renovations",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/sep/05/kennedy-center-ceiling-debris-renovations",
+            "source": "Guardian World",
+            "title": "Falling ceiling debris at Kennedy Center may mire debate over renovations",
+            "titleZh": "肯尼迪中心天花板坠落碎片可能加剧翻修争议"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "肯尼迪中心天花板坠落碎片可能加剧翻修争议"
+      },
+      {
+        "title": "Trump envoys Witkoff and Kushner meet with Putin about ending the Ukraine war - Axios",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YenE2dEVHYWtBRFE5N3oxbm9OQmRYaTlWQ2pqQ1Vvb00zMlBfeERuTllJOHZIc3NHWTJlRVZQUEt5a2pZYndEamJlUnRSeDFiLWIzY3Z5T1R0UnlvbnRRd2wxV19MSXJ1WW5nWlZnYTBUWEpTTXNkTVBXTVc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 22:00:36 GMT",
+        "id": "c6dd43bff0d8714153de9c621cf9c906c04a452b",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "war",
+          "战争",
+          "特朗普",
+          "乌克兰",
+          "Trump",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "06761e79e1f1923b805ff37dcbd070beb335d5d3",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YenE2dEVHYWtBRFE5N3oxbm9OQmRYaTlWQ2pqQ1Vvb00zMlBfeERuTllJOHZIc3NHWTJlRVZQUEt5a2pZYndEamJlUnRSeDFiLWIzY3Z5T1R0UnlvbnRRd2wxV19MSXJ1WW5nWlZnYTBUWEpTTXNkTVBXTVc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YenE2dEVHYWtBRFE5N3oxbm9OQmRYaTlWQ2pqQ1Vvb00zMlBfeERuTllJOHZIc3NHWTJlRVZQUEt5a2pZYndEamJlUnRSeDFiLWIzY3Z5T1R0UnlvbnRRd2wxV19MSXJ1WW5nWlZnYTBUWEpTTXNkTVBXTVc?oc=5",
+            "source": "Google News",
+            "title": "Trump envoys Witkoff and Kushner meet with Putin about ending the Ukraine war - Axios",
+            "titleZh": "特朗普特使威特科夫和库什纳与普京会面讨论结束乌克兰战争 - Axios"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普特使威特科夫和库什纳与普京会面讨论结束乌克兰战争 - Axios"
+      },
+      {
+        "title": "Kennedy Center renews call for Trump-backed shutdown after part of a ceiling collapses - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNHJFSHVsaW9tazF4YVN5TlFSX0xwNVhXMWxfM0U2bjZkSExqc2dTTzRoWU1aYlhLVFlyM3VHU19hclFfVUdyVTB5NUxjNFMxX3Y4UXRCSFlhazJTdWZ3ZzFYMklMYWJkN0xMZlVIRTJELUY3Wi1ldkdlMDFUcjZvN0p3UnZsX2l4Nm42VzVVamU2RnhEbmpZelRPa2xNNDA5anRrX2xYVzZxelg2dTkxbHRTTGN3X1hjT0lWdDZGRE4?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 20:49:20 GMT",
+        "id": "70adc52d0c68cd75dc2e864b7de59ae06680604b",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普"
+        ],
+        "isPriority": true,
+        "eventId": "ded979eb298d34e7ce1ea77dab67a0b087fde666",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNHJFSHVsaW9tazF4YVN5TlFSX0xwNVhXMWxfM0U2bjZkSExqc2dTTzRoWU1aYlhLVFlyM3VHU19hclFfVUdyVTB5NUxjNFMxX3Y4UXRCSFlhazJTdWZ3ZzFYMklMYWJkN0xMZlVIRTJELUY3Wi1ldkdlMDFUcjZvN0p3UnZsX2l4Nm42VzVVamU2RnhEbmpZelRPa2xNNDA5anRrX2xYVzZxelg2dTkxbHRTTGN3X1hjT0lWdDZGRE4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNHJFSHVsaW9tazF4YVN5TlFSX0xwNVhXMWxfM0U2bjZkSExqc2dTTzRoWU1aYlhLVFlyM3VHU19hclFfVUdyVTB5NUxjNFMxX3Y4UXRCSFlhazJTdWZ3ZzFYMklMYWJkN0xMZlVIRTJELUY3Wi1ldkdlMDFUcjZvN0p3UnZsX2l4Nm42VzVVamU2RnhEbmpZelRPa2xNNDA5anRrX2xYVzZxelg2dTkxbHRTTGN3X1hjT0lWdDZGRE4?oc=5",
+            "source": "Google News",
+            "title": "Kennedy Center renews call for Trump-backed shutdown after part of a ceiling collapses - NBC News",
+            "titleZh": "肯尼迪中心部分天花板坍塌后，再次呼吁特朗普支持的关闭 - NBC News"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "肯尼迪中心部分天花板坍塌后，再次呼吁特朗普支持的关闭 - NBC News"
+      },
+      {
+        "title": "Robin Morgan, Voice of Radical Feminism, Dies at 85 - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51emV4T09YTTl2YVFndzZWSGxqR3BSOGc0QnUtUE5wOVVSa0JLUVkyWXM1UFdYTkJUVDl6ckJiNVZYdXZEMzRiOGtkQ0xRT3czYm1ZWHhXZmswYzV1MW9Vc2dnd29XV1pwcFhWZg?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 22:16:31 GMT",
+        "id": "eed36d12f8543d0558ea888a884d646eed7d5f5b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "adaf2d6db9023e5c4b047358b9e526a50132f3d3",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51emV4T09YTTl2YVFndzZWSGxqR3BSOGc0QnUtUE5wOVVSa0JLUVkyWXM1UFdYTkJUVDl6ckJiNVZYdXZEMzRiOGtkQ0xRT3czYm1ZWHhXZmswYzV1MW9Vc2dnd29XV1pwcFhWZg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51emV4T09YTTl2YVFndzZWSGxqR3BSOGc0QnUtUE5wOVVSa0JLUVkyWXM1UFdYTkJUVDl6ckJiNVZYdXZEMzRiOGtkQ0xRT3czYm1ZWHhXZmswYzV1MW9Vc2dnd29XV1pwcFhWZg?oc=5",
+            "source": "Google News",
+            "title": "Robin Morgan, Voice of Radical Feminism, Dies at 85 - The New York Times",
+            "titleZh": "激进女权主义之声罗宾·摩根去世，享年85岁 - 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "激进女权主义之声罗宾·摩根去世，享年85岁 - 《纽约时报》"
+      },
+      {
+        "title": "A Sympathetic Defendant and Well-Crafted Defense Dominated Clancy Trial - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVWYyWXNSNndZUnhhLXJJV09XY2tIU3h5cHlUQjZzVXJoa1V0WkdBRVJIM3EwNEV1S0lVNXRIRU81QTBZSTZmcmFHY3YxOFNFMDN0cERHZGE0UkxPNWNGQkU5dk5aNlZSVU00M1VQcmpGM1RjaHFNMnFaTVFVV0wxMkJsVHJndUtqSnVVbWh1b3FMMzU1?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 23:51:47 GMT",
+        "id": "fbcffd0849374fbef197912b2dbbba8a42ac169a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "daed426e18d0e0c16295bc659972b4f28fe013e8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVWYyWXNSNndZUnhhLXJJV09XY2tIU3h5cHlUQjZzVXJoa1V0WkdBRVJIM3EwNEV1S0lVNXRIRU81QTBZSTZmcmFHY3YxOFNFMDN0cERHZGE0UkxPNWNGQkU5dk5aNlZSVU00M1VQcmpGM1RjaHFNMnFaTVFVV0wxMkJsVHJndUtqSnVVbWh1b3FMMzU1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVWYyWXNSNndZUnhhLXJJV09XY2tIU3h5cHlUQjZzVXJoa1V0WkdBRVJIM3EwNEV1S0lVNXRIRU81QTBZSTZmcmFHY3YxOFNFMDN0cERHZGE0UkxPNWNGQkU5dk5aNlZSVU00M1VQcmpGM1RjaHFNMnFaTVFVV0wxMkJsVHJndUtqSnVVbWh1b3FMMzU1?oc=5",
+            "source": "Google News",
+            "title": "A Sympathetic Defendant and Well-Crafted Defense Dominated Clancy Trial - The New York Times",
+            "titleZh": "富有同情心的被告与精心设计的辩护主导克兰西审判 - 《纽约时报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "富有同情心的被告与精心设计的辩护主导克兰西审判 - 《纽约时报》"
+      },
+      {
+        "title": "Hurricane Lowell forecast: Watches likely as storm nears Hawaii - USA Today",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVVhRN1paSk5nQ2NHNWk4ZFlFQ2VTVFBRVUNSek5YVkdmUHpxRmhXZ0hGclY4MC1uem5GX2JmWFpCb3dZLVdkVVplLUZvaXhiM1dES0JIaWd5d3BuTDdsMjFmQzdzN1ZvSmRfcDZ5dlJfeEp5NTc1VlA3NFlGVEVvcFh3SmZjeWtWYlFIOGV6UGcySUx0QTZ1dTVzUmJXQnVRbXQySnJTNFh1VzFQVU5uYzdoT1RYLVlyVzNvMWdaZ3pCeTl1Tmc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 21:58:00 GMT",
+        "id": "ffb160cd5fe2f412abae8358d8b41a8f4406f8e8",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "4cb6a3edc41ae63667bab89f6fe348de39e537ef",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVVhRN1paSk5nQ2NHNWk4ZFlFQ2VTVFBRVUNSek5YVkdmUHpxRmhXZ0hGclY4MC1uem5GX2JmWFpCb3dZLVdkVVplLUZvaXhiM1dES0JIaWd5d3BuTDdsMjFmQzdzN1ZvSmRfcDZ5dlJfeEp5NTc1VlA3NFlGVEVvcFh3SmZjeWtWYlFIOGV6UGcySUx0QTZ1dTVzUmJXQnVRbXQySnJTNFh1VzFQVU5uYzdoT1RYLVlyVzNvMWdaZ3pCeTl1Tmc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVVhRN1paSk5nQ2NHNWk4ZFlFQ2VTVFBRVUNSek5YVkdmUHpxRmhXZ0hGclY4MC1uem5GX2JmWFpCb3dZLVdkVVplLUZvaXhiM1dES0JIaWd5d3BuTDdsMjFmQzdzN1ZvSmRfcDZ5dlJfeEp5NTc1VlA3NFlGVEVvcFh3SmZjeWtWYlFIOGV6UGcySUx0QTZ1dTVzUmJXQnVRbXQySnJTNFh1VzFQVU5uYzdoT1RYLVlyVzNvMWdaZ3pCeTl1Tmc?oc=5",
+            "source": "Google News",
+            "title": "Hurricane Lowell forecast: Watches likely as storm nears Hawaii - USA Today",
+            "titleZh": "飓风洛厄尔预报：风暴逼近夏威夷，可能发布警报 - 《今日美国》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "飓风洛厄尔预报：风暴逼近夏威夷，可能发布警报 - 《今日美国》"
+      },
+      {
+        "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYTJSa3ZaZFdjOVppNUhHcUgwZUkzNzNkQ2dQbkxfZTV2czZOREZKemRxUDhtSlgyLVQ1eEQyRlVxRWFZNXVQSVdFUTVfc0FqMzFBSXE4Qkl1VWtzdmdQWllkSkl5QjJqZXpSOEVYWUpEU3d1TFNQeVNqX07SAYIBQVVfeXFMTi1HQkxWWlgzN1hYVGt2elQwUUVzcWJIai1VclJVUkNwVDI0ME9ZRjBlSzBtT0xoMTFVMWJfUkdWT0VPZmdrc0RRLXVDd0hkeFBpMEhMNzZhSTZ2SUx1QkQ2RW5UTVk2a3VPVjgwWWdoX1Q3b0I5THlCMHdJWHJGMWFidw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 18:10:58 GMT",
+        "id": "15d2ff48ce556d1cd376331533fb14e9f4ccb376",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "4ba5a1ce1647f98164ac49bcfa5fa25b1ab13588",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYTJSa3ZaZFdjOVppNUhHcUgwZUkzNzNkQ2dQbkxfZTV2czZOREZKemRxUDhtSlgyLVQ1eEQyRlVxRWFZNXVQSVdFUTVfc0FqMzFBSXE4Qkl1VWtzdmdQWllkSkl5QjJqZXpSOEVYWUpEU3d1TFNQeVNqX07SAYIBQVVfeXFMTi1HQkxWWlgzN1hYVGt2elQwUUVzcWJIai1VclJVUkNwVDI0ME9ZRjBlSzBtT0xoMTFVMWJfUkdWT0VPZmdrc0RRLXVDd0hkeFBpMEhMNzZhSTZ2SUx1QkQ2RW5UTVk2a3VPVjgwWWdoX1Q3b0I5THlCMHdJWHJGMWFidw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYTJSa3ZaZFdjOVppNUhHcUgwZUkzNzNkQ2dQbkxfZTV2czZOREZKemRxUDhtSlgyLVQ1eEQyRlVxRWFZNXVQSVdFUTVfc0FqMzFBSXE4Qkl1VWtzdmdQWllkSkl5QjJqZXpSOEVYWUpEU3d1TFNQeVNqX07SAYIBQVVfeXFMTi1HQkxWWlgzN1hYVGt2elQwUUVzcWJIai1VclJVUkNwVDI0ME9ZRjBlSzBtT0xoMTFVMWJfUkdWT0VPZmdrc0RRLXVDd0hkeFBpMEhMNzZhSTZ2SUx1QkQ2RW5UTVk2a3VPVjgwWWdoX1Q3b0I5THlCMHdJWHJGMWFidw?oc=5",
+            "source": "Google News",
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
+            "titleZh": "特朗普对沃什施压，美联储加息在即 - CNBC"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普对沃什施压，美联储加息在即 - CNBC"
+      },
+      {
+        "title": "Emmy Awards Night 1 Winners List (Updating Live) - Deadline",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MMzZNdmlmU1Z0RGE0MS0wMGM4bVNkMmdreVgySU5pdzZRTVduUXBUSUhJTXhiNGJiSFBmWnh5cUxFNWpVSUhfYjVmd3I0WUxFbGswWW5SYVJYYU40TTFR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sun, 06 Sep 2026 00:02:00 GMT",
+        "id": "4ebd074bb1caba814fd231f64131c7e5d49d0ee2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "abd10d2e085d361f0e750b82b54410a9446b6211",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MMzZNdmlmU1Z0RGE0MS0wMGM4bVNkMmdreVgySU5pdzZRTVduUXBUSUhJTXhiNGJiSFBmWnh5cUxFNWpVSUhfYjVmd3I0WUxFbGswWW5SYVJYYU40TTFR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MMzZNdmlmU1Z0RGE0MS0wMGM4bVNkMmdreVgySU5pdzZRTVduUXBUSUhJTXhiNGJiSFBmWnh5cUxFNWpVSUhfYjVmd3I0WUxFbGswWW5SYVJYYU40TTFR?oc=5",
+            "source": "Google News",
+            "title": "Emmy Awards Night 1 Winners List (Updating Live) - Deadline",
+            "titleZh": "艾美奖第一晚获奖名单（实时更新） - Deadline"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "艾美奖第一晚获奖名单（实时更新） - Deadline"
+      },
+      {
+        "title": "LSU vs Clemson weather update: Lane Kiffin debut in lightning delay - USA Today",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVGUtQko1OEh5cjBveHdiTUZyVEkwOFN3Wi1EVWtkOGdwU0lhbjdwcW5yT0JxZEVaVW4zUFFPNjVKQ2hSdThqeDlDRDBwXzUxY3ZoVWZkRWEtTnMwRS1OZ0dQUTRYM3RCVU4yaF9PQU56SnVRaFRneEdVUHhXUldGbGFiZVo3dndaaEhzSGJ3cUIzR2RwMi1iMWVpRkZzT3Fxa0lfTWY1bmRtdFVLYWlUSFZUZEtBc2NlYVlGZ0NDZTUtdjQwa0twaURESQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sun, 06 Sep 2026 00:30:00 GMT",
+        "id": "64e2694cbf238032f9532f6ce0ca23608070993d",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "fb607276e922c94d1a947d5a946322a26a3ddb4b",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVGUtQko1OEh5cjBveHdiTUZyVEkwOFN3Wi1EVWtkOGdwU0lhbjdwcW5yT0JxZEVaVW4zUFFPNjVKQ2hSdThqeDlDRDBwXzUxY3ZoVWZkRWEtTnMwRS1OZ0dQUTRYM3RCVU4yaF9PQU56SnVRaFRneEdVUHhXUldGbGFiZVo3dndaaEhzSGJ3cUIzR2RwMi1iMWVpRkZzT3Fxa0lfTWY1bmRtdFVLYWlUSFZUZEtBc2NlYVlGZ0NDZTUtdjQwa0twaURESQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVGUtQko1OEh5cjBveHdiTUZyVEkwOFN3Wi1EVWtkOGdwU0lhbjdwcW5yT0JxZEVaVW4zUFFPNjVKQ2hSdThqeDlDRDBwXzUxY3ZoVWZkRWEtTnMwRS1OZ0dQUTRYM3RCVU4yaF9PQU56SnVRaFRneEdVUHhXUldGbGFiZVo3dndaaEhzSGJ3cUIzR2RwMi1iMWVpRkZzT3Fxa0lfTWY1bmRtdFVLYWlUSFZUZEtBc2NlYVlGZ0NDZTUtdjQwa0twaURESQ?oc=5",
+            "source": "Google News",
+            "title": "LSU vs Clemson weather update: Lane Kiffin debut in lightning delay - USA Today",
+            "titleZh": "路易斯安那州立大学对阵克莱姆森大学天气更新：莱恩·基芬首秀遭遇闪电延迟 - 《今日美国》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "路易斯安那州立大学对阵克莱姆森大学天气更新：莱恩·基芬首秀遭遇闪电延迟 - 《今日美国》"
+      },
+      {
+        "title": "Salahdine Parnasse knocks out Dan Hooker in UFC debut - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUENDYW1CM1AtTkhTX1VRWVA4T2g2SEtYZlF1czgyV1Z3TkpVWW8yMWNxUUhPWUhXLTJXLXd3SzlyOEtaekF1OEdXNTZRZkpueGVCMWhSMUpjclE4OEZlWkdQdkl4Y3k0dzdUc2Rab01waHhWRmY5SGtaMGJlejJEMDBWZTF4ZUh1ZXFsamJhN2dMSFZpOWc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sat, 05 Sep 2026 22:20:00 GMT",
+        "id": "b107a1ebf50eab94011712bef66f3b910366bf61",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bf2bf0401447216dc81984798017b03843d35e9c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUENDYW1CM1AtTkhTX1VRWVA4T2g2SEtYZlF1czgyV1Z3TkpVWW8yMWNxUUhPWUhXLTJXLXd3SzlyOEtaekF1OEdXNTZRZkpueGVCMWhSMUpjclE4OEZlWkdQdkl4Y3k0dzdUc2Rab01waHhWRmY5SGtaMGJlejJEMDBWZTF4ZUh1ZXFsamJhN2dMSFZpOWc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUENDYW1CM1AtTkhTX1VRWVA4T2g2SEtYZlF1czgyV1Z3TkpVWW8yMWNxUUhPWUhXLTJXLXd3SzlyOEtaekF1OEdXNTZRZkpueGVCMWhSMUpjclE4OEZlWkdQdkl4Y3k0dzdUc2Rab01waHhWRmY5SGtaMGJlejJEMDBWZTF4ZUh1ZXFsamJhN2dMSFZpOWc?oc=5",
+            "source": "Google News",
+            "title": "Salahdine Parnasse knocks out Dan Hooker in UFC debut - ESPN",
+            "titleZh": "萨拉赫丁·帕纳斯在UFC首秀中击倒丹·胡克 - ESPN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "萨拉赫丁·帕纳斯在UFC首秀中击倒丹·胡克 - ESPN"
+      },
+      {
+        "title": "College football Week 1: Live updates, schedule, scores, highlights - ncaa.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVlNpUmlUdUZISEhwWXQ3bXFSQXZtMVg3b2V4azE0OWpmd0VxOGpmdGJVZHhEXzVFOUZjQlBKWk1sRWluQWpIb0dIVUtlV1JzaGtEbFhHTDNlV3lrLUp2NWhlNTdwQTBRdlpIbGpKaV8zbThZMFNrbmhCNGQxNzVuTUFmQ3ZORml6aHdYM1Ytc0UwQmZuYXI3ZnA0V3JOQXNZb015NWlLS3M5V3VLbVQ4?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-09-06T01:11:00.178Z",
+        "pubDate": "Sun, 06 Sep 2026 00:30:47 GMT",
+        "id": "96745c1ea9bedb85158f9a807ff17e5d1d0249a0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3ce669d0f84191a8eb14e6bea5760b67e6229330",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVlNpUmlUdUZISEhwWXQ3bXFSQXZtMVg3b2V4azE0OWpmd0VxOGpmdGJVZHhEXzVFOUZjQlBKWk1sRWluQWpIb0dIVUtlV1JzaGtEbFhHTDNlV3lrLUp2NWhlNTdwQTBRdlpIbGpKaV8zbThZMFNrbmhCNGQxNzVuTUFmQ3ZORml6aHdYM1Ytc0UwQmZuYXI3ZnA0V3JOQXNZb015NWlLS3M5V3VLbVQ4",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVlNpUmlUdUZISEhwWXQ3bXFSQXZtMVg3b2V4azE0OWpmd0VxOGpmdGJVZHhEXzVFOUZjQlBKWk1sRWluQWpIb0dIVUtlV1JzaGtEbFhHTDNlV3lrLUp2NWhlNTdwQTBRdlpIbGpKaV8zbThZMFNrbmhCNGQxNzVuTUFmQ3ZORml6aHdYM1Ytc0UwQmZuYXI3ZnA0V3JOQXNZb015NWlLS3M5V3VLbVQ4?oc=5",
+            "source": "Google News",
+            "title": "College football Week 1: Live updates, schedule, scores, highlights - ncaa.com",
+            "titleZh": "大学橄榄球第一周：实时更新、赛程、比分、精彩集锦 - ncaa.com"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "大学橄榄球第一周：实时更新、赛程、比分、精彩集锦 - ncaa.com"
+      },
+      {
+        "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+        "url": "https://cloudinabottle.org/blog/launch-post",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-09-06T01:11:02.486Z",
+        "pubDate": "Sun, 06 Sep 2026 00:03:29 +0000",
+        "id": "b88154dbbb7904c6f38d9d4b16b07729e2325ed2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "87479d399f4fe478e3648f04392d9f8d03ad616d",
+        "canonicalUrl": "https://cloudinabottle.org/blog/launch-post",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://cloudinabottle.org/blog/launch-post",
+            "source": "Hacker News Frontpage",
+            "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+            "titleZh": "瓶中云：让自托管对所有人触手可及"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "瓶中云：让自托管对所有人触手可及"
+      },
+      {
+        "title": "M2: Episode 1 (or, Asahi Linux on M3)",
+        "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-06T01:11:00.521Z",
+        "pubDate": "Sat, 05 Sep 2026 19:52:57 -0500",
+        "id": "1e08be8cc7d74179755251c97ef39b1ef5657668",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "429f8137ce7dcd115dabc48feb9b68a5947df486",
+        "canonicalUrl": "https://asahilinux.org/2026/09/m2-episode-1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+            "source": "Lobsters RSS",
+            "title": "M2: Episode 1 (or, Asahi Linux on M3)",
+            "titleZh": "M2：第一集（或，M3上的Asahi Linux）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "M2：第一集（或，M3上的Asahi Linux）"
+      },
+      {
+        "title": "Controlling when CSS custom property values are computed",
+        "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-09-06T01:11:00.521Z",
+        "pubDate": "Sat, 05 Sep 2026 17:23:45 -0500",
+        "id": "4fb4448ca3ccccf10688b9dbc96c7c4baabeb0bc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "c0f60a756b2f9f8a260f8751cc451037d7ad7287",
+        "canonicalUrl": "https://jakearchibald.com/2026/css-custom-property-compute-time",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/",
+            "source": "Lobsters RSS",
+            "title": "Controlling when CSS custom property values are computed",
+            "titleZh": "控制CSS自定义属性值的计算时机"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "控制CSS自定义属性值的计算时机"
+      },
+      {
+        "id": "a762c4a6bcfc3e2520d5eda522a200b2182720e8",
+        "title": "I hate Wispr Flow so much",
+        "url": "https://www.nytimes.com/2026/08/19/magazine/ai-dictation-app-wispr.html",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-06T01:00:37Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ffd800fa2d11b073268b7ab3bddc79ee60c35854",
+        "canonicalUrl": "https://nytimes.com/2026/08/19/magazine/ai-dictation-app-wispr.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nytimes.com/2026/08/19/magazine/ai-dictation-app-wispr.html",
+            "source": "Hacker News Algolia AI Search",
+            "title": "I hate Wispr Flow so much",
+            "titleZh": "我太讨厌Wispr Flow了"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "我太讨厌Wispr Flow了"
+      },
+      {
+        "id": "80e2b0a037ec0a6a9e49df67e089503e364c7675",
+        "title": "DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)",
+        "url": "https://lexfridman.com/dhh-2-transcript/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-06T00:01:42Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "e9b581d045ffa0d35a0fca0345f8baded6458aac",
+        "canonicalUrl": "https://lexfridman.com/dhh-2-transcript",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://lexfridman.com/dhh-2-transcript/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)",
+            "titleZh": "DHH：编程、AI、氛围编码与Linux（Lex Fridman播客）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DHH：编程、AI、氛围编码与Linux（Lex Fridman播客）"
+      },
+      {
+        "id": "01bc3d993ae5e501d5facc7a661eb8c81dd4fcec",
+        "title": "Show HN: Midjourney API with webhooks, polling",
+        "url": "https://www.midjourney-api.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-05T23:52:56Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6756827c75c625d7fc020a8301a5293989586c3d",
+        "canonicalUrl": "https://midjourney-api.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.midjourney-api.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Midjourney API with webhooks, polling",
+            "titleZh": "展示HN：带Webhooks和轮询的Midjourney API"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "展示HN：带Webhooks和轮询的Midjourney API"
+      },
+      {
+        "id": "7a89902933ab97596acf9a60a2e1bfb16f0bfd5a",
+        "title": "Extropic Z1T",
+        "url": "https://extropic.ai/writing/z1t/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-05T23:34:54Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cccc70e8c84ee789893ac6d76e6328a0215496d4",
+        "canonicalUrl": "https://extropic.ai/writing/z1t",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://extropic.ai/writing/z1t/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Extropic Z1T",
+            "titleZh": "Extropic Z1T"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Extropic Z1T"
+      },
+      {
+        "id": "12860e94dceeee61aeb9fa2e62aee3ec11783d8d",
+        "title": "Truckers – AI data centers as business booms",
+        "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-05T23:22:46Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "65a3756a93e4dde9d59cb07d93c0341f9222c6f4",
+        "canonicalUrl": "https://cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Truckers – AI data centers as business booms",
+            "titleZh": "卡车司机——AI数据中心业务蓬勃发展"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "卡车司机——AI数据中心业务蓬勃发展"
+      },
+      {
+        "id": "a82d6fd5c667d28f21940a33d54a6d5b86db9c06",
+        "title": "Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency",
+        "url": "https://arxiv.org/abs/2603.14133",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-05T23:19:29Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "342d9fb3d965fc3797f8ab20708654a9c4f8092d",
+        "canonicalUrl": "https://arxiv.org/abs/2603.14133",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arxiv.org/abs/2603.14133",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency",
+            "titleZh": "计算机科学成就与写作技能预测氛围编码熟练度"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "计算机科学成就与写作技能预测氛围编码熟练度"
+      },
+      {
+        "id": "e3d1dbc6ae286c5ebc65680742b914cc74dd801d",
+        "title": "AI and the collapse of the intelligence-based hierarchy of merit",
+        "url": "https://mattbruenig.com/2026/08/31/more-thoughts-on-ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-09-06T01:11:01.190Z",
+        "pubDate": "2026-09-05T23:14:52Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "4dbd333ea25e81339444d672978e334c4e962cbe",
+        "canonicalUrl": "https://mattbruenig.com/2026/08/31/more-thoughts-on-ai",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://mattbruenig.com/2026/08/31/more-thoughts-on-ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "AI and the collapse of the intelligence-based hierarchy of merit",
+            "titleZh": "AI与基于智力的精英等级制度的崩溃"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "AI与基于智力的精英等级制度的崩溃"
       }
     ]
   },
-  "lastFetchAt": "2026-09-05T23:09:30.222Z"
+  "lastFetchAt": "2026-09-06T01:10:59.358Z"
 }
