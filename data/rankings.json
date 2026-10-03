@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T14:32:05.729Z",
-  "checkedAt": "2026-10-03T14:32:05.729Z",
+  "generatedAt": "2026-10-03T18:30:30.938Z",
+  "checkedAt": "2026-10-03T18:30:30.938Z",
   "platforms": {
     "weibo": {
       "id": "weibo",
       "name": "微博",
-      "status": "success",
+      "status": "failed",
       "upstreamStatus": "cache",
-      "stale": false,
-      "errorMessage": "",
-      "checkedAt": "2026-10-03T14:32:05.729Z",
+      "stale": true,
+      "errorMessage": "HTTP 500",
+      "checkedAt": "2026-10-03T18:30:30.938Z",
       "updatedAt": "2026-10-03T14:21:58.046Z",
       "items": [
         {
@@ -258,11 +258,11 @@
     "douyin": {
       "id": "douyin",
       "name": "抖音",
-      "status": "success",
+      "status": "failed",
       "upstreamStatus": "cache",
-      "stale": false,
-      "errorMessage": "",
-      "checkedAt": "2026-10-03T14:32:05.729Z",
+      "stale": true,
+      "errorMessage": "HTTP 500",
+      "checkedAt": "2026-10-03T18:30:30.938Z",
       "updatedAt": "2026-10-03T14:07:25.352Z",
       "items": [
         {
@@ -514,13 +514,21 @@
       "upstreamStatus": "success",
       "stale": false,
       "errorMessage": "",
-      "checkedAt": "2026-10-03T14:32:05.729Z",
-      "updatedAt": "2026-10-03T14:32:09.097Z",
+      "checkedAt": "2026-10-03T18:30:30.938Z",
+      "updatedAt": "2026-10-03T18:30:39.701Z",
       "items": [
         {
-          "title": "重庆狼队 vs 长沙TES.A KPL",
+          "title": "长沙TES.A战胜重庆狼队 KPL",
           "url": "https://search.bilibili.com/all?keyword=%E9%87%8D%E5%BA%86%E7%8B%BC%E9%98%9F%20%E9%95%BF%E6%B2%99TES.A",
           "rank": 1,
+          "previousRank": 1,
+          "rankChange": 0,
+          "isNew": false
+        },
+        {
+          "title": "hanser演唱会全程录像",
+          "url": "https://search.bilibili.com/all?keyword=hanser%E6%BC%94%E5%94%B1%E4%BC%9A%E5%85%A8%E7%A8%8B%E5%BD%95%E5%83%8F",
+          "rank": 2,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
@@ -528,30 +536,22 @@
         {
           "title": "凡人元婴终极之战藏了哪些细节",
           "url": "https://search.bilibili.com/all?keyword=%E5%87%A1%E4%BA%BA%E5%85%83%E5%A9%B4%E7%BB%88%E6%9E%81%E4%B9%8B%E6%88%98%E8%97%8F%E4%BA%86%E5%93%AA%E4%BA%9B%E7%BB%86%E8%8A%82",
-          "rank": 2,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "咱们真能振兴这里吗",
-          "url": "https://search.bilibili.com/all?keyword=%E5%92%B1%E4%BB%AC%E7%9C%9F%E8%83%BD%E6%8C%AF%E5%85%B4%E8%BF%99%E9%87%8C%E5%90%97",
           "rank": 3,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
+          "previousRank": 2,
+          "rankChange": -1,
+          "isNew": false
         },
         {
-          "title": "NS战胜KC VCT冠军赛",
-          "url": "https://search.bilibili.com/all?keyword=KC%20NS",
+          "title": "亚运中国169金89银83铜收官",
+          "url": "https://search.bilibili.com/all?keyword=%E4%BA%9A%E8%BF%90%E4%B8%AD%E5%9B%BD169%E9%87%9189%E9%93%B683%E9%93%9C%E6%94%B6%E5%AE%98",
           "rank": 4,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "舌尖上的国庆高速堵车",
-          "url": "https://search.bilibili.com/all?keyword=%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%9B%BD%E5%BA%86%E9%AB%98%E9%80%9F%E5%A0%B5%E8%BD%A6",
+          "title": "VCTCN表现为何引争议",
+          "url": "https://search.bilibili.com/all?keyword=VCTCN%E8%A1%A8%E7%8E%B0%E4%B8%BA%E4%BD%95%E5%BC%95%E4%BA%89%E8%AE%AE",
           "rank": 5,
           "previousRank": null,
           "rankChange": null,
@@ -561,134 +561,94 @@
           "title": "大肥鱼大战波刚",
           "url": "https://search.bilibili.com/all?keyword=%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%A4%A7%E6%88%98%E6%B3%A2%E5%88%9A",
           "rank": 6,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "凌玲 不气盛叫年轻人吗",
-          "url": "https://search.bilibili.com/all?keyword=%E5%87%8C%E7%8E%B2%20%E4%B8%8D%E6%B0%94%E7%9B%9B%E5%8F%AB%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%90%97",
-          "rank": 7,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "北京WB战胜杭州LGD.NBW KPL",
-          "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACWB%20%E6%9D%AD%E5%B7%9ELGD.NBW",
-          "rank": 8,
-          "previousRank": 16,
-          "rankChange": 8,
+          "previousRank": 6,
+          "rankChange": 0,
           "isNew": false
         },
         {
-          "title": "刘晓艳世界巡演",
-          "url": "https://search.bilibili.com/all?keyword=%E5%88%98%E6%99%93%E8%89%B3%E4%B8%96%E7%95%8C%E5%B7%A1%E6%BC%94",
+          "title": "咱们真能振兴这里吗",
+          "url": "https://search.bilibili.com/all?keyword=%E5%92%B1%E4%BB%AC%E7%9C%9F%E8%83%BD%E6%8C%AF%E5%85%B4%E8%BF%99%E9%87%8C%E5%90%97",
+          "rank": 7,
+          "previousRank": 3,
+          "rankChange": -4,
+          "isNew": false
+        },
+        {
+          "title": "邓肯聊中国神探",
+          "url": "https://search.bilibili.com/all?keyword=%E9%82%93%E8%82%AF%E8%81%8A%E4%B8%AD%E5%9B%BD%E7%A5%9E%E6%8E%A2",
+          "rank": 8,
+          "previousRank": 10,
+          "rankChange": 2,
+          "isNew": false
+        },
+        {
+          "title": "披哥Believer舞台太权威了",
+          "url": "https://search.bilibili.com/all?keyword=%E6%8A%AB%E5%93%A5Believer%E8%88%9E%E5%8F%B0%E5%A4%AA%E6%9D%83%E5%A8%81%E4%BA%86",
           "rank": 9,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
         },
         {
-          "title": "邓肯聊中国神探",
-          "url": "https://search.bilibili.com/all?keyword=%E9%82%93%E8%82%AF%E8%81%8A%E4%B8%AD%E5%9B%BD%E7%A5%9E%E6%8E%A2",
+          "title": "舌尖上的国庆高速堵车",
+          "url": "https://search.bilibili.com/all?keyword=%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E5%9B%BD%E5%BA%86%E9%AB%98%E9%80%9F%E5%A0%B5%E8%BD%A6",
           "rank": 10,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "狗熊哆嗦毛为何会爆火出圈",
-          "url": "https://search.bilibili.com/all?keyword=%E7%8B%97%E7%86%8A%E5%93%86%E5%97%A6%E6%AF%9B%E4%B8%BA%E4%BD%95%E4%BC%9A%E7%88%86%E7%81%AB%E5%87%BA%E5%9C%88",
-          "rank": 11,
-          "previousRank": 22,
-          "rankChange": 11,
+          "previousRank": 5,
+          "rankChange": -5,
           "isNew": false
         },
         {
           "title": "上海EDG.M战胜北京JDG KPL",
           "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACJDG%20%E4%B8%8A%E6%B5%B7EDG.M",
-          "rank": 12,
-          "previousRank": 10,
-          "rankChange": -2,
+          "rank": 11,
+          "previousRank": 12,
+          "rankChange": 1,
           "isNew": false
         },
         {
           "title": "韩立对战乐上师",
           "url": "https://search.bilibili.com/all?keyword=%E5%87%A1%E4%BA%BA",
+          "rank": 12,
+          "previousRank": 13,
+          "rankChange": 1,
+          "isNew": false
+        },
+        {
+          "title": "有一个人前来借寿",
+          "url": "https://search.bilibili.com/all?keyword=%E6%9C%89%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%89%8D%E6%9D%A5%E5%80%9F%E5%AF%BF",
           "rank": 13,
-          "previousRank": 3,
-          "rankChange": -10,
+          "previousRank": 17,
+          "rankChange": 4,
           "isNew": false
         },
         {
-          "title": "琵琶曲但极乐净土",
-          "url": "https://search.bilibili.com/all?keyword=%E7%90%B5%E7%90%B6%E6%9B%B2%E4%BD%86%E6%9E%81%E4%B9%90%E5%87%80%E5%9C%9F",
+          "title": "人类造出了比宇宙还冷的东西",
+          "url": "https://search.bilibili.com/all?keyword=%E4%BA%BA%E7%B1%BB%E9%80%A0%E5%87%BA%E4%BA%86%E6%AF%94%E5%AE%87%E5%AE%99%E8%BF%98%E5%86%B7%E7%9A%84%E4%B8%9C%E8%A5%BF",
           "rank": 14,
-          "previousRank": 9,
-          "rankChange": -5,
+          "previousRank": 24,
+          "rankChange": 10,
           "isNew": false
         },
         {
-          "title": "OK哥太平洋赶海抓巨型砗磲",
-          "url": "https://search.bilibili.com/all?keyword=OK%E5%93%A5%E5%A4%AA%E5%B9%B3%E6%B4%8B%E8%B5%B6%E6%B5%B7%E6%8A%93%E5%B7%A8%E5%9E%8B%E7%A0%97%E7%A3%B2",
+          "title": "章鱼哥 快乐去哪了",
+          "url": "https://search.bilibili.com/all?keyword=%E7%AB%A0%E9%B1%BC%E5%93%A5%20%E5%BF%AB%E4%B9%90%E5%8E%BB%E5%93%AA%E4%BA%86",
           "rank": 15,
           "previousRank": 20,
           "rankChange": 5,
           "isNew": false
         },
         {
-          "title": "假期必备无敌小孩菜",
-          "url": "https://search.bilibili.com/all?keyword=%E5%81%87%E6%9C%9F%E5%BF%85%E5%A4%87%E6%97%A0%E6%95%8C%E5%B0%8F%E5%AD%A9%E8%8F%9C",
+          "title": "华南云南福建将大降温",
+          "url": "https://search.bilibili.com/all?keyword=%E5%8D%8E%E5%8D%97%E4%BA%91%E5%8D%97%E7%A6%8F%E5%BB%BA%E5%B0%86%E5%A4%A7%E9%99%8D%E6%B8%A9",
           "rank": 16,
-          "previousRank": 5,
-          "rankChange": -11,
-          "isNew": false
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
         },
         {
-          "title": "有一个人前来借寿",
-          "url": "https://search.bilibili.com/all?keyword=%E6%9C%89%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%89%8D%E6%9D%A5%E5%80%9F%E5%AF%BF",
+          "title": "Opus与Sol屎山论剑巅峰对决",
+          "url": "https://search.bilibili.com/all?keyword=Opus%E4%B8%8ESol%E5%B1%8E%E5%B1%B1%E8%AE%BA%E5%89%91%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3",
           "rank": 17,
-          "previousRank": 18,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "G2战胜TL VCT冠军赛",
-          "url": "https://search.bilibili.com/all?keyword=G2%20TL",
-          "rank": 18,
-          "previousRank": 7,
-          "rankChange": -11,
-          "isNew": false
-        },
-        {
-          "title": "华为Mate90系列韬定律解析",
-          "url": "https://search.bilibili.com/all?keyword=%E5%8D%8E%E4%B8%BAMate90%E7%B3%BB%E5%88%97%E9%9F%AC%E5%AE%9A%E5%BE%8B%E8%A7%A3%E6%9E%90",
-          "rank": 19,
-          "previousRank": 17,
-          "rankChange": -2,
-          "isNew": false
-        },
-        {
-          "title": "章鱼哥 快乐去哪了",
-          "url": "https://search.bilibili.com/all?keyword=%E7%AB%A0%E9%B1%BC%E5%93%A5%20%E5%BF%AB%E4%B9%90%E5%8E%BB%E5%93%AA%E4%BA%86",
-          "rank": 20,
-          "previousRank": 21,
-          "rankChange": 1,
-          "isNew": false
-        },
-        {
-          "title": "日本亚运会出了哪些状况",
-          "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%87%BA%E4%BA%86%E5%93%AA%E4%BA%9B%E7%8A%B6%E5%86%B5",
-          "rank": 21,
-          "previousRank": 12,
-          "rankChange": -9,
-          "isNew": false
-        },
-        {
-          "title": "关于假期放101天这件事",
-          "url": "https://search.bilibili.com/all?keyword=%E5%85%B3%E4%BA%8E%E5%81%87%E6%9C%9F%E6%94%BE101%E5%A4%A9%E8%BF%99%E4%BB%B6%E4%BA%8B",
-          "rank": 22,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
@@ -696,66 +656,106 @@
         {
           "title": "F1雪邦站排位赛战报",
           "url": "https://search.bilibili.com/all?keyword=F1%E9%9B%AA%E9%82%A6%E7%AB%99%E6%8E%92%E4%BD%8D%E8%B5%9B%E6%88%98%E6%8A%A5",
-          "rank": 23,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "人类造出了比宇宙还冷的东西",
-          "url": "https://search.bilibili.com/all?keyword=%E4%BA%BA%E7%B1%BB%E9%80%A0%E5%87%BA%E4%BA%86%E6%AF%94%E5%AE%87%E5%AE%99%E8%BF%98%E5%86%B7%E7%9A%84%E4%B8%9C%E8%A5%BF",
-          "rank": 24,
-          "previousRank": null,
-          "rankChange": null,
-          "isNew": true
-        },
-        {
-          "title": "原神剧情PV燕归来",
-          "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E5%89%A7%E6%83%85PV%E7%87%95%E5%BD%92%E6%9D%A5",
-          "rank": 25,
-          "previousRank": 29,
-          "rankChange": 4,
+          "rank": 18,
+          "previousRank": 23,
+          "rankChange": 5,
           "isNew": false
         },
         {
-          "title": "和各地粉丝合唱我爱你中国",
-          "url": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%90%84%E5%9C%B0%E7%B2%89%E4%B8%9D%E5%90%88%E5%94%B1%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD",
-          "rank": 26,
+          "title": "全球排名第二高铁吃什么",
+          "url": "https://search.bilibili.com/all?keyword=%E5%85%A8%E7%90%83%E6%8E%92%E5%90%8D%E7%AC%AC%E4%BA%8C%E9%AB%98%E9%93%81%E5%90%83%E4%BB%80%E4%B9%88",
+          "rank": 19,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
+        },
+        {
+          "title": "OK哥太平洋赶海抓巨型砗磲",
+          "url": "https://search.bilibili.com/all?keyword=OK%E5%93%A5%E5%A4%AA%E5%B9%B3%E6%B4%8B%E8%B5%B6%E6%B5%B7%E6%8A%93%E5%B7%A8%E5%9E%8B%E7%A0%97%E7%A3%B2",
+          "rank": 20,
+          "previousRank": 15,
+          "rankChange": -5,
+          "isNew": false
+        },
+        {
+          "title": "北京WB战胜杭州LGD.NBW KPL",
+          "url": "https://search.bilibili.com/all?keyword=%E5%8C%97%E4%BA%ACWB%20%E6%9D%AD%E5%B7%9ELGD.NBW",
+          "rank": 21,
+          "previousRank": 8,
+          "rankChange": -13,
+          "isNew": false
+        },
+        {
+          "title": "日本亚运会出了哪些状况",
+          "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%87%BA%E4%BA%86%E5%93%AA%E4%BA%9B%E7%8A%B6%E5%86%B5",
+          "rank": 22,
+          "previousRank": 21,
+          "rankChange": -1,
+          "isNew": false
+        },
+        {
+          "title": "假期必备无敌小孩菜",
+          "url": "https://search.bilibili.com/all?keyword=%E5%81%87%E6%9C%9F%E5%BF%85%E5%A4%87%E6%97%A0%E6%95%8C%E5%B0%8F%E5%AD%A9%E8%8F%9C",
+          "rank": 23,
+          "previousRank": 16,
+          "rankChange": -7,
+          "isNew": false
+        },
+        {
+          "title": "凌玲 不气盛叫年轻人吗",
+          "url": "https://search.bilibili.com/all?keyword=%E5%87%8C%E7%8E%B2%20%E4%B8%8D%E6%B0%94%E7%9B%9B%E5%8F%AB%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%90%97",
+          "rank": 24,
+          "previousRank": 7,
+          "rankChange": -17,
+          "isNew": false
+        },
+        {
+          "title": "NS战胜KC VCT冠军赛",
+          "url": "https://search.bilibili.com/all?keyword=KC%20NS",
+          "rank": 25,
+          "previousRank": 4,
+          "rankChange": -21,
+          "isNew": false
+        },
+        {
+          "title": "狗熊哆嗦毛为何会爆火出圈",
+          "url": "https://search.bilibili.com/all?keyword=%E7%8B%97%E7%86%8A%E5%93%86%E5%97%A6%E6%AF%9B%E4%B8%BA%E4%BD%95%E4%BC%9A%E7%88%86%E7%81%AB%E5%87%BA%E5%9C%88",
+          "rank": 26,
+          "previousRank": 11,
+          "rankChange": -15,
+          "isNew": false
         },
         {
           "title": "亚运会国足夺铜牌",
           "url": "https://search.bilibili.com/all?keyword=%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%9B%BD%E8%B6%B3%E5%A4%BA%E9%93%9C%E7%89%8C",
           "rank": 27,
-          "previousRank": 1,
-          "rankChange": -26,
-          "isNew": false
-        },
-        {
-          "title": "健身房训练完到底该不该卸片",
-          "url": "https://search.bilibili.com/all?keyword=%E5%81%A5%E8%BA%AB%E6%88%BF%E8%AE%AD%E7%BB%83%E5%AE%8C%E5%88%B0%E5%BA%95%E8%AF%A5%E4%B8%8D%E8%AF%A5%E5%8D%B8%E7%89%87",
-          "rank": 28,
-          "previousRank": 26,
-          "rankChange": -2,
-          "isNew": false
-        },
-        {
-          "title": "原神回忆录之蒙德篇",
-          "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E%E5%9B%9E%E5%BF%86%E5%BD%95%E4%B9%8B%E8%92%99%E5%BE%B7%E7%AF%87",
-          "rank": 29,
           "previousRank": 27,
-          "rankChange": -2,
+          "rankChange": 0,
           "isNew": false
         },
         {
-          "title": "曝LOL将取消冒泡赛",
-          "url": "https://search.bilibili.com/all?keyword=%E6%9B%9DLOL%E5%B0%86%E5%8F%96%E6%B6%88%E5%86%92%E6%B3%A1%E8%B5%9B",
-          "rank": 30,
+          "title": "如何评价EDG俩月休赛期备战",
+          "url": "https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7EDG%E4%BF%A9%E6%9C%88%E4%BC%91%E8%B5%9B%E6%9C%9F%E5%A4%87%E6%88%98",
+          "rank": 28,
           "previousRank": null,
           "rankChange": null,
           "isNew": true
+        },
+        {
+          "title": "coser带你爽吃重庆美食",
+          "url": "https://search.bilibili.com/all?keyword=coser%E5%B8%A6%E4%BD%A0%E7%88%BD%E5%90%83%E9%87%8D%E5%BA%86%E7%BE%8E%E9%A3%9F",
+          "rank": 29,
+          "previousRank": null,
+          "rankChange": null,
+          "isNew": true
+        },
+        {
+          "title": "琵琶曲但极乐净土",
+          "url": "https://search.bilibili.com/all?keyword=%E7%90%B5%E7%90%B6%E6%9B%B2%E4%BD%86%E6%9E%81%E4%B9%90%E5%87%80%E5%9C%9F",
+          "rank": 30,
+          "previousRank": 14,
+          "rankChange": -16,
+          "isNew": false
         }
       ]
     }
