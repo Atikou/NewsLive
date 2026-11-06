@@ -1,0 +1,233 @@
+# 关注主题：一个主题可包含多种中英文写法。
+# enabled 控制网页筛选与匹配；push 控制命中后是否进入重点推送队列。
+topics:
+  - id: global-affairs
+    name: 国际局势
+    description: 全球政治、军事冲突、外交、制裁与国际贸易动态
+    enabled: true
+    push: true
+    keywords:
+      - war
+      - 战争
+      - 武装冲突
+      - 军事冲突
+      - 地缘政治
+      - 特朗普
+      - 美国
+      - 白宫
+      - 美国国会
+      - 五角大楼
+      - 伊朗
+      - 俄罗斯
+      - 乌克兰
+      - 俄乌
+      - 以色列
+      - 巴勒斯坦
+      - 加沙
+      - 中东
+      - 北约
+      - 欧盟
+      - 联合国
+      - 外交
+      - 制裁
+      - 停火
+      - 和平谈判
+      - 关税
+      - 贸易战
+      - Trump
+      - United States
+      - White House
+      - Iran
+      - Russia
+      - Ukraine
+      - Israel
+      - Palestine
+      - Gaza
+      - NATO
+      - geopolitics
+      - sanctions
+      - ceasefire
+
+  - id: ai-agents
+    name: AI 与 Agent
+    description: 人工智能、大模型、智能体、AI 产品与相关产业动态
+    enabled: true
+    push: true
+    keywords:
+      - AI
+      - Agent
+      - 人工智能
+      - 智能体
+      - AI智能体
+      - 大语言模型
+      - 大模型
+      - 生成式AI
+      - 机器学习
+      - 深度学习
+      - 多模态
+      - 具身智能
+      - 推理模型
+      - AI芯片
+      - LLM
+      - AGI
+      - RAG
+      - MCP
+      - Agentic
+      - Model Context Protocol
+      - OpenAI
+      - ChatGPT
+      - DeepSeek
+      - Kimi
+      - 月之暗面
+      - Moonshot AI
+      - Anthropic
+      - Claude
+      - Gemini
+      - Grok
+      - Copilot
+      - Llama
+      - Qwen
+      - 通义千问
+      - 文心一言
+      - 英伟达
+      - Nvidia
+
+  - id: china-policy
+    name: 国家政策与民生
+    description: 国家机关发布的政策法规，以及与公民生活、权益和公共服务相关的重要变化
+    enabled: true
+    push: true
+    keywords:
+      # 中国特定机关、文件和会议：这些词可独立命中。
+      - 国务院
+      - 国务院常务会议
+      - 国务院办公厅
+      - 国务院公报
+      - 国务院令
+      - 中共中央
+      - 中共中央政治局
+      - 全国人大
+      - 全国人大常委会
+      - 全国人民代表大会
+      - 全国政协
+      - 全国两会
+      - 国家主席令
+      - 国家发展改革委
+      - 国家发改委
+      - 人力资源社会保障部
+      - 人社部
+      - 住房城乡建设部
+      - 住建部
+      - 国家卫生健康委
+      - 国家卫健委
+      - 中国人民银行
+      - 央行
+      - 国家税务总局
+      - 国家市场监管总局
+      - 国家医保局
+      - 国家金融监管总局
+      - 国家政策
+      - 中央政策
+      - 政府工作报告
+      - 中央一号文件
+      - 中国政府网
+      - State Council of China
+      - National People's Congress
+      - CPPCC
+      - National Development and Reform Commission
+      - NDRC
+      - People's Bank of China
+      - PBOC
+      # 具体政策动作与公民生活事项
+      - 最高人民法院
+      - 最高人民检察院
+      - 最高法
+      - 最高检
+      - 财政部
+      - 教育部
+      - 央行
+      - 政策解读
+      - 公开征求意见
+      - 征求意见稿
+      - 审议通过
+      - 发布实施
+      - 正式施行
+      - 行政法规
+      - 部门规章
+      - 法律草案
+      - 修订草案
+      - 立法
+      - 司法解释
+      - 民生政策
+      - 惠民政策
+      - 社会保障
+      - 社保
+      - 医疗保障
+      - 医保
+      - 养老保险
+      - 养老金
+      - 退休年龄
+      - 延迟退休
+      - 失业保险
+      - 工伤保险
+      - 生育保险
+      - 就业政策
+      - 最低工资
+      - 劳动合同
+      - 劳动权益
+      - 个人所得税
+      - 个税
+      - 专项附加扣除
+      - 税收政策
+      - 住房公积金
+      - 保障性住房
+      - 房地产政策
+      - 房贷利率
+      - 生育政策
+      - 育儿补贴
+      - 教育政策
+      - 义务教育
+      - 医疗改革
+      - 药品集采
+      - 消费补贴
+      - 以旧换新
+      - 户籍制度
+      - 最低生活保障
+      - 低保
+      - 法定节假日
+      - 食品安全
+      - 个人信息保护
+      - 公共服务
+      - government policy
+      - legislation
+      - social security
+      - pension
+      - healthcare reform
+      - tax policy
+      - housing policy
+      - monetary policy
+      - employment policy
+    # 国家政策主题只在以下权威或主流国内网站匹配；支持其所有子域名。
+    allowed_domains:
+      - gov.cn
+      - npc.gov.cn
+      - cppcc.gov.cn
+      - court.gov.cn
+      - spp.gov.cn
+      - ndrc.gov.cn
+      - mof.gov.cn
+      - moe.gov.cn
+      - mohrss.gov.cn
+      - mohurd.gov.cn
+      - nhc.gov.cn
+      - pbc.gov.cn
+      - chinatax.gov.cn
+      - samr.gov.cn
+      - nhsa.gov.cn
+      - nfra.gov.cn
+      - xinhuanet.com
+      - news.cn
+      - people.com.cn
+      - cctv.com
+      - cnr.cn
+      - chinanews.com.cn

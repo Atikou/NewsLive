@@ -1,0 +1,125 @@
+sources:
+  # 中国新闻网公开 RSS：只接入有稳定发布时间的综合、财经、体育频道。
+  - id: chinanews_latest_rss
+    name: 中国新闻网
+    type: rss
+    url: https://www.chinanews.com.cn/rss/scroll-news.xml
+    category: 综合
+    region: 中国
+    language: zh-CN
+    min_title_length: 6
+    max_items: 60
+
+  - id: chinanews_finance_rss
+    name: 中国新闻网财经
+    type: rss
+    url: https://www.chinanews.com.cn/rss/finance.xml
+    category: 财经
+    region: 中国
+    language: zh-CN
+    min_title_length: 6
+    max_items: 60
+
+  - id: chinanews_sports_rss
+    name: 中国新闻网体育
+    type: rss
+    url: https://www.chinanews.com.cn/rss/sports.xml
+    category: 体育
+    region: 中国
+    language: zh-CN
+    min_title_length: 6
+    max_items: 60
+
+  # AP 官网没有稳定公开 RSS；通过 Google News 的站点检索获取带发布时间的 AP 报道。
+  - id: ap_news_google_rss
+    name: AP News via Google News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aapnews.com&hl=en-US&gl=US&ceid=US%3Aen
+    min_title_length: 8
+    max_items: 120
+
+  # Reuters 原 world/rss 已返回 401；改用带发布时间的 Google News 站点检索。
+  - id: reuters_world_google_rss
+    name: Reuters World via Google News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Areuters.com%2Fworld&hl=en-US&gl=US&ceid=US%3Aen
+    min_title_length: 6
+    max_items: 120
+
+  - id: guardian_world_rss
+    name: Guardian World
+    type: rss
+    url: https://www.theguardian.com/world/rss
+    min_title_length: 6
+    max_items: 120
+
+  - id: google_news_rss
+    name: Google News
+    type: rss
+    url: https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
+    min_title_length: 6
+    max_items: 120
+
+  - id: propublica_main_rss
+    name: ProPublica
+    type: rss
+    url: https://www.propublica.org/feeds/propublica/main
+    min_title_length: 6
+    max_items: 120
+
+  - id: hn_rss_frontpage
+    name: Hacker News Frontpage
+    type: rss
+    url: https://hnrss.org/frontpage
+    min_title_length: 6
+    max_items: 120
+
+  - id: hn_rss_newest
+    name: Hacker News Newest
+    type: rss
+    url: https://hnrss.org/newest
+    min_title_length: 6
+    max_items: 120
+
+  - id: lobsters_rss
+    name: Lobsters RSS
+    type: rss
+    url: https://lobste.rs/rss
+    min_title_length: 6
+    max_items: 120
+
+  - id: hn_algolia_frontpage
+    name: Hacker News Algolia Front Page
+    type: json_items
+    url: https://hn.algolia.com/api/v1/search?tags=front_page
+    items_path: hits
+    title_paths:
+      - title
+      - story_title
+    url_paths:
+      - url
+      - story_url
+    id_paths:
+      - objectID
+    date_paths:
+      - created_at
+    min_title_length: 6
+    max_items: 100
+
+  - id: hn_algolia_ai
+    name: Hacker News Algolia AI Search
+    type: json_items
+    url: https://hn.algolia.com/api/v1/search_by_date?query=AI&tags=story
+    items_path: hits
+    title_paths:
+      - title
+      - story_title
+    url_paths:
+      - url
+      - story_url
+    id_paths:
+      - objectID
+    date_paths:
+      - created_at
+    min_title_length: 6
+    max_items: 100

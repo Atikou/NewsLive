@@ -1,0 +1,24 @@
+{
+  "name": "newslive",
+  "version": "1.0.0",
+  "description": "News crawler with keyword filter and day.app push",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "build:pages": "node src/build-pages.js",
+    "build:ui": "node src/build-ui.js",
+    "test": "node --test test/*.test.js",
+    "test:sources": "node src/test-sources.js",
+    "archive:clear": "node src/clear-archive.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "yaml": "^2.9.0"
+  }
+}
