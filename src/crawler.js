@@ -22,6 +22,7 @@ import {
   loadPushQueue,
   mergePushQueue,
   pruneDeliveryLedger,
+  retainTodayPushQueue,
   savePushDeliveryLedger,
   savePushQueue
 } from "./push-store.js";
@@ -332,7 +333,7 @@ export class NewsCrawler {
       const dateKey = getLocalDateKey(nowLocal, tz);
 
       // 先统一旧数据事件模型，再利用已保存的翻译和事件进行预去重。
-      // 这样同一 RSS 标题不会每轮重复调用付费翻译接口。
+      // 这样同一 RSS 标题不会每轮重复调用翻译接口。
       for (const [key, dayItems] of Object.entries(this.newsDays)) {
         this.newsDays[key] = clusterNewsItems(repairNewsClusters(dayItems)).map((item) =>
           tagItemWithTopics(item, topics)
@@ -416,6 +417,7 @@ export class NewsCrawler {
         priorityToQueue.map((item) => ({ ...item, targetChannels: activeChannels })),
         now.toISOString()
       );
+      this.pushQueue = retainTodayPushQueue(this.pushQueue, now, settings.timezone);
       this.deliveryLedger = pruneDeliveryLedger(
         this.deliveryLedger,
         settings.push.deliveryLedgerRetentionDays,

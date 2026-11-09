@@ -1,5 +1,6 @@
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { getLocalDateKey } from "./zoned-time.js";
 
 const DATA_DIR = path.resolve(process.cwd(), "data");
 const PUSH_QUEUE_FILE = path.resolve(DATA_DIR, "push-queue.json");
@@ -124,6 +125,17 @@ export function mergePushQueue(queue, items, queuedAt = new Date().toISOString()
 
 export function isChannelDelivered(ledger, eventId, channel) {
   return Boolean(ledger?.events?.[eventId]?.channels?.[channel]?.deliveredAt);
+}
+
+export function retainTodayPushQueue(queue, now = new Date(), timeZone = "") {
+  const today = getLocalDateKey(now, timeZone);
+  return {
+    version: 1,
+    items: (queue?.items || []).filter((item) => {
+      const published = new Date(item.pubDate || item.fetchedAt || item.queuedAt || "");
+      return Number.isFinite(published.getTime()) && getLocalDateKey(published, timeZone) === today;
+    })
+  };
 }
 
 export function getPendingChannelItems(queue, ledger, channel) {

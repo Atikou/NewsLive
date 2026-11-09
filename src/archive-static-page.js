@@ -30,7 +30,7 @@ export function renderArchiveStaticPage(payload) {
         <div>
           <p class="eyebrow">Archive</p>
           <h1 class="page-title">新闻归档</h1>
-          <p class="page-lede">按日期与标签查找历史报道，所有标题仍链接到原始新闻来源。</p>
+          <p class="page-lede">搜索历史新闻标题，结合日期与标签筛选，所有标题仍链接到原始新闻来源。</p>
         </div>
         <div class="heading-actions">
           <a class="button" href="./index.html">返回今日新闻</a>
@@ -39,6 +39,10 @@ export function renderArchiveStaticPage(payload) {
 
       <section class="panel archive-toolbar">
         <div class="archive-fields">
+          <div class="field archive-search">
+            <label class="field-label" for="searchInput">新闻搜索</label>
+            <input id="searchInput" class="search-input" type="search" placeholder="搜索归档新闻标题" aria-label="搜索归档新闻标题" />
+          </div>
           <div class="field">
             <label class="field-label" for="dateFilter">发布日期</label>
             <select id="dateFilter" aria-label="按发布日期筛选"></select>
@@ -59,7 +63,7 @@ export function renderArchiveStaticPage(payload) {
     <footer class="site-footer">
       <div class="site-footer-inner">
         <span>NewsLive · 历史新闻归档</span>
-        <span>按日期与标签快速检索</span>
+        <span>按关键词、日期与标签快速检索</span>
       </div>
     </footer>
     <button id="topBtn" class="top-btn" type="button" aria-label="回到顶部">↑ 顶部</button>
@@ -67,7 +71,8 @@ export function renderArchiveStaticPage(payload) {
     <script src="./news-select.js"></script>
     <script>
       const data = ${serialized};
-      const state = { items: data.items || [], date: "__ALL__", tag: "__ALL__" };
+      const state = { items: data.items || [], date: "__ALL__", tag: "__ALL__", search: "" };
+      const searchInput = document.getElementById("searchInput");
       const dateFilter = document.getElementById("dateFilter");
       const tagFilter = document.getElementById("tagFilter");
       const summaryEl = document.getElementById("summary");
@@ -131,10 +136,12 @@ export function renderArchiveStaticPage(payload) {
       }
 
       function renderList() {
+        const query = state.search.toLowerCase().trim();
         const filtered = state.items.filter((item) => {
           const dateMatches = state.date === "__ALL__" || getDateKey(item) === state.date;
           const tagMatches = state.tag === "__ALL__" || (item.tags || []).includes(state.tag);
-          return dateMatches && tagMatches;
+          const searchText = [item.title, item.titleZh, ...(item.relatedLinks || []).flatMap((link) => [link.title, link.titleZh])].join(" ").toLowerCase();
+          return dateMatches && tagMatches && (!query || searchText.includes(query));
         });
         summaryEl.textContent = \`归档 \${state.items.length} 条 · 当前显示 \${filtered.length} 条\`;
         listEl.innerHTML = filtered.length
@@ -157,6 +164,7 @@ export function renderArchiveStaticPage(payload) {
           : '<div class="empty-state">没有匹配的归档新闻</div>';
       }
 
+      searchInput.addEventListener("input", () => { state.search = searchInput.value; renderList(); });
       dateFilter.addEventListener("change", () => { state.date = dateFilter.value; renderList(); });
       tagFilter.addEventListener("change", () => { state.tag = tagFilter.value; renderList(); });
       topBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));

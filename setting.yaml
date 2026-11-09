@@ -22,17 +22,20 @@ news_retention:
   # 归档（news-archive.json）保留最近多少天；按 archivedAt 优先、否则 publishedAt 与当前时间比较；<=0 表示不按时间裁剪归档
   archive_retention_days: 7
 
-# AI 标题翻译（默认使用 DeepSeek V4 的 OpenAI Chat Completions 接口）
+# 标题翻译（默认使用 Google 免费接口，无需 API Key）
 ai_translation:
   # 是否启用标题翻译（翻译为中文）
   enabled: true
+  # 可选 google / deepseek；TRANSLATION_PROVIDER 环境变量可覆盖
+  provider: google
+  # 以下接口格式和思考模式仅用于 DeepSeek 备选服务
   # 接口格式可选 openai / anthropic；不配置时会根据 api_url 自动识别
   # api_format: openai
   # DeepSeek V4 翻译不需要推理，默认关闭思考模式；可选 enabled / disabled
   # thinking_mode: disabled
   # 每次获取最多翻译多少条标题
   max_items_per_run: 200
-  # 单次请求批量翻译条数
+  # Google 每批并发请求数；DeepSeek 单次请求批量翻译条数
   batch_size: 8
   # 翻译请求超时（秒）
   request_timeout_seconds: 60
@@ -40,7 +43,7 @@ ai_translation:
   only_non_chinese: true
   # 仅 Anthropic 兼容接口使用
   anthropic_version: "2023-06-01"
-  # 额外请求头（对接自定义兼容网关时可用）
+  # DeepSeek 额外请求头（对接自定义兼容网关时可用）
   headers: {}
 
 push:
@@ -61,7 +64,7 @@ push:
 
   # 单次推送最多包含多少条重点内容；标题使用超链接后提高到 20 条
   max_items_per_push: 20
-  # 单次推送消息最大字符大小（4KB）；达到上限时仍会自动拆分
+  # 正文 UTF-8 字节上限，最高 4096；Bark 还会按完整 APNs 包大小进一步拆分
   max_message_chars: 4096
 
   # 分渠道投递账本保留天数

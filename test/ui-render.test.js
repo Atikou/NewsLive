@@ -1,9 +1,67 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import vm from "node:vm";
 import { renderArchiveStaticPage } from "../src/archive-static-page.js";
 import { renderStaticPage } from "../src/static-page.js";
 import { renderRankingsPage } from "../src/rankings-page.js";
+
+test("本地与静态归档搜索支持中英文、清空和日期标签组合筛选", async () => {
+  const items = [
+    { title: "人工智能新闻", publishedAt: "2026-11-08T12:00:00+08:00", tags: ["科技"], relatedLinks: [{ title: "OpenAI launch", url: "https://example.com/ai" }] },
+    { title: "OpenAI 新模型", publishedAt: "2026-11-09T12:00:00+08:00", tags: ["科技"] },
+    { title: "今日体育", publishedAt: "2026-11-09T12:00:00+08:00", tags: ["体育"] }
+  ];
+  const pages = [
+    await readFile(new URL("../public/archive.html", import.meta.url), "utf-8"),
+    renderArchiveStaticPage({ items })
+  ];
+  for (const html of pages) {
+    const elements = new Map();
+    const document = {
+      getElementById(id) {
+        if (!elements.has(id)) elements.set(id, {
+          value: "", textContent: "", innerHTML: "", listeners: {},
+          addEventListener(type, listener) { this.listeners[type] = listener; },
+          replaceChildren() {}, appendChild() {}
+        });
+        return elements.get(id);
+      },
+      createElement() { return {}; }
+    };
+    const context = vm.createContext({
+      document, URL,
+      window: { location: { href: "https://example.com/archive.html" }, addEventListener() {} },
+      NewsSelect: { enhance() {} },
+      fetch: async () => ({ ok: true, json: async () => ({ items }) })
+    });
+    const script = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].at(-1)[1];
+    await vm.runInContext(script, context);
+    const change = (id, value, type = "change") => {
+      const element = elements.get(id);
+      element.value = value;
+      element.listeners[type]();
+    };
+    const count = (n) => assert.equal(elements.get("summary").textContent, `归档 3 条 · 当前显示 ${n} 条`);
+    count(3);
+    change("searchInput", "  OPENai  ", "input");
+    count(2);
+    change("dateFilter", "2026-11-09");
+    count(1);
+    change("tagFilter", "体育");
+    count(0);
+    assert.match(elements.get("list").innerHTML, /没有匹配的归档新闻/);
+    change("searchInput", "", "input");
+    count(1);
+    assert.match(elements.get("list").innerHTML, /今日体育/);
+    change("dateFilter", "__ALL__");
+    change("tagFilter", "__ALL__");
+    change("searchInput", "人工智能", "input");
+    count(1);
+    change("searchInput", "   ", "input");
+    count(3);
+  }
+});
 
 test("静态首页使用共享新闻主题并保留核心交互入口", () => {
   const html = renderStaticPage({

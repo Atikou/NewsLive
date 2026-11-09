@@ -305,6 +305,8 @@ export async function loadSettings() {
     },
     aiTranslation: {
       enabled: toBoolean(aiTranslationConfig.enabled, false),
+      provider: (process.env.TRANSLATION_PROVIDER || aiTranslationConfig.provider || "google")
+        .toString().trim().toLowerCase(),
       apiFormat: aiApiFormat,
       apiUrl: aiApiUrl,
       apiKey: (process.env.DEEPSEEK_API_KEY || process.env.ANTHROPIC_API_KEY || "").toString().trim(),

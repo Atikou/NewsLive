@@ -65,14 +65,8 @@ function buildPushLine(item, index, { markdown = true, timeZone = "" } = {}) {
   return `${index}. ${sourceLabel} ${titleLink}${meta ? `\n   ${meta}` : ""}`;
 }
 
-function truncateUtf8(text, maxBytes) {
-  let result = String(text || "");
-  while (result.length > 1 && utf8Length(`${result}…`) > maxBytes) result = result.slice(0, -1);
-  return utf8Length(result) > maxBytes ? "" : `${result}…`;
-}
-
 export function buildPushMessage(items, maxMessageChars = 4096, options = {}) {
-  const maxBytes = Math.max(512, Number(maxMessageChars) || 4096);
+  const maxBytes = Math.min(4096, Math.max(512, Number(maxMessageChars) || 4096));
   const lines = [];
   const usedItems = [];
   for (const item of items) {
@@ -83,8 +77,7 @@ export function buildPushMessage(items, maxMessageChars = 4096, options = {}) {
       continue;
     }
     if (!usedItems.length) {
-      lines.push(truncateUtf8(line, maxBytes));
-      usedItems.push(item);
+      return { message: line, usedItems: [item], errorMessage: "single news item exceeds message size limit" };
     }
     break;
   }
@@ -108,6 +101,39 @@ function buildDayAppUrl(pushUrl, title, body) {
   }
 }
 
+function buildDayAppPayload({ title, markdown, plain = markdown, group = "NewsLive" }) {
+  return { title, body: plain, markdown, group };
+}
+
+function getDayAppSizeError(url, message) {
+  if (url.includes("{title}") || url.includes("{body}")) {
+    return buildDayAppUrl(url, message.title, message.markdown).length > 3_800
+      ? "day.app template URL is too large"
+      : "";
+  }
+  const payload = { ...buildDayAppPayload(message), ...Object.fromEntries(new URL(url).searchParams) };
+  // Bark 的 APNs 包同时携带 body、markdown，并额外写入 aps 与 thread-id。
+  // Go 的 JSON 编码还会转义 HTML 字符；为服务端封装保留 512 字节。
+  const serialized = JSON.stringify(payload).replace(/[<>&\u2028\u2029]/g, (char) =>
+    `\\u${char.charCodeAt(0).toString(16).padStart(4, "0")}`
+  );
+  return utf8Length(serialized) + utf8Length(JSON.stringify(payload.group || "")) > 4096 - 512
+    ? "day.app payload exceeds APNs 4096-byte limit (including body and markdown)"
+    : "";
+}
+
+async function getDayAppResponseError(response) {
+  // 状态会发布到 Pages；只记录已知错误类型，不公开可能含设备 key 的原始响应。
+  let reason = "";
+  try {
+    const body = await response.json();
+    reason = String(body?.message || "").match(/\b(PayloadTooLarge|BadDeviceToken|Unregistered|DeviceTokenNotForTopic|ExpiredProviderToken|InvalidProviderToken|TooManyRequests|ServiceUnavailable|Shutdown)\b/)?.[1] || "";
+  } catch {
+    // 无 JSON 的网关错误仍保留 HTTP 状态。
+  }
+  return `day.app push failed (${response.status})${reason ? `: ${reason}` : ""}`;
+}
+
 async function sendDayAppMessage(
   url,
   { title, markdown, plain = markdown, group = "NewsLive" },
@@ -117,23 +143,18 @@ async function sendDayAppMessage(
     return { ok: false, errorMessage: "day.app push has no content" };
   }
   try {
+    const message = { title, markdown, plain, group };
+    const sizeError = getDayAppSizeError(url, message);
+    if (sizeError) return { ok: false, errorMessage: sizeError };
     let response;
     if (url.includes("{title}") || url.includes("{body}")) {
       const fullUrl = buildDayAppUrl(url, title, markdown);
-      if (fullUrl.length > 3_800) {
-        return { ok: false, errorMessage: "day.app template URL is too large" };
-      }
       response = await fetchImpl(fullUrl, {
         method: "GET",
         headers: { "User-Agent": "NewsLive/1.0" }
       });
     } else {
-      const payload = {
-        title,
-        body: plain,
-        markdown,
-        group
-      };
+      const payload = buildDayAppPayload(message);
       response = await fetchImpl(url, {
         method: "POST",
         headers: {
@@ -145,7 +166,7 @@ async function sendDayAppMessage(
     }
     return response.ok
       ? { ok: true, errorMessage: "" }
-      : { ok: false, errorMessage: `day.app push failed (${response.status})` };
+      : { ok: false, errorMessage: await getDayAppResponseError(response) };
   } catch (error) {
     return {
       ok: false,
@@ -155,21 +176,28 @@ async function sendDayAppMessage(
 }
 
 async function sendDayApp(url, items, maxMessageChars, timeZone, fetchImpl) {
-  const built = buildPushMessage(items, maxMessageChars, { markdown: true, timeZone });
-  const usedItems = built.usedItems;
+  let usedItems = items.slice();
+  let message;
+  try {
+    while (usedItems.length) {
+      message = {
+        title: `NewsLive 重点新闻 ${usedItems.length} 条`,
+        markdown: usedItems.map((item, index) => buildPushLine(item, index + 1, { timeZone })).join("\n"),
+        plain: usedItems.map((item, index) => buildPushLine(item, index + 1, { markdown: false, timeZone })).join("\n")
+      };
+      const sizeError = getDayAppSizeError(url, message) ||
+        (utf8Length(message.markdown) > Math.max(512, Number(maxMessageChars) || 4096)
+          ? "day.app single news item exceeds message size limit" : "");
+      if (!sizeError) break;
+      // 单条也放不下时保留失败状态，不能截断超链接后假记为已送达。
+      if (usedItems.length === 1) return { ok: false, errorMessage: sizeError, usedItems, itemTooLarge: true };
+      usedItems.pop();
+    }
+  } catch {
+    return { ok: false, errorMessage: "day.app push URL is invalid", usedItems };
+  }
   if (!usedItems.length) return { ok: false, errorMessage: "day.app push has no content", usedItems };
-  const result = await sendDayAppMessage(
-    url,
-    {
-      title: `NewsLive 重点新闻 ${usedItems.length} 条`,
-      markdown: built.message,
-      plain: buildPushMessage(usedItems, maxMessageChars, {
-        markdown: false,
-        timeZone
-      }).message
-    },
-    fetchImpl
-  );
+  const result = await sendDayAppMessage(url, message, fetchImpl);
   return { ...result, usedItems };
 }
 
@@ -178,6 +206,12 @@ function encodeRfc2047(value) {
 }
 
 async function sendNtfy(url, message, title, fetchImpl) {
+  if (utf8Length(message) > 4096) {
+    return { ok: false, errorMessage: "ntfy message exceeds 4096-byte limit" };
+  }
+  if (utf8Length(title) > 1024) {
+    return { ok: false, errorMessage: "ntfy title exceeds 1024-byte limit" };
+  }
   const headers = {
     "Content-Type": "text/markdown; charset=utf-8",
     "User-Agent": "NewsLive/1.0",
@@ -253,7 +287,7 @@ export async function deliverQueuedPushes({
     let cursor = 0;
     while (cursor < pending.length) {
       const candidates = pending.slice(cursor, cursor + settings.push.maxItemsPerPush);
-      const { message, usedItems } = buildPushMessage(candidates, settings.push.maxMessageChars, {
+      const { message, usedItems, errorMessage } = buildPushMessage(candidates, settings.push.maxMessageChars, {
         markdown: true,
         timeZone: settings.timezone || ""
       });
@@ -266,7 +300,9 @@ export async function deliverQueuedPushes({
             settings.timezone || "",
             fetchImpl
           )
-        : await sendNtfy(
+        : errorMessage
+          ? { ok: false, errorMessage: `ntfy ${errorMessage}`, itemTooLarge: true }
+          : await sendNtfy(
             settings.push.ntfyPushUrl,
             message,
             `NewsLive 重点新闻 ${usedItems.length} 条`,
@@ -283,6 +319,10 @@ export async function deliverQueuedPushes({
       await onProgress({ queue, ledger: nextLedger });
       if (!result.ok) {
         errors.push(result.errorMessage);
+        if (result.itemTooLarge) {
+          cursor += attemptedItems.length;
+          continue;
+        }
         break;
       }
       delivered.push(...attemptedItems.map((item) => ({ eventId: item.eventId, channel })));

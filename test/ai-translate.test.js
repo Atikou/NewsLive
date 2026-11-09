@@ -6,6 +6,7 @@ import { loadSettings } from "../src/config.js";
 function makeConfig(overrides = {}) {
   return {
     enabled: true,
+    provider: "deepseek",
     apiFormat: "openai",
     apiUrl: "https://api.deepseek.com",
     apiKey: "test-key",
@@ -41,6 +42,92 @@ function preserveEnvironment(t, names) {
     }
   });
 }
+
+test("Google 默认无需密钥，按标题对应译文并合并分段，复用已有中文", async (t) => {
+  const titles = [];
+  installFetchMock(t, async (input, options) => {
+    const url = new URL(input);
+    assert.equal(url.origin + url.pathname, "https://translate.googleapis.com/translate_a/single");
+    assert.equal(url.searchParams.get("client"), "gtx");
+    assert.equal(url.searchParams.get("sl"), "auto");
+    assert.equal(url.searchParams.get("tl"), "zh-CN");
+    assert.equal(url.searchParams.get("dt"), "t");
+    assert.equal(options.headers, undefined);
+    assert.ok(options.signal instanceof AbortSignal);
+    const title = url.searchParams.get("q");
+    titles.push(title);
+    // Reverse completion order to check title/result mapping.
+    if (title.startsWith("OpenAI")) await new Promise((resolve) => setImmediate(resolve));
+    return Response.json([[[title.startsWith("OpenAI") ? "新模型。" : "第二条。"], ["更多详情。"]]]);
+  });
+  const items = [
+    { title: "OpenAI & AI? #1\nMore details." },
+    { title: "Another title" },
+    { title: "中文新闻" },
+    { title: "Already translated", titleZh: "已有译文" },
+    { title: "Over limit" }
+  ];
+  const result = await translateItemsWithAi(items, makeConfig({
+    provider: undefined, apiKey: "", apiUrl: "", model: "", maxItemsPerRun: 2,
+    headers: { Authorization: "must-not-leak" }
+  }));
+  assert.deepEqual(titles, items.slice(0, 2).map((item) => item.title));
+  assert.deepEqual(items.map((item) => item.titleZh), ["新模型。更多详情。", "第二条。更多详情。", undefined, "已有译文", undefined]);
+  assert.equal(result.translatedCount, 2);
+  assert.equal(result.errorMessage, "");
+  assert.equal(items[0].title, "OpenAI & AI? #1\nMore details.");
+});
+
+test("Google 单条失败不影响其他标题，不自动调用 DeepSeek，遵守批次并发上限", async (t) => {
+  let active = 0;
+  let maxActive = 0;
+  let requests = 0;
+  installFetchMock(t, async (input) => {
+    const url = new URL(input);
+    assert.equal(url.hostname, "translate.googleapis.com");
+    requests += 1;
+    active += 1;
+    maxActive = Math.max(maxActive, active);
+    await new Promise((resolve) => setImmediate(resolve));
+    active -= 1;
+    switch (url.searchParams.get("q")) {
+      case "HTTP failure": return new Response("rate limited", { status: 429 });
+      case "Malformed": return Response.json({ error: "bad payload" });
+      case "Empty": return Response.json([[[" "]]]);
+      case "Network failure": throw new TypeError("fetch failed");
+      default: return Response.json([[["成功译文"]]]);
+    }
+  });
+  const items = ["HTTP failure", "Success one", "Malformed", "Empty", "Network failure", "Success two"]
+    .map((title) => ({ title }));
+  const result = await translateItemsWithAi(items, makeConfig({ provider: "google", batchSize: 2 }));
+  assert.equal(maxActive, 2);
+  assert.equal(requests, 6);
+  assert.equal(result.translatedCount, 2);
+  assert.match(result.errorMessage, /4 次.*429/);
+  assert.deepEqual(items.map((item) => item.titleZh), [undefined, "成功译文", undefined, undefined, undefined, "成功译文"]);
+});
+
+test("关闭翻译、未知服务和 DeepSeek 缺少密钥时不发送请求", async (t) => {
+  installFetchMock(t, async () => { assert.fail("不应调用接口"); });
+  const items = [{ title: "Test title" }];
+  const disabled = await translateItemsWithAi(items, makeConfig({ provider: "google", enabled: false }));
+  assert.equal(disabled.errorMessage, "");
+  const unknown = await translateItemsWithAi(items, makeConfig({ provider: "typo" }));
+  assert.match(unknown.errorMessage, /不支持/);
+  const missingKey = await translateItemsWithAi(items, makeConfig({ apiKey: "" }));
+  assert.match(missingKey.errorMessage, /DEEPSEEK_API_KEY/);
+  assert.equal(items[0].titleZh, undefined);
+});
+
+test("默认 Google 不受已有 DeepSeek 密钥影响，可通过环境变量切换备选", async (t) => {
+  preserveEnvironment(t, ["TRANSLATION_PROVIDER", "DEEPSEEK_API_KEY"]);
+  delete process.env.TRANSLATION_PROVIDER;
+  process.env.DEEPSEEK_API_KEY = "existing-key";
+  assert.equal((await loadSettings()).aiTranslation.provider, "google");
+  process.env.TRANSLATION_PROVIDER = " DeepSeek ";
+  assert.equal((await loadSettings()).aiTranslation.provider, "deepseek");
+});
 
 test("使用 DeepSeek V4 OpenAI 接口翻译并解析 JSON Output", async (t) => {
   let capturedUrl = "";

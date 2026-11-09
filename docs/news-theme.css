@@ -791,6 +791,11 @@ button.active {
   gap: 5px;
 }
 
+.archive-search .search-input {
+  min-height: 42px;
+  border-radius: var(--radius-small);
+}
+
 .field-label {
   color: var(--muted);
   font-size: 12px;
@@ -1393,6 +1398,7 @@ button.active {
     min-width: 0;
   }
 
+  .archive-search,
   .archive-summary {
     grid-column: 1 / -1;
     margin-left: 0;

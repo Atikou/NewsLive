@@ -185,14 +185,41 @@ async function translateBatch(batch, config) {
   }
 }
 
+async function translateGoogleTitle(title, config) {
+  const url = new URL("https://translate.googleapis.com/translate_a/single");
+  url.search = new URLSearchParams({ client: "gtx", sl: "auto", tl: "zh-CN", dt: "t", q: title });
+  const timeout = withTimeout(Math.max(config.requestTimeoutSeconds * 1000, 5_000));
+  try {
+    const response = await fetch(url, { signal: timeout.signal });
+    if (!response.ok) {
+      throw new Error(`Google 翻译接口请求失败 (${response.status})`);
+    }
+    const payload = await response.json();
+    const segments = payload?.[0];
+    if (!Array.isArray(segments) || !segments.length ||
+        !segments.every((segment) => Array.isArray(segment) && typeof segment[0] === "string")) {
+      throw new Error("Google 翻译结果格式不正确");
+    }
+    const translated = segments.map((segment) => segment[0]).join("").trim();
+    if (!translated) throw new Error("Google 翻译结果为空");
+    return translated;
+  } finally {
+    timeout.done();
+  }
+}
+
 export async function translateItemsWithAi(items, config) {
   if (!config || !config.enabled) {
     return { items, translatedCount: 0, errorMessage: "" };
   }
-  if (!config.apiUrl || !config.model) {
+  const provider = config.provider || "google";
+  if (!["google", "deepseek"].includes(provider)) {
+    return { items, translatedCount: 0, errorMessage: `不支持的标题翻译服务：${provider}` };
+  }
+  if (provider === "deepseek" && (!config.apiUrl || !config.model)) {
     return { items, translatedCount: 0, errorMessage: "AI 翻译已启用，但未配置 api_url 或 model" };
   }
-  if (!config.apiKey) {
+  if (provider === "deepseek" && !config.apiKey) {
     return {
       items,
       translatedCount: 0,
@@ -218,10 +245,16 @@ export async function translateItemsWithAi(items, config) {
   for (let start = 0; start < candidates.length; start += config.batchSize) {
     const batch = candidates.slice(start, start + config.batchSize).map(({ item }) => item);
     try {
-      const translated = await translateBatch(batch, config);
+      const translated = provider === "google"
+        ? await Promise.allSettled(batch.map((item) => translateGoogleTitle(item.title, config)))
+        : (await translateBatch(batch, config)).map((value) => ({ status: "fulfilled", value }));
       for (let i = 0; i < translated.length; i += 1) {
+        if (translated[i].status === "rejected") {
+          batchErrors.push(translated[i].reason?.message || "unknown");
+          continue;
+        }
         const target = candidates[start + i].item;
-        const titleZh = translated[i];
+        const titleZh = translated[i].value;
         if (!titleZh) continue;
         target.titleZh = titleZh;
         translatedCount += 1;
@@ -232,7 +265,7 @@ export async function translateItemsWithAi(items, config) {
   }
 
   const errorMessage = batchErrors.length
-    ? `AI 翻译部分失败（${batchErrors.length} 批）：${batchErrors[0]}`
+    ? `标题翻译部分失败（${batchErrors.length} 次）：${batchErrors[0]}`
     : "";
   return { items, translatedCount, errorMessage };
 }
