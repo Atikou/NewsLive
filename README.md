@@ -264,6 +264,8 @@ GitHub Actions 等 Linux 环境默认系统时区多为 **UTC**，若依赖「�
 4. 自动提交 `docs/`、新闻数据、推送队列与分渠道投递账本
 5. 发布到 GitHub Pages
 
+手动运行时勾选 `ui_only` 可仅重建并发布网页（如归档搜索、样式更新），读取现有新闻数据，不触发抓取、翻译、通知推送或 Git 历史清理。
+
 在 **Actions → Secrets and variables** 中配置。推送 URL 包含设备 key/topic，必须放在 **Secrets**，不要存入明文 Variables：
 
 - `DAY_APP_PUSH_URL`（Bark / day.app，形如 `https://api.day.app/<你的 key>/`）
