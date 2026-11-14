@@ -1090,11 +1090,12 @@
         "isPriority": true,
         "eventId": "fd52b3f1ee9e7cc291fd205ca8b07d338aecf50a",
         "canonicalUrl": "https://theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-        "clusterSize": 2,
-        "sourceCount": 2,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
           "Guardian World",
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -2663,10 +2664,11 @@
         "isPriority": false,
         "eventId": "0bba9653aba33cd71dfe4ec0f68a0308b39a6202",
         "canonicalUrl": "https://reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -2698,10 +2700,11 @@
         "isPriority": false,
         "eventId": "80909cec2fb6210a44b54aa75b6b72ae0ed25ffe",
         "canonicalUrl": "https://isometricsf.com/",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -2733,10 +2736,11 @@
         "isPriority": false,
         "eventId": "351b04df48a25f5285cfa15df0fb2356e97ecab4",
         "canonicalUrl": "https://haddyalchaer.com/jepa",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Frontpage"
+          "Hacker News Frontpage",
+          "Hacker News Algolia Front Page"
         ],
         "relatedLinks": [
           {
@@ -3357,10 +3361,11 @@
         "isPriority": true,
         "eventId": "3c926702ce39fb4ace53788961d04941207d2bf9",
         "canonicalUrl": "https://twitter.com/flightradar24/status/2121347654714077605",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 2,
+        "sourceCount": 2,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -3435,10 +3440,12 @@
         "isPriority": true,
         "eventId": "e917a233e0c04d96690f36d62c4515067d8de2f5",
         "canonicalUrl": "https://fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
-        "clusterSize": 1,
-        "sourceCount": 1,
+        "clusterSize": 3,
+        "sourceCount": 3,
         "relatedSources": [
-          "Hacker News Newest"
+          "Hacker News Newest",
+          "Hacker News Algolia AI Search",
+          "Hacker News Frontpage"
         ],
         "relatedLinks": [
           {
@@ -3446,6 +3453,12 @@
             "source": "Hacker News Newest",
             "title": "FAA Issues National Ground Stop",
             "titleZh": "美国联邦航空局 (FAA) 发布国家地面停止令"
+          },
+          {
+            "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Ground stop ordered for all airports nationwide for 'reasons of safety'",
+            "titleZh": "出于“安全原因”，全国所有机场都被下令地面停止"
           }
         ],
         "category": "",
@@ -4475,8 +4488,4521 @@
         "language": "",
         "languages": [],
         "titleZh": "人工智能大型交易日益严重的投资组合集中度风险问题"
+      },
+      {
+        "title": "江西省商务厅访问团与比利时业界人士座谈交流",
+        "url": "https://www.chinanews.com.cn/hr/2026/11-14/10731891.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:32:53 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2ed2471a694238d897417bd01dfbb822734310ee",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ad709fc895fd00ba29afd16d46881f229546fd9b",
+        "canonicalUrl": "https://chinanews.com.cn/hr/2026/11-14/10731891.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/hr/2026/11-14/10731891.shtml",
+            "source": "中国新闻网",
+            "title": "江西省商务厅访问团与比利时业界人士座谈交流",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "中越近千名青年南宁体验“越友趣”文化嘉年华",
+        "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-14/10731885.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:31:39 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "118e22f45a3cdfe355e73f130f87b1e330f1be61",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "31263bdfe578b7a75327cbcd420afe0938eefced",
+        "canonicalUrl": "https://chinanews.com.cn/aseaninfo/2026/11-14/10731885.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-14/10731885.shtml",
+            "source": "中国新闻网",
+            "title": "中越近千名青年南宁体验“越友趣”文化嘉年华",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "贵州雷山百年水上粮仓引客来",
+        "url": "https://www.chinanews.com.cn/tp/2026/11-14/10731895.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:25:07 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8347338c1316928b3402e5e6eb4a1e12eaecc638",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "62ca72becdd19b4f15002262fab8b4778d500b49",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/11-14/10731895.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/11-14/10731895.shtml",
+            "source": "中国新闻网",
+            "title": "贵州雷山百年水上粮仓引客来",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "2026年河南省女子排球城市联赛在郑州开幕",
+        "url": "https://www.chinanews.com.cn/tp/2026/11-14/10731890.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:22:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "b3add7f808bb1f5a0e1112f7be3df1b1e3772640",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "601df983ab49a80754cbbcc7c375c16bceefef1d",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/11-14/10731890.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/11-14/10731890.shtml",
+            "source": "中国新闻网",
+            "title": "2026年河南省女子排球城市联赛在郑州开幕",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "别把生活中的每一种不适都病理化",
+        "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731899.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:21:51 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2c9d42f11259391028c67948a051c6c510d5f7ad",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2a2174d6baa11843cd367cfa0e31fa228cf7ed58",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/11-14/10731899.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731899.shtml",
+            "source": "中国新闻网",
+            "title": "别把生活中的每一种不适都病理化",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "李强同泰国总理阿努廷会谈",
+        "url": "https://www.chinanews.com.cn/gn/2026/11-14/10731877.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:21:13 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "f89d18a1c8bb6a7d473fc459c1400f44e1f36fa4",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e27f144a4a30aa3443d90d579aba585b4e7e2598",
+        "canonicalUrl": "https://chinanews.com.cn/gn/2026/11-14/10731877.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gn/2026/11-14/10731877.shtml",
+            "source": "中国新闻网",
+            "title": "李强同泰国总理阿努廷会谈",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "民众走进铜陵浮山 揽地质奇观识千年文脉",
+        "url": "https://www.chinanews.com.cn/tp/2026/11-14/10731887.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:20:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "3362de6a0652fe6dc11e2698792d41984cfd8c0a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d8e2f8734ea50ec6ba4bfa764947cfa3ec4ade9f",
+        "canonicalUrl": "https://chinanews.com.cn/tp/2026/11-14/10731887.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/tp/2026/11-14/10731887.shtml",
+            "source": "中国新闻网",
+            "title": "民众走进铜陵浮山 揽地质奇观识千年文脉",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "特朗普：美空管系统故障疑由老旧破损的基础设施所致",
+        "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731897.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:18:42 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "5785bffefaa1cc0c1de12f5013fd506f04f612f8",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普"
+        ],
+        "isPriority": true,
+        "eventId": "168edd44f2395097dcc252d082296a22aa4cc01e",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/11-14/10731897.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731897.shtml",
+            "source": "中国新闻网",
+            "title": "特朗普：美空管系统故障疑由老旧破损的基础设施所致",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "泰国湄南河灯光节开启",
+        "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-14/1210753.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:12:29 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "8e827885f5726834d09fe1e944be332dfbe78857",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5e98400130b0d29f37406cc43950cdcf0b5b3e31",
+        "canonicalUrl": "http://chinanews.com.cn/tp/hd2011/2026/11-14/1210753.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-14/1210753.shtml",
+            "source": "中国新闻网",
+            "title": "泰国湄南河灯光节开启",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "从汽车大国到汽车强国 底气藏在超级工厂看不见的硬功夫里",
+        "url": "https://www.chinanews.com.cn/cj/2026/11-14/10731884.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:06:48 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "13725022d1c7732111b541ad54107066a073c1f0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a459e8ef903136ad3dcb64359df831a67656da22",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/11-14/10731884.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/11-14/10731884.shtml",
+            "source": "中国新闻网",
+            "title": "从汽车大国到汽车强国 底气藏在超级工厂看不见的硬功夫里",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "知情人士称全美航班停飞调查指向软件更新",
+        "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731883.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 09:03:30 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2512a7841db9940d5a918813f4bbd743e2bbedfe",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5f5b88a0a98923a45ffc71c52fc5032280d0f63f",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/11-14/10731883.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731883.shtml",
+            "source": "中国新闻网",
+            "title": "知情人士称全美航班停飞调查指向软件更新",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "劫案电影魔术秀登陆纽约百老汇",
+        "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-14/1210751.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 08:53:35 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "0076aeb7c2808ee815de3c2ba7275fa55a0260d9",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d97a64725b6805d81465d0d7c13abe5340b22bec",
+        "canonicalUrl": "http://chinanews.com.cn/tp/hd2011/2026/11-14/1210751.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-14/1210751.shtml",
+            "source": "中国新闻网",
+            "title": "劫案电影魔术秀登陆纽约百老汇",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "今年1至10月全国铁路发送旅客41.3亿人次 创历史同期新高",
+        "url": "https://www.chinanews.com.cn/cj/2026/11-14/10731881.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 08:53:27 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "2764f49cdf79049d83426bf17b2ad2d2f5160ece",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a3cc5e9b07c84f74324fe4d5623ec09d970c2103",
+        "canonicalUrl": "https://chinanews.com.cn/cj/2026/11-14/10731881.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cj/2026/11-14/10731881.shtml",
+            "source": "中国新闻网",
+            "title": "今年1至10月全国铁路发送旅客41.3亿人次 创历史同期新高",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "华北黄淮东北等地仍有雾霾天气 中东部将有大范围大风降温和雨雪天气",
+        "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731878.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 08:52:27 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "a942b2d1226b58630022d3f4a2b34d4b7b19b3ed",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "中东"
+        ],
+        "isPriority": true,
+        "eventId": "41349c3e941f67c60775bc1f5efff046d1563959",
+        "canonicalUrl": "https://chinanews.com.cn/sh/2026/11-14/10731878.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731878.shtml",
+            "source": "中国新闻网",
+            "title": "华北黄淮东北等地仍有雾霾天气 中东部将有大范围大风降温和雨雪天气",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "北京：2026中意陶瓷艺术展开幕",
+        "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-14/1210748.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 08:46:14 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fd575f2047f92736001db4c3b625ee282b318246",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "2298c3f8239aef2d5f26e8e58221e381256ab10d",
+        "canonicalUrl": "http://chinanews.com.cn/tp/hd2011/2026/11-14/1210748.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-14/1210748.shtml",
+            "source": "中国新闻网",
+            "title": "北京：2026中意陶瓷艺术展开幕",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "每8个成年人中就有1人患病，被称为“沉默的杀手”，35岁以上人群请注意！",
+        "url": "https://www.chinanews.com.cn/jk/2026/11-14/10731879.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 08:40:06 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "ea2eedf6eaab3e3ae8faa281736a76f2c9bf9afd",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1b4291399f927a1522d4a1440bd070222cc5619b",
+        "canonicalUrl": "https://chinanews.com.cn/jk/2026/11-14/10731879.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/jk/2026/11-14/10731879.shtml",
+            "source": "中国新闻网",
+            "title": "每8个成年人中就有1人患病，被称为“沉默的杀手”，35岁以上人群请注意！",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "全球脱碳如何提速？国际环保组织负责人看到了“中国机遇”｜新闻会客厅",
+        "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731876.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 08:31:34 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "1498c24c1dbc34250a3dcf8364aa68cb8f147831",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a8e1579b18e316c6bd86e15b507fe78e45aa2d37",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/11-14/10731876.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731876.shtml",
+            "source": "中国新闻网",
+            "title": "全球脱碳如何提速？国际环保组织负责人看到了“中国机遇”｜新闻会客厅",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "美国联邦航空管理局因通信问题暂停全美航班起飞",
+        "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731875.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 07:57:02 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "38dfa6a9c595cfddc31c824e2be2a01069f0397e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "16b7b3145c50dfda3320fd4125cbd58b8afa8f67",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/11-14/10731875.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731875.shtml",
+            "source": "中国新闻网",
+            "title": "美国联邦航空管理局因通信问题暂停全美航班起飞",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "11月14日新闻早报",
+        "url": "https://www.chinanews.com.cn/iframe/2026/11-14/10731874.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 07:06:43 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "dec4c47eb8608cc1c4d75c936832312b5e3ebc96",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "aadb45cf496664958ea70500f060e13991fa904d",
+        "canonicalUrl": "https://chinanews.com.cn/iframe/2026/11-14/10731874.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/iframe/2026/11-14/10731874.shtml",
+            "source": "中国新闻网",
+            "title": "11月14日新闻早报",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "科斯塔：欧洲五国及欧盟机构将参与下一轮乌克兰问题谈判",
+        "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731873.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 06:32:49 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "649a05edb2ef4729c690c34134aaee52478686be",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "乌克兰",
+          "欧盟"
+        ],
+        "isPriority": true,
+        "eventId": "9cb77d866fa2c846a0b9db9c242b53b644b11d02",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/11-14/10731873.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731873.shtml",
+            "source": "中国新闻网",
+            "title": "科斯塔：欧洲五国及欧盟机构将参与下一轮乌克兰问题谈判",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "美国联邦航空管理局发布全国范围地面停飞指令",
+        "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731872.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 06:31:03 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "fbff1c10c009c5c651157ad16bb14f56030932c6",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "7f55f8c123d8272c0fa87b81a2ceb716d6060161",
+        "canonicalUrl": "https://chinanews.com.cn/gj/2026/11-14/10731872.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731872.shtml",
+            "source": "中国新闻网",
+            "title": "美国联邦航空管理局发布全国范围地面停飞指令",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "《惊天魔盗团·魔幻现场秀》登陆纽约百老汇",
+        "url": "https://www.chinanews.com.cn/cul/2026/11-14/10731871.shtml",
+        "source": "中国新闻网",
+        "fetchedAt": "2026-11-14T01:43:49.909Z",
+        "pubDate": "Sat, 14 Nov 2026 06:28:57 +0800",
+        "category": "综合",
+        "region": "中国",
+        "language": "zh-CN",
+        "id": "15d65d00e152f2c598ab3f0f264d8f6d36d81cb0",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "cb85f272a3ba1d3be7abf767b9a03d8b4340b952",
+        "canonicalUrl": "https://chinanews.com.cn/cul/2026/11-14/10731871.shtml",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "中国新闻网"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.chinanews.com.cn/cul/2026/11-14/10731871.shtml",
+            "source": "中国新闻网",
+            "title": "《惊天魔盗团·魔幻现场秀》登陆纽约百老汇",
+            "titleZh": ""
+          }
+        ],
+        "categories": [
+          "综合"
+        ],
+        "regions": [
+          "中国"
+        ],
+        "languages": [
+          "zh-CN"
+        ]
+      },
+      {
+        "title": "The Federal Aviation Administration says airplane departures can resume - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFBta25Rakd3c0VBM0NUWjJzbmV2ajZwTWRtUFVTcTVzZ2otRGo0cXZSWWV0MzNBSXdmMXNzdm9SU1d1blBBNnktRlNqQmcwVUVxQzhCNERGel9ETDBHZjJwb29IYmhGX2VPNm8xeGwwU0VNajFzZnpIM19lejBOVTZrRVVjb2t4SDh3emhSZHI?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Sat, 14 Nov 2026 01:37:00 GMT",
+        "id": "8f2419dcc70bb595adde1297d03f3ddfef33a1ea",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "575600867daf45d11de5e474232ac303bdaa0183",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFBta25Rakd3c0VBM0NUWjJzbmV2ajZwTWRtUFVTcTVzZ2otRGo0cXZSWWV0MzNBSXdmMXNzdm9SU1d1blBBNnktRlNqQmcwVUVxQzhCNERGel9ETDBHZjJwb29IYmhGX2VPNm8xeGwwU0VNajFzZnpIM19lejBOVTZrRVVjb2t4SDh3emhSZHI",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFBta25Rakd3c0VBM0NUWjJzbmV2ajZwTWRtUFVTcTVzZ2otRGo0cXZSWWV0MzNBSXdmMXNzdm9SU1d1blBBNnktRlNqQmcwVUVxQzhCNERGel9ETDBHZjJwb29IYmhGX2VPNm8xeGwwU0VNajFzZnpIM19lejBOVTZrRVVjb2t4SDh3emhSZHI?oc=5",
+            "source": "AP News via Google News",
+            "title": "The Federal Aviation Administration says airplane departures can resume - AP News",
+            "titleZh": "美国联邦航空管理局表示飞机起飞可以恢复 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国联邦航空管理局表示飞机起飞可以恢复 - 美联社新闻"
+      },
+      {
+        "title": "Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, officials say - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZHRtNEg4NWdzTENNMlVLOUt6QlptMzd1cUtLanJ0U1pPNVVrbjZDRXo0UWszZjV6d09hRy1GaUFFWE9PUmtzRnFxOUxJdW1OTy0zT21LbnU3RGlhQUUtNHlnRW9nUjhJRmQ0QUFDME9oelNZTVQ?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Fri, 13 Nov 2026 23:44:00 GMT",
+        "id": "9bc68a67cf71a5eaaa6e129a6b0fdb923dd62a79",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "0fb8e6eeafb1538cd2801e24c06e2f9bd5bb77bb",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZHRtNEg4NWdzTENNMlVLOUt6QlptMzd1cUtLanJ0U1pPNVVrbjZDRXo0UWszZjV6d09hRy1GaUFFWE9PUmtzRnFxOUxJdW1OTy0zT21LbnU3RGlhQUUtNHlnRW9nUjhJRmQ0QUFDME9oelNZTVQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUd4MWZqTjdxYkRUaW55bWxuNy1BX1FaZVNYZHRtNEg4NWdzTENNMlVLOUt6QlptMzd1cUtLanJ0U1pPNVVrbjZDRXo0UWszZjV6d09hRy1GaUFFWE9PUmtzRnFxOUxJdW1OTy0zT21LbnU3RGlhQUUtNHlnRW9nUjhJRmQ0QUFDME9oelNZTVQ?oc=5",
+            "source": "AP News via Google News",
+            "title": "Trump, Xi and Putin plan an unprecedented joint meeting on the sidelines of APEC, officials say - AP News",
+            "titleZh": "官员称，特朗普、习近平和普京计划在亚太经合组织会议期间举行史无前例的联席会议 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "官员称，特朗普、习近平和普京计划在亚太经合组织会议期间举行史无前例的联席会议 - 美联社新闻"
+      },
+      {
+        "title": "US visa restrictions force some African contestants out of Miss Universe competition - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRk1Bd3FOcWR5QXBFWEhjRzNPVTgtUHdmVEVCNmdCQ19hOFlkRjUtV0F1eTlQRXltd2NSbktxd2J6aVF4aG44ajVJM1BtV2xOMS10a2xXX2V5SENZYWR0cmJQdEFZM1hBMWw5TE5EU0RKellHX2ZnaXduVlN3RXVDWERWMENQU0Z0d0tLRE5PUmZvS3FvOFdWeTFKV2JHd2VaQjBTTlNWc2hORjlrRUxIZktUdw?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Fri, 13 Nov 2026 17:04:00 GMT",
+        "id": "62fa16dfe12f9d837ebff775502fc8880141ccda",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "9633d98e5ff3f90e015258e80f08ca958516c019",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRk1Bd3FOcWR5QXBFWEhjRzNPVTgtUHdmVEVCNmdCQ19hOFlkRjUtV0F1eTlQRXltd2NSbktxd2J6aVF4aG44ajVJM1BtV2xOMS10a2xXX2V5SENZYWR0cmJQdEFZM1hBMWw5TE5EU0RKellHX2ZnaXduVlN3RXVDWERWMENQU0Z0d0tLRE5PUmZvS3FvOFdWeTFKV2JHd2VaQjBTTlNWc2hORjlrRUxIZktUdw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRk1Bd3FOcWR5QXBFWEhjRzNPVTgtUHdmVEVCNmdCQ19hOFlkRjUtV0F1eTlQRXltd2NSbktxd2J6aVF4aG44ajVJM1BtV2xOMS10a2xXX2V5SENZYWR0cmJQdEFZM1hBMWw5TE5EU0RKellHX2ZnaXduVlN3RXVDWERWMENQU0Z0d0tLRE5PUmZvS3FvOFdWeTFKV2JHd2VaQjBTTlNWc2hORjlrRUxIZktUdw?oc=5",
+            "source": "AP News via Google News",
+            "title": "US visa restrictions force some African contestants out of Miss Universe competition - AP News",
+            "titleZh": "美国签证限制迫使一些非洲选手退出环球小姐比赛 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国签证限制迫使一些非洲选手退出环球小姐比赛 - 美联社新闻"
+      },
+      {
+        "title": "2026 U.S. Senate Election Results - AP News",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Sat, 14 Nov 2026 01:42:17 GMT",
+        "id": "f090c394b63bf17f501c76aa8ba99d2d9d08fb12",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "3ac48780c9b3391bac752e685e89d96805be2fb3",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5",
+            "source": "AP News via Google News",
+            "title": "2026 U.S. Senate Election Results - AP News",
+            "titleZh": "2026 年美国参议院选举结果 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026 年美国参议院选举结果 - 美联社新闻"
+      },
+      {
+        "title": "2026 U.S. House Election Results - AP News",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Sat, 14 Nov 2026 01:42:17 GMT",
+        "id": "dfe98e9b40421fcfd5fe5023ecb1249b632f0a4b",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "173d4c1e2cdb9b89e1b2914d218103d47281fbec",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
+            "source": "AP News via Google News",
+            "title": "2026 U.S. House Election Results - AP News",
+            "titleZh": "2026 年美国众议院选举结果 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "2026 年美国众议院选举结果 - 美联社新闻"
+      },
+      {
+        "title": "Joe Biden's White House memoir is an unapologetic defense of four years sandwiched between Trump - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNck1uNjdmemxwdTVTTm1yS0pfMVY4bXdkZ0NMR3ZuN3c0Y0VaQ1EtSmV6WHFfLXI0SzQ5N1l6OXhkS1B0cXV1em1wOG9sYTBmaTZ6LVhvSjJpQ2xJQ1VPUHlWT3paZXJUU0pHQVhkNVRwVVhHOEhmZGpjTmJKbVdqUFBYWnpYamd2YzNQa3JsNlZScG8?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Fri, 13 Nov 2026 21:10:00 GMT",
+        "id": "f8699fe245f59147c0b5d5d3c69df664a35b8966",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "白宫",
+          "Trump",
+          "White House"
+        ],
+        "isPriority": true,
+        "eventId": "10dee99543935eaf7277c9916c7a5ab5d98fa64d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNck1uNjdmemxwdTVTTm1yS0pfMVY4bXdkZ0NMR3ZuN3c0Y0VaQ1EtSmV6WHFfLXI0SzQ5N1l6OXhkS1B0cXV1em1wOG9sYTBmaTZ6LVhvSjJpQ2xJQ1VPUHlWT3paZXJUU0pHQVhkNVRwVVhHOEhmZGpjTmJKbVdqUFBYWnpYamd2YzNQa3JsNlZScG8",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNck1uNjdmemxwdTVTTm1yS0pfMVY4bXdkZ0NMR3ZuN3c0Y0VaQ1EtSmV6WHFfLXI0SzQ5N1l6OXhkS1B0cXV1em1wOG9sYTBmaTZ6LVhvSjJpQ2xJQ1VPUHlWT3paZXJUU0pHQVhkNVRwVVhHOEhmZGpjTmJKbVdqUFBYWnpYamd2YzNQa3JsNlZScG8?oc=5",
+            "source": "AP News via Google News",
+            "title": "Joe Biden's White House memoir is an unapologetic defense of four years sandwiched between Trump - AP News",
+            "titleZh": "乔·拜登的白宫回忆录是对夹在特朗普身边四年的毫无歉意的辩护 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "乔·拜登的白宫回忆录是对夹在特朗普身边四年的毫无歉意的辩护 - 美联社新闻"
+      },
+      {
+        "title": "Stocks fall but Wall Street notches a winning week after several turbulent days - AP News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzlsZHFSZjhGdjdadGI2VjQ0bVdUX2VXT2lsTk1BQUlLejdKNS0zSEpvUTRhR0I1bjNGQXMtVUZJR1VvUm9jT2xaTXFkTGM1Q1laOHh0YkpONllQTVdTMHgtcUlqUGhFNGotUXRvV2VZT190c3NFWUpRanhyVDNWZ3lfRUgyS3dGZUZHNw?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Fri, 13 Nov 2026 22:04:00 GMT",
+        "id": "844eb554f41d2ebe5bf513dd8764992a69fc4f5e",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dbaa02f770442a4d50debc1d203ef01782d0dc77",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzlsZHFSZjhGdjdadGI2VjQ0bVdUX2VXT2lsTk1BQUlLejdKNS0zSEpvUTRhR0I1bjNGQXMtVUZJR1VvUm9jT2xaTXFkTGM1Q1laOHh0YkpONllQTVdTMHgtcUlqUGhFNGotUXRvV2VZT190c3NFWUpRanhyVDNWZ3lfRUgyS3dGZUZHNw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzlsZHFSZjhGdjdadGI2VjQ0bVdUX2VXT2lsTk1BQUlLejdKNS0zSEpvUTRhR0I1bjNGQXMtVUZJR1VvUm9jT2xaTXFkTGM1Q1laOHh0YkpONllQTVdTMHgtcUlqUGhFNGotUXRvV2VZT190c3NFWUpRanhyVDNWZ3lfRUgyS3dGZUZHNw?oc=5",
+            "source": "AP News via Google News",
+            "title": "Stocks fall but Wall Street notches a winning week after several turbulent days - AP News",
+            "titleZh": "股市下跌，但华尔街在经历了数个动荡的日子后迎来了胜利的一周 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "股市下跌，但华尔街在经历了数个动荡的日子后迎来了胜利的一周 - 美联社新闻"
+      },
+      {
+        "title": "Associated Press News: Breaking News | Latest News Today - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE1JRTBkY0d6emFJTklfMk1FZkEtdnc2dmtQVGhJQUcxb3cxdVZNajFoUnMxbGx1UQ?oc=5",
+        "source": "AP News via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.056Z",
+        "pubDate": "Fri, 13 Nov 2026 20:08:43 GMT",
+        "id": "53e0798d138c7e50a62bdb91444d2abcc186f422",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "29aed25b027a9df927bc88e6ea21cf11e67716b2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE1JRTBkY0d6emFJTklfMk1FZkEtdnc2dmtQVGhJQUcxb3cxdVZNajFoUnMxbGx1UQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "AP News via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE1JRTBkY0d6emFJTklfMk1FZkEtdnc2dmtQVGhJQUcxb3cxdVZNajFoUnMxbGx1UQ?oc=5",
+            "source": "AP News via Google News",
+            "title": "Associated Press News: Breaking News | Latest News Today - AP News",
+            "titleZh": "美联社新闻：突发新闻|今日最新新闻 - 美联社新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美联社新闻：突发新闻|今日最新新闻 - 美联社新闻"
+      },
+      {
+        "title": "Freighter collides with cruise ship in New Orleans, passengers in the water - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbGJQd2ZPVXZtMTIxS2dDR2ZOWjU5bVpGSGNXXzY4OFNEWWFTTDV0c0k3cjM5QWF3MVRqaU1RaWhja3YwZzVJOHNHYV9jWkNUR3NrWXRCUl9XSG9QODZNMHhkeUloNVI5a1U5Skg0TzhubXl0ZFZGc3JkdDkzRmstR3pPZi1USEdLTW9rRkdVOXdRakxSX1QwOVBsUEZsWTVFMHE1SkpNV19qMzM5UVE?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 22:15:00 GMT",
+        "id": "7c06387b3cdd7f62ff50b0d6eb4b8106604ace68",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "25b201e62cf4978556ed2f471eed8e828dc735ee",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbGJQd2ZPVXZtMTIxS2dDR2ZOWjU5bVpGSGNXXzY4OFNEWWFTTDV0c0k3cjM5QWF3MVRqaU1RaWhja3YwZzVJOHNHYV9jWkNUR3NrWXRCUl9XSG9QODZNMHhkeUloNVI5a1U5Skg0TzhubXl0ZFZGc3JkdDkzRmstR3pPZi1USEdLTW9rRkdVOXdRakxSX1QwOVBsUEZsWTVFMHE1SkpNV19qMzM5UVE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbGJQd2ZPVXZtMTIxS2dDR2ZOWjU5bVpGSGNXXzY4OFNEWWFTTDV0c0k3cjM5QWF3MVRqaU1RaWhja3YwZzVJOHNHYV9jWkNUR3NrWXRCUl9XSG9QODZNMHhkeUloNVI5a1U5Skg0TzhubXl0ZFZGc3JkdDkzRmstR3pPZi1USEdLTW9rRkdVOXdRakxSX1QwOVBsUEZsWTVFMHE1SkpNV19qMzM5UVE?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Freighter collides with cruise ship in New Orleans, passengers in the water - Reuters",
+            "titleZh": "新奥尔良货轮与游轮相撞，乘客落水 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "新奥尔良货轮与游轮相撞，乘客落水 - 路透中文网"
+      },
+      {
+        "title": "EXCLUSIVE: Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNbldoNEhWS3RkQzJNdHJGTXFfX0h0YWR5QjhHbjdkd3NENnU2eXZpMktjMWRzT216Y2tMbnB0dS04T25QZEtxQmNpZzQ2SjNXRHNwQ2h4ckdOdkJ3d19IRDBYaUs5dzZzc2o2WmliV3hnRjNSN3VyM0trT1hxMEh4M2ppd3RBQ2RXTVUtWE40MmI0S2Z1d0ZBVjZGV2FSa2tDVEpDWU02WXR0QjBOdHRmTHJRV09faXc?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Sat, 14 Nov 2026 00:25:00 GMT",
+        "id": "d918aee081e0260fa83d825f6362cd43a1c1d229",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "英伟达"
+        ],
+        "isPriority": true,
+        "eventId": "1641e9831bf61c6e6e17334024cf9bbb9eff4889",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNbldoNEhWS3RkQzJNdHJGTXFfX0h0YWR5QjhHbjdkd3NENnU2eXZpMktjMWRzT216Y2tMbnB0dS04T25QZEtxQmNpZzQ2SjNXRHNwQ2h4ckdOdkJ3d19IRDBYaUs5dzZzc2o2WmliV3hnRjNSN3VyM0trT1hxMEh4M2ppd3RBQ2RXTVUtWE40MmI0S2Z1d0ZBVjZGV2FSa2tDVEpDWU02WXR0QjBOdHRmTHJRV09faXc",
+        "clusterSize": 2,
+        "sourceCount": 2,
+        "relatedSources": [
+          "Reuters World via Google News",
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNbldoNEhWS3RkQzJNdHJGTXFfX0h0YWR5QjhHbjdkd3NENnU2eXZpMktjMWRzT216Y2tMbnB0dS04T25QZEtxQmNpZzQ2SjNXRHNwQ2h4ckdOdkJ3d19IRDBYaUs5dzZzc2o2WmliV3hnRjNSN3VyM0trT1hxMEh4M2ppd3RBQ2RXTVUtWE40MmI0S2Z1d0ZBVjZGV2FSa2tDVEpDWU02WXR0QjBOdHRmTHJRV09faXc?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "EXCLUSIVE: Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say - Reuters",
+            "titleZh": "独家：消息人士称，英伟达前首席执行官在与中国女商人的恋情问题上误导了顶级律师 - 路透中文网"
+          },
+          {
+            "url": "https://www.reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/",
+            "source": "Hacker News Newest",
+            "title": "Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman",
+            "titleZh": ""
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "独家：消息人士称，英伟达前首席执行官在与中国女商人的恋情问题上误导了顶级律师 - 路透中文网"
+      },
+      {
+        "title": "Flights grounded across US after air traffic communications outage - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 21:38:00 GMT",
+        "id": "3b7cef933396ec41004fc17bb6fbf99b364663fa",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "4fdf76a665633c02db43dbce971ea8a628b36ebc",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTdvYllmb0pHUXVJVGNLUmFZb2I0WXpjZENubU52NW1nQlFJa1E4c3ZNTGhseUdiUzl0ZXJWa0pOSnR1ZDlRQk9FTHZlaWkyT0hLM1J3OW5tVUhIb0o4OWN5bDVVakF5T3lIanR1SVVMSkctSDlpb2loMWI2MENuWEIxTmhTcy1kZXdqSlRrdi1NMHlFSGtPRWEzdUFrMWR1c2wwNk9rRUUwOGpzajM0N1h2MndWVU9MYngyMVdudw?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Flights grounded across US after air traffic communications outage - Reuters",
+            "titleZh": "空中交通通信中断后美国各地航班停飞 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "空中交通通信中断后美国各地航班停飞 - 路透中文网"
+      },
+      {
+        "title": "Trump to hold summit with Xi, Putin in Shenzhen on Thursday, NY Post reports - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHhKNS1YbHpLcldfQTByOFM5TzNFOC16QmlWZHRva3lhTkxSVldFaWVkZ2ZWdDFzODFGZk02MU56X0hkWWtDZzJUa3JOSkd4YUFVVEVNZmN0ZXZWN1QtR01SV1N4UW84SzJxTFJEcnFSdndlYnhHWlFDVGtibWVRTkF0aU1WejNKOVdHVVRGWkt3WlBGbDRFVXptYTBoVjhFUDlKV0lpU0JDSEJ5RWdneHZYMA?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 21:38:59 GMT",
+        "id": "7f4dd1101808b0303418cc5e213c893ca98bb158",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "4f9ba4343821a6a7f923fc55536efd319b414d63",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHhKNS1YbHpLcldfQTByOFM5TzNFOC16QmlWZHRva3lhTkxSVldFaWVkZ2ZWdDFzODFGZk02MU56X0hkWWtDZzJUa3JOSkd4YUFVVEVNZmN0ZXZWN1QtR01SV1N4UW84SzJxTFJEcnFSdndlYnhHWlFDVGtibWVRTkF0aU1WejNKOVdHVVRGWkt3WlBGbDRFVXptYTBoVjhFUDlKV0lpU0JDSEJ5RWdneHZYMA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHhKNS1YbHpLcldfQTByOFM5TzNFOC16QmlWZHRva3lhTkxSVldFaWVkZ2ZWdDFzODFGZk02MU56X0hkWWtDZzJUa3JOSkd4YUFVVEVNZmN0ZXZWN1QtR01SV1N4UW84SzJxTFJEcnFSdndlYnhHWlFDVGtibWVRTkF0aU1WejNKOVdHVVRGWkt3WlBGbDRFVXptYTBoVjhFUDlKV0lpU0JDSEJ5RWdneHZYMA?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Trump to hold summit with Xi, Putin in Shenzhen on Thursday, NY Post reports - Reuters",
+            "titleZh": "据《纽约邮报》报道，特朗普将于周四在深圳与习近平和普京举行峰会 - 路透"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "据《纽约邮报》报道，特朗普将于周四在深圳与习近平和普京举行峰会 - 路透"
+      },
+      {
+        "title": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 22:34:42 GMT",
+        "id": "c5dcdb2a20e3a60690ac5770943f00d26b6c4083",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "d88d219abfd10a7ee681aaa81b55e463c1e65737",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
+            "titleZh": "美国空军对英国空军基地上空疑似无人机活动做出回应 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国空军对英国空军基地上空疑似无人机活动做出回应 - 路透中文网"
+      },
+      {
+        "title": "Foreign investors head to Caracas amid political transition in Venezuela, US - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaUVuQ2FwS09FalhDTXhjMVU0V3dlUGU5NFpGUFJrRmJuUGxwWGNIUE9RX3BtdDF1dnV3MU5GcG1qak9NVEVreUVyZ1hPbnNKWV9BSERYTlRSXzB0S1JrcjNlM2dqcENSZVpCbDQ0TFFVcXA5WE1mQzBZWkE4N1kxZXd3T2tUcE5qZ0pwQ1VWNmVoRlVIYWhZLVZhS0JjT3BIMTN6M1FlbmJSR094dnRpVG13cmxmcy1WYW5sTg?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 20:05:43 GMT",
+        "id": "8d3766ff43f90b039cf70c626e7e16c2c63e5e85",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "4eb26f84ed8254fc4c2e2f5119d71432975030c7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaUVuQ2FwS09FalhDTXhjMVU0V3dlUGU5NFpGUFJrRmJuUGxwWGNIUE9RX3BtdDF1dnV3MU5GcG1qak9NVEVreUVyZ1hPbnNKWV9BSERYTlRSXzB0S1JrcjNlM2dqcENSZVpCbDQ0TFFVcXA5WE1mQzBZWkE4N1kxZXd3T2tUcE5qZ0pwQ1VWNmVoRlVIYWhZLVZhS0JjT3BIMTN6M1FlbmJSR094dnRpVG13cmxmcy1WYW5sTg",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaUVuQ2FwS09FalhDTXhjMVU0V3dlUGU5NFpGUFJrRmJuUGxwWGNIUE9RX3BtdDF1dnV3MU5GcG1qak9NVEVreUVyZ1hPbnNKWV9BSERYTlRSXzB0S1JrcjNlM2dqcENSZVpCbDQ0TFFVcXA5WE1mQzBZWkE4N1kxZXd3T2tUcE5qZ0pwQ1VWNmVoRlVIYWhZLVZhS0JjT3BIMTN6M1FlbmJSR094dnRpVG13cmxmcy1WYW5sTg?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Foreign investors head to Caracas amid political transition in Venezuela, US - Reuters",
+            "titleZh": "委内瑞拉和美国政治过渡期间外国投资者涌向加拉加斯 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "委内瑞拉和美国政治过渡期间外国投资者涌向加拉加斯 - 路透中文网"
+      },
+      {
+        "title": "Incoming House Speaker Jeffries heckled at Democratic conference - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1J1TkpJQlpET0FyZ1NtRlFSMk5KbmxsM0lzRkpnV09qdlVvNTlnYkZNR18wX2NUVThLVDRFRTFmVllmYWhVaEVwUXNDRlppRWw4c0hSOUxLakpKUlkzdXpmZlVjZWl3Y0dBUDdNX0drOV8xTlhDVUl0dkZPeURITnBrTUhBdkdteWtpbGMyLXZic3NLWGFVM3NKSXFwNXZhZlp5WFh3?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 20:04:32 GMT",
+        "id": "ecb1bb5bf470c1336afb278a82ed5e58aa5707d8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ed06a374725214cbe58e78468e3a609d03fc2f5c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1J1TkpJQlpET0FyZ1NtRlFSMk5KbmxsM0lzRkpnV09qdlVvNTlnYkZNR18wX2NUVThLVDRFRTFmVllmYWhVaEVwUXNDRlppRWw4c0hSOUxLakpKUlkzdXpmZlVjZWl3Y0dBUDdNX0drOV8xTlhDVUl0dkZPeURITnBrTUhBdkdteWtpbGMyLXZic3NLWGFVM3NKSXFwNXZhZlp5WFh3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1J1TkpJQlpET0FyZ1NtRlFSMk5KbmxsM0lzRkpnV09qdlVvNTlnYkZNR18wX2NUVThLVDRFRTFmVllmYWhVaEVwUXNDRlppRWw4c0hSOUxLakpKUlkzdXpmZlVjZWl3Y0dBUDdNX0drOV8xTlhDVUl0dkZPeURITnBrTUhBdkdteWtpbGMyLXZic3NLWGFVM3NKSXFwNXZhZlp5WFh3?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Incoming House Speaker Jeffries heckled at Democratic conference - Reuters",
+            "titleZh": "即将上任的众议院议长杰弗里斯在民主党会议上质问 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "即将上任的众议院议长杰弗里斯在民主党会议上质问 - 路透中文网"
+      },
+      {
+        "title": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 21:46:42 GMT",
+        "id": "89bc0bde1a57dc4129151ffc329606e95f485545",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "55ac6881a6b86cd23487e0dfeafe8d94c87094b8",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities - Reuters",
+            "titleZh": "美国将航运法豁免期限延长90天，以允许石油和大宗商品更自由地流动 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国将航运法豁免期限延长90天，以允许石油和大宗商品更自由地流动 - 路透中文网"
+      },
+      {
+        "title": "Appeals court rules against Trump administration on New York highway funds - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOalBTLXlQMGN3UEt5X1ZDYVZRa3JMTDRqaDNpeVRwN3dlOHRNVFQxMFFOdUFQb2ZLcmxJT2tZaXo1UG1VUFkySTM4U1ktQjVQTWVEU0wwRVdpaFp3SENHZ2lmdFk4S1dubmtadFo5N0FpT2l2NHVrbF8yZmhVbGUtMHA1RVItdVBKMG05ZmlWSEc5U2h0Vm43QW50ODhrT05S?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 17:11:10 GMT",
+        "id": "a5c7b2757e0dcfb81af89a823887fe697e700d46",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump"
+        ],
+        "isPriority": true,
+        "eventId": "ae35f85f2d65ab214cce3bb51b8a4d0bbc5801bb",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOalBTLXlQMGN3UEt5X1ZDYVZRa3JMTDRqaDNpeVRwN3dlOHRNVFQxMFFOdUFQb2ZLcmxJT2tZaXo1UG1VUFkySTM4U1ktQjVQTWVEU0wwRVdpaFp3SENHZ2lmdFk4S1dubmtadFo5N0FpT2l2NHVrbF8yZmhVbGUtMHA1RVItdVBKMG05ZmlWSEc5U2h0Vm43QW50ODhrT05S",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOalBTLXlQMGN3UEt5X1ZDYVZRa3JMTDRqaDNpeVRwN3dlOHRNVFQxMFFOdUFQb2ZLcmxJT2tZaXo1UG1VUFkySTM4U1ktQjVQTWVEU0wwRVdpaFp3SENHZ2lmdFk4S1dubmtadFo5N0FpT2l2NHVrbF8yZmhVbGUtMHA1RVItdVBKMG05ZmlWSEc5U2h0Vm43QW50ODhrT05S?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Appeals court rules against Trump administration on New York highway funds - Reuters",
+            "titleZh": "上诉法院针对特朗普政府对纽约高速公路基金的裁决 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "上诉法院针对特朗普政府对纽约高速公路基金的裁决 - 路透中文网"
+      },
+      {
+        "title": "Dutch government coalition averts collapse, Dutch media report - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVdRenJGM1FSSmFKOEszNHdLNFhPeDlwRlRHNjE5QUNHMTVsWWJVM0xsZ0p6NlZ6SHY3YTdIaHVGZU9BcDN5TFhBZXZfSzI0OHZ4Q0djcXk5RkY1dVV2akR2UHZkbU8yT1V5RkZnLWI2cnRRQnpGSjRrRG9ad1FhVTBCc2V1M2gteDBZaGc1cWpZWkVwZmNSTndzZVR6S2ZKVEJIRHV3?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 18:21:43 GMT",
+        "id": "3b183ccd413176e11d7f8521e19e25df1bfcabf5",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "67def085dd4acdc2f573c8dba65aef2210883ae2",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVdRenJGM1FSSmFKOEszNHdLNFhPeDlwRlRHNjE5QUNHMTVsWWJVM0xsZ0p6NlZ6SHY3YTdIaHVGZU9BcDN5TFhBZXZfSzI0OHZ4Q0djcXk5RkY1dVV2akR2UHZkbU8yT1V5RkZnLWI2cnRRQnpGSjRrRG9ad1FhVTBCc2V1M2gteDBZaGc1cWpZWkVwZmNSTndzZVR6S2ZKVEJIRHV3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVdRenJGM1FSSmFKOEszNHdLNFhPeDlwRlRHNjE5QUNHMTVsWWJVM0xsZ0p6NlZ6SHY3YTdIaHVGZU9BcDN5TFhBZXZfSzI0OHZ4Q0djcXk5RkY1dVV2akR2UHZkbU8yT1V5RkZnLWI2cnRRQnpGSjRrRG9ad1FhVTBCc2V1M2gteDBZaGc1cWpZWkVwZmNSTndzZVR6S2ZKVEJIRHV3?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Dutch government coalition averts collapse, Dutch media report - Reuters",
+            "titleZh": "荷兰媒体报道荷兰政府联盟避免崩溃 - 路透"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "荷兰媒体报道荷兰政府联盟避免崩溃 - 路透"
+      },
+      {
+        "title": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 20:54:19 GMT",
+        "id": "63802fa7d4f166930e494c3c661b3d6e878c6151",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fff252940d51332bf2f47d36db14de013bdc6835",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1hhZ2pySkp3SHdfNllHQ2VsLUFteHIxRlFGVVR3QXFIbXJZX01HQkZ5Ml96SjBMSkJkOHh6TjNIakZkR3k5ME1WY0RyYTNBQkxvaF9qYTVtNm5GVEFqckVEalRReVdXUFJKZVhlSXEzcnotRFMyVVBMZllhdmJxUFBwRjByVExHbGhnR3luTDVqTlRxOG5TTjFVbmdBRmM?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan - Reuters",
+            "titleZh": "也门胡塞武装称他们向吉赞的沙特军队发射导弹 - 路透"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "也门胡塞武装称他们向吉赞的沙特军队发射导弹 - 路透"
+      },
+      {
+        "title": "Democrat Holscher wins Kansas governor's race amid data center backlash - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTZXTFM5V00xOEJZcWtJU21rRENBM2lkQ3JCQmJvbUVRSDNqeWplR0FWSk9qSWVVdDAxR295VWxLMmNKb1Z0RmZURlQ3TV9ReHVrTW1nak9IVHpCNjduUXZZTG5NQ3JhT2pTNUR1N3dtZTNoZDVwdjNKeGY1cGxvSFNsYTNMMjhyZmNENkl1SDR4cFBDNllZdWRRbHhQa3BFUS1xc2lLTkFrOXNkZDNVSnJrRi0?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 21:58:36 GMT",
+        "id": "52fbf4fd834b4936cd01e8b9b3d911dbf81a3537",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "b83982574badcd5a17d7a8dbae975981bb1bb8e5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTZXTFM5V00xOEJZcWtJU21rRENBM2lkQ3JCQmJvbUVRSDNqeWplR0FWSk9qSWVVdDAxR295VWxLMmNKb1Z0RmZURlQ3TV9ReHVrTW1nak9IVHpCNjduUXZZTG5NQ3JhT2pTNUR1N3dtZTNoZDVwdjNKeGY1cGxvSFNsYTNMMjhyZmNENkl1SDR4cFBDNllZdWRRbHhQa3BFUS1xc2lLTkFrOXNkZDNVSnJrRi0",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTZXTFM5V00xOEJZcWtJU21rRENBM2lkQ3JCQmJvbUVRSDNqeWplR0FWSk9qSWVVdDAxR295VWxLMmNKb1Z0RmZURlQ3TV9ReHVrTW1nak9IVHpCNjduUXZZTG5NQ3JhT2pTNUR1N3dtZTNoZDVwdjNKeGY1cGxvSFNsYTNMMjhyZmNENkl1SDR4cFBDNllZdWRRbHhQa3BFUS1xc2lLTkFrOXNkZDNVSnJrRi0?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Democrat Holscher wins Kansas governor's race amid data center backlash - Reuters",
+            "titleZh": "数据中心遭到强烈反对，民主党人霍尔舍尔赢得堪萨斯州州长竞选 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "数据中心遭到强烈反对，民主党人霍尔舍尔赢得堪萨斯州州长竞选 - 路透中文网"
+      },
+      {
+        "title": "Russian strikes kill one in Zaporizhzhia, two in Odesa - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeW5QSkVpZ1BJcFBDZ25uWTdpOVN0X2xQYnlUZjNncFo3N0x2QmtRekFuTlFjVDhfUnF0dTRsc1BfVE9uYUYtSVl3T2RDckdadm12OHM0aWdwXzJQaWQzLUpzZDAtTm4yUmRrcVFoVWRabV92M1JGbkxSRkt4U2ZtX3BNVkw1RXdjaGswa3k5TWZaVTA?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 18:51:43 GMT",
+        "id": "1e4393c7fb28ae96596cccccafb96818f74f9411",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯"
+        ],
+        "isPriority": true,
+        "eventId": "0393b1fb595828a8a01d39ea9372a76f8f516117",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeW5QSkVpZ1BJcFBDZ25uWTdpOVN0X2xQYnlUZjNncFo3N0x2QmtRekFuTlFjVDhfUnF0dTRsc1BfVE9uYUYtSVl3T2RDckdadm12OHM0aWdwXzJQaWQzLUpzZDAtTm4yUmRrcVFoVWRabV92M1JGbkxSRkt4U2ZtX3BNVkw1RXdjaGswa3k5TWZaVTA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeW5QSkVpZ1BJcFBDZ25uWTdpOVN0X2xQYnlUZjNncFo3N0x2QmtRekFuTlFjVDhfUnF0dTRsc1BfVE9uYUYtSVl3T2RDckdadm12OHM0aWdwXzJQaWQzLUpzZDAtTm4yUmRrcVFoVWRabV92M1JGbkxSRkt4U2ZtX3BNVkw1RXdjaGswa3k5TWZaVTA?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "Russian strikes kill one in Zaporizhzhia, two in Odesa - Reuters",
+            "titleZh": "俄罗斯空袭造成扎波罗热1人死亡、敖德萨2人死亡 - 路透中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "俄罗斯空袭造成扎波罗热1人死亡、敖德萨2人死亡 - 路透中文网"
+      },
+      {
+        "title": "US, China hold first Board of Trade meeting - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc01lX1pFekl6SmdEY1p3SHlENVI0MkZCT2RCLV95bWt5UThVblZpRFNGTVBHZDk4d3JoM0txYzUxRGtQS3dxRTc4MlZzaklnMGJXWFRCVHN4SS11RUdELUZnVXlsMmZQV0szQlNxS3M3Mi1lVHRUVzRJSVB1LWlfa3VvRHkzV1EzTjVUUm1iRVM?oc=5",
+        "source": "Reuters World via Google News",
+        "fetchedAt": "2026-11-14T01:43:50.214Z",
+        "pubDate": "Fri, 13 Nov 2026 18:02:11 GMT",
+        "id": "b2ca1e693a37aa95dbaeb0df769fcd099e504abb",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "d03bf1f43eb27bd544ad76c89794827f59c47ba9",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc01lX1pFekl6SmdEY1p3SHlENVI0MkZCT2RCLV95bWt5UThVblZpRFNGTVBHZDk4d3JoM0txYzUxRGtQS3dxRTc4MlZzaklnMGJXWFRCVHN4SS11RUdELUZnVXlsMmZQV0szQlNxS3M3Mi1lVHRUVzRJSVB1LWlfa3VvRHkzV1EzTjVUUm1iRVM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Reuters World via Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc01lX1pFekl6SmdEY1p3SHlENVI0MkZCT2RCLV95bWt5UThVblZpRFNGTVBHZDk4d3JoM0txYzUxRGtQS3dxRTc4MlZzaklnMGJXWFRCVHN4SS11RUdELUZnVXlsMmZQV0szQlNxS3M3Mi1lVHRUVzRJSVB1LWlfa3VvRHkzV1EzTjVUUm1iRVM?oc=5",
+            "source": "Reuters World via Google News",
+            "title": "US, China hold first Board of Trade meeting - Reuters",
+            "titleZh": "中美举行首次贸易委员会会议 - 路透"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "中美举行首次贸易委员会会议 - 路透"
+      },
+      {
+        "title": "Stuart Bonds made ‘racist’ and ‘divisive’ comments. But One Nation is showing no sign of dumping the NSW candidate",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/14/one-nation-nsw-candidate-stuart-bonds-ntwnfb",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Sat, 14 Nov 2026 01:00:30 GMT",
+        "id": "d7e74a4b7b5758ef146cea02606629a13f1eb155",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ec1f58d32449e4ff32472642e156be4ea112f81b",
+        "canonicalUrl": "https://theguardian.com/australia-news/2026/nov/14/one-nation-nsw-candidate-stuart-bonds-ntwnfb",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/nov/14/one-nation-nsw-candidate-stuart-bonds-ntwnfb",
+            "source": "Guardian World",
+            "title": "Stuart Bonds made ‘racist’ and ‘divisive’ comments. But One Nation is showing no sign of dumping the NSW candidate",
+            "titleZh": "斯图尔特·邦兹发表了“种族主义”和“分裂”言论。但一国党没有表现出抛弃新南威尔士州候选人的迹象"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "斯图尔特·邦兹发表了“种族主义”和“分裂”言论。但一国党没有表现出抛弃新南威尔士州候选人的迹象"
+      },
+      {
+        "title": "Microsoft ‘deeply sorry’ for global disruption that could have billion-dollar impact on Australia",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Sat, 14 Nov 2026 00:52:48 GMT",
+        "id": "d2663079eced7bea3e7fc36202078b98d87c6e04",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "121e772b0e09d21d94776fa9d1383b32645518a8",
+        "canonicalUrl": "https://theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+            "source": "Guardian World",
+            "title": "Microsoft ‘deeply sorry’ for global disruption that could have billion-dollar impact on Australia",
+            "titleZh": "微软对可能对澳大利亚造成数十亿美元影响的全球破坏深表歉意"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "微软对可能对澳大利亚造成数十亿美元影响的全球破坏深表歉意"
+      },
+      {
+        "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
+        "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Fri, 13 Nov 2026 22:12:54 GMT",
+        "id": "7c7252286ec21840d6690b2fd9229e2a6bac0742",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8718e681a51a727127c6b29b95ecf3883b5aa3b9",
+        "canonicalUrl": "https://theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+            "source": "Guardian World",
+            "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
+            "titleZh": "匈牙利在腐败调查中查获埋在森林中的 1,950 万美元现金"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "匈牙利在腐败调查中查获埋在森林中的 1,950 万美元现金"
+      },
+      {
+        "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+        "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Fri, 13 Nov 2026 22:36:38 GMT",
+        "id": "cdab79df6a7837754d8f670b666be9b6ca5f0b53",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "以色列",
+          "Israel"
+        ],
+        "isPriority": true,
+        "eventId": "0d2edfe77d519f09c1bb65185b76c8e80f3183b7",
+        "canonicalUrl": "https://theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+            "source": "Guardian World",
+            "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+            "titleZh": "艾森科特指责内塔尼亚胡针对以色列阿拉伯少数民族的“种族主义”运动"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "艾森科特指责内塔尼亚胡针对以色列阿拉伯少数民族的“种族主义”运动"
+      },
+      {
+        "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+        "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Sat, 14 Nov 2026 01:01:12 GMT",
+        "id": "936a91b460bbc0262c1b5f352130eb2931809429",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "1ce2b32c68ed444c8d0643ccbf05c3f8f5a7183c",
+        "canonicalUrl": "https://theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+            "source": "Guardian World",
+            "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+            "titleZh": "FAA 全国地面站：美国各地机场近 11,000 个航班延误或取消"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FAA 全国地面站：美国各地机场近 11,000 个航班延误或取消"
+      },
+      {
+        "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
+        "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Sat, 14 Nov 2026 00:53:52 GMT",
+        "id": "5f43a1a4e4e96921386e38e3537d004dd8eb68c1",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8ab809ab7a3537bebe942800c42e10246452b125",
+        "canonicalUrl": "https://theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+            "source": "Guardian World",
+            "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
+            "titleZh": "SpaceX 星舰巨型火箭在预计返回重复使用之前升空"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "SpaceX 星舰巨型火箭在预计返回重复使用之前升空"
+      },
+      {
+        "title": "What to know about the rare nationwide ground stop issued by the FAA",
+        "url": "https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained",
+        "source": "Guardian World",
+        "fetchedAt": "2026-11-14T01:43:49.786Z",
+        "pubDate": "Fri, 13 Nov 2026 23:56:08 GMT",
+        "id": "4b3d490f1da53a1adddc59cd95c9a15e8a209a55",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "edc182967135020e7cb0761136530ae158cd4767",
+        "canonicalUrl": "https://theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Guardian World"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained",
+            "source": "Guardian World",
+            "title": "What to know about the rare nationwide ground stop issued by the FAA",
+            "titleZh": "关于美国联邦航空管理局 (FAA) 发布的罕见的全国性地面停止通知，您需要了解什么"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "关于美国联邦航空管理局 (FAA) 发布的罕见的全国性地面停止通知，您需要了解什么"
+      },
+      {
+        "title": "Live updates: No timeline for resolving nationwide ground stop as flight cancellations climb - CNN",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81eUJ1SV9Pd0hzS1ZmVk1Ec1A1MndfTTZiaFE0VGh4Ym04VnJMcWVOSHpOVmJYOFowSGtCOVB6Z3pUZGZoQmlVTHlDSG5lMldwZTZMNWFuRk9KM3ZnWXRlRTBid1ZRMGczVGh0OWkxa21OZmpMcHc?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Sat, 14 Nov 2026 01:34:00 GMT",
+        "id": "421858b37913809b9cc263e4a539f6e1dae7d79a",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "997c415981e28d1615969f977feee1698f590e93",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81eUJ1SV9Pd0hzS1ZmVk1Ec1A1MndfTTZiaFE0VGh4Ym04VnJMcWVOSHpOVmJYOFowSGtCOVB6Z3pUZGZoQmlVTHlDSG5lMldwZTZMNWFuRk9KM3ZnWXRlRTBid1ZRMGczVGh0OWkxa21OZmpMcHc",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81eUJ1SV9Pd0hzS1ZmVk1Ec1A1MndfTTZiaFE0VGh4Ym04VnJMcWVOSHpOVmJYOFowSGtCOVB6Z3pUZGZoQmlVTHlDSG5lMldwZTZMNWFuRk9KM3ZnWXRlRTBid1ZRMGczVGh0OWkxa21OZmpMcHc?oc=5",
+            "source": "Google News",
+            "title": "Live updates: No timeline for resolving nationwide ground stop as flight cancellations climb - CNN",
+            "titleZh": "实时更新：随着航班取消数量的增加，没有解决全国范围内地面停留问题的时间表 - CNN"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "实时更新：随着航班取消数量的增加，没有解决全国范围内地面停留问题的时间表 - CNN"
+      },
+      {
+        "title": "'Miracle on Mississippi' - All rescued after docked cruise ship hit by tanker in New Orleans - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14bmJSeXZjVmZQcm1sZkRQQmlCa2hPYUlhbEN2UzFnN184RzZTWEk2ZEM1OXR6ZTFOTWpaU21QOGVMX3UtZUZ6RGFLTGdlOF9TNVJrWFBuZXF2WEk?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 23:40:45 GMT",
+        "id": "06cbfacaa4037ce59fb0e8f092ab194a2b6ad3ec",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a0b168f27b4ef968d0c115d8227763ae9cfc599c",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14bmJSeXZjVmZQcm1sZkRQQmlCa2hPYUlhbEN2UzFnN184RzZTWEk2ZEM1OXR6ZTFOTWpaU21QOGVMX3UtZUZ6RGFLTGdlOF9TNVJrWFBuZXF2WEk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14bmJSeXZjVmZQcm1sZkRQQmlCa2hPYUlhbEN2UzFnN184RzZTWEk2ZEM1OXR6ZTFOTWpaU21QOGVMX3UtZUZ6RGFLTGdlOF9TNVJrWFBuZXF2WEk?oc=5",
+            "source": "Google News",
+            "title": "'Miracle on Mississippi' - All rescued after docked cruise ship hit by tanker in New Orleans - BBC",
+            "titleZh": "“密西西比奇迹”——停靠在新奥尔良的游轮被油轮撞上后全部获救 - BBC"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "“密西西比奇迹”——停靠在新奥尔良的游轮被油轮撞上后全部获救 - BBC"
+      },
+      {
+        "title": "Trump’s top economic advisers clash over Lutnick’s handling of Nvidia - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGRWMi1MNTdhajFaclo1X3VPazhLeXlDa2ZadEdMOUtLV3BUbUhqTi0tWFQ4bzliekwtOHk5Y1gzaGlrdktFLUZnSEJKRFJHZ1Y1RHpjT1NQM0x1M2E0MklYZUlUWm5qdGpUYnFydjc2bF9IRmVFcERtczFScWU3djNVSXdUQ3VCdkZfSl84NkdVM0RTbWo3QnQtVmJ5cHFDblJNMzdRWnREd1dyLUVnUng5RjUwaF81VUVkcDQxMG1KWk80N1ZGZA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 21:39:01 GMT",
+        "id": "bcc803f436a8c1d51ec579971d4edfb78826a46f",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump",
+          "英伟达",
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "2c851da70c8d364424fee1b7acd36fb7fa920851",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGRWMi1MNTdhajFaclo1X3VPazhLeXlDa2ZadEdMOUtLV3BUbUhqTi0tWFQ4bzliekwtOHk5Y1gzaGlrdktFLUZnSEJKRFJHZ1Y1RHpjT1NQM0x1M2E0MklYZUlUWm5qdGpUYnFydjc2bF9IRmVFcERtczFScWU3djNVSXdUQ3VCdkZfSl84NkdVM0RTbWo3QnQtVmJ5cHFDblJNMzdRWnREd1dyLUVnUng5RjUwaF81VUVkcDQxMG1KWk80N1ZGZA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGRWMi1MNTdhajFaclo1X3VPazhLeXlDa2ZadEdMOUtLV3BUbUhqTi0tWFQ4bzliekwtOHk5Y1gzaGlrdktFLUZnSEJKRFJHZ1Y1RHpjT1NQM0x1M2E0MklYZUlUWm5qdGpUYnFydjc2bF9IRmVFcERtczFScWU3djNVSXdUQ3VCdkZfSl84NkdVM0RTbWo3QnQtVmJ5cHFDblJNMzdRWnREd1dyLUVnUng5RjUwaF81VUVkcDQxMG1KWk80N1ZGZA?oc=5",
+            "source": "Google News",
+            "title": "Trump’s top economic advisers clash over Lutnick’s handling of Nvidia - The Washington Post",
+            "titleZh": "特朗普的高级经济顾问就卢特尼克对英伟达的处理方式发生冲突 - 《华盛顿邮报》"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "特朗普的高级经济顾问就卢特尼克对英伟达的处理方式发生冲突 - 《华盛顿邮报》"
+      },
+      {
+        "title": "The senators who could join Van Hollen's insurgency against Schumer - Axios",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN29nRGQzaUpnSEZkcU9kN2piX09RT2dncVdmM2Y4TkNiaWFKZHcxSEVzUm1lRjlFWER5d01DMGZMNnhVdXJ4VDE4Y1VKaUpiQmZZSUlodVhmZlk1bFFQakk1cjcxY3NVdXZKdDVPdmZJLWZNbkRPODhmaFZOaWtieA?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 23:29:04 GMT",
+        "id": "562b3a8d067618d3ff7c1662ba9be0fb80142a2f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "1cfdfe4224a103f24e1d573b6bdcd1583b2f0a06",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN29nRGQzaUpnSEZkcU9kN2piX09RT2dncVdmM2Y4TkNiaWFKZHcxSEVzUm1lRjlFWER5d01DMGZMNnhVdXJ4VDE4Y1VKaUpiQmZZSUlodVhmZlk1bFFQakk1cjcxY3NVdXZKdDVPdmZJLWZNbkRPODhmaFZOaWtieA",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN29nRGQzaUpnSEZkcU9kN2piX09RT2dncVdmM2Y4TkNiaWFKZHcxSEVzUm1lRjlFWER5d01DMGZMNnhVdXJ4VDE4Y1VKaUpiQmZZSUlodVhmZlk1bFFQakk1cjcxY3NVdXZKdDVPdmZJLWZNbkRPODhmaFZOaWtieA?oc=5",
+            "source": "Google News",
+            "title": "The senators who could join Van Hollen's insurgency against Schumer - Axios",
+            "titleZh": "可能加入范霍伦反对舒默叛乱的参议员 - Axios"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "可能加入范霍伦反对舒默叛乱的参议员 - Axios"
+      },
+      {
+        "title": "Families devastated by Brooklyn building collapse came to NYC for a new life - Gothamist",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTG4zWW1BamRwR0FlaUNJQmhWY01VdFYtS3ZGajFTbmlvTUVmanNtdHJQc0xsbjJMM0hmNllDQnZvQ1RQNXVQN2lleXc3WGdNal95ZXh1OGdKZFYyN0hKMFdERVoyVVRJQUFTd3FtNG1GajBfYk5aeXRCRXVVTkhsSWRpT3VIdXRqeDdwaThXYXZWR0dPZ2kzaFg2OXB3OWRxYUxJQnpDWFJiX3FiN29XTQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 21:39:00 GMT",
+        "id": "1b1202bdc11b6403bd9a248627234e34fbdb74a2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "601483d241ec805aa3fdf80218903c2ca790c390",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTG4zWW1BamRwR0FlaUNJQmhWY01VdFYtS3ZGajFTbmlvTUVmanNtdHJQc0xsbjJMM0hmNllDQnZvQ1RQNXVQN2lleXc3WGdNal95ZXh1OGdKZFYyN0hKMFdERVoyVVRJQUFTd3FtNG1GajBfYk5aeXRCRXVVTkhsSWRpT3VIdXRqeDdwaThXYXZWR0dPZ2kzaFg2OXB3OWRxYUxJQnpDWFJiX3FiN29XTQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTG4zWW1BamRwR0FlaUNJQmhWY01VdFYtS3ZGajFTbmlvTUVmanNtdHJQc0xsbjJMM0hmNllDQnZvQ1RQNXVQN2lleXc3WGdNal95ZXh1OGdKZFYyN0hKMFdERVoyVVRJQUFTd3FtNG1GajBfYk5aeXRCRXVVTkhsSWRpT3VIdXRqeDdwaThXYXZWR0dPZ2kzaFg2OXB3OWRxYUxJQnpDWFJiX3FiN29XTQ?oc=5",
+            "source": "Google News",
+            "title": "Families devastated by Brooklyn building collapse came to NYC for a new life - Gothamist",
+            "titleZh": "因布鲁克林大楼倒塌而遭受重创的家庭来到纽约寻求新生活 - Gothamist"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "因布鲁克林大楼倒塌而遭受重创的家庭来到纽约寻求新生活 - Gothamist"
+      },
+      {
+        "title": "Pope Leo makes emotional return to his ‘beloved diocese of Chiclayo’ - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcmRuVUtqVTM1UWNwZFByUGI0M0VOdDN6NVhTV0ZPUWxGYVBybHJPTVAzZzJBYnNxUWwzREFWZDN5Q2FPSzZ3VmN0dE5ETTRYTUVDdkNQTFotTlIxTlBvRkN5VTVwQ21nQnNhMkhnQjRHdnFXa2xGano1NHUyTlJBTXFRaFpybFRLUmNGSm1IU2c0Nk81dElMcU5WMS1BQmpJSUR3?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 22:52:34 GMT",
+        "id": "d53971709677b0d8b17fef45869ab585024b9747",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "3c2225179cea9fa8258d64dec191ac35158439ea",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcmRuVUtqVTM1UWNwZFByUGI0M0VOdDN6NVhTV0ZPUWxGYVBybHJPTVAzZzJBYnNxUWwzREFWZDN5Q2FPSzZ3VmN0dE5ETTRYTUVDdkNQTFotTlIxTlBvRkN5VTVwQ21nQnNhMkhnQjRHdnFXa2xGano1NHUyTlJBTXFRaFpybFRLUmNGSm1IU2c0Nk81dElMcU5WMS1BQmpJSUR3",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcmRuVUtqVTM1UWNwZFByUGI0M0VOdDN6NVhTV0ZPUWxGYVBybHJPTVAzZzJBYnNxUWwzREFWZDN5Q2FPSzZ3VmN0dE5ETTRYTUVDdkNQTFotTlIxTlBvRkN5VTVwQ21nQnNhMkhnQjRHdnFXa2xGano1NHUyTlJBTXFRaFpybFRLUmNGSm1IU2c0Nk81dElMcU5WMS1BQmpJSUR3?oc=5",
+            "source": "Google News",
+            "title": "Pope Leo makes emotional return to his ‘beloved diocese of Chiclayo’ - NBC News",
+            "titleZh": "教皇利奥满怀情感地重返他“心爱的奇克拉约教区” - NBC新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "教皇利奥满怀情感地重返他“心爱的奇克拉约教区” - NBC新闻"
+      },
+      {
+        "title": "US Army names officer held on ‘allegations of espionage’ - Defense News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWm51SmdISjNlNkxKOXFwUktpWlFUckRTVW5OdzRrY0NOc2NQQmtDNm9IY0ZMUzVpYVI0N0kzcnQ2cURobHQxdzA0RlQybDcyZjFQQ3dhZkluX2F0cWxzWnh3eVE1RXNnS2ZlaldOM0RySHk0RHY0RzQ0NHZfVHVodVF5dHYzOC1VZlNCZXhpa0tRYXo3b3NFZDlRaFd0WmN0bE9EcVhVOG9QMUlq?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 16:32:38 GMT",
+        "id": "98c2887122ff4c767c84c85edde99fb2e66d9964",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "cea6137e7226833f4bc8160538cbaefdecf79678",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWm51SmdISjNlNkxKOXFwUktpWlFUckRTVW5OdzRrY0NOc2NQQmtDNm9IY0ZMUzVpYVI0N0kzcnQ2cURobHQxdzA0RlQybDcyZjFQQ3dhZkluX2F0cWxzWnh3eVE1RXNnS2ZlaldOM0RySHk0RHY0RzQ0NHZfVHVodVF5dHYzOC1VZlNCZXhpa0tRYXo3b3NFZDlRaFd0WmN0bE9EcVhVOG9QMUlq",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWm51SmdISjNlNkxKOXFwUktpWlFUckRTVW5OdzRrY0NOc2NQQmtDNm9IY0ZMUzVpYVI0N0kzcnQ2cURobHQxdzA0RlQybDcyZjFQQ3dhZkluX2F0cWxzWnh3eVE1RXNnS2ZlaldOM0RySHk0RHY0RzQ0NHZfVHVodVF5dHYzOC1VZlNCZXhpa0tRYXo3b3NFZDlRaFd0WmN0bE9EcVhVOG9QMUlq?oc=5",
+            "source": "Google News",
+            "title": "US Army names officer held on ‘allegations of espionage’ - Defense News",
+            "titleZh": "美国陆军任命因“间谍指控”而被拘留的军官 - 防务新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国陆军任命因“间谍指控”而被拘留的军官 - 防务新闻"
+      },
+      {
+        "title": "Russia Revives Demand That NATO Retrench to Secure Ukraine Deal - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejhEQXBBR0FQS3VnT01VYUsxOTVLejRFTm1WMGtzQUc5OER5dW5yZ3ZOQUdCRFFaVXRjNVotNkNNc2hLSTR5Q0V2MGV5REJZQ2RRRE1yaXRXbGxscGhub3F1dVBueTR2dVViNlkxN1hRNC1iczRQSlNpSGdmelhxai1SLUw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 22:18:02 GMT",
+        "id": "09b568cdd7789160b7b1087c179bada2acb9733b",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "乌克兰",
+          "北约",
+          "Russia",
+          "Ukraine",
+          "NATO"
+        ],
+        "isPriority": true,
+        "eventId": "781d8235317ad26fed95ec714175ff7ba066364e",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejhEQXBBR0FQS3VnT01VYUsxOTVLejRFTm1WMGtzQUc5OER5dW5yZ3ZOQUdCRFFaVXRjNVotNkNNc2hLSTR5Q0V2MGV5REJZQ2RRRE1yaXRXbGxscGhub3F1dVBueTR2dVViNlkxN1hRNC1iczRQSlNpSGdmelhxai1SLUw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejhEQXBBR0FQS3VnT01VYUsxOTVLejRFTm1WMGtzQUc5OER5dW5yZ3ZOQUdCRFFaVXRjNVotNkNNc2hLSTR5Q0V2MGV5REJZQ2RRRE1yaXRXbGxscGhub3F1dVBueTR2dVViNlkxN1hRNC1iczRQSlNpSGdmelhxai1SLUw?oc=5",
+            "source": "Google News",
+            "title": "Russia Revives Demand That NATO Retrench to Secure Ukraine Deal - The New York Times",
+            "titleZh": "俄罗斯再次要求北约缩减开支以确保乌克兰协议 - 纽约时报中文网"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "俄罗斯再次要求北约缩减开支以确保乌克兰协议 - 纽约时报中文网"
+      },
+      {
+        "title": "SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video) - Space",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcEhQWFJRdTk2a2oxdnBsNm1ZUHdjSUdDNUtuQnloQjlTdHZIdXpVeFlQeTNNMk8xeE9uXzhpamdiTnZHaFY2ZFZZbmViSEhBYUxGTENfNXVtZ3RHY2Z2SGlqSXU3cEZNRmtZdDFUc3VHbERUbWFiTEFNUk4wTHF2TVBJblIxUFc1UnBSY1lJRnM5VnFLM3hfYVU3VEpvWW44NmxNSmtUa3pUUXdxUEFHWV8tcnpkUE52MWFOX1pLZjNldlN1?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 23:20:03 GMT",
+        "id": "0ac99e1d9285173bd67ea27e7ad37cdaa5635816",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "9e36e70da8896acfe075f18ed37f8cc019130e80",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcEhQWFJRdTk2a2oxdnBsNm1ZUHdjSUdDNUtuQnloQjlTdHZIdXpVeFlQeTNNMk8xeE9uXzhpamdiTnZHaFY2ZFZZbmViSEhBYUxGTENfNXVtZ3RHY2Z2SGlqSXU3cEZNRmtZdDFUc3VHbERUbWFiTEFNUk4wTHF2TVBJblIxUFc1UnBSY1lJRnM5VnFLM3hfYVU3VEpvWW44NmxNSmtUa3pUUXdxUEFHWV8tcnpkUE52MWFOX1pLZjNldlN1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcEhQWFJRdTk2a2oxdnBsNm1ZUHdjSUdDNUtuQnloQjlTdHZIdXpVeFlQeTNNMk8xeE9uXzhpamdiTnZHaFY2ZFZZbmViSEhBYUxGTENfNXVtZ3RHY2Z2SGlqSXU3cEZNRmtZdDFUc3VHbERUbWFiTEFNUk4wTHF2TVBJblIxUFc1UnBSY1lJRnM5VnFLM3hfYVU3VEpvWW44NmxNSmtUa3pUUXdxUEFHWV8tcnpkUE52MWFOX1pLZjNldlN1?oc=5",
+            "source": "Google News",
+            "title": "SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video) - Space",
+            "titleZh": "SpaceX 发射 Starship 进行雄心勃勃的 22 小时 Flight 15 测试，但中止助推器“筷子”捕获（视频） - 太空"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "SpaceX 发射 Starship 进行雄心勃勃的 22 小时 Flight 15 测试，但中止助推器“筷子”捕获（视频） - 太空"
+      },
+      {
+        "title": "Microsoft 365 Outage Continues: Tech Giant Has No Timeline For Recovery, Says It’s ‘Deeply Sorry’ - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd0ZWZFJCWmp3MUlFMFFrRExhTldkeEs1aEt2bVJDend6Y24yck5wUHlsNF9yNERkQWNsY25va25DMnpMWFE2QmtZVy1CQnlVMjZTNlBFM1g1ak5kWjJEclk2V0IycmFKRHg1RjU2M1RVaHhwTEJUM2hZa0FXaUZRWVRZd0tpTThCZkoxeTJxZERQSFZBb1M3SWptclpVVUVxUEtzSUFTMWxLcmM4VURJbXNCQ1NZQm9fTzBnOS00eGRiV2NRVUo3Rl94QnR2TnlfMGM5dUYxRmZuVDQzZzBWRE0zb2w?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 20:28:00 GMT",
+        "id": "e609d85d37584851c226804268588512cca4a3bc",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "58c5979b6b37a49290a9bb1d5cf7c5daf3993595",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd0ZWZFJCWmp3MUlFMFFrRExhTldkeEs1aEt2bVJDend6Y24yck5wUHlsNF9yNERkQWNsY25va25DMnpMWFE2QmtZVy1CQnlVMjZTNlBFM1g1ak5kWjJEclk2V0IycmFKRHg1RjU2M1RVaHhwTEJUM2hZa0FXaUZRWVRZd0tpTThCZkoxeTJxZERQSFZBb1M3SWptclpVVUVxUEtzSUFTMWxLcmM4VURJbXNCQ1NZQm9fTzBnOS00eGRiV2NRVUo3Rl94QnR2TnlfMGM5dUYxRmZuVDQzZzBWRE0zb2w",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd0ZWZFJCWmp3MUlFMFFrRExhTldkeEs1aEt2bVJDend6Y24yck5wUHlsNF9yNERkQWNsY25va25DMnpMWFE2QmtZVy1CQnlVMjZTNlBFM1g1ak5kWjJEclk2V0IycmFKRHg1RjU2M1RVaHhwTEJUM2hZa0FXaUZRWVRZd0tpTThCZkoxeTJxZERQSFZBb1M3SWptclpVVUVxUEtzSUFTMWxLcmM4VURJbXNCQ1NZQm9fTzBnOS00eGRiV2NRVUo3Rl94QnR2TnlfMGM5dUYxRmZuVDQzZzBWRE0zb2w?oc=5",
+            "source": "Google News",
+            "title": "Microsoft 365 Outage Continues: Tech Giant Has No Timeline For Recovery, Says It’s ‘Deeply Sorry’ - Forbes",
+            "titleZh": "Microsoft 365 中断仍在继续：科技巨头没有恢复时间表，表示“深感抱歉” - 福布斯"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Microsoft 365 中断仍在继续：科技巨头没有恢复时间表，表示“深感抱歉” - 福布斯"
+      },
+      {
+        "title": "The Nvidia Scandal Is Getting Worse and Worse—for Trump - Slate Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbW1uMWNpWFBOZmJQNVFjOUdrSm5nVmNRMExPUGpTLUE4UlhoNlY0OHhydGxmeU9UeHlITWk2QnpmZ1N6Z2V4Q1l1QmJGSTBaMHVQNzlvcnd3MkdYVW1SbEs1ZVNteG5lNkMyamVPaGFMejJZQzQydmE0X3RmZXFORjdJVUEwQjQ0TlRSQUxCUE1CcWNSaHNBSVR2cjJFbmthczU2THl0SHM?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 22:55:00 GMT",
+        "id": "8537d8c4c85968742c61a436d4188aeddc17e3fa",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump",
+          "英伟达",
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "0b4970a24e19ac8f16582163663ababd2b7bb9f5",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbW1uMWNpWFBOZmJQNVFjOUdrSm5nVmNRMExPUGpTLUE4UlhoNlY0OHhydGxmeU9UeHlITWk2QnpmZ1N6Z2V4Q1l1QmJGSTBaMHVQNzlvcnd3MkdYVW1SbEs1ZVNteG5lNkMyamVPaGFMejJZQzQydmE0X3RmZXFORjdJVUEwQjQ0TlRSQUxCUE1CcWNSaHNBSVR2cjJFbmthczU2THl0SHM",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbW1uMWNpWFBOZmJQNVFjOUdrSm5nVmNRMExPUGpTLUE4UlhoNlY0OHhydGxmeU9UeHlITWk2QnpmZ1N6Z2V4Q1l1QmJGSTBaMHVQNzlvcnd3MkdYVW1SbEs1ZVNteG5lNkMyamVPaGFMejJZQzQydmE0X3RmZXFORjdJVUEwQjQ0TlRSQUxCUE1CcWNSaHNBSVR2cjJFbmthczU2THl0SHM?oc=5",
+            "source": "Google News",
+            "title": "The Nvidia Scandal Is Getting Worse and Worse—for Trump - Slate Magazine",
+            "titleZh": "英伟达丑闻对特朗普来说越来越严重 - Slate Magazine"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英伟达丑闻对特朗普来说越来越严重 - Slate Magazine"
+      },
+      {
+        "title": "Family Dollar to pay $63 million to settle claims it overcharged customers - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVnRqNkdhV3JtQ2VPS3VOSHRXWENndGY4cnlKTFFmNElReU02dkdXQmozN1BFRUxMZHAzVkVkRGJBc0ZwZTRVY1QwOGZ1T2w0RW16eXhvY09iOTNoWXJ1eXM5Zi1fbFhsc1F3R0JCSVc1RUtYaWh3Nk1XY3VTZnpVSDE1T2JWdlE?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 20:52:00 GMT",
+        "id": "a75c63fbe20e50760f1adbe814c649b749886095",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "ab8d392a47ea465644b49dc1a07e5240bd9b4338",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVnRqNkdhV3JtQ2VPS3VOSHRXWENndGY4cnlKTFFmNElReU02dkdXQmozN1BFRUxMZHAzVkVkRGJBc0ZwZTRVY1QwOGZ1T2w0RW16eXhvY09iOTNoWXJ1eXM5Zi1fbFhsc1F3R0JCSVc1RUtYaWh3Nk1XY3VTZnpVSDE1T2JWdlE",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVnRqNkdhV3JtQ2VPS3VOSHRXWENndGY4cnlKTFFmNElReU02dkdXQmozN1BFRUxMZHAzVkVkRGJBc0ZwZTRVY1QwOGZ1T2w0RW16eXhvY09iOTNoWXJ1eXM5Zi1fbFhsc1F3R0JCSVc1RUtYaWh3Nk1XY3VTZnpVSDE1T2JWdlE?oc=5",
+            "source": "Google News",
+            "title": "Family Dollar to pay $63 million to settle claims it overcharged customers - CBS News",
+            "titleZh": "Family Dollar 将支付 6300 万美元以和解向客户多收费用的索赔 - 哥伦比亚广播公司 (CBS) 新闻"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Family Dollar 将支付 6300 万美元以和解向客户多收费用的索赔 - 哥伦比亚广播公司 (CBS) 新闻"
+      },
+      {
+        "title": "Apple Releases tvOS 27.2.1 With Siri AI for Older Apple TVs - MacRumors",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43SGZ3bUFxTlFUTmMtbXhjRlRhT0VnVWhWNzIwQTN6bWVocjgxVWU1SGlPV2tQckdhSTI0X3NkRVVFZ3FkU2Y4OWxRVVZobzlENDRkcEJkTHJtSGVfTGhBcUNjTEo4UmNBWEg4RUxpR3B6UQ?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 19:26:39 GMT",
+        "id": "acfe8ee992f3b9557db351de4d6b47e9d5f1d222",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "27f42f45fddba1fb83028aa72e2cd9c58db3e571",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE43SGZ3bUFxTlFUTmMtbXhjRlRhT0VnVWhWNzIwQTN6bWVocjgxVWU1SGlPV2tQckdhSTI0X3NkRVVFZ3FkU2Y4OWxRVVZobzlENDRkcEJkTHJtSGVfTGhBcUNjTEo4UmNBWEg4RUxpR3B6UQ",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43SGZ3bUFxTlFUTmMtbXhjRlRhT0VnVWhWNzIwQTN6bWVocjgxVWU1SGlPV2tQckdhSTI0X3NkRVVFZ3FkU2Y4OWxRVVZobzlENDRkcEJkTHJtSGVfTGhBcUNjTEo4UmNBWEg4RUxpR3B6UQ?oc=5",
+            "source": "Google News",
+            "title": "Apple Releases tvOS 27.2.1 With Siri AI for Older Apple TVs - MacRumors",
+            "titleZh": "Apple 为旧款 Apple TV 发布带有 Siri AI 的 tvOS 27.2.1 - MacRumors"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Apple 为旧款 Apple TV 发布带有 Siri AI 的 tvOS 27.2.1 - MacRumors"
+      },
+      {
+        "title": "NFL quarterback to search for love on ‘The Bachelor’ - Good Morning America",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUFQxOG1iYkRWT0ppUUwxcjFwUHBUSFZGNUREOVZLSjBESzhTQ3M4akpLZDc3VHhDUGtVSTZ3a19ZVUI2N3loSkwzQ0VJREx5RE15Y0NXOUtwSU5La01tMmZHc2FucEpFRk9HTUNoSVdIUVdsVE9aZVoybG1GQ0pnMmo2U3JNV2tmRkl2dWRfSllUZ3FUWFNxdnFzWmIzUWVQRFlZaDVIR3lXMFQ2ajNKZkZWY9IBuAFBVV95cUxNeGdiLWpRX2xqYW10eUNLdGRGbHRJbF9uX3VFZTJvRHJmalZxZTB0SnNiejRrMGI3cTBWUUw2eFF6ME9sTG14X05JYWtERDlGMWxrdGdFTmxLS3ktWDA0WUNCSHMzLWF6cHk3cF8tSlN0dlZIYUZjalVjTng0bm9zN3dOa1Nuc2JYNjZuUFFaaFJNTFB4YlBzY0xkdDlicl9ieVY2dTkwRUYtUHlEZ25pT21tcmJpMnNR?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 18:20:20 GMT",
+        "id": "82eda30dfe4da8e0464ff3bc9c923c1420cd208f",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "f68344108ad039a9f3445d6c38031124fca92b81",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUFQxOG1iYkRWT0ppUUwxcjFwUHBUSFZGNUREOVZLSjBESzhTQ3M4akpLZDc3VHhDUGtVSTZ3a19ZVUI2N3loSkwzQ0VJREx5RE15Y0NXOUtwSU5La01tMmZHc2FucEpFRk9HTUNoSVdIUVdsVE9aZVoybG1GQ0pnMmo2U3JNV2tmRkl2dWRfSllUZ3FUWFNxdnFzWmIzUWVQRFlZaDVIR3lXMFQ2ajNKZkZWY9IBuAFBVV95cUxNeGdiLWpRX2xqYW10eUNLdGRGbHRJbF9uX3VFZTJvRHJmalZxZTB0SnNiejRrMGI3cTBWUUw2eFF6ME9sTG14X05JYWtERDlGMWxrdGdFTmxLS3ktWDA0WUNCSHMzLWF6cHk3cF8tSlN0dlZIYUZjalVjTng0bm9zN3dOa1Nuc2JYNjZuUFFaaFJNTFB4YlBzY0xkdDlicl9ieVY2dTkwRUYtUHlEZ25pT21tcmJpMnNR",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUFQxOG1iYkRWT0ppUUwxcjFwUHBUSFZGNUREOVZLSjBESzhTQ3M4akpLZDc3VHhDUGtVSTZ3a19ZVUI2N3loSkwzQ0VJREx5RE15Y0NXOUtwSU5La01tMmZHc2FucEpFRk9HTUNoSVdIUVdsVE9aZVoybG1GQ0pnMmo2U3JNV2tmRkl2dWRfSllUZ3FUWFNxdnFzWmIzUWVQRFlZaDVIR3lXMFQ2ajNKZkZWY9IBuAFBVV95cUxNeGdiLWpRX2xqYW10eUNLdGRGbHRJbF9uX3VFZTJvRHJmalZxZTB0SnNiejRrMGI3cTBWUUw2eFF6ME9sTG14X05JYWtERDlGMWxrdGdFTmxLS3ktWDA0WUNCSHMzLWF6cHk3cF8tSlN0dlZIYUZjalVjTng0bm9zN3dOa1Nuc2JYNjZuUFFaaFJNTFB4YlBzY0xkdDlicl9ieVY2dTkwRUYtUHlEZ25pT21tcmJpMnNR?oc=5",
+            "source": "Google News",
+            "title": "NFL quarterback to search for love on ‘The Bachelor’ - Good Morning America",
+            "titleZh": "NFL 四分卫在《单身汉》中寻找爱情 - 早安美国"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "NFL 四分卫在《单身汉》中寻找爱情 - 早安美国"
+      },
+      {
+        "title": "‘Ebenezer’ Counts $1.5M In Previews On Thursday; Johnny Depp Pic Hopes For $40M WW Opening - Deadline",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yTUtLOFNjM0VnYzlNTGZGWTdRYXVhNWE5ZWZ2blNsQVlnQXBGbjBiZzhHc1pzcmNCVnB2NVpUTnpoYi1rejVSdGY1cWc4cFRyN2xodzZpeFBJQ3lkLTRXYXoxRU5vakZjMkt4bw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 23:02:00 GMT",
+        "id": "93b95ef67aa3be00d74240d0e1fb04ffd92a422c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "188833ffefdd4f3d79c6b383ab787da8fade35b7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yTUtLOFNjM0VnYzlNTGZGWTdRYXVhNWE5ZWZ2blNsQVlnQXBGbjBiZzhHc1pzcmNCVnB2NVpUTnpoYi1rejVSdGY1cWc4cFRyN2xodzZpeFBJQ3lkLTRXYXoxRU5vakZjMkt4bw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yTUtLOFNjM0VnYzlNTGZGWTdRYXVhNWE5ZWZ2blNsQVlnQXBGbjBiZzhHc1pzcmNCVnB2NVpUTnpoYi1rejVSdGY1cWc4cFRyN2xodzZpeFBJQ3lkLTRXYXoxRU5vakZjMkt4bw?oc=5",
+            "source": "Google News",
+            "title": "‘Ebenezer’ Counts $1.5M In Previews On Thursday; Johnny Depp Pic Hopes For $40M WW Opening - Deadline",
+            "titleZh": "《Ebenezer》周四首映票房收入达 150 万美元；约翰尼·德普 (Johnny Depp) 的电影希望全球首映票房能达到 4000 万美元 - 截止日期"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "《Ebenezer》周四首映票房收入达 150 万美元；约翰尼·德普 (Johnny Depp) 的电影希望全球首映票房能达到 4000 万美元 - 截止日期"
+      },
+      {
+        "title": "Russell Brand Accused of Predatory Behavior by Several More Women: “I Begged Him to Stop” - The Hollywood Reporter",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTi1hbno1UEYzNnhuUkNnV2FKd0R0WmdKUjNBY0FHaHVFLURZQXNMdDNxQUlRdUlaTVh3ZjkxVlVOeUw4MTJaSUlXazk2WkkxOFViYjdTOWFqejlZZDVYX1ZQNlc3YUZoTWwzUEE2dkUzUU01MkNIZkxwRUFwamw3M3J0LUpfcGttanNianRVcWc2UE95ZURaNVBnRGRpbmZaR05PWlR2WE9aZjlDZmJfMW1nUlNOUFdrYzB4QUdrcw?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 16:31:57 GMT",
+        "id": "ea03f93b49d70ef4371c8db020209f2e9245c690",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6cf18ee8420f2789d8ebe6b5d6632bc7bf39f5af",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTi1hbno1UEYzNnhuUkNnV2FKd0R0WmdKUjNBY0FHaHVFLURZQXNMdDNxQUlRdUlaTVh3ZjkxVlVOeUw4MTJaSUlXazk2WkkxOFViYjdTOWFqejlZZDVYX1ZQNlc3YUZoTWwzUEE2dkUzUU01MkNIZkxwRUFwamw3M3J0LUpfcGttanNianRVcWc2UE95ZURaNVBnRGRpbmZaR05PWlR2WE9aZjlDZmJfMW1nUlNOUFdrYzB4QUdrcw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTi1hbno1UEYzNnhuUkNnV2FKd0R0WmdKUjNBY0FHaHVFLURZQXNMdDNxQUlRdUlaTVh3ZjkxVlVOeUw4MTJaSUlXazk2WkkxOFViYjdTOWFqejlZZDVYX1ZQNlc3YUZoTWwzUEE2dkUzUU01MkNIZkxwRUFwamw3M3J0LUpfcGttanNianRVcWc2UE95ZURaNVBnRGRpbmZaR05PWlR2WE9aZjlDZmJfMW1nUlNOUFdrYzB4QUdrcw?oc=5",
+            "source": "Google News",
+            "title": "Russell Brand Accused of Predatory Behavior by Several More Women: “I Begged Him to Stop” - The Hollywood Reporter",
+            "titleZh": "拉塞尔·布兰德被指控对多名女性实施掠夺行为：“我求他停止” - 好莱坞报道"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "拉塞尔·布兰德被指控对多名女性实施掠夺行为：“我求他停止” - 好莱坞报道"
+      },
+      {
+        "title": "Netflix’s ‘Magic the Gathering’ Animated Series Drops First Look at ‘Planeswalker,’ Set for 2027 - Variety",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGw3TGhJVE15VnV0TURrbUFTU3ZHNmVKb0cyU1RNVy1XTTdTb1YxTW1wRW15VDBaN29DN0JpeWU3dFE2THJyUWZ5QldRd1VzemdVMUY3UWI3bVRsTzFZeS1abkNtR0JNRVFlU1U4SVNyZTFPOERwQmZiZjJXU1J5TkNDbEx4TmpoXzBJbzlGeFdBZTM5d1diSUREcXgwMjFrT1pkcHJB?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 19:12:00 GMT",
+        "id": "e49e02f54f59e9a23d59fde062d92ee6c93e0f5d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "bc7b3ffaa902eeea310eac8f9051b3d866ae2303",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGw3TGhJVE15VnV0TURrbUFTU3ZHNmVKb0cyU1RNVy1XTTdTb1YxTW1wRW15VDBaN29DN0JpeWU3dFE2THJyUWZ5QldRd1VzemdVMUY3UWI3bVRsTzFZeS1abkNtR0JNRVFlU1U4SVNyZTFPOERwQmZiZjJXU1J5TkNDbEx4TmpoXzBJbzlGeFdBZTM5d1diSUREcXgwMjFrT1pkcHJB",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGw3TGhJVE15VnV0TURrbUFTU3ZHNmVKb0cyU1RNVy1XTTdTb1YxTW1wRW15VDBaN29DN0JpeWU3dFE2THJyUWZ5QldRd1VzemdVMUY3UWI3bVRsTzFZeS1abkNtR0JNRVFlU1U4SVNyZTFPOERwQmZiZjJXU1J5TkNDbEx4TmpoXzBJbzlGeFdBZTM5d1diSUREcXgwMjFrT1pkcHJB?oc=5",
+            "source": "Google News",
+            "title": "Netflix’s ‘Magic the Gathering’ Animated Series Drops First Look at ‘Planeswalker,’ Set for 2027 - Variety",
+            "titleZh": "Netflix 的《万智牌》动画剧集《鹏洛客》首映，定于 2027 年上映 - Variety"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Netflix 的《万智牌》动画剧集《鹏洛客》首映，定于 2027 年上映 - Variety"
+      },
+      {
+        "title": "Longtime NFL QB and former NC State QB Philip Rivers named the Wolfpack's new head coach - Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMWVvZXh5MEdqNVNuSGVRZzJzLTRsOXVQVklKWmpXRjZQai1UZkJKck4xeFRIR2tXX05XcW9GanpuZnh2eVJpMG9kajEtc3pFZDBMb3hDTTdXa21qSWNWU2FVMkJtWUVlYkdsMDY4WWJ3a0ppTmhITEhxUGx4V25CTGUtNzh6dEluSFVQQThnZERLLVdoQUNqYjloOVlnb1ROZjdGX2VLRlA3Wlp4OExwQ0xMMmp2SXh0R19WZDRXSm01WWY3WHFiU2FrZGNLSkVlNl9XNll5MUxYYV93Ym1aTGxhM3BTSW50QmVkUkpHNG9nX01USkxTYUln?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 17:25:39 GMT",
+        "id": "b4c9149270b9548ec1107ee29ec1d0730b943d46",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6b1b0a887b761aafbceb2f9c80a5715fe3b7b01d",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMWVvZXh5MEdqNVNuSGVRZzJzLTRsOXVQVklKWmpXRjZQai1UZkJKck4xeFRIR2tXX05XcW9GanpuZnh2eVJpMG9kajEtc3pFZDBMb3hDTTdXa21qSWNWU2FVMkJtWUVlYkdsMDY4WWJ3a0ppTmhITEhxUGx4V25CTGUtNzh6dEluSFVQQThnZERLLVdoQUNqYjloOVlnb1ROZjdGX2VLRlA3Wlp4OExwQ0xMMmp2SXh0R19WZDRXSm01WWY3WHFiU2FrZGNLSkVlNl9XNll5MUxYYV93Ym1aTGxhM3BTSW50QmVkUkpHNG9nX01USkxTYUln",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMWVvZXh5MEdqNVNuSGVRZzJzLTRsOXVQVklKWmpXRjZQai1UZkJKck4xeFRIR2tXX05XcW9GanpuZnh2eVJpMG9kajEtc3pFZDBMb3hDTTdXa21qSWNWU2FVMkJtWUVlYkdsMDY4WWJ3a0ppTmhITEhxUGx4V25CTGUtNzh6dEluSFVQQThnZERLLVdoQUNqYjloOVlnb1ROZjdGX2VLRlA3Wlp4OExwQ0xMMmp2SXh0R19WZDRXSm01WWY3WHFiU2FrZGNLSkVlNl9XNll5MUxYYV93Ym1aTGxhM3BTSW50QmVkUkpHNG9nX01USkxTYUln?oc=5",
+            "source": "Google News",
+            "title": "Longtime NFL QB and former NC State QB Philip Rivers named the Wolfpack's new head coach - Yahoo Sports",
+            "titleZh": "长期担任 NFL 四分卫和前北卡罗来纳州四分卫的菲利普·里弗斯 (Philip Rivers) 任命狼群队新任主教练 - 雅虎体育"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "长期担任 NFL 四分卫和前北卡罗来纳州四分卫的菲利普·里弗斯 (Philip Rivers) 任命狼群队新任主教练 - 雅虎体育"
+      },
+      {
+        "title": "KSL Sports Pick'em: Staff picks for Week 11 of college football - KSL News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSmZOeER6RFk0UnZ1T2FBWkJoUkRCUmNZVjZQRVlaaHU2Q3h0Y1ZOY0V3MUxYa1dtRWxqcXdNR2hfVHFrS3U5T0tEV09qX0hGQk9oLVlZOTNDY2xXZVhQR3VFRy14X3k5MFpxcnlBdlRUcnRYcU5lRmhFNjhMaHptOUVra3paR0l0d25jS2xENTFucnRmX0N4eEtNS2Q2Qlk?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 18:38:00 GMT",
+        "id": "91393adb1de61e28d3d394c411891b772a359dea",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8e95fd5662b2fada3ada115278f172a979d751a7",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSmZOeER6RFk0UnZ1T2FBWkJoUkRCUmNZVjZQRVlaaHU2Q3h0Y1ZOY0V3MUxYa1dtRWxqcXdNR2hfVHFrS3U5T0tEV09qX0hGQk9oLVlZOTNDY2xXZVhQR3VFRy14X3k5MFpxcnlBdlRUcnRYcU5lRmhFNjhMaHptOUVra3paR0l0d25jS2xENTFucnRmX0N4eEtNS2Q2Qlk",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSmZOeER6RFk0UnZ1T2FBWkJoUkRCUmNZVjZQRVlaaHU2Q3h0Y1ZOY0V3MUxYa1dtRWxqcXdNR2hfVHFrS3U5T0tEV09qX0hGQk9oLVlZOTNDY2xXZVhQR3VFRy14X3k5MFpxcnlBdlRUcnRYcU5lRmhFNjhMaHptOUVra3paR0l0d25jS2xENTFucnRmX0N4eEtNS2Q2Qlk?oc=5",
+            "source": "Google News",
+            "title": "KSL Sports Pick'em: Staff picks for Week 11 of college football - KSL News",
+            "titleZh": "KSL Sports Pick'em：工作人员为大学橄榄球第 11 周挑选 - KSL News"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "KSL Sports Pick'em：工作人员为大学橄榄球第 11 周挑选 - KSL News"
+      },
+      {
+        "title": "U.S. measles deaths rise to 10 after new reports in Pennsylvania and Wisconsin - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUdwU1RuZkZPN0FwWXJYZ1FQNktMSDlCN2c5cXUxQ0pDLVJabXBzTWZUXzQ3cHE1SlBsZlBSNHVQeUVDdi1WQVowUUpoUGFYXzlrT2wwWmtFWGhXbGJsNnE1eWEwV0kyN3FIVkl0amRpeTRPeE1adjlNZWM0anYyQWVoT3NBcVg1a0JvZ1pKZ3ZVWEc5MEM2WHNCWWxHcDlLLVBFOGpBMmVSal9IRFdLb3pZbGU?oc=5",
+        "source": "Google News",
+        "fetchedAt": "2026-11-14T01:43:49.806Z",
+        "pubDate": "Fri, 13 Nov 2026 22:33:13 GMT",
+        "id": "34ab432e8a926e5e3abd4e4202b7caceb277472e",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "ccc66a2022b6ca1a823db577397ee457cc9f0c15",
+        "canonicalUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUdwU1RuZkZPN0FwWXJYZ1FQNktMSDlCN2c5cXUxQ0pDLVJabXBzTWZUXzQ3cHE1SlBsZlBSNHVQeUVDdi1WQVowUUpoUGFYXzlrT2wwWmtFWGhXbGJsNnE1eWEwV0kyN3FIVkl0amRpeTRPeE1adjlNZWM0anYyQWVoT3NBcVg1a0JvZ1pKZ3ZVWEc5MEM2WHNCWWxHcDlLLVBFOGpBMmVSal9IRFdLb3pZbGU",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Google News"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUdwU1RuZkZPN0FwWXJYZ1FQNktMSDlCN2c5cXUxQ0pDLVJabXBzTWZUXzQ3cHE1SlBsZlBSNHVQeUVDdi1WQVowUUpoUGFYXzlrT2wwWmtFWGhXbGJsNnE1eWEwV0kyN3FIVkl0amRpeTRPeE1adjlNZWM0anYyQWVoT3NBcVg1a0JvZ1pKZ3ZVWEc5MEM2WHNCWWxHcDlLLVBFOGpBMmVSal9IRFdLb3pZbGU?oc=5",
+            "source": "Google News",
+            "title": "U.S. measles deaths rise to 10 after new reports in Pennsylvania and Wisconsin - NBC News",
+            "titleZh": "宾夕法尼亚州和威斯康星州发布新报告后，美国麻疹死亡人数上升至 10 人 - NBC News"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "宾夕法尼亚州和威斯康星州发布新报告后，美国麻疹死亡人数上升至 10 人 - NBC News"
+      },
+      {
+        "title": "Ethics Watchdog Urges Investigation Into Top Health Official, Alleging Conflict of Interest Over Hormone Therapy Policy",
+        "url": "https://www.propublica.org/article/hhs-alicia-jackson-ethics-complaint",
+        "source": "ProPublica",
+        "fetchedAt": "2026-11-14T01:43:49.832Z",
+        "pubDate": "Fri, 13 Nov 2026 21:50:00 +0000",
+        "id": "4a2c242a15804c87770f8104f84dc350a7cb7310",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "11973a5294a10838564bbb88fb5e6a70aaacd78f",
+        "canonicalUrl": "https://propublica.org/article/hhs-alicia-jackson-ethics-complaint",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "ProPublica"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.propublica.org/article/hhs-alicia-jackson-ethics-complaint",
+            "source": "ProPublica",
+            "title": "Ethics Watchdog Urges Investigation Into Top Health Official, Alleging Conflict of Interest Over Hormone Therapy Policy",
+            "titleZh": "道德监督机构敦促对高级卫生官员进行调查，指控激素治疗政策存在利益冲突"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "道德监督机构敦促对高级卫生官员进行调查，指控激素治疗政策存在利益冲突"
+      },
+      {
+        "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+        "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Sat, 14 Nov 2026 01:10:22 +0000",
+        "id": "f15cff64a1dae9aa87a22fbdf58db40831abb5c1",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "俄罗斯",
+          "乌克兰",
+          "Russia",
+          "Ukraine"
+        ],
+        "isPriority": true,
+        "eventId": "b400f14098c82e3900e264980aa17a387440bb90",
+        "canonicalUrl": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+            "source": "Hacker News Frontpage",
+            "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+            "titleZh": "乌克兰在两周内淘汰了俄罗斯 36% 的炼油能力"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "乌克兰在两周内淘汰了俄罗斯 36% 的炼油能力"
+      },
+      {
+        "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+        "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Sat, 14 Nov 2026 00:52:29 +0000",
+        "id": "b7f7ebe97b39cb3fbbaae60d49e317d89a0e0a85",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "20db5a864b177ec56fa1ccda87f9fe20c7feffd4",
+        "canonicalUrl": "https://fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+            "source": "Hacker News Frontpage",
+            "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+            "titleZh": "Amtrak 预订系统在全国 FAA 地面停靠期间遇到重大问题"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Amtrak 预订系统在全国 FAA 地面停靠期间遇到重大问题"
+      },
+      {
+        "title": "Show HN: Light control for MacBook charger status light (open-source)",
+        "url": "https://github.com/Getterbetter/ember/releases/tag/v1.0.1",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Sat, 14 Nov 2026 00:44:58 +0000",
+        "id": "5f32892c3138372baf0935c355fc703a3399208c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8cf8612b5b8a02e3e4c936e8aaccd797d4fdf913",
+        "canonicalUrl": "https://github.com/Getterbetter/ember/releases/tag/v1.0.1",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/Getterbetter/ember/releases/tag/v1.0.1",
+            "source": "Hacker News Frontpage",
+            "title": "Show HN: Light control for MacBook charger status light (open-source)",
+            "titleZh": "Show HN：MacBook 充电器状态灯的灯光控制（开源）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：MacBook 充电器状态灯的灯光控制（开源）"
+      },
+      {
+        "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+        "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Sat, 14 Nov 2026 00:28:11 +0000",
+        "id": "a1f5c1572bcf61873a4afa238bd5b441e80e594f",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Anthropic",
+          "Claude"
+        ],
+        "isPriority": true,
+        "eventId": "00d40d66c5bca698c97302d459cf0c0c3b3f1476",
+        "canonicalUrl": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+            "source": "Hacker News Frontpage",
+            "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+            "titleZh": "Anthropic 升级 Claude 代码项目，免提运行并行 AI 工作人员"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Anthropic 升级 Claude 代码项目，免提运行并行 AI 工作人员"
+      },
+      {
+        "title": "What Happened to 3Com?",
+        "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Fri, 13 Nov 2026 23:48:59 +0000",
+        "id": "9660935cfc3515939837acd7a6a635769c88216c",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "00fb609ff9741ec5f64de29b2f1d3eb3c057985f",
+        "canonicalUrl": "https://dfarq.homeip.net/what-happened-to-3com",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+            "source": "Hacker News Frontpage",
+            "title": "What Happened to 3Com?",
+            "titleZh": "3Com 到底怎么了？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "3Com 到底怎么了？"
+      },
+      {
+        "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+        "url": "https://grounds.top/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Fri, 13 Nov 2026 23:17:39 +0000",
+        "id": "1a134f356a5b4e51c5ef490994a3f0abbf969373",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "b9c7aea520e4378c5ba6613a3280973015106923",
+        "canonicalUrl": "https://grounds.top/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://grounds.top/",
+            "source": "Hacker News Frontpage",
+            "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+            "titleZh": "显示 HN：今晚 FAA 全国地面停留期间美国航班的实时地图"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "显示 HN：今晚 FAA 全国地面停留期间美国航班的实时地图"
+      },
+      {
+        "title": "Terminal borders that don't cost a cell",
+        "url": "https://www.joshka.net/cell-borders/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Fri, 13 Nov 2026 23:06:40 +0000",
+        "id": "4468f86288be1dcf5c9a63a54b7f679ab44d8226",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5a727780e86d5f23f6b57909d69794a234f9cb5a",
+        "canonicalUrl": "https://joshka.net/cell-borders",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.joshka.net/cell-borders/",
+            "source": "Hacker News Frontpage",
+            "title": "Terminal borders that don't cost a cell",
+            "titleZh": "不花费单元格的终端边界"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "不花费单元格的终端边界"
+      },
+      {
+        "title": "How Not to Build a Music Player",
+        "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Fri, 13 Nov 2026 23:04:30 +0000",
+        "id": "6ef7ca939a6b7caa35cf1cd4f2e2db3d2d7057df",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "47a8b75829ac6fb111252afde0adfdad8195d6b0",
+        "canonicalUrl": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+            "source": "Hacker News Frontpage",
+            "title": "How Not to Build a Music Player",
+            "titleZh": "如何不构建音乐播放器"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "如何不构建音乐播放器"
+      },
+      {
+        "title": "Lying to Zed to get its remote server running on FreeBSD",
+        "url": "https://hayzam.com/blog/03-lying-to-zeds-remote-editor/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Fri, 13 Nov 2026 22:54:47 +0000",
+        "id": "ac4efa301a4bd0563ce2366bcca8f6d2d3db9469",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "8782a1d78960d0d278de993527f28f3fcfa8dcc0",
+        "canonicalUrl": "https://hayzam.com/blog/03-lying-to-zeds-remote-editor",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://hayzam.com/blog/03-lying-to-zeds-remote-editor/",
+            "source": "Hacker News Frontpage",
+            "title": "Lying to Zed to get its remote server running on FreeBSD",
+            "titleZh": "欺骗 Zed 使其远程服务器在 FreeBSD 上运行"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "欺骗 Zed 使其远程服务器在 FreeBSD 上运行"
+      },
+      {
+        "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+        "url": "https://orcasairband.com/",
+        "source": "Hacker News Frontpage",
+        "fetchedAt": "2026-11-14T01:43:50.161Z",
+        "pubDate": "Fri, 13 Nov 2026 22:04:24 +0000",
+        "id": "2c88c0a596b02251c937bd38dda1f79d14db4714",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fe9b0aa7219a993fc5c53aa5376b17498b6356b3",
+        "canonicalUrl": "https://orcasairband.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Frontpage"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://orcasairband.com/",
+            "source": "Hacker News Frontpage",
+            "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+            "titleZh": "KORS 所有频率的现场广播频段。加利福尼亚州维多利亚也停了下来"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "KORS 所有频率的现场广播频段。加利福尼亚州维多利亚也停了下来"
+      },
+      {
+        "title": "Tiny London quant fund emerges as one of the UK's biggest corporate taxpayers",
+        "url": "https://www.ft.com/content/8e394812-5940-4187-8cbf-6cd597fb314c",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:33:20 +0000",
+        "id": "3ca8af394a24d94b987b03b9d98451405c10f981",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "62af765b10fa98e2d0b15a0f7607cc8ce8ac01c6",
+        "canonicalUrl": "https://ft.com/content/8e394812-5940-4187-8cbf-6cd597fb314c",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.ft.com/content/8e394812-5940-4187-8cbf-6cd597fb314c",
+            "source": "Hacker News Newest",
+            "title": "Tiny London quant fund emerges as one of the UK's biggest corporate taxpayers",
+            "titleZh": "小型伦敦量化基金成为英国最大的企业纳税人之一"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "小型伦敦量化基金成为英国最大的企业纳税人之一"
+      },
+      {
+        "title": "Nationwide ground stop lifted, FAA says",
+        "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:32:46 +0000",
+        "id": "11b468e45d4ba94a579ba6c7939f9a242f2444e6",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "655141583797126d3b706cc4593c3c6dbf4e19e6",
+        "canonicalUrl": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled?id=138125140",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+            "source": "Hacker News Newest",
+            "title": "Nationwide ground stop lifted, FAA says",
+            "titleZh": "美国联邦航空局表示，全国范围内的地面停止服务已取消"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "美国联邦航空局表示，全国范围内的地面停止服务已取消"
+      },
+      {
+        "title": "FAA lifted National Ground Stop at 0119Z",
+        "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:30:01 +0000",
+        "id": "bd3089c61425692916cfd2116f02f87cda765dc2",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5c115a560072a61f84e1e25334ae586b2991cb57",
+        "canonicalUrl": "https://fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+            "source": "Hacker News Newest",
+            "title": "FAA lifted National Ground Stop at 0119Z",
+            "titleZh": "FAA 取消了 0119Z 的国家地面停留"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FAA 取消了 0119Z 的国家地面停留"
+      },
+      {
+        "title": "Open-source ChatGPT Enterprise alternative, built on the Codex runtime",
+        "url": "https://github.com/LingX-AI/LinkSense",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:25:10 +0000",
+        "id": "0435c1aaa2d7d211ad7e019efa9c544d00ea0b25",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "ChatGPT"
+        ],
+        "isPriority": true,
+        "eventId": "74d17f403c69d1a7bbf09b15d71f1442cabdd505",
+        "canonicalUrl": "https://github.com/LingX-AI/LinkSense",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/LingX-AI/LinkSense",
+            "source": "Hacker News Newest",
+            "title": "Open-source ChatGPT Enterprise alternative, built on the Codex runtime",
+            "titleZh": "开源 ChatGPT Enterprise 替代方案，基于 Codex 运行时构建"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "开源 ChatGPT Enterprise 替代方案，基于 Codex 运行时构建"
+      },
+      {
+        "title": "AI has become a utility bill for Gen Z",
+        "url": "https://www.reuters.com/markets/on-the-money/how-ai-has-become-utility-bill-gen-z-2026-11-13/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:23:14 +0000",
+        "id": "5ec5982dc00a435fb759e6edeee3ebff4f1452a8",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "b20b0765d78b83aa755dd49aaddd4855f698ac03",
+        "canonicalUrl": "https://reuters.com/markets/on-the-money/how-ai-has-become-utility-bill-gen-z-2026-11-13",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.reuters.com/markets/on-the-money/how-ai-has-become-utility-bill-gen-z-2026-11-13/",
+            "source": "Hacker News Newest",
+            "title": "AI has become a utility bill for Gen Z",
+            "titleZh": "人工智能已成为 Z 世代的公用事业账单"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "人工智能已成为 Z 世代的公用事业账单"
+      },
+      {
+        "title": "Show HN: RemoteKu – Desktop Roku remote and live ECP keyboard deck for Mac/PC",
+        "url": "https://github.com/KevinOBytes/remoteku",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:21:23 +0000",
+        "id": "cfb2c0a295b05036d7ae24d1dc0c7d31d4ffecf7",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5f4b81d945e0684e63d8194988190cc10f6a51de",
+        "canonicalUrl": "https://github.com/KevinOBytes/remoteku",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/KevinOBytes/remoteku",
+            "source": "Hacker News Newest",
+            "title": "Show HN: RemoteKu – Desktop Roku remote and live ECP keyboard deck for Mac/PC",
+            "titleZh": "显示 HN：RemoteKu – 适用于 Mac/PC 的桌面 Roku 远程和实时 ECP 键盘平台"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "显示 HN：RemoteKu – 适用于 Mac/PC 的桌面 Roku 远程和实时 ECP 键盘平台"
+      },
+      {
+        "title": "Let Claude Code read your notes with MCP",
+        "url": "https://sayjot.xyz/blog/claude-code-mcp-notes",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:20:51 +0000",
+        "id": "28a32d6094ee82c6772749e9cb1320bfd07c6f8d",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "MCP",
+          "Claude"
+        ],
+        "isPriority": true,
+        "eventId": "e3e7591f5091fb8b7d64d2088c33224ecca373c0",
+        "canonicalUrl": "https://sayjot.xyz/blog/claude-code-mcp-notes",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://sayjot.xyz/blog/claude-code-mcp-notes",
+            "source": "Hacker News Newest",
+            "title": "Let Claude Code read your notes with MCP",
+            "titleZh": "让 Claude Code 使用 MCP 阅读您的笔记"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "让 Claude Code 使用 MCP 阅读您的笔记"
+      },
+      {
+        "title": "FIRE says US to end efforts to curb App,s FB groups reporting on ICE activity",
+        "url": "https://www.reuters.com/legal/litigation/free-speech-nonprofit-says-us-end-efforts-curb-facebook-group-app-reporting-ice-2026-11-14/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:15:10 +0000",
+        "id": "92e73fa2650dde61b79dcdce450fa8eae1ef854a",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "7f394443e5facaea828dee568c2faee854d0a8b1",
+        "canonicalUrl": "https://reuters.com/legal/litigation/free-speech-nonprofit-says-us-end-efforts-curb-facebook-group-app-reporting-ice-2026-11-14",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.reuters.com/legal/litigation/free-speech-nonprofit-says-us-end-efforts-curb-facebook-group-app-reporting-ice-2026-11-14/",
+            "source": "Hacker News Newest",
+            "title": "FIRE says US to end efforts to curb App,s FB groups reporting on ICE activity",
+            "titleZh": "FIRE 称美国将停止遏制 App 的 FB 团体报告 ICE 活动"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FIRE 称美国将停止遏制 App 的 FB 团体报告 ICE 活动"
+      },
+      {
+        "title": "First person killed by a steam train in UK in 58 years",
+        "url": "https://uk.news.yahoo.com/first-person-killed-steam-train-143538887.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:10:58 +0000",
+        "id": "54eb66d381fe1e27cf09784497919237e2697717",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "6996935c18526b255b18af7c70f30f52e4a7c486",
+        "canonicalUrl": "https://uk.news.yahoo.com/first-person-killed-steam-train-143538887.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://uk.news.yahoo.com/first-person-killed-steam-train-143538887.html",
+            "source": "Hacker News Newest",
+            "title": "First person killed by a steam train in UK in 58 years",
+            "titleZh": "英国58年来第一人被蒸汽火车撞死"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英国58年来第一人被蒸汽火车撞死"
+      },
+      {
+        "title": "Howard Lutnick Has Got to Go",
+        "url": "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia-howard-lutnick-commerce.html",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:06:05 +0000",
+        "id": "1245da5a8418d546b1eac7fd5d4f115318a1a2e8",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "f878f0ca1e51a1dfd0b30e64351ce8616aef16da",
+        "canonicalUrl": "https://nytimes.com/2026/11/13/opinion/jensen-huang-nvidia-howard-lutnick-commerce.html",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia-howard-lutnick-commerce.html",
+            "source": "Hacker News Newest",
+            "title": "Howard Lutnick Has Got to Go",
+            "titleZh": "霍华德·卢特尼克必须离开"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "霍华德·卢特尼克必须离开"
+      },
+      {
+        "title": "Trump 'considering sacking Lutnick' in wake of Nvidia scandal",
+        "url": "https://www.telegraph.co.uk/us/news/2026/11/12/trump-considering-sacking-lutnick-in-wake-of-nvidia-scandal/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:05:52 +0000",
+        "id": "9f1ce78ae3f73b81a995a42fa75ce470c8e4867a",
+        "matchedTopics": [
+          "global-affairs",
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "国际局势",
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "特朗普",
+          "Trump",
+          "英伟达",
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "4e446fc7089d2c6e3fb62057d12b176fed0dae6f",
+        "canonicalUrl": "https://telegraph.co.uk/us/news/2026/11/12/trump-considering-sacking-lutnick-in-wake-of-nvidia-scandal",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.telegraph.co.uk/us/news/2026/11/12/trump-considering-sacking-lutnick-in-wake-of-nvidia-scandal/",
+            "source": "Hacker News Newest",
+            "title": "Trump 'considering sacking Lutnick' in wake of Nvidia scandal",
+            "titleZh": "英伟达丑闻曝光后，特朗普“考虑解雇卢特尼克”"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英伟达丑闻曝光后，特朗普“考虑解雇卢特尼克”"
+      },
+      {
+        "title": "Plague, gruel and bad teeth: why do people idealise the olden days?",
+        "url": "https://www.economist.com/culture/2026/11/12/plague-gruel-and-bad-teeth-why-do-people-idealise-the-olden-days",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:05:30 +0000",
+        "id": "d6d53e61b1d806bb38ef704e3415ce025c57115d",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "a8c2fbc9f4209d504bc681773d12a81523297797",
+        "canonicalUrl": "https://economist.com/culture/2026/11/12/plague-gruel-and-bad-teeth-why-do-people-idealise-the-olden-days",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.economist.com/culture/2026/11/12/plague-gruel-and-bad-teeth-why-do-people-idealise-the-olden-days",
+            "source": "Hacker News Newest",
+            "title": "Plague, gruel and bad teeth: why do people idealise the olden days?",
+            "titleZh": "瘟疫、粥和坏牙：为什么人们将过去理想化？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "瘟疫、粥和坏牙：为什么人们将过去理想化？"
+      },
+      {
+        "title": "The Denny's where Nvidia was born has removed the sign honoring the company",
+        "url": "https://www.nbcnews.com/tech/tech-news/dennys-nvidia-jensen-huang-california-rcna609154",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:04:46 +0000",
+        "id": "676cdf012202ceceb88765c5f498ad4536ccc53f",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Nvidia"
+        ],
+        "isPriority": true,
+        "eventId": "cfd14da226e6ed5fa59e639290bb38b0fe62fe5d",
+        "canonicalUrl": "https://nbcnews.com/tech/tech-news/dennys-nvidia-jensen-huang-california-rcna609154",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.nbcnews.com/tech/tech-news/dennys-nvidia-jensen-huang-california-rcna609154",
+            "source": "Hacker News Newest",
+            "title": "The Denny's where Nvidia was born has removed the sign honoring the company",
+            "titleZh": "Nvidia 诞生地 Denny’s 移除了该公司的标志"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Nvidia 诞生地 Denny’s 移除了该公司的标志"
+      },
+      {
+        "title": "DOGE will make \"rapid safety upgrades\" to ATC system (2025)",
+        "url": "https://thehill.com/policy/technology/5129134-el-musk-urges-quick-safety-upgrades-faa/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:01:58 +0000",
+        "id": "c011b9193cc821230c422c1a0e08fa5ca730f11f",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "dd36c8cbd5db5e3bc53bb3fcb8c2807e98aa8b2a",
+        "canonicalUrl": "https://thehill.com/policy/technology/5129134-el-musk-urges-quick-safety-upgrades-faa",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://thehill.com/policy/technology/5129134-el-musk-urges-quick-safety-upgrades-faa/",
+            "source": "Hacker News Newest",
+            "title": "DOGE will make \"rapid safety upgrades\" to ATC system (2025)",
+            "titleZh": "DOGE将对ATC系统进行“快速安全升级”（2025年）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DOGE将对ATC系统进行“快速安全升级”（2025年）"
+      },
+      {
+        "title": "Advanced Vibecoding [video]",
+        "url": "https://www.youtube.com/watch?v=8hrnmA9XDPo",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:01:45 +0000",
+        "id": "46f5f1df02db71a4f182ba9299fe3817f106850b",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "55523776a3d582b400cfcf4049d056a5ab433751",
+        "canonicalUrl": "https://youtube.com/watch?v=8hrnmA9XDPo",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=8hrnmA9XDPo",
+            "source": "Hacker News Newest",
+            "title": "Advanced Vibecoding [video]",
+            "titleZh": "高级 Vibecoding [视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "高级 Vibecoding [视频]"
+      },
+      {
+        "title": "Beyond Happy Path Engineering: Time",
+        "url": "https://blog.gaborkoos.com/posts/2026-07-19-Beyond-Happy-Path-Engineering-Time/",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:01:10 +0000",
+        "id": "d9244438e0b4b44c0dac0527f954438906f9e089",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "e678f5dfa71b791ba7ec53c8f2e54ce84cfd6b8b",
+        "canonicalUrl": "https://blog.gaborkoos.com/posts/2026-07-19-Beyond-Happy-Path-Engineering-Time",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://blog.gaborkoos.com/posts/2026-07-19-Beyond-Happy-Path-Engineering-Time/",
+            "source": "Hacker News Newest",
+            "title": "Beyond Happy Path Engineering: Time",
+            "titleZh": "超越快乐路径工程：时间"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "超越快乐路径工程：时间"
+      },
+      {
+        "title": "Elon Musk to sign a petition to reinstate Jensen Huang",
+        "url": "https://twitter.com/elonmusk/status/2121345211959804234",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 01:01:01 +0000",
+        "id": "fdedb2fd2ce183000d1f86da3a02830ef423c521",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "068ab19a7b7a1f5f0bfd332b8cf1c436105272ff",
+        "canonicalUrl": "https://twitter.com/elonmusk/status/2121345211959804234",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://twitter.com/elonmusk/status/2121345211959804234",
+            "source": "Hacker News Newest",
+            "title": "Elon Musk to sign a petition to reinstate Jensen Huang",
+            "titleZh": "埃隆·马斯克签署请愿书以恢复黄仁勋的职位"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "埃隆·马斯克签署请愿书以恢复黄仁勋的职位"
+      },
+      {
+        "title": "Every Way to Get 192GB for Local AI (Without a $9,500 Mac) [video]",
+        "url": "https://www.youtube.com/watch?v=_e2dk4Pothw",
+        "source": "Hacker News Newest",
+        "fetchedAt": "2026-11-14T01:43:50.158Z",
+        "pubDate": "Sat, 14 Nov 2026 00:59:29 +0000",
+        "id": "ef06268d6f63fff13aca2a2bd2532af8b0bd81f9",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "82f7fb6bb44f2932db4834b2ac3d42ae119caca6",
+        "canonicalUrl": "https://youtube.com/watch?v=_e2dk4Pothw",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Newest"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.youtube.com/watch?v=_e2dk4Pothw",
+            "source": "Hacker News Newest",
+            "title": "Every Way to Get 192GB for Local AI (Without a $9,500 Mac) [video]",
+            "titleZh": "为本地 AI 获取 192GB 内存的各种方法（无需 9,500 美元的 Mac）[视频]"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "为本地 AI 获取 192GB 内存的各种方法（无需 9,500 美元的 Mac）[视频]"
+      },
+      {
+        "title": "Fixing a WebKit bug to see if promises are made of train tracks",
+        "url": "https://alistair.sh/thenables",
+        "source": "Lobsters RSS",
+        "fetchedAt": "2026-11-14T01:43:50.007Z",
+        "pubDate": "Fri, 13 Nov 2026 10:48:01 -0600",
+        "id": "fc73cb8fc039ad0741f37c5123e392af2aba9fa3",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "19d2ea956743f39b3d21e48947dcff510e396b54",
+        "canonicalUrl": "https://alistair.sh/thenables",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Lobsters RSS"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://alistair.sh/thenables",
+            "source": "Lobsters RSS",
+            "title": "Fixing a WebKit bug to see if promises are made of train tracks",
+            "titleZh": "修复 WebKit 错误以查看是否对火车轨道做出了承诺"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "修复 WebKit 错误以查看是否对火车轨道做出了承诺"
+      },
+      {
+        "id": "77a881f55d434bc14d54e64e40a64d492af61e34",
+        "title": "DeepSeek V4 Pro 0813",
+        "url": "https://artificialanalysis.ai/models/releases/deepseek-v4-pro",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:51:50Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "DeepSeek"
+        ],
+        "isPriority": true,
+        "eventId": "4b1d4be023dc284f57c99a9589118d755bccb113",
+        "canonicalUrl": "https://artificialanalysis.ai/models/releases/deepseek-v4-pro",
+        "clusterSize": 2,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://artificialanalysis.ai/models/releases/deepseek-v4-pro",
+            "source": "Hacker News Algolia AI Search",
+            "title": "DeepSeek V4 Pro 0813",
+            "titleZh": "DeepSeek V4 Pro 0813"
+          },
+          {
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+            "source": "Hacker News Algolia AI Search",
+            "title": "DeepSeek V4 Pro 0813",
+            "titleZh": ""
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "DeepSeek V4 Pro 0813"
+      },
+      {
+        "id": "8d2ae18af47863c7f0b94c67f0d442d8b68ff736",
+        "title": "ChipAgents – The agentic foundation for semiconductor design (AI for IC design)",
+        "url": "https://chipagents.ai/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:42:10Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能",
+          "Agentic"
+        ],
+        "isPriority": true,
+        "eventId": "8fdddcc6a1d0c2e3a333714f15f144e353200310",
+        "canonicalUrl": "https://chipagents.ai/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://chipagents.ai/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "ChipAgents – The agentic foundation for semiconductor design (AI for IC design)",
+            "titleZh": "ChipAgents – 半导体设计的代理基础（用于 IC 设计的人工智能）"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "ChipAgents – 半导体设计的代理基础（用于 IC 设计的人工智能）"
+      },
+      {
+        "id": "b9ffe9beb97ea7c14683419e00016cc4bfa93e10",
+        "title": "Show HN: Portal2Bench – Can AI agents solve Portal 2?",
+        "url": "https://kingstonyip.com/portal2bench",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:40:55Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "8aa6928f9d4ba11d491a72fb682e6c8e2d38b3bb",
+        "canonicalUrl": "https://kingstonyip.com/portal2bench",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://kingstonyip.com/portal2bench",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Portal2Bench – Can AI agents solve Portal 2?",
+            "titleZh": "Show HN：Portal2Bench – AI 代理能否解决 Portal 2 问题？"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Portal2Bench – AI 代理能否解决 Portal 2 问题？"
+      },
+      {
+        "id": "fc09bea37e57b2ead29e01e5ccd91ddc50ba563a",
+        "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+        "url": "https://github.com/memrohq/memro",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:20:15Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "Claude"
+        ],
+        "isPriority": true,
+        "eventId": "bbb0c45a18be404838416588c4bb65f7f4890ce8",
+        "canonicalUrl": "https://github.com/memrohq/memro",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/memrohq/memro",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+            "titleZh": "显示 HN：Memro – Claude 代码、光标和 Codex 的持久内存"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "显示 HN：Memro – Claude 代码、光标和 Codex 的持久内存"
+      },
+      {
+        "id": "a1797790e6b032b70c486ec749b3e8fbb5e68e0f",
+        "title": "Show HN: Building a list of places to launch your app",
+        "url": "https://another.directory/where-to-launch",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:18:06Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "fbf8a3bb58777ebd307f339dccf094016369aa5b",
+        "canonicalUrl": "https://another.directory/where-to-launch",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://another.directory/where-to-launch",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Building a list of places to launch your app",
+            "titleZh": "显示 HN：构建启动应用程序的位置列表"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "显示 HN：构建启动应用程序的位置列表"
+      },
+      {
+        "id": "9ff3a4969363fdfc2a095df26873c6831b98611c",
+        "title": "Agentic studio 5 head AI built a 3D game engine in 4 hours – one pass",
+        "url": "https://dev-head.com/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:14:50Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "Agentic"
+        ],
+        "isPriority": true,
+        "eventId": "614aa1182b5dbcf13edf5e36e3fa1dd1bd8bd886",
+        "canonicalUrl": "https://dev-head.com/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://dev-head.com/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Agentic studio 5 head AI built a 3D game engine in 4 hours – one pass",
+            "titleZh": "Agentic工作室5头AI在4小时内搭建了3D游戏引擎——一次通过"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Agentic工作室5头AI在4小时内搭建了3D游戏引擎——一次通过"
+      },
+      {
+        "id": "3888fae4dc524d50f1f67b909af01a8fb83059a4",
+        "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+        "url": "https://unsloth.ai/docs/models/qwen3.8",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-14T00:06:04Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "77786e93f892bfdd23a6aaa74e9bb74fd549cbb0",
+        "canonicalUrl": "https://unsloth.ai/docs/models/qwen3.8",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://unsloth.ai/docs/models/qwen3.8",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+            "titleZh": "Unsloth Qwen3.8-27B 量化 – 动态 v3.1 更新"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Unsloth Qwen3.8-27B 量化 – 动态 v3.1 更新"
+      },
+      {
+        "id": "b6282627a90b24a738e870ad951d365d6920fbf9",
+        "title": "Show HN: Anvil builds premium websites at lower cost",
+        "url": "https://www.tryanvil.dev/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-13T23:42:35Z",
+        "matchedTopics": [],
+        "matchedTopicNames": [],
+        "matchedPushTopics": [],
+        "matchedKeywords": [],
+        "isPriority": false,
+        "eventId": "5765f41bbafcbe7d40a35585a077e00241ece6fd",
+        "canonicalUrl": "https://tryanvil.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.tryanvil.dev/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Show HN: Anvil builds premium websites at lower cost",
+            "titleZh": "Show HN：Anvil 以更低的成本构建优质网站"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Show HN：Anvil 以更低的成本构建优质网站"
+      },
+      {
+        "id": "183d432f271062a44705ad64e07a6bf0b547f69e",
+        "title": "Doc-foundry – AI writes Security detection rules, then proves they work",
+        "url": "https://github.com/mjha-arya/DOC-foundry",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-13T23:40:12Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI"
+        ],
+        "isPriority": true,
+        "eventId": "6547970e19a393f5b947340edfae41bdbc6146df",
+        "canonicalUrl": "https://github.com/mjha-arya/DOC-foundry",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://github.com/mjha-arya/DOC-foundry",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Doc-foundry – AI writes Security detection rules, then proves they work",
+            "titleZh": "Doc-foundry – AI编写安全检测规则，然后证明它们有效"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "Doc-foundry – AI编写安全检测规则，然后证明它们有效"
+      },
+      {
+        "id": "b1904272eebed5d900d990b5324f8efa231dd96f",
+        "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+        "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-13T23:02:44Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "b1d61790704b77f24955899714cb070650dd7439",
+        "canonicalUrl": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+            "titleZh": "FAA 斥资 8.75 亿美元推出人工智能工具来帮助管理空中交通拥堵"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "FAA 斥资 8.75 亿美元推出人工智能工具来帮助管理空中交通拥堵"
+      },
+      {
+        "id": "797de23ff90c7af85e38122e962627b6f8030c97",
+        "title": "Drones over UK skies: US Air Force launches urgent response",
+        "url": "https://www.express.co.uk/news/uk/2266117/drones-uk-skies-us",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-13T22:58:26Z",
+        "matchedTopics": [
+          "global-affairs"
+        ],
+        "matchedTopicNames": [
+          "国际局势"
+        ],
+        "matchedPushTopics": [
+          "国际局势"
+        ],
+        "matchedKeywords": [
+          "美国"
+        ],
+        "isPriority": true,
+        "eventId": "4f7bb1485283aa2f4000dcd2aa6938a87fba9e26",
+        "canonicalUrl": "https://express.co.uk/news/uk/2266117/drones-uk-skies-us",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://www.express.co.uk/news/uk/2266117/drones-uk-skies-us",
+            "source": "Hacker News Algolia AI Search",
+            "title": "Drones over UK skies: US Air Force launches urgent response",
+            "titleZh": "英国上空无人机：美国空军启动紧急反应"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "英国上空无人机：美国空军启动紧急反应"
+      },
+      {
+        "id": "b8b33005f5533dffd3d68f0acc4189060a11af71",
+        "title": "QuAIA: An open-source team of AI agents that handles the whole test process",
+        "url": "https://quaia.dev/",
+        "source": "Hacker News Algolia AI Search",
+        "fetchedAt": "2026-11-14T01:43:49.991Z",
+        "pubDate": "2026-11-13T22:53:09Z",
+        "matchedTopics": [
+          "ai-agents"
+        ],
+        "matchedTopicNames": [
+          "AI 与 Agent"
+        ],
+        "matchedPushTopics": [
+          "AI 与 Agent"
+        ],
+        "matchedKeywords": [
+          "AI",
+          "人工智能"
+        ],
+        "isPriority": true,
+        "eventId": "aa2de77abcbefeba76470eb652b1d5245d450547",
+        "canonicalUrl": "https://quaia.dev/",
+        "clusterSize": 1,
+        "sourceCount": 1,
+        "relatedSources": [
+          "Hacker News Algolia AI Search"
+        ],
+        "relatedLinks": [
+          {
+            "url": "https://quaia.dev/",
+            "source": "Hacker News Algolia AI Search",
+            "title": "QuAIA: An open-source team of AI agents that handles the whole test process",
+            "titleZh": "QuAIA：处理整个测试过程的人工智能代理开源团队"
+          }
+        ],
+        "category": "",
+        "categories": [],
+        "region": "",
+        "regions": [],
+        "language": "",
+        "languages": [],
+        "titleZh": "QuAIA：处理整个测试过程的人工智能代理开源团队"
       }
     ]
   },
-  "lastFetchAt": "2026-11-13T21:24:08.992Z"
+  "lastFetchAt": "2026-11-14T01:43:49.423Z"
 }
